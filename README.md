@@ -1,14 +1,16 @@
 # ALG wiki
 
 Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
-Special thanks to /alg/, English Koumakan Wiki, Chinese Wikis, Japanese Wikis, and to all our contributors. /alg/ wiki © 2019. This is a non-profit website.
-For concerns and feedback, send a mail to alg.4chan@gmail.com
+Special thanks to /alg/, English Koumakan Wiki, Chinese Wikis, Japanese Wikis, and to all our contributors. /alg/ wiki © 2020. This is a non-profit website.
+For concerns and feedback, whine in the thread.
+
+Copied from the previous wiki source at https://github.com/alg-wiki/wikia due to inactivity.
 
 # Contribute
 
 ## Ship JSON files
 
-If you want to help contribute in building ship pages, use this json template https://github.com/alg-wiki/wikia/blob/master/Ships/aurora.json and use a json online editor like this https://jsoneditoronline.org/. Just replace the values with the ff:
+If you want to help contribute in building ship pages, use this json template https://gitgud.io/alg-wiki/wikia/-/blob/master/Ships/aurora.json and use a json online editor like this https://jsoneditoronline.org/. Just replace the values with the ff:
 
 Some are self explanatory so I did not include them here
 
