@@ -3,64 +3,78 @@
 	"cn_reference": "bola",
 	"nameJP": "ポーラ",
 	"nameCN": "波拉",
-	"ID": "",
+	"ID": "489",
 	"name": "Pola",
 	"internal_id": "",
-	"rarity": "",
-	"initialStar": "",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
 	"hull": "Heavy Cruiser",
 	"navy": "Sardegna Empire",
 	"prefix": "RN",
-	"buildTime": "",
+	"buildTime": "1:55:00",
 	"class": "Zara-class",
-	"voiceActress": "",
+	"voiceActress": "Atsumi Tanezaki",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower": "B",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "A"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
+		"JP": "2021/01/21",
+		"CN": "2021/01/21",
+		"KR": "2021/01/21",
+		"EN": "2021/01/21"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "云桑",
+		"weibo": "https://weibo.com/yunsang",
+		"twitter": "https://twitter.com/_Yunsang",
+		"pixiv": "https://www.pixiv.net/member.php?id=5358936",
 		"other": ""
 	},
 	"enhance": {
-		"firepower": "",
+		"firepower": "26",
 		"torpedo": "",
 		"aviation": "",
-		"reload": ""
+		"reload": "13"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Event: Empyreal Tragicomedy Rerun",
 	"skill": {
 		"1": {
 			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
+			"requirement": "Default Unlocked",
+			"name": "Viola Spear",
+			"type": "Offensive",
+			"description": "When this ship fires its main guns, 20.0% (50.0%) chance to fire a special barrage (damage dealt scales with skill level, 10 second cooldown between activations). If there are two or more Sardegna Empire ships in your fleet (including this ship), increase the proc chance by 20.0%."
 		}
+    "2": {  
+      "icon": "",
+      "requirement": "Default Unlocked",
+      "name": "Audacious Challenger",
+      "type": "Support",
+      "description": "Increase this ship's EVA by 5.0% (15.0%) during the first 45 seconds of the battle. As long as this ship is afloat, increase FP by 1.0% (10.0%) and AA by 5.0% (15.0%) for all Sardegnia Empire vanguard ships, and decrease damage taken by all Zara-class ships by 6.0%."
+    }
+    "3": {  
+      "icon": "",
+      "requirement": "Limit Break I (III)",
+      "name": "All Out Assault",
+      "type": "Offensive",
+      "description": "Every 12 (8) times the main battery is fired, triggers Full Barrage - Zara-class I (II)"
+    }
 	},
 	"skin": {
 		"1": {
 			"id": "bola",
 			"name": "Pola",
-			"description": "",
+			"description": "Zara-class heavy cruiser Pola",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -82,9 +96,9 @@
 	},
 	"defaultEquipment": {
 		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+			"icon": "55200",
+			"rarity": "Rare",
+			"name": "Twin 203mm Main Gun (M1927) "
 		},
 		"2": {
 			"icon": "",
@@ -92,62 +106,62 @@
 			"name": ""
 		},
 		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
+			"icon": "55500",
+			"rarity": "Common",
+			"name": "Twin 37mm AA Gun (M1932) "
 		}
 	},
 	"stats": {
 		"100": {
 			"hp": "",
 			"firepower": "",
-			"torpedo": "",
+			"torpedo": "0",
 			"antiAir": "",
-			"aviation": "",
+			"aviation": "0",
 			"reload": "",
 			"hit": "",
 			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"speed": "26",
+			"luck": "75",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
 		},
 		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "4941",
+			"firepower": "252",
+			"torpedo": "0",
+			"antiAir": "243",
+			"aviation": "0",
+			"reload": "182",
+			"hit": "118",
+			"evasion": "57",
+			"speed": "26",
+			"luck": "75",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
 		},
 		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+      "hp": "853",
+      "firepower": "47",
+      "torpedo": "0",
+      "antiAir": "45",
+      "aviation": "0",
+      "reload": "67",
+      "hit": "",
+      "evasion": "9",
+      "speed": "26",
+      "luck": "75",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "4",
+      "armor": "Medium"
 		},
 		"100retrofit": {
 			"hp": "",
@@ -185,28 +199,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Main Gun Mount +1 / Main Gun Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Heavy Cruiser",
+			"efficiency": "105%/110%/120%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Destroyer Gun",
+			"efficiency": "55%/55%/55%/60%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "95%/95%/95%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxiliary",
@@ -238,9 +252,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -265,37 +279,361 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
-				"id": "",
-				"label": "",
+				"skin_id": "bola",
+				"id": "0",
+				"label": "Pola",
 				"dialogue": {
 					"1": {
-						"event": "",
+						"event": "Ship Description",
 						"media": "",
-						"chinese": "",
+						"chinese": "扎拉级重巡洋舰—波拉",
 						"chineseTL": "",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "ザラ級重巡洋艦・ポーラ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Zara-class heavy cruiser – Pola.",
 						"englishNote": ""
 					}
+          "2": {
+            "event": "Biography",
+            "media": "",
+            "chinese": "我是扎拉级重巡洋舰的四号舰，波拉。我们姐妹拥有着重巡中少有的坚固装甲，在水面炮战中有着独特的优势。论担当舰队旗舰的能力，我说不定要比扎拉姐姐还要强呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ザラ級重巡の四番艦、ポーラよ。重巡の割には硬い装甲を持ってるから、砲撃戦では有利に働けるの。旗艦としては私、もしかするとザラより適任かもしれないわよ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'm the fourth ship of the Zara-class heavy cruisers, Pola. My sisters and I have stronger armor rarely seen on heavy cruisers, which gives us an advantage in artillery battles. In terms of my abilities to serve as flagship... I might be a bit more suitable than Zara?",
+            "englishNote": ""
+          }
+          "3": {
+            "event": "Acquisition",
+            "media": "",
+            "chinese": "撒丁帝国海军所属，重巡洋舰波拉，正式到任。哦？您就是这个舰队的指挥官吗？千万不要让我失望哦？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "サディア所属、重巡洋艦のポーラよ。あなたがこの艦隊の指揮官？そう？がっかりさせないでね。ふふふ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'm Pola, heavy cruiser from Sardegna. And you're the commander of this fleet? I see. Well, don't let me down, okay? Hehe~",
+            "englishNote": ""
+          }
+          "4": {
+            "event": "Login",
+            "media": "",
+            "chinese": "好慢啊指挥官，编队演习马上就要开始了喔？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ふふふ、遅いじゃない。編隊演習がそろそろ始まるわよ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hehe, you sure took your sweet time. The fleet exercises are about to start without you~",
+            "englishNote": ""
+          }
+          "5": {
+            "event": "Details",
+            "media": "",
+            "chinese": "扎拉姐姐总是那么温柔，那么优秀，真是耀眼夺目啊",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "優しくて素敵なザラ、いつも惹きつけられちゃうわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My Zara is always so gentle and lovely, I just can't take my eyes off her.",
+            "englishNote": ""
+          }
+          "6": {
+            "event": "Secretary (Idle) 1",
+            "media": "",
+            "chinese": "“条约”、“协定”，那些东西都是没有感情的枷锁，如果能够通通消失掉就好了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "「条約」「協定」、そんな人の気持ちをわからないものなんて消えてしまえばいいのに",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "All these "conventions" and "treaties"... Things that do not consider the feelings of actual people should disappear from this world.",
+            "englishNote": ""
+          }
+          "7": {
+            "event": "Secretary (Idle) 2",
+            "media": "",
+            "chinese": "即使面对再大的暴风雨我也不会退缩，真正的战士，是不会畏惧任何挑战的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "勇ましき者はどんな危険も恐れないわ。たとえ海をも巻き上げるほどの嵐相手だろうとね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "A true fighter does not fear any danger. I won't back down even in the face of a heavy storm.",
+            "englishNote": ""
+          }
+          "8": {
+            "event": "Secretary (Idle) 3",
+            "media": "",
+            "chinese": "被探照灯的白光笼罩着的感觉，让人不快",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "探照灯に照らされる感じ、ちょっと不快だわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "The feeling of being enveloped by a searchlight... makes me a bit uneasy.",
+            "englishNote": ""
+          }
+          "9": {
+            "event": "Secretary (Touch)",
+            "media": "",
+            "chinese": "我的佩剑，可不只是为了好看而存在的喔？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "キレイなだけのレイピアじゃないわよ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My rapier is not simply for show, you know.",
+            "englishNote": ""
+          }
+          "10": {
+            "event": "Secretary (Special Touch)",
+            "media": "",
+            "chinese": "指挥官，你该不会对扎拉姐姐做了同样的事情吧？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ザラにも同じことをしてたの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You surely didn't do the same kind of stuff to Zara, right?",
+            "englishNote": ""
+          }
+          "11": {
+            "event": "Task",
+            "media": "",
+            "chinese": "指挥官，没有完成任务的动力可不行喔？还是说您在期待着我给您单独准备的奖励呢？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "任務をこなすモチベーションを保たなくちゃね。…もしかして私からのご褒美でも期待してるの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You've got to stay motivated and finish your work... Or, were you expecting me to give you some "motivation?"",
+            "englishNote": ""
+          }
+          "12": {
+            "event": "Task Complete",
+            "media": "",
+            "chinese": "任务顺利完成了，就是得这样才行呢。奖励？呵呵，我可没有忘记喔？请您期待一下吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "任務をこなしたわね。そうそう、その調子――ご褒美のことは忘れてないわよ？そのまま期待していて？ふふふ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "All done with the missions, huh? That's what I want to see. ...I haven't forgotten about the reward. Mind waiting there for a bit? Hehe~",
+            "englishNote": ""
+          }
+          "13": {
+            "event": "Mail",
+            "media": "",
+            "chinese": "指挥官，是司令部发来的邮件，磨磨蹭蹭的话，说不定会错过重要的消息哦？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、本部からのメールよ。ぐずぐずしてたら大事な情報を見逃すかもしれないわよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, there's mail for you from the Naval HQ. You might miss some important information if you drag your feet~",
+            "englishNote": ""
+          }
+          "14": {
+            "event": "Return From Mission",
+            "media": "",
+            "chinese": "欢迎回来，指挥官。有带回什么有趣的见闻吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "おかえりなさい、指揮官。楽しい土産話はあるの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Welcome back, Commander. Bring back any juicy gossip for me?",
+            "englishNote": ""
+          }
+          "15": {
+            "event": "Commission",
+            "media": "",
+            "chinese": "委托组已经回港了，大家都是很努力的孩子啊",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "委託組が戻ってきたわね。みんな頑張ったじゃない",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "The commission fleet has returned. All your girls are such hard workers.",
+            "englishNote": ""
+          }
+          "16": {
+            "event": "Strengthening",
+            "media": "",
+            "chinese": "哦？发生了一些有趣的变化呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あら？面白そうな変化ね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Oh? Some interesting developments.",
+            "englishNote": ""
+          }
+          "17": {
+            "event": "Starting Mission",
+            "media": "",
+            "chinese": "杂鱼总是认识不到自己身为杂鱼的极限啊",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "雑魚は身の程を知らないわね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "The small fry never seem to learn their place.",
+            "englishNote": ""
+          }
+          "18": {
+            "event": "MVP",
+            "media": "",
+            "chinese": "MVP，那不是理所当然的事情吗？单凭这些杂鱼，可没有弄脏我披风的价值呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "MVPなんて当たり前じゃない。これしきの敵、マントを汚すチリにすらならないわよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "MVP? Why, that's only natural. Enemies of this caliber aren't even worthy of staining my mantle.",
+            "englishNote": ""
+          }
+          "19": {
+            "event": "Defeat",
+            "media": "",
+            "chinese": "披风都被弄脏了啊，真可惜",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "マントが汚れているじゃない。残念だわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My mantle's all dirty now. What a shame...",
+            "englishNote": ""
+          }
+          "20": {
+            "event": "Skill Activation",
+            "media": "",
+            "chinese": "稍微陪你们玩一玩吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "少し遊んでやるわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Let's have a little bit of fun~",
+            "englishNote": ""
+          }
+          "21": {
+            "event": "Low HP",
+            "media": "",
+            "chinese": "炮塔无法运作！偏偏在这种时候...",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "砲塔が動かない？こんなタイミングで…！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My turret won't move? Why... at a time like this...?",
+            "englishNote": ""
+          }
+          "22": {
+            "event": "Affinity (Disappointed)",
+            "media": "",
+            "chinese": "这样的指挥官，或许需要“再教育”一下才行呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "こんな指揮官に必要なのは「再教育」ね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "A commander that acts in this manner is in need of some "re-education."",
+            "englishNote": ""
+          }
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "",
+            "chinese": "扎拉姐姐总是那么的温柔、善良，不会好好地拒绝他人的请求，真让人头疼啊",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "優しくて世話焼きのザラ、ほかの子からの誘いをきっぱり断れないの。本当に困っちゃうわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My gentle and compassionate Zara simply doesn't know how to say no to others. I wonder, what should I do...",
+            "englishNote": ""
+          }
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "",
+            "chinese": "指挥官，您不必有太多的顾虑，只要做您想做的事情就好，杂鱼们都交给我来对付吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、悩まずにやりたいことをやりなさい。雑魚は私が片付けてやるわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, focus on what you need to do. I'll take care of any annoying little obstacles in your way.",
+            "englishNote": ""
+          }
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "",
+            "chinese": "我和姐姐究竟谁更优秀？这个问题的答案，得经过实战才能知道呢，呵呵",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ポーラとザラ、どっちのほうが上？それは…試してみないとわからないわよ？ふふふ♡",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "So, between Zara and me, who do you like better? Well... you wouldn't know the answer to that unless you tried, right~? Hehe~♡",
+            "englishNote": ""
+          }
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "",
+            "chinese": "指挥官也是一位温柔的人呢，和扎拉姐姐一样让人担心，不过…或许只有像您这样的指挥官，才有值得我们姐妹托付未来的价值吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "優しい指揮官、ザラと同じように心配になっちゃうわ。でも…優しい指揮官だからこそ、私とザラは未来を託せるわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Because you're so kind, I worry about you too, just like with Zara. But... because of your kindness, we also know that we can entrust you with our futures.",
+            "englishNote": ""
+          }
+          "27": {
+            "event": "Pledge",
+            "media": "",
+            "chinese": "一旦成为了我选中的指挥官，就要做好被我束缚一生的准备呢。这份“条约”，您愿意和我一同签下么？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私に選ばれた指揮官は、ずっと縛り付けられる覚悟をしないとね。「契約」、それでも喜んで結んでくれるのかしら？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, once you've become my chosen partner, you must be prepared to be bound with me for a lifetime. Are you willing to sign this "contract" with me?",
+            "englishNote": ""
+          }
+          "28": {
+            "event": "Additional Voice Line 1",
+            "media": "",
+            "chinese": "(Sortie with Zara) 扎拉姐姐的手，是那么的温暖…",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "(Sortie with Zara) ザラの手は温かいわ…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "(Sortie with Zara) Zara, your hands are so warm...",
+            "englishNote": ""
+          }
 				}
 			}
 		}
 	},
 	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
+		"pt_get": "28",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "56",
+		"pt_level": "42",
+		"add_level_attr": "Hit",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "7",
 		"ships": "zara,pola"
 	}
 }
