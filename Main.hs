@@ -74,6 +74,11 @@ navy' "KizunaAI"            = "uwrr_icon.png"
 navy' "Bilibili"            = "bili_icon.png"
 navy' "Hololive"            = "uwrr_icon.png"
 
+mkhtml :: String
+       -> String
+       -> String
+       -> H.Html
+       -> IO ()
 mkhtml prefix name title x
   = do css <- readFile "main.css"
        writeFile (prefix ++ name ++ ".html")
@@ -84,13 +89,15 @@ mkhtml prefix name title x
                      H.style !! A.type_ "text/css" $ H.toHtml css
               H.body x
 
+showship :: String
+         -> IO (String, Aeson.Object)
 showship x
   = do name <- return $ "Ships/" ++ x
        a <- (Aeson.eitherDecodeFileStrict' name :: IO (Either String Aeson.Object))
        case a of
          Left e -> error $ name ++ ": " ++ e
-         Right json -> do name <- return $ ashow $ json ! "name_reference"
-                          mkhtml "out/ships/" name (ashow $ json ! "name") $ showship' json
+         Right json -> do name <- return $ ashow $ json ! "name"
+                          mkhtml "out/ships/" name name $ showship' json
                           return (name, json)
 
 showship' :: Aeson.Object
@@ -103,20 +110,20 @@ showship' json
                        $ do H.th !! A.scope "col" $ "Property"
                             H.th !! A.scope "col" $ "Value"
               H.tbody
-                $ do d "ID"          "ID"
-                     d "hull"        "Hull"
-                     d "navy"        "Navy"
+                $ do d "ID"          $ H.a !! A.href "../index_id.html" $ "ID"
+                     d "hull"        $ H.a !! A.href "../hull/" $ "Hull"
+                     d "navy"        $ H.a !! A.href "../navy/" $ "Navy"
                      d "initialStar" "Initial Rating"
-                     d "rarity"      "Rarity"
+                     d "rarity"      $ H.a !! A.href "../rarity/" $ "Rarity"
   where d = displayRow json
 
 displayRow :: Aeson.Object
            -> String
-           -> String
+           -> H.Html
            -> H.Html
 displayRow json field text
   = H.tr
-    $ do H.th !! A.scope "row" $ H.toHtml text
+    $ do H.th !! A.scope "row" $ text
          H.th $ H.toHtml $ ashow $ json ! pack field
 
 ashow :: Aeson.Value
