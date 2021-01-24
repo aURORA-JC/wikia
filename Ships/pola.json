@@ -5,7 +5,7 @@
   "nameCN": "波拉",
   "ID": "489",
   "name": "Pola",
-  "internal_id": "",
+  "internal_id": "603031",
   "rarity": "Super Rare",
   "initialStar": "★★★☆☆☆",
   "hull": "Heavy Cruiser",
@@ -297,7 +297,7 @@
           },
           "2": {
             "event": "Biography",
-            "media": "",
+            "media": "profile",
             "chinese": "我是扎拉级重巡洋舰的四号舰，波拉。我们姐妹拥有着重巡中少有的坚固装甲，在水面炮战中有着独特的优势。论担当舰队旗舰的能力，我说不定要比扎拉姐姐还要强呢",
             "chineseTL": "",
             "chineseNote": "",
@@ -309,7 +309,7 @@
           },
           "3": {
             "event": "Acquisition",
-            "media": "",
+            "media": "get",
             "chinese": "撒丁帝国海军所属，重巡洋舰波拉，正式到任。哦？您就是这个舰队的指挥官吗？千万不要让我失望哦？",
             "chineseTL": "",
             "chineseNote": "",
@@ -321,7 +321,7 @@
           },
           "4": {
             "event": "Login",
-            "media": "",
+            "media": "login",
             "chinese": "好慢啊指挥官，编队演习马上就要开始了喔？",
             "chineseTL": "",
             "chineseNote": "",
@@ -333,7 +333,7 @@
           },
           "5": {
             "event": "Details",
-            "media": "",
+            "media": "detail",
             "chinese": "扎拉姐姐总是那么温柔，那么优秀，真是耀眼夺目啊",
             "chineseTL": "",
             "chineseNote": "",
@@ -345,7 +345,7 @@
           },
           "6": {
             "event": "Secretary (Idle) 1",
-            "media": "",
+            "media": "main_1",
             "chinese": "“条约”、“协定”，那些东西都是没有感情的枷锁，如果能够通通消失掉就好了",
             "chineseTL": "",
             "chineseNote": "",
@@ -357,7 +357,7 @@
           },
           "7": {
             "event": "Secretary (Idle) 2",
-            "media": "",
+            "media": "main_2",
             "chinese": "即使面对再大的暴风雨我也不会退缩，真正的战士，是不会畏惧任何挑战的",
             "chineseTL": "",
             "chineseNote": "",
@@ -369,7 +369,7 @@
           },
           "8": {
             "event": "Secretary (Idle) 3",
-            "media": "",
+            "media": "main_3",
             "chinese": "被探照灯的白光笼罩着的感觉，让人不快",
             "chineseTL": "",
             "chineseNote": "",
@@ -381,7 +381,7 @@
           },
           "9": {
             "event": "Secretary (Touch)",
-            "media": "",
+            "media": "touch_1",
             "chinese": "我的佩剑，可不只是为了好看而存在的喔？",
             "chineseTL": "",
             "chineseNote": "",
@@ -393,7 +393,7 @@
           },
           "10": {
             "event": "Secretary (Special Touch)",
-            "media": "",
+            "media": "touch_2",
             "chinese": "指挥官，你该不会对扎拉姐姐做了同样的事情吧？",
             "chineseTL": "",
             "chineseNote": "",
@@ -405,7 +405,7 @@
           },
           "11": {
             "event": "Task",
-            "media": "",
+            "media": "task",
             "chinese": "指挥官，没有完成任务的动力可不行喔？还是说您在期待着我给您单独准备的奖励呢？",
             "chineseTL": "",
             "chineseNote": "",
@@ -417,7 +417,7 @@
           },
           "12": {
             "event": "Task Complete",
-            "media": "",
+            "media": "mission_complete",
             "chinese": "任务顺利完成了，就是得这样才行呢。奖励？呵呵，我可没有忘记喔？请您期待一下吧",
             "chineseTL": "",
             "chineseNote": "",
@@ -429,7 +429,7 @@
           },
           "13": {
             "event": "Mail",
-            "media": "",
+            "media": "mail",
             "chinese": "指挥官，是司令部发来的邮件，磨磨蹭蹭的话，说不定会错过重要的消息哦？",
             "chineseTL": "",
             "chineseNote": "",
@@ -441,7 +441,7 @@
           },
           "14": {
             "event": "Return From Mission",
-            "media": "",
+            "media": "home",
             "chinese": "欢迎回来，指挥官。有带回什么有趣的见闻吗？",
             "chineseTL": "",
             "chineseNote": "",
@@ -453,7 +453,7 @@
           },
           "15": {
             "event": "Commission",
-            "media": "",
+            "media": "expedition",
             "chinese": "委托组已经回港了，大家都是很努力的孩子啊",
             "chineseTL": "",
             "chineseNote": "",
@@ -465,7 +465,7 @@
           },
           "16": {
             "event": "Strengthening",
-            "media": "",
+            "media": "upgrade",
             "chinese": "哦？发生了一些有趣的变化呢",
             "chineseTL": "",
             "chineseNote": "",
@@ -477,7 +477,7 @@
           },
           "17": {
             "event": "Starting Mission",
-            "media": "",
+            "media": "warcry",
             "chinese": "杂鱼总是认识不到自己身为杂鱼的极限啊",
             "chineseTL": "",
             "chineseNote": "",
@@ -491,7 +491,7 @@
             "event": "MVP",
             "media": "",
             "chinese": "MVP，那不是理所当然的事情吗？单凭这些杂鱼，可没有弄脏我披风的价值呢",
-            "chineseTL": "",
+            "chineseTL": "mvp",
             "chineseNote": "",
             "japanese": "MVPなんて当たり前じゃない。これしきの敵、マントを汚すチリにすらならないわよ",
             "japaneseTL": "",
@@ -501,7 +501,7 @@
           },
           "19": {
             "event": "Defeat",
-            "media": "",
+            "media": "lose",
             "chinese": "披风都被弄脏了啊，真可惜",
             "chineseTL": "",
             "chineseNote": "",
@@ -513,7 +513,7 @@
           },
           "20": {
             "event": "Skill Activation",
-            "media": "",
+            "media": "skill",
             "chinese": "稍微陪你们玩一玩吧",
             "chineseTL": "",
             "chineseNote": "",
@@ -525,7 +525,7 @@
           },
           "21": {
             "event": "Low HP",
-            "media": "",
+            "media": "hp",
             "chinese": "炮塔无法运作！偏偏在这种时候...",
             "chineseTL": "",
             "chineseNote": "",
@@ -537,7 +537,7 @@
           },
           "22": {
             "event": "Affinity (Disappointed)",
-            "media": "",
+            "media": "feeling1",
             "chinese": "这样的指挥官，或许需要“再教育”一下才行呢",
             "chineseTL": "",
             "chineseNote": "",
@@ -549,7 +549,7 @@
           },
           "23": {
             "event": "Affinity (Stranger)",
-            "media": "",
+            "media": "feeling2",
             "chinese": "扎拉姐姐总是那么的温柔、善良，不会好好地拒绝他人的请求，真让人头疼啊",
             "chineseTL": "",
             "chineseNote": "",
@@ -561,7 +561,7 @@
           },
           "24": {
             "event": "Affinity (Friendly)",
-            "media": "",
+            "media": "feeling3",
             "chinese": "指挥官，您不必有太多的顾虑，只要做您想做的事情就好，杂鱼们都交给我来对付吧",
             "chineseTL": "",
             "chineseNote": "",
@@ -573,7 +573,7 @@
           },
           "25": {
             "event": "Affinity (Like)",
-            "media": "",
+            "media": "feeling4",
             "chinese": "我和姐姐究竟谁更优秀？这个问题的答案，得经过实战才能知道呢，呵呵",
             "chineseTL": "",
             "chineseNote": "",
@@ -585,7 +585,7 @@
           },
           "26": {
             "event": "Affinity (Love)",
-            "media": "",
+            "media": "feeling5",
             "chinese": "指挥官也是一位温柔的人呢，和扎拉姐姐一样让人担心，不过…或许只有像您这样的指挥官，才有值得我们姐妹托付未来的价值吧",
             "chineseTL": "",
             "chineseNote": "",
@@ -597,7 +597,7 @@
           },
           "27": {
             "event": "Pledge",
-            "media": "",
+            "media": "propose",
             "chinese": "一旦成为了我选中的指挥官，就要做好被我束缚一生的准备呢。这份“条约”，您愿意和我一同签下么？",
             "chineseTL": "",
             "chineseNote": "",
@@ -609,7 +609,7 @@
           },
           "28": {
             "event": "Additional Voice Line 1",
-            "media": "",
+            "media": "link1",
             "chinese": "(Sortie with Zara) 扎拉姐姐的手，是那么的温暖…",
             "chineseTL": "",
             "chineseNote": "",
