@@ -1,152 +1,152 @@
 {
-	"name_reference": "pola",
-	"cn_reference": "bola",
-	"nameJP": "ポーラ",
-	"nameCN": "波拉",
-	"ID": "489",
-	"name": "Pola",
-	"internal_id": "",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Heavy Cruiser",
-	"navy": "Sardegna Empire",
-	"prefix": "RN",
-	"buildTime": "1:55:00",
-	"class": "Zara-class",
-	"voiceActress": "Atsumi Tanezaki",
-	"parameters": {
-		"firepower": "B",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "C",
-		"antiAir": "B",
-		"hp": "A"
-	},
-	"scrap": {
-		"gold": "9",
-		"oil": "3",
-		"medal": "10"
-	},
-	"releaseDate": {
-		"JP": "2021/01/21",
-		"CN": "2021/01/21",
-		"KR": "2021/01/21",
-		"EN": "2021/01/21"
-	},
-	"artist": {
-		"name": "云桑",
-		"weibo": "https://weibo.com/yunsang",
-		"twitter": "https://twitter.com/_Yunsang",
-		"pixiv": "https://www.pixiv.net/member.php?id=5358936",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "26",
-		"torpedo": "",
-		"aviation": "",
-		"reload": "13"
-	},
-	"acquisitionMethod": "Event: Empyreal Tragicomedy Rerun",
-	"skill": {
-		"1": {
-			"icon": "",
-			"requirement": "Default Unlocked",
-			"name": "Viola Spear",
-			"type": "Offensive",
-			"description": "When this ship fires its main guns, 20.0% (50.0%) chance to fire a special barrage (damage dealt scales with skill level, 10 second cooldown between activations). If there are two or more Sardegna Empire ships in your fleet (including this ship), increase the proc chance by 20.0%."
-		}
-    "2": {  
+  "name_reference": "pola",
+  "cn_reference": "bola",
+  "nameJP": "ポーラ",
+  "nameCN": "波拉",
+  "ID": "489",
+  "name": "Pola",
+  "internal_id": "",
+  "rarity": "Super Rare",
+  "initialStar": "★★★☆☆☆",
+  "hull": "Heavy Cruiser",
+  "navy": "Sardegna Empire",
+  "prefix": "RN",
+  "buildTime": "1:55:00",
+  "class": "Zara-class",
+  "voiceActress": "Atsumi Tanezaki",
+  "parameters": {
+    "firepower": "B",
+    "torpedo": "E",
+    "aviation": "E",
+    "evasion": "C",
+    "antiAir": "B",
+    "hp": "A"
+  },
+  "scrap": {
+    "gold": "9",
+    "oil": "3",
+    "medal": "10"
+  },
+  "releaseDate": {
+    "JP": "2021/01/21",
+    "CN": "2021/01/21",
+    "KR": "2021/01/21",
+    "EN": "2021/01/21"
+  },
+  "artist": {
+    "name": "云桑",
+    "weibo": "https://weibo.com/yunsang",
+    "twitter": "https://twitter.com/_Yunsang",
+    "pixiv": "https://www.pixiv.net/member.php?id=5358936",
+    "other": ""
+  },
+  "enhance": {
+    "firepower": "26",
+    "torpedo": "",
+    "aviation": "",
+    "reload": "13"
+  },
+  "acquisitionMethod": "Event: Empyreal Tragicomedy Rerun",
+  "skill": {
+    "1": {
+      "icon": "",
+      "requirement": "Default Unlocked",
+      "name": "Viola Spear",
+      "type": "Offensive",
+      "description": "When this ship fires its main guns, 20.0% (50.0%) chance to fire a special barrage (damage dealt scales with skill level, 10 second cooldown between activations). If there are two or more Sardegna Empire ships in your fleet (including this ship), increase the proc chance by 20.0%."
+    },
+    "2": {
       "icon": "",
       "requirement": "Default Unlocked",
       "name": "Audacious Challenger",
       "type": "Support",
       "description": "Increase this ship's EVA by 5.0% (15.0%) during the first 45 seconds of the battle. As long as this ship is afloat, increase FP by 1.0% (10.0%) and AA by 5.0% (15.0%) for all Sardegnia Empire vanguard ships, and decrease damage taken by all Zara-class ships by 6.0%."
-    }
-    "3": {  
+    },
+    "3": {
       "icon": "",
       "requirement": "Limit Break I (III)",
       "name": "All Out Assault",
       "type": "Offensive",
       "description": "Every 12 (8) times the main battery is fired, triggers Full Barrage - Zara-class I (II)"
     }
-	},
-	"skin": {
-		"1": {
-			"id": "bola",
-			"name": "Pola",
-			"description": "Zara-class heavy cruiser Pola",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "55200",
-			"rarity": "Rare",
-			"name": "Twin 203mm Main Gun (M1927) "
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "55500",
-			"rarity": "Common",
-			"name": "Twin 37mm AA Gun (M1932) "
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "0",
-			"antiAir": "",
-			"aviation": "0",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "26",
-			"luck": "75",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "12",
-			"armor": "Medium"
-		},
-		"120": {
-			"hp": "4941",
-			"firepower": "252",
-			"torpedo": "0",
-			"antiAir": "243",
-			"aviation": "0",
-			"reload": "182",
-			"hit": "118",
-			"evasion": "57",
-			"speed": "26",
-			"luck": "75",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "12",
-			"armor": "Medium"
-		},
-		"base": {
+  },
+  "skin": {
+    "1": {
+      "id": "bola",
+      "name": "Pola",
+      "description": "Zara-class heavy cruiser Pola",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "55200",
+      "rarity": "Rare",
+      "name": "Twin 203mm Main Gun (M1927) "
+    },
+    "2": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "3": {
+      "icon": "55500",
+      "rarity": "Common",
+      "name": "Twin 37mm AA Gun (M1932) "
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "0",
+      "antiAir": "",
+      "aviation": "0",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "26",
+      "luck": "75",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "12",
+      "armor": "Medium"
+    },
+    "120": {
+      "hp": "4941",
+      "firepower": "252",
+      "torpedo": "0",
+      "antiAir": "243",
+      "aviation": "0",
+      "reload": "182",
+      "hit": "118",
+      "evasion": "57",
+      "speed": "26",
+      "luck": "75",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "12",
+      "armor": "Medium"
+    },
+    "base": {
       "hp": "853",
       "firepower": "47",
       "torpedo": "0",
@@ -162,139 +162,139 @@
       "ammo": "0",
       "cost": "4",
       "armor": "Medium"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		}
-	},
-	"limitBreak": {
-		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
-		"tier2": "Main Gun Mount +1 / Main Gun Efficiency +10%",
-		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Heavy Cruiser",
-			"efficiency": "105%/110%/120%/125%",
-			"amount": "1/1/2/2",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Destroyer Gun",
-			"efficiency": "55%/55%/55%/60%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "95%/95%/95%/100%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "✓",
-			"CN": "✓",
-			"EN": "✓"
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "bola",
-				"id": "0",
-				"label": "Pola",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "扎拉级重巡洋舰—波拉",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ザラ級重巡洋艦・ポーラ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Zara-class heavy cruiser – Pola.",
-						"englishNote": ""
-					}
+    },
+    "100retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+    "tier2": "Main Gun Mount +1 / Main Gun Efficiency +10%",
+    "tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Heavy Cruiser",
+      "efficiency": "105%/110%/120%/125%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Destroyer Gun",
+      "efficiency": "55%/55%/55%/60%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "95%/95%/95%/100%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "heavy": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "special": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "limited": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "bola",
+        "id": "0",
+        "label": "Pola",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "扎拉级重巡洋舰—波拉",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ザラ級重巡洋艦・ポーラ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Zara-class heavy cruiser – Pola.",
+            "englishNote": ""
+          },
           "2": {
             "event": "Biography",
             "media": "",
@@ -306,7 +306,7 @@
             "japaneseNote": "",
             "english": "I'm the fourth ship of the Zara-class heavy cruisers, Pola. My sisters and I have stronger armor rarely seen on heavy cruisers, which gives us an advantage in artillery battles. In terms of my abilities to serve as flagship... I might be a bit more suitable than Zara?",
             "englishNote": ""
-          }
+          },
           "3": {
             "event": "Acquisition",
             "media": "",
@@ -318,7 +318,7 @@
             "japaneseNote": "",
             "english": "I'm Pola, heavy cruiser from Sardegna. And you're the commander of this fleet? I see. Well, don't let me down, okay? Hehe~",
             "englishNote": ""
-          }
+          },
           "4": {
             "event": "Login",
             "media": "",
@@ -330,7 +330,7 @@
             "japaneseNote": "",
             "english": "Hehe, you sure took your sweet time. The fleet exercises are about to start without you~",
             "englishNote": ""
-          }
+          },
           "5": {
             "event": "Details",
             "media": "",
@@ -342,7 +342,7 @@
             "japaneseNote": "",
             "english": "My Zara is always so gentle and lovely, I just can't take my eyes off her.",
             "englishNote": ""
-          }
+          },
           "6": {
             "event": "Secretary (Idle) 1",
             "media": "",
@@ -354,7 +354,7 @@
             "japaneseNote": "",
             "english": "All these “conventions” and “treaties”... Things that do not consider the feelings of actual people should disappear from this world.",
             "englishNote": ""
-          }
+          },
           "7": {
             "event": "Secretary (Idle) 2",
             "media": "",
@@ -366,7 +366,7 @@
             "japaneseNote": "",
             "english": "A true fighter does not fear any danger. I won't back down even in the face of a heavy storm.",
             "englishNote": ""
-          }
+          },
           "8": {
             "event": "Secretary (Idle) 3",
             "media": "",
@@ -378,7 +378,7 @@
             "japaneseNote": "",
             "english": "The feeling of being enveloped by a searchlight... makes me a bit uneasy.",
             "englishNote": ""
-          }
+          },
           "9": {
             "event": "Secretary (Touch)",
             "media": "",
@@ -390,7 +390,7 @@
             "japaneseNote": "",
             "english": "My rapier is not simply for show, you know.",
             "englishNote": ""
-          }
+          },
           "10": {
             "event": "Secretary (Special Touch)",
             "media": "",
@@ -402,7 +402,7 @@
             "japaneseNote": "",
             "english": "You surely didn't do the same kind of stuff to Zara, right?",
             "englishNote": ""
-          }
+          },
           "11": {
             "event": "Task",
             "media": "",
@@ -414,7 +414,7 @@
             "japaneseNote": "",
             "english": "You've got to stay motivated and finish your work... Or, were you expecting me to give you some “motivation?”",
             "englishNote": ""
-          }
+          },
           "12": {
             "event": "Task Complete",
             "media": "",
@@ -426,7 +426,7 @@
             "japaneseNote": "",
             "english": "All done with the missions, huh? That's what I want to see. ...I haven't forgotten about the reward. Mind waiting there for a bit? Hehe~",
             "englishNote": ""
-          }
+          },
           "13": {
             "event": "Mail",
             "media": "",
@@ -438,7 +438,7 @@
             "japaneseNote": "",
             "english": "Commander, there's mail for you from the Naval HQ. You might miss some important information if you drag your feet~",
             "englishNote": ""
-          }
+          },
           "14": {
             "event": "Return From Mission",
             "media": "",
@@ -450,7 +450,7 @@
             "japaneseNote": "",
             "english": "Welcome back, Commander. Bring back any juicy gossip for me?",
             "englishNote": ""
-          }
+          },
           "15": {
             "event": "Commission",
             "media": "",
@@ -462,7 +462,7 @@
             "japaneseNote": "",
             "english": "The commission fleet has returned. All your girls are such hard workers.",
             "englishNote": ""
-          }
+          },
           "16": {
             "event": "Strengthening",
             "media": "",
@@ -474,7 +474,7 @@
             "japaneseNote": "",
             "english": "Oh? Some interesting developments.",
             "englishNote": ""
-          }
+          },
           "17": {
             "event": "Starting Mission",
             "media": "",
@@ -486,7 +486,7 @@
             "japaneseNote": "",
             "english": "The small fry never seem to learn their place.",
             "englishNote": ""
-          }
+          },
           "18": {
             "event": "MVP",
             "media": "",
@@ -498,7 +498,7 @@
             "japaneseNote": "",
             "english": "MVP? Why, that's only natural. Enemies of this caliber aren't even worthy of staining my mantle.",
             "englishNote": ""
-          }
+          },
           "19": {
             "event": "Defeat",
             "media": "",
@@ -510,7 +510,7 @@
             "japaneseNote": "",
             "english": "My mantle's all dirty now. What a shame...",
             "englishNote": ""
-          }
+          },
           "20": {
             "event": "Skill Activation",
             "media": "",
@@ -522,7 +522,7 @@
             "japaneseNote": "",
             "english": "Let's have a little bit of fun~",
             "englishNote": ""
-          }
+          },
           "21": {
             "event": "Low HP",
             "media": "",
@@ -534,7 +534,7 @@
             "japaneseNote": "",
             "english": "My turret won't move? Why... at a time like this...?",
             "englishNote": ""
-          }
+          },
           "22": {
             "event": "Affinity (Disappointed)",
             "media": "",
@@ -546,7 +546,7 @@
             "japaneseNote": "",
             "english": "A commander that acts in this manner is in need of some “re-education.”",
             "englishNote": ""
-          }
+          },
           "23": {
             "event": "Affinity (Stranger)",
             "media": "",
@@ -558,7 +558,7 @@
             "japaneseNote": "",
             "english": "My gentle and compassionate Zara simply doesn't know how to say no to others. I wonder, what should I do...",
             "englishNote": ""
-          }
+          },
           "24": {
             "event": "Affinity (Friendly)",
             "media": "",
@@ -570,7 +570,7 @@
             "japaneseNote": "",
             "english": "Commander, focus on what you need to do. I'll take care of any annoying little obstacles in your way.",
             "englishNote": ""
-          }
+          },
           "25": {
             "event": "Affinity (Like)",
             "media": "",
@@ -582,7 +582,7 @@
             "japaneseNote": "",
             "english": "So, between Zara and me, who do you like better? Well... you wouldn't know the answer to that unless you tried, right~? Hehe~♡",
             "englishNote": ""
-          }
+          },
           "26": {
             "event": "Affinity (Love)",
             "media": "",
@@ -594,7 +594,7 @@
             "japaneseNote": "",
             "english": "Because you're so kind, I worry about you too, just like with Zara. But... because of your kindness, we also know that we can entrust you with our futures.",
             "englishNote": ""
-          }
+          },
           "27": {
             "event": "Pledge",
             "media": "",
@@ -606,7 +606,7 @@
             "japaneseNote": "",
             "english": "Commander, once you've become my chosen partner, you must be prepared to be bound with me for a lifetime. Are you willing to sign this “contract” with me?",
             "englishNote": ""
-          }
+          },
           "28": {
             "event": "Additional Voice Line 1",
             "media": "",
@@ -619,21 +619,21 @@
             "english": "(Sortie with Zara) Zara, your hands are so warm...",
             "englishNote": ""
           }
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "28",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"pt_upgrade": "56",
-		"pt_level": "42",
-		"add_level_attr": "Hit",
-		"add_level_value": "1",
-		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"t_level": "7",
-		"ships": "zara,pola"
-	}
+        }
+      }
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "28",
+    "add_get_attr": "HP",
+    "add_get_value": "1",
+    "add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+    "pt_upgrade": "56",
+    "pt_level": "42",
+    "add_level_attr": "Hit",
+    "add_level_value": "1",
+    "add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+    "t_level": "7",
+    "ships": "zara,pola"
+  }
 }
