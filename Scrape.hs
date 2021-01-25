@@ -17,7 +17,11 @@ wget' x y
 
 
 skindl :: [String]
-skindl = ["painting", "squareicon", "shipmodels", "herohrzicon"]
+skindl = ["painting",
+          "squareicon",
+          "shipmodels",
+          "herohrzicon",
+          "shipyardicon_new"]
 
 handleship name
   = do a <- (Aeson.eitherDecodeFileStrict' ("Ships/" ++ name) :: IO (Either String Aeson.Object))
