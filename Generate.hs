@@ -1,6 +1,6 @@
 #!/bin/env runhaskell
 
-{-# LANGUAGE OverloadedStrings, DeriveGeneric #-}
+{-# LANGUAGE OverloadedStrings #-}
 
 import Prelude (IO, Either(Left, Right), String, return, mapM, ($), (++), mapM_, show, error, Bool(False, True), (.), writeFile, const, id, readFile, (==), snd, Int, read)
 import qualified Text.Blaze.Html5 as H
@@ -14,6 +14,7 @@ import Data.Text (pack, unpack)
 import Data.List (sort, sortOn, sortBy, groupBy, head)
 import Text.Read (readEither)
 import Data.Ord (comparing)
+import Utils
 
 (!!) :: (H.Html -> H.Html)
      -> H.Attribute
@@ -125,13 +126,6 @@ displayRow json field text
   = H.tr
     $ do H.th !! A.scope "row" $ text
          H.th $ H.toHtml $ ashow $ json ! pack field
-
-ashow :: Aeson.Value
-      -> String
-ashow (Aeson.String x) = unpack x
-ashow (Aeson.Number x) = show x
-ashow (Aeson.Bool x) = show x
-ashow x = show x
 
 makeMainIndex :: String
               -> String
