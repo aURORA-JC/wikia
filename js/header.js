@@ -8,16 +8,3 @@ function addHeader(){
 	rawFile.send(null);
 
 }
-
-function onButtonClick(){
-	if (document.getElementById("sidebar").className != "active"){
-		document.getElementById("sidebar").className = "active";
-		document.getElementById("content").className = "active";
-		document.getElementById("footer").className = "active";
-		return;
-	} else if (document.getElementById("sidebar").className == "active"){
-		document.getElementById("sidebar").className = "";
-		document.getElementById("content").className = "";
-		document.getElementById("footer").className = "";
-	}
-}

@@ -119,14 +119,14 @@ class CommentedShipDisplay extends HTMLElement{
 					if (self.skin != null){
 						self.comment = actual_JSON.skin[self.skin+""].name;
 						if (self.retrofit == "true")
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[1].id + "_g.png";
+							self.shipIcon = "https://algwiki.moe/assets/shipyardicon_new/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[self.skin+""].id + ".png";
+							self.shipIcon = "https://algwiki.moe/assets/shipyardicon_new/" + actual_JSON.skin[self.skin+""].id + ".png";
 					} else {
 						if (self.retrofit == "true")
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[1].id + "_g.png";
+							self.shipIcon = "https://algwiki.moe/assets/shipyardicon_new/" + actual_JSON.skin[1].id + "_g.png";
 						else
-							self.shipIcon = "https://media.alg-wiki.com/assets/shipyardicon_new/" + actual_JSON.skin[1].id + ".png";
+							self.shipIcon = "https://algwiki.moe/assets/shipyardicon_new/" + actual_JSON.skin[1].id + ".png";
 					}
 						
 					if (hull == "Aircraft Carrier"){						
@@ -353,7 +353,7 @@ class IconDisplay extends HTMLElement{
 		var self = this;
 		util.loadShipJSON(this.ship, function(response, shipname){
 			var actual_JSON = JSON.parse(response);
-			self.icon = "https://media.alg-wiki.com/assets/squareicon/" + actual_JSON.cn_reference + ".png";
+			self.icon = "https://algwiki.moe/assets/squareicon/" + actual_JSON.cn_reference + ".png";
 
 			if (actual_JSON.rarity == "Common" || actual_JSON.rarity == "Normal"){
 				self.bgimg = "../Images/bg1.png";
@@ -627,7 +627,7 @@ class ChapterNode extends HTMLElement{
                             </td>
                         </tr>
                         <tr>
-                            <td rowspan="2" style="width: 20%; padding: 10px; text-align: center;"><a href ="ship#${this.bossShip[0]}" style="text-decoration:none;color:white"><img src="https://media.alg-wiki.com/qicon/${this.bossShip[0]}.png" style="width: 64px; height: 64px"><br>${this.bossShip[1]}</a></td>
+                            <td rowspan="2" style="width: 20%; padding: 10px; text-align: center;"><a href ="ship#${this.bossShip[0]}" style="text-decoration:none;color:white"><img src="https://algwiki.moe/qicon/${this.bossShip[0]}.png" style="width: 64px; height: 64px"><br>${this.bossShip[1]}</a></td>
                             <td style="width: 20%; padding: 10px; background: #24252d;"><b>Location</b></td>
                             <td style="width: 20%; padding: 10px;">${this.bossLocation}</td>
                             <td style="width: 20%; padding: 10px; background: #24252d;"><b>Level</b></td>
