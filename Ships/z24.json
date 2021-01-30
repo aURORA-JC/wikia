@@ -1,0 +1,963 @@
+{
+	"name_reference": "z24",
+	"cn_reference": "z24",
+	"nameJP": "Z24",
+	"nameCN": "Z24",
+	"ID": "487",
+	"name": "Z24",
+	"internal_id": "401241",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Ironblood",
+	"prefix": "KMS",
+	"buildTime": "",
+	"voiceActress": "Yukina Shuto",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "D",
+		"hp": "D"
+	},
+	"scrap": {
+		"gold": "4",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "2020/12/29",
+		"CN": "2020/12/29",
+		"KR": "2020/12/29",
+		"EN": "2020/12/29"
+	},
+	"artist": {
+		"name": "Vilor",
+		"weibo": "https://weibo.com/u/2450411934",
+		"twitter": "https://twitter.com/Vilor_0414",
+		"pixiv": "https://www.pixiv.net/member.php?id=2436160",
+		"other": ""
+	},
+	"class": "Type 1936A",
+	"enhance": {
+		"firepower": "7",
+		"torpedo": "20",
+		"aviation": "0",
+		"reload": "14"
+	},
+	"acquisitionMethod": "Event: Inverted Orthant",
+	"skill": {
+		"1": {
+			"icon": "13990",
+			"requirement": "Default Unlocked",
+			"name": "Boon of Crimson Darkness",
+			"type": "Defensive",
+			"description": "Increases this ship's DMG against DDs and CLs by 5.0% (15.0%). Once per battle, when the HP of one of your Z-class DDs (excluding this ship) falls below 30.0%: decreases that ship's DMG taken by 30.0% and increases this ship's FP, TRP, and RLD by 5.0% (15.0%) until the end of the battle."
+		},
+		"2": {
+			"icon": "14000",
+			"requirement": "Default Unlocked",
+			"name": "Fiendish Rampage",
+			"type": "Offensive",
+			"description": "At the start of the battle and every 20s after that: fires a special barrage (DMG is based on the skill's level). Whenever this ship sinks an enemy: increases this ship's FP and TRP by 1.0% (4.0%) until the end of the battle (can be stacked up to 5 times)."
+		},
+		"3": {
+			"icon": "29201",
+			"requirement": "Limit Break I (III)",
+			"name": "All Out Assault Ⅰ",
+			"type": "Offensive",
+			"description": "Activates All Out Assault Ⅱ: 1936a Type once every 10 times the Main Guns are fired."
+		}
+	},
+	"skin": {
+		"1": {
+			"id": "z24",
+			"name": "Z24",
+			"description": "Type 1336A destroyer, Z24.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				},
+				"8": {
+					"id": "8"
+				},
+				"9": {
+					"id": "9"
+				},
+				"10": {
+					"id": "10"
+				}
+			}
+		},
+		"2": {
+			"id": "z24_2",
+			"name": "Festival-going Fiend",
+			"description": "Come, human! The rite of festivities is upon us! Come hither, and let us revel in this foreign holiday together!",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				},
+				"8": {
+					"id": "8"
+				},
+				"9": {
+					"id": "9"
+				},
+				"10": {
+					"id": "10"
+				}
+			}
+		},
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "42200",
+			"rarity": "Common",
+			"name": "Twin 150mm Main Gun (TbtsK C/36)"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "1786",
+			"firepower": "104",
+			"torpedo": "289",
+			"antiAir": "131",
+			"aviation": "0",
+			"reload": "173",
+			"hit": "167",
+			"evasion": "152",
+			"speed": "43",
+			"luck": "56",
+			"asw": "181",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "2125",
+			"firepower": "120",
+			"torpedo": "327",
+			"antiAir": "150",
+			"aviation": "0",
+			"reload": "199",
+			"hit": "175",
+			"evasion": "157",
+			"speed": "43",
+			"luck": "56",
+			"asw": "201",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "345",
+			"firepower": "22",
+			"torpedo": "61",
+			"antiAir": "28",
+			"aviation": "0",
+			"reload": "73",
+			"hit": "64",
+			"evasion": "58",
+			"speed": "43",
+			"luck": "56",
+			"asw": "49",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		"tier3": "Improve EX Barrage/All weapons' efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "140%/145%/155%/160%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "115%/115%/115%/120%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "70%/70%/70%/75%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "14",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "28",
+		"pt_level": "20",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "6",
+		"ships": "z23,z24,z25"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "World",
+				"chapter": {
+					"1": {
+						"label": "Ch.1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							},
+						}
+					},
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "z24",
+				"id": "0",
+				"label": "Z24",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "1936A “纳尔维克”型驱逐舰—Z24",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "1936A型「ナルヴィク」駆逐艦・Z24",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Type 1936A “Narvik class” destroyer – Z24.",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Biography",
+						"media": "profile",
+						"chinese": "从Z23开始，吾等1936型，以及之后的驱逐都只用编号来称呼了，这究竟是为何？明明“莱伯勒希特·马斯”或者“格奥尔格·蒂勒”这样又有气势，又让对手难记的名字更加……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "1936型の駆逐艦、ニーミから呼ばれ方がちゃんとした名前でなくて番号のみになっていたわね…どうしてだ！レーベとかティーレとか、カッコよくて覚えられやすい名前が我にもあれば…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "After Z23, the 1936-class destroyers no longer were given actual names... Why?! Why can't I have a cool and easy-to-remember name like Lebe or Thiele...?!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Acquisition",
+						"media": "get",
+						"chinese": "颤抖吧，凡人！站在汝之面前的，是赤与黑的恐惧之魔王，铁血的驱逐舰Z24！无须多虑，匍匐于吾之脚下，献出汝之敬畏即可！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "震えろモータル！お前の前にいるのは赤き灰色の悪魔、鉄血駆逐艦「フィーアツヴァイ」なのだ！我が足元にひざまずき恐れおののくがいい！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Tremble, mortal! Before you is the Fiend of the Crimson Darkness, the Avatar of Fear, the Iron Blood destroyer, Z24! All you need to do is grovel at my feet!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Login",
+						"media": "login",
+						"chinese": "汝可知现在已是几时？快回到工作之位上去，懒惰的凡人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "今が何時かわかっているかこのポンコツ！これだから怠惰なモータルは…早く仕事に戻るのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you have any idea what time it is? This is why I can't stand you lazy mortals... Get back to work already!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Details",
+						"media": "detail",
+						"chinese": "区区凡人，居然敢不畏惧吾？吾应当已经表现出足够的威慑感了才对…为何……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "モータルのくせに我を恐れぬだと？おっかしいわね…このダイナミックな格好は結構頑張ったのに……なんでだ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "A mortal that does not tremble before my visage? How strange... I thought I did my best to look absolutely hellish... I wonder why...",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 1",
+						"media": "main_1",
+						"chinese": "“黑”乃高贵之象征！无论黑咖啡，黑巧克力，或是黑森林蛋糕，都是从名字就透露出高贵的气息，汝不这么觉得吗，凡人~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "高貴なる我が「シュヴァルツ」の印――そう、ブラックコーヒー、ブラックチョコ、ブラックフォレストケーキ…全て通ずるのだ！そう思わないかこのポンコツ♪",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Black is the mark of my infernal nobility— yes, black coffee, dark chocolate, and black forest cake... are all things within my domain! Surely even human scum such as you recognizes this~♪",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 2",
+						"media": "main_2",
+						"chinese": "哈啊~~无聊得吾都犯困…要不试着吓吓下一个进指挥室的人好了~…唔，不行吗？真没意思…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はぁぁぁああ…退屈だあああ…次の執務室に入る人に我が恐怖を教えて…ダメなの？ちぇ…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Aaaahhhhh... I'm sooooo booooored... Shall I teach the next person who walks through these doors the meaning of true fear? ...No good? Tsk...",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Main 3",
+						"media": "main_3",
+						"chinese": "贯彻吾之道才是人生！所以Z23啊，作业什么的对吾而言只是累赘！好疼！吾、吾知道了啦，别再念吾了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "我を貫くのが人生よ！故にニーミ、我に宿題など不要だ！あいた！わ、分かったから説教するな！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The ways of the mortal realm have no bearing upon me! Therefore, Zed, I have no need for this “homework” stuff. Oww! F-fine, I get it, so stop chewing me out!",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Main 4",
+						"media": "main_4",
+						"chinese": "把慰劳品…忘了？……看来得好好让汝知晓生命是有多么脆弱才行呢，凡人。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "差し入れを忘れた…だと？……どうやらお前には命の儚さを教え込まないといけないようね",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You... forgot to bring the offerings? ...Looks like I will have to teach you about the fragility of human life.",
+						"englishNote": ""
+					},
+					"10": {
+						"event": "Touch",
+						"media": "touch_1",
+						"chinese": "这双巨爪很棒吧？无论威慑力还是杀伤力，都和“魔王”的称号相匹配！哼哼哼~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "このクローは見た目の迫力も攻撃力も、グレートデビルである我に相応しいのだ！ははは！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "These massive claws suit my status as an Archfiend, both in terms of appearance and destructive power! Ahahaha!",
+						"englishNote": ""
+					},
+					"11": {
+						"event": "Touch (Special)",
+						"media": "touch_2",
+						"chinese": "敢对吾如此不敬…想必已经做好足够的心理准备了吧，凡人…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "我に不敬を働いたのは、どうされるか分かっていてなのか？モータル…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Surely you already know the fate of those who dare to disrespect me? Foolish mortal...",
+						"englishNote": ""
+					},
+					"12": {
+						"event": "Rub",
+						"media": "touch_head",
+						"chinese": "胆、胆子不小啊，凡人，敢在吾头上乱摸……唔，还、还可以再来点…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "我の頭に触るとか…ず、図に乗るんじゃないぞこの凡愚……も、もっとおねがい～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Impudent mortal, how dare you wantonly touch my head... W-wait, don't stop, please~",
+						"englishNote": ""
+					},
+					"13": {
+						"event": "Mission",
+						"media": "task",
+						"chinese": "任务？这些琐碎的麻烦事就不要一直留在在那里，快把它们都处理掉，凡人。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "任務？目障りな細々したものは早く片付けなさい、この凡愚",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Missions? Hurry up and get those unsightly things out of my sight, mortal.",
+						"englishNote": ""
+					},
+					"14": {
+						"event": "Mission Complete",
+						"media": "mission_complete",
+						"chinese": "哼哼，不管怎么说，收获的时刻总是让人愉快的，是吧，凡人~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "なんと言っても収穫の季節は喜ばしいぞ。そうだろ、ヒューマン～",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "The time of reaping seems to have come once more. Isn't that right, human~?",
+						"englishNote": ""
+					},
+					"15": {
+						"event": "Mail",
+						"media": "mail",
+						"chinese": "来自深渊的信息…呼呼……",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "深淵からの情報だ…むふふふふ……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Insight from the Abyss itself... Guhuhu...",
+						"englishNote": ""
+					},
+					"16": {
+						"event": "Return to Port",
+						"media": "home",
+						"chinese": "汝总算回来了啊，吾累了，要休息一会，没有急事或者黑巧克力不要喊吾。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ようやく戻ってきたかヒューマン。我は疲れた、故に休む。急用かダークチョコがないなら呼ぶな",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "It's about damn time, human. Tired, so I'm gonna rest. Don't bother me unless it's urgent, or you have dark chocolate.",
+						"englishNote": ""
+					},
+					"17": {
+						"event": "Commission Complete",
+						"media": "expedition",
+						"chinese": "委托奖励？不感兴趣…不过要是有黑巧克力或是黑森林蛋糕之类的美味，记得向吾进贡啊，凡人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "委託の報酬？別に興味ないけど……そうだ！ブラックチョコかブラックフォレストケーキがあったら我に捧げるのだ！モータル！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Commission rewards? I have no interest in mortal trinkets... But oh! If there's any black chocolate or black forest cake, you must bring it to me, mortal!",
+						"englishNote": ""
+					},
+					"18": {
+						"event": "Enhancement",
+						"media": "upgrade",
+						"chinese": "干得好，凡人！感觉力量逐渐凝聚起来了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "やるじゃないこのポンコツ！我が力がまた増したわ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Not bad, human scum! My power grows ever greater!",
+						"englishNote": ""
+					},
+					"19": {
+						"event": "Flagship",
+						"media": "warcry",
+						"chinese": "哼哼，那就开始吧，令人兴奋的铁与血之祭典！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "始めよう、血と鋼の祭りを――！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let us begin the festival of blood and iron!",
+						"englishNote": ""
+					},
+					"20": {
+						"event": "Victory",
+						"media": "mvp",
+						"chinese": "啊哈哈哈哈！鲜血与火焰浇铸出的战场之烟花，真是太棒了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "あははははは！鮮血と鋼を、炎の花を咲かせよう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ahahahaha! Fresh blood and steel, blossom into magnificent fireworks!",
+						"englishNote": ""
+					},
+					"21": {
+						"event": "Defeat",
+						"media": "lose",
+						"chinese": "哈啊…哈啊…已经……不用忍耐了吧？可以把一切的一切，都破坏殆尽了吧…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "はぁ…はぁ…もう我慢しなくていいよね？全て全て壊せばいいよね……！！！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "*pant*... *pant*... I don't have to hold back anymore, right? I'll destroy everything... every last bit of it...!!!",
+						"englishNote": ""
+					},
+					"22": {
+						"event": "Skill",
+						"media": "skill",
+						"chinese": "全都匍匐在吾之脚下吧！啊哈哈哈哈！！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "我に跪け！あはははは！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Kneel before me! Ahahaha!",
+						"englishNote": ""
+					},
+					"23": {
+						"event": "Low HP",
+						"media": "hp",
+						"chinese": "哈啊…哈啊……已经可以了吧…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "もう暴れていいでしょ…！？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Can I destroy everything yet...?!",
+						"englishNote": ""
+					},
+					"24": {
+						"event": "Affinity (Upset)",
+						"media": "feeling1",
+						"chinese": "汝可知…堕落至极的凡人会有什么样的下场？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どこまでも落ちる凡愚が迎える末路、知っているか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you know the fate of mortals who have fallen to such depths of depravity?",
+						"englishNote": ""
+					},
+					"25": {
+						"event": "Affinity (Stranger)",
+						"media": "feeling2",
+						"chinese": "呣…那些在天上乱窜的“苍蝇”们确实非常讨人厌，不是吗？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "むぅ…飛び回る航空機のハエども…煩わしくてたまったもんじゃないわ…お前もそう思わないか？",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hrmm... Those planes circling overhead are like flies... annoying and won't go away... Don't you agree?",
+						"englishNote": ""
+					},
+					"26": {
+						"event": "Affinity (Friendly)",
+						"media": "feeling3",
+						"chinese": "无论何种对手，感受到到吾之威势都会吓得落荒而逃！…为何汝对吾却没有任何惧意？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "どんなやつでもこの我の威厳の前では怖気付き逃げ惑う…（小声）はず。なぜお前は怖がらないのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Nothing in existence can stand before me without succumbing to abject terror... or so I thought. Why aren't you afraid of me!",
+						"englishNote": ""
+					},
+					"27": {
+						"event": "Affinity (Like)",
+						"media": "feeling4",
+						"chinese": "有黑巧克力蛋糕要进贡给吾？哼哼，算你上道，凡人，来吧~啊…还愣着作什么？快喂吾！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ブラックチョコのケーキを捧げるつもりか？ふ、ふふふふふふ…良かろうヒューマン、さあ――あーん。…何を迷っている？早く我に食べさせるのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Are you offering this black forest cake to me? Ehe... Ehehehe... Very well, human. Here, ahhhn... What are you spacing out for? Hurry up and feed me already!",
+						"englishNote": ""
+					},
+					"28": {
+						"event": "Affinity (Love)",
+						"media": "feeling5",
+						"chinese": "好，看在汝对吾如此尊敬的份上，就特别赐予汝与吾亲密接触的权力吧！来吧！(张开双臂)……是拥抱啦，拥抱！非得吾说得这么清楚吗，愚蠢的凡人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "我を恐れ、我を敬うモータルには我と触れ合える褒美をくれてやろう！さあ！…………ハグだ！ハグ！なんでここまで言わせるのだこのポンコツ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Now that you've learned to fear and respect me, mortal, I shall give you the privilege of forming a physical pact with me! Come! ......Hug! It's a hug! Do I have to spell it for you, you fool?!",
+						"englishNote": ""
+					},
+					"29": {
+						"event": "Pledge",
+						"media": "propose",
+						"chinese": "嚯~居然真的胆敢向吾提出誓约吗，就让汝称赞下汝之勇气吧，凡人！哼哼，从今往后，还要一如既往地向吾献上敬畏和贡品哦！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "モータルがこの我に誓いの約束を交わせ、だと？フフフフ…よかろう！その勇気、褒めて遣わす！これからも我に捧げものをするのだぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You seek to form a contract with me, mortal? Ehehehe... very well! I shall reward you for your bravery! From now on, you shall serve me!",
+						"englishNote": ""
+					},
+					"30": {
+						"event": "Easter Egg 1(Graf Spee)",
+						"media": "link1",
+						"chinese": "哼哼，一起把敌人撕成碎片吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "引き裂け！バラバラに！！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Let's tear them to shreds!",
+						"englishNote": ""
+					},
+					"31": {
+						"event": "Easter Egg 1(Z25)",
+						"media": "link2",
+						"chinese": "汝之黑色使魔，还挺有趣的。",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "アンカーさん？フフフ、いい使い魔だ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I look forward to seeing your dark arts!",
+						"englishNote": ""
+					},
+					"32": {
+						"event": "Easter Egg 1(Z26)",
+						"media": "link3",
+						"chinese": "这次，不会再令汝独自迷失于白色的风暴中了",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "嵐の中に置き去りにしない！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You will no longer face the storms alone!",
+						"englishNote": ""
+					},
+					"33": {
+						"event": "Easter Egg 1(Z36)",
+						"media": "link4",
+						"chinese": "恶魔(Devil)啊，听从恶魔的命令，消灭敌人吧~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "デビルよ、我に従い敵を殲滅せよ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Devil, heed my call and destroy our enemies!",
+						"englishNote": ""
+					},
+					"34": {
+						"event": "Easter Egg 1(Z23)",
+						"media": "link5",
+						"chinese": "吾讨厌说教！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "せ、説教は嫌だ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "H-hey, stop lecturing me!",
+						"englishNote": ""
+					}
+				}
+			},
+			"2": {
+				"skin_id": "z24_2",
+				"id": "0",
+				"label": "Z24",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "祝祭之钟声已然敲响，来得正好，凡人！到吾身边，与吾一同享受这愉快的异邦佳节吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さあ、カーニバルの時間だヒューマン！近う寄れ！我とともに異邦の祝日を楽しむのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Come, human! The rite of festivities is upon us! Come hither, and let us revel in this foreign holiday together!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_1",
+						"chinese": "祝祭之钟声已然敲响，来得正好，凡人！到吾身边，与吾一同享受这愉快的异邦佳节吧！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "さあ、カーニバルの時間だヒューマン！近う寄れ！我とともに異邦の祝日を楽しむのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Come, human! The rite of festivities is upon us! Come hither, and let us revel in this foreign holiday together!",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_1",
+						"chinese": "休息够了吗？那就陪吾到仪典上游玩一番吧，这可是你的荣幸哦，凡人！—",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "英気を養ったか？今日は我を楽しませる権利をくれてやろう！モータル、光栄に思うのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Are you all rested up? I'll give you the privilege of keeping me entertained today! Consider this your greatest honor, mortal!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_1",
+						"chinese": "即便是“新年”，也不能丢失了身为“魔王”的威仪，所以这对巨爪是绝对不能脱下的！至于拿东西什么的…就是你的任务了，凡人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "非番でも、我が威厳の象徴であるこのクローを外すわけにはいかん！………何かを摘みたいときはどうするのかって？お、お前が代わりにやるのだ！このポンコツ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Even off duty, I cannot remove this claw, as it is a symbol of my dignity! ...What do I do if I need to pick something up? Th-that's your job, you foolish mortal!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_1",
+						"chinese": "就赏汝一颗美味的漆黑之果实吧，快张嘴，凡人！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "この黒き果実を褒美にくれてやろう！あーんしなさい、このポンコツ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I shall reward you with a taste of this black fruit! Open your mouth, foolish mortal!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_1",
+						"chinese": "既然是难得的祝祭之日，吾就容许汝暂时放下对吾的敬畏吧。作为代价，汝可要好好陪吾解乏！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "きゅ、休日だし、今日一日は我をそう敬わなくてもいいぞ！その代わり、我を十分に楽しませるのだ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_1",
+						"chinese": "名为“年糕”的料理虽然美味，可惜……不知道有没有黑色的年糕呢…？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "「おもち」…美味しいけど、黒いのはないのだろうか……",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_1",
+						"chinese": "就这么想待在吾之身旁吗？哼哼~",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "我のそばに控えたいのか？フフフ",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Do you want to stay by my side tht badly? Heheh~",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_1",
+						"chinese": "即便是祝祭之日，也是有不可为之事的。凡人，汝已经做好被吾惩罚的准备了吧？",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "や、やっていいことと悪いことがある！お仕置きされる準備はできてるかこのポンコツ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Th-there are some things you just shouldn't do! I hope you're ready for some punishment, foolish mortal!",
+						"englishNote": ""
+					}
+				}
+			},
+            "101": {
+				"skin_id": "z24_ex1100",
+				"id": "1",
+				"label": "Festival-going Fiend",
+				"dialogue": {
+					"1": {
+						"event": "Login",
+						"media": "login_ex1100",
+						"chinese": "居然敢让吾等这么久，凡人！吾都已经干了许多秘书舰的活儿了！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "我を待たせるとはいい度胸だなこのポンコツ！秘書艦として頑張ってやってるのだぞ！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "You've got some guts to keep me waiting, foolish mortal! I have been toiling away at being an excellent secretary ship!",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Details",
+						"media": "detail_ex1100",
+						"chinese": "…哼！（pose）哈哈哈！凡人，怎么样？可怕吧！想要屈服于吾了吧！……看、看汝之反应好像还可以再改进一点…",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "…ふん！（決めポーズ）あはははは！これでどうだ！怖いか？跪きたくなったのか？……そ、その反応だとまだ改善する必要がありそうね…",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "...Hmph! (Strikes pose) Ahahaha! How's this? Terrifying, yeah? Does it make your knees weak? ...Hmm, I see. Judging from reaction, it still needs some work...",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Main 5",
+						"media": "main_5_ex1100",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Hurry up and finish your work already, you fool! Stop... slacking... off... or I'll scratch you!",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Main 6",
+						"media": "main_6_ex1100",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Studying...? Wh-why do I have to stoop to doing the same stuff as Z25 and the others? Don't wanna! Stop throwing homework at me!",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Return to Port",
+						"media": "home_ex1100",
+						"chinese": "总算回来了啊。有点累了……别跑！过来给吾揉揉肩捶捶背！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "よく戻ってきたなヒューマン。我は疲れた。……って逃げるな！もみもみ券を使わせてもらう！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Good, human, you've returned. I'm tired... Hey, don't run away! Come hither and give me a back rub!",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "MVP",
+						"media": "mvp_ex1100",
+						"chinese": "呼呼呼呼…呼呼呼啊哈哈哈哈哈哈！",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "ふふふふ…フフフフフフあーははははははは！",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "Ehehehe... Ahahahahaha!",
+						"englishNote": ""
+					}
+				}
+			},
+		}
+	}
+}
