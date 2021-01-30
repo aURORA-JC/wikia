@@ -1,7 +1,5 @@
 #footer {
    position: relative;
-   height: 70px;
-   margin-top:-70px;
    clear:both;
    width: calc(100% - 250px);
    background-color: #24252d;
