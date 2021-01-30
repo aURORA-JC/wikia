@@ -1,0 +1,645 @@
+{
+	"name_reference" : "vincenzo_gioberti",
+	"cn_reference" : "wenqinzuojiaobeidi",
+	"nameJP" : "ヴィンチェンツォ・ジョベルティ",
+	"nameCN" : "文琴佐·焦贝蒂",
+	"ID" : "490",
+	"name" : "Vincenzo Gioberti",
+	"internal_id" : "",
+	"rarity" : "Elite",
+	"initialStar" : "★★☆☆☆",
+	"hull" : "Destroyer",
+	"navy" : "Sardegna Empire",
+	"prefix" : "RN",
+	"buildTime" : "N/A",
+	"voiceActress" : "",
+	"parameters": {
+		"firepower" : "A",
+		"torpedo" : "D",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "C",
+		"hp" : "D"
+	},
+	"scrap": {
+		"gold" : "4",
+		"oil" : "3",
+		"medal" : "4"
+	},
+	"releaseDate": {
+		"JP" : "2021/01/21",
+		"CN" : "2021/01/21",
+		"KR" : "2021/01/21",
+		"EN" : "2021/01/21"
+	},
+	"artist": {
+		"name" : "团子",
+		"weibo" : "https://weibo.com/soramiao",
+		"twitter" : "https://twitter.com/Tsundere_dango",
+		"pixiv" : "https://www.pixiv.net/member.php?id=7703737",
+		"other" : ""
+	},
+	"class" : "Alfredo Oriani",
+	"enhance": {
+		"firepower" : "7",
+		"torpedo" : "18",
+		"aviation" : "0",
+		"reload" : "14"
+	},
+	"acquisitionMethod" : "Limited Build in Event: Empyreal Tragicomedy Rerun",
+	"skill": {
+		"1" : {
+			"icon" : "14030",
+			"requirement" : "Default Unlocked",
+			"name" : "Ontological Rudder",
+			"type" : "Offensive",
+			"description" : "When this ship takes DMG: increases this ship's FP and EVA by 1.0% (3.0%) (can be stacked up to 5 times). After reaching 5 stacks, this ship gains 5 Speed and fire a special barrage (30s cooldown when activated and DMG is based on the skill's level)."
+		},
+		"2" : {
+			"icon" : "14040",
+			"requirement" : "Default Unlocked",
+			"name" : "Protologia of Illumination",
+			"type" : "Support",
+			"description" : "Every 15s: 20.0% (50.0%) chance to increase the Accuracy of your Vanguard by 10.0% (20.0%) for 10s."
+		},
+		"3" : {
+			"icon" : "25011",
+			"requirement" : "Limit Break I (III)",
+			"name" : "All Out Assault",
+			"type" : "Offensive",
+			"description" : "Every 15 (10) times the main battery is fired, triggers Full Barrage - Alfredo Oriani-class I (II)"
+		}
+	},
+	"skin": {
+		"1" : {
+			"id" : "wenqinzuojiaobeidi",
+			"name" : "Vincenzo Gioberti",
+			"description" : "Alfredo Oriani class destroyer – Vincenzo Gioberti",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+                "4" : {     
+                    "id" : "4"
+                },
+                "5" : {     
+                    "id" : "5"
+                },
+                "6" : {     
+                    "id" : "6"
+                }
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1" : {
+			"icon" : "55400",
+			"rarity" : "Common",
+			"name" : "Twin 120mm Main Gun (M1936) "
+		},
+		"2" : {
+			"icon" : "5000",
+			"rarity" : "",
+			"name" : "Triple 533mm Torpedo"
+		},
+		"3" : {
+			"icon" : "",
+			"rarity" : "",
+			"name" : ""
+		}
+	},
+	"stats": {
+		"base": {
+			"hp" : "300",
+			"firepower" : "21",
+			"torpedo" : "54",
+			"antiAir" : "29",
+			"aviation" : "0",
+			"reload" : "77",
+			"hit" : "",
+			"evasion" : "78",
+			"speed" : "45",
+			"luck" : "44",
+			"asw" : "53",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "2",
+			"armor" : "Light"
+		},
+		"100": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "0",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "45",
+			"luck" : "44",
+			"asw" : "",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"120": {
+			"hp" : "1846",
+			"firepower" : "113",
+			"torpedo" : "289",
+			"antiAir" : "154",
+			"aviation" : "0",
+			"reload" : "209",
+			"hit" : "200",
+			"evasion" : "212",
+			"speed" : "45",
+			"luck" : "44",
+			"asw" : "215",
+			"oxygen" : "0",
+			"ammo" : "0",
+			"cost" : "9",
+			"armor" : "Light"
+		},
+		"100retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "",
+			"luck" : "",
+			"asw" : "",
+			"oxygen" : "",
+			"ammo" : "",
+			"cost" : "",
+			"armor" : ""
+		},
+		"120retrofit": {
+			"hp" : "",
+			"firepower" : "",
+			"torpedo" : "",
+			"antiAir" : "",
+			"aviation" : "",
+			"reload" : "",
+			"hit" : "",
+			"evasion" : "",
+			"speed" : "",
+			"luck" : "",
+			"asw" : "",
+			"oxygen" : "",
+			"ammo" : "",
+			"cost" : "",
+			"armor" : ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Main Gun Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer Gun",
+			"efficiency": "105%/110%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "125%/125%/125%/130%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/105%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxilary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "24",
+		"pt_level": "18",
+		"add_level_attr": "ASW",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "6",
+		"ships": "vincenzo_gioberti"
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id" : "longqibing",
+				"id" : "0",
+				"label" : "Carabiniere ",
+				"dialogue" : {
+					"1" : {
+						"event" : "Ship Description",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Alfredo Oriani class destroyer – Vincenzo Gioberti",
+						"englishNote" : ""
+					},
+					"2" : {
+						"event" : "Biography",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm Vincenzo Gioberti, the second Alfredo Oriani-class destroyer, I stood shoulder-to-shoulder with valiant cruisers in many battles across- Huh? That's not quite right? Okay, my completion was a bit behind, but I was second to be launched among my siblings, so I do qualify as a bona fide big sister!",
+						"englishNote" : ""
+					},
+					"3" : {
+						"event" : "Acquisition",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I am Vincenzo Gioberti of Sardegna! ...Eh, my name's hard to remember? ...Hmm, how about just \"GB\" then? That's a bit easier, right?",
+						"englishNote" : ""
+					},
+					"4" : {
+						"event" : "Login",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "It's the start of a lively day! Keep at it, Commander! I-I'd better get ready for work too!",
+						"englishNote" : ""
+					},
+					"5" : {
+						"event" : "Details",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Anything GB can help you with? I'm the oldest among my siblings and can do absolutely anything! Go on, let's hear it!",
+						"englishNote" : ""
+					},
+					"6" : {
+						"event" : "Main 1",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "S-Simoom isn't around here, is she? Ahem! Not to imply I'm afraid of her, my question simply stems from a sincere desire for amity and courtliness.",
+						"englishNote" : ""
+					},
+					"7" : {
+						"event" : "Main 2",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh goodness! Seriously, could you not pull weird faces while I'm trying to work?",
+						"englishNote" : ""
+					},
+					"8" : {
+						"event" : "Main 3",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Commander, would you care for a delectable dessert? I personally recommend tiramisu!",
+						"englishNote" : ""
+					},
+					"9" : {
+						"event" : "Touch",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Huh? I've not done anything weird, have I?",
+						"englishNote" : ""
+					},
+					"10" : {
+						"event" : "Touch (Special)",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Whuah?! You're a real creep, Commander...",
+						"englishNote" : ""
+					},
+                    "11" : {
+                        "event" : "Rub",
+                        "media" : "",
+                        "chinese" : "",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "H-hey! I've grown out of headpats! They don't work on me, nuh-uh!",
+                        "englishNote" : ""
+                    },
+					"12" : {
+						"event" : "Mission",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hm? New mission directives? But I'm not ready yet... Oh. they're not for me?",
+						"englishNote" : ""
+					},
+					"13" : {
+						"event" : "Mission Complete",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Mission Completed. Now where's the rewards report?",
+						"englishNote" : ""
+					},
+					"14" : {
+						"event" : "Mail",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Here, I brought your mail, Commander.",
+						"englishNote" : ""
+					},
+					"15" : {
+						"event" : "Return to Port",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "How about a victory hug for everyone? Would that make me seem more mature?",
+						"englishNote" : ""
+					},
+					"16" : {
+						"event" : "Commission Complete",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "The commission team has returned!",
+						"englishNote" : ""
+					},
+					"17" : {
+						"event" : "Enhancement",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "One step closer to blooming into a gorgeous signorina!",
+						"englishNote" : ""
+					},
+					"18" : {
+						"event" : "Flagship",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Rest easy knowing I won't let you down, Commander!",
+						"englishNote" : ""
+					},
+					"19" : {
+						"event" : "Victory",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hehe, easy as pizza pie! Err, I mean... Of course, just as expected! Nothing to get excited over!",
+						"englishNote" : ""
+					},
+					"20" : {
+						"event" : "Defeat",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Dangit... You won't discourage me so easily!",
+						"englishNote" : ""
+					},
+					"21" : {
+						"event" : "Skill",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "I'm going all-out!",
+						"englishNote" : ""
+					},
+					"22" : {
+						"event" : "Low HP",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Oh no! Deploy smokescreens!",
+						"englishNote" : ""
+					},
+					"23" : {
+						"event" : "Affinity (Upset)",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Sadly, there's no cure for your chronic hopelessness, Commander.",
+						"englishNote" : ""
+					},
+					"24" : {
+						"event" : "Affinity (Stranger)",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "Hmm... I wonder how long it'll be before I become a fine lady like Veneto...",
+						"englishNote" : ""
+					},
+					"25" : {
+						"event" : "Affinity (Friendly)",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"26" : {
+						"event" : "Affinity (Like)",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"27" : {
+						"event" : "Affinity (Love)",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					},
+					"28" : {
+						"event" : "Pledge",
+						"media" : "",
+						"chinese" : "",
+						"chineseTL" : "",
+						"chineseNote" : "",
+						"japanese" : "",
+						"japaneseTL" : "",
+						"japaneseNote" : "",
+						"english" : "",
+						"englishNote" : ""
+					}
+				}
+			}
+		}
+	}
+}
