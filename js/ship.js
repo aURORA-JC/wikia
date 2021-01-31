@@ -176,7 +176,9 @@ function setShipHullIcon(hull){
 		document.getElementById("sub3").style.display = "";
 	} else if (hull == "Repair Ship" || hull == "Repair") {
 		document.getElementById("shipHullIcon").src = "Images/Hull/ar.png";
-	}
+	} else if (hull == "Munition Ship") {
+        document.getElementById("shipHullIcon").src = "Images/Hull/ae.png";
+    }
 }
 
 function setShipNavyIcon(navy){
@@ -210,7 +212,11 @@ function setShipNavyIcon(navy){
 		document.getElementById("shipNavyIcon").src = "Images/Navy/bili_icon.png";
 	} else if (navy == "Hololive") {
 		document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
-	}
+	} else if (navy == "Venus Vacation") {
+        document.getElementById("shipNavyIcon").src = "Images/Navy/uwrr_icon.png";
+    } else if (navy == "META") {
+        document.getElementById("shipNavyIcon").src = "Images/Navy/meta_icon.png";
+    }
 }
 
 function setShipRarityHighlight(rarity){
