@@ -155,7 +155,9 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipHull = "../Images/Hull/ssv.png";
 					} else if (hull == "Repair Ship" || hull == "Repair"){						
 						self.shipHull = "../Images/Hull/ar.png";
-					}
+					} else if (hull == "Munition Ship") {
+                        self.shipHull = "../Images/Hull/ae.png";
+                    }
 					if (actual_JSON.navy == "Eagle Union") {
 						self.shipNavy = "../Images/Navy/uss_icon.png";
 					} else if (actual_JSON.navy == "Sakura Empire") {
@@ -186,7 +188,11 @@ class CommentedShipDisplay extends HTMLElement{
 						self.shipNavy = "../Images/Navy/uwrr_icon.png";
 					} else if (actual_JSON.navy == "Bilibili") {
 						self.shipNavy = "../Images/Navy/bili_icon.png";
-					}
+					} else if (actual_JSON.navy == "Venus Vacation") {
+                        self.shipNavy = "../Images/Navy/uwrr_icon.png";
+                    } else if (actual_JSON.navy == "META") {
+                        self.shipNavy = "../Images/Navy/meta_icon.png";
+                    }
 					if (rarity == "Super Rare" || rarity == "Priority"){
 						self.shipRarity = "background-color:#beb988";
 					} else if (rarity == "Elite"){
