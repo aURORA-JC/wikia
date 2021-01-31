@@ -1,6 +1,6 @@
 {
 	"name_reference": "hiryuu_meta",
-	"cn_reference": "",
+	"cn_reference": "feilong_alter",
 	"nameJP": "飛龍(META)",
 	"nameCN": "龙·META",
 	"ID": "M001",
@@ -63,8 +63,26 @@
 			"description": "Hiryuu META",
 			"expression": {
 				"0": {
-					"id": ""
-				}
+					"id": "0"
+				},
+                "1": {  
+                    "id": "1"
+                },
+                "2": {  
+                    "id": "2"
+                },
+                "3": {  
+                    "id": "3"
+                },
+                "5": {  
+                    "id": "5"
+                },
+                "6": {  
+                    "id": "6"
+                },
+                "7": {  
+                    "id": "7"
+                }
 			}
 		}
 	},
