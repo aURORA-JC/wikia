@@ -15,46 +15,53 @@
 	"class": "",
 	"voiceActress": "Mai Aizawa",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower": "C",
+		"torpedo": "A",
+		"aviation": "E",
+		"evasion": "A",
+		"antiAir": "D",
+		"hp": "D"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold": "4",
+		"oil": "3",
+		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "2020/11/26",
+		"CN": "2020/11/26",
 		"KR": "",
-		"EN": ""
+		"EN": "2020/11/26"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "云桑",
+		"weibo": "https://weibo.com/yunsang",
+		"twitter": "https://twitter.com/_Yunsang Yunsang",
+		"pixiv": "https://www.pixiv.net/member.php?id=5358936",
 		"other": ""
 	},
 	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+		"firepower": "6",
+		"torpedo": "32",
+		"aviation": "0",
+		"reload": "15"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Event: Vacation Lane",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
+			"icon": "106010",
+			"requirement": "Default Unlocked",
+			"name": "Rose's Thorns",
+			"type": "Offense",
+			"description": "After the battle starts: for 60s, increases this ship's FP and TRP by 5.0% (15.0%). When this ship takes DMG: 4.0% (10.0%) chance to fire a Lv.1 (Lv.10) special barrage that always deals critical damage (DMG is based on the skill's level; 10s cooldown between activations)."
+		},
+        "2": {  
+            "icon": "106020",
+            "requirement": "Default Unlocked",
+            "name": "Vibrant Minuet",
+            "type": "Defense",
+            "description": "Increases the DMG of this ship's first 3 torpedo launches of each battle by 30.0% (50.0%). When this ship fires its Torpedoes: for 8s, increases your Vanguard's Speed by 3 and EVA by 5.0% (15.0%) for the ship in the frontmost position of your Vanguard."
+        }
 	},
 	"skin": {
 		"1": {
@@ -78,7 +85,35 @@
                     "id": "4"
                 }
 			}
-		}
+		},
+        "2": {
+            "id": "maliluosi_2_doa",
+            "name": "Devilish Servant Against the Splashing Waves",
+            "description": "Hmm, this swimsuit is pretty cute, but isn't it a bit childish? ...In any case, if you like it, then it's all good!",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {  
+                    "id": "1"
+                },
+                "2": {  
+                    "id": "2"
+                },
+                "3": {  
+                    "id": "3"
+                },
+                "4": {  
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -99,55 +134,55 @@
 	},
 	"stats": {
 		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "1702",
+			"firepower": "79",
+			"torpedo": "461",
+			"antiAir": "155",
+			"aviation": "0",
+			"reload": "194",
+			"hit": "186",
+			"evasion": "186",
+			"speed": "42",
+			"luck": "78",
+			"asw": "190",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		},
 		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "2042",
+			"firepower": "91",
+			"torpedo": "508",
+			"antiAir": "178",
+			"aviation": "0",
+			"reload": "223",
+			"hit": "195",
+			"evasion": "192",
+			"speed": "42",
+			"luck": "78",
+			"asw": "210",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
 		},
 		"base": {
 			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"firepower": "329",
+			"torpedo": "98",
+			"antiAir": "33",
+			"aviation": "0",
+			"reload": "82",
+			"hit": "71",
+			"evasion": "71",
+			"speed": "42",
+			"luck": "78",
+			"asw": "52",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
 		},
 		"100retrofit": {
 			"hp": "",
@@ -185,28 +220,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Torpedo efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Destroyer Gun",
+			"efficiency": "120%/120%/120%/125%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Torpedo",
+			"efficiency": "120%/125%/135%/140%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
+			"type": "Anti-Air Gun",
+			"efficiency": "110%/110%/110%/115%",
 			"amount": "",
-			"preload": ""
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxiliary",
@@ -238,9 +273,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -270,19 +305,482 @@
 				"label": "",
 				"dialogue": {
 					"1": {
-						"event": "",
+						"event": "Ship Description",
 						"media": "",
-						"chinese": "",
-						"chineseTL": "",
+						"chinese": "您好！那个…应该怎么称呼您呢？“指挥官”？我明白了！我是玛莉萝丝，叫我玛莉就可以了！请多指教，指挥官先生！",
+						"chineseTL": "Hello! Um...What should I call you? \"commander\"? I understand! I'm Marie Rose, you can call me Marie! Nice to meet you, Mr. commander!",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "こんにちは！あの…なんて呼んだらいいですか？「指揮官」さん？わかりました！わたしはマリー・ローズ、マリーって呼んでくださいね！よろしくお願いしますね、指揮官さん！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Hello! Oh... What am I supposed to call you? \"Commander\"? Got it! My name is Marie Rose. Just call me Marie, okay? I'm counting on your support, Commander!",
 						"englishNote": ""
-					}
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "玛莉是DOATEC的总帅，海莲娜·道格拉斯大人最中意的仆从。无论是打扫卫生，洗衣服，做饭还是保镖，玛莉都很擅长的哦！",
+                        "chineseTL": "Marie is DOATEC's head, Helena Douglas's favorite servant. No matter if it's cleaning, washing, cooking, or being a bodyguard, Marie is good at all of it!",
+                        "chineseNote": "",
+                        "japanese": "マリーはDOATECの総帥、エレナ・ダグラス様の一番お気に入りのサーバントです！お掃除も、お洗濯も、お料理も、ボディーガードも、マリー全部得意ですから！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm the favorite servant of Lady Helena Douglas, head of DOATEC. I can clean, do laundry, cook, be a bodyguard, you name it, I can do it!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "您好！那个…应该怎么称呼您呢？“指挥官”？我明白了！我是玛莉萝丝，叫我玛莉就可以了！请多指教，指挥官先生！",
+                        "chineseTL": "Hello! Um...What should I call you? \"commander\"? I understand! I'm Marie Rose, you can call me Marie! Nice to meet you, Mr. commander!",
+                        "chineseNote": "",
+                        "japanese": "こんにちは！あの…なんて呼んだらいいですか？「指揮官」さん？わかりました！わたしはマリー・ローズ、マリーって呼んでくださいね！よろしくお願いしますね、指揮官さん！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hello! Oh... What am I supposed to call you? \"Commander\"? Got it! My name is Marie Rose. Just call me Marie, okay? I'm counting on your support, Commander!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "啊，指挥官先生你好！今天也和玛莉一起加油吧！",
+                        "chineseTL": "Ah, hello Mr. Commander! Let's work hard together!",
+                        "chineseNote": "",
+                        "japanese": "あ、指揮官さんこんにちは！今日もマリーと一緒に頑張りましょう！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh hello, Commander! Let's do our best today!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "指挥官先生，接下来要做什么呢？",
+                        "chineseTL": "Mr. Commander, what are we doing next?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、次は何をしましょうか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, what are we doing next?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "呼啊啊…玛莉…有点困了呢……",
+                        "chineseTL": "Mmmm...Marie...Is kind of tired...",
+                        "chineseNote": "",
+                        "japanese": "ふあぁぁ……マリー、眠くなってきちゃった……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Yaaaaawn... I've gotten a bit sleepy...",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "指挥官先生工作累了吗？让玛莉帮你按摩一下吧！",
+                        "chineseTL": "Is Mr. Commander tired from working? Let Marie give you a massage!",
+                        "chineseNote": "",
+                        "japanese": "指揮官さんお疲れですか？マリーがマッサージしてあげます！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, do you feel tired? I can give you a massage!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "唔…指挥官先生看起来很忙啊…那，玛莉先去找穗香玩一会，之后再回来帮忙！…欸，不行吗？",
+                        "chineseTL": "Mmm...Mr. Commander looks very busy...Then, Marie will go play with Honoka, then come back to help! ...Ehh, I can't",
+                        "chineseNote": "",
+                        "japanese": "あっ…指揮官さん忙しいみたい…じゃあ、ほのかと遊び終わったら、手伝いに行きます！…えっ、だめ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh, Commander must be busy... Then I'll go play with Honoka first before coming back to help you! ...Ehh, I can't?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "指挥官先生，有什么事吗？",
+                        "chineseTL": "Mr. Commander, do you need anything?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、何かご用ですか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, did you need something?",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "你在摸哪里啊，指挥官先生！",
+                        "chineseTL": "Where are you touching, Mr. Commander!",
+                        "chineseNote": "",
+                        "japanese": "どこ触ってるんですか、指揮官さん！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Where do you think you're touching me?!",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
+                        "chinese": "真是的，不要把玛莉当小孩子啦！",
+                        "chineseTL": "Mmmh, don't treat Marie like a child!",
+                        "chineseNote": "",
+                        "japanese": "もう、マリーを子供扱いしないでください！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Geez, please don't treat me like a little kid!",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "指挥官先生，还有没完成的任务哦！是忘记了吗？",
+                        "chineseTL": "Mr. Commander, there are still unfinished missions! did you forget?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、また終わってない任務がありますよ！お忘れじゃないですか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, there are still missions that haven't been completed! You didn't forget, did you?",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "任务完成！玛莉帮上指挥官的忙了吗？",
+                        "chineseTL": "Mission complete! Did Marie help commander?",
+                        "chineseNote": "",
+                        "japanese": "任務完了！マリー、指揮官さんのお役に立てましたか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mission complete! Am I a big help, Commander?",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "好像有新邮件来了呢，指挥官先生~",
+                        "chineseTL": "I think there's new mail, Mr. Commander~",
+                        "chineseNote": "",
+                        "japanese": "指揮官さーん、新しいメールが来たみたいです！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, it looks like there's some new mail waiting for you!",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "啊，指挥官先生~…咳咳，欢迎回来，作战辛苦了。嘻嘻~",
+                        "chineseTL": "Ah, Mr. Commander~...coughcough, Welcome back, good work out there. Hehe~",
+                        "chineseNote": "",
+                        "japanese": "あ、指揮官さ～ん！…っと、おかえりなさいませ、作戦お疲れ様でした。えへへっ♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh, Commander! ...Ahem. Welcome back, Commander. You did a good job. Heheh~",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "噢噢，好多的物资啊！这些都是同伴们带回来的吗？好厉害！",
+                        "chineseTL": "Oooh, so many rewards! Did you bring back all these things? Amazing!",
+                        "chineseNote": "",
+                        "japanese": "わあ、ものがいっぱい！全部みんなが持ってきたんですか？すごーい！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wow, there's so much stuff! Did you bring all of that back yourselves? Amazing!",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "指挥官先生，玛莉是不是稍微成长了一些呢？",
+                        "chineseTL": "Commander, has Marie grown a bit?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、マリーちょっと大人になれたかな？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, do you feel like I've matured a bit?",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "哼哼，让你们也绽放血色的蔷薇吧~！",
+                        "chineseTL": "Hnh, I'll let you all let the rose of blood bloom!",
+                        "chineseNote": "",
+                        "japanese": "ふふっ、血の薔薇、咲かせてあげる！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Heheh, let the red rose of blood bloom forth!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "指挥官先生，看到玛莉的活跃了吗！",
+                        "chineseTL": "Mr. Commander, did you see Marie's energy?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、マリーの活躍見てくれましたか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, did you see how useful I was?",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "输掉了…怎么办才好啊，指挥官先生…",
+                        "chineseTL": "We lost...what do we do, Mr. Commander...",
+                        "chineseNote": "",
+                        "japanese": "負けちゃった…どうしよう、指揮官さん…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I lost... What should I do, Commander...",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "见识下玛莉的厉害吧！",
+                        "chineseTL": "I'll let you all see Marie's might!",
+                        "chineseNote": "",
+                        "japanese": "マリーの力、見せてあげる！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'll show you my real power!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "玛莉才不会输呢！",
+                        "chineseTL": "Marie will not lose!",
+                        "chineseNote": "",
+                        "japanese": "マリー、負けないんだから！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I won't lose!",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "笨蛋笨蛋笨蛋！再这样下去的话，玛莉可要讨厌你了！",
+                        "chineseTL": "Stupid stupid stupid! If you keep doing this, Marie is going to hate you!",
+                        "chineseNote": "",
+                        "japanese": "ばかばかばかー！このままじゃ、マリー、嫌いになっちゃいますよ！？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I hate you, I hate you, I hate you! If you keep this up, I'll only hate you even more!",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "这里真的好大呀，海莲娜大人也不在…多少有些不安呢…嗯嗯(摇头)，玛莉已经是成熟的大人了，才不会因为这点状况就动摇呢！",
+                        "chineseTL": "This place is really big, Lady Helena isn't here...I'm a bit worried...mmm (shakes head), Marie is a grown-up, and won't be shaken by something like this!",
+                        "chineseNote": "",
+                        "japanese": "ここ、こんなに広いんですね…エレナ様もいないし、ちょっと不安かな…ううん、マリーはもう大人だし、こんなことで動揺しないんだから！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wow, this place is huge... Lady Helena isn't here, so I feel a bit uneasy... No no, I'm an adult! I won't be shaken by something like this!",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "港区里有好多厉害的女仆小姐呢。不过，就算和她们比起来，玛莉也是不会输的！",
+                        "chineseTL": "There are so many great maids at the port. Although, if we were to compete, Marie will not lose!",
+                        "chineseNote": "",
+                        "japanese": "港にはすごいメイドさんがいっぱいいますね！でも、みんなと比べて、マリー負けてないですから！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There are so many amazing maids in the port! But I won't let them outdo me!",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "今天在“皇家”的女孩子们邀请下参加了茶会，还吃到了很好吃的公主蛋糕呢！嘿嘿~玛莉已经在这里交到许多新的朋友了！",
+                        "chineseTL": "Today the \"Royal Navy\" invited me for a tea party, and I ate some very good cake! Hehe~Marie already has many new friends here!",
+                        "chineseNote": "",
+                        "japanese": "今日は「ロイヤル」の女の子たちのお茶会に招待されて、美味しいプリンセスバーケルセをいっぱい食べたんです！えへへっ、マリーここで友達たくさんできたみたいです！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Today I was invited to a tea party by girls from the Royal Navy, and we had a bunch of yummy princess cake! Heheh, I'm so happy to have made friends here!",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "玛莉，觉得和指挥官先生待在一起很开心！指挥官先生，要多陪玛莉玩哦！…有时间的话，来一起看恐怖电影吧！",
+                        "chineseTL": "Marie, thinks that being with the commander makes me very happy! Mr. Commander, you should play with me! ...If you have time, let's watch a horror movie!",
+                        "chineseNote": "",
+                        "japanese": "マリー、指揮官さんと一緒にいると楽しいな♪指揮官さん、マリーといっぱい遊んでくださいね！…時間があったら、一緒にホラー映画見たいなぁ♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I have a ton of fun being around you, Commander~ I'd love it if we could hang out more! ...Next time you're free, let's watch some horror movies together~",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "呼呼♪从指挥官先生那里收到了特别的东西呢♥玛莉，也是一样的心情哦？嘻嘻，和指挥官先生一起的点滴回忆，玛莉都会当作宝物好好珍惜的~",
+                        "chineseTL": "Hehe♪ I recieved something special from commander ♥ Marie, has the same feelings? Hehe, every memory with Mr. Commander, Marie will treasure every moment~",
+                        "chineseNote": "",
+                        "japanese": "ふふっ♪指揮官さんの特別、貰っちゃいました♥マリーも、指揮官さんと同じ気持ちですよ？えへっ、指揮官さんとの思い出、どんなものでも全部マリーの宝物です！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Heheh~ I've received something special from you~ I feel the same as you, Commander. Heheh, all of our memories together are precious treasures to me!",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "(Sortie with Honoka) 我会保护好你的！",
+                        "chineseTL": "(Sortie with Honoka) I will protect you!",
+                        "chineseNote": "",
+                        "japanese": "(Sortie with Honoka) マリーが守ってみせます！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with Honoka) I'll protect you!",
+                        "englishNote": ""
+                    }
 				}
-			}
+			},
+            "2": {
+                "skin_id": "",
+                "id": "",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "唔，这个泳衣虽然也挺可爱，不过…是不是稍微有点孩子气啊？…算了，指挥官喜欢的话就好了！",
+                        "chineseTL": "Mmm, even though this swimsuit is cute, although...isn't it a bit childish? ...whatever, if commander likes it it's fine!",
+                        "chineseNote": "",
+                        "japanese": "うーん、この水着かわいいけど、ちょっと子供っぽくないですか？…でもまあ、指揮官さん気に入ってくれるなら！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hmm, this swimsuit is pretty cute, but isn't it a bit childish? ...In any case, if you like it, then it's all good!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "唔，这个泳衣虽然也挺可爱，不过…是不是稍微有点孩子气啊？…算了，指挥官喜欢的话就好了！",
+                        "chineseTL": "Mmm, even though this swimsuit is cute, although...isn't it a bit childish? ...whatever, if commander likes it it's fine!",
+                        "chineseNote": "",
+                        "japanese": "うーん、この水着かわいいけど、ちょっと子供っぽくないですか？…でもまあ、指揮官さん気に入ってくれるなら！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hmm, this swimsuit is pretty cute, but isn't it a bit childish? ...In any case, if you like it, then it's all good!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "呼…有点无聊……啊，指挥官先生！嘻嘻~来陪玛莉一起玩吧？",
+                        "chineseTL": "Hmmm...I'm a bit bored...Ah, Mr. Commander! Hehe~will you come play with Marie?",
+                        "chineseNote": "",
+                        "japanese": "はぁ…ちょっと退屈……あ、指揮官さん！えへへっ、マリーと一緒に遊びませんか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ehh... This is no fun... Oh, Commander! Heheh~ Won't you come play with me?",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "摄影？可以啊！玛莉也想拍点好看的照片！…但是，太过分的姿势，玛莉可是不会答应的哦？",
+                        "chineseTL": "Pictures? Sure! Marie also wants to take some good pictures! ...But, the weird poses, I'm not going to agree?",
+                        "chineseNote": "",
+                        "japanese": "撮影？いいですよ！マリーもいっぱい素敵な写真撮りたいな♪…でも、変なポーズは…マリーやりませんからね？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A photoshoot? That's fine with me! I'd like to take a lot of wonderful pictures! ...But, I'm not going to strike any weird poses, got it?",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "指挥官先生，平时一定经常和大海打交道吧！玛莉有些羡慕呢……嗯？虽然没错但和玛莉想的不太一样吗？",
+                        "chineseTL": "Mr. Commander, you interact with the sea a lot! Marie is a bit jealous...Hm? Although I'm not wrong but it's a bit different from what I think?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、いつも海とお付き合いしているんですよね！マリー羨ましいな…えっ？そうだけどマリーが思ってる感じと多分違う？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, you're always heading out to sea, aren't you? I'm a bit jealous... Eh? I'm right, but it's probably different from what I think?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "哼哼，沙滩排球的话，玛莉可是不会输的！",
+                        "chineseTL": "Hehe, beach volleybal, Marie won't lose!",
+                        "chineseNote": "",
+                        "japanese": "ふふっ、ビーチバレーなら、マリー負けないんだから！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Heheh, I'll always win when it comes to beach volleyball!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "海浪冲刷在身上的感觉真舒服呢…指挥官先生，你也来试试吧！",
+                        "chineseTL": "The feelings of the waves on my body feel so good...Mr. Commander, you should try too!",
+                        "chineseNote": "",
+                        "japanese": "波が体にあたって気持ちいい…指揮官さんもやってみてください！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The feeling of the waves on my skin is so nice... Commander, you should come and have a dip too!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "指挥官先生的手凉凉的，很舒服呢~",
+                        "chineseTL": "Mr. Commander's hands are cool, feels good~",
+                        "chineseNote": "",
+                        "japanese": "指揮官さんの手冷たくて気持ちいい♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Your hands feel so nice and cool~",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "啊！这里不行！",
+                        "chineseTL": "Ah! Not here!",
+                        "chineseNote": "",
+                        "japanese": "あっ！そこはダメです",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ah! Not there!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "指挥官先生，欢迎回来！啊，我正在和这孩子一起冲凉呢~你看天气不是很热嘛~",
+                        "chineseTL": "Mr. Commander, welcome back! Ah, I'm trying to stay cool with these kids, don't you feel that it's very hot~",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、お帰りなさいませ！あ、マリーはこの子と水浴びしてるんです♪暑いですからね♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Welcome back, Commander! Oh, I'm cooling down a bit right now~ It's quite hot out, after all~",
+                        "englishNote": ""
+                    }
+                }
+            }
 		}
 	},
 	"fleet_tech": {
