@@ -15,23 +15,23 @@
 	"class": "",
 	"voiceActress": "Akemi Satou",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower": "E",
+		"torpedo": "E",
+		"aviation": "S",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "B"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold": "9",
+		"oil": "3",
+		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "2020/11/26",
+		"CN": "2020/11/26",
 		"KR": "",
-		"EN": ""
+		"EN": "2020/11/26"
 	},
 	"artist": {
 		"name": "",
@@ -41,20 +41,27 @@
 		"other": ""
 	},
 	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "58",
+		"reload": "8"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Event: Venus Vacation",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
+			"icon": "106130",
+			"requirement": "Default Unlocked",
+			"name": "Dance of the Heavens",
+			"type": "Offense",
+			"description": "5s after this ship finishes loading its Airstrike: launches a Lv.1 (Lv.10) special airstrike (DMG is based on the skill's level)."
+		},
+        "2": {
+            "icon": "106140",
+            "requirement": "Default Unlocked",
+            "name": "Hanakagura",
+            "type": "Support",
+            "description": "Increases this ship's DMG against BBs by 4.0% (10.0%). When this ship launches an Airstrike: 40.0% (70.0%) chance to decrease DMG taken for 8s by a random ship in your Vanguard."
+        }
 	},
 	"skin": {
 		"1": {
@@ -78,7 +85,26 @@
                     "id": "4"
                 }
 			}
-		}
+		},
+        "2": {
+            "id": "nvtiangou_2_doa",
+            "name": "Scarlet-Tinged Hot Spring Vacation",
+            "description": "Oho! To think there was a place with this much class... Not bad! I shall hereby be enjoying my hot springs vacation right here, hehehe.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {  
+                    "id": "1"
+                },
+                "2": {  
+                    "id": "2"
+                },
+                "3": {  
+                    "id": "3"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -99,55 +125,55 @@
 	},
 	"stats": {
 		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "5729",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "272",
+			"aviation": "334",
+			"reload": "101",
+			"hit": "78",
+			"evasion": "34",
+			"speed": "32",
+			"luck": "88",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
 		},
 		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "6646",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "309",
+			"aviation": "374",
+			"reload": "116",
+			"hit": "87",
+			"evasion": "54",
+			"speed": "32",
+			"luck": "88",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
 		},
 		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "1108",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "58",
+			"aviation": "71",
+			"reload": "43",
+			"hit": "30",
+			"evasion": "13",
+			"speed": "32",
+			"luck": "88",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
 		},
 		"100retrofit": {
 			"hp": "",
@@ -185,28 +211,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Hangar Capacity +1 / Number of Dive Bombers +1 / Torpedo Bomber Efficiency +5%",
+		"tier2": "Hangar Capacity +1 / Number of Torpedo Bombers +1 / Dive Bomber Efficiency +10%",
+		"tier3": "Number of All Planes +1 / All Plane Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Fighter",
+			"efficiency": "115%/115%/115%/120%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Dive Bomber",
+			"efficiency": "110%/110%/120%/125%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Torpedo Bomber",
+			"efficiency": "125%/130%/130%/135%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxiliary",
@@ -265,12 +291,12 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
-				"id": "",
-				"label": "",
+				"skin_id": "nvtiangou_2_doa",
+				"id": "0",
+				"label": "Nyotengu",
 				"dialogue": {
 					"1": {
-						"event": "",
+						"event": "Ship Description",
 						"media": "",
 						"chinese": "",
 						"chineseTL": "",
@@ -278,11 +304,486 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+                        "english": "Oh? You don't seem to fear me... Who might you be? ...I see, so it is you who rules over this place. Then I shall call you \"Commander.\" I am Nyotengu. You would do best to keep me entertained, hehe.",
 						"englishNote": ""
-					}
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I am undoubtedly a tengu. Oh? If you have any doubts, why not confirm it with those eyes and hands? Ah-haha...♥",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh? You don't seem to fear me... Who might you be? ...I see, so it is you who rules over this place. Then I shall call you \"Commander.\" I am Nyotengu. You would do best to keep me entertained, hehe.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Just arriving, Commander? Heheh, you will show me around the port, won't you?",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Well, well. What shall I do for amusement now... Have you any good ideas?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "In order to fly, humans created airplanes... I wonder how the view from within one is?",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'd like to drink some tea while snacking on some manjuu... Not those little ones you have here, mind you. Ah-haha.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There is a strange presence within the ranks of the Sakura Empire. Hehehe, interesting, how very interesting...",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you planning on checking my body yourself? Hehe, how daring.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hehe, you shouldn't...♥",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I-it tickles a bit...",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There are still duties left for you to do. What a forgetful one, hehehe.",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You seem to have completed your tasks. Hehehe, are you tired? Go ahead and rest awhile.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "\"May-ull\"? I am most curious as to where it came from.",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "After battle comes official duties, it seems. You must be suffering, so I shall lend you a hand.",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Your subordinates are calling for you. You shouldn't keep a woman waiting for long.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Haha, that's not enough. Give me more...♥",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Disrupting my vacation like this... I hope you're ready for what's coming. Hehehe.",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It's over already? How unsatisfying.",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "To corner me like so... One must always be on their guard...",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Haha, what a trifle you are!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The battle is just starting, is it not?",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You... You are a boring human...",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "One year for a human is no time at all to a Tengu. ...However, that does not mean I have no interest in the world of you humans.",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This port abounds with curious \"take-knowledge-ease.\" Commander, might I ask for a tour? Hehehe, you know quite a bit, don't you?",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "No matter where I go, humans seem to love festivals and feasts just the same. Ah-ha-ha... That's right, I love them too♥",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh, we're on a \"date\"? It seems I was taking you far too lightly, hehehe. Well, what kinds of events should I look forward to?",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "To think you'd try to detain me in the world of man, what inconceivable rubbish... Ah-ha-ha, that was merely a joke. My vacation is still in its youth. I shall stay by your side for the moment's passing♥",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with Mikasa) Haha, I shall show you the power of these \"carrier-based aircraft\" of mine",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with at least 5 of Sakura Empire) Oh, what a curious fate it is that ties us together.",
+                        "englishNote": ""
+                    }
 				}
-			}
+			},
+            "2": {
+                "skin_id": "nvtiangou_2_doa",
+                "id": "1",
+                "label": "Scarlet-Tinged Hot Spring Vacation",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oho! To think there was a place with this much class... Not bad! I shall hereby be enjoying my hot springs vacation right here, hehehe.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oho! To think there was a place with this much class... Not bad! I shall hereby be enjoying my hot springs vacation right here, hehehe.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What are you doing, standing there like a fool? Don't hold back, come closer... to my side.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Your port is quite fine. With hot springs and beaches, there are plenty a wonderful place to choose... This looks to be quite the auspicious vacation, indeed, ah-haha.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "More than me, you seem to be the one direly in need of a vacation.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hehehe, Commander, won't you join me for a drink under these beautiful, crimson leaves?",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What are you looking at? If there's something that interests you... shouldn't you take a closer look? Ah-haha.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hehe, I wouldn't mind it if you... came closer.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hehehe, what an incorrigible fool...❤",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You, leaving me alone like this... Come take the place of this monkey, hurry in to the bath.",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {
