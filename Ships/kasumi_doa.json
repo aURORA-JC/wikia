@@ -15,23 +15,23 @@
 	"class": "",
 	"voiceActress": "Houko Kuwashima",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower": "A",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "C",
+		"hp": "A"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "2020/11/26",
+		"CN": "2020/11/26",
 		"KR": "",
-		"EN": ""
+		"EN": "2020/11/26"
 	},
 	"artist": {
 		"name": "",
@@ -41,20 +41,27 @@
 		"other": ""
 	},
 	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+		"firepower": "27",
+		"torpedo": "13",
+		"aviation": "0",
+		"reload": "12"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Event: Venus Vacation",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
+			"icon": "106050",
+			"requirement": "Default Unlocked",
+			"name": "Sakura Petal Dance",
+			"type": "Offense",
+			"description": "Every 15s after the start of the battle, and every time this ship lands 6 hits with its Torpedoes: fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level)."
+		},
+        "2": {  
+            "icon": "106060",
+            "requirement": "Default Unlocked",
+            "name": "Misty Mirror Flower",
+            "type": "Support",
+            "description": "When this ship sinks an enemy: increases this ship's FP and RLD by 1.0% (5.0%) (can be stacked up to 3 times). Additionally, after this ship sinks 3 enemies: increases this ship's Accuracy by 5.0% (15.0%) for the rest of the battle."
+        }
 	},
 	"skin": {
 		"1": {
@@ -81,7 +88,29 @@
                     "id": "5"
                 }
 			}
-		}
+		},
+        "2": {
+            "id": "xia_2_doa",
+            "name": "Springside Mist",
+            "description": "I was amazed to see the port had such a scenic place as this... Truly, you can't go without taking this view in. Right, Commander?",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                },      
+                "1": {  
+                    "id": "1"
+                },      
+                "2": {  
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {  
+                    "id": "4"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -102,55 +131,55 @@
 	},
 	"stats": {
 		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
+			"hp": "4039",
+			"firepower": "230",
+			"torpedo": "188",
+			"antiAir": "196",
+			"aviation": "0",
+			"reload": "152",
+			"hit": "119",
+			"evasion": "47",
+			"speed": "28",
+			"luck": "85",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
 			"cost": "",
-			"armor": ""
+			"armor": "Medium"
 		},
 		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
+			"hp": "4846",
+			"firepower": "264",
+			"torpedo": "217",
+			"antiAir": "225",
+			"aviation": "0",
+			"reload": "175",
+			"hit": "134",
+			"evasion": "94",
+			"speed": "28",
+			"luck": "85",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
 			"cost": "",
-			"armor": ""
+			"armor": "Medium"
 		},
 		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
+			"hp": "781",
+			"firepower": "49",
+			"torpedo": "40",
+			"antiAir": "42",
+			"aviation": "0",
+			"reload": "64",
+			"hit": "46",
+			"evasion": "18",
+			"speed": "28",
+			"luck": "85",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
 			"cost": "",
-			"armor": ""
+			"armor": "Medium"
 		},
 		"100retrofit": {
 			"hp": "",
@@ -188,28 +217,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Main gun efficiency +5%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		"tier3": "Torpedo efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Heavy Cruiser Gun",
+			"efficiency": "130%/135%/135%/135%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Torpedo",
+			"efficiency": "140%/140%/150%/165%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "105%/105%/105%/105%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxiliary",
@@ -241,9 +270,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -268,12 +297,12 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
-				"id": "",
+				"skin_id": "xia_doa",
+				"id": "0",
 				"label": "",
 				"dialogue": {
 					"1": {
-						"event": "",
+						"event": "Ship Description",
 						"media": "",
 						"chinese": "",
 						"chineseTL": "",
@@ -281,11 +310,474 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Are you the Owner of the port? The \"Commander\"? Hello. My name is Kasumi, I'll be staying here for the foreseeable future. I hope we can both get along on friendly terms.",
 						"englishNote": ""
-					}
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I wonder how everyone's doing back at the Venus Islands... Oh, shoot! I'm supposed to be assisting you, and here I am letting my thoughts drift. My apologies, Commander.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you the Owner of the port? The \"Commander\"? Hello. My name is Kasumi, I'll be staying here for the foreseeable future. I hope we can both get along on friendly terms.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Is it time to get to work, Commander? I will be right here, so tell me if you need anything.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You call it the \"Sakura Empire\"? Somehow, it feels really familiar to me. Teehee~",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Excuse me, but... what's a secretary supposed to do? My knowledge is bit spotty when it comes to these things...",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You can see the sea from mostly anywhere here at the port. The scenery is truly gorgeous!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "According to my fortune, today's destiny spot should be somewhere over...",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "How can I help, Commander?",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Would you PLEASE show some self-restraint?!",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Can I, um, help you?",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A new mission has come in. I could... give you a hand with it, if you'd so like?",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mission completed. That leaves us one less thing to worry about. Right, Commander?",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh, there's new mail. Do you think it could be from your family, Commander?",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm still learning how to use this so-called \"rigging,\" but I try my best to do my part! Please put me on the next sortie, so I can prove myself.",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Everyone working together to complete a commission... Yep, what a concept.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I feel more powerful... Thank you for that, Commander. Teehee~",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Teehee~ It's my time to shine. Let's get it done, everyone!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Let's keep this up! Teehee~",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mgh... How could this happen...",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This is it! My chance!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm not down for the count... just yet!",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander... I'm more than angry with you at this point. Reflect on your poor behavior.",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "These shipgirls also have sisters, I see... Both younger and older ones... Oh, sorry, I just had a random thought. Nothing to worry about.",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I see the Sakura Empire has its own disciples of ninjutsu... Hm? You wish to see mine? Err, I'm afraid... I can't do that. You aren't meant to openly show them to people.",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "My favorite food? Hmm... I suppose strawberry mille-feuilles. You don't think that's... childish, do you? I always worry that people will think that about me...",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Um, Commander... Do you have a moment? I read my fortune today, and there's a so-called \"destiny spot\" in port. Could we... visit it, together? Oh, thank you so much! I'm sure fate has a surprise in store for us. Teehee~",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I can't believe you're offering something this precious to me... Teehee, I truly was destined to be at this port. Listen, um... I assume you don't mind, but I want stay here for a while longer. Teehee~",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with at least 1 of: Akatsuki, Kuroshio, Kirishima) Witness my Mugen Tenshin!",
+                        "englishNote": ""
+                    }
 				}
-			}
+			},
+            "2": {
+                "skin_id": "xia_2_doa",
+                "id": "1",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I was amazed to see the port had such a scenic place as this... Truly, you can't go without taking this view in. Right, Commander?",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I was amazed to see the port had such a scenic place as this... Truly, you can't go without taking this view in. Right, Commander?",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you here for some relaxation as well, Commander? Have yourself a nice, prolonged break from all that paperwork you're used to.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Um, Commander... Could you please not stare at me... because... it's a bit embarrassing...",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What's your favorite drink, Commander? I'm partial to the... iced café au lait, I suppose.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, are you good at swimming? I'm just curious to see how fast your breaststroke is!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There's nothing... off about my swimsuit, is there?",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "We're taking photos? Well, I'm a bit camera shy, but... okay. How's this pose? Should I stay like this?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Please... No funny business, okay?",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You would think shipgirls are excellent swimmers, since they do so much battle at sea... But perhaps that isn't necessarily the case?",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {
