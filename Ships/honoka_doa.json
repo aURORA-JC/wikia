@@ -15,46 +15,53 @@
 	"class": "",
 	"voiceActress": " Ai Nonaka",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower": "A",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "D",
+		"antiAir": "D",
+		"hp": "A"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold": "11",
+		"oil": "4",
+		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "2020/11/26",
+		"CN": "2020/11/26",
 		"KR": "",
-		"EN": ""
+		"EN": "2020/11/26"
 	},
 	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
+		"name": "云桑",
+		"weibo": "https://weibo.com/yunsang",
+		"twitter": "https://twitter.com/_Yunsang",
+		"pixiv": "https://www.pixiv.net/member.php?id=5358936",
 		"other": ""
 	},
 	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+		"firepower": "63",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "10"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Event: Venus Vacation",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
+			"icon": "106030",
+			"requirement": "Default Unlocked",
+			"name": "Rock-Paper-Cannon Salvo",
+			"type": "Offense",
+			"description": "Increases this ship's FP by 5.0% (15.0%) and its armor modifier against Light Armor enemies by 4.5% (12.0%). 5s after this ship fires its Main Guns: fires a randomly chosen Lv.1 (Lv.10) barrage using special ammo."
+		},
+        "2": {  
+            "icon": "106040",
+            "requirement": "Default Unlocked",
+            "name": "Super Mega Explosion",
+            "type": "Defense",
+            "description": "When this ship fires its Main Guns: heals 2 random ships in your fleet for 5.0% of their max HP and, with a 45.0% (75.0%) chance, fires a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). The barrage has a 70% chance to inflict a special burn DoT, which reduces Firepower, Torpedo, and Aviation stats by 5% for burning enemies. The burn lasts for 30 seconds."
+        }
 	},
 	"skin": {
 		"1": {
@@ -78,7 +85,29 @@
                     "id": "4"
                 }
 			}
-		}
+		},
+        "2": {
+            "id": "suixiang_2_doa",
+            "name": "Summer Angel on the Shore",
+            "description": "Whoa, the sea is so pretty~! It's as beautiful as the Venus Islands! I'm so blown away, I don't even feel the heat anymore!",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {  
+                    "id": "1"
+                },
+                "2": {  
+                    "id": "2"
+                },
+                "3": {  
+                    "id": "3"
+                },
+                "4": {  
+                    "id": "4"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -99,55 +128,55 @@
 	},
 	"stats": {
 		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "6586",
+			"firepower": "362",
+			"torpedo": "0",
+			"antiAir": "188",
+			"aviation": "0",
+			"reload": "126",
+			"hit": "50",
+			"evasion": "16",
+			"speed": "26",
+			"luck": "91",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
 		},
 		"120": {
 			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"firepower": "7903",
+			"torpedo": "0",
+			"antiAir": "216",
+			"aviation": "0",
+			"reload": "145",
+			"hit": "55",
+			"evasion": "18",
+			"speed": "26",
+			"luck": "91",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "15",
+			"armor": "Heavy"
 		},
 		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "1274",
+			"firepower": "77",
+			"torpedo": "0",
+			"antiAir": "40",
+			"aviation": "0",
+			"reload": "53",
+			"hit": "19",
+			"evasion": "6",
+			"speed": "26",
+			"luck": "91",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "5",
+			"armor": "Heavy"
 		},
 		"100retrofit": {
 			"hp": "",
@@ -185,28 +214,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Battleship Gun",
+			"efficiency": "105%/110%/120%/135%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Destroyer/Light Cruiser Gun",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxiliary",
@@ -238,9 +267,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -265,24 +294,499 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
-				"id": "",
-				"label": "",
+				"skin_id": "suixiang_doa",
+				"id": "0",
+				"label": "Honoka",
 				"dialogue": {
 					"1": {
-						"event": "",
+						"event": "Ship Description",
 						"media": "",
-						"chinese": "",
-						"chineseTL": "",
+						"chinese": "请问，您就是“指挥官”吗？啊，太好了！初次见面，我是穗香！虽然不知道能帮忙到什么程度，不过我很擅长学习的~总之…请多指教！",
+						"chineseTL": "Umm, are you the \"commander\"? Ah, great! Nice to meet you, I'm Honoka! Although I don't know how much I can help, but I'm a great learner~but...nice to meet you!",
 						"chineseNote": "",
-						"japanese": "",
+						"japanese": "あの…あなたが「指揮官」さんですか？あ、よかった！初めまして、わたしはほのかって言います！どこまでお役にたてるかわかりませんが…よろしくお願いしますね！",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+						"english": "Um... Are you the Commander? Oh, perfect! It's nice to meet you. My name is Honoka! I don't know how much I'll be able to help, but... let's be friends!",
 						"englishNote": ""
-					}
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "自我介绍吗…？我是穗香，最喜欢祖母！然后是…喜欢格斗技！我很擅长模仿哦，格斗电影里的招式什么的，看一眼就能学会了！之前学的时候还不小心把电视弄坏了…啊，那个…要对大家…保密哦~？",
+                        "chineseTL": "Self-Introduction...? I'm Honoka, and I love my grandma! And...wrestling! I'm good at imitation, like the wrestling moves on TV, just watching it once and I'm able to do it! Once I even broke my TV learning the moves...ah, that one...should be kept a secret?",
+                        "chineseNote": "",
+                        "japanese": "自己紹介ですか？名前は、ほのかって言います！おばあちゃんが大好きで、あとは…プロレスも好きです！よくテレビを見ながら真似しているんですよ？わたし、モノマネが得意ですから♪この前もテレビを壊しちゃって…あ、えっと…みんなには…ナイショだよ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "An introduction? My name is Honoka. I love my Grammy! Also... I really like pro wrestling! I watch it on TV a lot and act out the scenes. I'm super good at imitations! The other day I broke my TV... Oh, um... promise me... you won't tell anyone.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "请问，您就是“指挥官”吗？啊，太好了！初次见面，我是穗香！虽然不知道能帮忙到什么程度，不过我很擅长学习的~总之…请多指教！",
+                        "chineseTL": "Umm, are you the \"commander\"? Ah, great! Nice to meet you, I'm Honoka! Although I don't know how much I can help, but I'm a great learner~but...nice to meet you!",
+                        "chineseNote": "",
+                        "japanese": "あの…あなたが「指揮官」さんですか？あ、よかった！初めまして、わたしはほのかって言います！どこまでお役にたてるかわかりませんが…よろしくお願いしますね！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Um... Are you the Commander? Oh, perfect! It's nice to meet you. My name is Honoka! I don't know how much I'll be able to help, but... let's be friends!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "要开始今天的工作了吗？辛苦了呢，指挥官！",
+                        "chineseTL": "Are we starting today's work? Good work, commander!",
+                        "chineseNote": "",
+                        "japanese": "お疲れ様です、指揮官さん！いまからお仕事ですか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Good work, Commander! Wait, you're starting work now?",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "要吃饭、还是洗澡，还是…我？呵呵♪那就和我一起玩吧~",
+                        "chineseTL": "Do you want to eat, take a shower, or...me? Hehe ♪ then let's play together~",
+                        "chineseNote": "",
+                        "japanese": "ごはんと、お風呂と…わたし！どれにしますか？ふふっ♪じゃあ、わたしと遊んでもらいますね！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Dinner, a bath, or... me? What will you have? Hehe~ Okay, then let's go play!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "今天也要让玛莉教我更多的东西，嗯！",
+                        "chineseTL": "Today I want to let Marie Rose teach me even more, Mhm!",
+                        "chineseNote": "",
+                        "japanese": "今日もマリーちゃんに、いろんなこと教えてもらうんだから！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I learned a lot of things from Marie today!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "呼…呼……哈啊！一不小心就发起呆来了呢…我、我可没有睡着哦？",
+                        "chineseTL": "Hoo...Hoo...Aaah! I was staring into space...I, I was not sleeping?",
+                        "chineseNote": "",
+                        "japanese": "ふ、ふわぁ～……なんかぼーっとしてきちゃった…ね、寝てませんよ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Yaaawn... Everything's so fuzzy... I-I'm not asleep!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "指挥官♪那个，有没有什么我能帮忙的呀？",
+                        "chineseTL": "Commander ♪ umm, is there anything I can help with?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん?あの…わたし、何かお手伝いすることないですか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander! Um... Is there anything I can help out with?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "嗯？指挥官需要帮忙…吗？",
+                        "chineseTL": "Eh? Does commander need help...?",
+                        "chineseNote": "",
+                        "japanese": "え？お手伝い…して欲しいんですか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Eh? Would you... like me to help?",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "呀！哇哇哇…就算是指挥官也不可以哦！",
+                        "chineseTL": "Ah! Wh-Wah...even if you're the commander you're still not allowed to do that!",
+                        "chineseNote": "",
+                        "japanese": "へっ！？はわわわ…指揮官さんでもだめですよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Eep! Wh-whoa... There's a limit to what you can get away with, Commander!",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
+                        "chinese": "欸嘿嘿，总觉得，有点开心…",
+                        "chineseTL": "Ehehe, I feel, kind of happy...",
+                        "chineseNote": "",
+                        "japanese": "えへへ、なんだか、嬉しいな…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hehehe, this makes me feel happy...",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "任务？指挥官每天都要完成这些东西吗？",
+                        "chineseTL": "Missions? Does commander have to complete these every day?",
+                        "chineseNote": "",
+                        "japanese": "任務？指揮官さんは毎日これをやっているんですか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Missions? Do you do these everyday?",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "任务完成了！…哦哦，这些都是报酬吗？指挥官，真厉害呢！",
+                        "chineseTL": "The missions are complete! Ooh, are these the rewarwds? Commander, you're amazing!",
+                        "chineseNote": "",
+                        "japanese": "任務完了です！わあ…！こんなにご褒美もらえるんですか？！指揮官さん、すごいです！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mission complete! Wow, and they give you this many rewards for it?! Commander, you're amazing!",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "指挥官，你的信件哦！嘿嘿，我要不要也试着写一封信给奶奶呢~",
+                        "chineseTL": "Commander, your mail! Hehe, should I write a letter to Grandma?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さんに、メールですよ！わたしもおばあちゃんに送ってみようかな～",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There's some mail for you, Commander! I should write some mail to Grammy as well~",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "指挥官，欢迎回来！一路上有遇到什么好玩的事情吗？",
+                        "chineseTL": "Commander, welcome back! did anything interesting happen on the way?",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、おかえりなさい！なにか面白いこと、ありました？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, welcome back! Did anything interesting happen?",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "委托完成了！清点就交给我吧，指挥官，我之前就经常有在帮奶奶的忙呢！",
+                        "chineseTL": "The commissions are complete! Leave the inventory to me, commander, I've helped grandma out a lot before!",
+                        "chineseNote": "",
+                        "japanese": "委託完了～！後はわたしにお任せください♪よく、おばあちゃんのお手伝いをしてるから、きっと大丈夫です♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commission complete~! Leave the rest to me~ I've helped Grammy out lots, so I'll be fine~",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "穗香、Power Up！",
+                        "chineseTL": "Honoka, Power Up!",
+                        "chineseNote": "",
+                        "japanese": "ほのか、パワーアップ！です！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Honoka, powering up!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "卯足全力，上咯~！",
+                        "chineseTL": "Full power, let's go!",
+                        "chineseNote": "",
+                        "japanese": "よーし！気合い入れて行くぞー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "All riiight! Let's get pumped!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "呼呼~把气氛炒起来了呢~",
+                        "chineseTL": "Hehe~I'm all fired up~",
+                        "chineseNote": "",
+                        "japanese": "うふふ、盛り上がってきましたね～",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hehehe, I'm all fired up~",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "啊呜…已经使不上力了啦~",
+                        "chineseTL": "Waaa...I'm all out of energy~",
+                        "chineseNote": "",
+                        "japanese": "ふにゅ～…もう力がでません～",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ohh~... I'm all out of energy~",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "穗香攻击——！",
+                        "chineseTL": "Honoka attack——!",
+                        "chineseNote": "",
+                        "japanese": "ほのかスペシャルッ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Honoka Special!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "哇啊啊啊…陷入危机了啦~",
+                        "chineseTL": "Waaah...I'm in trouble~",
+                        "chineseNote": "",
+                        "japanese": "はわわわ…大ピンチですよ～",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh no, oh no... I'm in big trouble here!",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "呜呜呜，我要回老家找奶奶去了！",
+                        "chineseTL": "Ughh, I'm going back to my grandma!",
+                        "chineseNote": "",
+                        "japanese": "うう…わたし、おばあちゃんのとこに帰ります……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ughh... I just want to go back to my Grammy's place...",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "嗯~…天气好的时候，人的心情就会跟着好呢~今天也在港区里散散步吧！",
+                        "chineseTL": "Mm~...when the weather is good, people's mood is also good~ let's take a walk around the port!",
+                        "chineseNote": "",
+                        "japanese": "んーっ！天気がいいと、気分もいいですね～今日も港でお散歩です♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mmh! The weather's so nice, I feel great~ Let's take a stroll around the port!",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "指挥官，回头陪我去商店街逛逛吧？我想给奶奶带点纪念品什么的~",
+                        "chineseTL": "Commander, later let's go shopping? I want to get grandma some souvenirs~",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、あとでわたしのお買い物に付き合ってもらえませんか？おばあちゃんにお土産買ってあげたいんです！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, won't you come shopping with me later? I want to buy some souvenirs for Grammy!",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "指挥官！我把这里的事都写信告诉奶奶了哦！“有着指挥官和很多很多女孩子的有趣的地方”，这样~嘻嘻，有机会的话，就让指挥官见见奶奶吧！",
+                        "chineseTL": "Commander! I've told grandma everything about this place! \"and interesting place where a commander and a lot of girls are\", like this~hehe, if there's a chance, I want commander to visit grandma!",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん！おばあちゃんにお手紙を送ったんです！ここが「指揮官さんと、女の子がいっぱいいる楽しいところ」って書いたんですよ♪えへへ♪あ、今度、指揮官さんにもおばあちゃんのこと紹介しますね！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander! I sent a letter to Grammy! I wrote that this is a fun place, with the Commander and many girls~ Hehehe~ Oh, next time, I'll show you around Grammy's place!",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "在这个港区受到了指挥官和各位小伙伴的很多照顾呢！特别是指挥官，给穗香一种奶奶般的安心感~作为回报，无论有什么需要做的，都可以和我说哦！",
+                        "chineseTL": "You and everyone have given me such good care at this port! Especially commander, you gave Honoka a feeling of safety like grandma~in return, if you need anything, just ask!",
+                        "chineseNote": "",
+                        "japanese": "この港で、指揮官さんとみんなにいっぱいお世話になりました！特に指揮官さんといると、おばあちゃんといるみたいで安心するんです！いつものお礼に、わたしにしてほしいことあったら何でも言ってくださいね！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, you and everyone else here have taken such good care of me! When I'm with you, I feel relaxed, as if I'm back at home with Grammy! In return, please let me know if there's anything I can do for you!",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "啊哇哇哇哇…要把这个看起来就很贵重的戒指，送给穗香吗？…要跟奶奶报告一下才行了呢！嗯！我会把这个当作一生的宝物的！欸嘿嘿~",
+                        "chineseTL": "Awahwahwahwah...You want to give this ring that looks very valuaable, to Honoka?...I just report to grandma! Mmh! I'll treat this as a treasure! Ehehe~",
+                        "chineseNote": "",
+                        "japanese": "はわわわ…こんな貴重なもの、わたしがもらっていいんですか？お、おばあちゃんに伝えないと…！えっと…これ、わたしの一生の宝物にしますね！えへへ♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wh-what... Is it okay to give me something so valuable? I-I'll have to tell Grammy...! Um... I'll treasure this for all my life! Hehehe~",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "(Sortie with Marie Rose) 玛莉！要一起加油哦！",
+                        "chineseTL": "(Sortie with Marie Rose) Marie! Let's work hard together!",
+                        "chineseNote": "",
+                        "japanese": "(Sortie with Marie Rose) マリーちゃん！一緒に頑張ろう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with Marie Rose) Marie! Let's do our best!",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2",
+                        "chinese": "(Sortie with Fusou, Yamashiro) 拔除邪恶！嘿嘿，是这种感觉吗~",
+                        "chineseTL": "(Sortie with Fusou, Yamashiro) Begone evil spirits! Hehe, is this how you do it~",
+                        "chineseNote": "",
+                        "japanese": "(Sortie with Fusou, Yamashiro) 悪霊退散！えへへ、こんな感じですか～？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with Fusou, Yamashiro) Evil spirits, begone! Hehehe, is that how you do it~?",
+                        "englishNote": ""
+                    }
 				}
-			}
+			},
+            "2": {
+                "skin_id": "suixiang_2_doa",
+                "id": "1",
+                "label": "Summer Angel on the Shore",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "嗯~…真是片美丽的海滩~完全不输维纳斯群岛啊~欸嘿嘿，夏日的炎炎热浪，都被这凉凉的海水驱散了呢~",
+                        "chineseTL": "Mmm~...what a beautiful beach~it would not lose to the Venus islands~ehehe, the heat of summer, have all been washed away by this cool seawater~",
+                        "chineseNote": "",
+                        "japanese": "わあ～…きれいな海ですね～！ヴィーナス諸島と同じくらいすごいです！もう暑いのもなにもぜーんぶ、ふっ飛んじゃいました！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Whoa, the sea is so pretty~! It's as beautiful as the Venus Islands! I'm so blown away, I don't even feel the heat anymore!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "嗯~…真是片美丽的海滩~完全不输维纳斯群岛啊~欸嘿嘿，夏日的炎炎热浪，都被这凉凉的海水驱散了呢~",
+                        "chineseTL": "Mmm~...what a beautiful beach~it would not lose to the Venus islands~ehehe, the heat of summer, have all been washed away by this cool seawater~",
+                        "chineseNote": "",
+                        "japanese": "わあ～…きれいな海ですね～！ヴィーナス諸島と同じくらいすごいです！もう暑いのもなにもぜーんぶ、ふっ飛んじゃいました！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Whoa, the sea is so pretty~! It's as beautiful as the Venus Islands! I'm so blown away, I don't even feel the heat anymore!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "今天太阳公公也很精神，是个在海边玩耍的好天气呢！",
+                        "chineseTL": "Today the sun has a lot of energy, it's a good day to play at the beach!",
+                        "chineseNote": "",
+                        "japanese": "今日もお日さま元気いっぱい！海で遊ぶぞ～！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The sun's shining brightly today! Let's go play in the ocean~!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "这件泳装…会不会太大胆了一点呢…？稍微鼓起了一些勇气才穿上的…那个，感觉…怎么样？",
+                        "chineseTL": "This swimsuit...isn't it a bit too daring...? It took a bit of courage to put it on...umm, how...is it?",
+                        "chineseNote": "",
+                        "japanese": "今日もお日さま元気いっぱい！海で遊ぶぞ～！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This swimsuit might be a bit too revealing... It took some courage to put it on... Um, how... is it?",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "唔，这个石头下的小洞里，会不会藏着螃蟹什么的？",
+                        "chineseTL": "Ooh, these small holes under the rocks, I wonder if there are crabs inside?",
+                        "chineseNote": "",
+                        "japanese": "うーん…この石の下、蟹さんとかいないのかな～？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hmm... I wonder if there's a crab under this rock?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "玛莉！一起来为排球比赛做练习吧！",
+                        "chineseTL": "Marie! Let's train for the Beach volleyball competition!",
+                        "chineseNote": "",
+                        "japanese": "マリーちゃん！一緒にビーチバレーしよう！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Marie! Let's play beach volleyball together!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "充分的热身运动是很重要的哦，指挥官也来做吧！听我的指挥，一、二！一、二！",
+                        "chineseTL": "A good warm up is very important, commander should come do it! On my count, one, two! one, two!",
+                        "chineseNote": "",
+                        "japanese": "準備運動は大事なんです！さあ、指揮官さんも一緒に～いっち、にー、いっち、にー…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Don't forget to do your stretches! Come on, Commander, you should join me~ One, two, one two...",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "呼…啊，指挥官也累了吗？一起来休息一下吧~？",
+                        "chineseTL": "Hoo...Ah, commander is also tired? Let's take a break~?",
+                        "chineseNote": "",
+                        "japanese": "ふぅ…あ、指揮官さんも疲れちゃいました？ちょっとお休みしていきませんか～？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There's a limit to what I'll let you get away with, Commander!",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "就算是指挥官，也不可以哦！",
+                        "chineseTL": "Even if you're the commander, you're still not allowed to do that!",
+                        "chineseNote": "",
+                        "japanese": "指揮官さんでもだめですよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There's a limit to what I'll let you get away with, Commander!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "指挥官，能拜托你帮我拍几张照片吗？嗯，当然是给奶奶也看看这边的风景！",
+                        "chineseTL": "Commander, can you take a few photos for me? Mmm, of course it's for grandma to see the view here!",
+                        "chineseNote": "",
+                        "japanese": "指揮官さん、写真撮ってもらえますか？おばあちゃんにも見せてあげたくて…あっ…えっと、景色のことですよ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, are you taking pictures? Oh, I was asking because I wanted to send some to Grammy... Oh... um, I'm talking about the scenery, not me!",
+                        "englishNote": ""
+                    }
+                }
+            }
 		}
 	},
 	"fleet_tech": {
