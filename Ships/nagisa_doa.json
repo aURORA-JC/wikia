@@ -15,23 +15,23 @@
 	"class": "",
 	"voiceActress": "Maaya Uchida",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower": "A",
+		"torpedo": "E",
+		"aviation": "E",
+		"evasion": "D",
+		"antiAir": "D",
+		"hp": "A"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold": "11",
+		"oil": "4",
+		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "2020/11/26",
+		"CN": "2020/11/26",
 		"KR": "",
-		"EN": ""
+		"EN": "2020/11/26"
 	},
 	"artist": {
 		"name": "",
@@ -41,20 +41,27 @@
 		"other": ""
 	},
 	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+		"firepower": "60",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "10"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Event: Venus Vacation",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
+			"icon": "106090",
+			"requirement": "Default Unlocked",
+			"name": "Not-So-Gentle Sister",
+			"type": "Offense",
+			"description": "Every 18s after the start of the battle: 40.0% (70.0%) chance to fire a Lv.1 (Lv.10) special barrage (DMG is based on the skill's level). Enemies hit by this barrage take 4.5% (12.0%) more DMG from [[Misaki]] and Nagisa for 8s."
+		},
+        "2": {
+            "icon": "106100",
+            "requirement": "Default Unlocked",
+            "name": "Venus' Unpredictability",
+            "type": "Defense",
+            "description": "Decreases the DMG this ship takes by 5.0% (15.0%). When this ship fires its Main Guns: decreases the Speed of a random enemy by 15.0% (30.0%) for 8s."
+        }
 	},
 	"skin": {
 		"1": {
@@ -78,7 +85,29 @@
                     "id": "4"
                 }
 			}
-		}
+		},
+        "2": {
+            "id": "zhixiao_2_doa",
+            "name": "Blue Skies, Good Vibes",
+            "description": "Whew! The wind feels great! ...What are you staring at me like that for, you silly dog? You're the one who said you wanted to go to the beach, remember? To start with, how about... we take a stroll?",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -99,55 +128,55 @@
 	},
 	"stats": {
 		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "6435",
+			"firepower": "343",
+			"torpedo": "0",
+			"antiAir": "151",
+			"aviation": "0",
+			"reload": "130",
+			"hit": "52",
+			"evasion": "21",
+			"speed": "30",
+			"luck": "87",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Heavy"
 		},
 		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "7510",
+			"firepower": "384",
+			"torpedo": "0",
+			"antiAir": "174",
+			"aviation": "0",
+			"reload": "149",
+			"hit": "65",
+			"evasion": "40",
+			"speed": "30",
+			"luck": "87",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Heavy"
 		},
 		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "1245",
+			"firepower": "73",
+			"torpedo": "0",
+			"antiAir": "32",
+			"aviation": "0",
+			"reload": "55",
+			"hit": "20",
+			"evasion": "8",
+			"speed": "30",
+			"luck": "87",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "5",
+			"armor": "Heavy"
 		},
 		"100retrofit": {
 			"hp": "",
@@ -185,28 +214,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Main gun base +1/Main gun efficiency +5%",
+		"tier2": "Auxiliary gun base +2/Main gun efficiency +10%",
+		"tier3": "Main gun base +1/Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Battleship Gun",
+			"efficiency": "100%/105%/115%/130%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Destroyer/Light Cruiser",
+			"efficiency": "200%/200%/200%/200%",
+			"amount": "1/1/3/3",
+			"preload": "0/0/0/0"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "100%/100%/100%/100%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxiliary",
@@ -238,9 +267,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -265,12 +294,12 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
-				"id": "",
+				"skin_id": "xia_doa",
+				"id": "0",
 				"label": "",
 				"dialogue": {
 					"1": {
-						"event": "",
+						"event": "Ship Description",
 						"media": "",
 						"chinese": "",
 						"chineseTL": "",
@@ -278,11 +307,474 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+                        "english": "Are you the person who led Misaki to this port? You go by the name... \"Commander\"? Hmm... I don't know how you sweet-talked her into it, but you're not fooling me. The moment you do anything strange... you better be on guard! My name? It's Nagisa. You... silly dog!",
 						"englishNote": ""
-					}
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Like I said the first time we met, I'm Misaki's sister, Nagisa. What I like most are soufflé pancakes, and what I hate most are green peppers. Do anything weird to Misaki, and I'll never forgive you for it, you dirty dog.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you the person who led Misaki to this port? You go by the name... \"Commander\"? Hmm... I don't know how you sweet-talked her into it, but you're not fooling me. The moment you do anything strange... you better be on guard! My name? It's Nagisa. You... silly dog!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Welcome back, Commander. ...You're quite the hard worker. Like a sled dog.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I can't believe there are so many girls at this port... You must have tricked them into coming here, didn't you?!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hey, you silly dog. This is a gift from someone. Apparently, there are some soufflé pancakes inside, too... I-I didn't say anything! Don't forget about it later!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You're quite a hard worker, which I'd say is good... Even for a lowly dog...",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hey, is there anything I can help you with? ...Don't take this the wrong way, I'm just doing this for leverage against you.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wh-what do you think you're doing, you dirty dog?!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I guess... you really are an incorrigible dirty dog...",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Looks like there are still missions you haven't completed. Are you planning on doing them now, you silly dog?",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You did this many missions on your own? My opinion of you has slightly improved... you silly dog.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Here's some mail. Are you going senile? I can't believe you neglected it until I told you.",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Nice job in battle, you silly dog. But there's still a lot left for you to do, isn't there?",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hey, you have girls back from a commission waiting for you out there. You silly dog.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Thank you... What? What's the problem with me saying \"thanks\" once in a while?!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If I have to do it, I'll do it properly. I just have to drive them away, right?",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Whew, I'm a bit tired... I wonder if I overexerted myself.",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It's all your fault, you silly dog...",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Say your prayers!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh no... At this rate...",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm taking Misaki back. Farewell.",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Not just Misaki, but all of these other girls too... You dirty dog, what kind of devious schemes are you up to?!",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If Misaki's having fun, it's fine, but... the moment you do anything weird, you'll regret it!",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Eh, you're saying you saw me talking to the sea? Oh, I'm a theater actor, so I was practicing... wait, you were spying on me?! You... You dirty dog!",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Thanks for taking care of Misaki... I may have been wrong about you. You know, thinking that you were evil, and all. So... I'll watch you for a bit longer. That's fine, isn't it? You silly dog.",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I-I understand your feelings! Geez, I'm not stupid like you are... My answer? D-don't you know without me telling you?! Like I always say, you're so slow, you silly dog! ...Hehe, I'll treasure this, you dog~",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with Misaki) Misaki! Be careful! Make sure you don't get hurt!",
+                        "englishNote": ""
+                    },
+                    "30": { 
+                        "event": "Additional Voice Line 2",
+                        "media": "link2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "(Sortie with Honoka) Honoka, looks like you're wearing a shrine maiden's swimsuit as well!",
+                        "englishNote": ""
+                    }
 				}
-			}
+			},
+            "2": {
+                "skin_id": "xia_2_doa",
+                "id": "1",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Whew! The wind feels great! ...What are you staring at me like that for, you silly dog? You're the one who said you wanted to go to the beach, remember? To start with, how about... we take a stroll?",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Whew! The wind feels great! ...What are you staring at me like that for, you silly dog? You're the one who said you wanted to go to the beach, remember? To start with, how about... we take a stroll?",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You finally came? ...It's nothing. I was just wondering if you had forgotten our promise to go to the beach together.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A photoshoot? Outdoors, like this? Fine... But no indecent photos, you hear? ...Excuse me?! Those aren't allowed, indoors or outdoors, you pervert!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I can't believe how many girls there are, playing around in their swimsuits... Hold on a sec, is this the reason you came to the beach on your day off? You dirty dog!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "How long are you going to stare, you dirty dog... I'm c-cute? I don't need your cheap pickup lines!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Let me take a look at the pictures you have of Misaki. If I spot any weird ones... then you're really in for it!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Eek! What are you touching me for?!",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you in heat? ...You dirty dog!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You worked hard that battle. Of course I'll praise you every once in a while... I-I didn't say anything, you silly dog!",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {
