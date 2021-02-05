@@ -20,8 +20,8 @@ Copied from the previous wiki source at https://github.com/alg-wiki/wikia due to
 
 ## Contribute
 
-# For details on how you can help please see the wiki at https://gitgud.io/alg-wiki/wikia/-/wikis/home
+### For details on how you can help please see the wiki at https://gitgud.io/alg-wiki/wikia/-/wikis/home
 
-### Related:
+## Related:
 - https://gitgud.io/alg-wiki/azurlanel2dviewer
 - https://gitgud.io/alg-wiki/azurlanesdviewer
