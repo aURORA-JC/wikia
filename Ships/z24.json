@@ -144,7 +144,17 @@
 					"id": "10"
 				}
 			}
-		}
+		},
+        "101": {  
+            "id": "z24_ex1100",
+            "name": "Z24", 
+            "description": "",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                }       
+            }       
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -760,7 +770,7 @@
 			},
 			"2": {
 				"skin_id": "z24_2",
-				"id": "0",
+				"id": "1",
 				"label": "Z24",
 				"dialogue": {
 					"1": {
@@ -875,7 +885,7 @@
 			},
             "101": {
 				"skin_id": "z24_ex1100",
-				"id": "1",
+				"id": "0",
 				"label": "Festival-going Fiend",
 				"dialogue": {
 					"1": {
