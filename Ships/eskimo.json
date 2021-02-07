@@ -11,14 +11,15 @@
 	"hull" : "Destroyer",
 	"navy" : "Royal Navy",
 	"prefix" : "HMS",
-	"buildTime" : "",
+	"buildTime" : "00:29:00",
+    "voiceActress": "Haruka Takahashi",
 	"parameters": {
-		"firepower" : "",
-		"torpedo" : "",
-		"aviation" : "",
-		"evasion" : "",
-		"antiAir" : "",
-		"hp" : ""
+		"firepower" : "C",
+		"torpedo" : "B",
+		"aviation" : "E",
+		"evasion" : "A",
+		"antiAir" : "C",
+		"hp" : "C"
 	},
 	"scrap": {
 		"gold" : "4",
