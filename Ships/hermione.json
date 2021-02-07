@@ -11,14 +11,15 @@
 	"hull" : "Light Cruiser",
 	"navy" : "Royal Navy",
 	"prefix" : "HMS",
-	"buildTime" : "",
+	"buildTime" : "00:55:00",
+    "voiceActress": "Hiroko Taguchi",
 	"parameters": {
-		"firepower" : "",
-		"torpedo" : "",
-		"aviation" : "",
-		"evasion" : "",
-		"antiAir" : "",
-		"hp" : ""
+		"firepower" : "B",
+		"torpedo" : "D",
+		"aviation" : "E",
+		"evasion" : "B",
+		"antiAir" : "A",
+		"hp" : "C"
 	},
 	"scrap": {
 		"gold" : "6",
