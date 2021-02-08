@@ -27,10 +27,10 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "July 23, 2020",
-		"CN" : "July 23, 2020",
-		"KR" : "July 23, 2020",
-		"EN" : ""
+		"JP" : "2020/07/23",
+		"CN" : "2020/07/23",
+		"KR" : "2020/07/23",
+		"EN" : "2020/08/06"
 	},
 	"artist": {
 		"name" : "ALLENES",
@@ -51,14 +51,14 @@
 		"1" : {
 			"icon" : "13480",
 			"requirement" : "Default Unlocked",
-			"name" : "全弾発射・火力制圧です！",
+			"name" : "All Out Assault, Open Fire!",
 			"type" : "Offensive",
 			"description" : "5s after battle starts, fire a barrage, 40.0% (70.0%) chance to trigger again every 30s after battle starts."
 		},
 		"2" : {
 			"icon" : "13490",
 			"requirement" : "Default Unlocked",
-			"name" : "Focused Torpedos ",
+			"name" : "Torpedo Mode? ...Sure!",
 			"type" : "Defensive",
 			"description" : "At the start of battle and every 20s after, reduce self torp damage taken by 6.0% (20.0%) and modify self torp firing patterns for 10s."
 		},
@@ -73,8 +73,8 @@
 	"skin": {
 		"1" : {
 			"id" : "yikaluosi",
-			"name" : "イカルス",
-			"description" : "I級駆逐艦・イカルス",
+			"name" : "Icarus",
+			"description" : "I-class destroyer – Icarus.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -95,8 +95,8 @@
 		},
 		"2" : {
 			"id" : "yikaluosi_3",
-			"name" : "医療施設体験週？",
-			"description" : "母港の医療施設の稼働演習！だそうですけど、やっぱりちょっと変な感じですね…なんというかわたし、世話を焼かれるより焼くほうですから…",
+			"name" : "One-Week Medical Experience?",
+			"description" : "This is a special exercise for our on-site medical facilities! Well, that's what they said anyway, but isn't this kind of weird...? I feel like I'd rather be taking care of others, not the other way around...",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -124,6 +124,28 @@
 				}
 			}
 		},
+        "3" : { 
+            "id" : "yikaluosi_2",
+            "name" : "Nereid's Discovery",
+            "description" : "\"Let's go explore the ocean together! What special things will we be able to find today~?\" Hehe, how's that, Commander?", 
+            "expression" : {
+                "0" : { 
+                    "id" : "0"
+                },      
+                "1" : { 
+                    "id" : "1"
+                },      
+                "2" : { 
+                    "id" : "2"
+                },      
+                "3" : { 
+                    "id" : "2"
+                },      
+                "4" : { 
+                    "id" : "4"
+                }       
+            }       
+        },
 		"101" : {
 			"id" : "yikaluosi_ex1100",
 			"name" : "イカルス",
@@ -240,9 +262,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "全弾発射スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
-		"tier3": "全弾発射弾幕強化/武器補正+5%"
+		"tier1": "Gains Full Barrage I / All Weapon Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Main Gun Efficiency +10%",
+		"tier3": "Upgrades Full Barrage I→II / Main Gun Efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -862,6 +884,121 @@
 					}
 				}
 			},
+            "3": {
+                "skin_id": "yikalousi_2",
+                "id": "2",
+                "label": "Nereid's Discovery",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            },
 			"101": {
 				"skin_id" : "yikaluosi_ex1100",
 				"id" : "0",
