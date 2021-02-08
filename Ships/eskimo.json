@@ -27,10 +27,10 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "June 3, 2020",
-		"CN" : "June 3, 2020",
-		"KR" : "June 3, 2020",
-		"EN" : ""
+		"JP" : "2020/06/03",
+		"CN" : "2020/06/03",
+		"KR" : "2020/06/03",
+		"EN" : "2020/10/02"
 	},
 	"artist": {
 		"name" : "shisantian",
@@ -51,7 +51,7 @@
 		"1" : {
 			"icon" : "13390",
 			"requirement" : "Default Unlocked",
-			"name" : "Eskimo, attack!",
+			"name" : "Lemme At 'Em!",
 			"type" : "Offensive",
 			"description" : "Every 30s, with a 50% (100%) chance a special barrage gets fired (power and style based on skill level). If own HP falls below 30%, immediately restore 10% of own health and fire special barrage, limited to once per battle."
 		},
@@ -67,7 +67,7 @@
 		"1" : {
 			"id" : "aisijimo",
 			"name" : "Eskimo",
-			"description" : "トライバル級駆逐艦・エスキモー",
+			"description" : "Tribal-class destroyer – Eskimo.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -76,8 +76,8 @@
 		},
 		"2" : {
 			"id" : "aisijimo_2",
-			"name" : "アティギの問題児？",
-			"description" : "いやぁ、まさか他の子がみんな取り込み中なんてねーエスキモーに構ってもらえる子がいないのか～…おっ、この饅頭は……へへへ、ちょっとこの子を起こして遊んでもらおう！",
+			"name" : "Parkaless Prankster",
+			"description" : "Oh woe, nobody wants to play with me because they're all too busy~ ...Oh, hello little Manjuu... Heheh, maybe I'll play a prank on you instead!",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -98,7 +98,17 @@
 					"id" : "5"
 				}
 			}
-		}
+		},
+        "101" : { 
+            "id" : "aisijimo_ex1100",
+            "name" : "Eskimo",
+            "description" : "",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                }           
+            }           
+        }
 	},
 	"defaultEquipment": {
 		"1" : {
@@ -300,7 +310,7 @@
 			"1": {
 				"skin_id" : "aisijimo",
 				"id" : "0",
-				"label" : "エスキモー",
+				"label" : "Eskimo",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -679,7 +689,7 @@
 			"2": {
 				"skin_id" : "aisijimo_2",
 				"id" : "1",
-				"label" : "アティギの問題児？",
+				"label" : "Parkaless Prankster",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -742,7 +752,98 @@
 						"englishNote" : ""
 					}
 				}
-			}
+			},
+            "101": {
+                "skin_id": "aisijimo_ex1100",
+                "id": "0",
+                "label": "Eskimo",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }
