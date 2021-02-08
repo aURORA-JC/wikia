@@ -27,10 +27,10 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "July 23, 2020",
-		"CN" : "July 23, 2020",
-		"KR" : "July 23, 2020",
-		"EN" : ""
+		"JP" : "2020/07/23",
+		"CN" : "2020/07/23",
+		"KR" : "2020/07/23",
+		"EN" : "2020/08/06"
 	},
 	"artist": {
 		"name" : "",
@@ -51,14 +51,14 @@
 		"1" : {
 			"icon" : "13520",
 			"requirement" : "Default Unlocked",
-			"name" : "王家技術・騎装爆撃",
+			"name" : "Royal Arts: Knight's Arsenal",
 			"type" : "Offensive",
 			"description" : "When secondary weapon slot is equipped with guns, increases their efficiency by 25.0% (45.0%), increase their range to 80, fire a barrage every 24s; When secondary weapon slot is equipped with bombers, first airstrike load time reduced by 20.0% (50.0%)."
 		},
 		"2" : {
 			"icon" : "13530",
 			"requirement" : "Default Unlocked",
-			"name" : "王家技術・鷹翼積装",
+			"name" : "Royal Arts: Swordbearing Eagle",
 			"type" : "Offensive",
 			"description" : "Launch additional Swordfish on airstrike"
 		}
@@ -66,8 +66,8 @@
 	"skin": {
 		"1" : {
 			"id" : "ying",
-			"name" : "イーグル",
-			"description" : "イーグル級航空母艦·イーグル （HMS Eagle）",
+			"name" : "Eagle",
+			"description" : "Eagle-class light aircraft carrier – Eagle (HMS Eagle.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -94,8 +94,8 @@
 		},
 		"2" : {
 			"id" : "ying_2",
-			"name" : "イーグルズ・クリニック",
-			"description" : "演習任務だろうと、参加者として全力で努力するのみ――今の私は王家の戦士としてだけでなく、医療施設の研修医でもある。指揮官、体の具合が悪く感じたらいつでも来てくれ",
+			"name" : "Eagle's Clinic",
+			"description" : "This may be an exercise, but even so I will give it my all. Right now, I am not just a Royal Navy warrior, but a medical resident as well. If you ever feel ill, come see me, Commander.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -116,8 +116,8 @@
 		},
 		"101" : {
 			"id" : "ying_ex1100",
-			"name" : "イーグル",
-			"description" : "イーグル級航空母艦·イーグル （HMS Eagle）",
+			"name" : "Eagle",
+			"description" : "Eagle-class light aircraft carrier – Eagle (HMS Eagle.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -230,9 +230,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "艦載機数+1/艦載機補正+3%",
-		"tier2": "攻撃隊上限+1/副兵装装備+1/艦載機補正+5%",
-		"tier3": "艦載機数+1/艦載機補正+7%"
+		"tier1": "Slot 1 & Slot 2 Plane +1 / Slot 1 & Slot 2 Plane Efficiency +3%",
+		"tier2": "Hangar Capacity +1 / Slot 3 Plane & Gun Mount +1 / Slot 1 & Slot 2 Plane Efficiency +5%",
+		"tier3": "Slot 1 & Slot 2 Plane +1 / Slot 1 & Slot 2 Plane Efficiency +7%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -325,7 +325,7 @@
 			"1": {
 				"skin_id" : "ying",
 				"id" : "0",
-				"label" : "イーグル",
+				"label" : "Eagle",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -716,7 +716,7 @@
 			"2": {
 				"skin_id" : "ying_2",
 				"id" : "1",
-				"label" : "イーグルズ・クリニック",
+				"label" : "Eagle's Clinic",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -843,7 +843,7 @@
 			"101": {
 				"skin_id" : "ying_ex1100",
 				"id" : "0",
-				"label" : "イーグル",
+				"label" : "Eagle",
 				"dialogue" : {
 					"1" : {
 						"event" : "Login",

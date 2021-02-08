@@ -27,10 +27,10 @@
 		"medal" : "4"
 	},
 	"releaseDate": {
-		"JP" : "July 23, 2020",
-		"CN" : "July 23, 2020",
-		"KR" : "July 23, 2020",
-		"EN" : ""
+		"JP" : "2020/07/23",
+		"CN" : "2020/07/23",
+		"KR" : "2020/07/23",
+		"EN" : "2020/08/06"
 	},
 	"artist": {
 		"name": "Alisa",
@@ -51,14 +51,14 @@
 		"1" : {
 			"icon" : "13500",
 			"requirement" : "Default Unlocked",
-			"name" : "Charisma One Shot",
+			"name" : "Leading the Way",
 			"type" : "Support",
 			"description" : "10s after main gun fires, fires a barrage Lv.1 (Lv.10) that causes special armor break [8%] for 20s."
 		},
 		"2" : {
 			"icon" : "13510",
 			"requirement" : "Default Unlocked",
-			"name" : "Charisma Full Charge",
+			"name" : "Forward!",
 			"type" : "Offensive",
 			"description" : "Upon firing, 20.0% (50.0%) chance to fire a Lv.1 (Lv.10) barrage."
 		}
@@ -66,8 +66,8 @@
 	"skin": {
 		"1" : {
 			"id" : "yingyong",
-			"name" : "ヴァリアント",
-			"description" : "クイーン・エリザベス級戦艦·ヴァリアント(HMS Valiant）",
+			"name" : "Valiant",
+			"description" : "Queen Elizabeth-class battleship – Valiant (HMS Valiant.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -85,8 +85,8 @@
 		},
 		"2" : {
 			"id" : "yingyong_2",
-			"name" : "リトルナースタイム",
-			"description" : "ふふん、この「母港医療施設稼働特別演習」、非常に重要なイベントだから、このリーダーたるわたしもカリスマを発揮して…ってなんなのこの格好！？ちょっとあんた、一体どういうことか説明しなさい！",
+			"name" : "Mischievous Little Nurse",
+			"description" : "Hehe~ As this medical facility training is crucially important, a charismatic leader such as myself would be best suited to instruct everyone on– Wait a moment, what's with this outfit?! You there, explain the meaning of this at once!",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -104,8 +104,8 @@
 		},
 		"101" : {
 			"id" : "yingyong_ex1100",
-			"name" : "ヴァリアント",
-			"description" : "クイーン・エリザベス級戦艦·ヴァリアント(HMS Valiant）",
+			"name" : "Valiant",
+			"description" : "Queen Elizabeth-class battleship – Valiant (HMS Valiant.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -218,9 +218,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "主砲砲座+1/主砲補正+5%",
-		"tier2": "副砲砲座+2/主砲補正+10%",
-		"tier3": "主砲砲座+1/主砲補正+15%"
+		"tier1": "Main Gun Mount +1 / Main Gun Efficiency +5%",
+		"tier2": "Secondary Gun Mount +2 / Main Gun Efficiency +10%",
+		"tier3": "Main Gun Mount +1 / Main Gun Efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -313,7 +313,7 @@
 			"1": {
 				"skin_id" : "yingyong",
 				"id" : "0",
-				"label" : "ヴァリアント",
+				"label" : "Valiant",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -716,7 +716,7 @@
 			"2": {
 				"skin_id" : "yingyong_2",
 				"id" : "1",
-				"label" : "リトルナースタイム",
+				"label" : "Mischievous Little Nurse",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -867,7 +867,7 @@
 			"101": {
 				"skin_id" : "yingyong_ex1100",
 				"id" : "0",
-				"label" : "ヴァリアント",
+				"label" : "Valiant",
 				"dialogue" : {
 					"1" : {
 						"event" : "Login",
