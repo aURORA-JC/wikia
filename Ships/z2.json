@@ -28,10 +28,10 @@
 		"medal": "4"
 	},
 	"releaseDate": {
-		"JP": "March 7, 2019",
-		"CN": "March 7, 2019",
+		"JP": "2019/03/07",
+		"CN": "2019/03/07",
 		"KR": "",
-		"EN": ""
+		"EN": "2020/09/03"
 	},
 	"artist": {
 		"name": "Mkiiiiii33",
@@ -51,14 +51,14 @@
 		"1": {
 			"icon": "2081",
 			"requirement": "Default Unlocked",
-			"name": "Armor-Piercing Expert",
+			"name": "Piercing Shells",
 			"type": "Offensive",
 			"description": "Increases AP shell damage by 15% (25%)"
 		},
 		"2": {
 			"icon": "11970",
 			"requirement": "Default Unlocked",
-			"name": "Combat Improvement ",
+			"name": "Morale Boost",
 			"type": "Offensive",
 			"description": "Every 10 times the main battery is fired, increase Reload by 1.5% (5%), Full Barrage damage is increased by 20% (40%), and stacks up to 4 times."
 		},
@@ -74,7 +74,7 @@
 		"1": {
 			"id": "z2",
 			"name": "Z2",
-			"description": "1934型駆逐艦・Z2ゲオルク・ティーレ",
+			"description": "Type 1934-class destroyer – Z2 Georg Thiele.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -89,7 +89,29 @@
 					"id": "3"
 				}
 			}
-		}
+		},
+        "2": {
+            "id": "z2_2",
+            "name": "Daily Scenery in Foreign Colours",
+            "description": "Type 1934-class destroyer – Z2 Georg Thiele.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
