@@ -74,7 +74,7 @@
 		"1" : {
 			"id" : "aoding",
 			"name" : "Odin",
-			"description" : "Battlecruiser – Odin. ",
+			"description" : "Battlecruiser – Odin.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -92,7 +92,39 @@
 					"id" : "4"
 				}
 			}
-		}
+		},
+        "2" : { 
+            "id" : "aoding_2",
+            "name" : "Black Strokes upon Blank Snow", 
+            "description" : "I thought I would never have time to pursue the fine arts, and yet here I am now. Your thoughts, Commander? Eastern as this calligraphy may be, does it not suit the connotations of my name?",
+            "expression" : {
+                "0" : { 
+                    "id" : "0"
+                },      
+                "1" : { 
+                    "id" : "1"
+                },      
+                "2" : { 
+                    "id" : "2"
+                },      
+                "3" : { 
+                    "id" : "3"
+                },      
+                "4" : { 
+                    "id" : "4"
+                }       
+            }       
+        },
+        "101" : { 
+            "id" : "aoding_ex1100",
+            "name" : "Odin", 
+            "description" : "Battlecruiser – Odin.",
+            "expression" : {
+                "0" : { 
+                    "id" : "0"
+                }       
+            }       
+        }
 	},
 	"defaultEquipment": {
 		"1" : {
@@ -660,7 +692,129 @@
 						"englishNote" : ""
 					}
 				}
-			}
+			},
+            "2": {
+                "skin_id": "aoding_2",
+                "id": "1",
+                "label": "Black Strokes upon Blank Snow",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            },
+            "101": {
+                "skin_id": "aoding_ex1100",
+                "id": "0",
+                "label": "Odin",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }
