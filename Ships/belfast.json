@@ -174,8 +174,8 @@
 		},
 		"6": {
 			"id": "beierfasite_7",
-			"name": "完美的代理店长",
-			"description": "欢迎光临，请问您是一个人吗？我明白了，请随我来。呵呵，怎么了？这里是餐厅，现在的我是代理店长，主人自然就是“客人”了~",
+			"name": "Piping-Hot Perfection",
+			"description": "Welcome, table for one? Of course, right this way. Oh? What is it? Ah... I'm filling in for the manager at the moment, so that makes you my customer rather than my master, no?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -203,7 +203,29 @@
 					"id": "0"
 				}
 			}
-		}
+		},
+        "8": {  
+            "id": "beierfasite_8",
+            "name": "Folded Fascination",
+            "description": "It took me quite some time to prepare a suitable traditional Sakura Empire outfit. Terribly sorry. Master, won't you please allow this Belfast to serve you for another year?",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                },      
+                "1": {  
+                    "id": "1"
+                },      
+                "2": {  
+                    "id": "2"
+                },      
+                "3": {  
+                    "id": "3"
+                },      
+                "4": {  
+                    "id": "4"
+                }       
+            }       
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -1542,7 +1564,26 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "8": {
+                "skin_id": "beierfasite_8",
+                "id": "7",
+                "label": "Folded Fascination",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }

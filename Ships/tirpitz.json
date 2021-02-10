@@ -105,7 +105,29 @@
 					"id": "4"
 				}
 			}
-		}
+		},
+        "4": {  
+            "id": "tierbici_4",
+            "name": "Seasonal Pine and the Frost Flower",
+            "description": "They have a peculiar way of wishing a happy New Year in the Sakura Empire. In line with their traditions, I've put on this new outfit. I hope it doesn't... look strange on me. ...You like it? I see... That being the case, I'll keep wearing it for the time",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                },      
+                "1": {  
+                    "id": "1"
+                },      
+                "2": {  
+                    "id": "2"
+                },      
+                "3": {  
+                    "id": "3"
+                },      
+                "4": {  
+                    "id": "4"
+                }       
+            }       
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -824,7 +846,7 @@
 						"japanese": "姉さんならどう誘ってくれるかと思ってたところだったけど、やっぱり指揮官を頼ったわね……ふふ、では早く出発しましょう。あまり彼女を待たせない方がいいわ",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "我正在想，我的那位姐姐会怎么来邀请我，果然是拜托指挥官你了吗……呵呵，那就走吧，别让她等太久了——",
+						"english": "I bet Bismarck must've been thinking about how to invite me to the party, but ended up asking you to do it, Commander. Hehe... Let's get going soon. It's best not to keep her waiting.",
 						"englishNote": ""
 					},
 					"2": {
@@ -972,7 +994,122 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "4": {
+                "skin_id": "tierbici_4",
+                "id": "3",
+                "label": "Seasonal Pine and the Frost Flower",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }
