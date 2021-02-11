@@ -73,7 +73,32 @@
 					"id": "0"
 				}
 			}
-		}
+		},
+        "2": {  
+            "id": "jiejinsi_3",
+            "name": "Light of the Holiest Star",
+            "description": "Commander, g-good evening...? Right now, I'm bringing presents to Radford and the others...? Could you give me a hand? Th-thank you... Um, your present.. this apple, do you want it?",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }       
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -577,7 +602,26 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "2": {
+                "skin_id": "jiejinsi_3",
+                "id": "1",
+                "label": "Light of the Holiest Star",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, g-good evening...? Right now, I'm bringing presents to Radford and the others...? Could you give me a hand? Th-thank you... Um, your present.. this apple, do you want it?",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {
