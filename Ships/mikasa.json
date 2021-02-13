@@ -95,8 +95,8 @@
 		},
 		"3": {
 			"id": "sanli_4",
-			"name": "Sakura Viewing Day",
-			"description": "It's about time for the Sakura blooming season, the flow of time is fast... Ahem, Commander, how about flower viewing with me?",
+			"name": "Blossom-Viewing Season",
+			"description": "It's about time for the flowers to bloom once more. Alas, how the time flies by... Ahem, Commander, let's see, would you like to go blossom-viewing with me?",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -114,7 +114,26 @@
 					"id": "4"
 				}
 			}
-		}
+		},
+        "4": {
+            "id": "sanli_h",
+            "name": "Untarnished Splendor",
+            "description": "I, battleship Mikasa, from now until eternity, pledge to you my undying love and devotion. May we help each other, encourage each other, and walk side-by-side on the same path. I hope to meet your expectations, as unworthy as I may be.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -992,7 +1011,206 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "4": {
+                "skin_id": "sanli_h",
+                "id": "8",
+                "label": "Untarnished Splendor",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mail",
+                        "media": "mail_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission",
+                        "media": "task_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Defeat",
+                        "media": "lose_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Victory",
+                        "media": "mvp_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Flagship",
+                        "media": "warcry_8",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            }
 		}
 	},
 	"fleet_tech": {

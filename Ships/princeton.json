@@ -95,6 +95,25 @@
                 }       
             }       
         },
+        "3": {  
+            "id": "pulinsidun_3",
+            "name": "Lolipop Paradise",
+            "description": "You're finally here? ...Ah, well, I only just got here as well, so don't worry about it. Anyway, shall we get going?",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                },      
+                "1": {  
+                    "id": "1"
+                },      
+                "2": {  
+                    "id": "2"
+                },      
+                "3": {  
+                    "id": "3"
+                }       
+            }       
+        },
         "101": {  
             "id": "pulinsidun_ex1100",
             "name": "Princeton",
@@ -780,6 +799,25 @@
                         "japaneseTL": "",
                         "japaneseNote": "",
                         "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            },
+            "3": {
+                "skin_id": "pulinsidun_3",
+                "id": "2",
+                "label": "Lolipop Paradise",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You're finally here? ...Ah, well, I only just got here as well, so don't worry about it. Anyway, shall we get going?",
                         "englishNote": ""
                     }       
                 }

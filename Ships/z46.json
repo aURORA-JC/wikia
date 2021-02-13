@@ -141,7 +141,7 @@
         "5": {  
             "id": "z46_5",
             "name": "Janzhi Fantasia", 
-            "description": "",
+            "description": "\"Jianzhi,\" the art of breathing life into works of cut paper... is a world beyond my imagination. If these decorations are said to usher in blessings... are they akin to a coat-of-arms or a holy seal?",
             "expression": {
                 "0": {  
                     "id": "0"
@@ -935,7 +935,165 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "4": {
+                "skin_id": "z46_4",
+                "id": "3",
+                "label": "Star-Lit★Chocolate",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Commission Complete",
+                        "media": "expedition_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "5": {
+                "skin_id": "z46_5",
+                "id": "4",
+                "label": "Jianzhi Fantasia",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "\"Jianzhi,\" the art of breathing life into works of cut paper... is a world beyond my imagination. If these decorations are said to usher in blessings... are they akin to a coat-of-arms or a holy seal?",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {
