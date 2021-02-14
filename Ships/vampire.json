@@ -149,7 +149,32 @@
 					"id": "0"
 				}
 			}
-		}
+		},
+        "6": {  
+            "id": "xixuegui_5",
+            "name": "Night Princess Idol",
+            "description": "Feast thine eyes upon Vampire's idol attire... is it not exquisite? Heheh, now thy gaze shall be fixed upon my performance alone~♪",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                },      
+                "1": {  
+                    "id": "1"
+                },      
+                "2": {  
+                    "id": "2"
+                },      
+                "3": {  
+                    "id": "3"
+                },      
+                "4": {  
+                    "id": "4"
+                },      
+                "5": {  
+                    "id": "5"
+                }       
+            }       
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -1330,7 +1355,26 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "6": {
+                "skin_id": "xixuegui_5",
+                "id": "5",
+                "label": "Night Princess Idol",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Feast thine eyes upon Vampire's idol attire... is it not exquisite? Heheh, now thy gaze shall be fixed upon my performance alone~♪",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }
