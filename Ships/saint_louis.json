@@ -97,8 +97,8 @@
 		},
         "2": {  
             "id": "luyijiushi_2",
-            "name": "", 
-            "description": "", 
+            "name": "Holy Knight's Resplendence", 
+            "description": "With all due respect, Commander, this finery and this throne are not fit for one such as myself. Despite the hallowed name I have inherited, I am nothing more than a warrior. —However, if such an arrangement pleases you, then I shall hold my objections.", 
             "expression": {
                 "0": {  
                     "id": "0"
@@ -122,8 +122,8 @@
         },
         "3": {  
             "id": "luyijiushi_3",
-            "name": "", 
-            "description": "", 
+            "name": "Alluring Administrator", 
+            "description": "Commander, regarding your next appointment... Ah, hard work is one of the highest virtues of the Iris's holy knights. On weekdays or vacations, in knights' armor or the Dragon Empery's attire, there can be no pause to my prayer, my training, or my duties as the administrator of your will.", 
             "expression": {
                 "0": {  
                     "id": "0"
@@ -673,7 +673,153 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "2": {
+                "skin_id": "luyijiushi_2",
+                "id": "1",
+                "label": "Holy Knight's Resplendence",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "With all due respect, Commander, this finery and this throne are not fit for one such as myself. Despite the hallowed name I have inherited, I am nothing more than a warrior. —However, if such an arrangement pleases you, then I shall hold my objections.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            },
+            "3": {
+                "skin_id": "luyijiushi_3",
+                "id": "2",
+                "label": "Alluring Administrator",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, regarding your next appointment... Ah, hard work is one of the highest virtues of the Iris's holy knights. On weekdays or vacations, in knights' armor or the Dragon Empery's attire, there can be no pause to my prayer, my training, or my duties as the administrator of your will.",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {
