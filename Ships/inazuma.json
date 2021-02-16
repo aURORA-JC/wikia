@@ -105,7 +105,29 @@
 					"id": "4"
 				}
 			}
-		}
+		},
+        "4": {
+            "id": "dian_4",
+            "name": "Dusk's Lightning",
+            "description": "I'm the fairy of lightning that illuminates the stars in the night sky... So that's what we're going with, huh. Commander, will you accompany me to the party?",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -936,7 +958,26 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "4": {
+                "skin_id": "dian_4",
+                "id": "3",
+                "label": "Dusk's Lightning",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm the fairy of lightning that illuminates the stars in the night sky... So that's what we're going with, huh. Commander, will you accompany me to the party?",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }

@@ -108,7 +108,26 @@
 					"id" : "5"
 				}
 			}
-		}
+		},
+        "4" : {
+            "id" : "lei_4",
+            "name" : "Dawn's Thunder",
+            "description" : "I'm the fairy of thunder that shatters the night to herald the dawn! I see, I see! That is a good backstory! Commander, want to head to the party together?",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1" : {
@@ -879,7 +898,26 @@
 						"englishNote" : ""
 					}
 				}
-			}
+			},
+            "4": {
+                "skin_id": "lei_4",
+                "id": "3",
+                "label": "Dawn's Thunder",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm the fairy of thunder that shatters the night to herald the dawn! I see, I see! That is a good backstory! Commander, want to head to the party together?",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }
