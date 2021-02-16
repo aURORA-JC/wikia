@@ -118,7 +118,26 @@
 					"id": "3"
 				}
 			}
-		}
+		},
+        "4": {
+            "id": "xiefeierde_4",
+            "name": "Black Crow's Finery",
+            "description": "The fact that you're asking your own maid to be your partner at the ball shows a concerning lack of gumption as a human being... However, if you go and make a fool of yourself, it will reflect poorly upon my standing as a maid. Therefore, I have no choice but to accompany you.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },   
+                "1": {
+                    "id": "1"
+                },   
+                "2": {
+                    "id": "2"
+                },   
+                "3": {
+                    "id": "3"
+                }    
+            }    
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -1033,7 +1052,26 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "4": {
+                "skin_id": "xiefeierde_4",
+                "id": "3",
+                "label": "Black Crow's Finery",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The fact that you're asking your own maid to be your partner at the ball shows a concerning lack of gumption as a human being... However, if you go and make a fool of yourself, it will reflect poorly upon my standing as a maid. Therefore, I have no choice but to accompany you.",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }
