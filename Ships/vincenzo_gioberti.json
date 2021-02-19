@@ -5,7 +5,7 @@
 	"nameCN" : "文琴佐·焦贝蒂",
 	"ID" : "490",
 	"name" : "Vincenzo Gioberti",
-	"internal_id" : "",
+	"internal_id" : "601031",
 	"rarity" : "Elite",
 	"initialStar" : "★★☆☆☆",
 	"hull" : "Destroyer",
@@ -298,9 +298,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id" : "longqibing",
+				"skin_id" : "wenqinzuojiaobeidi",
 				"id" : "0",
-				"label" : "Carabiniere ",
+				"label" : "Vincenzo Gioberti",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -316,7 +316,7 @@
 					},
 					"2" : {
 						"event" : "Biography",
-						"media" : "",
+						"media" : "profile",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -328,7 +328,7 @@
 					},
 					"3" : {
 						"event" : "Acquisition",
-						"media" : "",
+						"media" : "get",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -340,7 +340,7 @@
 					},
 					"4" : {
 						"event" : "Login",
-						"media" : "",
+						"media" : "login",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -352,7 +352,7 @@
 					},
 					"5" : {
 						"event" : "Details",
-						"media" : "",
+						"media" : "detail",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -364,7 +364,7 @@
 					},
 					"6" : {
 						"event" : "Main 1",
-						"media" : "",
+						"media" : "main_1",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -376,7 +376,7 @@
 					},
 					"7" : {
 						"event" : "Main 2",
-						"media" : "",
+						"media" : "main_2",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -388,7 +388,7 @@
 					},
 					"8" : {
 						"event" : "Main 3",
-						"media" : "",
+						"media" : "main_3",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -400,7 +400,7 @@
 					},
 					"9" : {
 						"event" : "Touch",
-						"media" : "",
+						"media" : "touch_1",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -412,7 +412,7 @@
 					},
 					"10" : {
 						"event" : "Touch (Special)",
-						"media" : "",
+						"media" : "touch_2",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -423,8 +423,8 @@
 						"englishNote" : ""
 					},
                     "11" : {
-                        "event" : "Rub",
-                        "media" : "",
+                        "event" : "Touch (Headrub)",
+                        "media" : "touch_head",
                         "chinese" : "",
                         "chineseTL" : "",
                         "chineseNote" : "",
@@ -436,7 +436,7 @@
                     },
 					"12" : {
 						"event" : "Mission",
-						"media" : "",
+						"media" : "task",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -448,7 +448,7 @@
 					},
 					"13" : {
 						"event" : "Mission Complete",
-						"media" : "",
+						"media" : "mission_complete",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -460,7 +460,7 @@
 					},
 					"14" : {
 						"event" : "Mail",
-						"media" : "",
+						"media" : "mail",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -472,7 +472,7 @@
 					},
 					"15" : {
 						"event" : "Return to Port",
-						"media" : "",
+						"media" : "home",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -484,7 +484,7 @@
 					},
 					"16" : {
 						"event" : "Commission Complete",
-						"media" : "",
+						"media" : "expedition",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -496,7 +496,7 @@
 					},
 					"17" : {
 						"event" : "Enhancement",
-						"media" : "",
+						"media" : "upgrade",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -508,7 +508,7 @@
 					},
 					"18" : {
 						"event" : "Flagship",
-						"media" : "",
+						"media" : "warcry",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -520,7 +520,7 @@
 					},
 					"19" : {
 						"event" : "Victory",
-						"media" : "",
+						"media" : "mvp",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -532,7 +532,7 @@
 					},
 					"20" : {
 						"event" : "Defeat",
-						"media" : "",
+						"media" : "lose",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -544,7 +544,7 @@
 					},
 					"21" : {
 						"event" : "Skill",
-						"media" : "",
+						"media" : "skill",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -556,7 +556,7 @@
 					},
 					"22" : {
 						"event" : "Low HP",
-						"media" : "",
+						"media" : "hp",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -568,7 +568,7 @@
 					},
 					"23" : {
 						"event" : "Affinity (Upset)",
-						"media" : "",
+						"media" : "feeling1",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -580,7 +580,7 @@
 					},
 					"24" : {
 						"event" : "Affinity (Stranger)",
-						"media" : "",
+						"media" : "feeling2",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -592,7 +592,7 @@
 					},
 					"25" : {
 						"event" : "Affinity (Friendly)",
-						"media" : "",
+						"media" : "feeling3",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -604,7 +604,7 @@
 					},
 					"26" : {
 						"event" : "Affinity (Like)",
-						"media" : "",
+						"media" : "feeling4",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -616,7 +616,7 @@
 					},
 					"27" : {
 						"event" : "Affinity (Love)",
-						"media" : "",
+						"media" : "feeling5",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -628,7 +628,7 @@
 					},
 					"28" : {
 						"event" : "Pledge",
-						"media" : "",
+						"media" : "propose",
 						"chinese" : "",
 						"chineseTL" : "",
 						"chineseNote" : "",
@@ -637,7 +637,67 @@
 						"japaneseNote" : "",
 						"english" : "",
 						"englishNote" : ""
-					}
+					},
+                    "29" : { 
+                        "event" : "Additional Voiceline 1",
+                        "media" : "link1",
+                        "chinese" : "", 
+                        "chineseTL" : "", 
+                        "chineseNote" : "", 
+                        "japanese" : "", 
+                        "japaneseTL" : "", 
+                        "japaneseNote" : "", 
+                        "english" : "", 
+                        "englishNote" : ""
+                    },
+                    "30" : { 
+                        "event" : "Additional Voiceline 2",
+                        "media" : "link2",
+                        "chinese" : "", 
+                        "chineseTL" : "", 
+                        "chineseNote" : "", 
+                        "japanese" : "", 
+                        "japaneseTL" : "", 
+                        "japaneseNote" : "", 
+                        "english" : "", 
+                        "englishNote" : ""
+                    },
+                    "31" : { 
+                        "event" : "Extra",
+                        "media" : "extra",
+                        "chinese" : "", 
+                        "chineseTL" : "", 
+                        "chineseNote" : "", 
+                        "japanese" : "", 
+                        "japaneseTL" : "", 
+                        "japaneseNote" : "", 
+                        "english" : "", 
+                        "englishNote" : ""
+                    },
+                    "32" : { 
+                        "event" : "Present Like",
+                        "media" : "present_like",
+                        "chinese" : "", 
+                        "chineseTL" : "", 
+                        "chineseNote" : "", 
+                        "japanese" : "", 
+                        "japaneseTL" : "", 
+                        "japaneseNote" : "", 
+                        "english" : "", 
+                        "englishNote" : ""
+                    },
+                    "33" : { 
+                        "event" : "Present Dislike",
+                        "media" : "present_dislike",
+                        "chinese" : "", 
+                        "chineseTL" : "", 
+                        "chineseNote" : "", 
+                        "japanese" : "", 
+                        "japaneseTL" : "", 
+                        "japaneseNote" : "", 
+                        "english" : "", 
+                        "englishNote" : ""
+                    }
 				}
 			}
 		}
