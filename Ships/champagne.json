@@ -732,7 +732,7 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "",
+                        "media": "get_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -744,7 +744,7 @@
                     },
                     "3": {
                         "event": "Login",
-                        "media": "",
+                        "media": "login_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -756,7 +756,7 @@
                     },
                     "4": {
                         "event": "Details",
-                        "media": "",
+                        "media": "detail_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -768,7 +768,7 @@
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "",
+                        "media": "main_1_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -780,7 +780,31 @@
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -791,8 +815,8 @@
                         "englishNote": ""
                     },
                     "9": {
-                        "event": "Touch (Special)",
-                        "media": "",
+                        "event": "Touch (Headrub)",
+                        "media": "touch_head_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -803,20 +827,8 @@
                         "englishNote": ""
                     },
                     "10": {
-                        "event": "Touch (Headrub)",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "11": {
                         "event": "Return to Port",
-                        "media": "",
+                        "media": "home_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -825,7 +837,7 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    }
                 }
             }
 		}
