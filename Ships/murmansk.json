@@ -1,19 +1,19 @@
 {
-	"name_reference": "kirov",
-	"cn_reference": "jiluofu",
+	"name_reference": "murmansk",
+	"cn_reference": "",
 	"nameJP": "",
 	"nameCN": "",
-	"ID": "496",
-	"name": "Kirov",
+	"ID": "499",
+	"name": "Murmansk",
 	"internal_id": "",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Heavy Cruiser",
-	"navy": "Northern Parliament",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Northern Union",
 	"prefix": "SN",
 	"buildTime": "",
-	"class": "Kirov-class",
-	"voiceActress": "Uesaka Sumire",
+	"class": "Omaha",
+	"voiceActress": "Kohara Konomi",
 	"parameters": {
 		"firepower": "",
 		"torpedo": "",
@@ -54,74 +54,79 @@
 			"name": "",
 			"type": "",
 			"description": ""
-		}
+		},
+        "2": {
+            "icon": "", 
+            "requirement": "", 
+            "name": "", 
+            "type": "", 
+            "description": ""
+        },
+        "3": {
+            "icon": "", 
+            "requirement": "", 
+            "name": "", 
+            "type": "", 
+            "description": ""
+        }
 	},
 	"skin": {
 		"1": {
-			"id": "jiluofu",
-			"name": "Kirov",
+			"id": "",
+			"name": "",
 			"description": "",
 			"expression": {
 				"0": {
 					"id": "0"
 				},
                 "1": {
-                    "id": "1"
+                    "id": "1" 
                 },
                 "2": {
-                    "id": "2"
+                    "id": "2" 
                 },
                 "3": {
-                    "id": "3"
+                    "id": "3" 
                 },
                 "4": {
-                    "id": "4"
+                    "id": "4" 
                 },
                 "5": {
-                    "id": "5"
-                },
+                    "id": "5" 
+                },  
                 "6": {
-                    "id": "6"
-                },
+                    "id": "6" 
+                },  
                 "7": {
-                    "id": "7"
-                },
-                "8": {
-                    "id": "8"
+                    "id": "7" 
                 }
 			}
 		},
         "2": {
-            "id": "jiluofu_2",
-            "name": "Kirov",
+            "id": "", 
+            "name": "", 
             "description": "", 
             "expression": {
                 "0": {
-                    "id": "0"
-                },
+                    "id": "0" 
+                },  
                 "1": {
-                    "id": "1"
-                },
+                    "id": "1" 
+                },  
                 "2": {
-                    "id": "2"
-                },
+                    "id": "2" 
+                },  
                 "3": {
-                    "id": "3"
-                },
+                    "id": "3" 
+                },  
                 "4": {
-                    "id": "4"
+                    "id": "4" 
                 },
                 "5": {
-                    "id": "5"
-                },
+                    "id": "5" 
+                },  
                 "6": {
-                    "id": "6"
-                },
-                "7": {
-                    "id": "7"
-                },
-                "8": {
-                    "id": "8"
+                    "id": "6" 
                 }
             }
         }
