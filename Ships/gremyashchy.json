@@ -1,11 +1,11 @@
 {
 	"name_reference": "gremyashchy",
-	"cn_reference": "",
+	"cn_reference": "leiming",
 	"nameJP": "",
 	"nameCN": "",
-	"ID": "501",
+	"ID": "497",
 	"name": "Gremyashchy",
-	"internal_id": "",
+	"internal_id": "701071",
 	"rarity": "Elite",
 	"initialStar": "★★☆☆☆",
 	"hull": "Destroyer",
@@ -72,7 +72,7 @@
 	},
 	"skin": {
 		"1": {
-			"id": "",
+			"id": "leiming",
 			"name": "",
 			"description": "",
 			"expression": {
@@ -106,7 +106,7 @@
 			}
 		},
         "2": {
-            "id": "",
+            "id": "leiming_2",
             "name": "",
             "description": "",
             "expression": {
@@ -130,6 +130,16 @@
                 },
                 "6": {
                     "id": "6"
+                }
+            }
+        },
+        "101": {
+            "id": "leiming_ex1100",
+            "name": "Gremyashchy",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
                 }
             }
         }
@@ -319,7 +329,7 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "leiming",
 				"id": "0",
 				"label": "",
 				"dialogue": {
@@ -670,11 +680,71 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2", 
+                        "media": "link2",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3", 
+                        "media": "link3",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Extra", 
+                        "media": "extra",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "33": {
+                        "event": "Present Like", 
+                        "media": "present_like",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "34": {
+                        "event": "Present Dislike", 
+                        "media": "present_dislike",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
                     }
 				}
 			},
             "2": {
-                "skin_id": "",
+                "skin_id": "leiming_2",
                 "id": "1",
                 "label": "",
                 "dialogue": {
@@ -787,8 +857,8 @@
                         "englishNote": ""
                     },
                     "10": {
-                        "event": "Return to Port",
-                        "media": "home_1",
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -797,7 +867,158 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    },
+                    "10": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Mission",
+                        "media": "task_1",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    } 
+                }
+            },
+            "101": {
+                "skin_id": "leiming_ex1100",
+                "id": "0",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 3",
+                        "media": "main_3_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Defeat",
+                        "media": "lose_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
                 }
             }
 		}

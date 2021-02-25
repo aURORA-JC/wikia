@@ -3,7 +3,7 @@
 	"cn_reference": "jiluofu",
 	"nameJP": "",
 	"nameCN": "",
-	"ID": "496",
+	"ID": "435",
 	"name": "Kirov",
 	"internal_id": "",
 	"rarity": "Super Rare",
@@ -60,7 +60,7 @@
 		"1": {
 			"id": "jiluofu",
 			"name": "Kirov",
-			"description": "",
+			"description": "Kirov-Class cruiser—Kirov",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -93,8 +93,8 @@
 		},
         "2": {
             "id": "jiluofu_2",
-            "name": "Kirov",
-            "description": "", 
+            "name": "Blend R",
+            "description": "Comrade Commander, you've come at a good time. I've recently taken a liking to this blend of coffee. Want some as well? No need to be shy.", 
             "expression": {
                 "0": {
                     "id": "0"
@@ -311,9 +311,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "jiluofu",
 				"id": "0",
-				"label": "",
+				"label": "Kirov",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -324,7 +324,7 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-                        "english": "",
+                        "english": "Kirov-Class cruiser—Kirov",
 						"englishNote": ""
 					},
                     "2": {
@@ -336,7 +336,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Salutations, Comrade Commander. I am Kirov. My appearance, rigging, and class are all unimportant in the greater scheme of our ambitions. What matters is that we work together to achieve a future of red glory.",
                         "englishNote": ""
                     },
                     "3": {
@@ -348,7 +348,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I am the child of a union between our unprecedented country and a free spirit! Now, Comrade Commander, let us achieve great things together!",
                         "englishNote": ""
                     },
                     "4": {
@@ -360,7 +360,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Good to see you again, Comrade Commander! Let us once more set out to teach our enemy the meaning of unity and solidarity.",
                         "englishNote": ""
                     },
                     "5": {
@@ -372,7 +372,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Neither fate nor evil can hamper our ambitions!",
                         "englishNote": ""
                     },
                     "6": {
@@ -384,7 +384,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "The strong must always march onward. Holding the line is what the weak do.",
                         "englishNote": ""
                     },
                     "7": {
@@ -396,7 +396,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Glory is what sustains and strengthens us, and is what will leave our mark on history.",
                         "englishNote": ""
                     },
                     "8": {
@@ -408,7 +408,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I march onward in the name of a tomorrow where everyone is safe and smiling.",
                         "englishNote": ""
                     },
                     "9": {
@@ -420,7 +420,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Lead the way, Comrade Commander.",
                         "englishNote": ""
                     },
                     "10": {
@@ -432,7 +432,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "This is no time for this sort of depravity, Comrade Commander.",
                         "englishNote": ""
                     },
                     "11": {
@@ -456,7 +456,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "It is time to embark on a mission, Comrade Commander.",
                         "englishNote": ""
                     },
                     "13": {
@@ -468,7 +468,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I knew you would pull through for us, Comrade Commander! Here are the rewards.",
                         "englishNote": ""
                     },
                     "14": {
@@ -480,7 +480,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "You have mail. Read it through at once. The more comrades, the better. Always.",
                         "englishNote": ""
                     },
                     "15": {
@@ -492,7 +492,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Well fought, Comrade Commander! Your valor warrants the front page spot in the port's newspaper!",
                         "englishNote": ""
                     },
                     "16": {
@@ -504,7 +504,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "A commission has been completed. We must head out and greet the returnees. Our comrades deserve recognition for their efforts.",
                         "englishNote": ""
                     },
                     "17": {
@@ -516,7 +516,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "This strength will further our cause!",
                         "englishNote": ""
                     },
                     "18": {
@@ -528,7 +528,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "To arms, comrades!",
                         "englishNote": ""
                     },
                     "19": {
@@ -540,7 +540,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Our advance will stop for nothing and nobody!",
                         "englishNote": ""
                     },
                     "20": {
@@ -552,7 +552,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Gah...! I cannot and will not succumb until our ambitions have been realized!",
                         "englishNote": ""
                     },
                     "21": {
@@ -564,7 +564,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Hear me! I am Kirov!",
                         "englishNote": ""
                     },
                     "22": {
@@ -576,7 +576,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "No! I am far, far from finished!",
                         "englishNote": ""
                     },
                     "23": {
@@ -588,7 +588,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "It pains me to say, but I no longer consider you my comrade.",
                         "englishNote": ""
                     },
                     "24": {
@@ -600,7 +600,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Never let but's or if's misguide you, Comrade Commander. You alone decide what is right and true.",
                         "englishNote": ""
                     },
                     "25": {
@@ -612,7 +612,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Splendid, Comrade Commander. You've chosen a path of your own. Now follow it and see where it takes you!",
                         "englishNote": ""
                     },
                     "26": {
@@ -624,7 +624,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I will always watch over you. Should you ever lose your way, I will be the hand that shoves you back on the right path. Only look ahead, never stop advancing!",
                         "englishNote": ""
                     },
                     "27": {
@@ -636,7 +636,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "To fight not just for your motherland but also for your soulmate, that is what love is... I understand it now. Passion is the fuel of my fighting spirit. And as long as I have you, nothing is impossible!",
                         "englishNote": ""
                     },
                     "28": {
@@ -648,7 +648,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Only a fool chooses between protecting either the world or their lover. There is but one correct answer: protecting them both. We have both the will and the means to do just that. Come, Comrade Commander, let us march onwards!",
                         "englishNote": ""
                     },
                     "29": {
@@ -660,15 +660,39 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Onwards, Northern Parliament comrades!",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I have your back,Tallinn!",
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You may be bourgeois swine... but today, we fight together!",
                         "englishNote": ""
                     }
 				}
 			},
             "2": {
-                "skin_id": "",
+                "skin_id": "jiluofu_2",
                 "id": "1",
-                "label": "",
+                "label": "Blend R",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -691,7 +715,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Comrade Commander, you've come at a good time. I've recently taken a liking to this blend of coffee. Want some as well? No need to be shy.",
                         "englishNote": ""
                     },
                     "3": {
