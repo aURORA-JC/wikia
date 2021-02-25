@@ -121,7 +121,7 @@
 			}
 		},
         "3" : { 
-            "id" : "",
+            "id" : "shuixingjinian_4",
             "name" : "",
             "description" : "",
             "expression" : { 
@@ -954,7 +954,7 @@
 				}
 			},
             "3": {
-                "skin_id": "",
+                "skin_id": "shuixingjinian_4",
                 "id": "2",
                 "label": "",
                 "dialogue": {
@@ -972,19 +972,7 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_1",
+                        "media": "get_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -996,7 +984,7 @@
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_1",
+                        "media": "detail_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1008,7 +996,7 @@
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_1",
+                        "media": "main_1_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1020,7 +1008,7 @@
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_1",
+                        "media": "main_2_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1032,7 +1020,7 @@
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_1",
+                        "media": "main_3_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1044,7 +1032,7 @@
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_1",
+                        "media": "touch_1_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1056,7 +1044,7 @@
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_1",
+                        "media": "touch_2_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1068,7 +1056,7 @@
                     },
                     "10": {
                         "event": "Return to Port",
-                        "media": "home_1",
+                        "media": "home_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1077,7 +1065,43 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    },
+                    "11": {
+                        "event": "Mail",
+                        "media": "mail_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Victory",
+                        "media": "mvp_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Defeat",
+                        "media": "lose_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
                 }
             },
             "4": {
@@ -1099,7 +1123,7 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_1",
+                        "media": "get_9",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1111,7 +1135,7 @@
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_1",
+                        "media": "login_9",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1123,7 +1147,7 @@
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_1",
+                        "media": "detail_9",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1135,7 +1159,7 @@
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_1",
+                        "media": "main_1_9",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1147,31 +1171,7 @@
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_1",
+                        "media": "main_2_9",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1183,7 +1183,7 @@
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_1",
+                        "media": "touch_2_9",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1194,8 +1194,8 @@
                         "englishNote": ""
                     },
                     "10": {
-                        "event": "Return to Port",
-                        "media": "home_1",
+                        "event": "Flagship",
+                        "media": "warcry_9",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1204,7 +1204,31 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    },
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_9",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Defeat",
+                        "media": "lose_9",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
                 }
             },
 			"101": {

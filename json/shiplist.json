@@ -3212,6 +3212,15 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "435": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/squareicon/jiluofu.png",
+        "link": "kirov",
+        "name": "Kirov",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "436": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/squareicon/qiabayefu.png",
@@ -3228,6 +3237,15 @@
         "name": "Gangut",
         "navy": "Northern Union",
         "rarity": "Elite",
+        "shipType": "common"
+    },
+    "440": {                                                                                                                         
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/squareicon/suweiaibeilaluosi.png",
+        "link": "sovetskaya_belorussiya",
+        "name": "Sovetskaya Belorussiya",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
         "shipType": "common"
     },
     "441": {
@@ -3727,54 +3745,36 @@
     },
     "496": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/.png",
-        "link": "kirov",
-        "name": "Kirov",
-        "navy": "Northern Parliament",
-        "rarity": "Super Rare",
-        "shipType": "common"
-    },
-    "497": {
-        "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/.png",
-        "link": "sovetskaya_belorussiya",
-        "name": "Sovetskaya Belorussiya",
-        "navy": "Northern Parliament",
-        "rarity": "Super Rare",
-        "shipType": "common"
-    },
-    "498": {
-        "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/.png",
+        "icon": "https://algwiki.moe/assets/squareicon/talin.png",
         "link": "tallinn",
         "name": "Tallinn",
         "navy": "Northern Parliament",
         "rarity": "Super Rare",
         "shipType": "common"
     },
-    "499": {
+    "497": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/squareicon/leiming.png",
+        "link": "gremyashchy",
+        "name": "Gremyashchy",
+        "navy": "Northern Parliament",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "498": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/.png",
+        "icon": "https://algwiki.moe/assets/squareicon/moermansike.png",
         "link": "murmansk",
         "name": "Murmansk",
         "navy": "Northern Parliament",
         "rarity": "Elite",
         "shipType": "common"
     },
-    "500": {
+    "499": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/.png",
+        "icon": "https://algwiki.moe/assets/squareicon/hongliang.png",
         "link": "gromky",
         "name": "Gromky",
-        "navy": "Northern Parliament",
-        "rarity": "Elite",
-        "shipType": "common"
-    },
-    "501": {
-        "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/.png",
-        "link": "gremyashchy",
-        "name": "Gremyashchy",
         "navy": "Northern Parliament",
         "rarity": "Elite",
         "shipType": "common"

@@ -1,11 +1,11 @@
 {
 	"name_reference": "gromky",
-	"cn_reference": "",
+	"cn_reference": "hongliang",
 	"nameJP": "",
 	"nameCN": "",
-	"ID": "500",
+	"ID": "499",
 	"name": "Gromky",
-	"internal_id": "",
+	"internal_id": "701081",
 	"rarity": "Elite",
 	"initialStar": "★★☆☆☆",
 	"hull": "Destroyer",
@@ -72,8 +72,8 @@
 	},
 	"skin": {
 		"1": {
-			"id": "",
-			"name": "",
+			"id": "hongliang",
+			"name": "Gromky",
 			"description": "",
 			"expression": {
 				"0": {
@@ -94,7 +94,7 @@
 			}
 		},
         "2": {
-            "id": "", 
+            "id": "hongliang_2", 
             "name": "", 
             "description": "", 
             "expression": {
@@ -112,6 +112,16 @@
                 },  
                 "4": {
                     "id": "4" 
+                }   
+            }   
+        },
+        "101": {
+            "id": "hongliang_ex1100", 
+            "name": "Gromky", 
+            "description": "", 
+            "expression": {
+                "0": {
+                    "id": "0" 
                 }   
             }   
         }
@@ -301,9 +311,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "hongliang",
 				"id": "0",
-				"label": "",
+				"label": "Gromky",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -652,11 +662,83 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Additional Voice Line 4",
+                        "media": "link4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "33": {
+                        "event": "Extra", 
+                        "media": "extra",
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "",  
+                        "englishNote": ""
+                    },   
+                    "34": {
+                        "event": "Present Like", 
+                        "media": "present_like",
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "",  
+                        "englishNote": ""
+                    },   
+                    "35": {
+                        "event": "Present Dislike", 
+                        "media": "present_dislike",
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "",  
+                        "englishNote": ""
                     }
 				}
 			},
             "2": {
-                "skin_id": "",
+                "skin_id": "hongliang_2",
                 "id": "1",
                 "label": "",
                 "dialogue": {
@@ -769,6 +851,18 @@
                         "englishNote": ""
                     },
                     "10": {
+                        "event": "Touch (Headrub)",
+                        "media": "touch_head_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "11": {
                         "event": "Return to Port",
                         "media": "home_1",
                         "chinese": "",
@@ -779,7 +873,98 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    },
+                    "12": {
+                        "event": "Mail",
+                        "media": "mail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "101": {
+                "skin_id": "hongliang_ex1100",
+                "id": "0",
+                "label": "Gromky",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    } 
                 }
             }
 		}
