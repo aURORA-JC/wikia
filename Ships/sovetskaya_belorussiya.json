@@ -73,8 +73,8 @@
 	"skin": {
 		"1": {
 			"id": "suweiaibeilaluosi",
-			"name": "",
-			"description": "",
+			"name": "Sovetskaya Belorussiya",
+			"description": "Sovestsky Soyuz-class battleship - Sovetskaya Belorussiya.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -98,8 +98,8 @@
 		},
         "2": {
             "id": "suweiaibeilaluosi_2", 
-            "name": "", 
-            "description": "", 
+            "name": "Relaxation Stratagem", 
+            "description": "To pass the time by proactively reading, or by passively enjoying the company of others... Ah, good morning, Comrade, I've been expecting you. Hahaha!", 
             "expression": {
                 "0": {
                     "id": "0" 
@@ -117,8 +117,8 @@
         },
         "101": {
             "id": "suweiaibeilaluosi_ex1100", 
-            "name": "", 
-            "description": "", 
+            "name": "Sovetskaya Belorussiya", 
+            "description": "Sovestsky Soyuz-class battleship - Sovetskaya Belorussiya.", 
             "expression": {
                 "0": {
                     "id": "0" 
@@ -311,9 +311,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "suweiaibeilaluosi",
 				"id": "0",
-				"label": "",
+				"label": "Sovetskaya Belorussiya",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -324,7 +324,7 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-                        "english": "",
+                        "english": "Sovestsky Soyuz-class battleship - Sovetskaya Belorussiya.",
 						"englishNote": ""
 					},
                     "2": {
@@ -336,7 +336,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "My sisters and I were devised as part of Project 23, but we never saw the light of day, much less fought in the war... But on the other hand, it would've been ludicrous to sail into battle equipped with second-rate armaments. Now though, I would be content with just getting to perform at full capacity under your command, Comrade.",
                         "englishNote": ""
                     },
                     "3": {
@@ -348,7 +348,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Comrade, are you sure you're ready to have me under your command? Very well! Let us join hands and lay waste to our enemies — using my methods, of course!",
                         "englishNote": ""
                     },
                     "4": {
@@ -360,7 +360,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Aha! I knew you'd be back right at this hour, Comrade! Rossiya doubted my intuition.",
                         "englishNote": ""
                     },
                     "5": {
@@ -372,7 +372,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "If excellency is what you seek from the Sovetsky Soyuz class, I am your best and only true option!",
                         "englishNote": ""
                     },
                     "6": {
@@ -384,7 +384,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "It's much more entertaining to lure your foes into a trap one at a time than to crush them all at once. Am I right?|Seems it's all quiet on the western front... Don't you have any palpitating news?|There is no greater pleasure than decimating your enemy with minimal losses. Wouldn't you agree?",
                         "englishNote": ""
                     },
                     "7": {
@@ -396,7 +396,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Seems it's all quiet on the western front... Don't you have any palpitating news?",
                         "englishNote": ""
                     },
                     "8": {
@@ -408,7 +408,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "There is no greater pleasure than decimating your enemy with minimal losses. Wouldn't you agree?",
                         "englishNote": ""
                     },
                     "9": {
@@ -420,7 +420,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Let me guess, you are simply poking me for your own amusement, and not because you need something done. Am I wrong?",
                         "englishNote": ""
                     },
                     "10": {
@@ -432,7 +432,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "You chose the most depraved of ways to prove you have guts, Comrade.",
                         "englishNote": ""
                     },
                     "11": {
@@ -444,7 +444,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Your little hand gestures have no effect on me.",
                         "englishNote": ""
                     },
                     "12": {
@@ -456,7 +456,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Comrade, sure we should not allow the glorious advance of our fleet to be delayed by such trifling missions.",
                         "englishNote": ""
                     },
                     "13": {
@@ -468,7 +468,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Fantastic. With HQ's missions complete, we can finally continue with our own plan.",
                         "englishNote": ""
                     },
                     "14": {
@@ -480,7 +480,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "A letter? I welcome correspondence, assuming it is an enthralling read.",
                         "englishNote": ""
                     },
                     "15": {
@@ -492,7 +492,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Do not be so lenient with the enemy next time, Comrade.",
                         "englishNote": ""
                     },
                     "16": {
@@ -504,7 +504,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Interested in a bet, Comrade? Do you think the commission team has returned with bountiful rewards, or few at all?",
                         "englishNote": ""
                     },
                     "17": {
@@ -516,7 +516,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "We will curb the enemy with our superior firepower! Hahaha!",
                         "englishNote": ""
                     },
                     "18": {
@@ -528,7 +528,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Crush the enemy! Break their spirits, then their bones!",
                         "englishNote": ""
                     },
                     "19": {
@@ -540,7 +540,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "This comes as no surprise. All I did was nudge those fools toward the annihilation they so desired.",
                         "englishNote": ""
                     },
                     "20": {
@@ -552,7 +552,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Everyone makes mistakes, I suppose...",
                         "englishNote": ""
                     },
                     "21": {
@@ -564,7 +564,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Cease your pointless struggling!",
                         "englishNote": ""
                     },
                     "22": {
@@ -576,7 +576,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "The battle is still under our control!",
                         "englishNote": ""
                     },
                     "23": {
@@ -588,7 +588,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I don't care. You are absolutely nothing to me. Just stay out of my way.",
                         "englishNote": ""
                     },
                     "24": {
@@ -600,7 +600,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "How about a bet, Comrade? Do you think your job will only be accomplished thanks to my help, or regardless of it?",
                         "englishNote": ""
                     },
                     "25": {
@@ -612,7 +612,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Oh, so you don't mind losing a bet if it means you get my help? I see. Well, regardless, it doesn't matter who wins a bet made on the spur of the moment. Now, what do you need assistance with, Comrade?",
                         "englishNote": ""
                     },
                     "26": {
@@ -624,7 +624,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "If you ever tire of managing the fleet and planning battles, I will take over for you. You can rest easy, knowing I will bring you good reports on the daily. Although, knowing your devotion to your job, I doubt you'd ever delegate it to get some rest.",
                         "englishNote": ""
                     },
                     "27": {
@@ -636,7 +636,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "You don't mince your words, do you? I will say I do prefer a forthright confession of love over beating around the bush. Standing at the top of the world, gazing at the horizon, with you by my side – I like the sound of that. Ahahaha!",
                         "englishNote": ""
                     },
                     "28": {
@@ -648,7 +648,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "You hope this ring will forever connect me with you, do you? Then I believe it will, because I believe in you. Only you are capable of standing at the top of the world together with me. Do not let me down, Comrade.",
                         "englishNote": ""
                     },
                     "29": {
@@ -660,51 +660,39 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Dropped some screws? I'll gather them up for you!",
                         "englishNote": ""
                     },
                     "30": {
-                        "event": "Extra",
-                        "media": "extra",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "31": {
-                        "event": "Present Like",
+                        "event": "Present Like", 
                         "media": "present_like",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "", 
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "",  
                         "englishNote": ""
-                    },
-                    "32": {
-                        "event": "Present Dislike",
+                    },   
+                    "31": {
+                        "event": "Present Dislike", 
                         "media": "present_dislike",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "", 
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "",  
                         "englishNote": ""
                     }
 				}
 			},
             "2": {
-                "skin_id": "",
+                "skin_id": "suweiaibeilaluosi",
                 "id": "1",
-                "label": "",
+                "label": "Relaxation Stratagem",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -715,7 +703,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "To pass the time by proactively reading, or by passively enjoying the company of others... Ah, good morning, Comrade, I've been expecting you. Hahaha!",
                         "englishNote": ""
                     },
                     "2": {
@@ -727,7 +715,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "To pass the time by proactively reading, or by passively enjoying the company of others... Ah, good morning, Comrade, I've been expecting you. Hahaha!",
                         "englishNote": ""
                     },
                     "3": {
@@ -739,7 +727,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Take it easy. There are many ways to kill time. Just pick one which feels sound.",
                         "englishNote": ""
                     },
                     "4": {
@@ -751,7 +739,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "What's your favorite book, Comrade? I'm asking out of curiosity, and to have something to recommend to Soyuz and Rossiya.",
                         "englishNote": ""
                     },
                     "5": {
@@ -763,7 +751,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Anyone's life can be enriched by having many diverse interests. Even I enjoy the odd girly hobby or two.",
                         "englishNote": ""
                     },
                     "6": {
@@ -775,7 +763,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Oh please, don't toot your own horn, Comrade. I know several destroyers who read advanced literature too.",
                         "englishNote": ""
                     },
                     "7": {
@@ -787,7 +775,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I need to get up and move around a bit. My joints start aching if I sit down for too long.",
                         "englishNote": ""
                     },
                     "9": {
@@ -799,7 +787,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "What, did my revealing outfit cause you a lapse of judgment?",
                         "englishNote": ""
                     },
                     "10": {
@@ -811,7 +799,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I see you've all returned in one piece. Your reputation has further improved as a result.",
                         "englishNote": ""
                     },
                     "11": {
@@ -823,9 +811,9 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "There's no point in betting on a sure outcome! Onwards!",
                         "englishNote": ""
-                    } 
+                    }
                 }
             },
             "101": {
