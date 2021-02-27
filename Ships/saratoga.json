@@ -192,8 +192,8 @@
       },
       "6":{   
          "id":"salatuojia_6",
-         "name":"", 
-         "description":"",
+         "name":"Silent Night Songstress", 
+         "description":"Merry Christmas! Here comes Christmas Sara, shining like a star in the silent night! Hehehe, how's that for a holiday greeting? So, have you decided where we're gonna spend our Christmas Eve yet?",
          "expression":{
             "0":{   
                "id":"0"
@@ -214,8 +214,8 @@
       },
       "7":{   
          "id":"salatuojia_7",
-         "name":"", 
-         "description":"",
+         "name":"Spring's Opening Act!", 
+         "description":"Tadaaah! Happy Lunar New Year, Commander! How do you like this fresh new spring look that Sara's rocking? Hope you haven't forgotten our promise to check out the port's spring festival together~ Ready, then? Let's go!",
          "expression":{
             "0":{   
                "id":"0"
@@ -1004,7 +1004,7 @@
                },
                "2":{
                   "event":"Acquisition",
-                  "media":"",
+                  "media":"get_2",
                   "chinese":"hey～这次为大家带来的是异国风情的sis.sara哟！指挥官，有什么感想吗？",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1016,7 +1016,7 @@
                },
                "3":{
                   "event":"Login",
-                  "media":"",
+                  "media":"login_2",
                   "chinese":"欢迎回来——！这次突然想用普通的方式迎接指挥官呢～",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1028,7 +1028,7 @@
                },
                "4":{
                   "event":"Details",
-                  "media":"",
+                  "media":"detail_2",
                   "chinese":"穿成这个样子的话，有点不方便恶作剧了，怎么办才好呢…呜哇？！指挥官什么时候来的！",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1040,7 +1040,7 @@
                },
                "5":{
                   "event":"Main 1",
-                  "media":"",
+                  "media":"main_1_2",
                   "chinese":"果然还是黑色的缎带最适合萨拉妹妹了！",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1052,7 +1052,7 @@
                },
                "6":{
                   "event":"Main 2",
-                  "media":"",
+                  "media":"main_2_2",
                   "chinese":"送给辛苦的指挥官——萨拉托加之缓解疲劳的笑容！如何呢？嘿嘿～",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1064,7 +1064,7 @@
                },
                "7":{
                   "event":"Main 3",
-                  "media":"",
+                  "media":"main_3_2",
                   "chinese":"指挥官在想什么呀？也和萨拉妹妹说说嘛！",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1076,7 +1076,7 @@
                },
                "8":{
                   "event":"Touch",
-                  "media":"",
+                  "media":"touch_1_2",
                   "chinese":"指挥官，没有在关注什么奇怪的地方吧？",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1088,7 +1088,7 @@
                },
                "9":{
                   "event":"Touch (Special)",
-                  "media":"",
+                  "media":"touch_2_2",
                   "chinese":"",
                   "chineseTL":"",
                   "chineseNote":"",
@@ -1576,7 +1576,45 @@
                   "englishNote":""
                }
             }
-         }
+         },
+            "7": {
+                "skin_id": "salatuojia_6",
+                "id": "6",
+                "label": "Silent Night Songstress",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Merry Christmas! Here comes Christmas Sara, shining like a star in the silent night! Hehehe, how's that for a holiday greeting? So, have you decided where we're gonna spend our Christmas Eve yet?",
+                        "englishNote": ""
+                    }       
+                }
+            },
+            "8": {
+                "skin_id": "salatuojia_7",
+                "id": "7",
+                "label": "Spring's Opening Act!",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Tadaaah! Happy Lunar New Year, Commander! How do you like this fresh new spring look that Sara's rocking? Hope you haven't forgotten our promise to check out the port's spring festival together~ Ready, then? Let's go!",
+                        "englishNote": ""
+                    }
+                }
+            }
       }
    },
    "retrofit":{

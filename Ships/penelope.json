@@ -49,52 +49,82 @@
 	"acquisitionMethod": "",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
+			"icon": "14110",
+			"requirement": "Default Unlocked",
+			"name": "Heroes of Malta",
+			"type": "Offense",
+			"description": "Increases this ship's DMG dealt to DDs and CLs by 10.0% (20.0%). When this ship sinks an enemy: increases this ship's EVA and AA by 0.5% (5.0%) until the end of the battle (can be stacked up to 3 times)."
 		},
         "2": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
+            "icon": "14120",
+            "requirement": "Default Unlocked",
+            "name": "Pepperpot",
+            "type": "Defense",
+            "description": "Once per battle, when this ship's HP falls below 30.0%: decreases its DMG taken by 50.0% for 5s, then restores 5% (15%) of its max HP."
         },
         "3": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
+            "icon": "20100",
+            "requirement": "Default Unlocked",
+            "name": "All Out Assault",
+            "type": "Offense",
+            "description": "Every 12 (8) times the main battery is fired, trigger Full Barrage - Arethusa Class I (II)"
         }
 	},
 	"skin": {
 		"1": {
 			"id": "peineiluopo",
 			"name": "Penelope",
-			"description": "Penelope",
+			"description": "Arethusa-class light cruiser – Penelope.",
 			"expression": {
 				"0": {
 					"id": "0"
+				},
+                "1": {
+					"id": "1"
+				},
+                "2": {
+					"id": "2"
+				},
+                "3": {
+					"id": "3"
+				},
+                "4": {
+					"id": "4"
+				},
+                "5": {
+					"id": "5"
 				}
 			}
 		},
         "2": {
             "id": "peineiluopo_2",
-            "name": "",
-            "description": "",
+            "name": "Ruby-Red Boudoir",
+            "description": "Aurora chose this outfit for me because... the Spring Festival represents a time of celebration in the Dragon Empery, and red is the color that best symbolizes that. What do you think? Does this outfit... make you feel more festive?",
             "expression": {
                 "0": {
                     "id": "0"
-                }
+				},
+                "1": {
+					"id": "1"
+				},
+                "2": {
+					"id": "2"
+				},
+                "3": {
+					"id": "3"
+				},
+                "4": {
+					"id": "4"
+				},
+                "5": {
+					"id": "5"
+				}
             }
         },
         "101": {  
             "id": "peineiluopo_ex1100",
             "name": "Penelope",
-            "description": "Penelope",
+            "description": "Arethusa-class light cruiser – Penelope.",
             "expression": {
                 "0": {  
                     "id": "0"
@@ -207,9 +237,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		"tier2": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		"tier3": "Improve All Out Assault/All weapons' efficiency +5%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -300,7 +330,7 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-                        "english": "",
+                        "english": "Arethusa-class light cruiser – Penelope.",
 						"englishNote": ""
 					},
                     "2": {
@@ -312,7 +342,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I am Penelope of the Royal Navy, Arethusa-class light cruiser. I participated in a transport mission with Aurora and her companions in the K Fleet. There were difficult times, but I managed to pull through. If only I had noticed her back then...",
                         "englishNote": ""
                     },
                     "3": {
@@ -324,7 +354,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Arethusa-class light cruiser – Penelope.",
                         "englishNote": ""
                     },
                     "4": {
@@ -336,7 +366,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Commander, are you going on a sortie? I shall stay here and await your return.",
                         "englishNote": ""
                     },
                     "5": {
@@ -348,7 +378,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Hmm... You're staring at me so much... Did you happen to want these gloves?",
                         "englishNote": ""
                     },
                     "6": {
@@ -360,7 +390,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Paperwork, paperwork... Where did I put it again? On that shelf? I can't seem to remember...",
                         "englishNote": ""
                     },
                     "7": {
@@ -372,7 +402,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Pepperpot? ...Why yes, I do think that food generally tastes better with a healthy pinch of pepper.",
                         "englishNote": ""
                     },
                     "8": {
@@ -384,7 +414,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I want to get along with U-410. ...Mm, with you here, Commander, I'm sure it will be fine.",
                         "englishNote": ""
                     },
                     "9": {
@@ -396,7 +426,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "...Hm? Is something amiss? I do believe I've been doing everything to your specifications...",
                         "englishNote": ""
                     },
                     "10": {
@@ -408,7 +438,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Hm...? Commander, what are you doing?",
                         "englishNote": ""
                     },
                     "11": {
@@ -420,7 +450,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Nnh... Are you treating me like a child?",
                         "englishNote": ""
                     },
                     "12": {
@@ -432,7 +462,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "\"Remind the commander if there are any unfinished missions.\" ...Got it. Commander, you have unfinished missions. What are they about? Umm...",
                         "englishNote": ""
                     },
                     "13": {
@@ -444,7 +474,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "\"Remind the commander to collect the rewards for completed missions.\" ...Got it. Commander, please remember to collect your rewards. What rewards? Umm...",
                         "englishNote": ""
                     },
                     "14": {
@@ -456,7 +486,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Hmm... Ah, I knew I was forgetting something... Um... Right. The mail. Commander, I brought you the mail.",
                         "englishNote": ""
                     },
                     "15": {
@@ -468,7 +498,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I am glad that you have returned safely, Commander.",
                         "englishNote": ""
                     },
                     "16": {
@@ -480,7 +510,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "The commission has been completed, and now I'm supposed to welcome the fleet back... But what comes after that?",
                         "englishNote": ""
                     },
                     "17": {
@@ -492,7 +522,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Have I become stronger than before?",
                         "englishNote": ""
                     },
                     "18": {
@@ -504,7 +534,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Shall we go together?",
                         "englishNote": ""
                     },
                     "19": {
@@ -516,7 +546,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Commander, I followed your instructions and emerged victorious.",
                         "englishNote": ""
                     },
                     "20": {
@@ -528,7 +558,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I have been defeated. My sincerest apologies...",
                         "englishNote": ""
                     },
                     "21": {
@@ -540,7 +570,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Is this good enough?",
                         "englishNote": ""
                     },
                     "22": {
@@ -552,7 +582,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I... can still do this!",
                         "englishNote": ""
                     },
                     "23": {
@@ -564,7 +594,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Commander... aren't you acting a bit weird?",
                         "englishNote": ""
                     },
                     "24": {
@@ -576,7 +606,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I shall wait for you here tomorrow as well, just as you instructed, Commander.",
                         "englishNote": ""
                     },
                     "25": {
@@ -588,7 +618,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "If I leave the uncompleted work here, I wonder if eventually, I won't have to do it anymore.",
                         "englishNote": ""
                     },
                     "26": {
@@ -600,7 +630,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Would you like some of the rosehip tea that Aurora taught me to make? ...It's too sour? Hmm... Maybe I accidentally added vinegar...",
                         "englishNote": ""
                     },
                     "27": {
@@ -612,7 +642,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "No matter how much time passes, I will continue to wait for you here, Commander. No matter what, I'll always wait for you to come back.",
                         "englishNote": ""
                     },
                     "28": {
@@ -624,7 +654,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "A promise ring... proof that you always want to stay with me? Mm... But, even without this, as long as you think of me, sometimes call for me, and look at me... that's all I need.",
                         "englishNote": ""
                     },
                     "29": {
@@ -636,7 +666,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I'm counting on you.",
                         "englishNote": ""
                     },
                     "30": { 
@@ -648,7 +678,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Aurora, we're together again.",
                         "englishNote": ""
                     },
                     "31": { 
@@ -660,7 +690,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Neptune... Um, sorry...",
                         "englishNote": ""
                     },
                     "32": { 
@@ -672,7 +702,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Did you say something...?",
                         "englishNote": ""
                     }
 				}
@@ -680,7 +710,7 @@
             "2": {
                 "skin_id": "peineiluopo_2",
                 "id": "1",
-                "label": "",
+                "label": "Red-Ruby Boudoir",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -691,7 +721,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Aurora chose this outfit for me because... the Spring Festival represents a time of celebration in the Dragon Empery, and red is the color that best symbolizes that. What do you think? Does this outfit... make you feel more festive?",
                         "englishNote": ""
                     },
                     "2": {
@@ -703,7 +733,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Aurora chose this outfit for me because... the Spring Festival represents a time of celebration in the Dragon Empery, and red is the color that best symbolizes that. What do you think? Does this outfit... make you feel more festive?",
                         "englishNote": ""
                     },
                     "3": {
@@ -715,7 +745,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Happy Lunar New Year. I'm glad I can see you today.",
                         "englishNote": ""
                     },
                     "4": {
@@ -727,7 +757,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Aurora also gave me this incense burner. It's supposed to be good for recovering from fatigue, so shall we give it a try together?",
                         "englishNote": ""
                     },
                     "5": {
@@ -739,7 +769,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Haah... Commander, I'm sorry... At this rate, this incense... is going to make me fall asleep... Zzzzz",
                         "englishNote": ""
                     },
                     "6": {
@@ -751,7 +781,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "The broth in the hotpot was as red as my clothes... It was a bit scary at first, but the food ended up being really delicious.",
                         "englishNote": ""
                     },
                     "7": {
@@ -763,7 +793,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "The pattern on this fan was embroidered. I learned how to do it from Yat Sen and the others a while back, but my hands were trembling so much I made a mess of things... Ugh, I wonder how everyone does this so well.",
                         "englishNote": ""
                     },
                     "8": {
@@ -775,7 +805,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "...Hm? Already tired? You can lie down here if you'd like.",
                         "englishNote": ""
                     },
                     "9": {
@@ -787,7 +817,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "...Um, Commander, I don't think... this is any way to conduct yourself.",
                         "englishNote": ""
                     },
                     "10": {
@@ -799,7 +829,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Commander, do you know about the Spring Festival? There are all kinds of interesting stories, and I'd like to hear more about that from you.",
                         "englishNote": ""
                     }       
                 }
@@ -818,7 +848,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Arethusa-class light cruiser – Penelope.",
                         "englishNote": ""
                     },
                     "3": {
@@ -830,7 +860,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Commander, are you going on a sortie? ...Mm, I'll always be waiting for you.",
                         "englishNote": ""
                     },
                     "5": {
@@ -842,7 +872,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Paperwork, paperwork... Mm, as you suggested, I put somewhere prominent, so I'll find it soon enough.",
                         "englishNote": ""
                     },
                     "6": {
@@ -854,7 +884,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Mm, I'm getting along well with U-410. Commander, you should try to befriend her as well... Oh, you already have? I'm glad to hear that.",
                         "englishNote": ""
                     },
                     "7": {
@@ -878,7 +908,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "I will do anything you tell me to. It can be anything.",
                         "englishNote": ""
                     },
                     "9": {
@@ -890,7 +920,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Commander, if this is what you desire, then...",
                         "englishNote": ""
                     }
                 }

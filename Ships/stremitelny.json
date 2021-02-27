@@ -1,19 +1,19 @@
 {
-	"name_reference": "z26",
-	"cn_reference": "z26",
-	"nameJP": "Z26",
-	"nameCN": "Z26",
-	"ID": "466",
-	"name": "Z26",
-	"internal_id": "401261",
+	"name_reference": "stremitelny",
+	"cn_reference": "shensu",
+	"nameJP": "",
+	"nameCN": "",
+	"ID": "491",
+	"name": "Stremitelny",
+	"internal_id": "701061",
 	"rarity": "Elite",
 	"initialStar": "★★☆☆☆",
 	"hull": "Destroyer",
-	"navy": "Ironblood",
-	"prefix": "KMS",
-	"buildTime": "00:33:00 ",
-	"class": "Type 1936A",
-	"voiceActress": "Satomi Amano",
+	"navy": "Northern Union",
+	"prefix": "SN",
+	"buildTime": "",
+	"class": "Gnevny",
+	"voiceActress": "Kakimura Momoki",
 	"parameters": {
 		"firepower": "",
 		"torpedo": "",
@@ -46,63 +46,74 @@
 		"aviation": "",
 		"reload": ""
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Monthly Login Reward",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
+			"icon": "14140",
+			"requirement": "Default Unlocked",
+			"name": "Scalawaggish Little Snowball",
+			"type": "Offense",
+			"description": "4%(10%) chance to activate upon being attacked: fires a special Lv.1(Lv.10) barrage that slows enemies hit (DMG and barrage pattern are based on skill level, 10s CD between activations)."
+		},
+        "2": {
+            "icon": "4151", 
+            "requirement": "Default Unlocked", 
+            "name": "Mobility Mastery", 
+            "type": "Defense", 
+            "description": "Decreases this ship's DMG taken from enemy DD guns and torpedoes by 5%(10%). Every 20s: increases this ship's Speed by 5 and FP by 5%(20%) for 10s."
+        },
+        "3": {
+            "icon": "26011", 
+            "requirement": "Default Unlocked", 
+            "name": "All Out Assault ⅠⅠ", 
+            "type": "Offense", 
+            "description": "Activates All Out Assault ⅠⅠ: Gnevny once every 10 times the Main Guns are fired."
+        }
 	},
 	"skin": {
 		"1": {
-			"id": "z26",
-			"name": "Z26",
-			"description": "Type 1936A-class Destroyer - Z26",
+			"id": "shensu",
+			"name": "Stremitelny",
+			"description": "",
 			"expression": {
 				"0": {
 					"id": "0"
 				},
-                "1": {  
-                    "id": "1"
+                "1": {
+                    "id": "1" 
                 },
-                "2": {  
-                    "id": "2"
+                "2": {
+                    "id": "2" 
                 },
-                "3": {  
-                    "id": "3"
+                "3": {
+                    "id": "3" 
                 },
-                "4": {  
-                    "id": "4"
-                },
-                "5": {  
-                    "id": "5"
+                "4": {
+                    "id": "4" 
                 }
 			}
 		},
-        "2": {  
-            "id": "z26_2",
-            "name": "Sharing is Caring",
-            "description": "Commander, welcome to my pad! Ah, give me a sec, let me go grab all the snacks and drinks and games!", 
+        "2": {
+            "id": "shensu_2",
+            "name": "No Snow No Life",
+            "description": "", 
             "expression": {
-                "0": {  
-                    "id": "0"
-                },      
-                "1": {  
-                    "id": "1"
-                },      
-                "2": {  
-                    "id": "2"
-                },      
-                "3": {  
-                    "id": "3"
-                },      
-                "4": {  
-                    "id": "4"
-                }       
-            }       
+                "0": {
+                    "id": "0" 
+                },  
+                "1": {
+                    "id": "1" 
+                },  
+                "2": {
+                    "id": "2" 
+                },  
+                "3": {
+                    "id": "3" 
+                },  
+                "4": {
+                    "id": "4" 
+                }   
+            }   
         }
 	},
 	"defaultEquipment": {
@@ -290,9 +301,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "z26",
+				"skin_id": "shensu",
 				"id": "0",
-				"label": "Z26",
+				"label": "Stremitelny",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -405,6 +416,18 @@
                     "10": {
                         "event": "Touch (Special)",
                         "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -629,13 +652,49 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Extra", 
+                        "media": "extra",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Present Like", 
+                        "media": "present_like",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Present Dislike", 
+                        "media": "present_dislike",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
                     }
 				}
 			},
             "2": {
-                "skin_id": "z26",
+                "skin_id": "shensu_2",
                 "id": "1",
-                "label": "Sharing is Caring",
+                "label": "",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -724,6 +783,18 @@
                     "8": {
                         "event": "Touch",
                         "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Commission Complete",
+                        "media": "expedition_1",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",

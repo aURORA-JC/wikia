@@ -1,19 +1,19 @@
 {
-	"name_reference": "z26",
-	"cn_reference": "z26",
-	"nameJP": "Z26",
-	"nameCN": "Z26",
-	"ID": "466",
-	"name": "Z26",
-	"internal_id": "401261",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Ironblood",
-	"prefix": "KMS",
-	"buildTime": "00:33:00 ",
-	"class": "Type 1936A",
-	"voiceActress": "Satomi Amano",
+	"name_reference": "tallinn",
+	"cn_reference": "talin",
+	"nameJP": "",
+	"nameCN": "",
+	"ID": "496",
+	"name": "Tallinn",
+	"internal_id": "703011",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Heavy Cruiser",
+	"navy": "Northern Union",
+	"prefix": "SN",
+	"buildTime": "",
+	"class": "Admiral Hipper",
+	"voiceActress": "Shitaya Noriko",
 	"parameters": {
 		"firepower": "",
 		"torpedo": "",
@@ -54,55 +54,76 @@
 			"name": "",
 			"type": "",
 			"description": ""
-		}
+		},
+        "2": {
+            "icon": "", 
+            "requirement": "", 
+            "name": "", 
+            "type": "", 
+            "description": ""
+        },
+        "3": {
+            "icon": "", 
+            "requirement": "", 
+            "name": "", 
+            "type": "", 
+            "description": ""
+        }
 	},
 	"skin": {
 		"1": {
-			"id": "z26",
-			"name": "Z26",
-			"description": "Type 1936A-class Destroyer - Z26",
+			"id": "talin",
+			"name": "Tallinn",
+			"description": "",
 			"expression": {
 				"0": {
 					"id": "0"
 				},
-                "1": {  
-                    "id": "1"
+                "1": {
+                    "id": "1" 
                 },
-                "2": {  
-                    "id": "2"
+                "2": {
+                    "id": "2" 
                 },
-                "3": {  
-                    "id": "3"
+                "3": {
+                    "id": "3" 
                 },
-                "4": {  
-                    "id": "4"
+                "4": {
+                    "id": "4" 
                 },
-                "5": {  
-                    "id": "5"
+                "5": {
+                    "id": "5" 
                 }
 			}
 		},
-        "2": {  
-            "id": "z26_2",
-            "name": "Sharing is Caring",
-            "description": "Commander, welcome to my pad! Ah, give me a sec, let me go grab all the snacks and drinks and games!", 
+        "2": {
+            "id": "talin_3", 
+            "name": "", 
+            "description": "", 
             "expression": {
-                "0": {  
-                    "id": "0"
-                },      
-                "1": {  
-                    "id": "1"
-                },      
-                "2": {  
-                    "id": "2"
-                },      
-                "3": {  
-                    "id": "3"
-                },      
-                "4": {  
-                    "id": "4"
-                }       
-            }       
+                "0": {
+                    "id": "0" 
+                },  
+                "1": {
+                    "id": "1" 
+                },  
+                "2": {
+                    "id": "2" 
+                },  
+                "3": {
+                    "id": "3" 
+                }
+            }
+        },
+        "101": {
+            "id": "talin_ex1100", 
+            "name": "Tallinn", 
+            "description": "", 
+            "expression": {
+                "0": {
+                    "id": "0" 
+                }
+            }
         }
 	},
 	"defaultEquipment": {
@@ -290,9 +311,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "z26",
+				"skin_id": "",
 				"id": "0",
-				"label": "Z26",
+				"label": "",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -405,6 +426,18 @@
                     "10": {
                         "event": "Touch (Special)",
                         "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -629,13 +662,73 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2", 
+                        "media": "link2",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 2", 
+                        "media": "link3",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Extra", 
+                        "media": "extra",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "33": {
+                        "event": "Present Like", 
+                        "media": "present_like",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "34": {
+                        "event": "Present Dislike", 
+                        "media": "present_dislike",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
                     }
 				}
 			},
             "2": {
-                "skin_id": "z26",
+                "skin_id": "",
                 "id": "1",
-                "label": "Sharing is Caring",
+                "label": "",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -733,9 +826,124 @@
                         "english": "",
                         "englishNote": ""
                     },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
                     "10": {
                         "event": "Return to Port",
                         "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            },
+            "101": {
+                "skin_id": "",
+                "id": "0",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 5",
+                        "media": "main_5_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",

@@ -118,8 +118,8 @@
 		},
 		"2": {
 			"id": "xiyatu_2",
-			"name": "Seattle",
-			"description": "哦哦指挥官，来得正好！嘿嘿，这身礼服，怎么说…会不会有种太华丽的感觉？……不会？太好了！还想着我这么穿会不会不太合适呢，谢谢啦~",
+			"name": "Gorgeous Party",
+			"description": "Hey! Great to have you here, Commander! I've gotta ask, whaddya think of my dress? Looking real gorgeous, right? ...Phew, awesome! I was worried my dress didn't look nice and might be dragging down the party mood, that's all!",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -765,7 +765,7 @@
 			"2": {
 				"skin_id": "xiyatu_2",
 				"id": "1",
-				"label": "Seattle",
+				"label": "Gorgeous Party",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",

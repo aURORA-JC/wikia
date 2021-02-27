@@ -27,10 +27,10 @@
 		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP" : "July 23, 2020",
-		"CN" : "July 23, 2020",
-		"KR" : "July 23, 2020",
-		"EN" : ""
+		"JP" : "2020/07/23",
+		"CN" : "2020/07/23",
+		"KR" : "2020/07/23",
+		"EN" : "2020/08/06"
 	},
 	"artist": {
 		"name" : "",
@@ -51,14 +51,14 @@
 		"1" : {
 			"icon" : "13440",
 			"requirement" : "Default Unlocked",
-			"name" : "Synchronized Firing",
+			"name" : "Synchronized Strike",
 			"type" : "Offensive",
 			"description" : "Every 35 (15)s, fire an aimed barrage at a random enemy, after this barrage triggers, all BB/BC/BBV in fleet gain 10.0% (20.0%) Reload and Accuracy for 8s"
 		},
 		"2" : {
 			"icon" : "13450",
 			"requirement" : "Default Unlocked",
-			"name" : "Undying Knight's Unity",
+			"name" : "Covenant of the Immortal Knights",
 			"type" : "Support",
 			"description" : "Self FP and Reload increased by 4.5% (12.0%); if sortied with either King George V-Class, or more than 3 Royal Navy ships, self FP and AA increased by 4.5% (12.0%)"
 		}
@@ -66,8 +66,8 @@
 	"skin": {
 		"1" : {
 			"id" : "hao",
-			"name" : "ハウ",
-			"description" : "キングジョージⅤ世級戦艦·ハウ(HMS Howe)",
+			"name" : "Howe",
+			"description" : "King George V-class battleship – Howe (HMS Howe.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -88,8 +88,8 @@
 		},
 		"2" : {
 			"id" : "hao_2",
-			"name" : "ノーブルラウンジ",
-			"description" : "少し時間がかかっちゃったわ。もう大丈夫よ、いつでも――指揮官？どうしたの？このままだと暗くなっちゃうわよ？",
+			"name" : "Noble Rouge",
+			"description" : "Sorry to keep you waiting, but now I'm ready to– Commander? What's the matter? It'll get dark soon if you keep standing around like that.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -125,8 +125,8 @@
 		},
 		"101" : {
 			"id" : "hao_ex1100",
-			"name" : "ハウ",
-			"description" : "キングジョージⅤ世級戦艦·ハウ(HMS Howe)",
+			"name" : "Howe",
+			"description" : "King George V-class battleship – Howe (HMS Howe.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -334,7 +334,7 @@
 			"1": {
 				"skin_id" : "hao",
 				"id" : "0",
-				"label" : "ハウ",
+				"label" : "Howe",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -749,7 +749,7 @@
 			"2": {
 				"skin_id" : "hao_2",
 				"id" : "1",
-				"label" : "ノーブルラウンジ",
+				"label" : "Noble Rouge",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -888,7 +888,7 @@
 			"101": {
 				"skin_id" : "hao_ex1100",
 				"id" : "0",
-				"label" : "ハウ",
+				"label" : "Howe",
 				"dialogue" : {
 					"1" : {
 						"event" : "Login",

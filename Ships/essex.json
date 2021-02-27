@@ -117,8 +117,8 @@
 		},
         "3": {  
             "id": "aisaikesi_4",
-            "name": "",
-            "description": "",
+            "name": "Craft Fairytail",
+            "description": "Commander?! Ah, um, no, I'm not drunk! ...I, uh, just had a bit too much to drink... just a bit! Please don't tell the others though!",
             "expression": {
                 "0": {  
                     "id": "0"
@@ -139,8 +139,8 @@
         },
         "4": {  
             "id": "aisaikesi_5",
-            "name": "",
-            "description": "",
+            "name": "Brush and Ink",
+            "description": "The Dragon Empery's attire and tools of calligraphy... I see, just wearing this outfit makes me feel more scholarly and artistic! I shall put forth my best effort to prepare for the port's Spring Festival!",
             "expression": {
                 "0": {  
                     "id": "0"
@@ -867,7 +867,7 @@
             "3": {
                 "skin_id": "aisaikesi_4",
                 "id": "2",
-                "label": "",
+                "label": "Craft Fairytail",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -878,7 +878,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Commander?! Ah, um, no, I'm not drunk! ...I, uh, just had a bit too much to drink... just a bit! Please don't tell the others though!",
                         "englishNote": ""
                     },
                     "2": {
@@ -1030,7 +1030,7 @@
             "4": {
                 "skin_id": "aisaikesi_5",
                 "id": "3",
-                "label": "",
+                "label": "Brush and Ink",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -1041,7 +1041,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "The Dragon Empery's attire and tools of calligraphy... I see, just wearing this outfit makes me feel more scholarly and artistic! I shall put forth my best effort to prepare for the port's Spring Festival!",
                         "englishNote": ""
                     },
                     "2": {

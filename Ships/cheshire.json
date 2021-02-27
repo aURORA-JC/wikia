@@ -108,8 +108,8 @@
 		},
         "2": {
             "id": "chaijun_2",
-            "name": "",
-            "description": "",
+            "name": "Summery Date!",
+            "description": "Cheer up, Owner! Jeez, why are you so bummed out when we're at the beach... Because it's just a normal playdate instead of a romantic date? What's the difference anyway? C'mon, let's go head down to where the others are~!",
             "expression": {
                 "0": {
                     "id": "0"
@@ -130,8 +130,8 @@
         },
         "3": {
             "id": "chaijun_3",
-            "name": "",
-            "description": "",
+            "name": "Cait Sith Crooner",
+            "description": "Welcome, welcome, Owner~ If you've got any requests, don't be shy, don't hesitate, I'll try my best and sing a song that's really great~♡",
             "expression": {
                 "0": {
                     "id": "0"
@@ -158,8 +158,8 @@
         },
         "101": {  
             "id": "chaijun_ex1100",
-            "name": "",
-            "description": "",
+            "name": "Cheshire",
+            "description": "Heavy cruiser – Cheshire.",
             "expression": {
                 "0": {  
                     "id": "0"
@@ -809,7 +809,7 @@
             "2": {
                 "skin_id": "chaijun_2",
                 "id": "1",
-                "label": "",
+                "label": "Summery Date!",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -820,7 +820,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Cheer up, Owner! Jeez, why are you so bummed out when we're at the beach... Because it's just a normal playdate instead of a romantic date? What's the difference anyway? C'mon, let's go head down to where the others are~!",
                         "englishNote": ""
                     },
                     "2": {
@@ -924,7 +924,7 @@
             "3": {
                 "skin_id": "chaijun_3",
                 "id": "2",
-                "label": "",
+                "label": "Cait Sith Crooner",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -935,7 +935,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Welcome, welcome, Owner~ If you've got any requests, don't be shy, don't hesitate, I'll try my best and sing a song that's really great~♡",
                         "englishNote": ""
                     },
                     "2": {
@@ -1075,7 +1075,7 @@
             "101": {
                 "skin_id": "chaijun_ex1100",
                 "id": "0",
-                "label": "",
+                "label": "Cheshire",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -1086,7 +1086,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Heavy cruiser – Cheshire.",
                         "englishNote": ""
                     },
                     "3": {

@@ -27,10 +27,10 @@
 		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP" : "July 23, 2020",
-		"CN" : "July 23, 2020",
-		"KR" : "July 23, 2020",
-		"EN" : ""
+		"JP" : "2020/07/23",
+		"CN" : "2020/07/23",
+		"KR" : "2020/07/23",
+		"EN" : "2020/08/06"
 	},
 	"artist": {
 		"name" : "Kincora",
@@ -51,21 +51,21 @@
 		"1" : {
 			"icon" : "13410",
 			"requirement" : "Default Unlocked",
-			"name" : "Num Scrambler",
+			"name" : "Mercury's Talaria",
 			"type" : "Defensive",
 			"description" : "Preload 1 (2) airstrike charges at the start of battle, airstrike reload time increased by 90%; On airstrike, heal vanguard ships for 1.5% (7.0%) of their max HP and main fleet ships for 1.0% (3.5%) of their max HP."
 		},
 		"2" : {
 			"icon" : "13420",
 			"requirement" : "Default Unlocked",
-			"name" : "Athens Catapult",
+			"name" : "Athena's Catapult",
 			"type" : "Offensive",
 			"description" : "Every 12s after battle starts, randomly launch a flight of Hornets/TBFs/Fireflies."
 		},
 		"3" : {
 			"icon" : "13430",
 			"requirement" : "Default Unlocked",
-			"name" : "Hades Repairer",
+			"name" : "Waters of Styx",
 			"type" : "Support",
 			"description" : "Can store 3 aistrikes, all allied ships recover 1% of their max HP every 40 (20)s while in battle; When other fleets in the sortie enter battle and this ship is alive, they heal for 3% of their max HP 20s after battle starts."
 		}
@@ -73,8 +73,8 @@
 	"skin": {
 		"1" : {
 			"id" : "yingxianzuo",
-			"name" : "パーシュース",
-			"description" : "コロッサス級航空母艦・ユニコーン （HMS Perseus）",
+			"name" : "Perseus",
+			"description" : "Colossus-class light aircraft carrier – Perseus (HMS Perseus.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -95,8 +95,8 @@
 		},
 		"2" : {
 			"id" : "yingxianzuo_2",
-			"name" : "ナーセリー勤務タイム",
-			"description" : "当直のパーシュースよ。ご用があったらそこの呼び鈴鳴らして。…何か用？",
+			"name" : "Unfamiliar Duties",
+			"description" : "I'm Perseus, I will be your nurse today. Use this button to call for me if you need anything... Yes? Did you need something?",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -117,8 +117,8 @@
 		},
 		"101" : {
 			"id" : "yingxianzuo_ex1100",
-			"name" : "パーシュース",
-			"description" : "コロッサス級航空母艦・ユニコーン （HMS Perseus）",
+			"name" : "Perseus",
+			"description" : "Colossus-class light aircraft carrier – Perseus (HMS Perseus.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -231,9 +231,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "戦闘機数+1/戦闘機補正+5%",
-		"tier2": "攻撃機数+1/戦闘機補正+10%",
-		"tier3": "艦載機数+1/攻撃機補正+15%"
+		"tier1": "Number of Fighters +1 / Fighter Efficiency +5%",
+		"tier2": "Number of Torpedo Bombers +1 / Fighter Efficiency +10%",
+		"tier3": "Number of All Planes +1 / Torpedo Bombers Efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -326,7 +326,7 @@
 			"1": {
 				"skin_id" : "yingxianzuo",
 				"id" : "0",
-				"label" : "パーシュース",
+				"label" : "Perseus",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -717,7 +717,7 @@
 			"2": {
 				"skin_id" : "yingxianzuo_2",
 				"id" : "1",
-				"label" : "ナーセリー勤務タイム",
+				"label" : "Unfamiliar Duties",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -844,7 +844,7 @@
 			"101": {
 				"skin_id" : "yingxianzuo_ex1100",
 				"id" : "0",
-				"label" : "パーシュース",
+				"label" : "Perseus",
 				"dialogue" : {
 					"1" : {
 						"event" : "Login",

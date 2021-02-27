@@ -74,7 +74,7 @@
 		"1" : {
 			"id" : "xiangbin",
 			"name" : "Champagne",
-			"description" : "Battleship – Champagne. ",
+			"description" : "Battleship – Champagne.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -95,7 +95,32 @@
 					"id" : "5"
 				}
 			}
-		}
+		},
+        "2" : {
+            "id" : "xiangbin_2",
+            "name" : "Lapis Lazuli's First Dream",
+            "description" : "It is not against the teachings to halt one's pursuit of destiny and to surrender to the warm draft of festivities. It is mankind's prerogative to seek out auspicious portents.",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },          
+                "1" : { 
+                    "id" : "1"
+                },          
+                "2" : { 
+                    "id" : "2"
+                },          
+                "3" : { 
+                    "id" : "3"
+                },          
+                "4" : { 
+                    "id" : "4"
+                },          
+                "5" : { 
+                    "id" : "5"
+                }           
+            }           
+        }
 	},
 	"defaultEquipment": {
 		"1" : {
@@ -687,7 +712,134 @@
 						"englishNote" : ""
 					}
 				}
-			}
+			},
+            "2": {
+                "skin_id": "xiangbin_2",
+                "id": "1",
+                "label": "Lapis Lazuli's First Dream",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Headrub)",
+                        "media": "touch_head_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            }
 		}
 	}
 }

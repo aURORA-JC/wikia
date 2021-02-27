@@ -27,16 +27,16 @@
 		"medal" : "10"
 	},
 	"releaseDate": {
-		"JP" : "July 23, 2020",
-		"CN" : "July 23, 2020",
-		"KR" : "July 23, 2020",
-		"EN" : ""
+		"JP" : "2020/07/23",
+		"CN" : "2020/07/23",
+		"KR" : "2020/07/23",
+		"EN" : "2020/08/06"
 	},
 	"artist": {
-		"name" : "",
+		"name" : "羽織イオ",
 		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"twitter" : "https://twitter.com/haori_crescendo",
+		"pixiv" : "https://www.pixiv.net/member.php?id=3211072",
 		"other" : ""
 	},
 	"class" : "Dido-Class",
@@ -51,14 +51,14 @@
 		"1" : {
 			"icon" : "13460",
 			"requirement" : "Default Unlocked",
-			"name" : "Blast Geminio",
+			"name" : "Bombarda Geminio",
 			"type" : "Offensive",
 			"description" : "Every 15s after battle starts, fire a barrage, when this barrage triggers, if there is no enemy within 30 units, fire an extra special barrage."
 		},
 		"2" : {
 			"icon" : "13470",
 			"requirement" : "Default Unlocked",
-			"name" : "Background Support",
+			"name" : "Supporting Role",
 			"type" : "Support",
 			"description" : "If not the vanguard lead ship, self FP/Torp/AA/Reload increased by 10.0% (20.0%), if there are other HMS ships in fleet, self damage dealt increased by 3.5% (8.0%)."
 		},
@@ -73,8 +73,8 @@
 	"skin": {
 		"1" : {
 			"id" : "hemin",
-			"name" : "ハーマイオニー",
-			"description" : "ダイドー級軽巡洋艦・ハーマイオニー（HMS Hermione）",
+			"name" : "Hermione",
+			"description" : "Dido-class light cruiser – Hermione (HMS Hermione.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -98,8 +98,8 @@
 		},
 		"2" : {
 			"id" : "hemin_3",
-			"name" : "ピュアホワイトエンジェル",
-			"description" : "あら、指揮官様、どうしてここに…？具合が悪いのですか？大変…こちらにおかけになってくださいね。まず体温を測りますから――",
+			"name" : "Pure White Angel",
+			"description" : "My, what brings you here, Commander? Are you feeling unwell? That's no good... Why don't you come sit over here first? I'll start by taking your temperature...",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -111,14 +111,33 @@
 					"id" : "2"
 				},
 				"3" : {
-					"id" : "2"
+					"id" : "3"
 				}
 			}
 		},
+        "3" : { 
+            "id" : "hemin_2",
+            "name" : "Pure White Holiday", 
+            "description" : "Commander, I've brought the chair. If you don't want to get in the water, feel free to sit here. ...Hm, me? Of course, I will remain by your side.",
+            "expression" : {
+                "0" : { 
+                    "id" : "0"
+                },      
+                "1" : { 
+                    "id" : "1"
+                },      
+                "2" : { 
+                    "id" : "2"
+                },      
+                "3" : { 
+                    "id" : "3"
+                }       
+            }       
+        },
 		"101" : {
 			"id" : "hemin_ex1100",
-			"name" : "ハーマイオニー",
-			"description" : "ダイドー級軽巡洋艦・ハーマイオニー（HMS Hermione）",
+			"name" : "Hermione",
+			"description" : "Dido-class light cruiser – Hermione (HMS Hermione.)",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -231,9 +250,9 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "特殊弾幕スキル習得/主砲補正+5%",
-		"tier2": "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		"tier3": "特殊弾幕強化/主砲補正+15%"
+		"tier1": "Gained Special Barrage I / Main Gun Efficiency +5%",
+		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+		"tier3": "Upgrades Special Barrage I→II / Main Gun Efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
@@ -326,7 +345,7 @@
 			"1": {
 				"skin_id" : "hemin",
 				"id" : "0",
-				"label" : "ハーマイオニー",
+				"label" : "Hermione",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -717,7 +736,7 @@
 			"2": {
 				"skin_id" : "hemin_3",
 				"id" : "1",
-				"label" : "ピュアホワイトエンジェル",
+				"label" : "Pure White Angel",
 				"dialogue" : {
 					"1" : {
 						"event" : "Ship Description",
@@ -841,10 +860,125 @@
 					}
 				}
 			},
+            "3": {
+                "skin_id": "hemin_2",
+                "id": "2",
+                "label": "Pure White Holiday",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            },
 			"101": {
 				"skin_id" : "hemin_ex1100",
 				"id" : "0",
-				"label" : "ハーマイオニー",
+				"label" : "Hermione",
 				"dialogue" : {
 					"1" : {
 						"event" : "Login",

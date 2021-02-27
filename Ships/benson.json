@@ -73,7 +73,29 @@
 					"id": "0"
 				}
 			}
-		}
+		},
+        "2": {
+            "id": "bensen_2",
+            "name": "Cutie Pumpkin Pie",
+            "description": "Fighting for love and peace this Halloween night, it's none other than the pumpkin-style Planet Bunny cutie pie, Benson!",
+            "expression": {
+                "0": {
+                    "id": "0" 
+                },
+                "1": {
+                    "id": "1" 
+                },
+                "2": {
+                    "id": "2" 
+                },
+                "3": {
+                    "id": "3" 
+                },
+                "4": {
+                    "id": "4" 
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -577,7 +599,26 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "2": {
+                "skin_id": "bensen_2",
+                "id": "1",
+                "label": "Cutie Pumpkin Pie",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Fighting for love and peace this Halloween night, it's none other than the pumpkin-style Planet Bunny cutie pie, Benson!",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {

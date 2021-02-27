@@ -113,7 +113,29 @@
 					"id" : "4"
 				}
 			}
-		}
+		},
+        "3" : { 
+            "id" : "kubo_3",
+            "name" : "Heartwarming Holiday Hearth",
+            "description" : "Hm? I'm just wrapping up some presents! Can't just present them as-is, and all that. Hehe~ I could sure use a little help, Commander!",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },          
+                "1" : { 
+                    "id" : "1"
+                },          
+                "2" : { 
+                    "id" : "2"
+                },          
+                "3" : { 
+                    "id" : "3"
+                },          
+                "4" : { 
+                    "id" : "4"
+                }           
+            }           
+        }
 	},
 	"defaultEquipment": {
 		"1" : {
@@ -817,7 +839,26 @@
 						"englishNote" : ""
 					}
 				}
-			}
+			},
+            "3": {
+                "skin_id": "kubo_3",
+                "id": "2",
+                "label": "Heartwarming Holiday Hearth",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hm? I'm just wrapping up some presents! Can't just present them as-is, and all that. Hehe~ I could sure use a little help, Commander!",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	}
 }

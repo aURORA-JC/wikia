@@ -3,17 +3,17 @@
 	"cn_reference": "jiluofu",
 	"nameJP": "",
 	"nameCN": "",
-	"ID": "",
+	"ID": "435",
 	"name": "Kirov",
 	"internal_id": "",
-	"rarity": "",
-	"initialStar": "",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
 	"hull": "Heavy Cruiser",
 	"navy": "Northern Parliament",
 	"prefix": "SN",
 	"buildTime": "",
 	"class": "Kirov-class",
-	"voiceActress": "",
+	"voiceActress": "Uesaka Sumire",
 	"parameters": {
 		"firepower": "",
 		"torpedo": "",
@@ -60,13 +60,71 @@
 		"1": {
 			"id": "jiluofu",
 			"name": "Kirov",
-			"description": "",
+			"description": "Kirov-Class cruiser—Kirov",
 			"expression": {
 				"0": {
-					"id": ""
-				}
+					"id": "0"
+				},
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                },
+                "7": {
+                    "id": "7"
+                },
+                "8": {
+                    "id": "8"
+                }
 			}
-		}
+		},
+        "2": {
+            "id": "jiluofu_2",
+            "name": "Blend R",
+            "description": "Comrade Commander, you've come at a good time. I've recently taken a liking to this blend of coffee. Want some as well? No need to be shy.", 
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                },
+                "7": {
+                    "id": "7"
+                },
+                "8": {
+                    "id": "8"
+                }
+            }
+        }
 	},
 	"defaultEquipment": {
 		"1": {
@@ -253,12 +311,12 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
-				"id": "",
-				"label": "",
+				"skin_id": "jiluofu",
+				"id": "0",
+				"label": "Kirov",
 				"dialogue": {
 					"1": {
-						"event": "",
+						"event": "Ship Description",
 						"media": "",
 						"chinese": "",
 						"chineseTL": "",
@@ -266,11 +324,498 @@
 						"japanese": "",
 						"japaneseTL": "",
 						"japaneseNote": "",
-						"english": "",
+                        "english": "Kirov-Class cruiser—Kirov",
 						"englishNote": ""
-					}
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Salutations, Comrade Commander. I am Kirov. My appearance, rigging, and class are all unimportant in the greater scheme of our ambitions. What matters is that we work together to achieve a future of red glory.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I am the child of a union between our unprecedented country and a free spirit! Now, Comrade Commander, let us achieve great things together!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Good to see you again, Comrade Commander! Let us once more set out to teach our enemy the meaning of unity and solidarity.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Neither fate nor evil can hamper our ambitions!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The strong must always march onward. Holding the line is what the weak do.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Glory is what sustains and strengthens us, and is what will leave our mark on history.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I march onward in the name of a tomorrow where everyone is safe and smiling.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Lead the way, Comrade Commander.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This is no time for this sort of depravity, Comrade Commander.",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It is time to embark on a mission, Comrade Commander.",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I knew you would pull through for us, Comrade Commander! Here are the rewards.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You have mail. Read it through at once. The more comrades, the better. Always.",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Well fought, Comrade Commander! Your valor warrants the front page spot in the port's newspaper!",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A commission has been completed. We must head out and greet the returnees. Our comrades deserve recognition for their efforts.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This strength will further our cause!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "To arms, comrades!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Our advance will stop for nothing and nobody!",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Gah...! I cannot and will not succumb until our ambitions have been realized!",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hear me! I am Kirov!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "No! I am far, far from finished!",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It pains me to say, but I no longer consider you my comrade.",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Never let but's or if's misguide you, Comrade Commander. You alone decide what is right and true.",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Splendid, Comrade Commander. You've chosen a path of your own. Now follow it and see where it takes you!",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I will always watch over you. Should you ever lose your way, I will be the hand that shoves you back on the right path. Only look ahead, never stop advancing!",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "To fight not just for your motherland but also for your soulmate, that is what love is... I understand it now. Passion is the fuel of my fighting spirit. And as long as I have you, nothing is impossible!",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Only a fool chooses between protecting either the world or their lover. There is but one correct answer: protecting them both. We have both the will and the means to do just that. Come, Comrade Commander, let us march onwards!",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Onwards, Northern Parliament comrades!",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I have your back,Tallinn!",
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You may be bourgeois swine... but today, we fight together!",
+                        "englishNote": ""
+                    }
 				}
-			}
+			},
+            "2": {
+                "skin_id": "jiluofu_2",
+                "id": "1",
+                "label": "Blend R",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comrade Commander, you've come at a good time. I've recently taken a liking to this blend of coffee. Want some as well? No need to be shy.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }       
+                }
+            }
 		}
 	},
 	"fleet_tech": {
