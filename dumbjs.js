@@ -185,7 +185,7 @@ function setShipExpressionNav(skin){
     var id = "";
     for (var x in expressions) {
 	var container = document.createElement("img");
-	container.id = "expr_" + x;
+	container.id = "expr-" + current + "_" + x;
 	container.setAttribute("onclick", "onExpressionNavButtonClick(\"" + x + "\",\"" + skin[0] + "\")");
 	if (firstIteration){
 	    container.src = expressions.length == 1 ? "https://algwiki.moe/assets/squareicon/" + skin[0] + ".png" : "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
@@ -203,15 +203,15 @@ function setShipExpressionNav(skin){
 }
 
 function onExpressionNavButtonClick(exprID, skinID){
-    var id = "expr_" + exprID;
+    var id = "expr-" + current + "_" + exprID;
     var obj = document.getElementById('shipSkinExpressions-' + current).children;
 
     for (var i = 0; i < obj.length; ++i){
 	if (obj[i].id == id) {
-	    document.getElementById(id).className = 'active expression';
+	    document.getElementById(id).classList.add('active');
 	    document.getElementById("painting-" + current).src = "https://algwiki.moe/assets/painting/" + skinID + (exprID == 0 ? "" : "-" + exprID) + ".png";
 	} else
-	    document.getElementById(obj[i].id).className = 'expression';
+	    document.getElementById(obj[i].id).classList.remove('active');
     }
 }
 

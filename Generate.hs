@@ -399,7 +399,9 @@ showship encn skins json
                                                                        Just x
                                                                          -> do H.td $ case x % "media" of
                                                                                         "" -> ""
-                                                                                        s  -> H.a H.! A.href (H.stringValue $ "https://algwiki.moe/assets/cue/cv-" ++ init (json % "internal_id") ++ "/acb/awb/" ++ s ++ ".ogg") $ H.img H.! A.src "https://algwiki.moe/Images/sound_on.png"
+                                                                                        s  -> H.a H.! A.href (H.stringValue $ "https://algwiki.moe/assets/cue/cv-" ++ init (case json % "internal_id" of
+                                                                                                                                                                              "" -> "0"
+                                                                                                                                                                              x -> x) ++ "/acb/awb/" ++ s ++ ".ogg") $ H.img H.! A.src "https://algwiki.moe/Images/sound_on.png"
                                                                                H.td $ x %% "chinese"
                                                                                H.td $ x %% "japanese"
                                                                                H.td $ x %% "english"
