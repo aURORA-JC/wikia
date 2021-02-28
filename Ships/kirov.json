@@ -5,7 +5,7 @@
 	"nameCN": "",
 	"ID": "435",
 	"name": "Kirov",
-	"internal_id": "",
+	"internal_id": "702041",
 	"rarity": "Super Rare",
 	"initialStar": "★★★☆☆☆",
 	"hull": "Heavy Cruiser",
@@ -122,6 +122,16 @@
                 },
                 "8": {
                     "id": "8"
+                }
+            }
+        },
+        "101": {
+            "id": "jiluofu_ex1100",
+            "name": "Kirov",
+            "description": "", 
+            "expression": {
+                "0": {
+                    "id": "0"
                 }
             }
         }
@@ -435,18 +445,6 @@
                         "english": "This is no time for this sort of depravity, Comrade Commander.",
                         "englishNote": ""
                     },
-                    "11": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
                     "12": {
                         "event": "Mission",
                         "media": "task",
@@ -686,6 +684,42 @@
                         "japaneseNote": "",
                         "english": "You may be bourgeois swine... but today, we fight together!",
                         "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Extra",
+                        "media": "extra",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "33": {
+                        "event": "Present Like",
+                        "media": "present_like",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "34": {
+                        "event": "Present Dislike",
+                        "media": "present_dislike",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
                     }
 				}
 			},
@@ -813,6 +847,97 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Enhancement",
+                        "media": "upgrade_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "101": {
+                "skin_id": "jiluofu_ex1100",
+                "id": "0",
+                "label": "Kirov",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 5",
+                        "media": "main_5_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
                     }       
                 }
             }
@@ -832,3 +957,4 @@
 		"ships": ""
 	}
 }
+
