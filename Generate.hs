@@ -446,6 +446,22 @@ displayRow json field text
   = do H.th text
        H.td $ json %% field
 
+indexFood :: String
+          -> [(String, Aeson.Object)]
+          -> H.Html
+indexFood lvl ships
+  = H.div H.! A.style "display: flex; flex-wrap: wrap; flex-shrink: 0; justify-content: safe space-evenly; font-size: 10px;"
+    $ mapM_ (\(name, json) -> H.div H.! A.style "vertical-align: top; margin: 10px 0px 0px 10px; border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 108px;height: 220px; position: relative;"
+                              $ do a <- return $ H.a H.! A.href (H.stringValue $ "ships/" ++ name ++ ".html")
+                                   H.a H.! A.href (H.stringValue $ lvl ++ "hull/" ++ json % "hull" ++ ".html")
+                                     $ H.img H.! A.src (H.stringValue $ hull $ json % "hull") H.! A.style "padding-left: 3px; padding-right:5px; width:33px; height:auto;"
+                                   H.a H.! A.href (H.stringValue $ lvl ++ "navy/" ++ json % "navy" ++ ".html") H.! A.style "padding-right:5px;"
+                                     $ H.img H.! A.src (H.stringValue $ navy $ json % "navy")
+                                   json %% "ID"
+                                   H.div H.! A.style (H.stringValue $ "background: " ++ decideColor (json % "rarity") ++ ";")
+                                     $ a $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/shipyardicon_new/" ++ json % "cn_reference" ++ ".png") H.! A.style "height:144px;width: 108px"
+                                   H.div H.! A.style "text-align: center; position: relative; top: 10%; transform: translateY(-50%);" $ a $ json %% "name") ships
+
 makeMainIndex :: String
               -> String
               -> [(String, Aeson.Object)]
@@ -456,8 +472,8 @@ makeMainIndex file title ships
            $ do H.a H.! A.href "." $ "Home"
                 " > "
                 H.b $ H.toHtml title
-         H.ol
-           $ mapM_ (\(name, json) -> H.li $ H.a H.! A.href (H.stringValue $ "ships/" ++ name ++ ".html") $ H.toHtml name) ships
+                indexFood "" ships
+
 
 makeIndex :: String
           -> (String -> String)
@@ -467,11 +483,18 @@ makeIndex category f ships
   = do createDirectory $ "out/" ++ category
        mapM_ (\x -> do name <- return $ ashow $ (snd $ head x) ! (pack category)
                        mkhtml ("out/" ++ category ++ "/") name name (return ())
-                         $ H.ol
-                         $ mapM_ (\(name, json) -> H.li $ H.a H.! A.href (H.stringValue $ "../ships/" ++ name ++ ".html") $ H.toHtml name) x) groupedShips
+                         $ do H.nav
+                                $ do H.a H.! A.href ".." $ "Home"
+                                     " > "
+                                     H.a H.! A.href "." $ H.toHtml $ capitalize category
+                                     " > "
+                                     H.b $ H.toHtml name
+                                     indexFood "../" x) groupedShips
   where
     groupedShips :: [[(String, Aeson.Object)]]
-    groupedShips = groupBy (\(_, a) -> \(_, b) -> a ! (pack category) == b ! (pack category)) $ sortBy (comparing $ \a -> (snd a) % (pack category)) ships
+    groupedShips = map (sortOn (\(_, json) -> case readEither (json % "ID") :: Either String Int of
+                                                Left _ -> 0
+                                                Right x -> x)) $ groupBy (\(_, a) -> \(_, b) -> a ! (pack category) == b ! (pack category)) $ sortBy (comparing $ \a -> (snd a) % (pack category)) ships
 
 showtable json i k
   = mapM_ (\(k, v) -> H.tr
@@ -505,7 +528,7 @@ decideColor "Super Rare" = "rgb(190, 185, 136)"
 decideColor "Elite"      = "rgb(176, 128, 176)"
 decideColor "Rare"       = "rgb(140, 179, 184)"
 decideColor "Common"     = "rgb(115, 115, 115)"
-decideColor ""           = "red"
+decideColor ""           = "#24252d"
 
 main :: IO ()
 main
