@@ -14,7 +14,6 @@ table {
     border-width: 1px;
     width: 100%;
     border-style: solid;
-    height: 100%;
 }
 
 th, td {
@@ -45,7 +44,9 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content 1fr;
+
     gap: 10px;
 }
 
@@ -165,4 +166,38 @@ input[name^="skinSelectors"]:checked + label {
 #skinSelector-lineView-18:checked ~ #skinContent-lineView-18,
 #skinSelector-lineView-19:checked ~ #skinContent-lineView-19 {
     display: block;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #373743;
+    color: #fff;
+    font-size: 15px;
+}
+
+#sidebar .subheader {
+    background: #24252d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sidebar ol li a:hover {
+    background: #6e6f87;
+}
+
+#sidebar ol li a {
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
+
+#sidebarEscape {
+    margin-left: 250px;
+    padding: 10px 10px 10px 10px;
 }

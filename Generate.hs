@@ -20,7 +20,7 @@ import Data.Char
 import Data.List.Split
 import Data.Maybe
 
-(%) a b = ashow $ a ! b
+(%) a b = ashow $ a ! (pack b)
 (%%) :: Aeson.Object
      -> String
      -> H.Html
@@ -46,14 +46,8 @@ hull' "Submarine"                  = "ss.png"
 hull' "Submarine Aircraft Carrier" = "ssv.png"
 hull' "Repair Ship"                = "ar.png"
 hull' "Repair"                     = "ar.png"
-hull' "Munition Ship"              = "???.png"
+hull' "Munition Ship"              = "ae.png"
 hull' x = error x
-
-issub :: String
-      -> Bool
-issub "Submarine"                  = True
-issub "Submarine Aircraft Carrier" = True
-issub _                            = False
 
 navy :: String
      -> String
@@ -80,9 +74,26 @@ navy' "Utawarerumono"       = "uwrr_icon.png"
 navy' "KizunaAI"            = "uwrr_icon.png"
 navy' "Bilibili"            = "bili_icon.png"
 navy' "Hololive"            = "uwrr_icon.png"
-navy' "META" = "???.png"
-navy' "Venus Vacation" = "???.png"
+navy' "META"                = "meta_icon.png"
+navy' "Venus Vacation"      = "uwrr_icon.png"
 navy' x = error x
+
+sidebar
+  = H.nav H.! A.id "sidebar"
+    $ H.ol
+    $ do H.li H.! A.class_ "subheader" $ H.h1 "/alg/ Wiki"
+         H.li H.! A.class_ "subheader" $ "Updates"
+         H.li $ H.a H.! A.href "" $ "News"
+         H.li $ H.a H.! A.href "https://algwiki.moe/" $ "JP Server"
+         H.li $ H.a H.! A.href "https://algwiki.moe/" $ "EN Server"
+         H.li H.! A.class_ "subheader" $ "Database"
+         H.li $ H.a H.! A.href "https://algwiki.moe/index_id.html" $ "Shiplist (By ID)"
+         H.li $ H.a H.! A.href "https://algwiki.moe/index_alphabetic.html" $ "Shiplist (By Name)"
+         H.li $ H.a H.! A.href "https://algwiki.moe/navy/" $ "Navy Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/hull/" $ "Hull Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/" $ "Rarity"
+         H.li H.! A.class_ "subheader" $ "Tools"
+         H.li $ H.a H.! A.href "https://algwiki.moe/" $ "Player"
 
 mkhtml :: String
        -> String
@@ -96,10 +107,12 @@ mkhtml prefix name title y x
          $ renderHtml
          $ H.docTypeHtml
          $ do H.head
-                $ do H.title (H.toHtml name)
+                $ do H.title (H.toHtml title)
                      H.style H.! A.type_ "text/css" $ H.toHtml css
                      y
-              H.body x
+              H.body
+                $ do sidebar
+                     H.div H.! A.id "sidebarEscape" $ x
 
 loadJson :: String
          -> IO ((String, (String, String)), (String, String), (String, Aeson.Object))
@@ -110,9 +123,12 @@ loadJson x
          Left e -> error $ name ++ ": " ++ e
          Right json -> do nameen <- return $ json % "name_reference"
                           namecn <- return $ json % "cn_reference"
-                          name <- return $ json % "name"
+                          name   <- return $ json % "name"
                           rarity <- return $ json % "rarity"
                           return ((nameen, (namecn, rarity)), (nameen, name), (nameen, json))
+
+lastN :: Int -> [a] -> [a]
+lastN n xs = drop (length xs - n) xs
 
 writeskins :: [(Int, String, Aeson.Object)]
            -> String
@@ -124,7 +140,7 @@ writeskins skins id e f
   = H.div H.! A.style "text-align: left;"
     $ do mapM_ (\(i, i', skin) -> do H.input H.! A.name (H.stringValue $ "skinSelectors-" ++ id) H.! A.autocomplete "off" H.! A.id (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i) H.! A.type_ "radio" H.!? (i == 0, A.checked "") H.!? (e, A.onchange $ H.stringValue $ "skinChange(" ++ show i ++ ",\"" ++ i' ++ "\")")
                                      H.label H.! A.for (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i)
-                                       $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/herohrzicon/" ++ skin % "id" ++ ".png") H.! A.style "height: 35px; width: 158px;margin: 0px 0px 0px 10px;") skins
+                                       $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/herohrzicon/" ++ skin % "id" ++ ".png") H.! H.customAttribute "loading" "lazy" H.! A.style "height: 35px; width: 158px;margin: 0px 0px 0px 10px;") skins
 
          mapM_ (\(i, i', skin) -> H.div H.! A.id (H.stringValue $ "skinContent-" ++ id ++ "-" ++ show i) H.! A.class_ "skinContent"
                                   $ f i i' skin) skins
@@ -258,11 +274,22 @@ showship encn skins json
        H.table
          $ do H.tr $ H.th H.! A.class_ "title"  H.! A.scope "col" H.! A.colspan "5" $ "Limit Break"
               mapM_ (\(k, v) -> H.tr
-                                $ do H.td $ do "Tier "
-                                               H.toHtml $ [last $ unpack $ k]
-                                     H.td H.! A.colspan "4" $ H.toHtml $ ashow v) $ sortOn (\(k, _) -> k) $ toList $ aobj $ case HM.lookup "limitBreak" json of
-                                                                                                                              Just x -> x
-                                                                                                                              Nothing -> json ! "strengthenLevel"
+                                $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                       $ H.toHtml $ case lastN 2 k of
+                                                      ('r':x) -> "Tier " ++ x
+                                                      ('0':x) -> "Level " ++ x
+                                                      x       -> "Level " ++ x
+                                     H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;" $ H.toHtml $ ashow v)
+                $ sortOn (\(k, _) -> k)
+                $ map (\(k, v) -> (case lastN 2 $ unpack k of
+                                     ('r':x) -> "r" ++ x
+                                     ('l':x) -> "0" ++ x
+                                     x       -> x, v))
+                $ toList
+                $ aobj
+                $ case HM.lookup "limitBreak" json of
+                    Nothing -> json ! "strengthenLevel"
+                    Just x -> x
               H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Equipments"
               H.tr
                 $ mapM_ (H.th H.! A.class_ "subtitle" H.! A.scope "col")
@@ -399,9 +426,9 @@ showship encn skins json
                                                                        Just x
                                                                          -> do H.td $ case x % "media" of
                                                                                         "" -> ""
-                                                                                        s  -> H.a H.! A.href (H.stringValue $ "https://algwiki.moe/assets/cue/cv-" ++ init (case json % "internal_id" of
-                                                                                                                                                                              "" -> "0"
-                                                                                                                                                                              x -> x) ++ "/acb/awb/" ++ s ++ ".ogg") $ H.img H.! A.src "https://algwiki.moe/Images/sound_on.png"
+                                                                                        s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue $ "https://algwiki.moe/assets/cue/cv-" ++ init (case json % "internal_id" of
+                                                                                                                                                                                                      "" -> "0"
+                                                                                                                                                                                                      x -> x) ++ "/acb/awb/" ++ s ++ ".ogg") H.! A.controls "" $ ""
                                                                                H.td $ x %% "chinese"
                                                                                H.td $ x %% "japanese"
                                                                                H.td $ x %% "english"
@@ -446,42 +473,55 @@ displayRow json field text
   = do H.th text
        H.td $ json %% field
 
+order = ["common", "research", "META", "collab", "unreleased"]
+
 indexFood :: String
           -> [(String, Aeson.Object)]
           -> H.Html
 indexFood lvl ships
   = H.div H.! A.style "display: flex; flex-wrap: wrap; flex-shrink: 0; justify-content: safe space-evenly; font-size: 10px;"
-    $ mapM_ (\(name, json) -> H.div H.! A.style "vertical-align: top; margin: 10px 0px 0px 10px; border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 108px;height: 220px; position: relative;"
-                              $ do a <- return $ H.a H.! A.href (H.stringValue $ "ships/" ++ name ++ ".html")
-                                   H.a H.! A.href (H.stringValue $ lvl ++ "hull/" ++ json % "hull" ++ ".html")
-                                     $ H.img H.! A.src (H.stringValue $ hull $ json % "hull") H.! A.style "padding-left: 3px; padding-right:5px; width:33px; height:auto;"
-                                   H.a H.! A.href (H.stringValue $ lvl ++ "navy/" ++ json % "navy" ++ ".html") H.! A.style "padding-right:5px;"
-                                     $ H.img H.! A.src (H.stringValue $ navy $ json % "navy")
-                                   json %% "ID"
-                                   H.div H.! A.style (H.stringValue $ "background: " ++ decideColor (json % "rarity") ++ ";")
-                                     $ a $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/shipyardicon_new/" ++ json % "cn_reference" ++ ".png") H.! A.style "height:144px;width: 108px"
-                                   H.div H.! A.style "text-align: center; position: relative; top: 10%; transform: translateY(-50%);" $ a $ json %% "name") ships
+    $ mapM_ (\(id, json) -> H.div H.! A.style "vertical-align: top; margin: 10px 0px 0px 10px; border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 108px;height: 220px; position: relative;"
+                            $ do a <- return $ H.a H.! A.href (H.stringValue $ "ships/" ++ json % "link" ++ ".html")
+                                 mapM_ (\(x, f, s) -> H.a H.! A.href (H.stringValue $ lvl ++ x ++ "/" ++ json % x ++ ".html")
+                                                      $ H.img H.! A.src (H.stringValue $ f $ json % x) H.! A.title (H.stringValue $ json % x) H.! A.style s)
+                                   $ [("hull", hull, "padding-left: 3px; padding-right:5px; width:33px; height:auto;"),
+                                      ("navy", navy, "padding-right:5px;")]
+                                 H.toHtml id
+                                 H.div H.! A.style (H.stringValue $ "background: " ++ decideColor (json % "rarity") ++ ";")
+                                   $ a $ H.img H.! A.src (H.stringValue $ json % "icon") H.! H.customAttribute "loading" "lazy" H.! A.style "height:144px;width: 108px"
+                                 H.div H.! A.style "text-align: center; position: relative; top: 10%; transform: translateY(-50%);" $ a $ json %% "name") ships
 
 makeMainIndex :: String
               -> String
-              -> [(String, Aeson.Object)]
+              -> [[(String, Aeson.Object)]]
               -> IO ()
 makeMainIndex file title ships
-  = mkhtml "out/" file title (return ())
-    $ do H.nav
-           $ do H.a H.! A.href "." $ "Home"
-                " > "
-                H.b $ H.toHtml title
-                indexFood "" ships
+  = do mkhtml "out/" file title (return ())
+         $ do H.nav
+                $ do H.a H.! A.href "." $ "Home"
+                     " > "
+                     H.b $ H.toHtml title
+              mapM_ (\x -> H.details H.! A.open ""
+                           $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
+                                indexFood "" x) ships
 
+g :: [(String, Aeson.Object)]
+  -> [[(String, Aeson.Object)]]
+g x
+  = map (sortOn (\(id, _) -> case readEither id :: Either String Int of
+                               Left  x -> case readEither (tail id) :: Either String Int of
+                                            Left x -> 0
+                                            Right x -> x
+                               Right x -> x))
+    $ groupBy (\(_, a) -> \(_, b) -> a % "shipType" == b % "shipType")
+    $ sortBy (comparing $ \a -> elemIndex ((snd a) % "shipType") order) x
 
 makeIndex :: String
-          -> (String -> String)
           -> [(String, Aeson.Object)]
           -> IO ()
-makeIndex category f ships
+makeIndex category ships
   = do createDirectory $ "out/" ++ category
-       mapM_ (\x -> do name <- return $ ashow $ (snd $ head x) ! (pack category)
+       mapM_ (\x -> do name <- return $ ashow $ (snd $ head $ head x) ! (pack category)
                        mkhtml ("out/" ++ category ++ "/") name name (return ())
                          $ do H.nav
                                 $ do H.a H.! A.href ".." $ "Home"
@@ -489,12 +529,15 @@ makeIndex category f ships
                                      H.a H.! A.href "." $ H.toHtml $ capitalize category
                                      " > "
                                      H.b $ H.toHtml name
-                                     indexFood "../" x) groupedShips
+                              mapM_ (\x -> H.details H.! A.open ""
+                                           $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
+                                                indexFood "../" x) x) groupedShips
   where
-    groupedShips :: [[(String, Aeson.Object)]]
-    groupedShips = map (sortOn (\(_, json) -> case readEither (json % "ID") :: Either String Int of
-                                                Left _ -> 0
-                                                Right x -> x)) $ groupBy (\(_, a) -> \(_, b) -> a ! (pack category) == b ! (pack category)) $ sortBy (comparing $ \a -> (snd a) % (pack category)) ships
+    groupedShips :: [[[(String, Aeson.Object)]]]
+    groupedShips
+      = map g
+        $ groupBy (\(_, a) -> \(_, b) -> a % category == b % category)
+        $ sortBy (comparing $ \a -> (snd a) % category) ships
 
 showtable json i k
   = mapM_ (\(k, v) -> H.tr
@@ -560,11 +603,17 @@ main
                                            H.b $ json %% "name"
                                     H.main $ showship encn skins json
                                     H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
-       makeMainIndex "index_alphabetic" "Index (Alphabetic)" ships
-       makeMainIndex "index_id"         "Index (By ID)"
-         $ sortOn (\(_, json) -> case readEither (json % "ID") :: Either String Int of
-                                   Left _ -> 0
-                                   Right x -> x) ships
-       makeIndex "rarity" id   ships
-       makeIndex "hull"   hull ships
-       makeIndex "navy"   navy ships
+
+       shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
+       shiplist' <- case shiplist'' of
+                      Left  e    -> error $ "shiplist error: " ++ e
+                      Right json -> return $ map (\(id, json) -> (unpack id, aobj json)) $ toList json
+       shiplist <- return
+                   $ g shiplist'
+
+       makeIndex "rarity" shiplist'
+       makeIndex "hull"   shiplist'
+       makeIndex "navy"   shiplist'
+       makeMainIndex "index_id" "Index (By ID)" shiplist
+       makeMainIndex "index_alphabetic" "Index (Alphabetic)"
+         $ map (sortOn (\(_, json) -> json % "name")) $ shiplist

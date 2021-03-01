@@ -3,7 +3,7 @@
 		"name": "Universal Bullin",
 		"hull": "Destroyer",
 		"navy": "Universal",
-		"icon": "https://algwiki.moe/assets/squareicon/gin.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/gin.png",
 		"rarity": "Elite",
 		"link": "bullin",
 		"shipType": "common"
@@ -12,23 +12,23 @@
 		"name": "Trial Bulin MKII",
 		"hull": "Destroyer",
 		"navy": "Universal",
-		"icon": "https://algwiki.moe/assets/squareicon/kin.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kin.png",
 		"rarity": "Super Rare",
 		"link": "bullin_mkii",
 		"shipType": "common"
 	},
-    "3": {  
+    "3": {
         "name": "Specialized Bulin Custom MKIII",
         "hull": "Destroyer",
         "navy": "Universal",
-        "icon": "https://algwiki.moe/assets/squareicon/buli_super.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/buli_super.png",
         "rarity": "Ultra Rare",
         "link": "bullin_mkiii",
         "shipType": "common"
     },
 	"4": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/duwei.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/duwei.png",
 		"link": "dewey",
 		"name": "Dewey",
 		"navy": "Eagle Union",
@@ -37,7 +37,7 @@
 	},
 	"5": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/kaxin.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kaxin.png",
 		"link": "cassin",
 		"name": "Cassin",
 		"navy": "Eagle Union",
@@ -46,7 +46,7 @@
 	},
 	"6": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/tangsi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tangsi.png",
 		"link": "downes",
 		"name": "Downes",
 		"navy": "Eagle Union",
@@ -55,7 +55,7 @@
 	},
 	"7": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/gelideli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/gelideli.png",
 		"link": "gridley",
 		"name": "Gridley",
 		"navy": "Eagle Union",
@@ -64,7 +64,7 @@
 	},
 	"8": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/keleiwen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/keleiwen.png",
 		"link": "craven",
 		"name": "Craven",
 		"navy": "Eagle Union",
@@ -73,7 +73,7 @@
 	},
 	"9": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/maikaoer.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/maikaoer.png",
 		"link": "mccall",
 		"name": "McCall",
 		"navy": "Eagle Union",
@@ -82,7 +82,7 @@
 	},
 	"10": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/moli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/moli.png",
 		"link": "maury",
 		"name": "Maury",
 		"navy": "Eagle Union",
@@ -91,7 +91,7 @@
 	},
 	"11": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/fulaiche.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fulaiche.png",
 		"link": "fletcher",
 		"name": "Fletcher",
 		"navy": "Eagle Union",
@@ -100,7 +100,7 @@
 	},
 	"13": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/aosiben.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aosiben.png",
 		"link": "charles_ausburne",
 		"name": "Charles Ausburne",
 		"navy": "Eagle Union",
@@ -109,7 +109,7 @@
 	},
 	"14": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/saqieer.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/saqieer.png",
 		"link": "thatcher",
 		"name": "Thatcher",
 		"navy": "Eagle Union",
@@ -118,7 +118,7 @@
 	},
 	"15": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/aolike.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aolike.png",
 		"link": "aulick",
 		"name": "Aulick",
 		"navy": "Eagle Union",
@@ -127,7 +127,7 @@
 	},
 	"16": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/fute.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fute.png",
 		"link": "foote",
 		"name": "Foote",
 		"navy": "Eagle Union",
@@ -136,7 +136,7 @@
 	},
 	"17": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/sipengsi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/sipengsi.png",
 		"link": "spence",
 		"name": "Spence",
 		"navy": "Eagle Union",
@@ -145,7 +145,7 @@
 	},
 	"18": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/bensen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bensen.png",
 		"link": "benson",
 		"name": "Benson",
 		"navy": "Eagle Union",
@@ -154,7 +154,7 @@
 	},
 	"19": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/lafei.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lafei.png",
 		"link": "laffey",
 		"name": "Laffey",
 		"navy": "Eagle Union",
@@ -163,7 +163,7 @@
 	},
 	"26": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/ximusi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ximusi.png",
 		"link": "sims",
 		"name": "Sims",
 		"navy": "Eagle Union",
@@ -172,7 +172,7 @@
 	},
 	"27": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/haman.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/haman.png",
 		"link": "hammann",
 		"name": "Hammann",
 		"navy": "Eagle Union",
@@ -181,7 +181,7 @@
 	},
 	"28": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/aierdeliqi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aierdeliqi.png",
 		"link": "eldridge",
 		"name": "Eldridge",
 		"navy": "Eagle Union",
@@ -190,7 +190,7 @@
 	},
 	"29": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aomaha.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aomaha.png",
 		"link": "omaha",
 		"name": "Omaha",
 		"navy": "Eagle Union",
@@ -199,7 +199,7 @@
 	},
 	"30": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/luoli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/luoli.png",
 		"link": "raleigh",
 		"name": "Raleigh",
 		"navy": "Eagle Union",
@@ -208,7 +208,7 @@
 	},
 	"31": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/bulukelin.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bulukelin.png",
 		"link": "brooklyn",
 		"name": "Brooklyn",
 		"navy": "Eagle Union",
@@ -217,7 +217,7 @@
 	},
 	"32": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/feinikesi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/feinikesi.png",
 		"link": "phoenix",
 		"name": "Phoenix",
 		"navy": "Eagle Union",
@@ -226,7 +226,7 @@
 	},
 	"33": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/hailunna.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/hailunna.png",
 		"link": "helena",
 		"name": "Helena",
 		"navy": "Eagle Union",
@@ -235,7 +235,7 @@
 	},
 	"34": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/yatelanda.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yatelanda.png",
 		"link": "atlanta",
 		"name": "Atlanta",
 		"navy": "Eagle Union",
@@ -244,7 +244,7 @@
 	},
 	"35": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/zhunuo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhunuo.png",
 		"link": "juneau",
 		"name": "Juneau",
 		"navy": "Eagle Union",
@@ -253,7 +253,7 @@
 	},
 	"36": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/shengdiyage.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengdiyage.png",
 		"link": "san_diego",
 		"name": "San Diego",
 		"navy": "Eagle Union",
@@ -262,7 +262,7 @@
 	},
 	"37": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kelifulan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kelifulan.png",
 		"link": "cleveland",
 		"name": "Cleveland",
 		"navy": "Eagle Union",
@@ -271,7 +271,7 @@
 	},
 	"38": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/gelunbiya.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/gelunbiya.png",
 		"link": "columbia",
 		"name": "Columbia",
 		"navy": "Eagle Union",
@@ -280,7 +280,7 @@
 	},
 	"39": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/pengsakela.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/pengsakela.png",
 		"link": "pensacola",
 		"name": "Pensacola",
 		"navy": "Eagle Union",
@@ -289,7 +289,7 @@
 	},
 	"40": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/yanhucheng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yanhucheng.png",
 		"link": "salt_lake_city",
 		"name": "Salt Lake City",
 		"navy": "Eagle Union",
@@ -298,7 +298,7 @@
 	},
 	"41": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/beianpudun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/beianpudun.png",
 		"link": "northampton",
 		"name": "Northampton",
 		"navy": "Eagle Union",
@@ -307,7 +307,7 @@
 	},
 	"42": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/zhijiage.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhijiage.png",
 		"link": "chicago",
 		"name": "Chicago",
 		"navy": "Eagle Union",
@@ -316,7 +316,7 @@
 	},
 	"43": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/xiusidun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiusidun.png",
 		"link": "houston",
 		"name": "Houston",
 		"navy": "Eagle Union",
@@ -325,7 +325,7 @@
 	},
 	"44": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/botelan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/botelan.png",
 		"link": "portland",
 		"name": "Portland",
 		"navy": "Eagle Union",
@@ -334,7 +334,7 @@
 	},
 	"45": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/bolisi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bolisi.png",
 		"link": "indianapolis",
 		"name": "Indianapolis",
 		"navy": "Eagle Union",
@@ -343,7 +343,7 @@
 	},
 	"46": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/asituoliya.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/asituoliya.png",
 		"link": "astoria",
 		"name": "Astoria",
 		"navy": "Eagle Union",
@@ -352,7 +352,7 @@
 	},
 	"47": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kunxi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kunxi.png",
 		"link": "quincy",
 		"name": "Quincy",
 		"navy": "Eagle Union",
@@ -361,7 +361,7 @@
 	},
 	"48": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/wensensi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/wensensi.png",
 		"link": "vincennes",
 		"name": "Vincennes",
 		"navy": "Eagle Union",
@@ -370,7 +370,7 @@
 	},
 	"49": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/weiqita.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/weiqita.png",
 		"link": "wichita",
 		"name": "Wichita",
 		"navy": "Eagle Union",
@@ -379,7 +379,7 @@
 	},
 	"50": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/baerdimo.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/baerdimo.png",
         "link": "baltimore",
         "name": "Baltimore",
         "navy": "Eagle Union",
@@ -388,7 +388,7 @@
     },
 	"52": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/neihuada.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/neihuada.png",
 		"link": "nevada",
 		"name": "Nevada",
 		"navy": "Eagle Union",
@@ -397,7 +397,7 @@
 	},
 	"53": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/ekelahema.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ekelahema.png",
 		"link": "oklahoma",
 		"name": "Oklahoma",
 		"navy": "Eagle Union",
@@ -406,7 +406,7 @@
 	},
 	"54": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/binxifaniya.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/binxifaniya.png",
 		"link": "pennsylvania",
 		"name": "Pennsylvania",
 		"navy": "Eagle Union",
@@ -415,7 +415,7 @@
 	},
 	"55": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/yalisangna.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yalisangna.png",
 		"link": "arizona",
 		"name": "Arizona",
 		"navy": "Eagle Union",
@@ -424,7 +424,7 @@
 	},
 	"58": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/tiannaxi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tiannaxi.png",
 		"link": "tennessee",
 		"name": "Tennessee",
 		"navy": "Eagle Union",
@@ -433,7 +433,7 @@
 	},
 	"59": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/jialifuniya.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jialifuniya.png",
 		"link": "california",
 		"name": "California",
 		"navy": "Eagle Union",
@@ -442,7 +442,7 @@
 	},
 	"60": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/keluoladuo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/keluoladuo.png",
 		"link": "colorado",
 		"name": "Colorado",
 		"navy": "Eagle Union",
@@ -451,7 +451,7 @@
 	},
 	"61": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/malilan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/malilan.png",
 		"link": "maryland",
 		"name": "Maryland",
 		"navy": "Eagle Union",
@@ -460,7 +460,7 @@
 	},
 	"62": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/xifujiniya.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xifujiniya.png",
 		"link": "west_virginia",
 		"name": "West Virginia",
 		"navy": "Eagle Union",
@@ -469,7 +469,7 @@
 	},
 	"63": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/beikaluolaina.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/beikaluolaina.png",
 		"link": "north_carolina",
 		"name": "North Carolina",
 		"navy": "Eagle Union",
@@ -478,7 +478,7 @@
 	},
 	"64": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/huashengdun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huashengdun.png",
 		"link": "washington",
 		"name": "Washington",
 		"navy": "Eagle Union",
@@ -487,7 +487,7 @@
 	},
 	"65": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/nandaketa.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/nandaketa.png",
 		"link": "south_dakota",
 		"name": "South Dakota",
 		"navy": "Eagle Union",
@@ -496,7 +496,7 @@
 	},
 	"70": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/changdao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/changdao.png",
 		"link": "long_island",
 		"name": "Long Island",
 		"navy": "Eagle Union",
@@ -505,7 +505,7 @@
 	},
 	"71": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/boge.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/boge.png",
 		"link": "bogue",
 		"name": "Bogue",
 		"navy": "Eagle Union",
@@ -514,7 +514,7 @@
 	},
 	"72": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/lanli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lanli.png",
 		"link": "langley",
 		"name": "Langley",
 		"navy": "Eagle Union",
@@ -523,7 +523,7 @@
 	},
 	"73": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/liekexingdun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/liekexingdun.png",
 		"link": "lexington",
 		"name": "Lexington",
 		"navy": "Eagle Union",
@@ -532,7 +532,7 @@
 	},
 	"74": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/salatuojia.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/salatuojia.png",
 		"link": "saratoga",
 		"name": "Saratoga",
 		"navy": "Eagle Union",
@@ -541,7 +541,7 @@
 	},
 	"75": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/tujizhe.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tujizhe.png",
 		"link": "ranger",
 		"name": "Ranger",
 		"navy": "Eagle Union",
@@ -550,7 +550,7 @@
 	},
 	"76": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/yuekecheng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yuekecheng.png",
 		"link": "yorktown",
 		"name": "Yorktown",
 		"navy": "Eagle Union",
@@ -559,7 +559,7 @@
 	},
 	"77": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/qiye.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/qiye.png",
 		"link": "enterprise",
 		"name": "Enterprise",
 		"navy": "Eagle Union",
@@ -568,7 +568,7 @@
 	},
 	"78": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/dahuangfeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/dahuangfeng.png",
 		"link": "hornet",
 		"name": "Hornet",
 		"navy": "Eagle Union",
@@ -577,7 +577,7 @@
 	},
 	"79": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/hufeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/hufeng.png",
 		"link": "wasp",
 		"name": "Wasp",
 		"navy": "Eagle Union",
@@ -586,7 +586,7 @@
 	},
 	"80": {
 		"hull": "Repair",
-		"icon": "https://algwiki.moe/assets/squareicon/zaoshen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zaoshen.png",
 		"link": "vestal",
 		"name": "Vestal",
 		"navy": "Eagle Union",
@@ -595,7 +595,7 @@
 	},
 	"81": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/nvjiang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/nvjiang.png",
 		"link": "amazon",
 		"name": "Amazon",
 		"navy": "Royal Navy",
@@ -604,7 +604,7 @@
 	},
 	"82": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/akasita.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/akasita.png",
 		"link": "acasta",
 		"name": "Acasta",
 		"navy": "Royal Navy",
@@ -613,7 +613,7 @@
 	},
 	"83": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/rexin.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/rexin.png",
 		"link": "ardent",
 		"name": "Ardent",
 		"navy": "Royal Navy",
@@ -622,7 +622,7 @@
 	},
 	"86": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xiaolietuquan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiaolietuquan.png",
 		"link": "beagle",
 		"name": "Beagle",
 		"navy": "Royal Navy",
@@ -631,7 +631,7 @@
 	},
 	"87": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/dadouquan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/dadouquan.png",
 		"link": "bulldog",
 		"name": "Bulldog",
 		"navy": "Royal Navy",
@@ -640,7 +640,7 @@
 	},
 	"88": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/huixing.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huixing.png",
 		"link": "comet",
 		"name": "Comet",
 		"navy": "Royal Navy",
@@ -649,7 +649,7 @@
 	},
 	"89": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xinyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xinyue.png",
 		"link": "crescent",
 		"name": "Crescent",
 		"navy": "Royal Navy",
@@ -658,7 +658,7 @@
 	},
 	"90": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xiaotiane.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiaotiane.png",
 		"link": "cygnet",
 		"name": "Cygnet",
 		"navy": "Royal Navy",
@@ -667,7 +667,7 @@
 	},
 	"91": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/huti.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huti.png",
 		"link": "foxhound",
 		"name": "Foxhound",
 		"navy": "Royal Navy",
@@ -676,7 +676,7 @@
 	},
 	"92": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/mingyunnvshen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/mingyunnvshen.png",
 		"link": "fortune",
 		"name": "Fortune",
 		"navy": "Royal Navy",
@@ -685,7 +685,7 @@
 	},
 	"93": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/gelunweier.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/gelunweier.png",
 		"link": "grenville",
 		"name": "Grenville",
 		"navy": "Royal Navy",
@@ -694,7 +694,7 @@
 	},
 	"94": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/yinghuochong.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yinghuochong.png",
 		"link": "glowworm",
 		"name": "Glowworm",
 		"navy": "Royal Navy",
@@ -703,7 +703,7 @@
 	},
 	"96": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/yonggan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yonggan.png",
 		"link": "hardy",
 		"name": "Hardy",
 		"navy": "Royal Navy",
@@ -712,7 +712,7 @@
 	},
 	"100": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/lieren.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lieren.png",
 		"link": "hunter",
 		"name": "Hunter",
 		"navy": "Royal Navy",
@@ -721,7 +721,7 @@
 	},
 	"101": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/biaoqiang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/biaoqiang.png",
 		"link": "javelin",
 		"name": "Javelin",
 		"navy": "Royal Navy",
@@ -730,7 +730,7 @@
 	},
 	"102": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/tianhou.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tianhou.png",
 		"link": "juno",
 		"name": "Juno",
 		"navy": "Royal Navy",
@@ -739,7 +739,7 @@
 	},
 	"103": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xixuegui.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xixuegui.png",
 		"link": "vampire",
 		"name": "Vampire",
 		"navy": "Royal Navy",
@@ -748,7 +748,7 @@
 	},
 	"104": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/liande.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/liande.png",
 		"link": "leander",
 		"name": "Leander",
 		"navy": "Royal Navy",
@@ -757,7 +757,7 @@
 	},
 	"105": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/ajilisi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ajilisi.png",
 		"link": "achilles",
 		"name": "Achilles",
 		"navy": "Royal Navy",
@@ -766,7 +766,7 @@
 	},
 	"106": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/ajiakesi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ajiakesi.png",
 		"link": "ajax",
 		"name": "Ajax",
 		"navy": "Royal Navy",
@@ -777,7 +777,7 @@
 		"name" : "Dido",
 		"hull" : "Light Cruiser",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/daiduo.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/daiduo.png",
 		"rarity" : "Super Rare",
 		"link" : "dido",
 		"shipType" : "common"
@@ -786,14 +786,14 @@
 		"name" : "Southampton",
 		"hull" : "Light Cruiser",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/nananpudun.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/nananpudun.png",
 		"rarity" : "Rare",
 		"link" : "southampton",
 		"shipType" : "common"
 	},
 	"111": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/xiefeierde.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiefeierde.png",
 		"link": "sheffield",
 		"name": "Sheffield",
 		"navy": "Royal Navy",
@@ -804,14 +804,14 @@
 		"name" : "Gloucester",
 		"hull" : "Light Cruiser",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/geluosite.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/geluosite.png",
 		"rarity" : "Elite",
 		"link" : "gloucester",
 		"shipType" : "common"
 	},
 	"114": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aidingbao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aidingbao.png",
 		"link": "edinburgh",
 		"name": "Edinburgh",
 		"navy": "Royal Navy",
@@ -820,7 +820,7 @@
 	},
 	"115": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/beierfasite.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/beierfasite.png",
 		"link": "belfast",
 		"name": "Belfast",
 		"navy": "Royal Navy",
@@ -829,7 +829,7 @@
 	},
 	"116": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aruituosha.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aruituosha.png",
 		"link": "arethusa",
 		"name": "Arethusa",
 		"navy": "Royal Navy",
@@ -838,7 +838,7 @@
 	},
 	"117": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/jialadiya.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jialadiya.png",
 		"link": "galatea",
 		"name": "Galatea",
 		"navy": "Royal Navy",
@@ -847,7 +847,7 @@
 	},
 	"118": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/ouruola.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ouruola.png",
 		"link": "aurora",
 		"name": "Aurora",
 		"navy": "Royal Navy",
@@ -856,7 +856,7 @@
 	},
 	"119": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/lundun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lundun.png",
 		"link": "london",
 		"name": "London",
 		"navy": "Royal Navy",
@@ -865,7 +865,7 @@
 	},
 	"120": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/shiluopujun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shiluopujun.png",
 		"link": "shropshire",
 		"name": "Shropshire",
 		"navy": "Royal Navy",
@@ -874,7 +874,7 @@
 	},
 	"121": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kente.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kente.png",
 		"link": "kent",
 		"name": "Kent",
 		"navy": "Royal Navy",
@@ -883,7 +883,7 @@
 	},
 	"122": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/safuke.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/safuke.png",
 		"link": "suffolk",
 		"name": "Suffolk",
 		"navy": "Royal Navy",
@@ -892,7 +892,7 @@
 	},
 	"123": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/nuofuke.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/nuofuke.png",
 		"link": "norfolk",
 		"name": "Norfolk",
 		"navy": "Royal Navy",
@@ -901,7 +901,7 @@
 	},
 	"124": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/duosaitejun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/duosaitejun.png",
 		"link": "dorsetshire",
 		"name": "Dorsetshire",
 		"navy": "Royal Navy",
@@ -910,7 +910,7 @@
 	},
 	"125": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/yueke.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yueke.png",
 		"link": "york",
 		"name": "York",
 		"navy": "Royal Navy",
@@ -919,7 +919,7 @@
 	},
 	"126": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aikesaite.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aikesaite.png",
 		"link": "exeter",
 		"name": "Exeter",
 		"navy": "Royal Navy",
@@ -928,7 +928,7 @@
 	},
 	"127": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/shengwang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengwang.png",
 		"link": "renown",
 		"name": "Renown",
 		"navy": "Royal Navy",
@@ -937,7 +937,7 @@
 	},
 	"128": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/fanji.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fanji.png",
 		"link": "repulse",
 		"name": "Repulse",
 		"navy": "Royal Navy",
@@ -946,7 +946,7 @@
 	},
 	"129": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/hude.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/hude.png",
 		"link": "hood",
 		"name": "Hood",
 		"navy": "Royal Navy",
@@ -955,7 +955,7 @@
 	},
 	"130": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/yilishabai.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yilishabai.png",
 		"link": "queen_elizabeth",
 		"name": "Queen Elizabeth",
 		"navy": "Royal Navy",
@@ -964,7 +964,7 @@
 	},
 	"131": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/yanzhan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yanzhan.png",
 		"link": "warspite",
 		"name": "Warspite",
 		"navy": "Royal Navy",
@@ -973,7 +973,7 @@
 	},
 	"132": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/naerxun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/naerxun.png",
 		"link": "nelson",
 		"name": "Nelson",
 		"navy": "Royal Navy",
@@ -982,7 +982,7 @@
 	},
 	"133": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/luodeni.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/luodeni.png",
 		"link": "rodney",
 		"name": "Rodney",
 		"navy": "Royal Navy",
@@ -993,14 +993,14 @@
 		"name" : "King George V",
 		"hull" : "Battleship",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/qiaozhiwushi.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/qiaozhiwushi.png",
 		"rarity" : "Super Rare",
 		"link" : "king_george_v",
 		"shipType" : "common"
 	},
 	"135": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/weiershiqinwang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/weiershiqinwang.png",
 		"link": "prince_of_wales",
 		"name": "Prince of Wales",
 		"navy": "Royal Navy",
@@ -1009,7 +1009,7 @@
 	},
 	"136": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/yuekegongjue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yuekegongjue.png",
 		"link": "duke_of_york",
 		"name": "Duke of York",
 		"navy": "Royal Navy",
@@ -1018,7 +1018,7 @@
 	},
 	"140": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/jingjishen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jingjishen.png",
 		"link": "hermes",
 		"name": "Hermes",
 		"navy": "Royal Navy",
@@ -1027,7 +1027,7 @@
 	},
 	"142": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/dujiaoshou.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/dujiaoshou.png",
 		"link": "unicorn",
 		"name": "Unicorn",
 		"navy": "Royal Navy",
@@ -1036,7 +1036,7 @@
 	},
 	"143": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/ying.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ying.png",
         "link": "eagle",
         "name": "Eagle",
         "navy": "Royal Navy",
@@ -1045,7 +1045,7 @@
     },
 	"144": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/huangjiafangzhou.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huangjiafangzhou.png",
 		"link": "ark_royal",
 		"name": "Ark Royal",
 		"navy": "Royal Navy",
@@ -1054,7 +1054,7 @@
 	},
 	"145": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/guanghui.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/guanghui.png",
 		"link": "illustrious",
 		"name": "Illustrious",
 		"navy": "Royal Navy",
@@ -1063,7 +1063,7 @@
 	},
 	"146": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/shengli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengli.png",
 		"link": "victorious",
 		"name": "Victorious",
 		"navy": "Royal Navy",
@@ -1072,7 +1072,7 @@
 	},
 	"147": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/kewei.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kewei.png",
         "link": "formidable",
         "name": "Formidable",
         "navy": "Royal Navy",
@@ -1081,7 +1081,7 @@
     },
 	"148": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/guangrong.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/guangrong.png",
 		"link": "glorious",
 		"name": "Glorious",
 		"navy": "Royal Navy",
@@ -1090,7 +1090,7 @@
 	},
 	"149": {
 		"hull": "Monitor",
-		"icon": "https://algwiki.moe/assets/squareicon/heianjie.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/heianjie.png",
 		"link": "erebus",
 		"name": "Erebus",
 		"navy": "Royal Navy",
@@ -1099,7 +1099,7 @@
 	},
 	"150": {
 		"hull": "Monitor",
-		"icon": "https://algwiki.moe/assets/squareicon/kongbu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kongbu.png",
 		"link": "terror",
 		"name": "Terror",
 		"navy": "Royal Navy",
@@ -1108,7 +1108,7 @@
 	},
 	"151": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/chuixue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuixue.png",
 		"link": "fubuki",
 		"name": "Fubuki",
 		"navy": "Sakura Empire",
@@ -1117,7 +1117,7 @@
 	},
 	"155": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/lingbo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lingbo.png",
 		"link": "ayanami",
 		"name": "Ayanami",
 		"navy": "Sakura Empire",
@@ -1126,7 +1126,7 @@
 	},
 	"159": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xiao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiao.png",
 		"link": "akatsuki",
 		"name": "Akatsuki",
 		"navy": "Sakura Empire",
@@ -1137,14 +1137,14 @@
 		"name" : "Hibiki",
 		"hull" : "Destroyer",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/xiang.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/xiang.png",
 		"rarity" : "Elite",
 		"link" : "hibiki",
 		"shipType" : "common"
 	},
 	"161": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/lei.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lei.png",
 		"link": "ikazuchi",
 		"name": "Ikazuchi",
 		"navy": "Sakura Empire",
@@ -1153,7 +1153,7 @@
 	},
 	"162": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/dian.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/dian.png",
 		"link": "inazuma",
 		"name": "Inazuma",
 		"navy": "Sakura Empire",
@@ -1162,7 +1162,7 @@
 	},
 	"163": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/bailu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bailu.png",
 		"link": "shiratsuyu",
 		"name": "Shiratsuyu",
 		"navy": "Sakura Empire",
@@ -1171,7 +1171,7 @@
 	},
 	"164": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xili.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xili.png",
 		"link": "yuudachi",
 		"name": "Yuudachi",
 		"navy": "Sakura Empire",
@@ -1180,7 +1180,7 @@
 	},
 	"165": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/shiyu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shiyu.png",
 		"link": "shigure",
 		"name": "Shigure",
 		"navy": "Sakura Empire",
@@ -1189,7 +1189,7 @@
 	},
 	"166": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xuefeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xuefeng.png",
 		"link": "yukikaze",
 		"name": "Yukikaze",
 		"navy": "Sakura Empire",
@@ -1198,7 +1198,7 @@
 	},
 	"167": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/yangyan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yangyan.png",
 		"link": "kagerou",
 		"name": "Kagerou",
 		"navy": "Sakura Empire",
@@ -1207,7 +1207,7 @@
 	},
 	"168": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/buzhihuo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/buzhihuo.png",
 		"link": "shiranui",
 		"name": "Shiranui",
 		"navy": "Sakura Empire",
@@ -1216,7 +1216,7 @@
 	},
 	"170": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/yefen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yefen.png",
 		"link": "nowaki",
 		"name": "Nowaki",
 		"navy": "Sakura Empire",
@@ -1225,7 +1225,7 @@
 	},
 	"171": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/chuchun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuchun.png",
 		"link": "hatsuharu",
 		"name": "Hatsuharu",
 		"navy": "Sakura Empire",
@@ -1234,7 +1234,7 @@
 	},
 	"173": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/ruoye.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ruoye.png",
 		"link": "wakaba",
 		"name": "Wakaba",
 		"navy": "Sakura Empire",
@@ -1243,7 +1243,7 @@
 	},
 	"174": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/chushuang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chushuang.png",
 		"link": "hatsushimo",
 		"name": "Hatsushimo",
 		"navy": "Sakura Empire",
@@ -1252,7 +1252,7 @@
 	},
 	"175": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/youming.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/youming.png",
 		"link": "ariake",
 		"name": "Ariake",
 		"navy": "Sakura Empire",
@@ -1261,7 +1261,7 @@
 	},
 	"176": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/ximu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ximu.png",
 		"link": "yuugure",
 		"name": "Yuugure",
 		"navy": "Sakura Empire",
@@ -1270,7 +1270,7 @@
 	},
 	"177": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/heichao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/heichao.png",
 		"link": "kuroshio",
 		"name": "Kuroshio",
 		"navy": "Sakura Empire",
@@ -1279,7 +1279,7 @@
 	},
 	"178": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/qinchao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/qinchao.png",
 		"link": "oyashio",
 		"name": "Oyashio",
 		"navy": "Sakura Empire",
@@ -1288,7 +1288,7 @@
 	},
 	"179": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/xizhang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xizhang.png",
 		"link": "yuubari",
 		"name": "Yuubari",
 		"navy": "Sakura Empire",
@@ -1297,7 +1297,7 @@
 	},
 	"182": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/changliang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/changliang.png",
 		"link": "nagara",
 		"name": "Nagara",
 		"navy": "Sakura Empire",
@@ -1306,7 +1306,7 @@
 	},
 	"183": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/wushiling.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/wushiling.png",
 		"link": "isuzu",
 		"name": "Isuzu",
 		"navy": "Sakura Empire",
@@ -1317,14 +1317,14 @@
 		"name" : "Kinu",
 		"hull" : "Light Cruiser",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/guinu.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/guinu.png",
 		"rarity" : "Elite",
 		"link" : "kinu",
 		"shipType" : "common"
 	},
 	"187": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/awuwei.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/awuwei.png",
 		"link": "abukuma",
 		"name": "Abukuma",
 		"navy": "Sakura Empire",
@@ -1333,7 +1333,7 @@
 	},
 	"188": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/zuishang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zuishang.png",
 		"link": "mogami",
 		"name": "Mogami",
 		"navy": "Sakura Empire",
@@ -1342,7 +1342,7 @@
 	},
 	"189": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/sanwei.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/sanwei.png",
 		"link": "mikuma",
 		"name": "Mikuma",
 		"navy": "Sakura Empire",
@@ -1351,7 +1351,7 @@
 	},
 	"190": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/guying.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/guying.png",
 		"link": "furutaka",
 		"name": "Furutaka",
 		"navy": "Sakura Empire",
@@ -1360,7 +1360,7 @@
 	},
 	"191": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/jiagu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiagu.png",
 		"link": "kako",
 		"name": "Kako",
 		"navy": "Sakura Empire",
@@ -1369,7 +1369,7 @@
 	},
 	"192": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/qingye.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/qingye.png",
 		"link": "aoba",
 		"name": "Aoba",
 		"navy": "Sakura Empire",
@@ -1378,7 +1378,7 @@
 	},
 	"193": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/yili.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yili.png",
 		"link": "kinugasa",
 		"name": "Kinugasa",
 		"navy": "Sakura Empire",
@@ -1387,7 +1387,7 @@
 	},
 	"196": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/miaogao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/miaogao.png",
 		"link": "myoukou",
 		"name": "Myoukou",
 		"navy": "Sakura Empire",
@@ -1396,7 +1396,7 @@
 	},
 	"197": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/nazhi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/nazhi.png",
 		"link": "nachi",
 		"name": "Nachi",
 		"navy": "Sakura Empire",
@@ -1405,7 +1405,7 @@
 	},
 	"198": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/zubing.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zubing.png",
 		"link": "ashigara",
 		"name": "Ashigara",
 		"navy": "Sakura Empire",
@@ -1414,7 +1414,7 @@
 	},
 	"200": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/gaoxiong.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/gaoxiong.png",
 		"link": "takao",
 		"name": "Takao",
 		"navy": "Sakura Empire",
@@ -1423,7 +1423,7 @@
 	},
 	"201": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aidang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aidang.png",
 		"link": "atago",
 		"name": "Atago",
 		"navy": "Sakura Empire",
@@ -1432,7 +1432,7 @@
 	},
 	"202": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/moye.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/moye.png",
 		"link": "maya",
 		"name": "Maya",
 		"navy": "Sakura Empire",
@@ -1441,7 +1441,7 @@
 	},
 	"203": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/niaohai.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/niaohai.png",
 		"link": "choukai",
 		"name": "Choukai",
 		"navy": "Sakura Empire",
@@ -1450,7 +1450,7 @@
 	},
 	"204": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/jingang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jingang.png",
 		"link": "kongou",
 		"name": "Kongou",
 		"navy": "Sakura Empire",
@@ -1459,7 +1459,7 @@
 	},
 	"205": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/birui.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/birui.png",
 		"link": "hiei",
 		"name": "Hiei",
 		"navy": "Sakura Empire",
@@ -1468,7 +1468,7 @@
 	},
 	"206": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/zhenming.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhenming.png",
 		"link": "haruna",
 		"name": "Haruna",
 		"navy": "Sakura Empire",
@@ -1477,7 +1477,7 @@
 	},
 	"207": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/wudao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/wudao.png",
 		"link": "kirishima",
 		"name": "Kirishima",
 		"navy": "Sakura Empire",
@@ -1486,7 +1486,7 @@
 	},
 	"208": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/fusang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fusang.png",
 		"link": "fusou",
 		"name": "Fusou",
 		"navy": "Sakura Empire",
@@ -1495,7 +1495,7 @@
 	},
 	"209": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/shancheng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shancheng.png",
 		"link": "yamashiro",
 		"name": "Yamashiro",
 		"navy": "Sakura Empire",
@@ -1504,7 +1504,7 @@
 	},
 	"210": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/yishi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yishi.png",
 		"link": "ise",
 		"name": "Ise",
 		"navy": "Sakura Empire",
@@ -1513,7 +1513,7 @@
 	},
 	"211": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/rixiang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/rixiang.png",
 		"link": "hyuuga",
 		"name": "Hyuuga",
 		"navy": "Sakura Empire",
@@ -1522,7 +1522,7 @@
 	},
 	"212": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/changmen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/changmen.png",
 		"link": "nagato",
 		"name": "Nagato",
 		"navy": "Sakura Empire",
@@ -1531,7 +1531,7 @@
 	},
 	"213": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/luao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/luao.png",
 		"link": "mutsu",
 		"name": "Mutsu",
 		"navy": "Sakura Empire",
@@ -1542,7 +1542,7 @@
         "name" : "Kii",
         "hull" : "Battleship",
         "navy" : "Sakura Empire",
-        "icon" : "https://algwiki.moe/assets/squareicon/jiyi.png",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/jiyi.png",
         "rarity" : "Super Rare",
         "link" : "kii",
         "shipType" : "common"
@@ -1551,14 +1551,14 @@
 		"name" : "Tosa",
 		"hull" : "Battleship",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/tuzuo.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/tuzuo.png",
 		"rarity" : "Super Rare",
 		"link" : "tosa",
 		"shipType" : "common"
 	},
 	"218": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/feiying.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/feiying.png",
 		"link": "hiyou",
 		"name": "Hiyou",
 		"navy": "Sakura Empire",
@@ -1567,7 +1567,7 @@
 	},
 	"219": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/sunying.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/sunying.png",
 		"link": "junyou",
 		"name": "Jun'you",
 		"navy": "Sakura Empire",
@@ -1576,7 +1576,7 @@
 	},
 	"220": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/fengxiang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fengxiang.png",
 		"link": "houshou",
 		"name": "Houshou",
 		"navy": "Sakura Empire",
@@ -1585,7 +1585,7 @@
 	},
 	"222": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/xiangfeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiangfeng.png",
 		"link": "shouhou",
 		"name": "Shouhou",
 		"navy": "Sakura Empire",
@@ -1594,7 +1594,7 @@
 	},
 	"223": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/longxiang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/longxiang.png",
 		"link": "ryuujou",
 		"name": "Ryuujou",
 		"navy": "Sakura Empire",
@@ -1603,7 +1603,7 @@
 	},
 	"224": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/chicheng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chicheng.png",
 		"link": "akagi",
 		"name": "Akagi",
 		"navy": "Sakura Empire",
@@ -1612,7 +1612,7 @@
 	},
 	"225": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/jiahe.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiahe.png",
 		"link": "kaga",
 		"name": "Kaga",
 		"navy": "Sakura Empire",
@@ -1621,7 +1621,7 @@
 	},
 	"226": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/canglong.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/canglong.png",
 		"link": "souryuu",
 		"name": "Souryuu",
 		"navy": "Sakura Empire",
@@ -1630,7 +1630,7 @@
 	},
 	"227": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/feilong.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/feilong.png",
 		"link": "hiryuu",
 		"name": "Hiryuu",
 		"navy": "Sakura Empire",
@@ -1639,7 +1639,7 @@
 	},
 	"228": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/xianghe.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xianghe.png",
 		"link": "shoukaku",
 		"name": "Shoukaku",
 		"navy": "Sakura Empire",
@@ -1648,7 +1648,7 @@
 	},
 	"229": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/ruihe.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ruihe.png",
 		"link": "zuikaku",
 		"name": "Zuikaku",
 		"navy": "Sakura Empire",
@@ -1657,7 +1657,7 @@
 	},
 	"230": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/dafeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/dafeng.png",
 		"link": "taihou",
 		"name": "Taihou",
 		"navy": "Sakura Empire",
@@ -1666,7 +1666,7 @@
 	},
     "231": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/xinnong.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xinnong.png",
         "link": "shinano",
         "name": "Shinano",
         "navy": "Sakura Empire",
@@ -1675,7 +1675,7 @@
     },
 	"232": {
 		"hull": "Repair",
-		"icon": "https://algwiki.moe/assets/squareicon/mingshi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/mingshi.png",
 		"link": "akashi",
 		"name": "Akashi",
 		"navy": "Sakura Empire",
@@ -1684,7 +1684,7 @@
 	},
 	"233": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z1.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z1.png",
 		"link": "z1",
 		"name": "Leberecht Maass",
 		"navy": "Ironblood",
@@ -1693,7 +1693,7 @@
 	},
 	"236": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z23.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z23.png",
 		"link": "z23",
 		"name": "Z23",
 		"navy": "Ironblood",
@@ -1702,7 +1702,7 @@
 	},
 	"237": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/Z25.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z25.png",
 		"link": "z25",
 		"name": "Z25",
 		"navy": "Ironblood",
@@ -1711,7 +1711,7 @@
 	},
 	"238": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kenisibao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kenisibao.png",
 		"link": "konigsberg",
 		"name": "Königsberg",
 		"navy": "Ironblood",
@@ -1720,7 +1720,7 @@
 	},
 	"239": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kaersilue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kaersilue.png",
 		"link": "karlsruhe",
 		"name": "Karlsruhe",
 		"navy": "Ironblood",
@@ -1729,7 +1729,7 @@
 	},
 	"240": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kelong.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kelong.png",
 		"link": "koln",
 		"name": "Köln",
 		"navy": "Ironblood",
@@ -1738,7 +1738,7 @@
 	},
 	"241": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/laibixi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/laibixi.png",
 		"link": "leipzig",
 		"name": "Leipzig",
 		"navy": "Ironblood",
@@ -1747,7 +1747,7 @@
 	},
 	"242": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/xipeierhaijunshangjiang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xipeierhaijunshangjiang.png",
 		"link": "admiral_hipper",
 		"name": "Admiral Hipper",
 		"navy": "Ironblood",
@@ -1756,7 +1756,7 @@
 	},
 	"244": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/ougen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ougen.png",
 		"link": "prinz_eugen",
 		"name": "Prinz Eugen",
 		"navy": "Ironblood",
@@ -1765,7 +1765,7 @@
 	},
 	"245": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/deyizhi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/deyizhi.png",
 		"link": "deutschland",
 		"name": "Deutschland",
 		"navy": "Ironblood",
@@ -1774,7 +1774,7 @@
 	},
 	"246": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/sipeibojue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/sipeibojue.png",
 		"link": "admiral_graf_spee",
 		"name": "Admiral Graf Spee",
 		"navy": "Ironblood",
@@ -1783,7 +1783,7 @@
 	},
 	"248": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/shaenhuosite.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shaenhuosite.png",
 		"link": "scharnhorst",
 		"name": "Scharnhorst",
 		"navy": "Ironblood",
@@ -1792,7 +1792,7 @@
 	},
 	"249": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/genaisennao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/genaisennao.png",
 		"link": "gneisenau",
 		"name": "Gneisenau",
 		"navy": "Ironblood",
@@ -1803,14 +1803,14 @@
 		"name" : "Bismarck",
 		"hull" : "Battleship",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/squareicon/bisimai.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/bisimai.png",
 		"rarity" : "Super Rare",
 		"link" : "bismarck",
 		"shipType" : "common"
 	},
 	"251": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/tierbici.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tierbici.png",
 		"link": "tirpitz",
 		"name": "Tirpitz",
 		"navy": "Ironblood",
@@ -1819,7 +1819,7 @@
 	},
 	"252": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/qibolin.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/qibolin.png",
 		"link": "graf_zeppelin",
 		"name": "Graf Zeppelin",
 		"navy": "Ironblood",
@@ -1828,7 +1828,7 @@
 	},
 	"253": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/anshan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/anshan.png",
 		"link": "an_shan",
 		"name": "An shan",
 		"navy": "Dragon Empire",
@@ -1837,7 +1837,7 @@
 	},
 	"254": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/fushun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fushun.png",
 		"link": "fu_shun",
 		"name": "Fu shun",
 		"navy": "Dragon Empire",
@@ -1846,7 +1846,7 @@
 	},
 	"255": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/changchun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/changchun.png",
 		"link": "chang_chun",
 		"name": "Chang Chun",
 		"navy": "Dragon Empire",
@@ -1855,7 +1855,7 @@
 	},
 	"256": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/taiyuan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/taiyuan.png",
 		"link": "tai_yuan",
 		"name": "Tai Yuan",
 		"navy": "Dragon Empire",
@@ -1864,7 +1864,7 @@
 	},
 	"257": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/yixian.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yixian.png",
 		"link": "yat_sen",
 		"name": "Yat Sen",
 		"navy": "Dragon Empire",
@@ -1873,7 +1873,7 @@
 	},
 	"258": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/ninghai.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ninghai.png",
 		"link": "ning_hai",
 		"name": "Ning Hai",
 		"navy": "Dragon Empire",
@@ -1882,7 +1882,7 @@
 	},
 	"259": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/pinghai.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/pinghai.png",
 		"link": "ping_hai",
 		"name": "Ping Hai",
 		"navy": "Dragon Empire",
@@ -1891,7 +1891,7 @@
 	},
 	"262": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/afuleer.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/afuleer.png",
 		"link": "avrora",
 		"name": "Avrora",
 		"navy": "Northern Union",
@@ -1900,7 +1900,7 @@
 	},
 	"263": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/beili.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/beili.png",
 		"link": "bailey",
 		"name": "Bailey",
 		"navy": "Eagle Union",
@@ -1909,7 +1909,7 @@
 	},
 	"264": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z19.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z19.png",
 		"link": "z19",
 		"name": "Hermann Künne",
 		"navy": "Ironblood",
@@ -1918,7 +1918,7 @@
 	},
 	"265": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z20.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z20.png",
 		"link": "z20",
 		"name": "Karl Galster",
 		"navy": "Ironblood",
@@ -1927,7 +1927,7 @@
 	},
 	"266": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z21.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z21.png",
 		"link": "z21",
 		"name": "Wilhelm Heidkamp",
 		"navy": "Ironblood",
@@ -1936,7 +1936,7 @@
 	},
 	"267": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/Z46.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z46.png",
 		"link": "z46",
 		"name": "Z46",
 		"navy": "Ironblood",
@@ -1945,7 +1945,7 @@
 	},
 	"269": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/shenfeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shenfeng.png",
 		"link": "kamikaze",
 		"name": "Kamikaze",
 		"navy": "Sakura Empire",
@@ -1954,7 +1954,7 @@
 	},
 	"270": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/songfeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/songfeng.png",
 		"link": "matsukaze",
 		"name": "Matsukaze",
 		"navy": "Sakura Empire",
@@ -1963,7 +1963,7 @@
 	},
 	"271": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/muyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/muyue.png",
 		"link": "mutsuki",
 		"name": "Mutsuki",
 		"navy": "Sakura Empire",
@@ -1972,7 +1972,7 @@
 	},
 	"272": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/ruyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ruyue.png",
 		"link": "kisaragi",
 		"name": "Kisaragi",
 		"navy": "Sakura Empire",
@@ -1981,7 +1981,7 @@
 	},
 	"274": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/maoyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/maoyue.png",
 		"link": "uzuki",
 		"name": "Uzuki",
 		"navy": "Sakura Empire",
@@ -1990,7 +1990,7 @@
 	},
 	"276": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/shuiwuyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shuiwuyue.png",
 		"link": "minazuki",
 		"name": "Minazuki",
 		"navy": "Sakura Empire",
@@ -1999,7 +1999,7 @@
 	},
 	"277": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/wenyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/wenyue.png",
 		"link": "fumizuki",
 		"name": "Fumizuki",
 		"navy": "Sakura Empire",
@@ -2008,7 +2008,7 @@
 	},
 	"278": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/changyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/changyue.png",
 		"link": "nagatsuki",
 		"name": "Nagatsuki",
 		"navy": "Sakura Empire",
@@ -2017,7 +2017,7 @@
 	},
 	"280": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/sanriyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/sanriyue.png",
 		"link": "mikazuki",
 		"name": "Mikazuki",
 		"navy": "Sakura Empire",
@@ -2026,7 +2026,7 @@
 	},
 	"288": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/jiangfeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiangfeng.png",
 		"link": "kawakaze",
 		"name": "Kawakaze",
 		"navy": "Sakura Empire",
@@ -2037,14 +2037,14 @@
 		"name" : "Kiyonami",
 		"hull" : "Destroyer",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/qingbo.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/qingbo.png",
 		"rarity" : "Rare",
 		"link" : "kiyonami",
 		"shipType" : "common"
 	},
 	"295": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xinyue_jp.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xinyue_jp.png",
 		"link": "niizuki",
 		"name": "Niizuki",
 		"navy": "Sakura Empire",
@@ -2053,7 +2053,7 @@
 	},
 	"296": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/chunyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chunyue.png",
 		"link": "harutsuki",
 		"name": "Harutsuki",
 		"navy": "Sakura Empire",
@@ -2062,7 +2062,7 @@
 	},
 	"297": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/xiaoyue.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiaoyue.png",
 		"link": "yoizuki",
 		"name": "Yoizuki",
 		"navy": "Sakura Empire",
@@ -2071,7 +2071,7 @@
 	},
 	"299": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/ladefute.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ladefute.png",
 		"link": "radford",
 		"name": "Radford",
 		"navy": "Eagle Union",
@@ -2080,7 +2080,7 @@
 	},
 	"300": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/jiejinsi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiejinsi.png",
 		"link": "jenkins",
 		"name": "Jenkins",
 		"navy": "Eagle Union",
@@ -2089,7 +2089,7 @@
 	},
 	"301": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/nigulasi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/nigulasi.png",
 		"link": "nicholas",
 		"name": "Nicholas",
 		"navy": "Eagle Union",
@@ -2098,7 +2098,7 @@
 	},
 	"303": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/lishiman.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lishiman.png",
 		"link": "richmond",
 		"name": "Richmond",
 		"navy": "Eagle Union",
@@ -2107,7 +2107,7 @@
 	},
 	"304": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/huonululu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huonululu.png",
 		"link": "honolulu",
 		"name": "Honolulu",
 		"navy": "Eagle Union",
@@ -2116,7 +2116,7 @@
 	},
 	"305": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/shengluyisi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengluyisi.png",
 		"link": "st_louis",
 		"name": "St.Louis",
 		"navy": "Eagle Union",
@@ -2125,7 +2125,7 @@
 	},
 	"306": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/qiubite.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/qiubite.png",
 		"link": "jupiter",
 		"name": "Jupiter",
 		"navy": "Royal Navy",
@@ -2134,7 +2134,7 @@
 	},
 	"307": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/zexi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zexi.png",
 		"link": "jersey",
 		"name": "Jersey",
 		"navy": "Royal Navy",
@@ -2143,7 +2143,7 @@
 	},
 	"308": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/chuannei.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuannei.png",
 		"link": "sendai",
 		"name": "Sendai",
 		"navy": "Sakura Empire",
@@ -2152,7 +2152,7 @@
 	},
 	"309": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/shentong.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/shentong.png",
 		"link": "jintsuu",
 		"name": "Jintsuu",
 		"navy": "Sakura Empire",
@@ -2161,7 +2161,7 @@
 	},
 	"310": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/nake.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/nake.png",
 		"link": "naka",
 		"name": "Naka",
 		"navy": "Sakura Empire",
@@ -2170,7 +2170,7 @@
 	},
 	"316": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/pufeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/pufeng.png",
 		"link": "urakaze",
 		"name": "Urakaze",
 		"navy": "Sakura Empire",
@@ -2179,7 +2179,7 @@
 	},
 	"317": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/jifeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jifeng.png",
 		"link": "isokaze",
 		"name": "Isokaze",
 		"navy": "Sakura Empire",
@@ -2188,7 +2188,7 @@
 	},
 	"318": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/bangfeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bangfeng.png",
 		"link": "hamakaze",
 		"name": "Hamakaze",
 		"navy": "Sakura Empire",
@@ -2197,7 +2197,7 @@
 	},
 	"319": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/gufeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/gufeng.png",
 		"link": "tanikaze",
 		"name": "Tanikaze",
 		"navy": "Sakura Empire",
@@ -2206,7 +2206,7 @@
 	},
 	"320": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/sanli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/sanli.png",
 		"link": "mikasa",
 		"name": "Mikasa",
 		"navy": "Sakura Empire",
@@ -2215,7 +2215,7 @@
 	},
 	"321": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aheye.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aheye.png",
 		"link": "agano",
 		"name": "Agano",
 		"navy": "Sakura Empire",
@@ -2226,14 +2226,14 @@
 		"name" : "Noshiro",
 		"hull" : "Light Cruiser",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/nengdai.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/nengdai.png",
 		"rarity" : "Super Rare",
 		"link" : "noshiro",
 		"shipType" : "common"
 	},
 	"325": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/wudi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/wudi.png",
 		"link": "matchless",
 		"name": "Matchless",
 		"navy": "Royal Navy",
@@ -2242,7 +2242,7 @@
 	},
 	"326": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/huoqiangshou.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huoqiangshou.png",
 		"link": "musketeer",
 		"name": "Musketeer",
 		"navy": "Royal Navy",
@@ -2251,7 +2251,7 @@
 	},
 	"327": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/feiji.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/feiji.png",
 		"link": "fiji",
 		"name": "Fiji",
 		"navy": "Royal Navy",
@@ -2260,7 +2260,7 @@
 	},
 	"328": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/yamaijia.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yamaijia.png",
 		"link": "jamaica",
 		"name": "Jamaica",
 		"navy": "Royal Navy",
@@ -2269,7 +2269,7 @@
 	},
 	"329": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/mengbiliai.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/mengbiliai.png",
 		"link": "montpelier",
 		"name": "Montpelier",
 		"navy": "Eagle Union",
@@ -2278,7 +2278,7 @@
 	},
 	"330": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/danfo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/danfo.png",
 		"link": "denver",
 		"name": "Denver",
 		"navy": "Eagle Union",
@@ -2287,7 +2287,7 @@
 	},
 	"331": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/zhaochao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhaochao.png",
 		"link": "asashio",
 		"name": "Asashio",
 		"navy": "Sakura Empire",
@@ -2296,7 +2296,7 @@
 	},
 	"332": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/dachao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/dachao.png",
 		"link": "ooshio",
 		"name": "Ooshio",
 		"navy": "Sakura Empire",
@@ -2305,7 +2305,7 @@
 	},
 	"333": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/manchao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/manchao.png",
 		"link": "michishio",
 		"name": "Michishio",
 		"navy": "Sakura Empire",
@@ -2314,7 +2314,7 @@
 	},
 	"334": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/huangchao.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huangchao.png",
 		"link": "arashio",
 		"name": "Arashio",
 		"navy": "Sakura Empire",
@@ -2323,7 +2323,7 @@
 	},
 	"335": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/beierfasite_younv.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/beierfasite_younv.png",
 		"link": "belchan",
 		"name": "Bel-chan",
 		"navy": "Royal Navy",
@@ -2332,7 +2332,7 @@
 	},
 	"336": {
 		"hull": "Monitor",
-		"icon": "https://algwiki.moe/assets/squareicon/abeikelongbi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/abeikelongbi.png",
 		"link": "abercrombie",
 		"name": "Abercrombie",
 		"navy": "Royal Navy",
@@ -2341,7 +2341,7 @@
 	},
 	"337": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/susaikesi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/susaikesi.png",
 		"link": "sussex",
 		"name": "Sussex",
 		"navy": "Royal Navy",
@@ -2350,7 +2350,7 @@
 	},
 	"338": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/I19.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/I19.png",
 		"link": "i19",
 		"name": "I19",
 		"navy": "Sakura Empire",
@@ -2359,7 +2359,7 @@
 	},
 	"339": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/I26.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/I26.png",
 		"link": "i26",
 		"name": "I26",
 		"navy": "Sakura Empire",
@@ -2368,7 +2368,7 @@
 	},
 	"340": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/I58.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/I58.png",
 		"link": "i58",
 		"name": "I58",
 		"navy": "Sakura Empire",
@@ -2377,7 +2377,7 @@
 	},
 	"341": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/U81.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/U81.png",
 		"link": "u81",
 		"name": "U-81",
 		"navy": "Ironblood",
@@ -2386,7 +2386,7 @@
 	},
 	"342": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/tiaoyu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tiaoyu.png",
 		"link": "dace",
 		"name": "Dace",
 		"navy": "Eagle Union",
@@ -2395,7 +2395,7 @@
 	},
 	"343": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/U47.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/U47.png",
 		"link": "u47",
 		"name": "U-47",
 		"navy": "Ironblood",
@@ -2404,7 +2404,7 @@
 	},
 	"344": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/U557.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/U557.png",
 		"link": "u557",
 		"name": "U-557",
 		"navy": "Ironblood",
@@ -2413,7 +2413,7 @@
 	},
 	"345": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/Z35.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z35.png",
 		"link": "z35",
 		"name": "Z35",
 		"navy": "Ironblood",
@@ -2422,7 +2422,7 @@
 	},
 	"346": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z18.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z18.png",
 		"link": "z18",
 		"name": "Hans Lüdemann",
 		"navy": "Ironblood",
@@ -2431,7 +2431,7 @@
 	},
 	"347": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/kaixuan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kaixuan.png",
 		"link": "le_triomphant",
 		"name": "Le Triomphant",
 		"navy": "Iris Libre",
@@ -2440,7 +2440,7 @@
 	},
 	"348": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/fuerban.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fuerban.png",
 		"link": "forbin",
 		"name": "Forbin",
 		"navy": "Iris Libre",
@@ -2449,7 +2449,7 @@
 	},
 	"349": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aimierbeierding.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aimierbeierding.png",
 		"link": "emile_bertin",
 		"name": "Émile Bertin",
 		"navy": "Iris Libre",
@@ -2458,7 +2458,7 @@
 	},
 	"350": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/xukufu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xukufu.png",
 		"link": "surcouf",
 		"name": "Surcouf",
 		"navy": "Iris Libre",
@@ -2467,7 +2467,7 @@
 	},
 	"351": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/lemaer.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lemaer.png",
 		"link": "le_mars",
 		"name": "Le Mars",
 		"navy": "Vichya Dominion",
@@ -2476,7 +2476,7 @@
 	},
 	"352": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/dunkeerke.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/dunkeerke.png",
 		"link": "dunkerque",
 		"name": "Dunkerque",
 		"navy": "Vichya Dominion",
@@ -2485,7 +2485,7 @@
 	},
 	"353": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/rangbaer.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/rangbaer.png",
 		"link": "jean_bart",
 		"name": "Jean Bart",
 		"navy": "Vichya Dominion",
@@ -2494,7 +2494,7 @@
 	},
 	"354": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/masazhusai.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/masazhusai.png",
 		"link": "massachusetts",
 		"name": "Massachusetts",
 		"navy": "Eagle Union",
@@ -2503,7 +2503,7 @@
 	},
 	"355": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/bushi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bushi.png",
 		"link": "bush",
 		"name": "Bush",
 		"navy": "Eagle Union",
@@ -2512,7 +2512,7 @@
 	},
 	"356": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/banrenma.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/banrenma.png",
 		"link": "centaur",
 		"name": "Centaur",
 		"navy": "Royal Navy",
@@ -2521,7 +2521,7 @@
 	},
 	"357": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/aisaikesi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aisaikesi.png",
 		"link": "essex",
 		"name": "Essex",
 		"navy": "Eagle Union",
@@ -2530,7 +2530,7 @@
 	},
 	"358": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/daqinghuayu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/daqinghuayu.png",
 		"link": "albacore",
 		"name": "Albacore",
 		"navy": "Eagle Union",
@@ -2539,7 +2539,7 @@
 	},
 	"359": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/lumang.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lumang.png",
 		"link": "le_temeraire",
 		"name": "Le Téméraire",
 		"navy": "Iris Libre",
@@ -2548,7 +2548,7 @@
 	},
 	"360": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/mengfeisi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/mengfeisi.png",
 		"link": "memphis",
 		"name": "Memphis",
 		"navy": "Eagle Union",
@@ -2557,7 +2557,7 @@
 	},
 	"361": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/niukasier.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/niukasier.png",
 		"link": "newcastle",
 		"name": "Newcastle",
 		"navy": "Royal Navy",
@@ -2566,7 +2566,7 @@
 	},
 	"362": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/huobi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/huobi.png",
 		"link": "hobby",
 		"name": "Hobby",
 		"navy": "Eagle Union",
@@ -2575,7 +2575,7 @@
 	},
 	"363": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/keerke.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/keerke.png",
 		"link": "kalk",
 		"name": "Kalk",
 		"navy": "Eagle Union",
@@ -2584,7 +2584,7 @@
 	},
 	"364": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/mingniabolisi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/mingniabolisi.png",
 		"link": "minneapolis",
 		"name": "Minneapolis",
 		"navy": "Eagle Union",
@@ -2593,7 +2593,7 @@
 	},
 	"365": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/heizewude.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/heizewude.png",
 		"link": "hazelwood",
 		"name": "Hazelwood",
 		"navy": "Eagle Union",
@@ -2602,7 +2602,7 @@
 	},
 	"366": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kangkede.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kangkede.png",
 		"link": "concord",
 		"name": "Concord",
 		"navy": "Eagle Union",
@@ -2611,7 +2611,7 @@
 	},
 	"367": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/tiancheng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tiancheng.png",
 		"link": "amagi",
 		"name": "Amagi",
 		"navy": "Sakura Empire",
@@ -2620,7 +2620,7 @@
 	},
 	"368": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/jiahezhanlie.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiahezhanlie.png",
 		"link": "kaga_bb",
 		"name": "Kaga",
 		"navy": "Sakura Empire",
@@ -2629,7 +2629,7 @@
 	},
 	"369": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/qifeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/qifeng.png",
 		"link": "hatakaze",
 		"name": "Hatakaze",
 		"navy": "Sakura Empire",
@@ -2638,7 +2638,7 @@
 	},
 	"370": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/juanbo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/juanbo.png",
 		"link": "makinami",
 		"name": "Makinami",
 		"navy": "Sakura Empire",
@@ -2647,7 +2647,7 @@
 	},
 	"371": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/tianlangxing.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/tianlangxing.png",
 		"link": "sirius",
 		"name": "Sirius",
 		"navy": "Royal Navy",
@@ -2656,7 +2656,7 @@
 	},
 	"372": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/kulasuo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/kulasuo.png",
 		"link": "curacoa",
 		"name": "Curacoa",
 		"navy": "Royal Navy",
@@ -2665,7 +2665,7 @@
 	},
 	"373": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/biaoyu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/biaoyu.png",
 		"link": "curlew",
 		"name": "Curlew",
 		"navy": "Royal Navy",
@@ -2674,7 +2674,7 @@
 	},
 	"374": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/jinboli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jinboli.png",
 		"link": "kimberly",
 		"name": "Kimberly",
 		"navy": "Eagle Union",
@@ -2683,7 +2683,7 @@
 	},
 	"375": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/malani.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/malani.png",
 		"link": "mullany",
 		"name": "Mullany",
 		"navy": "Eagle Union",
@@ -2692,7 +2692,7 @@
 	},
 	"376": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/zhuiganzhe.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhuiganzhe.png",
 		"link": "chaser",
 		"name": "Chaser",
 		"navy": "Royal Navy",
@@ -2701,7 +2701,7 @@
 	},
 	"377": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/duli.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/duli.png",
 		"link": "independence",
 		"name": "Independence",
 		"navy": "Eagle Union",
@@ -2710,7 +2710,7 @@
 	},
 	"378": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/xianggelila.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xianggelila.png",
 		"link": "shangri-la",
 		"name": "Shangri-La",
 		"navy": "Eagle Union",
@@ -2719,7 +2719,7 @@
 	},
 	"379": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z2.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z2.png",
 		"link": "z2",
 		"name": "Georg Thiele",
 		"navy": "Ironblood",
@@ -2728,7 +2728,7 @@
 	},
 	"380": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/bangkeshan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bangkeshan.png",
 		"link": "bunker_hill",
 		"name": "Bunker Hill",
 		"navy": "Eagle Union",
@@ -2737,7 +2737,7 @@
 	},
 	"381": {
 		"hull": "Submarine Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/I13.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/I13.png",
 		"link": "i-13",
 		"name": "I13",
 		"navy": "Sakura Empire",
@@ -2746,7 +2746,7 @@
 	},
 	"382": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/linggu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/linggu.png",
 		"link": "suzuya",
 		"name": "Suzuya",
 		"navy": "Sakura Empire",
@@ -2755,7 +2755,7 @@
 	},
 	"383": {
 		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/birui_younv.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/birui_younv.png",
 		"link": "hieichan",
 		"name": "Hiei-chan",
 		"navy": "Sakura Empire",
@@ -2764,7 +2764,7 @@
 	},
 	"384": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/chicheng_younv.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chicheng_younv.png",
 		"link": "akagichan",
 		"name": "Akagi-chan",
 		"navy": "Sakura Empire",
@@ -2773,7 +2773,7 @@
 	},
 	"385": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/qibolin_younv.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/qibolin_younv.png",
 		"link": "zeppelinchan",
 		"name": "Zeppelin-chan",
 		"navy": "Ironblood",
@@ -2784,7 +2784,7 @@
 		"name" : "U-556",
 		"hull" : "Submarine",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/squareicon/U556.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U556.png",
 		"rarity" : "Elite",
 		"link" : "u556",
 		"shipType" : "common"
@@ -2793,7 +2793,7 @@
 		"name" : "U-73",
 		"hull" : "Submarine",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/squareicon/U73.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U73.png",
 		"rarity" : "Elite",
 		"link" : "u73",
 		"shipType" : "common"
@@ -2802,7 +2802,7 @@
 		"name" : "Z36",
 		"hull" : "Destroyer",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/squareicon/Z36.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/Z36.png",
 		"rarity" : "Elite",
 		"link" : "z36",
 		"shipType" : "common"
@@ -2811,7 +2811,7 @@
 		"name" : "Echo",
 		"hull" : "Destroyer",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/huisheng.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/huisheng.png",
 		"rarity" : "Rare",
 		"link" : "echo",
 		"shipType" : "common"
@@ -2820,7 +2820,7 @@
 		"name" : "Helena",
 		"hull" : "Light Cruiser",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/hailunna_younv.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/hailunna_younv.png",
 		"rarity" : "Elite",
 		"link" : "little_helena",
 		"shipType" : "common"
@@ -2829,7 +2829,7 @@
 		"name" : "Cleveland",
 		"hull" : "Light Cruiser",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/kelifulan_younv.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/kelifulan_younv.png",
 		"rarity" : "Elite",
 		"link" : "little_cleveland",
 		"shipType" : "common"
@@ -2838,7 +2838,7 @@
 		"name" : "San Diego",
 		"hull" : "Light Cruiser",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/shengdiyage_younv.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/shengdiyage_younv.png",
 		"rarity" : "Elite",
 		"link" : "little_san_diego",
 		"shipType" : "common"
@@ -2847,7 +2847,7 @@
 		"name" : "Swiftsure",
 		"hull" : "Light Cruiser",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/quejie.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/quejie.png",
 		"rarity" : "Super Rare",
 		"link" : "swiftsure",
 		"shipType" : "common"
@@ -2856,7 +2856,7 @@
 		"name" : "Le Malin",
 		"hull" : "Destroyer",
 		"navy" : "Vichya Dominion",
-		"icon" : "https://algwiki.moe/assets/squareicon/edu.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/edu.png",
 		"rarity" : "Super Rare",
 		"link" : "le_malin",
 		"shipType" : "common"
@@ -2865,7 +2865,7 @@
 		"name" : "L'Opiniâtre",
 		"hull" : "Destroyer",
 		"navy" : "Iris Libre",
-		"icon" : "https://algwiki.moe/assets/squareicon/juejiang.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/juejiang.png",
 		"rarity" : "Elite",
 		"link" : "l_opiniatre",
 		"shipType" : "common"
@@ -2874,7 +2874,7 @@
 		"name" : "I25",
 		"hull" : "Submarine",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/I25.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/I25.png",
 		"rarity" : "Elite",
 		"link" : "i25",
 		"shipType" : "common"
@@ -2883,7 +2883,7 @@
 		"name" : "I56",
 		"hull" : "Submarine",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/I56.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/I56.png",
 		"rarity" : "Elite",
 		"link" : "i56",
 		"shipType" : "common"
@@ -2892,7 +2892,7 @@
 		"name" : "I168",
 		"hull" : "Submarine",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/I168.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/I168.png",
 		"rarity" : "Super Rare",
 		"link" : "i168",
 		"shipType" : "common"
@@ -2901,7 +2901,7 @@
 		"name" : "U-101",
 		"hull" : "Submarine",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/squareicon/U101.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U101.png",
 		"rarity" : "Super Rare",
 		"link" : "u101",
 		"shipType" : "common"
@@ -2910,14 +2910,14 @@
 		"name" : "U-522",
 		"hull" : "Submarine",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/squareicon/U522.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U522.png",
 		"rarity" : "Elite",
 		"link" : "u522",
 		"shipType" : "common"
 	},
     "401": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/alabama.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/alabama.png",
         "link": "alabama",
         "name": "Alabama",
         "navy": "Eagle Union",
@@ -2926,7 +2926,7 @@
     },
     "402": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/squareicon/jiqi.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiqi.png",
         "link": "cavalla",
         "name": "Cavalla",
         "navy": "Eagle Union",
@@ -2935,7 +2935,7 @@
     },
     "403": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/badan.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/badan.png",
         "link": "bataan",
         "name": "Bataan",
         "navy": "Eagle Union",
@@ -2944,7 +2944,7 @@
     },
     "404": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/shenghuan.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shenghuan.png",
         "link": "san_juan",
         "name": "San Juan",
         "navy": "Eagle Union",
@@ -2953,7 +2953,7 @@
     },
     "405": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/bominghan.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bominghan.png",
         "link": "birmingham",
         "name": "Birmingham",
         "navy": "Eagle Union",
@@ -2962,7 +2962,7 @@
     },
     "406": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/aierwen.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aierwen.png",
         "link": "aylwin",
         "name": "Aylwin",
         "navy": "Eagle Union",
@@ -2973,7 +2973,7 @@
 		"name" : "Bache",
 		"hull" : "Destroyer",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/beiqi.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/beiqi.png",
 		"rarity" : "Rare",
 		"link" : "bache",
 		"shipType" : "common"
@@ -2982,7 +2982,7 @@
 		"name" : "Black Prince",
 		"hull" : "Light Cruiser",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/heitaizi.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/heitaizi.png",
 		"rarity" : "Elite",
 		"link" : "black_prince",
 		"shipType" : "common"
@@ -2991,14 +2991,14 @@
 		"name" : "Stanly",
 		"hull" : "Destroyer",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/sitanli.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/sitanli.png",
 		"rarity" : "Rare",
 		"link" : "stanly",
 		"shipType" : "common"
 	},
     "410": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/lituoliao.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lituoliao.png",
         "link": "littorio",
         "name": "Littorio",
         "navy": "Sardegna Empire",
@@ -3007,7 +3007,7 @@
     },
     "411": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/jiafuerbojue.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiafuerbojue.png",
         "link": "conte_di_cavour",
         "name": "Conte di Cavour",
         "navy": "Sardegna Empire",
@@ -3016,7 +3016,7 @@
     },
     "412": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/kaisa.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kaisa.png",
         "link": "giulio_cesare",
         "name": "Giulio Cesare",
         "navy": "Sardegna Empire",
@@ -3025,7 +3025,7 @@
     },
     "413": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/zhala.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhala.png",
         "link": "zara",
         "name": "Zara",
         "navy": "Sardegna Empire",
@@ -3034,7 +3034,7 @@
     },
     "414": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/teluntuo.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/teluntuo.png",
         "link": "trento",
         "name": "Trento",
         "navy": "Sardegna Empire",
@@ -3043,7 +3043,7 @@
     },
     "415": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/longqibing.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/longqibing.png",
         "link": "carabiniere",
         "name": "Carabiniere",
         "navy": "Sardegna Empire",
@@ -3054,7 +3054,7 @@
 		"name" : "U-110",
 		"hull" : "Submarine",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/squareicon/U110.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U110.png",
 		"rarity" : "Elite",
 		"link" : "u110",
 		"shipType" : "common"
@@ -3063,14 +3063,14 @@
 		"name" : "Smalley",
 		"hull" : "Destroyer",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/simoli.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/simoli.png",
 		"rarity" : "Rare",
 		"link" : "smalley",
 		"shipType" : "common"
 	},
 	"418": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/jiasikenie_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiasikenie_idol.png",
         "link": "gascogne_idol",
         "name": "Gascogne",
         "navy": "Vichya Dominion",
@@ -3079,7 +3079,7 @@
     },
     "419": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/chicheng_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chicheng_idol.png",
         "link": "akagi_idol",
         "name": "Akagi",
         "navy": "Sakura Empire",
@@ -3088,7 +3088,7 @@
     },
     "420": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/kelifulan_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kelifulan_idol.png",
         "link": "cleveland_idol",
         "name": "Cleveland",
         "navy": "Eagle Union",
@@ -3097,7 +3097,7 @@
     },
     "421": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/xiefeierde_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiefeierde_idol.png",
         "link": "sheffield_idol",
         "name": "Sheffield",
         "navy": "Royal Navy",
@@ -3106,7 +3106,7 @@
     },
     "422": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/xipeier_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xipeier_idol.png",
         "link": "admiral_hipper_idol",
         "name": "Admiral Hipper",
         "navy": "Ironblood",
@@ -3117,7 +3117,7 @@
 		"name" : "Glasgow",
 		"hull" : "Light Cruiser",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/gelasige.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/gelasige.png",
 		"rarity" : "Rare",
 		"link" : "glasgow",
 		"shipType" : "common"
@@ -3126,7 +3126,7 @@
 		"name" : "Kasumi",
 		"hull" : "Destroyer",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/xia.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/xia.png",
 		"rarity" : "Elite",
 		"link" : "kasumi",
 		"shipType" : "common"
@@ -3135,7 +3135,7 @@
 		"name" : "Suruga",
 		"hull" : "Battleship",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/junhe.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/junhe.png",
 		"rarity" : "Super Rare",
 		"link" : "suruga",
 		"shipType" : "common"
@@ -3144,7 +3144,7 @@
 		"name" : "Ryuuhou",
 		"hull" : "Light Aircraft Carrier",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/longfeng.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/longfeng.png",
 		"rarity" : "Super Rare",
 		"link" : "ryuuhou",
 		"shipType" : "common"
@@ -3153,7 +3153,7 @@
 		"name" : "Halsey Powell",
 		"hull" : "Destroyer",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/haerxibaoweier.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/haerxibaoweier.png",
 		"rarity" : "Rare",
 		"link" : "halsey_powell",
 		"shipType" : "common"
@@ -3162,7 +3162,7 @@
 		"name" : "Biloxi",
 		"hull" : "Light Cruiser",
 		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/squareicon/biluokexi.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/biluokexi.png",
 		"rarity" : "Elite",
 		"link" : "biloxi",
 		"shipType" : "common"
@@ -3171,14 +3171,14 @@
 		"name" : "Uranami",
 		"hull" : "Destroyer",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/pubo.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/pubo.png",
 		"rarity" : "Elite",
 		"link" : "uranami",
 		"shipType" : "common"
 	},
     "431": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/weiyan.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/weiyan.png",
         "link": "grozny",
         "name": "Grozny",
         "navy": "Northern Union",
@@ -3187,7 +3187,7 @@
     },
     "432": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/mingsike.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mingsike.png",
         "link": "minsk",
         "name": "Minsk",
         "navy": "Northern Union",
@@ -3196,7 +3196,7 @@
     },
     "433": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/tashigan.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tashigan.png",
         "link": "tashkent",
         "name": "Tashkent",
         "navy": "Northern Union",
@@ -3205,7 +3205,7 @@
     },
     "434": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/shuixingjinian.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shuixingjinian.png",
         "link": "pamiat_merkuria",
         "name": "Pamiat' Merkuria",
         "navy": "Northern Union",
@@ -3214,7 +3214,7 @@
     },
     "435": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/jiluofu.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiluofu.png",
         "link": "kirov",
         "name": "Kirov",
         "navy": "Northern Parliament",
@@ -3223,7 +3223,7 @@
     },
     "436": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/qiabayefu.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qiabayefu.png",
         "link": "chapayev",
         "name": "Chapayev",
         "navy": "Northern Union",
@@ -3232,16 +3232,16 @@
     },
     "437": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/gangute.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gangute.png",
         "link": "gangut",
         "name": "Gangut",
         "navy": "Northern Union",
         "rarity": "Elite",
         "shipType": "common"
     },
-    "440": {                                                                                                                         
+    "440": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/suweiaibeilaluosi.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/suweiaibeilaluosi.png",
         "link": "sovetskaya_belorussiya",
         "name": "Sovetskaya Belorussiya",
         "navy": "Northern Parliament",
@@ -3250,7 +3250,7 @@
     },
     "441": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/suweiailuoxiya.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/suweiailuoxiya.png",
         "link": "sovetskaya_rossiya",
         "name": "Sovetskaya Rossiya",
         "navy": "Northern Union",
@@ -3259,7 +3259,7 @@
     },
     "442": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/wuwei.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wuwei.png",
         "link": "intrepid",
         "name": "Intrepid",
         "navy": "Eagle Union",
@@ -3268,7 +3268,7 @@
     },
     "443": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/bulaimodun.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bulaimodun.png",
         "link": "bremerton",
         "name": "Bremerton",
         "navy": "Eagle Union",
@@ -3277,7 +3277,7 @@
     },
     "444": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/kubo.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kubo.png",
         "link": "cooper",
         "name": "Cooper",
         "navy": "Eagle Union",
@@ -3286,7 +3286,7 @@
     },
     "445": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/linuo.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/linuo.png",
         "link": "reno",
         "name": "Reno",
         "navy": "Eagle Union",
@@ -3295,7 +3295,7 @@
     },
     "446": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/squareicon/lansaiyu.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lansaiyu.png",
         "link": "bluegill",
         "name": "Bluegill",
         "navy": "Eagle Union",
@@ -3304,7 +3304,7 @@
     },
     "447": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/kasabulanka.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kasabulanka.png",
         "link": "casablanca",
         "name": "Casablanca",
         "navy": "Eagle Union",
@@ -3313,7 +3313,7 @@
     },
     "448": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/mabuerheide.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mabuerheide.png",
         "link": "marblehead",
         "name": "Marblehead",
         "navy": "Eagle Union",
@@ -3324,7 +3324,7 @@
 		"name" : "Hanazuki",
 		"hull" : "Destroyer",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/huayue.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/huayue.png",
 		"rarity" : "Elite",
 		"link" : "hanazuki",
 		"shipType" : "common"
@@ -3333,7 +3333,7 @@
 		"name" : "Naganami",
 		"hull" : "Destroyer",
 		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/squareicon/changbo.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/changbo.png",
 		"rarity" : "Elite",
 		"link" : "naganami",
 		"shipType" : "common"
@@ -3342,7 +3342,7 @@
 		"name" : "Renown",
 		"hull" : "Battlecruiser",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/shengwang_younv.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/shengwang_younv.png",
 		"rarity" : "Elite",
 		"link" : "little_renown",
 		"shipType" : "common"
@@ -3351,14 +3351,14 @@
 		"name" : "Tartu",
 		"hull" : "Destroyer",
 		"navy" : "Vichya Dominion",
-		"icon" : "https://algwiki.moe/assets/squareicon/taertu.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/taertu.png",
 		"rarity" : "Elite",
 		"link" : "tartu",
 		"shipType" : "common"
 	},
     "453": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/lisailiu.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lisailiu.png",
         "link": "richelieu",
         "name": "Richelieu",
         "navy": "Iris Libre",
@@ -3367,7 +3367,7 @@
     },
     "454": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/shengnvzhende.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shengnvzhende.png",
         "link": "jeanne_d_arc",
         "name": "Jeanne d'Arc",
         "navy": "Iris Libre",
@@ -3376,7 +3376,7 @@
     },
     "455": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/aerjiliya.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aerjiliya.png",
         "link": "algerie",
         "name": "Algérie",
         "navy": "Vichya Dominion",
@@ -3385,7 +3385,7 @@
     },
     "456": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/jialisuoniye.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jialisuoniye.png",
         "link": "la_galissonniere",
         "name": "La Galissonnière",
         "navy": "Vichya Dominion",
@@ -3394,7 +3394,7 @@
     },
     "457": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/wokelan.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wokelan.png",
         "link": "vauquelin",
         "name": "Vauquelin",
         "navy": "Vichya Dominion",
@@ -3403,7 +3403,7 @@
     },
     "458": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/beiyaen.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beiyaen.png",
         "link": "bearn",
         "name": "Béarn",
         "navy": "Iris Libre",
@@ -3414,7 +3414,7 @@
 		"name" : "Illustrious",
 		"hull" : "Aircraft Carrier",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/guanghui_younv.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/guanghui_younv.png",
 		"rarity" : "Elite",
 		"link" : "little_illustrious",
 		"shipType" : "common"
@@ -3423,14 +3423,14 @@
 		"name" : "Eskimo",
 		"hull" : "Destroyer",
 		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/squareicon/aisijimo.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/aisijimo.png",
 		"rarity" : "Elite",
 		"link" : "eskimo",
 		"shipType" : "common"
 	},
     "461": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/hao.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hao.png",
         "link": "howe",
         "name": "Howe",
         "navy": "Royal Navy",
@@ -3439,7 +3439,7 @@
     },
     "462": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/yingxianzuo.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yingxianzuo.png",
         "link": "perseus",
         "name": "Perseus",
         "navy": "Royal Navy",
@@ -3448,7 +3448,7 @@
     },
     "463": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/hemin.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hemin.png",
         "link": "hermione",
         "name": "Hermione",
         "navy": "Royal Navy",
@@ -3457,7 +3457,7 @@
     },
     "464": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/yingyong.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yingyong.png",
         "link": "valiant",
         "name": "Valiant",
         "navy": "Royal Navy",
@@ -3466,7 +3466,7 @@
     },
     "465": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/yikaluosi.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yikaluosi.png",
         "link": "icarus",
         "name": "Icarus",
         "navy": "Royal Navy",
@@ -3475,25 +3475,25 @@
     },
     "466": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/z26.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z26.png",
         "link": "z26",
         "name": "Z26",
-        "navy": "Ironblood", 
+        "navy": "Ironblood",
         "rarity": "Super Rare",
         "shipType": "common"
     },
     "467": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/squareicon/u96.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/u96.png",
         "link": "u96",
         "name": "U-96",
-        "navy": "Ironblood", 
+        "navy": "Ironblood",
         "rarity": "Super Rare",
         "shipType": "common"
     },
     "468": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/liangyue.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/liangyue.png",
         "link": "suzutsuki",
         "name": "Suzutsuki",
         "navy": "Sakura Empire",
@@ -3502,7 +3502,7 @@
     },
     "469": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/xiongye.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiongye.png",
         "link": "kumano",
         "name": "Kumano",
         "navy": "Sakura Empire",
@@ -3511,7 +3511,7 @@
     },
     "470": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/qiansui.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qiansui.png",
         "link": "chitose",
         "name": "Chitose",
         "navy": "Sakura Empire",
@@ -3520,7 +3520,7 @@
     },
     "471": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/qiandaitian.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qiandaitian.png",
         "link": "chiyoda",
         "name": "Chiyoda",
         "navy": "Sakura Empire",
@@ -3529,7 +3529,7 @@
     },
     "472": {
         "hull": "Munition Ship",
-        "icon": "https://algwiki.moe/assets/squareicon/jianye.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jianye.png",
         "link": "kashino",
         "name": "Kashino",
         "navy": "Sakura Empire",
@@ -3538,7 +3538,7 @@
     },
     "473": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/pulinsidun.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/pulinsidun.png",
         "link": "princeton",
         "name": "Princeton",
         "navy": "Eagle Union",
@@ -3547,7 +3547,7 @@
     },
     "474": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/dafeng_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dafeng_idol.png",
         "link": "taihou_idol",
         "name": "Taihou µ",
         "navy": "Sakura Empire",
@@ -3556,7 +3556,7 @@
     },
     "475": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/tashigan_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tashigan_idol.png",
         "link": "tashkent_idol",
         "name": "Tashkent µ",
         "navy": "Northern Parliament",
@@ -3565,7 +3565,7 @@
     },
     "476": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/daiduo_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/daiduo_idol.png",
         "link": "dido_idol",
         "name": "Dido µ",
         "navy": "Royal Navy",
@@ -3574,7 +3574,7 @@
     },
     "477": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/squareicon/daqinghuayu_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/daqinghuayu_idol.png",
         "link": "albacore_idol",
         "name": "Albacore µ",
         "navy": "Eagle Union",
@@ -3583,16 +3583,16 @@
     },
     "478": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/baerdimo_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/baerdimo_idol.png",
         "link": "baltimore_idol",
         "name": "Baltimore µ",
-        "navy": "Eagly Union",
+        "navy": "Eagle Union",
         "rarity": "Elite",
         "shipType": "common"
     },
     "479": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/luoen_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luoen_idol.png",
         "link": "roon_idol",
         "name": "Roon µ",
         "navy": "Ironblood",
@@ -3601,7 +3601,7 @@
     },
     "480": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/guanghui_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/guanghui_idol.png",
         "link": "illustrious_idol",
         "name": "Illustrious µ",
         "navy": "Royal Navy",
@@ -3610,7 +3610,7 @@
     },
     "481": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/edu_idol.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/edu_idol.png",
         "link": "le_malin_idol",
         "name": "Le Malin µ",
         "navy": "Vichya Dominion",
@@ -3619,7 +3619,7 @@
     },
     "482": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/shitelasai.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shitelasai.png",
         "link": "peter_strasser",
         "name": "Peter Strasser",
         "navy": "Ironblood",
@@ -3628,7 +3628,7 @@
     },
     "483": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/haiyinlixi.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haiyinlixi.png",
         "link": "prinz_heinrich",
         "name": "Prinz Heinrich",
         "navy": "Ironblood",
@@ -3637,7 +3637,7 @@
     },
     "484": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/squareicon/u37.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/u37.png",
         "link": "u37",
         "name": "U-37",
         "navy": "Ironblood",
@@ -3646,7 +3646,7 @@
     },
     "485": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/weixi.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/weixi.png",
         "link": "weser",
         "name": "Weser",
         "navy": "Ironblood",
@@ -3655,7 +3655,7 @@
     },
     "486": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/niulunbao.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/niulunbao.png",
         "link": "nurnberg",
         "name": "Nürnberg",
         "navy": "Ironblood",
@@ -3664,7 +3664,7 @@
     },
     "487": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/z24.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z24.png",
 		"link": "z24",
 		"name": "Z24",
 		"navy": "Ironblood",
@@ -3673,7 +3673,7 @@
 	},
     "488": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/z28.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z28.png",
         "link": "z28",
         "name": "Z28",
         "navy": "Ironblood",
@@ -3682,7 +3682,7 @@
     },
     "489": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/bola.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/bola.png",
 		"link": "pola",
 		"name": "Pola",
 		"navy": "Sardegna Empire",
@@ -3691,16 +3691,16 @@
 	},
     "490": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/wenqinzuojiaobeidi.png",
-        "link": "vincenzo_gioberti", 
-        "name": "Vincenzo Gioberti", 
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wenqinzuojiaobeidi.png",
+        "link": "vincenzo_gioberti",
+        "name": "Vincenzo Gioberti",
         "navy": "Sardegna Empire",
         "rarity": "Elite",
         "shipType": "common"
     },
     "491": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/shensu.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shensu.png",
         "link": "stremitelny",
         "name": "Stremitelny",
         "navy": "Northern Parliament",
@@ -3709,7 +3709,7 @@
     },
     "492": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/squareicon/u410.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/u410.png",
         "link": "u410",
         "name": "U-410",
         "navy": "Ironblood",
@@ -3718,7 +3718,7 @@
     },
     "493": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/yingrui.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yingrui.png",
         "link": "ying_swei",
         "name": "Ying Swei",
         "navy": "Dragon Empire",
@@ -3727,7 +3727,7 @@
     },
     "494": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/zhaohe.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhaohe.png",
         "link": "chao_ho",
         "name": "Chao Ho",
         "navy": "Dragon Empire",
@@ -3736,7 +3736,7 @@
     },
     "495": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/peineiluopo.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/peineiluopo.png",
         "link": "penelope",
         "name": "Penelope",
         "navy": "Royal Navy",
@@ -3745,7 +3745,7 @@
     },
     "496": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/talin.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/talin.png",
         "link": "tallinn",
         "name": "Tallinn",
         "navy": "Northern Parliament",
@@ -3754,7 +3754,7 @@
     },
     "497": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/leiming.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/leiming.png",
         "link": "gremyashchy",
         "name": "Gremyashchy",
         "navy": "Northern Parliament",
@@ -3763,7 +3763,7 @@
     },
     "498": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/moermansike.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/moermansike.png",
         "link": "murmansk",
         "name": "Murmansk",
         "navy": "Northern Parliament",
@@ -3772,7 +3772,7 @@
     },
     "499": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/hongliang.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hongliang.png",
         "link": "gromky",
         "name": "Gromky",
         "navy": "Northern Parliament",
@@ -3781,7 +3781,7 @@
     },
 	"P001": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/haiwangxing.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
 		"link": "neptune",
 		"name": "Neptune",
 		"navy": "Royal Navy",
@@ -3790,7 +3790,7 @@
 	},
 	"P002": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/junzhu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/junzhu.png",
 		"link": "monarch",
 		"name": "Monarch",
 		"navy": "Royal Navy",
@@ -3799,7 +3799,7 @@
 	},
 	"P003": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/yichui.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/yichui.png",
 		"link": "ibuki",
 		"name": "Ibuki",
 		"navy": "Sakura Empire",
@@ -3808,7 +3808,7 @@
 	},
 	"P004": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/chuyun.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuyun.png",
 		"link": "izumo",
 		"name": "Izumo",
 		"navy": "Sakura Empire",
@@ -3817,7 +3817,7 @@
 	},
 	"P005": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/luoen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/luoen.png",
 		"link": "roon",
 		"name": "Roon",
 		"navy": "Ironblood",
@@ -3826,7 +3826,7 @@
 	},
 	"P006": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/luyijiushi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/luyijiushi.png",
 		"link": "saint_louis",
 		"name": "Saint Louis",
 		"navy": "Iris Libre",
@@ -3835,7 +3835,7 @@
 	},
 	"P007": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/xiyatu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiyatu.png",
 		"link": "seattle",
 		"name": "Seattle",
 		"navy": "Eagle Union",
@@ -3844,7 +3844,7 @@
 	},
 	"P008": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/zuozhiya.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zuozhiya.png",
 		"link": "georgia",
 		"name": "Georgia",
 		"navy": "Eagle Union",
@@ -3853,7 +3853,7 @@
 	},
 	"P009": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/beifeng.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/beifeng.png",
 		"link": "kitakaze",
 		"name": "Kitakaze",
 		"navy": "Sakura Empire",
@@ -3862,7 +3862,7 @@
 	},
 	"P010": {
 		"hull": "Super Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/wuqi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/wuqi.png",
 		"link": "azuma",
 		"name": "Azuma",
 		"navy": "Sakura Empire",
@@ -3871,7 +3871,7 @@
 	},
 	"P011": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/feiteliedadi.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/feiteliedadi.png",
 		"link": "friedrich_der_grosse",
 		"name": "Friedrich der Große",
 		"navy": "Ironblood",
@@ -3879,8 +3879,8 @@
 		"shipType": "research"
 	},
 	"P012": {
-		"hull": "Gascogne",
-		"icon": "https://algwiki.moe/assets/squareicon/feiteliedadi.png",
+		"hull": "Battleship",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/feiteliedadi.png",
 		"link": "gascogne",
 		"name": "Gascogne",
 		"navy": "Vichya Dominion",
@@ -3889,7 +3889,7 @@
 	},
     "P013": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/chaijun.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chaijun.png",
         "link": "cheshire",
         "name": "Cheshire",
         "navy": "Royal Navy",
@@ -3898,7 +3898,7 @@
     },
     "P014": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/deleike.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/deleike.png",
         "link": "drake",
         "name": "Drake",
         "navy": "Royal Navy",
@@ -3907,7 +3907,7 @@
     },
     "P015": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/meiyinci.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/meiyinci.png",
         "link": "mainz",
         "name": "Mainz",
         "navy": "Ironblood",
@@ -3916,7 +3916,7 @@
     },
     "P016": {
         "hull": "Battlecruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/aoding.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aoding.png",
         "link": "odin",
         "name": "Odin",
         "navy": "Ironblood",
@@ -3925,7 +3925,7 @@
     },
     "P017": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/xiangbin.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiangbin.png",
         "link": "champagne",
         "name": "Champagne",
         "navy": "Iris Libre",
@@ -3934,7 +3934,7 @@
     },
     "M001": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/feilong_alter.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feilong_alter.png",
         "link": "hiryuu_meta",
         "name": "Hiryuu META",
         "navy": "META",
@@ -3943,7 +3943,7 @@
     },
 	"C001": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN101.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
 		"link": "hdn_neptune",
 		"name": "Neptune",
 		"navy": "Neptunia",
@@ -3952,7 +3952,7 @@
 	},
 	"C002": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN201.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN201.png",
 		"link": "hdn_noire",
 		"name": "Noire",
 		"navy": "Neptunia",
@@ -3961,7 +3961,7 @@
 	},
 	"C003": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN301.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN301.png",
 		"link": "hdn_blanc",
 		"name": "Blanc",
 		"navy": "Neptunia",
@@ -3970,7 +3970,7 @@
 	},
 	"C004": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN401.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN401.png",
 		"link": "hdn_vert",
 		"name": "Vert",
 		"navy": "Neptunia",
@@ -3979,7 +3979,7 @@
 	},
 	"C005": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN102_1.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN102_1.png",
 		"link": "hdn_purple_heart",
 		"name": "Purple Heart",
 		"navy": "Neptunia",
@@ -3988,7 +3988,7 @@
 	},
 	"C006": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN202_1.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN202_1.png",
 		"link": "hdn_black_heart",
 		"name": "Black Heart",
 		"navy": "Neptunia",
@@ -3997,7 +3997,7 @@
 	},
 	"C007": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN302_1.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN302_1.png",
 		"link": "hdn_white_heart",
 		"name": "White Heart",
 		"navy": "Neptunia",
@@ -4006,7 +4006,7 @@
 	},
 	"C008": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/HDN402_1.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN402_1.png",
 		"link": "hdn_green_heart",
 		"name": "Green Heart",
 		"navy": "Neptunia",
@@ -4015,7 +4015,7 @@
 	},
 	"C021": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/22.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/22.png",
 		"link": "bili_22",
 		"name": "22",
 		"navy": "Bilibili",
@@ -4024,7 +4024,7 @@
 	},
 	"C022": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/33.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/33.png",
 		"link": "bili_33",
 		"name": "33",
 		"navy": "Bilibili",
@@ -4033,7 +4033,7 @@
 	},
 	"C031": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/jiuyuan.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiuyuan.png",
 		"link": "uta_kuon",
 		"name": "Kuon",
 		"navy": "Utawarerumono",
@@ -4042,7 +4042,7 @@
 	},
 	"C032": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/maoyin.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/maoyin.png",
 		"link": "uta_nekone",
 		"name": "Nekone",
 		"navy": "Utawarerumono",
@@ -4051,7 +4051,7 @@
 	},
 	"C033": {
 		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/lulutiye.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/lulutiye.png",
 		"link": "uta_rurutie",
 		"name": "Rurutie",
 		"navy": "Utawarerumono",
@@ -4060,7 +4060,7 @@
 	},
 	"C034": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/wululu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/wululu.png",
 		"link": "uta_uruuru",
 		"name": "Uruuru",
 		"navy": "Utawarerumono",
@@ -4069,7 +4069,7 @@
 	},
 	"C035": {
 		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/salana.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/salana.png",
 		"link": "uta_saraana",
 		"name": "Saraana",
 		"navy": "Utawarerumono",
@@ -4078,7 +4078,7 @@
 	},
 	"C036": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/fumilulu.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fumilulu.png",
 		"link": "uta_fumiruiru",
 		"name": "Fumiruiru",
 		"navy": "Utawarerumono",
@@ -4087,7 +4087,7 @@
 	},
 	"C041": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/squareicon/aijiangDD.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangDD.png",
 		"link": "kizuna_ai",
 		"name": "KizunaAI",
 		"navy": "KizunaAI",
@@ -4096,7 +4096,7 @@
 	},
 	"C042": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/aijiangCL.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangCL.png",
 		"link": "kizuna_ai_ca",
 		"name": "KizunaAI·Elegant",
 		"navy": "KizunaAI",
@@ -4105,7 +4105,7 @@
 	},
 	"C043": {
 		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/squareicon/aijiangCV.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangCV.png",
 		"link": "kizuna_ai_cv",
 		"name": "KizunaAI·Anniversary",
 		"navy": "KizunaAI",
@@ -4114,7 +4114,7 @@
 	},
 	"C044": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/aijiangBB.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangBB.png",
 		"link": "kizuna_ai_bb",
 		"name": "KizunaAI·SuperGamer",
 		"navy": "KizunaAI",
@@ -4123,7 +4123,7 @@
 	},
 	"C051": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/vtuber_fubuki.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_fubuki.png",
         "link": "shirakami_fubuki",
         "name": "Shirakami Fubuki ",
         "navy": "Hololive",
@@ -4132,7 +4132,7 @@
     },
     "C052": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/vtuber_sora.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_sora.png",
         "link": "tokino_sora",
         "name": "Tokino Sora ",
         "navy": "Hololive",
@@ -4141,7 +4141,7 @@
     },
     "C053": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/squareicon/vtuber_aqua.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_aqua.png",
         "link": "minato_aqua",
         "name": "Minato Aqua ",
         "navy": "Hololive",
@@ -4150,7 +4150,7 @@
     },
     "C054": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/vtuber_matsuri.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_matsuri.png",
         "link": "natsuiro_matsuri",
         "name": "Natsuiro Matsuri ",
         "navy": "Hololive",
@@ -4159,7 +4159,7 @@
     },
     "C055": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/vtuber_ayame.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_ayame.png",
         "link": "nakiri_ayame",
         "name": "Nakiri Ayame ",
         "navy": "Hololive",
@@ -4168,7 +4168,7 @@
     },
     "C056": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/vtuber_shion.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_shion.png",
         "link": "murasaki_shion",
         "name": "Murasaki Shion ",
         "navy": "Hololive",
@@ -4177,7 +4177,7 @@
     },
     "C057": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/vtuber_mio.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_mio.png",
         "link": "ookami_mio",
         "name": "Ookami Mio",
         "navy": "Hololive",
@@ -4186,7 +4186,7 @@
     },
     "C061": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/squareicon/maliluosi_doa.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/maliluosi_doa.png",
         "link": "marie_rose_doa",
         "name": "Marie Rose",
         "navy": "Venus Vacation",
@@ -4195,7 +4195,7 @@
     },
     "C062": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/suixiang_doa.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/suixiang_doa.png",
         "link": "honoka_doa",
         "name": "Honoka",
         "navy": "Venus Vacation",
@@ -4204,7 +4204,7 @@
     },
     "C063": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/xia_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xia_DOA.png",
         "link": "kasumi_doa",
         "name": "Kasumi",
         "navy": "Venus Vacation",
@@ -4213,7 +4213,7 @@
     },
     "C064": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/haixiao_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haixiao_DOA.png",
         "link": "misaki_doa",
         "name": "Misaki",
         "navy": "Venus Vacation",
@@ -4222,7 +4222,7 @@
     },
     "C065": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/squareicon/zhixiao_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhixiao_DOA.png",
         "link": "nagisa_doa",
         "name": "Nagisa",
         "navy": "Venus Vacation",
@@ -4231,7 +4231,7 @@
     },
     "C066": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/squareicon/nvtiangou_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nvtiangou_DOA.png",
         "link": "nyotengu_doa",
         "name": "Nyotengu",
         "navy": "Venus Vacation",
@@ -4240,7 +4240,7 @@
     },
     "C067": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/squareicon/monika_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/monika_DOA.png",
         "link": "monica_doa",
         "name": "Monica",
         "navy": "Venus Vacation",
@@ -4249,7 +4249,7 @@
     },
 	"X001": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/zhumo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhumo.png",
 		"link": "chikuma",
 		"name": "Chikuma",
 		"navy": "Sakura Empire",
@@ -4258,7 +4258,7 @@
 	},
 	"X002": {
 		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/squareicon/ligen.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/ligen.png",
 		"link": "tone",
 		"name": "Tone",
 		"navy": "Sakura Empire",
@@ -4267,7 +4267,7 @@
 	},
 	"X003": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/squareicon/i8.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/i8.png",
 		"link": "i8",
 		"name": "I8",
 		"navy": "Sakura Empire",
@@ -4276,7 +4276,7 @@
 	},
 	"X005": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/weineituo.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/weineituo.png",
 		"link": "vittorio_veneto",
 		"name": "Vittorio Veneto",
 		"navy": "Sardegna Empire",
@@ -4285,7 +4285,7 @@
 	},
 	"X007": {
 		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/squareicon/suweiai.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/suweiai.png",
 		"link": "sovetsky_soyuz",
 		"name": "Sovetsky Soyuz",
 		"navy": "Northern Parliament",
