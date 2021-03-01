@@ -1,37 +1,37 @@
 {
 	"name_reference": "kirov",
 	"cn_reference": "jiluofu",
-	"nameJP": "",
-	"nameCN": "",
+	"nameJP": "キーロフ",
+	"nameCN": "基洛夫",
 	"ID": "435",
 	"name": "Kirov",
 	"internal_id": "702041",
 	"rarity": "Super Rare",
 	"initialStar": "★★★☆☆☆",
-	"hull": "Heavy Cruiser",
+	"hull": "Light Cruiser",
 	"navy": "Northern Parliament",
 	"prefix": "SN",
-	"buildTime": "",
+	"buildTime": "01:32:00",
 	"class": "Kirov-class",
 	"voiceActress": "Uesaka Sumire",
 	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
+		"firepower": "B",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "B",
+		"hp": "B"
 	},
 	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
+		"gold": "6",
+		"oil": "3",
+		"medal": "10"
 	},
 	"releaseDate": {
-		"JP": "",
-		"CN": "",
+		"JP": "2021/02/25",
+		"CN": "2021/02/25",
 		"KR": "",
-		"EN": ""
+		"EN": "2021/02/25"
 	},
 	"artist": {
 		"name": "",
@@ -41,20 +41,34 @@
 		"other": ""
 	},
 	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
+		"firepower": "14",
+		"torpedo": "18",
+		"aviation": "0",
+		"reload": "13"
 	},
-	"acquisitionMethod": "",
+	"acquisitionMethod": "Event: Khorovod of Dawn's Rime",
 	"skill": {
 		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
+			"icon": "14170",
+			"requirement": "Default Unlocked",
+			"name": "Kirov, Reporting!",
+			"type": "Offense",
+			"description": "Every 15s in battle, 50% (100%) chance to fire a special barrage; The first time this barrage triggers, special ignites enemies hit, causing them to take 15% more damage for 8s."
+		},
+        "2": {
+            "icon": "14180", 
+            "requirement": "Default Unlocked", 
+            "name": "Revolutionary Strike", 
+            "type": "Support", 
+            "description": "Increases the Effective and Shell Range of this ship's main gun to 75, and increases the damage this ship deals to Light-Armored enemies by 5% (20%). During battle, if there are other Northern Parliament ships in the same fleet as this ship, increases the shelling DMG that all enemy CL take from Northern Parliament ships by 4.5% (12%)"
+        },
+        "3": {
+            "icon": "29680", 
+            "requirement": "Limit Break I (III)", 
+            "name": "EX Barrage - Kirov I (II)", 
+            "type": "Offense", 
+            "description": "Activates EX Barrage - Kirov I (II) every 12 (8) times the Main Guns are fired."
+        }
 	},
 	"skin": {
 		"1": {
@@ -140,7 +154,7 @@
 		"1": {
 			"icon": "",
 			"rarity": "",
-			"name": ""
+			"name": "Triple 180mm/57 B-1-P Pattern 1932 Naval Gun"
 		},
 		"2": {
 			"icon": "",
@@ -155,55 +169,55 @@
 	},
 	"stats": {
 		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "3671",
+			"firepower": "158",
+			"torpedo": "260",
+			"antiAir": "304",
+			"aviation": "0",
+			"reload": "163",
+			"hit": "140",
+			"evasion": "93",
+			"speed": "36",
+			"luck": "52",
+			"asw": "137",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Light"
 		},
 		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "4075",
+			"firepower": "182",
+			"torpedo": "296",
+			"antiAir": "343",
+			"aviation": "0",
+			"reload": "187",
+			"hit": "158",
+			"evasion": "110",
+			"speed": "36",
+			"luck": "52",
+			"asw": "154",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "11",
+			"armor": "Light"
 		},
 		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
+			"hp": "710",
+			"firepower": "34",
+			"torpedo": "55",
+			"antiAir": "65",
+			"aviation": "0",
+			"reload": "69",
+			"hit": "54",
+			"evasion": "36",
+			"speed": "36",
+			"luck": "52",
+			"asw": "37",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
 		},
 		"100retrofit": {
 			"hp": "",
@@ -241,28 +255,28 @@
 		}
 	},
 	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
+		"tier1": "Unlock All Out Assault Ⅰ / Main Gun Efficiency +5%",
+		"tier2": "Torpedo base +1 / Torpedo preload +1 / Main gun efficiency +10%",
+		"tier3": "Upgrade All Out Assault Ⅰ→Ⅱ / Main gun efficiency +15%"
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Light Cruiser",
+			"efficiency": "120%/125%/135%/150%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Torpedo",
+			"efficiency": "135%/135%/135%/135%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
 		},
 		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "Anti-Air Gun",
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
 		},
 		"4": {
 			"type": "Auxiliary",
@@ -294,9 +308,9 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
 		}
 	},
 	"drop": {
@@ -737,7 +751,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Comrade Commander, you've come at a good time. I've recently taken a liking to this blend of coffee. Want some as well? No need to be shy.",
                         "englishNote": ""
                     },
                     "2": {
@@ -761,7 +775,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Don't be nervous. Make yourself at home and relax.",
                         "englishNote": ""
                     },
                     "4": {
@@ -773,7 +787,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "We relax only so we can march even further. Do not get too comfortable now, Comrade Commander.",
                         "englishNote": ""
                     },
                     "5": {
@@ -785,7 +799,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Hmm, I should find a way to improve my special blend somehow...",
                         "englishNote": ""
                     },
                     "6": {
@@ -797,7 +811,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Drinking coffee in tandem with listening to music is the most effective way to combat drowsiness. Let us start with a song that kindles your fighting spirit!",
                         "englishNote": ""
                     },
                     "7": {
@@ -809,7 +823,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "he weather is splendid today. Perfect for some outdoor exercise. ...Change my outfit? All I need put on is a pair of shoes.",
                         "englishNote": ""
                     },
                     "8": {
@@ -821,7 +835,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "You want to talk about coffee? I know countless facts and trivia about it. Go on, ask me something.",
                         "englishNote": ""
                     },
                     "9": {
@@ -833,7 +847,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Use your energy for more productive things, Comrade Commander.",
                         "englishNote": ""
                     },
                     "10": {
@@ -845,7 +859,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Here, taste my signature blend of coffee. It has a dash of vodka to keep you on your toes.",
                         "englishNote": ""
                     },
                     "11": {
@@ -888,7 +902,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "What's on the itinerary today? If there's anything that requires me to uplift the spirits of our comrades, I'm all in!",
                         "englishNote": ""
                     },
                     "5": {
@@ -900,7 +914,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "..Having that said, it isn't inconceivable that war devolves into attrition. In such cases, we must be able to adapt to changes...",
                         "englishNote": ""
                     },
                     "6": {
@@ -912,7 +926,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Let me tell you this— never underestimate the eyes and ears of the Northern Parliament!",
                         "englishNote": ""
                     },
                     "9": {
@@ -924,7 +938,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "Hmm... I would like you to be a bit more mindful of the rules.",
                         "englishNote": ""
                     },
                     "10": {
@@ -936,7 +950,7 @@
                         "japanese": "",
                         "japaneseTL": "",
                         "japaneseNote": "",
-                        "english": "",
+                        "english": "One's individual leadership abilities are hardly as important as the will to stand side-by-side with one's comrades. In this regard, you have excelled without a doubt.",
                         "englishNote": ""
                     }       
                 }
@@ -944,17 +958,17 @@
 		}
 	},
 	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": ""
+		"pt_get": "20",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "42",
+		"pt_level": "32",
+		"add_level_attr": "Firepower",
+		"add_level_value": "2",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "6",
+		"ships": "kirov"
 	}
 }
 
