@@ -95,14 +95,14 @@
                 "3": {  
                     "id": "3"
                 },
+                "4": {  
+                    "id": "4"
+                },
                 "5": {  
                     "id": "5"
                 },
                 "6": {  
                     "id": "6"
-                },
-                "7": {  
-                    "id": "7"
                 }
 			}
 		}
@@ -292,9 +292,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "feilong_alter",
 				"id": "",
-				"label": "",
+				"label": "Hiryuu META",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
