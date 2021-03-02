@@ -26,6 +26,22 @@ import Data.Maybe
      -> H.Html
 (%%) a b = H.toHtml $ ashow $ a ! (pack b)
 
+rarity :: String
+     -> String
+rarity = ((++) "https://algwiki.moe/Images/Rarity/") . rarity'
+
+rarity' :: String
+      -> String
+rarity' "Ultra Rare" = "UR.png"
+rarity' "Decisive"   = "DR.png"
+rarity' "Priority"   = "PR.png"
+rarity' "Super Rare" = "SSR.png"
+rarity' "Elite"      = "SR.png"
+rarity' "Rare"       = "R.png"
+rarity' "Common"     = "C.png"
+rarity' "" = ""
+rarity' x = error x
+
 hull :: String
      -> String
 hull = ((++) "https://algwiki.moe/Images/Hull/") . hull'
@@ -583,7 +599,7 @@ makeIndex category f ships
               H.ol
                 $ mapM_ (\x -> H.li
                                $ H.a H.! A.href (H.stringValue $ x ++ ".html")
-                               $ do H.img H.! A.src (H.stringValue $ f x)
+                               $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 128px; max-height: 128px;"
                                     H.toHtml x) subcats
   where
     groupedShips :: [[[(String, Aeson.Object)]]]
@@ -667,9 +683,9 @@ main
        shiplist <- return
                    $ g shiplist'
 
-       makeIndex "rarity" id   shiplist'
-       makeIndex "hull"   hull shiplist'
-       makeIndex "navy"   navy shiplist'
+       makeIndex "rarity" rarity shiplist'
+       makeIndex "hull"   hull   shiplist'
+       makeIndex "navy"   navy   shiplist'
        makeMainIndex "index_id" "Index (By ID)" shiplist
        makeMainIndex "index_alphabetic" "Index (Alphabetic)"
          $ map (sortOn (\(_, json) -> json % "name")) $ shiplist
