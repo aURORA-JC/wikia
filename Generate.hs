@@ -5,7 +5,7 @@
 import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html5.Attributes as A
 import Text.Blaze.Html.Renderer.String
-import Data.HashMap.Strict hiding (lookup, map)
+import Data.HashMap.Strict hiding (lookup, map, filter)
 import qualified Data.HashMap.Strict as HM
 import qualified Data.Aeson as Aeson
 import System.IO.Error
@@ -140,12 +140,15 @@ writeskins :: [(Int, String, Aeson.Object)]
 writeskins [(i, i', x)] _ _ f = f i i' x
 writeskins skins id e f
   = H.div H.! A.style "text-align: left;"
-    $ do mapM_ (\(i, i', skin) -> do H.input H.! A.name (H.stringValue $ "skinSelectors-" ++ id) H.! A.autocomplete "off" H.! A.id (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i) H.! A.type_ "radio" H.!? (i == 0, A.checked "") H.!? (e, A.onchange $ H.stringValue $ "skinChange(" ++ show i ++ ",\"" ++ i' ++ "\")")
+    $ do skins' <- return $ case id of
+                              "lineView" -> skins
+                              _ -> map (\(i, (_, i', x)) -> (i, i', x)) $ zip [0..] $ filter (\(_, i, _) -> not $ isInfixOf "_ex1" i) skins
+         mapM_ (\(i, i', skin) -> do H.input H.! A.name (H.stringValue $ "skinSelectors-" ++ id) H.! A.autocomplete "off" H.! A.id (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i) H.! A.type_ "radio" H.!? (i == 0, A.checked "") H.!? (e, A.onchange $ H.stringValue $ "skinChange(" ++ show i ++ ",\"" ++ i' ++ "\")")
                                      H.label H.! A.for (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i)
-                                       $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/herohrzicon/" ++ skin % "id" ++ ".png") H.! H.customAttribute "loading" "lazy" H.! A.style "height: 35px; width: 158px;margin: 0px 0px 0px 10px;") skins
+                                       $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/herohrzicon/" ++ skin % "id" ++ ".png") H.! H.customAttribute "loading" "lazy" H.! A.style "height: 35px; width: 158px;margin: 0px 0px 0px 10px;") skins'
 
          mapM_ (\(i, i', skin) -> H.div H.! A.id (H.stringValue $ "skinContent-" ++ id ++ "-" ++ show i) H.! A.class_ "skinContent"
-                                  $ f i i' skin) skins
+                                  $ f i i' skin) skins'
 
 showship :: [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
@@ -411,15 +414,19 @@ showship encn skins json
        H.tr
          $ H.td H.! A.colspan "2"
          $ H.table
-         $ do linesSet <- return $ aobj $ (aobj $ json ! "lines") ! "skin"
+         $ do linesSet <- return
+                          $ map (\(Aeson.Object x) -> (x % "skin_id", x))
+                          $ elems
+                          $ aobj
+                          $ (aobj $ json ! "lines") ! "skin"
               H.tr
                 $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5"
                 $ "Dialogue"
               H.tr
                 $ H.td
                 $ writeskins skins "lineView" False
-                $ \i -> \_ -> \skin -> case HM.lookup (pack $ show $ i + 1) linesSet of
-                                         Just (Aeson.Object lineSet)
+                $ \i -> \n -> \skin -> case lookup n linesSet of
+                                         Just lineSet
                                            -> do lines <- return
                                                           $ map aobj
                                                           $ elems
@@ -439,9 +446,14 @@ showship encn skins json
                                                                        Just x
                                                                          -> do H.td $ case x % "media" of
                                                                                         "" -> ""
-                                                                                        s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue $ "https://algwiki.moe/assets/cue/cv-" ++ init (case json % "internal_id" of
-                                                                                                                                                                                                      "" -> "0"
-                                                                                                                                                                                                      x -> x) ++ "/acb/awb/" ++ s ++ ".ogg") H.! A.controls "" $ ""
+                                                                                        s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                      $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                       ++ init (case json % "internal_id" of
+                                                                                                                                                  "" -> "0"
+                                                                                                                                                  x -> x)
+                                                                                                                                       ++ "/acb/awb/"
+                                                                                                                                       ++ s
+                                                                                                                                       ++ ".ogg") H.! A.controls "" $ ""
                                                                                H.td $ x %% "chinese"
                                                                                H.td $ x %% "japanese"
                                                                                H.td $ x %% "english"
@@ -596,6 +608,7 @@ main
        dumbjs <- readFile "dumbjs.js"
        mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
                                            $ zip [0..]
+                                           $ sortOn (\(k, Aeson.Object x) -> x % "id")
                                            $ toList
                                            $ aobj
                                            $ json ! "skin"
