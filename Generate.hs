@@ -579,7 +579,9 @@ makeIndex :: String
           -> IO ()
 makeIndex category f ships
   = do createDirectory $ "out/" ++ category
-       subcats <- mapM (\x -> do name <- return $ (snd $ head $ head x) % category
+       subcats <- mapM (\x -> do name <- return $ case (snd $ head $ head x) % category of
+                                                    "" -> "unknown"
+                                                    x -> x
                                  mkhtml ("out/" ++ category ++ "/") name (capitalize name) (return ())
                                    $ do H.nav
                                           $ do H.a H.! A.href ".." $ "Home"
@@ -600,9 +602,7 @@ makeIndex category f ships
                 $ mapM_ (\x -> H.li
                                $ H.a H.! A.href (H.stringValue $ x ++ ".html")
                                $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 64px; max-height: 64px;"
-                                    H.toHtml $ case x of
-                                                 "" -> "Unknown"
-                                                 x -> x) subcats
+                                    H.toHtml x) subcats
   where
     groupedShips :: [[[(String, Aeson.Object)]]]
     groupedShips
