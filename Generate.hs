@@ -583,6 +583,7 @@ capitalize "antiAir" = "Anti-air"
 capitalize "asw" = "ASW"
 capitalize (x:xs) = (toUpper x) : xs
 
+cute "anti-air" = "anti_air"
 cute "antiAir" = "anti_air"
 cute "hp" = "health"
 cute x = x
