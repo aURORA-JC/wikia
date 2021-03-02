@@ -81,21 +81,24 @@ navy' x = error x
 sidebar
   = H.nav H.! A.id "sidebar"
     $ H.ol
-    $ do H.li H.! A.class_ "subheader" $ H.h1 "/alg/ Wiki"
-         H.li H.! A.class_ "subheader" $ "Updates"
-         H.li $ H.a H.! A.href "" $ "News"
-         H.li $ H.a H.! A.href "https://algwiki.moe/" $ "JP Server"
-         H.li $ H.a H.! A.href "https://algwiki.moe/" $ "EN Server"
-         H.li H.! A.class_ "subheader" $ "Database"
-         H.li $ H.a H.! A.href "https://algwiki.moe/index_id.html" $ "Shiplist (By ID)"
+    $ do H.li H.! A.class_ "subheader"                                     $ H.h1 "/alg/ Wiki"
+
+         H.li H.! A.class_ "subheader"                                     $ "Updates"
+         H.li $ H.a H.! A.href ""                                          $ "News"
+         H.li $ H.a H.! A.href "https://algwiki.moe/"                      $ "JP Server"
+         H.li $ H.a H.! A.href "https://algwiki.moe/"                      $ "EN Server"
+
+         H.li H.! A.class_ "subheader"                                     $ "Database"
+         H.li $ H.a H.! A.href "https://algwiki.moe/index_id.html"         $ "Shiplist (By ID)"
          H.li $ H.a H.! A.href "https://algwiki.moe/index_alphabetic.html" $ "Shiplist (By Name)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/navy/" $ "Navy Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/hull/" $ "Hull Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/" $ "Rarity"
-         H.li H.! A.class_ "subheader" $ "Tools"
-         H.li $ H.a H.! A.href "https://sd.algwiki.moe/" $ "SD viewer"
-         H.li $ H.a H.! A.href "https://l2d.algwiki.moe/" $ "L2D viewer"
-         H.li $ H.a H.! A.href "https://algwiki.moe/" $ "Player"
+         H.li $ H.a H.! A.href "https://algwiki.moe/navy/"                 $ "Navy Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/hull/"                 $ "Hull Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/"               $ "Rarity"
+
+         H.li H.! A.class_ "subheader"                                     $ "Tools"
+         H.li $ H.a H.! A.href "https://sd.algwiki.moe/"                   $ "SD viewer"
+         H.li $ H.a H.! A.href "https://l2d.algwiki.moe/"                  $ "L2D viewer"
+         H.li $ H.a H.! A.href "https://algwiki.moe/"                      $ "Player"
 
 mkhtml :: String
        -> String
@@ -114,7 +117,17 @@ mkhtml prefix name title y x
                      y
               H.body
                 $ do sidebar
-                     H.div H.! A.id "sidebarEscape" $ x
+                     H.div H.! A.id "sidebarEscape"
+                       $ do x
+                            H.footer
+                              $ H.pre
+                              $ H.preEscapedToHtml
+                              $ "Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.\n"
+                              ++ "Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.\n"
+                              ++ "/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia\n"
+                              ++ "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n"
+                              ++ "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n"
+                              ++ "You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/."
 
 loadJson :: String
          -> IO ((String, (String, String)), (String, String), (String, Aeson.Object))
@@ -199,13 +212,13 @@ showship encn skins json
          $ H.td H.! A.colspan "2"
          $ H.table H.! A.class_ "full"
          $ do H.tr
-                $ H.th H.! A.class_ "title"  H.! A.scope "col" $ "Skins"
+                $ H.th H.! A.class_ "title" H.! A.scope "col" $ "Skins"
               H.tr
                 $ do H.td
                      $ writeskins skins "skinView" True
                        $ \_ -> \i -> \skin -> do H.table
                                                    $ do H.tr
-                                                          $ do H.th H.! A.class_ "subtitle" $ skin %% "name"
+                                                          $ do H.th H.! A.style "min-width: 50%" H.! A.class_ "subtitle" $ skin %% "name"
                                                                H.th H.! A.class_ "subtitle" $ "Description"
                                                         H.tr
                                                           $ do H.td H.! A.rowspan "3" $ H.img H.! A.id (H.stringValue $ "painting-" ++ i) H.! A.src (H.stringValue $ "https://algwiki.moe/assets/painting/" ++ skin % "id" ++ ".png") H.! A.style "max-width: 100%;"
@@ -434,30 +447,32 @@ showship encn skins json
                                                           $ lineSet ! "dialogue"
                                                  H.table
                                                    $ do H.tr
-                                                          $ do mapM_ (\(x, y) -> H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.style (H.stringValue $ "width:" ++ show y ++ "%;") $ x)
-                                                                 $ [("Event", 14),
-                                                                    ("", 3),
-                                                                    ("Taiwanese Server", 27),
-                                                                    ("Japanese Server", 27),
-                                                                    ("English Server", 27)]
-                                                        mapM_ (\k -> H.tr
-                                                                $ do H.th H.! A.scope "row" $ H.toHtml k
-                                                                     case find (\x -> x % "event" == k) lines of
-                                                                       Just x
-                                                                         -> do H.td $ case x % "media" of
-                                                                                        "" -> ""
-                                                                                        s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
-                                                                                                                                      $ "https://algwiki.moe/assets/cue/cv-"
-                                                                                                                                       ++ init (case json % "internal_id" of
-                                                                                                                                                  "" -> "0"
-                                                                                                                                                  x -> x)
-                                                                                                                                       ++ "/acb/awb/"
-                                                                                                                                       ++ s
-                                                                                                                                       ++ ".ogg") H.! A.controls "" $ ""
-                                                                               H.td $ x %% "chinese"
-                                                                               H.td $ x %% "japanese"
-                                                                               H.td $ x %% "english"
-                                                                       Nothing -> mapM_ (const $ H.td "") [0..3])
+                                                          $ mapM_ (\(x, y) -> H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.style (H.stringValue $ "width:" ++ show y ++ "%;") $ x)
+                                                          $ [("Event", 14),
+                                                             ("", 3),
+                                                             ("Taiwanese Server", 27),
+                                                             ("Japanese Server", 27),
+                                                             ("English Server", 27)]
+                                                        mapM_ (\k
+                                                               -> case find (\x -> x % "event" == k) lines of
+                                                                    Just x
+                                                                      -> H.tr
+                                                                         $ do H.th H.! A.scope "row" $ H.toHtml k
+                                                                              H.td
+                                                                                $ case x % "media" of
+                                                                                    "" -> ""
+                                                                                    s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                   $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                   ++ init (case json % "internal_id" of
+                                                                                                                                              "" -> "0"
+                                                                                                                                              x -> x)
+                                                                                                                                   ++ "/acb/awb/"
+                                                                                                                                   ++ s
+                                                                                                                                   ++ ".ogg") H.! A.controls "" $ ""
+                                                                              H.td $ x %% "chinese"
+                                                                              H.td $ x %% "japanese"
+                                                                              H.td $ x %% "english"
+                                                                    Nothing -> return ())
                                                           $ ["Ship Description",
                                                              "Biography",
                                                              "Acquisition",
@@ -525,7 +540,7 @@ makeMainIndex file title ships
          $ do H.nav
                 $ do H.a H.! A.href "." $ "Home"
                      " > "
-                     H.b $ H.toHtml title
+                     H.toHtml title
               mapM_ (\x -> H.details H.! A.open ""
                            $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
                                 indexFood "" x) ships
@@ -553,7 +568,7 @@ makeIndex category ships
                                      " > "
                                      H.a H.! A.href "." $ H.toHtml $ capitalize category
                                      " > "
-                                     H.b $ H.toHtml name
+                                     H.toHtml name
                               mapM_ (\x -> H.details H.! A.open ""
                                            $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
                                                 indexFood "../" x) x) groupedShips
@@ -627,7 +642,7 @@ main
                                            " > "
                                            H.a H.! A.href "." $ "Shiplist"
                                            " > "
-                                           H.b $ json %% "name"
+                                           json %% "name"
                                     H.main $ H.table $ showship encn skins json
                                     H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
 

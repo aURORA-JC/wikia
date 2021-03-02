@@ -45,6 +45,8 @@ body {
 
 a {
     color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 * {
@@ -193,4 +195,15 @@ input[name^="skinSelectors"]:checked + label {
 #sidebarEscape {
     margin-left: 250px;
     padding: 10px 10px 10px 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #24252d;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
 }
