@@ -207,3 +207,15 @@ footer {
     padding: 20px 20px 20px 20px;
     margin-top: 20px;
 }
+
+details {
+    background-color: #373743;
+    border-color: #5c5d70;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+summary {
+    background-color: #24252d;
+    padding-left: 10px;
+}
