@@ -129,7 +129,7 @@ mkhtml prefix name title y x
          $ H.docTypeHtml
          $ do H.head
                 $ do H.meta H.! A.httpEquiv "content-type" H.! A.content "text/html; charset=utf-8"
-                     H.title (H.toHtml title)
+                     H.title (H.toHtml $ title ++ " - /alg/ - Azur Lane General Wiki")
                      H.style H.! A.type_ "text/css" $ H.toHtml css
                      y
               H.body
@@ -188,7 +188,7 @@ showship encn skins json
   = do H.tr
          $ do H.td
                 $ H.table
-                $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5" $ H.toHtml $ (json % "name") ++ " (JP 🇯🇵: " ++ (json % "nameJP") ++ ", CN 🇹🇼: " ++ (json % "nameJP") ++ ")"
+                $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5" $ H.toHtml $ (json % "name") ++ " (JP 🇯🇵: " ++ (json % "nameJP") ++ ", CN 🇹🇼: " ++ (json % "nameCN") ++ ")"
                      H.tr
                        $ do H.td H.! A.rowspan "3" $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/squareicon/" ++ (json % "cn_reference") ++ ".png")
                             H.th "Ship ID"
