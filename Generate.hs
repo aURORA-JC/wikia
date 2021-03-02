@@ -451,7 +451,7 @@ showship encn skins json
                                                           $ mapM_ (\(x, y) -> H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.style (H.stringValue $ "width:" ++ show y ++ "%;") $ x)
                                                           $ [("Event", 14),
                                                              ("", 3),
-                                                             ("Taiwanese Server", 27),
+                                                             ("West Taiwanese Server", 27),
                                                              ("Japanese Server", 27),
                                                              ("English Server", 27)]
                                                         mapM_ (\k
