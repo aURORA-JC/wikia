@@ -558,21 +558,33 @@ g x
     $ sortBy (comparing $ \a -> elemIndex ((snd a) % "shipType") order) x
 
 makeIndex :: String
+          -> (String -> String)
           -> [(String, Aeson.Object)]
           -> IO ()
-makeIndex category ships
+makeIndex category f ships
   = do createDirectory $ "out/" ++ category
-       mapM_ (\x -> do name <- return $ ashow $ (snd $ head $ head x) ! (pack category)
-                       mkhtml ("out/" ++ category ++ "/") name name (return ())
-                         $ do H.nav
-                                $ do H.a H.! A.href ".." $ "Home"
-                                     " > "
-                                     H.a H.! A.href "." $ H.toHtml $ capitalize category
-                                     " > "
-                                     H.toHtml name
-                              mapM_ (\x -> H.details H.! A.open ""
-                                           $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
-                                                indexFood "../" x) x) groupedShips
+       subcats <- mapM (\x -> do name <- return $ (snd $ head $ head x) % category
+                                 mkhtml ("out/" ++ category ++ "/") name (capitalize name) (return ())
+                                   $ do H.nav
+                                          $ do H.a H.! A.href ".." $ "Home"
+                                               " > "
+                                               H.a H.! A.href "." $ H.toHtml $ capitalize category
+                                               " > "
+                                               H.toHtml $ capitalize name
+                                        mapM_ (\x -> H.details H.! A.open ""
+                                                     $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
+                                                          indexFood "../" x) x
+                                 return name) groupedShips
+       mkhtml ("out/" ++ category ++ "/") "index" (capitalize category) (return ())
+         $ do H.nav
+                $ do H.a H.! A.href ".." $ "Home"
+                     " > "
+                     H.toHtml $ capitalize category
+              H.ol
+                $ mapM_ (\x -> H.li
+                               $ H.a H.! A.href (H.stringValue $ category ++ ".html")
+                               $ do H.img H.! A.src (H.stringValue $ f x)
+                                    H.toHtml x) subcats
   where
     groupedShips :: [[[(String, Aeson.Object)]]]
     groupedShips
@@ -598,6 +610,7 @@ capitalize "hp" = "HP"
 capitalize "antiAir" = "Anti-air"
 capitalize "asw" = "ASW"
 capitalize (x:xs) = (toUpper x) : xs
+capitalize [] = []
 
 cute "anti-air" = "anti_air"
 cute "antiAir" = "anti_air"
@@ -654,9 +667,9 @@ main
        shiplist <- return
                    $ g shiplist'
 
-       makeIndex "rarity" shiplist'
-       makeIndex "hull"   shiplist'
-       makeIndex "navy"   shiplist'
+       makeIndex "rarity" id   shiplist'
+       makeIndex "hull"   hull shiplist'
+       makeIndex "navy"   navy shiplist'
        makeMainIndex "index_id" "Index (By ID)" shiplist
        makeMainIndex "index_alphabetic" "Index (Alphabetic)"
          $ map (sortOn (\(_, json) -> json % "name")) $ shiplist
