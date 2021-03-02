@@ -17,7 +17,7 @@
 		"link": "bullin_mkii",
 		"shipType": "common"
 	},
-    "3": {
+    "3": {  
         "name": "Specialized Bulin Custom MKIII",
         "hull": "Destroyer",
         "navy": "Universal",
@@ -1702,7 +1702,7 @@
 	},
 	"237": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z25.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z25.png",
 		"link": "z25",
 		"name": "Z25",
 		"navy": "Ironblood",
@@ -1909,7 +1909,7 @@
 	},
 	"264": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z19.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z19.png",
 		"link": "z19",
 		"name": "Hermann Künne",
 		"navy": "Ironblood",
@@ -1918,7 +1918,7 @@
 	},
 	"265": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z20.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z20.png",
 		"link": "z20",
 		"name": "Karl Galster",
 		"navy": "Ironblood",
@@ -1927,7 +1927,7 @@
 	},
 	"266": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z21.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z21.png",
 		"link": "z21",
 		"name": "Wilhelm Heidkamp",
 		"navy": "Ironblood",
@@ -2350,7 +2350,7 @@
 	},
 	"338": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/I19.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/i19.png",
 		"link": "i19",
 		"name": "I19",
 		"navy": "Sakura Empire",
@@ -2359,7 +2359,7 @@
 	},
 	"339": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/I26.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/i26.png",
 		"link": "i26",
 		"name": "I26",
 		"navy": "Sakura Empire",
@@ -2368,7 +2368,7 @@
 	},
 	"340": {
 		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/I58.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/i58.png",
 		"link": "i58",
 		"name": "I58",
 		"navy": "Sakura Empire",
@@ -2413,7 +2413,7 @@
 	},
 	"345": {
 		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z35.png",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/z35.png",
 		"link": "z35",
 		"name": "Z35",
 		"navy": "Ironblood",
@@ -2802,7 +2802,7 @@
 		"name" : "Z36",
 		"hull" : "Destroyer",
 		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/Z36.png",
+		"icon" : "https://algwiki.moe/assets/shipyardicon_new/z36.png",
 		"rarity" : "Elite",
 		"link" : "z36",
 		"shipType" : "common"
@@ -3239,7 +3239,7 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-    "440": {
+    "440": {                                                                                                                         
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/suweiaibeilaluosi.png",
         "link": "sovetskaya_belorussiya",
@@ -3478,7 +3478,7 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/z26.png",
         "link": "z26",
         "name": "Z26",
-        "navy": "Ironblood",
+        "navy": "Ironblood", 
         "rarity": "Super Rare",
         "shipType": "common"
     },
@@ -3487,7 +3487,7 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/u96.png",
         "link": "u96",
         "name": "U-96",
-        "navy": "Ironblood",
+        "navy": "Ironblood", 
         "rarity": "Super Rare",
         "shipType": "common"
     },
@@ -3692,8 +3692,8 @@
     "490": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/wenqinzuojiaobeidi.png",
-        "link": "vincenzo_gioberti",
-        "name": "Vincenzo Gioberti",
+        "link": "vincenzo_gioberti", 
+        "name": "Vincenzo Gioberti", 
         "navy": "Sardegna Empire",
         "rarity": "Elite",
         "shipType": "common"
@@ -4123,7 +4123,7 @@
 	},
 	"C051": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_fubuki.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Vtuber_Fubuki.png",
         "link": "shirakami_fubuki",
         "name": "Shirakami Fubuki ",
         "navy": "Hololive",
@@ -4141,7 +4141,7 @@
     },
     "C053": {
         "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_aqua.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Vtuber_aqua.png",
         "link": "minato_aqua",
         "name": "Minato Aqua ",
         "navy": "Hololive",
@@ -4150,7 +4150,7 @@
     },
     "C054": {
         "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_matsuri.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Vtuber_matsuri.png",
         "link": "natsuiro_matsuri",
         "name": "Natsuiro Matsuri ",
         "navy": "Hololive",
@@ -4159,7 +4159,7 @@
     },
     "C055": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_ayame.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Vtuber_Ayame.png",
         "link": "nakiri_ayame",
         "name": "Nakiri Ayame ",
         "navy": "Hololive",
@@ -4168,7 +4168,7 @@
     },
     "C056": {
         "hull": "Light Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_shion.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Vtuber_shion.png",
         "link": "murasaki_shion",
         "name": "Murasaki Shion ",
         "navy": "Hololive",
@@ -4177,7 +4177,7 @@
     },
     "C057": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/vtuber_mio.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Vtuber_Mio.png",
         "link": "ookami_mio",
         "name": "Ookami Mio",
         "navy": "Hololive",
@@ -4204,7 +4204,7 @@
     },
     "C063": {
         "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/xia_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xia_doa.png",
         "link": "kasumi_doa",
         "name": "Kasumi",
         "navy": "Venus Vacation",
@@ -4213,7 +4213,7 @@
     },
     "C064": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/haixiao_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haixiao_doa.png",
         "link": "misaki_doa",
         "name": "Misaki",
         "navy": "Venus Vacation",
@@ -4222,7 +4222,7 @@
     },
     "C065": {
         "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhixiao_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhixiao_doa.png",
         "link": "nagisa_doa",
         "name": "Nagisa",
         "navy": "Venus Vacation",
@@ -4231,7 +4231,7 @@
     },
     "C066": {
         "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/nvtiangou_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nvtiangou_doa.png",
         "link": "nyotengu_doa",
         "name": "Nyotengu",
         "navy": "Venus Vacation",
@@ -4240,7 +4240,7 @@
     },
     "C067": {
         "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/monika_DOA.png",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/monika_doa.png",
         "link": "monica_doa",
         "name": "Monica",
         "navy": "Venus Vacation",
