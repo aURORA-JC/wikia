@@ -128,7 +128,8 @@ mkhtml prefix name title y x
          $ renderHtml
          $ H.docTypeHtml
          $ do H.head
-                $ do H.title (H.toHtml title)
+                $ do H.meta H.! A.httpEquiv "content-type" H.! A.content "text/html; charset=utf-8"
+                     H.title (H.toHtml title)
                      H.style H.! A.type_ "text/css" $ H.toHtml css
                      y
               H.body
