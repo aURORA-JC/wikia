@@ -93,6 +93,8 @@ sidebar
          H.li $ H.a H.! A.href "https://algwiki.moe/hull/" $ "Hull Category"
          H.li $ H.a H.! A.href "https://algwiki.moe/rarity/" $ "Rarity"
          H.li H.! A.class_ "subheader" $ "Tools"
+         H.li $ H.a H.! A.href "https://sd.algwiki.moe/" $ "SD viewer"
+         H.li $ H.a H.! A.href "https://l2d.algwiki.moe/" $ "L2D viewer"
          H.li $ H.a H.! A.href "https://algwiki.moe/" $ "Player"
 
 mkhtml :: String
