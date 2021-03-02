@@ -671,9 +671,9 @@ main
                                                                                    "https://algwiki.moe/js/pixi-spine.js",
                                                                                    "https://algwiki.moe/js/SkeletonBinary.js"])
                                $ do H.nav
-                                      $ do H.a H.! A.href ".." $ "Home"
+                                      $ do H.a H.! A.href "../index.html" $ "Home"
                                            " > "
-                                           H.a H.! A.href "." $ "Shiplist"
+                                           H.a H.! A.href "../index_id.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
                                     H.main $ H.table $ showship encn skins json
