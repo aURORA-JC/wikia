@@ -221,13 +221,14 @@ showship encn skins json
                                                           $ do H.th H.! A.style "min-width: 50%" H.! A.class_ "subtitle" $ skin %% "name"
                                                                H.th H.! A.class_ "subtitle" $ "Description"
                                                         H.tr
-                                                          $ do H.td H.! A.rowspan "3" $ H.img H.! A.id (H.stringValue $ "painting-" ++ i) H.! A.src (H.stringValue $ "https://algwiki.moe/assets/painting/" ++ skin % "id" ++ ".png") H.! A.style "max-width: 100%;"
+                                                          $ do H.td H.! A.rowspan "5" $ H.img H.! A.id (H.stringValue $ "painting-" ++ i) H.! A.src (H.stringValue $ "https://algwiki.moe/assets/painting/" ++ skin % "id" ++ ".png") H.! A.style "max-width: 100%;"
                                                                H.td $ skin %% "description"
                                                         H.tr
                                                           $ H.td H.! A.id (H.stringValue $ "containerSD-" ++ i)
                                                           $ do H.select H.! A.id (H.stringValue $ "selectAnimation-" ++ i) $ ""
                                                                H.div H.! A.id (H.stringValue $ "canvasSD-" ++ i) $ ""
-                                                               H.div H.! A.id (H.stringValue $ "shipSkinExpressions-" ++ i) $ ""
+                                                        H.tr $ H.th H.! A.class_ "subtitle" $ "Expressions"
+                                                        H.tr $ H.td H.! A.id (H.stringValue $ "shipSkinExpressions-" ++ i) $ ""
 
        H.tr
          $ do H.td
@@ -519,17 +520,17 @@ indexFood :: String
           -> [(String, Aeson.Object)]
           -> H.Html
 indexFood lvl ships
-  = H.div H.! A.style "display: flex; flex-wrap: wrap; flex-shrink: 0; justify-content: safe space-evenly; font-size: 10px;"
-    $ mapM_ (\(id, json) -> H.div H.! A.style "vertical-align: top; margin: 10px 0px 0px 10px; border-radius: 10px;border: 3px double #ffffff;background: #24252d;width: 108px;height: 220px; position: relative;"
+  = H.div H.! A.class_ "container"
+    $ mapM_ (\(id, json) -> H.div H.! A.class_ "ship"
                             $ do a <- return $ H.a H.! A.href (H.stringValue $ "ships/" ++ json % "link" ++ ".html")
-                                 mapM_ (\(x, f, s) -> H.a H.! A.href (H.stringValue $ lvl ++ x ++ "/" ++ json % x ++ ".html")
-                                                      $ H.img H.! A.src (H.stringValue $ f $ json % x) H.! A.title (H.stringValue $ json % x) H.! A.style s)
-                                   $ [("hull", hull, "padding-left: 3px; padding-right:5px; width:33px; height:auto;"),
-                                      ("navy", navy, "padding-right:5px;")]
+                                 mapM_ (\(x, f) -> H.a H.! A.href (H.stringValue $ lvl ++ x ++ "/" ++ json % x ++ ".html")
+                                                   $ H.img H.! A.src (H.stringValue $ f $ json % x) H.! A.title (H.stringValue $ json % x) H.! A.class_ (H.stringValue x))
+                                   $ [("hull", hull),
+                                      ("navy", navy)]
                                  H.toHtml id
                                  H.div H.! A.style (H.stringValue $ "background: " ++ decideColor (json % "rarity") ++ ";")
                                    $ a $ H.img H.! A.src (H.stringValue $ json % "icon") H.! H.customAttribute "loading" "lazy" H.! A.style "height:144px;width: 108px"
-                                 H.div H.! A.style "text-align: center; position: relative; top: 10%; transform: translateY(-50%);" $ a $ json %% "name") ships
+                                 H.div H.! A.class_ "name" $ a $ json %% "name") ships
 
 makeMainIndex :: String
               -> String

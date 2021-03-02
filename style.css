@@ -23,10 +23,6 @@ th, td {
     border-style: solid;
 }
 
-.full {
-    grid-column: 1 / -1;
-}
-
 .title {
     height: 1.5rem;
 }
@@ -212,10 +208,47 @@ details {
     background-color: #373743;
     border-color: #5c5d70;
     margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 summary {
     background-color: #24252d;
     padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: safe space-evenly;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.ship {
+    vertical-align: top;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    border: 3px double #ffffff;
+    background: #24252d;
+    width: 108px;
+    height: 220px;
+    position: relative;
+}
+
+.hull {
+    padding-left: 3px;
+    padding-right: 5px;
+    width: 33px;
+    height: auto;
+}
+
+.navy {
+    padding-right:5px;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
 }
