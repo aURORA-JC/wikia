@@ -39,7 +39,7 @@ rarity' "Super Rare" = "SSR.png"
 rarity' "Elite"      = "SR.png"
 rarity' "Rare"       = "R.png"
 rarity' "Common"     = "C.png"
-rarity' "" = ""
+rarity' "unknown" = ""
 rarity' x = error x
 
 hull :: String
