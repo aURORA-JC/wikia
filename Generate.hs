@@ -599,7 +599,7 @@ makeIndex category f ships
               H.ol
                 $ mapM_ (\x -> H.li
                                $ H.a H.! A.href (H.stringValue $ x ++ ".html")
-                               $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 128px; max-height: 128px;"
+                               $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 64px; max-height: 64px;"
                                     H.toHtml x) subcats
   where
     groupedShips :: [[[(String, Aeson.Object)]]]
