@@ -150,44 +150,49 @@ showship :: [(String, (String, String))]
          -> Aeson.Object
          -> H.Html
 showship encn skins json
-  = do H.table
-         $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5" $ H.toHtml $ (json % "name") ++ " (JP 🇯🇵: " ++ (json % "nameJP") ++ ", CN 🇹🇼: " ++ (json % "nameJP") ++ ")"
-              H.tr
-                $ do H.td H.! A.rowspan "3" $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/squareicon/" ++ (json % "cn_reference") ++ ".png")
-                     H.th "Ship ID"
-                     H.td $ do "No. "
-                               json %% "ID"
-                     d "initialStar" "Star Rating"
-              H.tr
-                $ do H.th $ H.a H.! A.href "../hull/" $ "Hull"
-                     H.td $ do H.img H.! A.src (H.stringValue $ hull $ json % "hull") H.! A.style "height: auto; width: 35px"
-                               " "
-                               H.toHtml $ capitalize $ json % "hull"
-                     d "rarity" "Rarity"
-              H.tr
-                $ do H.th $ H.a H.! A.href "../navy/" $ "Navy"
-                     H.td $ do H.img H.! A.src (H.stringValue $ navy $ json % "navy")
-                               H.toHtml $ capitalize $ json % "navy"
-                     d "buildTime" "Build Time"
-              H.tr
-                $ do H.th H.! A.scope "row" $ "Acquisition"
-                     H.td H.! A.colspan "4" $ H.toHtml $ json % "acquisitionMethod"
-              H.tr
-                $ do H.th H.! A.scope "row" $ "Enhance Income"
-                     H.td H.! A.colspan "4" $ showtable' json "3" "enhance" "height:auto;width:25px;"
-              H.tr
-                $ do H.th H.! A.scope "row" $ "Scrap Income"
-                     H.td H.! A.colspan "4" $ showtable' json "3" "scrap" ""
-       H.table
-         $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "2" $ "Information"
-              H.tr $ do H.th H.! A.scope "row" $ "Release Date"
-                        H.td $ H.table $ showtable json "1" "releaseDate"
-              H.tr $ do H.th H.! A.scope "row" $ "Voice actress"
-                        H.td $ H.toHtml $ json % "voiceActress"
-              H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "2" $ "Illustrator"
-              showtable json "1" "artist"
+  = do H.tr
+         $ do H.td
+                $ H.table
+                $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5" $ H.toHtml $ (json % "name") ++ " (JP 🇯🇵: " ++ (json % "nameJP") ++ ", CN 🇹🇼: " ++ (json % "nameJP") ++ ")"
+                     H.tr
+                       $ do H.td H.! A.rowspan "3" $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/squareicon/" ++ (json % "cn_reference") ++ ".png")
+                            H.th "Ship ID"
+                            H.td $ do "No. "
+                                      json %% "ID"
+                            d "initialStar" "Star Rating"
+                     H.tr
+                       $ do H.th $ H.a H.! A.href "../hull/" $ "Hull"
+                            H.td $ do H.img H.! A.src (H.stringValue $ hull $ json % "hull") H.! A.style "height: auto; width: 35px"
+                                      " "
+                                      H.toHtml $ capitalize $ json % "hull"
+                            d "rarity" "Rarity"
+                     H.tr
+                       $ do H.th $ H.a H.! A.href "../navy/" $ "Navy"
+                            H.td $ do H.img H.! A.src (H.stringValue $ navy $ json % "navy")
+                                      H.toHtml $ capitalize $ json % "navy"
+                            d "buildTime" "Build Time"
+                     H.tr
+                       $ do H.th H.! A.scope "row" $ "Acquisition"
+                            H.td H.! A.colspan "4" $ H.toHtml $ json % "acquisitionMethod"
+                     H.tr
+                       $ do H.th H.! A.scope "row" $ "Enhance Income"
+                            H.td H.! A.colspan "4" $ showtable' json "3" "enhance" "height:auto;width:25px;"
+                     H.tr
+                       $ do H.th H.! A.scope "row" $ "Scrap Income"
+                            H.td H.! A.colspan "4" $ showtable' json "3" "scrap" ""
+              H.td
+                $ H.table
+                $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "2" $ "Information"
+                     H.tr $ do H.th H.! A.scope "row" $ "Release Date"
+                               H.td $ H.table $ showtable json "1" "releaseDate"
+                     H.tr $ do H.th H.! A.scope "row" $ "Voice actress"
+                               H.td $ H.toHtml $ json % "voiceActress"
+                     H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "2" $ "Illustrator"
+                     showtable json "1" "artist"
 
-       H.table H.! A.class_ "full"
+       H.tr
+         $ H.td H.! A.colspan "2"
+         $ H.table H.! A.class_ "full"
          $ do H.tr
                 $ H.th H.! A.class_ "title"  H.! A.scope "col" $ "Skins"
               H.tr
@@ -205,111 +210,117 @@ showship encn skins json
                                                           $ do H.select H.! A.id (H.stringValue $ "selectAnimation-" ++ i) $ ""
                                                                H.div H.! A.id (H.stringValue $ "canvasSD-" ++ i) $ ""
                                                                H.div H.! A.id (H.stringValue $ "shipSkinExpressions-" ++ i) $ ""
-       H.table
-         $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "2" $ "Parameters"
-              mapM_ (\k -> let par = aobj $ json ! "parameters"
-                           in
-                             H.tr
-                             $ do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                    $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k)
-                                         " "
-                                         H.toHtml $ capitalize k
-                                  H.td H.! A.style "text-align: left; padding-left:5px;" $ par %% k)
-                $ ["hp",
-                   "antiAir",
-                   "evasion",
-                   "aviation",
-                   "torpedo",
-                   "firepower"]
-              H.tr
-                $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "2"
-                $ "Stats"
-              stats <- return
-                       $ map (\(k, Aeson.Object v) -> (unpack k, v))
+
+       H.tr
+         $ do H.td
+                $ H.table
+                $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "2" $ "Parameters"
+                     mapM_ (\k -> let par = aobj $ json ! "parameters"
+                                  in
+                                    H.tr
+                                    $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                           $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k)
+                                                " "
+                                                H.toHtml $ capitalize k
+                                         H.td H.! A.style "text-align: left; padding-left:5px;" $ par %% k)
+                       $ ["hp",
+                          "antiAir",
+                          "evasion",
+                          "aviation",
+                          "torpedo",
+                          "firepower"]
+                     H.tr
+                       $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "2"
+                       $ "Stats"
+                     stats <- return
+                              $ map (\(k, Aeson.Object v) -> (unpack k, v))
+                              $ toList
+                              $ aobj
+                              $ json ! "stats"
+                     H.tr
+                       $ H.td H.! A.colspan "2"
+                       $ do mapM_ (\(i, _) -> do H.input H.! A.name "skinSelectors-stat" H.! A.autocomplete "off" H.! A.id (H.stringValue $ "statSelector-" ++ i)  H.! A.type_ "radio" H.!? (i == "base", A.checked "")
+                                                 H.label H.! A.for (H.stringValue $ "statSelector-" ++ i) H.! A.style "margin-left: 5px;border-style: solid;"
+                                                   $ H.toHtml $ case i of
+                                                                  "base" -> "Base"
+                                                                  "100retrofit" -> "100 Retrofit"
+                                                                  "120retrofit" -> "120 Retrofit"
+                                                                  x -> x) stats
+                            mapM_ (\(i, v) -> H.div H.! A.id (H.stringValue $ "statContent-" ++ i) H.! A.class_ "skinContent"
+                                              $ H.table
+                                              $ do mapM_ (\(k1, k2)
+                                                          -> H.tr
+                                                             $ do H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                                    $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k1)
+                                                                         " "
+                                                                         H.toHtml $ capitalize k1
+                                                                  H.td H.! A.style "width:15%;text-align:center" $ v %% k1
+                                                                  H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                                    $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k2)
+                                                                         " "
+                                                                         H.toHtml $ capitalize k2
+                                                                  H.td H.! A.style "width:15%;text-align:center" $ v %% k2)
+                                                     $ [("hp", "reload"),
+                                                        ("firepower", "torpedo"),
+                                                        ("evasion", "antiAir"),
+                                                        ("aviation", "cost"),
+                                                        ("asw", "luck")]
+                                                   H.tr
+                                                     $ do H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                            $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny "hit")
+                                                                 " Hit"
+                                                          H.td H.! A.style "width:15%;text-align:center" $ v %% "luck"
+                                                          H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                            $ "Speed"
+                                                          H.td H.! A.style "width:15%;text-align:center" $ v %% "speed"
+                                                   H.tr
+                                                     $ do H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                            $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny "armor")
+                                                                 " Armor"
+                                                          H.td H.! A.style "width:15%;text-align:center" H.! A.colspan "3" $ v %% "armor") stats
+
+              H.td
+                $ H.table
+                $ do H.tr $ H.th H.! A.class_ "title"  H.! A.scope "col" H.! A.colspan "5" $ "Limit Break"
+                     mapM_ (\(k, v) -> H.tr
+                                       $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                              $ H.toHtml $ case lastN 2 k of
+                                                             ('r':x) -> "Tier " ++ x
+                                                             ('0':x) -> "Level " ++ x
+                                                             x       -> "Level " ++ x
+                                            H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;" $ H.toHtml $ ashow v)
+                       $ sortOn (\(k, _) -> k)
+                       $ map (\(k, v) -> (case lastN 2 $ unpack k of
+                                            ('r':x) -> "r" ++ x
+                                            ('l':x) -> "0" ++ x
+                                            x       -> x, v))
                        $ toList
                        $ aobj
-                       $ json ! "stats"
-              H.tr
-                $ H.td H.! A.colspan "2"
-                $ do mapM_ (\(i, _) -> do H.input H.! A.name "skinSelectors-stat" H.! A.autocomplete "off" H.! A.id (H.stringValue $ "statSelector-" ++ i)  H.! A.type_ "radio" H.!? (i == "base", A.checked "")
-                                          H.label H.! A.for (H.stringValue $ "statSelector-" ++ i) H.! A.style "margin-left: 5px;border-style: solid;"
-                                            $ H.toHtml $ case i of
-                                                           "base" -> "Base"
-                                                           "100retrofit" -> "100 Retrofit"
-                                                           "120retrofit" -> "120 Retrofit"
-                                                           x -> x) stats
-                     mapM_ (\(i, v) -> H.div H.! A.id (H.stringValue $ "statContent-" ++ i) H.! A.class_ "skinContent"
-                                       $ H.table
-                                       $ do mapM_ (\(k1, k2)
-                                                    -> H.tr
-                                                       $ do H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                              $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k1)
-                                                                   " "
-                                                                   H.toHtml $ capitalize k1
-                                                            H.td H.! A.style "width:15%;text-align:center" $ v %% k1
-                                                            H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                              $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k2)
-                                                                   " "
-                                                                   H.toHtml $ capitalize k2
-                                                            H.td H.! A.style "width:15%;text-align:center" $ v %% k2)
-                                              $ [("hp", "reload"),
-                                                 ("firepower", "torpedo"),
-                                                 ("evasion", "antiAir"),
-                                                 ("aviation", "cost"),
-                                                 ("asw", "luck")]
-                                            H.tr
-                                              $ do H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                     $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny "hit")
-                                                          " Hit"
-                                                   H.td H.! A.style "width:15%;text-align:center" $ v %% "luck"
-                                                   H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                     $ "Speed"
-                                                   H.td H.! A.style "width:15%;text-align:center" $ v %% "speed"
-                                            H.tr
-                                              $ do H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                     $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny "armor")
-                                                          " Armor"
-                                                   H.td H.! A.style "width:15%;text-align:center" H.! A.colspan "3" $ v %% "armor") stats
-
-       H.table
-         $ do H.tr $ H.th H.! A.class_ "title"  H.! A.scope "col" H.! A.colspan "5" $ "Limit Break"
-              mapM_ (\(k, v) -> H.tr
-                                $ do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                       $ H.toHtml $ case lastN 2 k of
-                                                      ('r':x) -> "Tier " ++ x
-                                                      ('0':x) -> "Level " ++ x
-                                                      x       -> "Level " ++ x
-                                     H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;" $ H.toHtml $ ashow v)
-                $ sortOn (\(k, _) -> k)
-                $ map (\(k, v) -> (case lastN 2 $ unpack k of
-                                     ('r':x) -> "r" ++ x
-                                     ('l':x) -> "0" ++ x
-                                     x       -> x, v))
-                $ toList
-                $ aobj
-                $ case HM.lookup "limitBreak" json of
-                    Nothing -> json ! "strengthenLevel"
-                    Just x -> x
-              H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Equipments"
-              H.tr
-                $ mapM_ (H.th H.! A.class_ "subtitle" H.! A.scope "col")
-                $ ["Slot",
-                   "Equipment Type",
-                   "Efficiency (LB 0/1/2/3)",
-                   "Quantity (LB 0/1/2/3)",
-                   "Preload (LB 0/1/2/3)"]
-              mapM_ (\(k, Aeson.Object v) -> H.tr
-                                             $ do H.td $ H.toHtml k
-                                                  mapM_ (\x -> H.td $ v %% x) ["type", "efficiency", "amount", "preload"]) $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "equipmentLoadout"
-              H.tr
-                $ do H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Default Equipments"
+                       $ case HM.lookup "limitBreak" json of
+                           Nothing -> json ! "strengthenLevel"
+                           Just x -> x
+                     H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Equipments"
+                     H.tr
+                       $ mapM_ (H.th H.! A.class_ "subtitle" H.! A.scope "col")
+                       $ ["Slot",
+                          "Equipment Type",
+                          "Efficiency (LB 0/1/2/3)",
+                          "Quantity (LB 0/1/2/3)",
+                          "Preload (LB 0/1/2/3)"]
                      mapM_ (\(k, Aeson.Object v) -> H.tr
-                                             $ do H.td $ H.toHtml k
-                                                  H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "defaultEquipment"
+                                                    $ do H.td $ H.toHtml k
+                                                         mapM_ (\x -> H.td $ v %% x) ["type", "efficiency", "amount", "preload"]) $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "equipmentLoadout"
+                     H.tr
+                       $ do H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Default Equipments"
+                            mapM_ (\(k, Aeson.Object v) -> H.tr
+                                                           $ do H.td $ H.toHtml k
+                                                                H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "defaultEquipment"
 
        case HM.lookup "fleet_tech" json of
          Just (Aeson.Object ft)
-           -> H.table H.! A.class_ "full"
+           -> H.tr
+              $ H.td H.! A.colspan "2"
+              $ H.table
               $ do H.tr
                      $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "3" H.! A.style "width:40%;" $ "Fleet Tech"
                    H.tr
@@ -366,14 +377,18 @@ showship encn skins json
                                                ft %% "add_level_value"
          Nothing -> return ()
 
-       H.table H.! A.class_ "full"
+       H.tr
+         $ H.td H.! A.colspan "2"
+         $ H.table
          $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "4" $ "Skillset"
               H.tr $ mapM_ (H.th H.! A.scope "col" H.! A.class_ "subtitle") ["Icon", "Name", "Description", "Requirements"]
               mapM_ (\(k, Aeson.Object v) -> H.tr
                                              $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (v % "icon") ++ ".png")
                                                   mapM_ (\x -> H.td $ v %% x) ["name", "description", "requirement"]) $ reverse $ toList $ aobj $ json ! "skill"
 
-       H.table
+       H.tr
+         $ H.td H.! A.colspan "2"
+         $ H.table
          $ do H.tr
                 $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "4"
                 $ "Construction"
@@ -391,13 +406,9 @@ showship encn skins json
                 $ aobj
                 $ json ! "build"
 
-       H.table
-         $ do H.tr
-                $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "3"
-                $ "Drop"
-              return ()
-
-       H.table H.! A.class_ "full"
+       H.tr
+         $ H.td H.! A.colspan "2"
+         $ H.table
          $ do linesSet <- return $ aobj $ (aobj $ json ! "lines") ! "skin"
               H.tr
                 $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5"
@@ -601,7 +612,7 @@ main
                                            H.a H.! A.href "." $ "Shiplist"
                                            " > "
                                            H.b $ json %% "name"
-                                    H.main $ showship encn skins json
+                                    H.main $ H.table $ showship encn skins json
                                     H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
