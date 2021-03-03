@@ -24,7 +24,7 @@ import Data.Maybe
 (%%) :: Aeson.Object
      -> String
      -> H.Html
-(%%) a b = H.toHtml $ ashow $ a ! (pack b)
+(%%) a b = H.preEscapedToHtml $ ashow $ a ! (pack b)
 
 rarity :: String
      -> String
@@ -129,8 +129,8 @@ mkhtml prefix name title y x
          $ H.docTypeHtml
          $ do H.head
                 $ do H.meta H.! A.httpEquiv "content-type" H.! A.content "text/html; charset=utf-8"
-                     H.title (H.toHtml $ title ++ " - /alg/ - Azur Lane General Wiki")
-                     H.style H.! A.type_ "text/css" $ H.toHtml css
+                     H.title (H.preEscapedToHtml $ title ++ " - /alg/ - Azur Lane General Wiki")
+                     H.style H.! A.type_ "text/css" $ H.preEscapedToHtml css
                      y
               H.body
                 $ do sidebar
@@ -188,7 +188,7 @@ showship encn skins json
   = do H.tr
          $ do H.td
                 $ H.table
-                $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5" $ H.toHtml $ (json % "name") ++ " (JP 🇯🇵: " ++ (json % "nameJP") ++ ", CN 🇹🇼: " ++ (json % "nameCN") ++ ")"
+                $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5" $ H.preEscapedToHtml $ (json % "name") ++ " (JP 🇯🇵: " ++ (json % "nameJP") ++ ", CN 🇹🇼: " ++ (json % "nameCN") ++ ")"
                      H.tr
                        $ do H.td H.! A.rowspan "3" $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/squareicon/" ++ (json % "cn_reference") ++ ".png")
                             H.th "Ship ID"
@@ -199,16 +199,16 @@ showship encn skins json
                        $ do H.th $ H.a H.! A.href "../hull/" $ "Hull"
                             H.td $ do H.img H.! A.src (H.stringValue $ hull $ json % "hull") H.! A.style "height: auto; width: 35px"
                                       " "
-                                      H.toHtml $ capitalize $ json % "hull"
+                                      H.preEscapedToHtml $ capitalize $ json % "hull"
                             d "rarity" "Rarity"
                      H.tr
                        $ do H.th $ H.a H.! A.href "../navy/" $ "Navy"
                             H.td $ do H.img H.! A.src (H.stringValue $ navy $ json % "navy")
-                                      H.toHtml $ capitalize $ json % "navy"
+                                      H.preEscapedToHtml $ capitalize $ json % "navy"
                             d "buildTime" "Build Time"
                      H.tr
                        $ do H.th H.! A.scope "row" $ "Acquisition"
-                            H.td H.! A.colspan "4" $ H.toHtml $ json % "acquisitionMethod"
+                            H.td H.! A.colspan "4" $ H.preEscapedToHtml $ json % "acquisitionMethod"
                      H.tr
                        $ do H.th H.! A.scope "row" $ "Enhance Income"
                             H.td H.! A.colspan "4" $ showtable' json "3" "enhance" "height:auto;width:25px;"
@@ -221,7 +221,7 @@ showship encn skins json
                      H.tr $ do H.th H.! A.scope "row" $ "Release Date"
                                H.td $ H.table $ showtable json "1" "releaseDate"
                      H.tr $ do H.th H.! A.scope "row" $ "Voice actress"
-                               H.td $ H.toHtml $ json % "voiceActress"
+                               H.td $ H.preEscapedToHtml $ json % "voiceActress"
                      H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "2" $ "Illustrator"
                      showtable json "1" "artist"
 
@@ -257,7 +257,7 @@ showship encn skins json
                                     $ do H.td H.! A.style "text-align: left; padding-left:5px;"
                                            $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k)
                                                 " "
-                                                H.toHtml $ capitalize k
+                                                H.preEscapedToHtml $ capitalize k
                                          H.td H.! A.style "text-align: left; padding-left:5px;" $ par %% k)
                        $ ["hp",
                           "antiAir",
@@ -277,7 +277,7 @@ showship encn skins json
                        $ H.td H.! A.colspan "2"
                        $ do mapM_ (\(i, _) -> do H.input H.! A.name "skinSelectors-stat" H.! A.autocomplete "off" H.! A.id (H.stringValue $ "statSelector-" ++ i)  H.! A.type_ "radio" H.!? (i == "base", A.checked "")
                                                  H.label H.! A.for (H.stringValue $ "statSelector-" ++ i) H.! A.style "margin-left: 5px;border-style: solid;"
-                                                   $ H.toHtml $ case i of
+                                                   $ H.preEscapedToHtml $ case i of
                                                                   "base" -> "Base"
                                                                   "100retrofit" -> "100 Retrofit"
                                                                   "120retrofit" -> "120 Retrofit"
@@ -289,12 +289,12 @@ showship encn skins json
                                                              $ do H.th H.! A.style "text-align: left; padding-left:5px;"
                                                                     $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k1)
                                                                          " "
-                                                                         H.toHtml $ capitalize k1
+                                                                         H.preEscapedToHtml $ capitalize k1
                                                                   H.td H.! A.style "width:15%;text-align:center" $ v %% k1
                                                                   H.th H.! A.style "text-align: left; padding-left:5px;"
                                                                     $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k2)
                                                                          " "
-                                                                         H.toHtml $ capitalize k2
+                                                                         H.preEscapedToHtml $ capitalize k2
                                                                   H.td H.! A.style "width:15%;text-align:center" $ v %% k2)
                                                      $ [("hp", "reload"),
                                                         ("firepower", "torpedo"),
@@ -320,11 +320,11 @@ showship encn skins json
                 $ do H.tr $ H.th H.! A.class_ "title"  H.! A.scope "col" H.! A.colspan "5" $ "Limit Break"
                      mapM_ (\(k, v) -> H.tr
                                        $ do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                              $ H.toHtml $ case lastN 2 k of
+                                              $ H.preEscapedToHtml $ case lastN 2 k of
                                                              ('r':x) -> "Tier " ++ x
                                                              ('0':x) -> "Level " ++ x
                                                              x       -> "Level " ++ x
-                                            H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;" $ H.toHtml $ ashow v)
+                                            H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;" $ H.preEscapedToHtml $ ashow v)
                        $ sortOn (\(k, _) -> k)
                        $ map (\(k, v) -> (case lastN 2 $ unpack k of
                                             ('r':x) -> "r" ++ x
@@ -344,12 +344,12 @@ showship encn skins json
                           "Quantity (LB 0/1/2/3)",
                           "Preload (LB 0/1/2/3)"]
                      mapM_ (\(k, Aeson.Object v) -> H.tr
-                                                    $ do H.td $ H.toHtml k
+                                                    $ do H.td $ H.preEscapedToHtml k
                                                          mapM_ (\x -> H.td $ v %% x) ["type", "efficiency", "amount", "preload"]) $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "equipmentLoadout"
                      H.tr
                        $ do H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Default Equipments"
                             mapM_ (\(k, Aeson.Object v) -> H.tr
-                                                           $ do H.td $ H.toHtml k
+                                                           $ do H.td $ H.preEscapedToHtml k
                                                                 H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "defaultEquipment"
 
        case HM.lookup "fleet_tech" json of
@@ -366,7 +366,7 @@ showship encn skins json
                                  " "
                                  json %% "hull"
                                  ": "
-                                 H.toHtml $ ashow $ HM.lookupDefault "##undefined##" "class" json
+                                 H.preEscapedToHtml $ ashow $ HM.lookupDefault "##undefined##" "class" json
                           H.th H.! A.class_ "subtitle" H.! A.colspan "2" H.! A.style "width:60%;" $ "Tech Points and Bonus"
                    H.tr
                      $ do H.td
@@ -433,7 +433,7 @@ showship encn skins json
                      mapM_ (H.th H.! A.class_ "subtitle" H.! A.style "width:20%;" H.! A.scope "col") ["JP", "CN", "EN"]
               mapM_ (\(k, Aeson.Object v) -> H.tr
                                              $ do H.th H.! A.scope "row" H.! A.class_ "subtitle"
-                                                    $ H.toHtml
+                                                    $ H.preEscapedToHtml
                                                     $ capitalize
                                                     $ unpack k
                                                   mapM_ (\x -> H.td $ v %% x) ["JP", "CN", "EN"])
@@ -475,7 +475,7 @@ showship encn skins json
                                                                -> case find (\x -> x % "event" == k) lines of
                                                                     Just x
                                                                       -> H.tr
-                                                                         $ do H.th H.! A.scope "row" $ H.toHtml k
+                                                                         $ do H.th H.! A.scope "row" $ H.preEscapedToHtml k
                                                                               H.td
                                                                                 $ case x % "media" of
                                                                                     "" -> ""
@@ -544,7 +544,7 @@ indexFood lvl ships
                                                    $ H.img H.! A.src (H.stringValue $ f $ json % x) H.! A.title (H.stringValue $ json % x) H.! A.class_ (H.stringValue x))
                                    $ [("hull", hull),
                                       ("navy", navy)]
-                                 H.toHtml id
+                                 H.preEscapedToHtml id
                                  H.div H.! A.style (H.stringValue $ "background: " ++ decideColor (json % "rarity") ++ ";")
                                    $ a $ H.img H.! A.src (H.stringValue $ json % "icon") H.! H.customAttribute "loading" "lazy" H.! A.style "height:144px;width: 108px"
                                  H.div H.! A.class_ "name" $ a $ json %% "name") ships
@@ -558,9 +558,9 @@ makeMainIndex file title ships
          $ do H.nav
                 $ do H.a H.! A.href "." $ "Home"
                      " > "
-                     H.toHtml title
+                     H.preEscapedToHtml title
               mapM_ (\x -> H.details H.! A.open ""
-                           $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
+                           $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.preEscapedToHtml $ capitalize $ (snd $ head x) % "shipType"
                                 indexFood "" x) ships
 
 g :: [(String, Aeson.Object)]
@@ -587,23 +587,23 @@ makeIndex category f ships
                                    $ do H.nav
                                           $ do H.a H.! A.href ".." $ "Home"
                                                " > "
-                                               H.a H.! A.href "." $ H.toHtml $ capitalize category
+                                               H.a H.! A.href "." $ H.preEscapedToHtml $ capitalize category
                                                " > "
-                                               H.toHtml $ capitalize name
+                                               H.preEscapedToHtml $ capitalize name
                                         mapM_ (\x -> H.details H.! A.open ""
-                                                     $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.toHtml $ capitalize $ (snd $ head x) % "shipType"
+                                                     $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.preEscapedToHtml $ capitalize $ (snd $ head x) % "shipType"
                                                           indexFood "../" x) x
                                  return name) groupedShips
        mkhtml ("out/" ++ category ++ "/") "index" (capitalize category) (return ())
          $ do H.nav
                 $ do H.a H.! A.href ".." $ "Home"
                      " > "
-                     H.toHtml $ capitalize category
+                     H.preEscapedToHtml $ capitalize category
               H.ol
                 $ mapM_ (\x -> H.li
                                $ H.a H.! A.href (H.stringValue $ "../" ++ x ++ ".html")
                                $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 64px; max-height: 64px;"
-                                    H.toHtml x) subcats
+                                    H.preEscapedToHtml x) subcats
   where
     groupedShips :: [[[(String, Aeson.Object)]]]
     groupedShips
@@ -613,8 +613,8 @@ makeIndex category f ships
 
 showtable json i k
   = mapM_ (\(k, v) -> H.tr
-                      $ do H.td H.! A.colspan i $ H.toHtml $ capitalize $ unpack k
-                           H.td $ H.toHtml $ ashow v) $ reverse $ toList $ aobj $ json ! k
+                      $ do H.td H.! A.colspan i $ H.preEscapedToHtml $ capitalize $ unpack k
+                           H.td $ H.preEscapedToHtml $ ashow v) $ reverse $ toList $ aobj $ json ! k
 
 showtable'  json i k style
   = H.table
@@ -622,8 +622,8 @@ showtable'  json i k style
                         $ do H.td H.! A.style "text-align: left; width: 70%;" H.! A.colspan i
                                $ do H.img H.! A.src (H.stringValue $ "https://algwiki.moe/Images/" ++ unpack k ++ "_icon.png") H.! A.style style
                                     " "
-                                    H.toHtml $ capitalize $ unpack k
-                             H.td H.! A.style "text-align: left;padding-left:5px;" $ H.toHtml $ ashow v) $ reverse $ toList $ aobj $ json ! k
+                                    H.preEscapedToHtml $ capitalize $ unpack k
+                             H.td H.! A.style "text-align: left;padding-left:5px;" $ H.preEscapedToHtml $ ashow v) $ reverse $ toList $ aobj $ json ! k
 
 capitalize "hp" = "HP"
 capitalize "antiAir" = "Anti-air"
@@ -662,7 +662,7 @@ main
                                            $ aobj
                                            $ json ! "skin"
                                in
-                                 mkhtml "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.toHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
+                                 mkhtml "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
                                                                               mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
                                                                                 $ ["https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js",
                                                                                    "https://s3-ap-northeast-1.amazonaws.com/cubism3.live2d.com/sdk/js_eap/live2dcubismcore.min.js",
