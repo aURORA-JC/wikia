@@ -601,7 +601,7 @@ makeIndex category f ships
                      H.toHtml $ capitalize category
               H.ol
                 $ mapM_ (\x -> H.li
-                               $ H.a H.! A.href (H.stringValue $ x ++ ".html")
+                               $ H.a H.! A.href (H.stringValue $ "../" ++ x ++ ".html")
                                $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 64px; max-height: 64px;"
                                     H.toHtml x) subcats
   where
