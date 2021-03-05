@@ -102,9 +102,9 @@ sidebar
          H.li H.! A.class_ "subheader"                                     $ "Database"
          H.li $ H.a H.! A.href "https://algwiki.moe/index_id.html"         $ "Shiplist (By ID)"
          H.li $ H.a H.! A.href "https://algwiki.moe/index_alphabetic.html" $ "Shiplist (By Name)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/navy/"                 $ "Navy Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/hull/"                 $ "Hull Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/"               $ "Rarity"
+         H.li $ H.a H.! A.href "https://algwiki.moe/navy/"                 $ "Faction Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/hull/"                 $ "Class Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/"               $ "Rarity Category"
 
          H.li H.! A.class_ "subheader"                                     $ "Tools"
          H.li $ H.a H.! A.href "https://sd.algwiki.moe/"                   $ "SD viewer"
