@@ -534,7 +534,7 @@ indexFood :: String
 indexFood lvl ships
   = H.div H.! A.class_ "container"
     $ mapM_ (\(id, json) -> H.div H.! A.class_ "ship"
-                            $ do a <- return $ H.a H.! A.href (H.stringValue $ "ships/" ++ json % "link" ++ ".html")
+                            $ do a <- return $ H.a H.! A.href (H.stringValue $ lvl ++ "ships/" ++ json % "link" ++ ".html")
                                  mapM_ (\(x, f) -> H.a H.! A.href (H.stringValue $ lvl ++ x ++ "/" ++ json % x ++ ".html")
                                                    $ H.img H.! A.src (H.stringValue $ f $ json % x) H.! A.title (H.stringValue $ json % x) H.! A.class_ (H.stringValue x))
                                    $ [("hull", hull),
