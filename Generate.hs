@@ -100,8 +100,8 @@ sidebar
     $ do H.li H.! A.class_ "subheader"                                     $ H.h1 "/alg/ Wiki"
 
          H.li H.! A.class_ "subheader"                                     $ "Database"
-         H.li $ H.a H.! A.href "https://algwiki.moe/index_id.html"         $ "Shiplist (By ID)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/index_alphabetic.html" $ "Shiplist (By Name)"
+         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist.html"         $ "Shiplist (By ID)"
+         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist_alpha.html" $ "Shiplist (By Name)"
          H.li $ H.a H.! A.href "https://algwiki.moe/navy/"                 $ "Faction Category"
          H.li $ H.a H.! A.href "https://algwiki.moe/hull/"                 $ "Class Category"
          H.li $ H.a H.! A.href "https://algwiki.moe/rarity/"               $ "Rarity Category"
@@ -668,7 +668,7 @@ main
                                $ do H.nav
                                       $ do H.a H.! A.href "../index.html" $ "Home"
                                            " > "
-                                           H.a H.! A.href "../index_id.html" $ "Shiplist"
+                                           H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
                                     H.main $ H.table $ showship encn skins json
@@ -684,6 +684,6 @@ main
        makeIndex "rarity" rarity shiplist'
        makeIndex "hull"   hull   shiplist'
        makeIndex "navy"   navy   shiplist'
-       makeMainIndex "index_id" "Index (By ID)" shiplist
-       makeMainIndex "index_alphabetic" "Index (Alphabetic)"
+       makeMainIndex "shiplist" "Shiplist (By ID)" shiplist
+       makeMainIndex "shiplist_alpha" "Shiplist (Alphabetic)"
          $ map (sortOn (\(_, json) -> json % "name")) $ shiplist
