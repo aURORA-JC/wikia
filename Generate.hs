@@ -99,11 +99,6 @@ sidebar
     $ H.ol
     $ do H.li H.! A.class_ "subheader"                                     $ H.h1 "/alg/ Wiki"
 
-         H.li H.! A.class_ "subheader"                                     $ "Updates"
-         H.li $ H.a H.! A.href ""                                          $ "News"
-         H.li $ H.a H.! A.href "https://algwiki.moe/"                      $ "JP Server"
-         H.li $ H.a H.! A.href "https://algwiki.moe/"                      $ "EN Server"
-
          H.li H.! A.class_ "subheader"                                     $ "Database"
          H.li $ H.a H.! A.href "https://algwiki.moe/index_id.html"         $ "Shiplist (By ID)"
          H.li $ H.a H.! A.href "https://algwiki.moe/index_alphabetic.html" $ "Shiplist (By Name)"
@@ -601,7 +596,7 @@ makeIndex category f ships
                      H.preEscapedToHtml $ capitalize category
               H.ol
                 $ mapM_ (\x -> H.li
-                               $ H.a H.! A.href (H.stringValue $ "../" ++ x ++ ".html")
+                               $ H.a H.! A.href (H.stringValue $ x ++ ".html")
                                $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 64px; max-height: 64px;"
                                     H.preEscapedToHtml x) subcats
   where
