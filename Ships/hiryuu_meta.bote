@@ -1,0 +1,640 @@
+{
+	"name_reference": "hiryuu_meta",
+	"cn_reference": "feilong_alter",
+	"nameJP": "飛龍(META)",
+	"nameCN": "龙·META",
+	"ID": "M001",
+	"name": "Hiryuu META",
+	"internal_id": "9707011",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Aircraft Carrier",
+	"navy": "META",
+	"prefix": "",
+	"buildTime": "",
+	"class": "",
+	"voiceActress": "Shizuka Ishigami",
+	"parameters": {
+		"firepower": "E",
+		"torpedo": "E",
+		"aviation": "S",
+		"evasion": "B",
+		"antiAir": "A",
+		"hp": "B"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "2020/12/22",
+		"CN": "2020/12/22",
+		"KR": "",
+		"EN": "2020/12/22"
+	},
+	"artist": {
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
+	},
+	"acquisitionMethod": "META Lab",
+	"skill": {
+		"1": {
+			"icon": "800040",
+			"requirement": "Tactical Training",
+			"name": "Scorched Blade",
+			"type": "Offense",
+			"description": "10s after the battle begins and every 20s after that: executes a Lv.1 (Lv.10) slashing attack which inflicts a DMG debuff to enemies hit, increasing the DMG they take from Hiryuu (META) by 5.0% (15.0%) for 15s. (Slash attack DMG is based on the skill's level.)"
+		},
+        "2": {  
+            "icon": "800050",
+            "requirement": "Tactical Training",
+            "name": "Cards of Light and Dark",
+            "type": "Support",
+            "description": "Increases this ship's AVI by 10.0% (20.0%). Every 20s: launches a randomly chosen airstrike (DMG is based on the skill's level and the airstrike pattern.)"
+        },
+        "3": {  
+            "icon": "800060",
+            "requirement": "Tactical Training",
+            "name": "The Cherry Petal Memento",
+            "type": "Defense",
+            "description": "When this ship equips a Sakura Empire aircraft: launches a special Lv.1 (Lv.10) airstrike every 15s (DMG is based on the skill's level); if not equipping one, instead receives the following buff: the first 2 (4) times this ship is hit, the hits inflict 15.0% (35.0%) less DMG. After being hit 2 (4) times: this ship takes 4.5% (12.0%) less DMG and gains 4.5% (12.0%) EVA until the end of the battle."
+        },
+        "4": {  
+            "icon": "800070",
+            "requirement": "Default Unlocked",
+            "name": "Scorched Blade",
+            "type": "Support",
+            "description": "[Operation Siren] When fighting humanoid Siren fleets or Boss fleets: this ship deals 8% more DMG."
+        }
+	},
+	"skin": {
+		"1": {
+			"id": "feilong_alter",
+			"name": "Hiryuu META",
+			"description": "Hiryuu META",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+                "1": {  
+                    "id": "1"
+                },
+                "2": {  
+                    "id": "2"
+                },
+                "3": {  
+                    "id": "3"
+                },
+                "4": {  
+                    "id": "4"
+                },
+                "5": {  
+                    "id": "5"
+                },
+                "6": {  
+                    "id": "6"
+                }
+			}
+		}
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "3913",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "213",
+			"aviation": "292",
+			"reload": "77",
+			"hit": "55",
+			"evasion": "26",
+			"speed": "34",
+			"luck": "36",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "5644",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "308",
+			"aviation": "419",
+			"reload": "136",
+			"hit": "88",
+			"evasion": "58",
+			"speed": "34",
+			"luck": "36",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "14",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "946",
+			"firepower": "0",
+			"torpedo": "0",
+			"antiAir": "59",
+			"aviation": "80",
+			"reload": "49",
+			"hit": "23",
+			"evasion": "11",
+			"speed": "34",
+			"luck": "36",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "8",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Number of Torpedo Bombers +1 / Torpedo Bomber Efficiency +5%",
+		"tier2": "Hangar Capacity +1 / Number of Fighters +1 / Torpedo Bomber Efficiency +10%",
+		"tier3": "Number of All Planes +1 / Torpedo Bomber Efficiency +15%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Fighter",
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/2/3",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Dive Bomber",
+			"efficiency": "110%/110%/110%/110%",
+			"amount": "1/1/1/2",
+			"preload": "0/0/0/0"
+		},
+		"3": {
+			"type": "Torpedo Bomber",
+			"efficiency": "120%/125%/135%/150%",
+			"amount": "1/2/2/3",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "feilong_alter",
+				"id": "",
+				"label": "Hiryuu META",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "龙号航空母舰 (若已获得相应的meta角色，奖励将会转化为对应的角色结晶，可在「META研究室」-「能量激活」中使用)",
+						"chineseTL": "Hiryuu Close Carrier (If you have obtained the META Ship, the reward will reward you with the Ship, you can strengthen her in the META Lab.)",
+						"chineseNote": "",
+						"japanese": "飛龍型航空母艦・飛龍 （1隻しか所持できません。2隻目を入手した場合、限界突破素材に変換されます）",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "I'm getting all fired up! The name's Hiryuu, Hiryuu from the 2nd CarDiv. As a member of this fleet, I'll obey your orders. I do hope that you are qualified to lead us.",
+						"englishNote": ""
+					},
+                    "2": {  
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "航空母舰，二航战龙。……我是士兵，能够战斗的士兵，你只要知道这些就够了。",
+                        "chineseTL": "Carrier, of the 2nd Carrier Division, Hiryuu. ... I am a warrior, a warrior that can fight, you just need to know this.",
+                        "chineseNote": "",
+                        "japanese": "航空母艦飛龍です。…今はただの一兵にすぎない。それだけ知っていただければ十分です",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm the aircraft carrier, Hiryuu. ...Right now, I am naught but a single soldier. That's all you need to know about me.",
+                        "englishNote": ""
+                    },
+                    "3": {  
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "我是龙，二航战的龙。既然加入，那我便会听从你的指挥，希望…你是真正有资格指挥舰队之人吧。",
+                        "chineseTL": "I am Hiryuu, Hiryuu of the 2nd Carrier Division. Since I'm joining, I will obey your command,, I hope... you are a truly qualified person to lead this fleet.",
+                        "chineseNote": "",
+                        "japanese": "ぼくは飛龍、二航戦の飛龍だ。この艦隊に入ったからには指揮に従います。あなたが艦船を従えるにふさわしい存在だと願う",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm getting all fired up! The name's Hiryuu, Hiryuu from the 2nd CarDiv. As a member of this fleet, I'll obey your orders. I do hope that you are qualified to lead us.",
+                        "englishNote": ""
+                    },
+                    "4": {  
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "告诉我，今天需要歼灭的敌人在哪里。",
+                        "chineseTL": "Tell me, where are the enemies that I need to eliminate are today.",
+                        "chineseNote": "",
+                        "japanese": "今日倒すべき敵がどこにいるか、教えてください",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Guide my blade. Where do my enemies lie?",
+                        "englishNote": ""
+                    },
+                    "5": {  
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "有在我这晃荡的闲情，不妨多关心关心港区的其他伙伴吧。",
+                        "chineseTL": "Rather than be concerned over my bored expression, why not worry about the others at the docks.",
+                        "chineseNote": "",
+                        "japanese": "ぼくよりほかの仲間を気にかけてやってほしい。…ここで油を売っているくらいなら……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'd rather you pay attention to the others. ...If you're going to keep idling around here...",
+                        "englishNote": ""
+                    },
+                    "6": {  
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "企业么？无论作为对手，或是作为队友，都是值得尊敬的存在。",
+                        "chineseTL": "Enterprise huh? Regardless she is an enemy or a comrade, she is an identity worth respect.",
+                        "chineseNote": "",
+                        "japanese": "エンタープライズですか？ライバルとしても仲間としても、尊敬する存在であることには違いありませんよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Enterprise? Whether as a rival or an ally, there's no doubt that she's an existence to be respected.",
+                        "englishNote": ""
+                    },
+                    "7": {  
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "花札？现在不是考虑玩的时候吧。",
+                        "chineseTL": "Hanafuda? Now isn't the time to even consider playing, right?",
+                        "chineseNote": "",
+                        "japanese": "花札…今は娯楽に興じている場合じゃないな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hanafuda...? Now's not the time to be indulging in entertainment.",
+                        "englishNote": ""
+                    },
+                    "8": {  
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "平日的锻炼，不是为了夸耀身手，是为了在战场上更好的保护伙伴，消灭敌人，不是吗？",
+                        "chineseTL": "A daily regiment of training, is not to showcase one's ability, it is to ensure one can properly protect one's comrades and defeat enemies on the battlefield, I'm not wrong am I?",
+                        "chineseNote": "",
+                        "japanese": "普段の鍛錬は腕自慢するようなものではなく、仲間を守り、敵を倒すためです。違いますか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "My usual training regimen isn't designed to show off my skills, but rather to protect my allies and defeat my enemies. Am I mistaken?",
+                        "englishNote": ""
+                    },
+                    "9": {  
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "有事就说，不用顾虑那么多。",
+                        "chineseTL": "If you have something to say, just say it, I won't have any misgivings about it.",
+                        "chineseNote": "",
+                        "japanese": "言いたいことがあれば言ってみればいい。気を使っていても何も出ませんよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If you have something to say, just spit it out. If you fuss over it too much, you're just going to end up not saying anything.",
+                        "englishNote": ""
+                    },
+                    "10": {  
+                        "event": "Tech (Special)",
+                        "media": "touch_2",
+                        "chinese": "！？…下次，我会真的斩下去的。",
+                        "chineseTL": "!? ... Next time, I will really cut you down.",
+                        "chineseNote": "",
+                        "japanese": "！？…っ！…次は本気で斬りかかりますよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hah?! ...Hmph! ...Next time, I'll assault you back with my blade.",
+                        "englishNote": ""
+                    },
+                    "11": {  
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "尽是些琐碎的事务啊…",
+                        "chineseTL": "So it's just these minor tasks huh...",
+                        "chineseNote": "",
+                        "japanese": "細かいお仕事ばかりですね…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "These are all just trifling matters...",
+                        "englishNote": ""
+                    },
+                    "12": {  
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "任务完成了的话，就尽快汇报和收取报酬吧。",
+                        "chineseTL": "If the tasks are done, then hurry, report it in and collect the rewards.",
+                        "chineseNote": "",
+                        "japanese": "細かくても任務です。報酬を受け取ったら報告をしましょう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Though they're all just trifling matters, they're still missions proper. I'll report back to you when I finish receiving the rewards.",
+                        "englishNote": ""
+                    },
+                    "13": {  
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "你的信，接好了。",
+                        "chineseTL": "Your letters, now catch.",
+                        "chineseNote": "",
+                        "japanese": "指揮官のメールです。受け取ってください",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Please take this, Commander. It's your mail.",
+                        "englishNote": ""
+                    },
+                    "14": {  
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "不用在意我，做你该做的事就好。",
+                        "chineseTL": "Do not mind me, you do what you are required to do.",
+                        "chineseNote": "",
+                        "japanese": "ぼくのことは心配しなくていい。そちらのやるべきことをやってくれさえすればそれでいい",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Don't worry about me. Simply stay focused on what it is you need to do.",
+                        "englishNote": ""
+                    },
+                    "15": {  
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "珍惜现在物资丰足的时候吧，有朝一日你会无比怀念它的。",
+                        "chineseTL": "Treasure the times that you have surplus of supplies, there will be a day where you look back at those times fondly.",
+                        "chineseNote": "",
+                        "japanese": "物資が十分な今を大事に思うべきだ。いつか懐かしく感じることになるだろう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It's good to count your blessings for the fortune of having plenty in the present moment. One day, it'll just be a wistful memory.",
+                        "englishNote": ""
+                    },
+                    "16": {  
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "……谢谢。",
+                        "chineseTL": "... Thanks.",
+                        "chineseNote": "",
+                        "japanese": "……かたじけない",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "...What a shame.",
+                        "englishNote": ""
+                    },
+                    "17": {  
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "兵贵神速！舰载机，起飞！",
+                        "chineseTL": "Set off with haste! Planes, take off!",
+                        "chineseNote": "",
+                        "japanese": "拙速で仕掛ける！艦載機、飛べ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Quick, let's get started! Come forth, my planes!",
+                        "englishNote": ""
+                    },
+                    "18": {  
+                        "event": "Victory",
+                        "media": "MVP",
+                        "chinese": "一场战斗的局部胜利，并不值得太过高兴",
+                        "chineseTL": "A partial victory huh, it isn't worth getting too excited over.",
+                        "chineseNote": "",
+                        "japanese": "局所的な勝利など浮かれるに値しない",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Such a small victory is not worth celebrating...",
+                        "englishNote": ""
+                    },
+                    "19": {  
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "姐姐…对不起……",
+                        "chineseTL": "Sister... I'm sorry...",
+                        "chineseNote": "",
+                        "japanese": "姉様…無念……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Sister... I'm sorry...",
+                        "englishNote": ""
+                    },
+                    "20": {  
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "现在正是奋起之时！",
+                        "chineseTL": "This is exactly the time to rally up!",
+                        "chineseNote": "",
+                        "japanese": "今こそ奮い立つ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm all fired up!",
+                        "englishNote": ""
+                    },
+                    "21": {  
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "还…不到绝望之时！",
+                        "chineseTL": "N-... Not yet - the time to despair isn't now!",
+                        "chineseNote": "",
+                        "japanese": "まだ絶望する時ではないッ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "22": {  
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "…别来管我。",
+                        "chineseTL": "... Don't come and bother me.",
+                        "chineseNote": "",
+                        "japanese": "ぼくに構うな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Leave me alone.",
+                        "englishNote": ""
+                    },
+                    "23": {  
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "无须多问，现在我是你的士兵，你是我的指挥者，如此而已。",
+                        "chineseTL": "Without a question, I am your soldier now, and you are my Commander, that is all there is to it.",
+                        "chineseNote": "",
+                        "japanese": "今のぼくは兵であり、指揮官に従う、それだけのものです",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Right now, I'm merely a soldier. I simply follow your directives, and that's all there is to it.",
+                        "englishNote": ""
+                    },
+                    "24": {  
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "战场上片刻的犹豫，带来的也许就是全盘的溃败。所以，我从不在战斗时思考如何取胜之外的事情。",
+                        "chineseTL": "The passing moments of hesitation on the battlefield, what it brings about is perhaps the defeat of the whole. So, I will never consider anything besides how to achieve victory when in battle.",
+                        "chineseNote": "",
+                        "japanese": "戦場では、例え一瞬の迷いでも敗北を招くことがあります。どうやって相手を倒して勝つか以外、何も考えないこと、それがぼくの戦い方です",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "On the battlefield, even a moment's hesitation can invite total destruction. Thinking about nothing other than how to defeat the enemy - that's my fighting style.",
+                        "englishNote": ""
+                    },
+                    "25": {  
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "即便面对强敌，即便知道自己毫无胜算，你也会义无反顾地战斗吗？——“若是为了守护重要之物的话”…吗？哼，虽然天真，不过，并不让人反感。",
+                        "chineseTL": "Even when meeting a strong enemy, or even when knowing one might have no chance of victory, will you fight on regardless? \"If it is to protect something important\" huh...? Hmph, you might be naïve, but this part of you isn't a turn off.",
+                        "chineseNote": "",
+                        "japanese": "指揮官は勝てるはずがない強敵相手でも挑み続けますか？……守りたいもののためなら、か。指揮官らしく考え抜いたものと思いますが、嫌いではありませんよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Would you keep challenging strong foes you have no chance of defeating? ...For the sake of those you wish to protect? Since it's you, I can see that you've given it plenty of thought. I support that sentiment.",
+                        "englishNote": ""
+                    },
+                    "26": {  
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "从你的身上，能让人感受到坚定的“信念”，若是你的话，也许…呵，看来我也还有着天真的一面啊……没什么，总之，我认可你了。我会成为你最锋利的刃，尽管驱使我吧。",
+                        "chineseTL": "From you, one can sense a firm \"conviction\", if it is you, perhaps... Ah, looks like I still retain some innocence huh. ... It's nothing, in any case, I acknowledge you. I will become your sharpest blade, feel free to use me.",
+                        "chineseNote": "",
+                        "japanese": "この揺るがない「信念」、そう、指揮官ならあるいは……ふん、ぼくにはまだ甘いところが…何でもありません。指揮官の刃として、これからもぼくにご命令を",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This unwavering conviction, that if it's you, there will be a way... Hmm, I guess I've still got a naive side to me... It's nothing. Commander, as your blade, I will continue to pledge myself to your service.",
+                        "englishNote": ""
+                    },
+                    "27": {  
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "这便是…誓约的证明吗。我明白了，既然你如此珍惜我这把“名刀”，我也只好顺应你的心意了。只可惜，我既不温柔，身材也不好，要委屈你了，呵呵。",
+                        "chineseTL": "This is... proof of an oath huh. I understand, since you cherish a \"famed blade\" like me, I can only respond to your feelings. It is a pity, I am not gentle, nor have a good figure, thus will be harder on you, heh.",
+                        "chineseNote": "",
+                        "japanese": "これは…誓いの証明…わかりました。貴方がぼくという刃を大切にするというのなら、その気持ちに背かずについていきましょう。…性格もスタイルも他の子に及ばないぼくで苦労をかけてしまいますが。ふふふ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This is... the proof of your oath... I understand. If you will continue to value me as your blade, I will not turn my back to you. ...Though, my comparatively uncomely and unpleasant self will give you a hard time. Hehehe.",
+                        "englishNote": ""
+                    }
+				}
+			}
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "",
+		"add_get_attr": "",
+		"add_get_value": "",
+		"add_get_shiptype": "",
+		"pt_upgrade": "",
+		"pt_level": "",
+		"add_level_attr": "",
+		"add_level_value": "",
+		"add_level_shiptype": "",
+		"t_level": "",
+		"ships": ""
+	}
+}

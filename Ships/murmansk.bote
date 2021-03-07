@@ -1,0 +1,916 @@
+{
+	"name_reference": "murmansk",
+	"cn_reference": "moermansike",
+	"nameJP": "ムルマンスク",
+	"nameCN": "摩尔曼斯克",
+	"ID": "498",
+	"name": "Murmansk",
+	"internal_id": "702061",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "Northern Union",
+	"prefix": "SN",
+	"buildTime": "01:05:00",
+	"class": "Omaha",
+	"voiceActress": "Kohara Konomi",
+	"parameters": {
+		"firepower": "C",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "B",
+		"hp": "C"
+	},
+	"scrap": {
+		"gold": "6",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "2021/02/25",
+		"CN": "2021/02/25",
+		"KR": "",
+		"EN": "2021/02/25"
+	},
+	"artist": {
+		"name": "Byulzzi",
+		"weibo": "",
+		"twitter": "https://twitter.com/byul_zzi",
+		"pixiv": "https://www.pixiv.net/member.php?id=5882726",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "12",
+		"torpedo": "16",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Event: Khorovod of Dawn's Rime",
+	"skill": {
+		"1": {
+			"icon": "14230",
+			"requirement": "Default Unlocked",
+			"name": "Capricious Firing",
+			"type": "Offense",
+			"description": "For the first 45s of a battle, self FP/Torp +12%; When equipped with HE main guns, deal 10% more damage to BB/BC enemies."
+		},
+        "2": {
+            "icon": "14240", 
+            "requirement": "Default Unlocked", 
+            "name": "Laid-Back Defending", 
+            "type": "Defense", 
+            "description": "Take 15% less damage from AP shells; Every 20s, 60% to fire a special barrage."
+        },
+        "3": {
+            "icon": "20100", 
+            "requirement": "Limit Break I (III)", 
+            "name": "All Out Assault", 
+            "type": "Offense", 
+            "description": "Activates All Out Assault Ⅱ: Omaha Class once every 8 times the Main Guns are fired."
+        }
+	},
+	"skin": {
+		"1": {
+			"id": "moermansike",
+			"name": "Murmansk",
+			"description": "Omaha-class light cruiser – Murmansk",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+                "1": {
+                    "id": "1" 
+                },
+                "2": {
+                    "id": "2" 
+                },
+                "3": {
+                    "id": "3" 
+                },
+                "4": {
+                    "id": "4" 
+                },
+                "5": {
+                    "id": "5" 
+                },  
+                "6": {
+                    "id": "6" 
+                },  
+                "7": {
+                    "id": "7" 
+                }
+			}
+		},
+        "2": {
+            "id": "moermansike_2", 
+            "name": "Sceneries of Pure Snow", 
+            "description": "...Achoo! Uhh, good morning... Snow? Yeah, it is snowing today... Woah, it's really coming down hard... Ahaha~", 
+            "expression": {
+                "0": {
+                    "id": "0" 
+                },  
+                "1": {
+                    "id": "1" 
+                },  
+                "2": {
+                    "id": "2" 
+                },  
+                "3": {
+                    "id": "3" 
+                },  
+                "4": {
+                    "id": "4" 
+                },
+                "5": {
+                    "id": "5" 
+                },  
+                "6": {
+                    "id": "6" 
+                }
+            }
+        },
+        "101": {
+            "id": "moermansike_ex1100", 
+            "name": "Murmansk", 
+            "description": "", 
+            "expression": {
+                "0": {
+                    "id": "0" 
+                }   
+            }   
+        }
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": "Twin 152mm Main Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": "76mm AA Gun"
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "3005",
+			"firepower": "137",
+			"torpedo": "228",
+			"antiAir": "257",
+			"aviation": "0",
+			"reload": "165",
+			"hit": "135",
+			"evasion": "79",
+			"speed": "35",
+			"luck": "65",
+			"asw": "113",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "3396",
+			"firepower": "157",
+			"torpedo": "261",
+			"antiAir": "293",
+			"aviation": "0",
+			"reload": "190",
+			"hit": "151",
+			"evasion": "101",
+			"speed": "35",
+			"luck": "65",
+			"asw": "128",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "10",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "581",
+			"firepower": "29",
+			"torpedo": "48",
+			"antiAir": "55",
+			"aviation": "0",
+			"reload": "70",
+			"hit": "52",
+			"evasion": "30",
+			"speed": "35",
+			"luck": "65",
+			"asw": "31",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "3",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault Ⅰ / All Weapons' Efficiency +2%",
+		"tier2": "Torpedo Base +1 / Torpedo Preload +1 / All Weapons' Efficiency +3%",
+		"tier3": "Upgrade All Out Assault Ⅰ→Ⅱ / All Weapons' Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Light Cruiser",
+			"efficiency": "110%/112%/115%/120%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "145%/147%/150%/155%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "120%/122%/125%/130%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "moermansike",
+				"id": "0",
+				"label": "Murmansk",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+                        "english": "Omaha-class light cruiser – Murmansk",
+						"englishNote": ""
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm the light cruiser Murmansk. In terms of my history, I used to be an Omaha-class cruiser, doing rescue and escort missions. Then after becoming part of the Northern Parliament, I took part in some training missions~",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Zdravstuvuyte, Comrade~ I'm the Omaha-class light cruiser, Milwaukee, reporting for duty~ Oh, did I slip up? ...Ahaha, sure did. I'm Murmansk, from the Northern Parliament. It's a pleasure to meet you~",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Good morning. Sorry that I'm late, I ran into a friend along the way and stopped to have a chat.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "How do you like my tails? They're super fluffy and feel nice in your hands~ By the way, I made them myself♪",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are we going on a rescue mission today? I really love helping people~",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Pirouette and a spin~ To my right is a fox, and a bunny to the left~♪",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Whew... Hmm~♪ Staaare... Aha!",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hmmhm~♪ Oh, do you want to chat? Why, sure thing!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ummm, I've got just a teensy qualm about you touching me this way...",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You've still got missions~ Would you like me to pester you about them the next time you forget?",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mission complete~ Now let's tackle another job while we're in high spirits~",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You have new mail~",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Good to see you back~ I've left a refreshing drink and a juicy tangerine on your desk~",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The team has come back~ Should we offer them a few warming shots of vodka?",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I've gotten stronger~",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'll open fire on the enemy~",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "We won~! Fighting comes naturally to me~",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "We lost the battle... I'm sorry for messing up...",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Vperod~!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Aww, these tails took a lot of work to make...",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Is there something wrong? I'm worried about you...",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I might not have many special skills to boast about, but I'll do my best to live up to your hopes~",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oops, sorry, I lost track of time while chatting with a friend, and I forgot I was meeting with you today... Did I make you feel sad? I'm really sorry.",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hmmhm~♪ Once I start chatting with you, it's really hard to stop~ Is that a problem for you, in regards to work? Aww, that's a shame...",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Today is my watch-only day, but tomorrow we can chat to our heart's content. This should fix our little time-schedule problem~ ...It doesn't make much difference in the end? Oh, I see...",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Taking this oath means we will share an eternal bond, right~? Wonderful! Then from this day forward, I promise I will see you every day, without it causing you any trouble~",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Extra",
+                        "media": "extra",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Present Like", 
+                        "media": "present_like",
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "",  
+                        "englishNote": ""
+                    },   
+                    "31": {
+                        "event": "Present Dislike", 
+                        "media": "present_dislike",
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "",  
+                        "englishNote": ""
+                    }
+				}
+			},
+            "2": {
+                "skin_id": "moermansike_2",
+                "id": "1",
+                "label": "Sceneries of Pure Snow",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "...Achoo! Uhh, good morning... Snow? Yeah, it is snowing today... Woah, it's really coming down hard... Ahaha~",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "...Achoo! Uhh, good morning... Snow? Yeah, it is snowing today... Woah, it's really coming down hard... Ahaha~",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mrmm... *yaaawn*... Good morning... Sho shleepy...",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm spending the whole day lazing around indoors, so I don't really need to get dressed~ You can change into loungewear too if you want, Commander~",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Have you seen my favorite pillow? It's \"just down pillow\"...?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Apparently, Pamiat Merkuria likes lazing around too~ I find that surprising, but also kind of unsurprising at the same time...",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Whew... I can't help but admire how well everyone's holding up in this snowy weather~",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You won't find any tails down there today~",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Welcome back~! A warm beverage would be perfect right now~ Like vodka, perhaps?",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Low HP",
+                        "media": "hp_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh gosh! Silly me, I need to focus...!",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Victory",
+                        "media": "mvp_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Easy as porridge in the morning~",
+                        "englishNote": ""
+                    } 
+                }
+            },
+            "101": {
+                "skin_id": "moermansike_ex1100",
+                "id": "0",
+                "label": "Murmansk",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Good morning! I managed to make it on time today. Teehee~♪",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A friend told me a while ago that being around me feels warming sometimes, and chilling other times... Umm, that's not really a good thing, is it?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 5",
+                        "media": "main_5_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Staaare... Hey~♡ You're really good-looking, Commander~♪",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Gosh, your hand feels so warm~",
+                        "englishNote": ""
+                    }       
+                }
+            }
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "12",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Light Cruiser",
+		"pt_upgrade": "24",
+		"pt_level": "18",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Light Cruiser",
+		"t_level": "3",
+		"ships": "concord,marblehead,memphis,murmansk,omaha,raleigh,richmond"
+	}
+}

@@ -1,0 +1,1051 @@
+{
+	"name_reference": "gremyashchy",
+	"cn_reference": "leiming",
+	"nameJP": "グレミャーシュチ",
+	"nameCN": "雷鸣",
+	"ID": "497",
+	"name": "Gremyashchy",
+	"internal_id": "701071",
+	"rarity": "Elite",
+	"initialStar": "★★☆☆☆",
+	"hull": "Destroyer",
+	"navy": "Northern Union",
+	"prefix": "SN",
+	"buildTime": "00:32:00",
+	"class": "Gnevny",
+	"voiceActress": "Yamada Marina",
+	"parameters": {
+		"firepower": "A",
+		"torpedo": "D",
+		"aviation": "E",
+		"evasion": "B",
+		"antiAir": "C",
+		"hp": "D"
+	},
+	"scrap": {
+		"gold": "4",
+		"oil": "3",
+		"medal": "4"
+	},
+	"releaseDate": {
+		"JP": "2021/02/25",
+		"CN": "2021/02/25",
+		"KR": "",
+		"EN": "2021/02/25"
+	},
+	"artist": {
+		"name": "全班最菜嘤嘤嘤",
+		"weibo": "https://weibo.com/u/7477949468",
+		"twitter": "https://twitter.com/zelda10010",
+		"pixiv": "",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "9",
+		"torpedo": "17",
+		"aviation": "0",
+		"reload": "14"
+	},
+	"acquisitionMethod": "Event: Khorovod of Dawn's Rime",
+	"skill": {
+		"1": {
+			"icon": "14210",
+			"requirement": "Default Unlocked",
+			"name": "Thunderous Guardian",
+			"type": "Offense",
+			"description": "For the first 30s of a battle, self speed +5, FP +30%; After 30s, self evasion stat +15%."
+		},
+        "2": {
+            "icon": "14220", 
+            "requirement": "Default Unlocked", 
+            "name": "Silent Advance", 
+            "type": "Defense", 
+            "description": "Every 20s, 25% to fire a torp barrage (same attribute as firing equipped torps) and evade all attacks for 3s."
+        },
+        "3": {
+            "icon": "20100", 
+            "requirement": "Limit Break I (III)", 
+            "name": "All Out Assault", 
+            "type": "Offense", 
+            "description": "ctivates All Out Assault Ⅱ: Gnevny once every 10 times the Main Guns are fired."
+        }
+	},
+	"skin": {
+		"1": {
+			"id": "leiming",
+			"name": "Gremyashchy",
+			"description": "Gnevny-class destroyer - Gremyashchy",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+                "1": {
+                    "id": "1" 
+                },
+                "2": {
+                    "id": "2" 
+                },
+                "3": {
+                    "id": "3" 
+                },
+                "4": {
+                    "id": "4" 
+                },
+                "5": {
+                    "id": "5" 
+                },  
+                "6": {
+                    "id": "6" 
+                },  
+                "7": {
+                    "id": "7" 
+                },  
+                "8": {
+                    "id": "8" 
+                }
+			}
+		},
+        "2": {
+            "id": "leiming_2",
+            "name": "A Daytime Delight is in a Book",
+            "description": "Wh-who gave you the right to just barge in? ...I did? Huh. Well, seeing as you're here, I guess we could read a book together. Mm, that's all.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                }
+            }
+        },
+        "101": {
+            "id": "leiming_ex1100",
+            "name": "Gremyashchy",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
+        }
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": "Single 130mm Main Gun"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": "Triple 533mm Torpedo"
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "1804",
+			"firepower": "123",
+			"torpedo": "244",
+			"antiAir": "130",
+			"aviation": "0",
+			"reload": "173",
+			"hit": "174",
+			"evasion": "159",
+			"speed": "45",
+			"luck": "70",
+			"asw": "180",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"120": {
+			"hp": "2165",
+			"firepower": "142",
+			"torpedo": "279",
+			"antiAir": "150",
+			"aviation": "0",
+			"reload": "199",
+			"hit": "183",
+			"evasion": "165",
+			"speed": "45",
+			"luck": "70",
+			"asw": "199",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "9",
+			"armor": "Light"
+		},
+		"base": {
+			"hp": "349",
+			"firepower": "26",
+			"torpedo": "52",
+			"antiAir": "28",
+			"aviation": "0",
+			"reload": "73",
+			"hit": "67",
+			"evasion": "61",
+			"speed": "45",
+			"luck": "70",
+			"asw": "49",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "2",
+			"armor": "Light"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault I / Main Gun Efficiency +5%",
+		"tier2": "Torpedo Base +1 / Torpedo Preload +1 / Main Gun Efficiency +10%",
+		"tier3": "Upgrade All Out Assault Ⅰ→Ⅱ / All Weapons' Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Destroyer",
+			"efficiency": "140%/145%/155%/160%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "105%/105%/105%/110%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "105%/105%/105%/110%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "leiming",
+				"id": "0",
+				"label": "Gremyashchy",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+                        "english": "Gnevny-class destroyer - Gremyashchy",
+						"englishNote": ""
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm Gremyashchy, Grozny-class destroyer. I didn't just do escort missions, I squared off with enemy destroyers and rescued allies too. I've done almost everything, save for dealing with aircraft carriers, so I'm fit for pretty much any mission. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Gremyashchy, Northern Parliament destroyer. I'll do what I need to do, so don't bother me for the other stuff. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You've got lots of work to do. Like, that huge stack of papers on your desk.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What are you ogling me for? Are you some sort of creep?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "One whack with this thing dispatches any and all bugs and creeps. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Bad things happen to people who anger Gromky. Watch yourself, Commander.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Slacking on the job, huh... Maybe I'll tell Gromky about this.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "...You need something?",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Th-that confirms it, you're a creep...",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Cut it out. My hat's gonna fall off.",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "That's a whole lot of unfinished missions...",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mission complete. You know the drill, claim the rewards. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Check your mail, yadda yadda. If you don't, I'll just throw it away. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Here, some cookies Gromky made. As your reward for a job well done.",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commission team's come back. I kind of expected that you knew that already.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Thanks for making me stronger. Yeah, that's all.",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm good on fuel. Only thing left to do is dispatch the enemy!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "That takes care of the enemies. I guess that's all.",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ugh... That was a pretty garbage battle...",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "...Out of my way.",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I've been hurt. Mm, that's all...",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "...Why exactly are you still here?",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I've always got my eyes on you. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You might fool Gromky, but you can't fool me. If I catch you doing anything questionable, I won't hesitate to whack you with this thing. Mm, that'll be all.",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You're awfully good at putting on faces. Unless... you're actually an honest, decent person after all? I guess I'll give you the benefit of the doubt for now. Mm, that'll be all.",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "All right, you're a decent person, I'll give you that. Huh? You want me to... be with you, forever? Ummmm... I-I need to think about, that's all...",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I've sailed through bad weather and finished countless tough escort missions. If I can do that, then I can promise to follow you anywhere you go, Commander. Mm, that'll be all.",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'll protect you.",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2", 
+                        "media": "link2",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "Don't be reckless, huh... You too.", 
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3", 
+                        "media": "link3",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "Friends...", 
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Additional Voice Line 4",  
+                        "media": "link4",
+                        "chinese": "",  
+                        "chineseTL": "",  
+                        "chineseNote": "",  
+                        "japanese": "",  
+                        "japaneseTL": "",  
+                        "japaneseNote": "",  
+                        "english": "C-can I have some of that?", 
+                        "englishNote": ""
+                    },
+                    "33": {
+                        "event": "Extra", 
+                        "media": "extra",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "34": {
+                        "event": "Present Like", 
+                        "media": "present_like",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "35": {
+                        "event": "Present Dislike", 
+                        "media": "present_dislike",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    }
+				}
+			},
+            "2": {
+                "skin_id": "leiming_2",
+                "id": "1",
+                "label": "A Daytime Delight is in a Book",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wh-who gave you the right to just barge in? ...I did? Huh. Well, seeing as you're here, I guess we could read a book together. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wh-who gave you the right to just barge in? ...I did? Huh. Well, seeing as you're here, I guess we could read a book together. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I got up to this part just the other day. Time to read the rest. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Gromky's looking for me? Ugh... I don't wanna go outside. But I'd feel bad about telling her to buzz off, and pretending to be sick would worry her... Hrmmm...",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If you wanna lounge around, do it over there. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mmmh... *yaaaaawn*... Huh?! Oh no, don't tell me I dozed off... You didn't see anything, got it? I mean, of course you didn't!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Retivy... I mean, Tai Yuan, and I shared our recommended book lists. It turns out we've got pretty similar tastes. Heheh.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Want me to read aloud for you, or...?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I-I knew it! You are a creep...!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wanna read this book with me, Commander? This one. It's called \"The Happy Lovebirds.\" If we read it together, I might just be able to figure out what it's about. Mm, that's all.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "There's a letter for you. Can I keep the stamp? Mm, thanks.", 
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "So many books lying around... Oh, Commander, I could use your help returning these books to the shelf when you come back.", 
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Mission",
+                        "media": "task_1",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "You could fill a whole book with all these unfinished mission drafts...", 
+                        "englishNote": ""
+                    } 
+                }
+            },
+            "101": {
+                "skin_id": "leiming_ex1100",
+                "id": "0",
+                "label": "Gremyashchy",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Gnevny-class destroyer - Gremyashchy",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You've got all this work to do before the end of the day? ...I guess we just have to make a miracle happen...",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What are you ogling me for? I don't see what you get out of this...",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 3",
+                        "media": "main_3_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hmh. Just so you know, Gromky, the Commander isn't slacking on the job. Mhm, that's all.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You always drink tea with me, so why do you leave all the cookies to me? ...You'd rather I eat all I want? Huh, I see...",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Uhh, woaaaahhhhh...",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You've earned three cookies for today's sorties. Mm, that'll be all. Now say \"aah.\"",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you ignoring all these missions, hoping they'll go away? Yikes...",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Defeat",
+                        "media": "lose_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Next time, do your job and command properly.",
+                        "englishNote": ""
+                    }
+                }
+            }
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "10",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Destroyer",
+		"pt_upgrade": "22",
+		"pt_level": "16",
+		"add_level_attr": "Firepower",
+		"add_level_value": "1",
+		"add_level_shiptype": "Destroyer",
+		"t_level": "4",
+		"ships": "grozny,stremitelny,gremyashchy,gromky"
+	}
+}

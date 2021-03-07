@@ -1,0 +1,973 @@
+{
+	"name_reference": "tallinn",
+	"cn_reference": "talin",
+	"nameJP": "タリン",
+	"nameCN": "塔林",
+	"ID": "496",
+	"name": "Tallinn",
+	"internal_id": "703011",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Heavy Cruiser",
+	"navy": "Northern Union",
+	"prefix": "SN",
+	"buildTime": "02:00:00",
+	"class": "Admiral Hipper",
+	"voiceActress": "Shitaya Noriko",
+	"parameters": {
+		"firepower": "B",
+		"torpedo": "C",
+		"aviation": "E",
+		"evasion": "C",
+		"antiAir": "B",
+		"hp": "A"
+	},
+	"scrap": {
+		"gold": "9",
+		"oil": "3",
+		"medal": "10"
+	},
+	"releaseDate": {
+		"JP": "2021/02/25",
+		"CN": "2021/02/25",
+		"KR": "",
+		"EN": "2021/02/25"
+	},
+	"artist": {
+		"name": "帕瓦波",
+		"weibo": "https://weibo.com/u/5131774467",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
+	},
+	"enhance": {
+		"firepower": "27",
+		"torpedo": "12",
+		"aviation": "0",
+		"reload": "13"
+	},
+	"acquisitionMethod": "Event: Khorovod of Dawn's Rime",
+	"skill": {
+		"1": {
+			"icon": "14190",
+			"requirement": "Default Unlocked",
+			"name": "Bulwark of Rime",
+			"type": "Defense",
+			"description": "Every 18s, create a shield in front of this ship that can block up to 8 bullets, lasts for 8s; if the shield breaks, fire a special barrage and gain a 5% HP shield on self for 4s."
+		},
+        "2": {
+            "icon": "14200", 
+            "requirement": "Default Unlocked", 
+            "name": "Memorial of Ice and Iron", 
+            "type": "Support", 
+            "description": "When equipped with Northern Parliament or Ironblood Main guns, self damage dealt increased by 12%; When equipped with AP main guns, shell speed increased by 10%; Upon killing 2 enemies with this ship in battle, increase self FP/AA by 8%, lasting until end of battle, max 1 stack."
+        },
+        "3": {
+            "icon": "20200", 
+            "requirement": "Limit Break I (III)", 
+            "name": "All Out Assault - Tallinn I (II)", 
+            "type": "Offense", 
+            "description": "Activates All Out Assault: Tallinn I (II) every 9 (6) times the Main Guns are fired."
+        }
+	},
+	"skin": {
+		"1": {
+			"id": "talin",
+			"name": "Tallinn",
+			"description": "Heavy cruiser - Tallinn.",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+                "1": {
+                    "id": "1" 
+                },
+                "2": {
+                    "id": "2" 
+                },
+                "3": {
+                    "id": "3" 
+                },
+                "4": {
+                    "id": "4" 
+                },
+                "5": {
+                    "id": "5" 
+                }
+			}
+		},
+        "2": {
+            "id": "talin_3", 
+            "name": "Nostalgic Pilsner", 
+            "description": "What, you've never seen the inside of a shipgirl's room? It's not like you're here on official business, so stop standing around already. Find a place to sit and relax.", 
+            "expression": {
+                "0": {
+                    "id": "0" 
+                },  
+                "1": {
+                    "id": "1" 
+                },  
+                "2": {
+                    "id": "2" 
+                },  
+                "3": {
+                    "id": "3" 
+                }
+            }
+        },
+        "101": {
+            "id": "talin_ex1100", 
+            "name": "Tallinn", 
+            "description": "", 
+            "expression": {
+                "0": {
+                    "id": "0" 
+                }
+            }
+        }
+	},
+	"defaultEquipment": {
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": "Twin 203mm Main Gun (SK C)"
+		},
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		},
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
+		}
+	},
+	"stats": {
+		"100": {
+			"hp": "5104",
+			"firepower": "228",
+			"torpedo": "171",
+			"antiAir": "192",
+			"aviation": "0",
+			"reload": "159",
+			"hit": "132",
+			"evasion": "23",
+			"speed": "25",
+			"luck": "80",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"120": {
+			"hp": "5614",
+			"firepower": "261",
+			"torpedo": "196",
+			"antiAir": "221",
+			"aviation": "0",
+			"reload": "182",
+			"hit": "148",
+			"evasion": "61",
+			"speed": "25",
+			"luck": "80",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "12",
+			"armor": "Medium"
+		},
+		"base": {
+			"hp": "987",
+			"firepower": "48",
+			"torpedo": "36",
+			"antiAir": "41",
+			"aviation": "0",
+			"reload": "67",
+			"hit": "51",
+			"evasion": "9",
+			"speed": "25",
+			"luck": "80",
+			"asw": "0",
+			"oxygen": "0",
+			"ammo": "0",
+			"cost": "4",
+			"armor": "Medium"
+		},
+		"100retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		},
+		"120retrofit": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		}
+	},
+	"limitBreak": {
+		"tier1": "Unlock All Out Assault / Main gun efficiency +5%",
+		"tier2": "Torpedo base +1 / Torpedo preload +1 / Main gun efficiency +10%",
+		"tier3": "Improve All Out Assault Ⅰ→Ⅱ / All Weapons' Efficiency +5%"
+	},
+	"equipmentLoadout": {
+		"1": {
+			"type": "Heavy Cruiser",
+			"efficiency": "135%/140%/150%/155%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"2": {
+			"type": "Torpedo",
+			"efficiency": "120%/120%/120%/125%",
+			"amount": "1/1/2/2",
+			"preload": "0/0/1/1"
+		},
+		"3": {
+			"type": "Anti-Air Gun",
+			"efficiency": "110%/110%/110%/115%",
+			"amount": "1/1/1/1",
+			"preload": "0/0/0/0"
+		},
+		"4": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		},
+		"5": {
+			"type": "Auxiliary",
+			"efficiency": "-",
+			"amount": "-",
+			"preload": "-"
+		}
+	},
+	"build": {
+		"light": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"heavy": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"special": {
+			"JP": "",
+			"CN": "",
+			"EN": ""
+		},
+		"limited": {
+			"JP": "✓",
+			"CN": "✓",
+			"EN": "✓"
+		}
+	},
+	"drop": {
+		"droppable": "false",
+		"list": {
+			"1": {
+				"event": "",
+				"chapter": {
+					"1": {
+						"label": "Ch .1",
+						"node": {
+							"1": {
+								"drop": "✓",
+								"note": "-"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"lines": {
+		"skin": {
+			"1": {
+				"skin_id": "talin",
+				"id": "0",
+				"label": "Tallinn",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+                        "english": "Heavy cruiser - Tallinn.",
+						"englishNote": ""
+					},
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm Tallinn, Northern Parliament heavy cruiser, formerly known as Lützow under the Iron Blood. I fought in the war under the name of Petropavlovsk as well. In the end, I never did get to unleash my full potential, but I trust your commanding to make good use of me.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The name's Tallinn, heavy cruiser from the Northern Parliament. Don't expect me to blindly take orders from you just because you're the commander. Use that head of yours to think things through first, then we'll talk.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You're astonishingly late. Did you want me to discipline you that badly?",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "No matter how many of my cannons are disabled, even should I get turned into a floating turret, as long as I am still able to fight, I shall fight until my last breath. That is my duty and my obligation.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Focus on your work. ...What, you need a break? If you've got the energy to complain, you've got the energy to work.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "How do Tashkent and Murmansk manage to fit in with the others so well... What? Nothing important. Focus on your work.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I think I'll have a beer after work. Vodka? No thanks. I'll pass.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What do you need? Don't even think about making me do grunt work just because I'm your secretary.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ngh...?! Now you've done it...",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wha...?! Keep your hands off my head!",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It is imperative that missions be completed. This was true during my time in the Iron Blood, and is still true now.",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hello? Confirm the mission rewards. Don't keep us waiting forever.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A letter has come in. I wonder who sent it...",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Good work out there. Keep it up.",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Your job now is to go and show your gratitude to the returning commission team. Do it well and in a timely fashion.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Just as it should be.",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Imbeciles! Stop the pointless struggling and surrender!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Look at that, we won. Victory comes naturally if you just follow what you trained for.",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "..Tsk, all because of some small mistakes...",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Fire all cannons! Don't stop shooting!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Urgh... What kind of monsters are they?!",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Use your head before ordering me around. If you can't even do that much, then I won't lift a finger for you.",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If you want me to follow your orders, then prove yourself a capable commander first. I can handle myself if you can't.",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Don't like my scoldings? Then do better! You're not about to tell me you actually ENJOY being scolded, I hope.",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm surprised you've actually taken my scoldings to heart. Hehe, hahaha... Since you like it when I tell you what to do, I'll be more exact from now on.",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you sure you're fit to be a commander, considering how you take orders from your secretary? Don't worry, I'll keep telling you what to do so you can keep your job. I've started enjoying it, actually. Hehehe~",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "All you need to do is sign this document, and I'll take care of everything else. Now to put on the ring and make it official with a kiss... So, how did my lips feel? Hehe~♪",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Kirov, I'm counting on you!",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 2", 
+                        "media": "link2",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "Hehe, things are looking pretty good~", 
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 2", 
+                        "media": "link3",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "I've always thought your name was a little funny.", 
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Extra", 
+                        "media": "extra",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "33": {
+                        "event": "Present Like", 
+                        "media": "present_like",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    },
+                    "34": {
+                        "event": "Present Dislike", 
+                        "media": "present_dislike",
+                        "chinese": "", 
+                        "chineseTL": "", 
+                        "chineseNote": "", 
+                        "japanese": "", 
+                        "japaneseTL": "", 
+                        "japaneseNote": "", 
+                        "english": "", 
+                        "englishNote": ""
+                    }
+				}
+			},
+            "2": {
+                "skin_id": "talin_3",
+                "id": "1",
+                "label": "Nostalgic Pilsner",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What, you've never seen the inside of a shipgirl's room? It's not like you're here on official business, so stop standing around already. Find a place to sit and relax.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What, you've never seen the inside of a shipgirl's room? It's not like you're here on official business, so stop standing around already. Find a place to sit and relax.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Make yourself at home. I don't like being uptight all the time.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commanding the fleet isn't your only job. You've also got to live up to everyone's expectations, and keep going no matter how tough things get. I'll be there to make sure you do.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hipper and I surprisingly have much in common. I like talking about food and guitars with her.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Kirov has a thing for barging into my room and ask me to go drinking with her... Still, I'll take that over the antics of Gangut and the rest.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Care for a hot beer? If you want a little spice added to it, let me know.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I suppose now's a good time for a nap... *yawn*...",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hnngh?! You're pushing your luck...!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Good work out there. Get some rest, you've earned it.",
+                        "englishNote": ""
+                    }       
+                }
+            },
+            "101": {
+                "skin_id": "talin_ex1100",
+                "id": "0",
+                "label": "Tallinn",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Heavy cruiser - Tallinn.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hats off to you for clocking in on time. See? You can do it if you just try. Hehehe.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Have you checked out that report yet? ...If you've got time to make excuses, you've got time to do your job.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Maybe I should put a collar on you, like Chapayev suggested... What? Nothing important. Focus on your work.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 5",
+                        "media": "main_5_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Do your job well, and you'll be rewarded. Use your head and think up something good, then I'll see what I can do. Hehehe~",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You're in need of some guidance, aren't you?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Hehehe. You know what? I'll let you have your fun for once.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Do you really think this is all it takes to satisfy everyone? Exactly. Let that annoyance motivate you to do better.",
+                        "englishNote": ""
+                    }       
+                }
+            }
+		}
+	},
+	"fleet_tech": {
+		"pt_get": "28",
+		"add_get_attr": "HP",
+		"add_get_value": "1",
+		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"pt_upgrade": "56",
+		"pt_level": "42",
+		"add_level_attr": "HP",
+		"add_level_value": "1",
+		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+		"t_level": "7",
+		"ships": "admiral_hipper,prinz_eugen,tallinn"
+	}
+}

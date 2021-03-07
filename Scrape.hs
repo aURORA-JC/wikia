@@ -35,7 +35,10 @@ handleship name
                                     skins = join $ map (\x -> let skinname = ashow $ (aobj x) ! "id"
                                                                   expressions = keys $ aobj $ (aobj x) ! "expression"
                                                               in
-                                                                map (wget skinname) skindl ++ ["mkdir -p assets/paintingface/" ++ skinname] ++ map (wget' skinname . unpack) expressions ++ map (\x -> wget (skinname ++ "-" ++ unpack x) "painting") expressions) $ elems $ aobj $ json ! "skin"
+                                                                map (wget skinname) skindl
+                                                                ++ ["mkdir -p assets/paintingface/" ++ skinname]
+                                                                ++ map (wget' skinname . unpack) expressions
+                                                                ++ map (\x -> wget (skinname ++ "-" ++ unpack x) "painting") expressions) $ elems $ aobj $ json ! "skin"
                                     skills = map (\x -> wgetout (show $ floor ((case readEither $ ashow $ (aobj x) ! "icon" :: Either String Double of
                                                                                   Left s -> 0.0
                                                                                   Right x | x >= 20000.0 && x < 29000.0 -> let tempid = (fromIntegral $ floor (x / 100.0)) * 100.0 :: Double
