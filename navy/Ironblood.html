@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>Ironblood - /alg/ - Azur Lane General Wiki</title><style type="text/css">th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #373743;
+    border-color: #5c5d70;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+}
+
+th, td {
+    border-color: #5c5d70;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.title {
+    height: 1.5rem;
+}
+
+.subtitle {
+    background-color: #24252d;
+    height: 1.5rem;
+}
+
+body {
+    color: white;
+    background-color: #494a5a;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: block;
+    position: relative;
+}
+
+.tabs .tab {
+    float: left;
+    display: block;
+}
+
+input[name^="skinSelectors"] {
+    display: none;
+}
+
+.skinContent {
+    display: none;
+}
+
+.expression.active {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+
+.expression {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[name^="skinSelectors"] + label {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+input[name^="skinSelectors"]:checked + label {
+    opacity: 1;
+}
+
+#statSelector-base:checked ~ #statContent-base,
+#statSelector-100:checked ~ #statContent-100,
+#statSelector-100retrofit:checked ~ #statContent-100retrofit,
+#statSelector-120:checked ~ #statContent-120,
+#statSelector-120retrofit:checked ~ #statContent-120retrofit,
+#skinSelector-skinView-0:checked ~ #skinContent-skinView-0,
+#skinSelector-skinView-1:checked ~ #skinContent-skinView-1,
+#skinSelector-skinView-2:checked ~ #skinContent-skinView-2,
+#skinSelector-skinView-3:checked ~ #skinContent-skinView-3,
+#skinSelector-skinView-4:checked ~ #skinContent-skinView-4,
+#skinSelector-skinView-5:checked ~ #skinContent-skinView-5,
+#skinSelector-skinView-6:checked ~ #skinContent-skinView-6,
+#skinSelector-skinView-7:checked ~ #skinContent-skinView-7,
+#skinSelector-skinView-8:checked ~ #skinContent-skinView-8,
+#skinSelector-skinView-9:checked ~ #skinContent-skinView-9,
+#skinSelector-skinView-10:checked ~ #skinContent-skinView-10,
+#skinSelector-skinView-11:checked ~ #skinContent-skinView-11,
+#skinSelector-skinView-12:checked ~ #skinContent-skinView-12,
+#skinSelector-skinView-13:checked ~ #skinContent-skinView-13,
+#skinSelector-skinView-14:checked ~ #skinContent-skinView-14,
+#skinSelector-skinView-15:checked ~ #skinContent-skinView-15,
+#skinSelector-skinView-16:checked ~ #skinContent-skinView-16,
+#skinSelector-skinView-17:checked ~ #skinContent-skinView-17,
+#skinSelector-skinView-18:checked ~ #skinContent-skinView-18,
+#skinSelector-skinView-19:checked ~ #skinContent-skinView-19,
+#skinSelector-techView-0:checked ~ #skinContent-techView-0,
+#skinSelector-techView-1:checked ~ #skinContent-techView-1,
+#skinSelector-techView-2:checked ~ #skinContent-techView-2,
+#skinSelector-techView-3:checked ~ #skinContent-techView-3,
+#skinSelector-techView-4:checked ~ #skinContent-techView-4,
+#skinSelector-techView-5:checked ~ #skinContent-techView-5,
+#skinSelector-techView-6:checked ~ #skinContent-techView-6,
+#skinSelector-techView-7:checked ~ #skinContent-techView-7,
+#skinSelector-techView-8:checked ~ #skinContent-techView-8,
+#skinSelector-techView-9:checked ~ #skinContent-techView-9,
+#skinSelector-techView-10:checked ~ #skinContent-techView-10,
+#skinSelector-techView-11:checked ~ #skinContent-techView-11,
+#skinSelector-techView-12:checked ~ #skinContent-techView-12,
+#skinSelector-techView-13:checked ~ #skinContent-techView-13,
+#skinSelector-techView-14:checked ~ #skinContent-techView-14,
+#skinSelector-techView-15:checked ~ #skinContent-techView-15,
+#skinSelector-techView-16:checked ~ #skinContent-techView-16,
+#skinSelector-techView-17:checked ~ #skinContent-techView-17,
+#skinSelector-techView-18:checked ~ #skinContent-techView-18,
+#skinSelector-techView-19:checked ~ #skinContent-techView-19,
+#skinSelector-lineView-0:checked ~ #skinContent-lineView-0,
+#skinSelector-lineView-1:checked ~ #skinContent-lineView-1,
+#skinSelector-lineView-2:checked ~ #skinContent-lineView-2,
+#skinSelector-lineView-3:checked ~ #skinContent-lineView-3,
+#skinSelector-lineView-4:checked ~ #skinContent-lineView-4,
+#skinSelector-lineView-5:checked ~ #skinContent-lineView-5,
+#skinSelector-lineView-6:checked ~ #skinContent-lineView-6,
+#skinSelector-lineView-7:checked ~ #skinContent-lineView-7,
+#skinSelector-lineView-8:checked ~ #skinContent-lineView-8,
+#skinSelector-lineView-9:checked ~ #skinContent-lineView-9,
+#skinSelector-lineView-10:checked ~ #skinContent-lineView-10,
+#skinSelector-lineView-11:checked ~ #skinContent-lineView-11,
+#skinSelector-lineView-12:checked ~ #skinContent-lineView-12,
+#skinSelector-lineView-13:checked ~ #skinContent-lineView-13,
+#skinSelector-lineView-14:checked ~ #skinContent-lineView-14,
+#skinSelector-lineView-15:checked ~ #skinContent-lineView-15,
+#skinSelector-lineView-16:checked ~ #skinContent-lineView-16,
+#skinSelector-lineView-17:checked ~ #skinContent-lineView-17,
+#skinSelector-lineView-18:checked ~ #skinContent-lineView-18,
+#skinSelector-lineView-19:checked ~ #skinContent-lineView-19 {
+    display: block;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #373743;
+    color: #fff;
+    font-size: 15px;
+}
+
+#sidebar .subheader {
+    background: #24252d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sidebar ol li a:hover {
+    background: #6e6f87;
+}
+
+#sidebar ol li a {
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
+
+#sidebarEscape {
+    margin-left: 250px;
+    padding: 10px 10px 10px 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #24252d;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+details {
+    background-color: #373743;
+    border-color: #5c5d70;
+    margin-bottom: 20px;
+}
+
+summary {
+    background-color: #24252d;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: safe space-evenly;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.ship {
+    vertical-align: top;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    border: 3px double #ffffff;
+    background: #24252d;
+    width: 108px;
+    height: 220px;
+    position: relative;
+}
+
+.hull {
+    padding-left: 3px;
+    padding-right: 5px;
+    width: 33px;
+    height: auto;
+}
+
+.navy {
+    padding-right:5px;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+</style></head><body><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist (By ID)</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist (By Name)</a></li><li><a href="https://algwiki.moe/navy/">Faction Category</a></li><li><a href="https://algwiki.moe/hull/">Class Category</a></li><li><a href="https://algwiki.moe/rarity/">Rarity Category</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://algwiki.moe/">Player</a></li></ol></nav><div id="sidebarEscape"><nav><a href="..">Home</a> &gt; <a href=".">Navy</a> &gt; Ironblood</nav><details open=""><summary><h2 style="display: inline;">Common</h2></summary><div class="container"><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>233<div style="background: rgb(176, 128, 176);"><a href="../ships/z1.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z1.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z1.html">Leberecht Maass</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>236<div style="background: rgb(176, 128, 176);"><a href="../ships/z23.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z23.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z23.html">Z23</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>237<div style="background: rgb(176, 128, 176);"><a href="../ships/z25.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z25.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z25.html">Z25</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>238<div style="background: rgb(115, 115, 115);"><a href="../ships/konigsberg.html"><img src="https://algwiki.moe/assets/shipyardicon_new/kenisibao.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/konigsberg.html">Königsberg</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>239<div style="background: rgb(115, 115, 115);"><a href="../ships/karlsruhe.html"><img src="https://algwiki.moe/assets/shipyardicon_new/kaersilue.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/karlsruhe.html">Karlsruhe</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>240<div style="background: rgb(115, 115, 115);"><a href="../ships/koln.html"><img src="https://algwiki.moe/assets/shipyardicon_new/kelong.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/koln.html">Köln</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>241<div style="background: rgb(140, 179, 184);"><a href="../ships/leipzig.html"><img src="https://algwiki.moe/assets/shipyardicon_new/laibixi.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/leipzig.html">Leipzig</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>242<div style="background: rgb(176, 128, 176);"><a href="../ships/admiral_hipper.html"><img src="https://algwiki.moe/assets/shipyardicon_new/xipeierhaijunshangjiang.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/admiral_hipper.html">Admiral Hipper</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>244<div style="background: rgb(190, 185, 136);"><a href="../ships/prinz_eugen.html"><img src="https://algwiki.moe/assets/shipyardicon_new/ougen.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/prinz_eugen.html">Prinz Eugen</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>245<div style="background: rgb(176, 128, 176);"><a href="../ships/deutschland.html"><img src="https://algwiki.moe/assets/shipyardicon_new/deyizhi.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/deutschland.html">Deutschland</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>246<div style="background: rgb(176, 128, 176);"><a href="../ships/admiral_graf_spee.html"><img src="https://algwiki.moe/assets/shipyardicon_new/sipeibojue.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/admiral_graf_spee.html">Admiral Graf Spee</a></div></div><div class="ship"><a href="../hull/Battlecruiser.html"><img src="https://algwiki.moe/Images/Hull/bc.png" title="Battlecruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>248<div style="background: rgb(176, 128, 176);"><a href="../ships/scharnhorst.html"><img src="https://algwiki.moe/assets/shipyardicon_new/shaenhuosite.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/scharnhorst.html">Scharnhorst</a></div></div><div class="ship"><a href="../hull/Battlecruiser.html"><img src="https://algwiki.moe/Images/Hull/bc.png" title="Battlecruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>249<div style="background: rgb(176, 128, 176);"><a href="../ships/gneisenau.html"><img src="https://algwiki.moe/assets/shipyardicon_new/genaisennao.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/gneisenau.html">Gneisenau</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>250<div style="background: rgb(190, 185, 136);"><a href="../ships/bismarck.html"><img src="https://algwiki.moe/assets/shipyardicon_new/bisimai.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/bismarck.html">Bismarck</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>251<div style="background: rgb(190, 185, 136);"><a href="../ships/tirpitz.html"><img src="https://algwiki.moe/assets/shipyardicon_new/tierbici.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/tirpitz.html">Tirpitz</a></div></div><div class="ship"><a href="../hull/Aircraft Carrier.html"><img src="https://algwiki.moe/Images/Hull/cv.png" title="Aircraft Carrier" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>252<div style="background: rgb(190, 185, 136);"><a href="../ships/graf_zeppelin.html"><img src="https://algwiki.moe/assets/shipyardicon_new/qibolin.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/graf_zeppelin.html">Graf Zeppelin</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>264<div style="background: rgb(140, 179, 184);"><a href="../ships/z19.html"><img src="https://algwiki.moe/assets/shipyardicon_new/Z19.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z19.html">Hermann Künne</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>265<div style="background: rgb(115, 115, 115);"><a href="../ships/z20.html"><img src="https://algwiki.moe/assets/shipyardicon_new/Z20.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z20.html">Karl Galster</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>266<div style="background: rgb(115, 115, 115);"><a href="../ships/z21.html"><img src="https://algwiki.moe/assets/shipyardicon_new/Z21.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z21.html">Wilhelm Heidkamp</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>267<div style="background: rgb(190, 185, 136);"><a href="../ships/z46.html"><img src="https://algwiki.moe/assets/shipyardicon_new/Z46.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z46.html">Z46</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>341<div style="background: rgb(190, 185, 136);"><a href="../ships/u81.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U81.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u81.html">U-81</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>343<div style="background: rgb(190, 185, 136);"><a href="../ships/u47.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U47.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u47.html">U-47</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>344<div style="background: rgb(176, 128, 176);"><a href="../ships/u557.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U557.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u557.html">U-557</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>345<div style="background: rgb(176, 128, 176);"><a href="../ships/z35.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z35.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z35.html">Z35</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>346<div style="background: rgb(140, 179, 184);"><a href="../ships/z18.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z18.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z18.html">Hans Lüdemann</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>379<div style="background: rgb(176, 128, 176);"><a href="../ships/z2.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z2.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z2.html">Georg Thiele</a></div></div><div class="ship"><a href="../hull/Aircraft Carrier.html"><img src="https://algwiki.moe/Images/Hull/cv.png" title="Aircraft Carrier" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>385<div style="background: rgb(176, 128, 176);"><a href="../ships/zeppelinchan.html"><img src="https://algwiki.moe/assets/shipyardicon_new/qibolin_younv.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/zeppelinchan.html">Zeppelin-chan</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>386<div style="background: rgb(176, 128, 176);"><a href="../ships/u556.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U556.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u556.html">U-556</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>387<div style="background: rgb(176, 128, 176);"><a href="../ships/u73.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U73.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u73.html">U-73</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>388<div style="background: rgb(176, 128, 176);"><a href="../ships/z36.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z36.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z36.html">Z36</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>399<div style="background: rgb(190, 185, 136);"><a href="../ships/u101.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U101.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u101.html">U-101</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>400<div style="background: rgb(176, 128, 176);"><a href="../ships/u522.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U522.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u522.html">U-522</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>416<div style="background: rgb(176, 128, 176);"><a href="../ships/u110.html"><img src="https://algwiki.moe/assets/shipyardicon_new/U110.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u110.html">U-110</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>422<div style="background: rgb(176, 128, 176);"><a href="../ships/admiral_hipper_idol.html"><img src="https://algwiki.moe/assets/shipyardicon_new/xipeier_idol.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/admiral_hipper_idol.html">Admiral Hipper</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>466<div style="background: rgb(190, 185, 136);"><a href="../ships/z26.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z26.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z26.html">Z26</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>467<div style="background: rgb(190, 185, 136);"><a href="../ships/u96.html"><img src="https://algwiki.moe/assets/shipyardicon_new/u96.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u96.html">U-96</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>479<div style="background: rgb(190, 185, 136);"><a href="../ships/roon_idol.html"><img src="https://algwiki.moe/assets/shipyardicon_new/luoen_idol.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/roon_idol.html">Roon µ</a></div></div><div class="ship"><a href="../hull/Aircraft Carrier.html"><img src="https://algwiki.moe/Images/Hull/cv.png" title="Aircraft Carrier" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>482<div style="background: rgb(190, 185, 136);"><a href="../ships/peter_strasser.html"><img src="https://algwiki.moe/assets/shipyardicon_new/shitelasai.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/peter_strasser.html">Peter Strasser</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>483<div style="background: rgb(190, 185, 136);"><a href="../ships/prinz_heinrich.html"><img src="https://algwiki.moe/assets/shipyardicon_new/haiyinlixi.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/prinz_heinrich.html">Prinz Heinrich</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>484<div style="background: rgb(190, 185, 136);"><a href="../ships/u37.html"><img src="https://algwiki.moe/assets/shipyardicon_new/u37.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u37.html">U-37</a></div></div><div class="ship"><a href="../hull/Light Aircraft Carrier.html"><img src="https://algwiki.moe/Images/Hull/cvl.png" title="Light Aircraft Carrier" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>485<div style="background: rgb(176, 128, 176);"><a href="../ships/weser.html"><img src="https://algwiki.moe/assets/shipyardicon_new/weixi.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/weser.html">Weser</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>486<div style="background: rgb(176, 128, 176);"><a href="../ships/nurnberg.html"><img src="https://algwiki.moe/assets/shipyardicon_new/niulunbao.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/nurnberg.html">Nürnberg</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>487<div style="background: rgb(176, 128, 176);"><a href="../ships/z24.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z24.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z24.html">Z24</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>488<div style="background: rgb(176, 128, 176);"><a href="../ships/z28.html"><img src="https://algwiki.moe/assets/shipyardicon_new/z28.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/z28.html">Z28</a></div></div><div class="ship"><a href="../hull/Submarine.html"><img src="https://algwiki.moe/Images/Hull/ss.png" title="Submarine" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>492<div style="background: rgb(176, 128, 176);"><a href="../ships/u410.html"><img src="https://algwiki.moe/assets/shipyardicon_new/u410.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/u410.html">U-410</a></div></div></div></details><details open=""><summary><h2 style="display: inline;">Research</h2></summary><div class="container"><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>P005<div style="background: rgb(190, 185, 136);"><a href="../ships/roon.html"><img src="https://algwiki.moe/assets/shipyardicon_new/luoen.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/roon.html">Roon</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>P011<div style="background: linear-gradient(to right, rgb(108, 174, 108), rgb(95, 176, 190), rgb(125, 132, 192), rgb(180, 84, 128));"><a href="../ships/friedrich_der_grosse.html"><img src="https://algwiki.moe/assets/shipyardicon_new/feiteliedadi.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/friedrich_der_grosse.html">Friedrich der Große</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>P015<div style="background: rgb(190, 185, 136);"><a href="../ships/mainz.html"><img src="https://algwiki.moe/assets/shipyardicon_new/meiyinci.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/mainz.html">Mainz</a></div></div><div class="ship"><a href="../hull/Battlecruiser.html"><img src="https://algwiki.moe/Images/Hull/bc.png" title="Battlecruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>P016<div style="background: rgb(190, 185, 136);"><a href="../ships/odin.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aoding.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/odin.html">Odin</a></div></div></div></details><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
+Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.
+/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.</pre></footer></div></body></html>
