@@ -660,8 +660,8 @@ main
                                in
                                  mkhtml "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
                                                                               mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
-                                                                                $ ["https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js",
-                                                                                   "https://s3-ap-northeast-1.amazonaws.com/cubism3.live2d.com/sdk/js_eap/live2dcubismcore.min.js",
+                                                                                $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
+                                                                                   "https://algwiki.moe/js/live2dcubismcore.min.js",
                                                                                    "https://algwiki.moe/js/live2dcubismframework.js",
                                                                                    "https://algwiki.moe/js/live2dcubismpixi.js",
                                                                                    "https://algwiki.moe/js/pixi-spine.js",
