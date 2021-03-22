@@ -479,7 +479,7 @@ showship encn skins json
                                                                                                                                    ++ init (case json % "internal_id" of
                                                                                                                                               "" -> "0"
                                                                                                                                               x -> x)
-                                                                                                                                   ++ (if elem s ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
+                                                                                                                                   ++ (if any (\x -> x `isPrefixOf` s) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
                                                                                                                                    ++ "/acb/awb/"
                                                                                                                                    ++ s
                                                                                                                                    ++ ".ogg") H.! A.controls "" $ ""
