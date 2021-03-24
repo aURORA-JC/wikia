@@ -5,7 +5,7 @@
 	"nameCN": "皇家方舟·META",
 	"ID": "M002",
 	"name": "Ark Royal META",
-	"internal_id": "",
+	"internal_id": "9707021",
 	"rarity": "Super Rare",
 	"initialStar": "★★★☆☆☆",
 	"hull": "Aircraft Carrier",
@@ -51,30 +51,30 @@
 		"1": {
 			"icon": "800010",
 			"requirement": "Tactical Training",
-			"name": "",
+			"name": "Shadowflame Torch",
 			"type": "Offense",
-			"description": ""
+			"description": "Every 20s: launches a Lv. 1 (Lv. 10) special barrage that decreases the Speed of all enemies hit by 20.0% (DMG is based on the skill's level)."
 		},
 		"2": {
 			"icon": "800020",
 			"requirement": "Tactical Training",
-			"name": "",
+			"name": "Shadow Skirmisher",
 			"type": "Offense",
-			"description": ""
+			"description": "When this ship launches an Airstrike: 20% (50%) chance to increase this ship's DMG dealt by 50.0% for 8s. If this effect does not activate, instead fires a Lv. 1 (Lv. 10) special barrage (DMG is based on the skill's level)."
 		},
 		"3": {
 			"icon": "800030",
 			"requirement": "Tactical Training",
-			"name": "",
+			"name": "Glorious Onslaught",
 			"type": "Support",
-			"description": ""
+			"description": "Increases this ship's Accuracy by 5% (15%). While this ship has a Royal Navy aircraft equipped: when this ship launches an Airstrike, launches an additional Lv. 1 (Lv. 10) special airstrike (DMG is based on the skill's level). If not equipping one: at the start of the battle, increases AA by 5% (15%) for this ship and the ship in the frontmost position of your Vanguard for 60s."
 		},
 		"4": {
 			"icon": "800080",
 			"requirement": "Tactical Training",
-			"name": "",
+			"name": "Scorched Blade·Ark Royal I II)",
 			"type": "Defense",
-			"description": ""
+			"description": "[Operation Siren] When fighting humanoid Siren fleets or Boss fleets: reduces the DMG your Vanguard takes by 3.0% (8.0%)."
 		}
 	},
 	"skin": {
