@@ -97,19 +97,19 @@ navy' x = error x
 sidebar
   = H.nav H.! A.id "sidebar"
     $ H.ol
-    $ do H.li H.! A.class_ "subheader"                                     $ H.h1 "/alg/ Wiki"
+    $ do H.li H.! A.class_ "subheader"                                   $ H.h1 "/alg/ Wiki"
 
-         H.li H.! A.class_ "subheader"                                     $ "Database"
-         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist.html"         $ "Shiplist (By ID)"
+         H.li H.! A.class_ "subheader"                                   $ "Database"
+         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist.html"       $ "Shiplist (By ID)"
          H.li $ H.a H.! A.href "https://algwiki.moe/shiplist_alpha.html" $ "Shiplist (By Name)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/navy/"                 $ "Faction Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/hull/"                 $ "Class Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/"               $ "Rarity Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/navy/index.html"     $ "Faction Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/hull/index.html"     $ "Class Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/index.html"   $ "Rarity Category"
 
-         H.li H.! A.class_ "subheader"                                     $ "Tools"
-         H.li $ H.a H.! A.href "https://sd.algwiki.moe/"                   $ "SD viewer"
-         H.li $ H.a H.! A.href "https://l2d.algwiki.moe/"                  $ "L2D viewer"
-         H.li $ H.a H.! A.href "https://algwiki.moe/"                      $ "Player"
+         H.li H.! A.class_ "subheader"                                   $ "Tools"
+         H.li $ H.a H.! A.href "https://sd.algwiki.moe/"                 $ "SD viewer"
+         H.li $ H.a H.! A.href "https://l2d.algwiki.moe/"                $ "L2D viewer"
+         H.li $ H.a H.! A.href "https://algwiki.moe/"                    $ "Player"
 
 mkhtml :: String
        -> String
@@ -191,13 +191,13 @@ showship encn skins json
                                       json %% "ID"
                             d "initialStar" "Star Rating"
                      H.tr
-                       $ do H.th $ H.a H.! A.href "../hull/" $ "Hull"
+                       $ do H.th $ H.a H.! A.href "../hull/index.html" $ "Hull"
                             H.td $ do H.img H.! A.src (H.stringValue $ hull $ json % "hull") H.! A.style "height: auto; width: 35px"
                                       " "
                                       H.preEscapedToHtml $ capitalize $ json % "hull"
                             d "rarity" "Rarity"
                      H.tr
-                       $ do H.th $ H.a H.! A.href "../navy/" $ "Navy"
+                       $ do H.th $ H.a H.! A.href "../navy/index.html" $ "Navy"
                             H.td $ do H.img H.! A.src (H.stringValue $ navy $ json % "navy")
                                       H.preEscapedToHtml $ capitalize $ json % "navy"
                             d "buildTime" "Build Time"
@@ -479,6 +479,7 @@ showship encn skins json
                                                                                                                                    ++ init (case json % "internal_id" of
                                                                                                                                               "" -> "0"
                                                                                                                                               x -> x)
+                                                                                                                                   ++ (if any (\x -> x `isPrefixOf` s) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
                                                                                                                                    ++ "/acb/awb/"
                                                                                                                                    ++ s
                                                                                                                                    ++ ".ogg") H.! A.controls "" $ ""
@@ -582,7 +583,7 @@ makeIndex category f ships
                                    $ do H.nav
                                           $ do H.a H.! A.href ".." $ "Home"
                                                " > "
-                                               H.a H.! A.href "." $ H.preEscapedToHtml $ capitalize category
+                                               H.a H.! A.href "./index.html" $ H.preEscapedToHtml $ capitalize category
                                                " > "
                                                H.preEscapedToHtml $ capitalize name
                                         mapM_ (\x -> H.details H.! A.open ""
@@ -659,8 +660,8 @@ main
                                in
                                  mkhtml "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
                                                                               mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
-                                                                                $ ["https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js",
-                                                                                   "https://s3-ap-northeast-1.amazonaws.com/cubism3.live2d.com/sdk/js_eap/live2dcubismcore.min.js",
+                                                                                $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
+                                                                                   "https://algwiki.moe/js/live2dcubismcore.min.js",
                                                                                    "https://algwiki.moe/js/live2dcubismframework.js",
                                                                                    "https://algwiki.moe/js/live2dcubismpixi.js",
                                                                                    "https://algwiki.moe/js/pixi-spine.js",
