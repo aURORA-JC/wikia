@@ -128,7 +128,8 @@ mkhtml prefix name title y x
                      H.style H.! A.type_ "text/css" $ H.preEscapedToHtml css
                      y
               H.body
-                $ do sidebar
+                $ do mapM_ (\_ -> H.img H.! A.class_ "snowflake" H.! A.src "https://gitgud.io/alg-wiki/wikia/-/raw/master/snow.png") [0..9]
+                     sidebar
                      H.div H.! A.id "sidebarEscape"
                        $ do x
                             H.footer
