@@ -668,7 +668,7 @@ main
                                                                                    "https://algwiki.moe/js/pixi-spine.js",
                                                                                    "https://algwiki.moe/js/SkeletonBinary.js"])
                                $ do H.nav
-                                      $ do H.a H.! A.href "../index.html" $ "Home"
+                                      $ do H.a H.! A.href "/" $ "Home"
                                            " > "
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
