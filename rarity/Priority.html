@@ -253,6 +253,71 @@ summary {
     top: 10%;
     transform: translateY(-50%);
 }
+
+@keyframes snowflakes-fall {
+    0%   {top:-10%}
+    100% {top:100%}
+}
+
+@keyframes snowflakes-shake {
+    0%   {transform:translateX(0px)}
+    50%  {transform:translateX(80px)}
+    100% {transform:translateX(0px)}
+}
+
+.snowflake {
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    user-select:none;
+    cursor:default;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+}
+
+.snowflake:nth-of-type(0) {
+    left:1%;
+    animation-delay:0s,0s;
+}
+.snowflake:nth-of-type(1) {
+    left:10%;
+    animation-delay:1s,1s;
+}
+.snowflake:nth-of-type(2) {
+    left:20%;
+    animation-delay:6s,.5s;
+}
+.snowflake:nth-of-type(3) {
+    left:30%;
+    animation-delay:4s,2s;
+}
+.snowflake:nth-of-type(4) {
+    left:40%;
+    animation-delay:2s,2s;
+}
+.snowflake:nth-of-type(5) {
+    left:50%;
+    animation-delay:8s,3s;
+}
+.snowflake:nth-of-type(6) {
+    left:60%;
+    animation-delay:6s,2s;
+}
+.snowflake:nth-of-type(7) {
+    left:70%;
+    animation-delay:2.5s,1s;
+}
+.snowflake:nth-of-type(8) {
+    left:80%;
+    animation-delay:1s,0s;
+}
+.snowflake:nth-of-type(9) {
+    left:90%;
+    animation-delay:3s,1.5s;
+}
 </style></head><body><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist (By ID)</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist (By Name)</a></li><li><a href="https://algwiki.moe/navy/index.html">Faction Category</a></li><li><a href="https://algwiki.moe/hull/index.html">Class Category</a></li><li><a href="https://algwiki.moe/rarity/index.html">Rarity Category</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://algwiki.moe/">Player</a></li></ol></nav><div id="sidebarEscape"><nav><a href="..">Home</a> &gt; <a href="./index.html">Rarity</a> &gt; Priority</nav><details open=""><summary><h2 style="display: inline;">Research</h2></summary><div class="container"><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Royal Navy.html"><img src="https://algwiki.moe/Images/Navy/hms_icon.png" title="Royal Navy" class="navy"></a>P001<div style="background: rgb(190, 185, 136);"><a href="../ships/neptune.html"><img src="https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/neptune.html">Neptune</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Royal Navy.html"><img src="https://algwiki.moe/Images/Navy/hms_icon.png" title="Royal Navy" class="navy"></a>P002<div style="background: rgb(190, 185, 136);"><a href="../ships/monarch.html"><img src="https://algwiki.moe/assets/shipyardicon_new/junzhu.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/monarch.html">Monarch</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Sakura Empire.html"><img src="https://algwiki.moe/Images/Navy/ijn_icon.png" title="Sakura Empire" class="navy"></a>P003<div style="background: rgb(190, 185, 136);"><a href="../ships/ibuki.html"><img src="https://algwiki.moe/assets/shipyardicon_new/yichui.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/ibuki.html">Ibuki</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Sakura Empire.html"><img src="https://algwiki.moe/Images/Navy/ijn_icon.png" title="Sakura Empire" class="navy"></a>P004<div style="background: rgb(190, 185, 136);"><a href="../ships/izumo.html"><img src="https://algwiki.moe/assets/shipyardicon_new/chuyun.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/izumo.html">Izumo</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>P005<div style="background: rgb(190, 185, 136);"><a href="../ships/roon.html"><img src="https://algwiki.moe/assets/shipyardicon_new/luoen.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/roon.html">Roon</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Iris Libre.html"><img src="https://algwiki.moe/Images/Navy/ffnf_icon.png" title="Iris Libre" class="navy"></a>P006<div style="background: rgb(190, 185, 136);"><a href="../ships/saint_louis.html"><img src="https://algwiki.moe/assets/shipyardicon_new/luyijiushi.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/saint_louis.html">Saint Louis</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Eagle Union.html"><img src="https://algwiki.moe/Images/Navy/uss_icon.png" title="Eagle Union" class="navy"></a>P007<div style="background: rgb(190, 185, 136);"><a href="../ships/seattle.html"><img src="https://algwiki.moe/assets/shipyardicon_new/xiyatu.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/seattle.html">Seattle</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Eagle Union.html"><img src="https://algwiki.moe/Images/Navy/uss_icon.png" title="Eagle Union" class="navy"></a>P008<div style="background: rgb(190, 185, 136);"><a href="../ships/georgia.html"><img src="https://algwiki.moe/assets/shipyardicon_new/zuozhiya.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/georgia.html">Georgia</a></div></div><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/Sakura Empire.html"><img src="https://algwiki.moe/Images/Navy/ijn_icon.png" title="Sakura Empire" class="navy"></a>P009<div style="background: rgb(190, 185, 136);"><a href="../ships/kitakaze.html"><img src="https://algwiki.moe/assets/shipyardicon_new/beifeng.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kitakaze.html">Kitakaze</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Vichya Dominion.html"><img src="https://algwiki.moe/Images/Navy/mnf_icon.png" title="Vichya Dominion" class="navy"></a>P012<div style="background: rgb(190, 185, 136);"><a href="../ships/gascogne.html"><img src="https://algwiki.moe/assets/shipyardicon_new/jiasikenie.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/gascogne.html">Gascogne</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/Royal Navy.html"><img src="https://algwiki.moe/Images/Navy/hms_icon.png" title="Royal Navy" class="navy"></a>P013<div style="background: rgb(190, 185, 136);"><a href="../ships/cheshire.html"><img src="https://algwiki.moe/assets/shipyardicon_new/chaijun.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/cheshire.html">Cheshire</a></div></div><div class="ship"><a href="../hull/Light Cruiser.html"><img src="https://algwiki.moe/Images/Hull/cl.png" title="Light Cruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>P015<div style="background: rgb(190, 185, 136);"><a href="../ships/mainz.html"><img src="https://algwiki.moe/assets/shipyardicon_new/meiyinci.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/mainz.html">Mainz</a></div></div><div class="ship"><a href="../hull/Battlecruiser.html"><img src="https://algwiki.moe/Images/Hull/bc.png" title="Battlecruiser" class="hull"></a><a href="../navy/Ironblood.html"><img src="https://algwiki.moe/Images/Navy/kms_icon.png" title="Ironblood" class="navy"></a>P016<div style="background: rgb(190, 185, 136);"><a href="../ships/odin.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aoding.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/odin.html">Odin</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/Iris Libre.html"><img src="https://algwiki.moe/Images/Navy/ffnf_icon.png" title="Iris Libre" class="navy"></a>P017<div style="background: rgb(190, 185, 136);"><a href="../ships/champagne.html"><img src="https://algwiki.moe/assets/shipyardicon_new/xiangbin.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/champagne.html">Champagne</a></div></div></div></details><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
 Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.
 /alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia
