@@ -467,10 +467,10 @@ showship encn skins json
                                                              ("Japanese Server", 27),
                                                              ("English Server", 27)]
                                                         mapM_ (\k
-                                                               -> case find (\x -> x % "event" == k) lines of
+                                                               -> case find (\x -> x % "media" == k) lines of
                                                                     Just x
                                                                       -> H.tr
-                                                                         $ do H.th H.! A.scope "row" $ H.preEscapedToHtml k
+                                                                         $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ x %% "event"
                                                                               H.td
                                                                                 $ case x % "media" of
                                                                                     "" -> ""
@@ -487,33 +487,39 @@ showship encn skins json
                                                                               H.td $ x %% "japanese"
                                                                               H.td $ x %% "english"
                                                                     Nothing -> return ())
-                                                          $ ["Ship Description",
-                                                             "Biography",
-                                                             "Acquisition",
-                                                             "Login",
-                                                             "Details",
-                                                             "Main 1",
-                                                             "Main 2",
-                                                             "Main 3",
-                                                             "Touch",
-                                                             "Touch (Special)",
-                                                             "Mission",
-                                                             "Mission Complete",
-                                                             "Mail",
-                                                             "Return to Port",
-                                                             "Commission Complete",
-                                                             "Enhancement",
-                                                             "Flagship",
-                                                             "Victory",
-                                                             "Defeat",
-                                                             "Skill",
-                                                             "Low HP",
-                                                             "Affinity (Upset)",
-                                                             "Affinity (Stranger)",
-                                                             "Affinity (Friendly)",
-                                                             "Affinity (Like)",
-                                                             "Affinity (Love)",
-                                                             "Pledge"]
+                                                          $ ["",
+                                                             "profile",
+                                                             "get",
+                                                             "login",
+                                                             "detail",
+                                                             "main_1",
+                                                             "main_2",
+                                                             "main_3",
+                                                             "touch_1",
+                                                             "touch_2",
+                                                             "touch_head",
+                                                             "task",
+                                                             "mission_complete",
+                                                             "mail",
+                                                             "home",
+                                                             "expedition",
+                                                             "upgrade",
+                                                             "warcry",
+                                                             "mpv",
+                                                             "lose",
+                                                             "skill",
+                                                             "hp",
+                                                             "feeling1",
+                                                             "feeling2",
+                                                             "feeling3",
+                                                             "feeling4",
+                                                             "feeling5",
+                                                             "propose",
+                                                             "link1",
+                                                             "link2",
+                                                             "present_like",
+                                                             "present_dislike",
+                                                             "extra"]
                                          Nothing
                                            -> "Missing lines!!"
 
