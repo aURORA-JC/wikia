@@ -451,7 +451,7 @@ showship encn skins json
               H.tr
                 $ H.td
                 $ writeskins skins "lineView" False
-                $ \i -> \n -> \skin -> case lookup n linesSet of
+                $ \i -> \n -> \skin -> case lookup (capitalize n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
                                                           $ map aobj
