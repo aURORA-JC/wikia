@@ -441,7 +441,7 @@ showship encn skins json
          $ H.td H.! A.colspan "2"
          $ H.table
          $ do linesSet <- return
-                          $ map (\(Aeson.Object x) -> (x % "skin_id", x))
+                          $ map (\(Aeson.Object x) -> (capitalize $ x % "skin_id", x))
                           $ elems
                           $ aobj
                           $ (aobj $ json ! "lines") ! "skin"
