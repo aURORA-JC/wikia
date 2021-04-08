@@ -454,8 +454,10 @@ showship encn skins json
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
-                                                          $ map aobj
-                                                          $ elems
+                                                          $ map (\(_, y) -> y)
+                                                          $ sortOn (\(k, _) -> k)
+                                                          $ map (\(x, y) -> (read (unpack x) :: Int, aobj y))
+                                                          $ toList
                                                           $ aobj
                                                           $ lineSet ! "dialogue"
                                                  H.table
@@ -466,69 +468,25 @@ showship encn skins json
                                                              ("West Taiwanese Server", 27),
                                                              ("Japanese Server", 27),
                                                              ("English Server", 27)]
-                                                        mapM_ (\k
-                                                               -> case find (\x -> x % "media" == k) lines of
-                                                                    Just x
-                                                                      -> H.tr
-                                                                         $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ x %% "event"
-                                                                              H.td
-                                                                                $ case x % "media" of
-                                                                                    "" -> ""
-                                                                                    s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
-                                                                                                                                   $ "https://algwiki.moe/assets/cue/cv-"
-                                                                                                                                   ++ init (case json % "internal_id" of
-                                                                                                                                              "" -> "0"
-                                                                                                                                              x -> x)
-                                                                                                                                   ++ (if any (\x -> x `isPrefixOf` s) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
-                                                                                                                                   ++ "/acb/awb/"
-                                                                                                                                   ++ s
-                                                                                                                                   ++ ".ogg") H.! A.controls "" $ ""
-                                                                              H.td $ x %% "chinese"
-                                                                              H.td $ x %% "japanese"
-                                                                              H.td $ x %% "english"
-                                                                    Nothing -> return ())
-                                                          $ ["",
-                                                             "profile",
-                                                             "get",
-                                                             "login",
-                                                             "detail",
-                                                             "main_1",
-                                                             "main_2",
-                                                             "main_3",
-                                                             "touch_1",
-                                                             "touch_2",
-                                                             "touch_head",
-                                                             "task",
-                                                             "mission_complete",
-                                                             "mail",
-                                                             "home",
-                                                             "expedition",
-                                                             "upgrade",
-                                                             "warcry",
-                                                             "mpv",
-                                                             "lose",
-                                                             "skill",
-                                                             "hp",
-                                                             "feeling1",
-                                                             "feeling2",
-                                                             "feeling3",
-                                                             "feeling4",
-                                                             "feeling5",
-                                                             "propose",
-                                                             "link1",
-                                                             "link2",
-                                                             "link3",
-                                                             "link4",
-                                                             "link5",
-                                                             "link6",
-                                                             "link7",
-                                                             "link8",
-                                                             "link9",
-                                                             "link10",
-                                                             "link11",
-                                                             "present_like",
-                                                             "present_dislike",
-                                                             "extra"]
+                                                        mapM_ (\x
+                                                               -> H.tr
+                                                                  $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ x %% "event"
+                                                                       H.td
+                                                                         $ case x % "media" of
+                                                                             "" -> ""
+                                                                             s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                           $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                           ++ init (case json % "internal_id" of
+                                                                                                                                      "" -> "0"
+                                                                                                                                      x -> x)
+                                                                                                                           ++ (if any (\x -> x `isPrefixOf` s) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
+                                                                                                                           ++ "/acb/awb/"
+                                                                                                                           ++ s
+                                                                                                                           ++ ".ogg") H.! A.controls "" $ ""
+                                                                       H.td $ x %% "chinese"
+                                                                       H.td $ x %% "japanese"
+                                                                       H.td $ x %% "english")
+                                                          $ lines
                                          Nothing
                                            -> "Missing lines!!"
 
