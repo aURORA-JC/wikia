@@ -654,7 +654,7 @@ main
        dumbjs <- readFile "dumbjs.js"
        mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
                                            $ zip [0..]
-                                           $ sortOn (\(k, Aeson.Object x) -> x % "id")
+                                           $ sortOn (\(k, _) -> k)
                                            $ toList
                                            $ aobj
                                            $ json ! "skin"
