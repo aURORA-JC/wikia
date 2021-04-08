@@ -65,8 +65,8 @@
 	"skin": {
 		"1": {
 			"id": "bangkeshan",
-			"name": "Bunker Hill ",
-			"description": "Essex-class aircraft carrier – Bunker Hill, Hull Number CV-17. ",
+			"name": "Bunker Hill",
+			"description": "Essex-class aircraft carrier – Bunker Hill, Hull Number CV-17.",
 			"expression": {
 				"0": {
 					"id": "0"
@@ -79,6 +79,28 @@
 				},
 				"3": {
 					"id": "3"
+				}
+			}
+		},
+		"2": {
+			"id": "bangkeshan_2",
+			"name": "",
+			"description": "",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		}
@@ -659,7 +681,26 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "2": {
+                "skin_id": "bangkeshan_2",
+                "id": "1",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            }
 		}
 	},
 	"fleet_tech": {
