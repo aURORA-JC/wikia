@@ -441,7 +441,7 @@ showship encn skins json
          $ H.td H.! A.colspan "2"
          $ H.table
          $ do linesSet <- return
-                          $ map (\(Aeson.Object x) -> (capitalize $ x % "skin_id", x))
+                          $ map (\(Aeson.Object x) -> (map toUpper $ x % "skin_id", x))
                           $ elems
                           $ aobj
                           $ (aobj $ json ! "lines") ! "skin"
@@ -451,7 +451,7 @@ showship encn skins json
               H.tr
                 $ H.td
                 $ writeskins skins "lineView" False
-                $ \i -> \n -> \skin -> case lookup (capitalize n) linesSet of
+                $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
                                                           $ map aobj
