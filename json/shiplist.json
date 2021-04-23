@@ -3780,6 +3780,78 @@
         "shipType": "common"
     },
     "500": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/weineituo.png",
+        "link": "vittorio_veneto",
+        "name": "Vittorio Veneto",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "501": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/abuluqi.png",
+        "link": "duca_degli_abruzzi",
+        "name": "Duca degli Abruzzi",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "502": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tianying.png",
+        "link": "aquila",
+        "name": "Aquila",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "503": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tuolichaili.png",
+        "link": "torricelli",
+        "name": "Torricelli",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "504": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xibeifeng.png",
+        "link": "maestrale",
+        "name": "Maestrale",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "505": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xinanfeng.png",
+        "link": "libeccio",
+        "name": "Libeccio",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "506": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/daleike.png",
+        "link": "nicoloso_da_recco",
+        "name": "Nicoloso da Recco",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "507": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhuifeng.png",
+        "link": "oite",
+        "name": "Oite",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "508": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/ailunsamuna.png",
         "link": "allen_m_sumner",
@@ -3788,7 +3860,7 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
-    "501": {
+    "509": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/shidifenbote.png",
         "link": "stephen_potter",
@@ -3797,13 +3869,13 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-    "502": {
-        "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhuifeng.png",
-        "link": "oite",
-        "name": "Oite",
+    "510": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tiancheng_younv.png",
+        "link": "amagichan",
+        "name": "Amagi-chan",
         "navy": "Sakura Empire",
-        "rarity": "Rare",
+        "rarity": "Elite",
         "shipType": "common"
     },
 	"P001": {
@@ -4307,15 +4379,6 @@
 		"link": "i8",
 		"name": "I8",
 		"navy": "Sakura Empire",
-		"rarity": "",
-		"shipType": "unreleased"
-	},
-	"X005": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/weineituo.png",
-		"link": "vittorio_veneto",
-		"name": "Vittorio Veneto",
-		"navy": "Sardegna Empire",
 		"rarity": "",
 		"shipType": "unreleased"
 	},

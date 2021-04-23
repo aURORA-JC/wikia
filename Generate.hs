@@ -441,7 +441,7 @@ showship encn skins json
          $ H.td H.! A.colspan "2"
          $ H.table
          $ do linesSet <- return
-                          $ map (\(Aeson.Object x) -> (x % "skin_id", x))
+                          $ map (\(Aeson.Object x) -> (map toUpper $ x % "skin_id", x))
                           $ elems
                           $ aobj
                           $ (aobj $ json ! "lines") ! "skin"
@@ -451,11 +451,13 @@ showship encn skins json
               H.tr
                 $ H.td
                 $ writeskins skins "lineView" False
-                $ \i -> \n -> \skin -> case lookup n linesSet of
+                $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
-                                                          $ map aobj
-                                                          $ elems
+                                                          $ map (\(_, y) -> y)
+                                                          $ sortOn (\(k, _) -> k)
+                                                          $ map (\(x, y) -> (read (unpack x) :: Int, aobj y))
+                                                          $ toList
                                                           $ aobj
                                                           $ lineSet ! "dialogue"
                                                  H.table
@@ -466,54 +468,25 @@ showship encn skins json
                                                              ("West Taiwanese Server", 27),
                                                              ("Japanese Server", 27),
                                                              ("English Server", 27)]
-                                                        mapM_ (\k
-                                                               -> case find (\x -> x % "event" == k) lines of
-                                                                    Just x
-                                                                      -> H.tr
-                                                                         $ do H.th H.! A.scope "row" $ H.preEscapedToHtml k
-                                                                              H.td
-                                                                                $ case x % "media" of
-                                                                                    "" -> ""
-                                                                                    s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
-                                                                                                                                   $ "https://algwiki.moe/assets/cue/cv-"
-                                                                                                                                   ++ init (case json % "internal_id" of
-                                                                                                                                              "" -> "0"
-                                                                                                                                              x -> x)
-                                                                                                                                   ++ (if any (\x -> x `isPrefixOf` s) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
-                                                                                                                                   ++ "/acb/awb/"
-                                                                                                                                   ++ s
-                                                                                                                                   ++ ".ogg") H.! A.controls "" $ ""
-                                                                              H.td $ x %% "chinese"
-                                                                              H.td $ x %% "japanese"
-                                                                              H.td $ x %% "english"
-                                                                    Nothing -> return ())
-                                                          $ ["Ship Description",
-                                                             "Biography",
-                                                             "Acquisition",
-                                                             "Login",
-                                                             "Details",
-                                                             "Main 1",
-                                                             "Main 2",
-                                                             "Main 3",
-                                                             "Touch",
-                                                             "Touch (Special)",
-                                                             "Mission",
-                                                             "Mission Complete",
-                                                             "Mail",
-                                                             "Return to Port",
-                                                             "Commission Complete",
-                                                             "Enhancement",
-                                                             "Flagship",
-                                                             "Victory",
-                                                             "Defeat",
-                                                             "Skill",
-                                                             "Low HP",
-                                                             "Affinity (Upset)",
-                                                             "Affinity (Stranger)",
-                                                             "Affinity (Friendly)",
-                                                             "Affinity (Like)",
-                                                             "Affinity (Love)",
-                                                             "Pledge"]
+                                                        mapM_ (\x
+                                                               -> H.tr
+                                                                  $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ x %% "event"
+                                                                       H.td
+                                                                         $ case x % "media" of
+                                                                             "" -> ""
+                                                                             s  -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                           $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                           ++ init (case json % "internal_id" of
+                                                                                                                                      "" -> "0"
+                                                                                                                                      x -> x)
+                                                                                                                           ++ (if any (\x -> x `isPrefixOf` s) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
+                                                                                                                           ++ "/acb/awb/"
+                                                                                                                           ++ s
+                                                                                                                           ++ ".ogg") H.! A.controls "" $ ""
+                                                                       H.td $ x %% "chinese"
+                                                                       H.td $ x %% "japanese"
+                                                                       H.td $ x %% "english")
+                                                          $ lines
                                          Nothing
                                            -> "Missing lines!!"
 
@@ -653,7 +626,7 @@ main
        dumbjs <- readFile "dumbjs.js"
        mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
                                            $ zip [0..]
-                                           $ sortOn (\(k, Aeson.Object x) -> x % "id")
+                                           $ sortOn (\(k, _) -> k)
                                            $ toList
                                            $ aobj
                                            $ json ! "skin"
