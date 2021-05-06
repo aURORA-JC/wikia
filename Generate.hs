@@ -20,6 +20,8 @@ import Data.Char
 import Data.List.Split
 import Data.Maybe
 
+import Extra
+
 (%) a b = ashow $ a ! (pack b)
 (%%) :: Aeson.Object
      -> String
@@ -114,12 +116,12 @@ sidebar
 mkhtml :: String
        -> String
        -> String
+       -> String
        -> H.Html
        -> H.Html
        -> IO ()
-mkhtml prefix name title y x
-  = do css <- readFile "style.css"
-       writeFile (prefix ++ name ++ ".html")
+mkhtml css prefix name title y x
+  = do writeFile (prefix ++ name ++ ".html")
          $ renderHtml
          $ H.docTypeHtml
          $ do H.head
@@ -175,11 +177,12 @@ writeskins skins id e f
          mapM_ (\(i, i', skin) -> H.div H.! A.id (H.stringValue $ "skinContent-" ++ id ++ "-" ++ show i) H.! A.class_ "skinContent"
                                   $ f i i' skin) skins'
 
-showship :: [(String, (String, String))]
+showship :: [(String, Val)]
+         -> [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
          -> Aeson.Object
          -> H.Html
-showship encn skins json
+showship luaskin encn skins json
   = do H.tr
          $ do H.td
                 $ H.table
@@ -451,6 +454,64 @@ showship encn skins json
               H.tr
                 $ H.td
                 $ writeskins skins "lineView" False
+                $ \i -> \n -> \skin ->  case lookup (map toUpper n) linesSet of
+                                          Nothing -> "Nothing"
+                                          Just lineSet
+                                           -> let luaskin' = map (\(lang, v) -> (lang, lookupi v (case readMaybe ((init (case json % "internal_id" of
+                                                                                                                           "" -> "00"
+                                                                                                                           x -> x)) ++ lineSet % "id") :: Maybe Int of
+                                                                                                    Just x -> x
+                                                                                                    Nothing -> 0))) luaskin
+                                                  labels = [("Ship Description",    "drop_descrip"),
+                                                            ("Biography",           "profile"),
+                                                            ("Acquisition",         "unlock"),
+                                                            ("Login",               "login"),
+                                                            ("Details",             "detail"),
+                                                            ("Main",                "main"),
+                                                            ("Touch",               "touch"),
+                                                            ("Touch (Special)",     "touch2"),
+                                                            ("Mission",             "mission"),
+                                                            ("Mission Complete",    "mission_complete"),
+                                                            ("Mail",                "mail"),
+                                                            ("Return to Port",      "home"),
+                                                            ("Commission Complete", "expedition"),
+                                                            ("Enhancement",         "upgrade"),
+                                                            ("Flagship",            "battle"),
+                                                            ("Victory",             "win_mvp"),
+                                                            ("Defeat",              "lose"),
+                                                            ("Skill",               "skill"),
+                                                            ("Low HP",              "hp_warning"),
+                                                            ("Affinity (Upset)",    "feeling1"),
+                                                            ("Affinity (Stranger)", "feeling2"),
+                                                            ("Affinity (Friendly)", "feeling3"),
+                                                            ("Affinity (Like)",     "feeling4"),
+                                                            ("Affinity (Love)",     "feeling5"),
+                                                            ("Pledge",              "propose")
+                                                            --Like Present
+                                                            --Dislike Present
+                                                            --Main Title
+                                                            --headtouch = "",
+                                                            --vote = "",
+                                                           ] :: [(String, String)]
+                                                  merged' = (map (\(label, key) -> (label, map (\(lang, v) -> case v of
+                                                                                                                Nothing -> []
+                                                                                                                Just v -> case lookups v key of
+                                                                                                                            Just x -> endBy "|" $ asstr x
+                                                                                                                            Nothing -> []) luaskin')) labels) :: [(String, [[String]])]
+                                                  merged = (map (\(label, l) -> (label, maximum $ map length l, l)) merged') :: [(String, Int, [[String]])]
+                                                  langs = [("West Taiwanese Server"),
+                                                           ("Japanese Server"),
+                                                           ("English Server")]
+                                              in
+                                                       H.table
+                                                       $ mapM_ (\(label, i, langs) -> mapM_ (\i -> H.tr
+                                                                                                   $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case i of
+                                                                                                                                                                  1 -> ""
+                                                                                                                                                                  x -> " " ++ show x)
+                                                                                                        mapM_ (\x -> case length x >= i of
+                                                                                                                       True -> H.td $ H.preEscapedToHtml $ x !! (i - 1)
+                                                                                                                       False -> H.td "") langs) $ take i [1..]) merged
+                {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
@@ -489,7 +550,7 @@ showship encn skins json
                                                           $ lines
                                          Nothing
                                            -> "Missing lines!!"
-
+-}
   where d = displayRow json
 
 displayRow :: Aeson.Object
@@ -520,10 +581,11 @@ indexFood lvl ships
 
 makeMainIndex :: String
               -> String
+              -> String
               -> [[(String, Aeson.Object)]]
               -> IO ()
-makeMainIndex file title ships
-  = do mkhtml "out/" file title (return ())
+makeMainIndex css file title ships
+  = do mkhtml css "out/" file title (return ())
          $ do H.nav
                 $ do H.a H.! A.href "." $ "Home"
                      " > "
@@ -544,15 +606,16 @@ g x
     $ sortBy (comparing $ \a -> elemIndex ((snd a) % "shipType") order) x
 
 makeIndex :: String
+          -> String
           -> (String -> String)
           -> [(String, Aeson.Object)]
           -> IO ()
-makeIndex category f ships
+makeIndex css category f ships
   = do createDirectory $ "out/" ++ category
        subcats <- mapM (\x -> do name <- return $ case (snd $ head $ head x) % category of
                                                     "" -> "unknown"
                                                     x -> x
-                                 mkhtml ("out/" ++ category ++ "/") name (capitalize name) (return ())
+                                 mkhtml css ("out/" ++ category ++ "/") name (capitalize name) (return ())
                                    $ do H.nav
                                           $ do H.a H.! A.href ".." $ "Home"
                                                " > "
@@ -563,7 +626,7 @@ makeIndex category f ships
                                                      $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.preEscapedToHtml $ capitalize $ (snd $ head x) % "shipType"
                                                           indexFood "../" x) x
                                  return name) groupedShips
-       mkhtml ("out/" ++ category ++ "/") "index" (capitalize category) (return ())
+       mkhtml css ("out/" ++ category ++ "/") "index" (capitalize category) (return ())
          $ do H.nav
                 $ do H.a H.! A.href ".." $ "Home"
                      " > "
@@ -618,12 +681,14 @@ decideColor ""           = "#24252d"
 
 main :: IO ()
 main
-  = do catchIOError (removeDirectoryRecursive "out") $ const $ return ()
+  = do css <- readFile "style.css"
+       luaskin <- mapM (\x -> readFile ("lua/" ++ x ++ ".lua") >>= (\y -> return (x, snd $ head $ start y))) ["cn", "jp", "en"]
+       dumbjs <- readFile "dumbjs.js"
+       catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
        createDirectory "out/ships"
        dir <- listDirectory "Ships"
        (encn, enen, ships) <- (mapM loadJson $ sort dir) >>= return . unzip3
-       dumbjs <- readFile "dumbjs.js"
        mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
                                            $ zip [0..]
                                            $ sortOn (\(k, _) -> k)
@@ -631,21 +696,21 @@ main
                                            $ aobj
                                            $ json ! "skin"
                                in
-                                 mkhtml "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
-                                                                              mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
-                                                                                $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
-                                                                                   "https://algwiki.moe/js/live2dcubismcore.min.js",
-                                                                                   "https://algwiki.moe/js/live2dcubismframework.js",
-                                                                                   "https://algwiki.moe/js/live2dcubismpixi.js",
-                                                                                   "https://algwiki.moe/js/pixi-spine.js",
-                                                                                   "https://algwiki.moe/js/SkeletonBinary.js"])
+                                 mkhtml css "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
+                                                                                  mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
+                                                                                    $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
+                                                                                       "https://algwiki.moe/js/live2dcubismcore.min.js",
+                                                                                       "https://algwiki.moe/js/live2dcubismframework.js",
+                                                                                       "https://algwiki.moe/js/live2dcubismpixi.js",
+                                                                                       "https://algwiki.moe/js/pixi-spine.js",
+                                                                                       "https://algwiki.moe/js/SkeletonBinary.js"])
                                $ do H.nav
                                       $ do H.a H.! A.href "/" $ "Home"
                                            " > "
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
-                                    H.main $ H.table $ showship encn skins json
+                                    H.main $ H.table $ showship luaskin encn skins json
                                     H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
@@ -655,9 +720,9 @@ main
        shiplist <- return
                    $ g shiplist'
 
-       makeIndex "rarity" rarity shiplist'
-       makeIndex "hull"   hull   shiplist'
-       makeIndex "navy"   navy   shiplist'
-       makeMainIndex "shiplist" "Shiplist (By ID)" shiplist
-       makeMainIndex "shiplist_alpha" "Shiplist (Alphabetic)"
+       makeIndex css "rarity" rarity shiplist'
+       makeIndex css "hull"   hull   shiplist'
+       makeIndex css "navy"   navy   shiplist'
+       makeMainIndex css "shiplist" "Shiplist (By ID)" shiplist
+       makeMainIndex css "shiplist_alpha" "Shiplist (Alphabetic)"
          $ map (sortOn (\(_, json) -> json % "name")) $ shiplist
