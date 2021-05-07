@@ -462,56 +462,83 @@ showship luaskin encn skins json
                                                                                                                            x -> x)) ++ lineSet % "id") :: Maybe Int of
                                                                                                     Just x -> x
                                                                                                     Nothing -> 0))) luaskin
-                                                  labels = [("Ship Description",    "drop_descrip"),
-                                                            ("Biography",           "profile"),
-                                                            ("Acquisition",         "unlock"),
-                                                            ("Login",               "login"),
-                                                            ("Details",             "detail"),
-                                                            ("Main",                "main"),
-                                                            ("Touch",               "touch"),
-                                                            ("Touch (Special)",     "touch2"),
-                                                            ("Mission",             "mission"),
-                                                            ("Mission Complete",    "mission_complete"),
-                                                            ("Mail",                "mail"),
-                                                            ("Return to Port",      "home"),
-                                                            ("Commission Complete", "expedition"),
-                                                            ("Enhancement",         "upgrade"),
-                                                            ("Flagship",            "battle"),
-                                                            ("Victory",             "win_mvp"),
-                                                            ("Defeat",              "lose"),
-                                                            ("Skill",               "skill"),
-                                                            ("Low HP",              "hp_warning"),
-                                                            ("Affinity (Upset)",    "feeling1"),
-                                                            ("Affinity (Stranger)", "feeling2"),
-                                                            ("Affinity (Friendly)", "feeling3"),
-                                                            ("Affinity (Like)",     "feeling4"),
-                                                            ("Affinity (Love)",     "feeling5"),
-                                                            ("Pledge",              "propose")
-                                                            --Like Present
-                                                            --Dislike Present
-                                                            --Main Title
-                                                            --headtouch = "",
-                                                            --vote = "",
-                                                           ] :: [(String, String)]
-                                                  merged' = (map (\(label, key) -> (label, map (\(lang, v) -> case v of
+                                                  labels = [("Ship Description",    "drop_descrip",     ""),
+                                                            ("Biography",           "profile",          "profile"),
+                                                            ("Acquisition",         "unlock",           "get"),
+                                                            ("Login",               "login",            "login"),
+                                                            ("Details",             "detail",           "detail"),
+                                                            ("Main",                "main",             "main"),
+                                                            ("Touch",               "touch",            "touch_1"),
+                                                            ("Touch (Special)",     "touch2",           "touch_2"),
+                                                            ("Touch (Headpat)",     "headtouch",        "touch_head"),
+                                                            ("Mission",             "mission",          "task"),
+                                                            ("Mission Complete",    "mission_complete", "mission_complete"),
+                                                            ("Mail",                "mail",             "mail"),
+                                                            ("Return to Port",      "home",             "home"),
+                                                            ("Commission Complete", "expedition",       "expedition"),
+                                                            ("Enhancement",         "upgrade",          "upgrade"),
+                                                            ("Flagship",            "battle",           "warcry"),
+                                                            ("Victory",             "win_mvp",          "mpv"),
+                                                            ("Defeat",              "lose",             "lose"),
+                                                            ("Skill",               "skill",            "skill"),
+                                                            ("Low HP",              "hp_warning",       "hp"),
+                                                            ("Affinity (Upset)",    "feeling1",         "feeling1"),
+                                                            ("Affinity (Stranger)", "feeling2",         "feeling2"),
+                                                            ("Affinity (Friendly)", "feeling3",         "feeling3"),
+                                                            ("Affinity (Like)",     "feeling4",         "feeling4"),
+                                                            ("Affinity (Love)",     "feeling5",         "feeling5"),
+                                                            ("Pledge",              "propose",          "propose"),
+                                                            ("Like Present",        "",                 "present_like"),
+                                                            ("Dislike Present",     "",                 "present_dislike"),
+                                                            ("Main Title",          "",                 "extra")
+                                                            --for skins after the 1st add _m
+                                                            --TODO: couple_encourage
+                                                           ] :: [(String, String, String)]
+                                                  merged' = (map (\(label, key, voice) -> (label,
+                                                                                           voice,
+                                                                                           map (\(lang, v) -> case v of
                                                                                                                 Nothing -> []
                                                                                                                 Just v -> case lookups v key of
                                                                                                                             Just x -> endBy "|" $ asstr x
-                                                                                                                            Nothing -> []) luaskin')) labels) :: [(String, [[String]])]
-                                                  merged = (map (\(label, l) -> (label, maximum $ map length l, l)) merged') :: [(String, Int, [[String]])]
+                                                                                                                            Nothing -> []) luaskin')) labels) :: [(String, String, [[String]])]
+                                                  merged = (map (\(label, voice, l) -> (label, voice, maximum $ map length l, l)) merged') :: [(String, String, Int, [[String]])]
                                                   langs = [("West Taiwanese Server"),
                                                            ("Japanese Server"),
                                                            ("English Server")]
                                               in
-                                                       H.table
-                                                       $ mapM_ (\(label, i, langs) -> mapM_ (\i -> H.tr
-                                                                                                   $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case i of
-                                                                                                                                                                  1 -> ""
-                                                                                                                                                                  x -> " " ++ show x)
-                                                                                                        mapM_ (\x -> case length x >= i of
-                                                                                                                       True -> H.td $ H.preEscapedToHtml $ x !! (i - 1)
-                                                                                                                       False -> H.td "") langs) $ take i [1..]) merged
-                {-
+                                                H.table
+                                                $ do H.tr
+                                                       $ mapM_ (\(x, y) -> H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.style (H.stringValue $ "width:" ++ show y ++ "%;") $ x)
+                                                       $ [("Event", 14),
+                                                          ("", 3),
+                                                          ("West Taiwanese Server", 27),
+                                                          ("Japanese Server", 27),
+                                                          ("English Server", 27)]
+                                                     mapM_ (\(label, voice, j, langs) -> mapM_ (\j -> H.tr
+                                                                                                      $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case j of
+                                                                                                                                                                     1 -> ""
+                                                                                                                                                                     x -> " " ++ show x)
+                                                                                                           H.td
+                                                                                                             $ case voice of
+                                                                                                                 "" -> ""
+                                                                                                                 _ -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                              $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                              ++ init (case json % "internal_id" of
+                                                                                                                                                                         "" -> "0"
+                                                                                                                                                                         x -> x)
+                                                                                                                                                              ++ (if any (\x -> x `isPrefixOf` voice) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
+                                                                                                                                                              ++ "/acb/awb/"
+                                                                                                                                                              ++ case voice of
+                                                                                                                                                                   "main" -> "main_" ++ show j
+                                                                                                                                                                   _ -> voice
+                                                                                                                                                              ++ case i of
+                                                                                                                                                                   0 -> ""
+                                                                                                                                                                   i -> "_" ++ show i
+                                                                                                                                                              ++ ".ogg") H.! A.controls "" $ ""
+                                                                                                           mapM_ (\x -> case length x >= j of
+                                                                                                                          True -> H.td $ H.preEscapedToHtml $ x !! (j - 1)
+                                                                                                                          False -> H.td "") langs) $ take j [1..]) merged
+                {- NOTE!! uses the same audio for all of the skins
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
