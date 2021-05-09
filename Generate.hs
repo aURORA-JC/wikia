@@ -178,11 +178,12 @@ writeskins skins id e f
                                   $ f i i' skin) skins'
 
 showship :: [(String, Val)]
+         -> [(String, [(Int, (String, String))])]
          -> [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
          -> Aeson.Object
          -> H.Html
-showship luaskin encn skins json
+showship luaskin namecode encn skins json
   = do H.tr
          $ do H.td
                 $ H.table
@@ -707,13 +708,20 @@ decideColor "Rare"       = "rgb(140, 179, 184)"
 decideColor "Common"     = "rgb(115, 115, 115)"
 decideColor ""           = "#24252d"
 
+langs = ["cn", "jp", "en"]
+readlua :: String -> [String] -> IO [(String, Val)]
+readlua x y' = mapM (\(lang, file) -> readFile file >>= (\x -> return (lang, snd $ head $ start file x)))
+               $ do y <- y'
+                    z <- langs
+                    return (z, "lua/" ++ x ++ y ++ "." ++ z ++ ".lua")
+
 main :: IO ()
 main
   = do css <- readFile "style.css"
-       luaskin <- mapM (\(lang, file) -> readFile file >>= (\x -> return (lang, snd $ head $ start file x)))
-                  $ do x <- ["", "_extra"]
-                       y <- ["cn", "jp", "en"]
-                       return (y, "lua/ship_skin_words" ++ x ++ "." ++ y ++ ".lua")
+       luaskin <- readlua "ship_skin_words" ["", "_extra"]
+       namecode <- readlua "name_code" [""] >>= return . map (\(lang, Block x) -> (lang, map (\(_, Block [(Just (Left "id"), Num id),
+                                                                                                          (Just (Left "name"), Str name),
+                                                                                                          (Just (Left "code"), Str code)]) -> (id, (name, code))) x))
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
@@ -741,7 +749,7 @@ main
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
-                                    H.main $ H.table $ showship luaskin encn skins json
+                                    H.main $ H.table $ showship luaskin namecode  encn skins json
                                     H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
