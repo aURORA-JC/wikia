@@ -1,4 +1,5 @@
-ship_skin_words_extra = {
+pg = pg or {}
+pg.ship_skin_words_extra = {
 	[999010] = {
 		feeling3 = "",
 		win_mvp = "",
@@ -3935,6 +3936,560 @@ ship_skin_words_extra = {
 			}
 		}
 	},
+	[101450] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		touch2 = "",
+		id = 101450,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Hwuh?! Wait, did I fall asleep? *yawn*... I might just call in sick today. Too lazy."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"This victory's for me and you, Commander! Ahaha!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'm givin' it one-hundo percent!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You could go for some cuddling? Don't mind if I do! We're gonna cuddle 'till dawn breaks!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"What do you mean \"please help\"? I'm your secretary, just tell me \"get this done\" like a commander would! ...Right, I'm on it."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"A new mission? I could help, if you want. I'll get it done in a jiffy!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Beep boop, this is an automated deadpan mission reminder. Mission rewards detected. Go claim them. Beep boop."
+			}
+		}
+	},
+	[101460] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		touch2 = "",
+		id = 101460,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Welcome back to the little bit o' heaven known as \"the office.\" Of course, heaven is wherever I am, right?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Meh. Can't afford to let you down, and all that jazz."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Got something you need from me? Sure, just say the word and you got it. Not a whole lot going on anyway, so maybe I'll do you a little favor~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Listening to music really puts you in that efficient state. Oh, I was talking about gaming. I'm fallin' asleep over here at work anyway, so what's the harm in enjoying some beats?|Commander's jacket... *sniff, sniff*... Great, nice and clean. Go, me!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"We've got new missions! Gotta do this stuff sooner or later, so why not get it outta the way now?"
+			}
+		}
+	},
+	[605010] = {
+		feeling3 = "",
+		upgrade = "",
+		mission = "",
+		id = 605010,
+		feeling1 = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Oh, I suppose it's time for work. Allow me just a moment to tidy things up."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Now they know the Empire's splendor, and the firmness of our resolves. And you made it possible, Commander."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I have dinner planned for later this evening. I hope you'll join me at the table, Commander."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Now, let us proceed according to the commander's plans."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Self-care is important. When you're out on a sortie, don't you wish you could come back to a warm bath every day? ...Not exactly?|You and Littorio are similar in a certain way. Namely, your tendency to rely on me for help~|I'm able to use my abilities to their fullest thanks to all my reliable friends around me. Please, send me out on more missions, Commander."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You really should take occasional breaks and empty your mind instead of working tirelessly all the time, Commander. You'll lead a fuller life if you do. Heehee~"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Could you give this a taste? ...Oh dear, I might have used too much salt. I thought the commission team might prefer stronger seasoning."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Is this letter from your friend? Ah. Heehee. I'm sure your friends are all lovely people."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I do not condone this, but since you're so insistent... Ohoho."
+			}
+		}
+	},
+	[304070] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 304070,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, I've put today's itinerary on your desk. Please look over it when you have time."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"It would appear that my tactics proved successful once again... Hehehe..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, Hiei taught me how to make three-colored mochi. Would you like to try some? Akagi and her friends all said it was delicious~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, say \"ahhn\"~ Now, it's my turn. Mm, delicious! Now it's your turn again~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, can you play Go with Kaga? She keeps saying \"I'll beat you next time\"...|I'm not good at physical activities, but a little bit of light exercise... Yes, if you'll be accompanying me, I'll also put forward my best effort.|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Do you like rubbing Akagi's tails the same way...?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Should I call Akagi here as well? Hehehe~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, would you like to rest on my lap? Thanks to you, I've been able to hold on for a lot longer~ Ehehe... Please make sure to go sleep in your regular bed before Akagi gets mad~"
+			}
+		}
+	},
+	[602010] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 602010,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Care for some tea before work? I'll put the kettle on."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"You have been defeated by the one and only Luigi di Savoia Duca degli Abruzzi! Remember this fact!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I truly do hope to see you at Le Triomphant's tea party. Feel free to ask if you want suggestions on what gifts you should bring."
+			}
+		},
+		main = {
+			{
+				1100,
+				"You're not procrastinating, but rather taking a break? I wish you would've said so sooner. Forgive me if I've been excessively strict. Let us both work on our undesirable quirks."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Your presence has lifted a great burden from my shoulders. The energy it has freed up I will use to better myself."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Yes, Commander? Whatever it is you need done, just say the word, and I'll see to it."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I don't blame you for losing control, but you must consider the impact on your public image."
+			}
+		}
+	},
+	[607010] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		id = 607010,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Please look after me today as well, my Commander~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"My Commander, if you receive any troublesome requests, will you delegate them to me?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Friends, heed my call – Begin our advance!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Let's give this another try... Are you sure it's supposed to work like this? ...Hyah! ...Ohmygosh! It worked! My Commander, Miss Illustrious!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Zzzzz... Ahhn, you mustn't~ Hwuh? My Commander? Hehe~ I wonder why you didn't directly wake me up?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"This is your favorite food, isn't it~ ...Oh, it's not? But that's what Miss Junyou told me. She's your childhood friend, isn't she...?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Let me handle this task... Oh, are you worried that I won't be able to handle it, my Commander...?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Thank you very much, my Commander! I did a good job, didn't I?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh my... Just what am I going to do with you, my Commander..."
+			}
+		}
+	},
+	[601040] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		id = 601040,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Good day... Th-there's no need to be so formal? I, I see... th-thanks then..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We did it! Commander, thank you very much! *nods*"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back. I've been studying how to make tea from the Royal Maids. Oh, but keep it a secret from Libeccio, okay...?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Everyone, p-please do your best...!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I really l-like talking to you, Commander... Even though I'm usually the one answering questions, but... I'd actually like to get to know more about you......"
+			}
+		},
+		main = {
+			{
+				1100,
+				"L-Libeccio isn't here today, so... Commander, how about we go somewhere t-together?!|The mission supplies are over here, the reward list is over here, and the ring box that Commander gave me is... Oh... *blushes*|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, need a hand?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ehehe... Commander..."
+			}
+		}
+	},
+	[601050] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		touch2 = "",
+		id = 601050,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Ciao! Commander, let's dial it up to 11 today as well! Woohoo~!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander! Hey, teach me something! Maestrale told me I should learn something that can help you out!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"My sister and I both like you a lot, Commander! We love you! Ehehe~ Commander, do you love us as well?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"I did my best to help you organize your documents! Ehehe! Commander, what should I do next?|Behold the Eternal Light of Sardegna! ...Uhh, what color is an eternal light, and how do you hold it? ...I wonder if Veneto will tell me...|Commander, throw the ball over here! Woohoo! Let's continue our anti-air exercises!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, is my sister doing alright?"
+			}
+		}
+	},
+	[601060] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		main_extra = "",
+		mission = "",
+		touch2 = "",
+		id = 601060,
+		feeling1 = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Ahoy-ahoy, Commander! Did you know? It's a perfect day for a voyage! Let's go on one right now!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Hmm, where should I plot a course to next... Any suggestions, Commander?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"This course will get us caught in a storm? And this one will get us shipwrecked? Dangit, why?! I thought I had it all planned out..."
+			}
+		},
+		main = {
+			{
+				1100,
+				"I bought a new map! ...No, I paid for it myself, out of my own pocket. Making maps is what I do for a hobby!||Nice medal collection, Commander! I've gotta show these to my Sardegnian friends!|nil"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"A commission's been completed! It ain't easy, plotting new courses all the time."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've worked out a course for our date! It goes to a nice, kinda remote little corner of the sea! Now it's your job to find some souvenirs for everyone!"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -4001,6 +4556,15 @@ ship_skin_words_extra = {
 		702060,
 		703010,
 		702040,
-		705040
+		705040,
+		101450,
+		101460,
+		605010,
+		304070,
+		602010,
+		607010,
+		601040,
+		601050,
+		601060
 	}
 }

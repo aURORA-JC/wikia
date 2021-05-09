@@ -1,6 +1,6 @@
 module Extra where
 
-import Text.Parsec ((<|>), (<?>), satisfy, char, between, many, many1, ParsecT, runParserT)
+import Text.Parsec ((<|>), (<?>), satisfy, char, between, many, many1, string, ParsecT, runParserT)
 import Data.Char
 import Control.Monad
 import Data.Functor.Identity
@@ -21,8 +21,8 @@ identifier
         xs <- many (satisfy $ \x -> isAlphaNum x || x == '_' || x == '-')
         return (x:xs)) <?> "Identifier"
 
-string :: ParsecT String () Identity String
-string
+str :: ParsecT String () Identity String
+str
   = (between (char '"') (char '"')
      $ many ((do char '\\'
                  (do char '"'
@@ -41,7 +41,7 @@ tok x
 
 val
   = ((readnum >>= return . Num)
-     <|> (string >>= return . Str)
+     <|> (str >>= return . Str)
      <|> (block >>= return . Block)) <?> "Value"
 
 element
@@ -65,9 +65,12 @@ block
                          $ char '}')
      $ iblock) <?> "Block"
 
-start :: String -> [(Maybe (Either String Int), Val)]
-start s
-  = case runIdentity $ runParserT iblock () "stdin" s of
+skipbad
+  = string "pg = pg or {}\npg." <|> return ""
+
+start :: String -> String -> [(Maybe (Either String Int), Val)]
+start file s
+  = case runIdentity $ runParserT (skipbad >> iblock) () file s of
       Left x -> error $ "\n" ++ show x ++ "\n"
       Right x -> x
 

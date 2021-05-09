@@ -499,7 +499,8 @@ showship luaskin encn skins json
                                                                                            map (\(lang, v) -> case v of
                                                                                                                 Nothing -> []
                                                                                                                 Just v -> case lookups v key of
-                                                                                                                            Just x -> endBy "|" $ asstr x
+                                                                                                                            Just (Str x) -> endBy "|" x
+                                                                                                                            Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
                                                                                                                             Nothing -> []) luaskin')) labels) :: [(String, String, [[String]])]
                                                   merged = (map (\(label, voice, l) -> (label, voice, maximum $ map length l, l)) merged') :: [(String, String, Int, [[String]])]
                                                   langs = [("West Taiwanese Server"),
@@ -709,7 +710,10 @@ decideColor ""           = "#24252d"
 main :: IO ()
 main
   = do css <- readFile "style.css"
-       luaskin <- mapM (\x -> readFile ("lua/" ++ x ++ ".lua") >>= (\y -> return (x, snd $ head $ start y))) ["cn", "jp", "en"]
+       luaskin <- mapM (\(lang, file) -> readFile file >>= (\x -> return (lang, snd $ head $ start file x)))
+                  $ do x <- ["", "_extra"]
+                       y <- ["cn", "jp", "en"]
+                       return (y, "lua/ship_skin_words" ++ x ++ "." ++ y ++ ".lua")
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
