@@ -177,7 +177,22 @@ writeskins skins id e f
          mapM_ (\(i, i', skin) -> H.div H.! A.id (H.stringValue $ "skinContent-" ++ id ++ "-" ++ show i) H.! A.class_ "skinContent"
                                   $ f i i' skin) skins'
 
-showship :: [(String, Val)]
+gettext :: [(String, [(Int, (String, String))])]
+        -> String
+        -> String
+        -> String
+gettext namecode lang "nil" = ""
+gettext namecode lang x = gettext' x
+  where localized = fromJust $ lookup lang namecode
+        gettext' []       = ""
+        gettext' ('{':'n':'a':'m':'e':'c':'o':'d':'e':':':xs) = inside 0 xs
+        gettext' (x:xs)   = x:(gettext' xs)
+        inside i ('}':xs) = (fst $ case lookup i localized of
+                                     Just x -> x
+                                     Nothing -> error $ show i) ++ gettext' xs
+        inside i (x:xs) = inside (i * 10 + digitToInt x) xs
+
+showship :: [(String, [Val])]
          -> [(String, [(Int, (String, String))])]
          -> [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
@@ -458,11 +473,11 @@ showship luaskin namecode encn skins json
                 $ \i -> \n -> \skin ->  case lookup (map toUpper n) linesSet of
                                           Nothing -> "Nothing"
                                           Just lineSet
-                                           -> let luaskin' = map (\(lang, v) -> (lang, lookupi v (case readMaybe ((init (case json % "internal_id" of
-                                                                                                                           "" -> "00"
-                                                                                                                           x -> x)) ++ lineSet % "id") :: Maybe Int of
-                                                                                                    Just x -> x
-                                                                                                    Nothing -> 0))) luaskin
+                                           -> let luaskin' = (map (\(lang, v) -> (lang, map (\v -> lookupi v (case readMaybe ((init (case json % "internal_id" of
+                                                                                                                                       "" -> "00"
+                                                                                                                                       x -> x)) ++ lineSet % "id") :: Maybe Int of
+                                                                                                                Just x -> x
+                                                                                                                Nothing -> 0)) v)) luaskin) :: [(String, [Maybe Val])]
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
                                                             ("Biography",           "profile",          "profile"),
                                                             ("Acquisition",         "unlock",           "get"),
@@ -492,21 +507,17 @@ showship luaskin namecode encn skins json
                                                             ("Like Present",        "",                 "present_like"),
                                                             ("Dislike Present",     "",                 "present_dislike"),
                                                             ("Main Title",          "",                 "extra")
-                                                            --for skins after the 1st add _m
                                                             --TODO: couple_encourage
                                                            ] :: [(String, String, String)]
                                                   merged' = (map (\(label, key, voice) -> (label,
                                                                                            voice,
-                                                                                           map (\(lang, v) -> case v of
-                                                                                                                Nothing -> []
-                                                                                                                Just v -> case lookups v key of
-                                                                                                                            Just (Str x) -> endBy "|" x
-                                                                                                                            Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
-                                                                                                                            Nothing -> []) luaskin')) labels) :: [(String, String, [[String]])]
-                                                  merged = (map (\(label, voice, l) -> (label, voice, maximum $ map length l, l)) merged') :: [(String, String, Int, [[String]])]
-                                                  langs = [("West Taiwanese Server"),
-                                                           ("Japanese Server"),
-                                                           ("English Server")]
+                                                                                           map (\(lang, v) -> v >>= \v -> case v of
+                                                                                                                            Nothing -> []
+                                                                                                                            Just v -> case lookups v key of
+                                                                                                                                        Just (Str x) -> [endBy "|" x]
+                                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> [endBy "|" x]
+                                                                                                                                        Nothing -> []) luaskin')) labels) :: [(String, String, [[[String]]])]
+                                                  merged = (map (\(label, voice, l) -> (label, voice, maximum $ map (maximum' . map length) l, l)) merged') :: [(String, String, Int, [[[String]]])]
                                               in
                                                 H.table
                                                 $ do H.tr
@@ -516,31 +527,32 @@ showship luaskin namecode encn skins json
                                                           ("West Taiwanese Server", 27),
                                                           ("Japanese Server", 27),
                                                           ("English Server", 27)]
-                                                     mapM_ (\(label, voice, j, langs) -> mapM_ (\j -> H.tr
-                                                                                                      $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case j of
-                                                                                                                                                                     1 -> ""
-                                                                                                                                                                     x -> " " ++ show x)
-                                                                                                           H.td
-                                                                                                             $ case voice of
-                                                                                                                 "" -> ""
-                                                                                                                 _ -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
-                                                                                                                                                              $ "https://algwiki.moe/assets/cue/cv-"
-                                                                                                                                                              ++ init (case json % "internal_id" of
-                                                                                                                                                                         "" -> "0"
-                                                                                                                                                                         x -> x)
-                                                                                                                                                              ++ (if any (\x -> x `isPrefixOf` voice) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
-                                                                                                                                                              ++ "/acb/awb/"
-                                                                                                                                                              ++ case voice of
-                                                                                                                                                                   "main" -> "main_" ++ show j
-                                                                                                                                                                   _ -> voice
-                                                                                                                                                              ++ case i of
-                                                                                                                                                                   0 -> ""
-                                                                                                                                                                   i -> "_" ++ show i
-                                                                                                                                                              ++ ".ogg") H.! A.controls "" $ ""
-                                                                                                           mapM_ (\x -> case length x >= j of
-                                                                                                                          True -> H.td $ H.preEscapedToHtml $ x !! (j - 1)
-                                                                                                                          False -> H.td "") langs) $ take j [1..]) merged
-                {- NOTE!! uses the same audio for all of the skins
+                                                     mapM_ (\(label, voice, j, langs') -> mapM_ (\j -> H.tr
+                                                                                                       $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case j of
+                                                                                                                                                                      1 -> ""
+                                                                                                                                                                      x -> " " ++ show x)
+                                                                                                            H.td
+                                                                                                              $ case voice of
+                                                                                                                  "" -> ""
+                                                                                                                  _ -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                               $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                               ++ init (case json % "internal_id" of
+                                                                                                                                                                          "" -> "0"
+                                                                                                                                                                          x -> x)
+                                                                                                                                                               ++ (if any (\x -> x `isPrefixOf` voice) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
+                                                                                                                                                               ++ "/acb/awb/"
+                                                                                                                                                               ++ case voice of
+                                                                                                                                                                    "main" -> "main_" ++ show j
+                                                                                                                                                                    _ -> voice
+                                                                                                                                                               ++ case i of
+                                                                                                                                                                    0 -> ""
+                                                                                                                                                                    i -> "_" ++ show i
+                                                                                                                                                               ++ ".ogg") H.! A.controls "" $ ""
+                                                                                                            mapM_ (\(i, x) -> case length x >= j of
+                                                                                                                                --_ | i > 2 -> error $ json % "name"
+                                                                                                                                True -> H.td $ H.preEscapedToHtml $ x !! (j - 1) >>= gettext namecode (langs !! i)
+                                                                                                                                False -> "") (zip [0..] langs')) $ take j [1..]) merged
+                {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
@@ -709,19 +721,18 @@ decideColor "Common"     = "rgb(115, 115, 115)"
 decideColor ""           = "#24252d"
 
 langs = ["cn", "jp", "en"]
-readlua :: String -> [String] -> IO [(String, Val)]
-readlua x y' = mapM (\(lang, file) -> readFile file >>= (\x -> return (lang, snd $ head $ start file x)))
-               $ do y <- y'
-                    z <- langs
-                    return (z, "lua/" ++ x ++ y ++ "." ++ z ++ ".lua")
+readlua :: String -> [String] -> IO [(String, [Val])]
+readlua x y' = mapM (\lang -> (mapM (\file -> readFile file >>= (\x -> return $ snd $ head $ start file x))
+                               $ do y <- y'
+                                    return $ "lua/" ++ x ++ y ++ "." ++ lang ++ ".lua") >>= \x -> return (lang, x)) langs
 
 main :: IO ()
 main
   = do css <- readFile "style.css"
        luaskin <- readlua "ship_skin_words" ["", "_extra"]
-       namecode <- readlua "name_code" [""] >>= return . map (\(lang, Block x) -> (lang, map (\(_, Block [(Just (Left "id"), Num id),
-                                                                                                          (Just (Left "name"), Str name),
-                                                                                                          (Just (Left "code"), Str code)]) -> (id, (name, code))) x))
+       namecode <- readlua "name_code" [""] >>= return . map (\(lang, [Block x]) -> (lang, map (\(_, Block [(Just (Left "id"), Num id),
+                                                                                                            (Just (Left "name"), Str name),
+                                                                                                            (Just (Left "code"), Str code)]) -> (id, (name, code))) x))
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
@@ -765,3 +776,6 @@ main
        makeMainIndex css "shiplist" "Shiplist (By ID)" shiplist
        makeMainIndex css "shiplist_alpha" "Shiplist (Alphabetic)"
          $ map (sortOn (\(_, json) -> json % "name")) $ shiplist
+
+maximum' [] = 0
+maximum' x = maximum x
