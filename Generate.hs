@@ -177,28 +177,27 @@ writeskins skins id e f
          mapM_ (\(i, i', skin) -> H.div H.! A.id (H.stringValue $ "skinContent-" ++ id ++ "-" ++ show i) H.! A.class_ "skinContent"
                                   $ f i i' skin) skins'
 
-gettext :: [(String, [(Int, (String, String))])]
+gettext :: [(Int, (String, String))]
         -> String
         -> String
-        -> String
-gettext namecode lang "nil" = ""
-gettext namecode lang x = gettext' x
-  where localized = fromJust $ lookup lang namecode
-        gettext' []       = ""
+gettext namecode "nil" = ""
+gettext namecode x = gettext' x
+  where gettext' []       = ""
         gettext' ('{':'n':'a':'m':'e':'c':'o':'d':'e':':':xs) = inside 0 xs
         gettext' (x:xs)   = x:(gettext' xs)
-        inside i ('}':xs) = (fst $ case lookup i localized of
+        inside i ('}':xs) = (fst $ case lookup i namecode of
                                      Just x -> x
                                      Nothing -> error $ show i) ++ gettext' xs
         inside i (x:xs) = inside (i * 10 + digitToInt x) xs
 
-showship :: [(String, [Val])]
-         -> [(String, [(Int, (String, String))])]
+showship :: [Val]
+         -> [Val]
+         -> [[(Int, (String, String))]]
          -> [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
          -> Aeson.Object
          -> H.Html
-showship luaskin namecode encn skins json
+showship luaskin luaskinextra namecode encn skins json
   = do H.tr
          $ do H.td
                 $ H.table
@@ -470,14 +469,17 @@ showship luaskin namecode encn skins json
               H.tr
                 $ H.td
                 $ writeskins skins "lineView" False
-                $ \i -> \n -> \skin ->  case lookup (map toUpper n) linesSet of
+                $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                           Nothing -> "Nothing"
                                           Just lineSet
-                                           -> let luaskin' = (map (\(lang, v) -> (lang, map (\v -> lookupi v (case readMaybe ((init (case json % "internal_id" of
-                                                                                                                                       "" -> "00"
-                                                                                                                                       x -> x)) ++ lineSet % "id") :: Maybe Int of
-                                                                                                                Just x -> x
-                                                                                                                Nothing -> 0)) v)) luaskin) :: [(String, [Maybe Val])]
+                                           -> let lua = case "_ex" `isInfixOf` (lineSet % "skin_id") of
+                                                   True -> luaskinextra
+                                                   False -> luaskin
+                                                  luaskin' = (map (\v -> lookupi v (case readMaybe ((init (case json % "internal_id" of
+                                                                                                             "" -> "00"
+                                                                                                             x -> x)) ++ lineSet % "id") :: Maybe Int of
+                                                                                      Just x -> x
+                                                                                      Nothing -> 0)) lua) :: [Maybe Val]
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
                                                             ("Biography",           "profile",          "profile"),
                                                             ("Acquisition",         "unlock",           "get"),
@@ -511,13 +513,13 @@ showship luaskin namecode encn skins json
                                                            ] :: [(String, String, String)]
                                                   merged' = (map (\(label, key, voice) -> (label,
                                                                                            voice,
-                                                                                           map (\(lang, v) -> v >>= \v -> case v of
-                                                                                                                            Nothing -> []
-                                                                                                                            Just v -> case lookups v key of
-                                                                                                                                        Just (Str x) -> [endBy "|" x]
-                                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> [endBy "|" x]
-                                                                                                                                        Nothing -> []) luaskin')) labels) :: [(String, String, [[[String]]])]
-                                                  merged = (map (\(label, voice, l) -> (label, voice, maximum $ map (maximum' . map length) l, l)) merged') :: [(String, String, Int, [[[String]]])]
+                                                                                           map (\v -> case v of
+                                                                                                        Nothing -> []
+                                                                                                        Just v -> case lookups v key of
+                                                                                                                    Just (Str x) -> endBy "|" x
+                                                                                                                    Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                    Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
+                                                  merged = (map (\(label, voice, l) -> (label, voice, maximum $ map length l, l)) merged') :: [(String, String, Int, [[String]])]
                                               in
                                                 H.table
                                                 $ do H.tr
@@ -548,9 +550,9 @@ showship luaskin namecode encn skins json
                                                                                                                                                                       0 -> ""
                                                                                                                                                                       i -> "_" ++ show i
                                                                                                                                                                  ++ ".ogg") H.! A.controls "" $ ""
-                                                                                                              mapM_ (\(i, x) -> H.td $ H.preEscapedToHtml $ x >>= \x -> case j <= length x of
-                                                                                                                                                                          True -> gettext namecode (langs !! i) (x !! (j - 1))
-                                                                                                                                                                          False -> "") (zip [0..] langs')) $ take max [1..]) merged
+                                                                                                              mapM_ (\(i, x) -> H.td $ H.preEscapedToHtml $ case j <= length x of
+                                                                                                                                                              True -> gettext (namecode !! i) (x !! (j - 1))
+                                                                                                                                                              False -> "") (zip [0..] langs')) $ take max [1..]) merged
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
@@ -720,18 +722,20 @@ decideColor "Common"     = "rgb(115, 115, 115)"
 decideColor ""           = "#24252d"
 
 langs = ["cn", "jp", "en"]
-readlua :: String -> [String] -> IO [(String, [Val])]
-readlua x y' = mapM (\lang -> (mapM (\file -> readFile file >>= (\x -> return $ snd $ head $ start file x))
-                               $ do y <- y'
-                                    return $ "lua/" ++ x ++ y ++ "." ++ lang ++ ".lua") >>= \x -> return (lang, x)) langs
+
+readlua :: String -> IO [Val]
+readlua x
+  = do mapM (\lang -> do file <- return $ "lua/" ++ x ++ "." ++ lang ++ ".lua"
+                         readFile file >>= return . snd . head . start file) langs
 
 main :: IO ()
 main
   = do css <- readFile "style.css"
-       luaskin <- readlua "ship_skin_words" ["", "_extra"]
-       namecode <- readlua "name_code" [""] >>= return . map (\(lang, [Block x]) -> (lang, map (\(_, Block [(Just (Left "id"), Num id),
-                                                                                                            (Just (Left "name"), Str name),
-                                                                                                            (Just (Left "code"), Str code)]) -> (id, (name, code))) x))
+       luaskin <- readlua "ship_skin_words"
+       luaskinextra <- readlua "ship_skin_words_extra"
+       namecode <- readlua "name_code" >>= return . map (\(Block x) -> map (\(_, Block [(Just (Left "id"), Num id),
+                                                                                        (Just (Left "name"), Str name),
+                                                                                        (Just (Left "code"), Str code)]) -> (id, (name, code))) x)
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
@@ -759,7 +763,7 @@ main
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
-                                    H.main $ H.table $ showship luaskin namecode  encn skins json
+                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json
                                     H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
