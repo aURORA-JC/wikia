@@ -527,31 +527,30 @@ showship luaskin namecode encn skins json
                                                           ("West Taiwanese Server", 27),
                                                           ("Japanese Server", 27),
                                                           ("English Server", 27)]
-                                                     mapM_ (\(label, voice, j, langs') -> mapM_ (\j -> H.tr
-                                                                                                       $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case j of
-                                                                                                                                                                      1 -> ""
-                                                                                                                                                                      x -> " " ++ show x)
-                                                                                                            H.td
-                                                                                                              $ case voice of
-                                                                                                                  "" -> ""
-                                                                                                                  _ -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
-                                                                                                                                                               $ "https://algwiki.moe/assets/cue/cv-"
-                                                                                                                                                               ++ init (case json % "internal_id" of
-                                                                                                                                                                          "" -> "0"
-                                                                                                                                                                          x -> x)
-                                                                                                                                                               ++ (if any (\x -> x `isPrefixOf` voice) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
-                                                                                                                                                               ++ "/acb/awb/"
-                                                                                                                                                               ++ case voice of
-                                                                                                                                                                    "main" -> "main_" ++ show j
-                                                                                                                                                                    _ -> voice
-                                                                                                                                                               ++ case i of
-                                                                                                                                                                    0 -> ""
-                                                                                                                                                                    i -> "_" ++ show i
-                                                                                                                                                               ++ ".ogg") H.! A.controls "" $ ""
-                                                                                                            mapM_ (\(i, x) -> case length x >= j of
-                                                                                                                                --_ | i > 2 -> error $ json % "name"
-                                                                                                                                True -> H.td $ H.preEscapedToHtml $ x !! (j - 1) >>= gettext namecode (langs !! i)
-                                                                                                                                False -> "") (zip [0..] langs')) $ take j [1..]) merged
+                                                     mapM_ (\(label, voice, max, langs') -> mapM_ (\j -> H.tr
+                                                                                                         $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case j of
+                                                                                                                                                                        1 -> ""
+                                                                                                                                                                        x -> " " ++ show x)
+                                                                                                              H.td
+                                                                                                                $ case voice of
+                                                                                                                    "" -> ""
+                                                                                                                    _ -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                                 $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                                 ++ init (case json % "internal_id" of
+                                                                                                                                                                            "" -> "0"
+                                                                                                                                                                            x -> x)
+                                                                                                                                                                 ++ (if any (\x -> x `isPrefixOf` voice) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
+                                                                                                                                                                 ++ "/acb/awb/"
+                                                                                                                                                                 ++ case voice of
+                                                                                                                                                                      "main" -> "main_" ++ show j
+                                                                                                                                                                      _ -> voice
+                                                                                                                                                                 ++ case i of
+                                                                                                                                                                      0 -> ""
+                                                                                                                                                                      i -> "_" ++ show i
+                                                                                                                                                                 ++ ".ogg") H.! A.controls "" $ ""
+                                                                                                              mapM_ (\(i, x) -> H.td $ H.preEscapedToHtml $ x >>= \x -> case j <= length x of
+                                                                                                                                                                          True -> gettext namecode (langs !! i) (x !! (j - 1))
+                                                                                                                                                                          False -> "") (zip [0..] langs')) $ take max [1..]) merged
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
