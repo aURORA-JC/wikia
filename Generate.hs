@@ -472,12 +472,16 @@ showship luaskin luaskinextra namecode encn skins json
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                           Nothing -> "Nothing"
                                           Just lineSet
-                                           -> let lua = case "_ex" `isInfixOf` (lineSet % "skin_id") of
-                                                   True -> luaskinextra
-                                                   False -> luaskin
+                                           -> let skinid = lineSet % "skin_id"
+                                                  lua = case "_ex" `isInfixOf` skinid of
+                                                          True -> luaskinextra
+                                                          False -> luaskin
+                                                  id = case splitOneOf "_" skinid of
+                                                        x | length x > 1 -> last x
+                                                        _ -> lineSet % "id"
                                                   luaskin' = (map (\v -> lookupi v (case readMaybe ((init (case json % "internal_id" of
                                                                                                              "" -> "00"
-                                                                                                             x -> x)) ++ lineSet % "id") :: Maybe Int of
+                                                                                                             x -> x)) ++ skinid) :: Maybe Int of
                                                                                       Just x -> x
                                                                                       Nothing -> 0)) lua) :: [Maybe Val]
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
@@ -546,9 +550,10 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                                                                  ++ case voice of
                                                                                                                                                                       "main" -> "main_" ++ show j
                                                                                                                                                                       _ -> voice
-                                                                                                                                                                 ++ case i of
+                                                                                                                                                                 {- ++ case i of
                                                                                                                                                                       0 -> ""
-                                                                                                                                                                      i -> "_" ++ show i
+                                                                                                                                                                      i -> "_" ++ show i -}
+                                                                                                                                                                 ++ id
                                                                                                                                                                  ++ ".ogg") H.! A.controls "" $ ""
                                                                                                               mapM_ (\(i, x) -> H.td $ H.preEscapedToHtml $ case j <= length x of
                                                                                                                                                               True -> gettext (namecode !! i) (x !! (j - 1))
