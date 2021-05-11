@@ -2,1037 +2,1037 @@ pg = pg or {}
 pg.name_code = {
 	{
 		id = 1,
-		name = "峰风",
-		code = "樱"
+		name = "Minekaze",
+		code = "Minekaze"
 	},
 	{
 		id = 2,
-		name = "吹雪",
-		code = "桐"
+		name = "Fubuki",
+		code = "Fubuki"
 	},
 	{
 		id = 3,
-		name = "白雪",
-		code = "杉"
+		name = "Shirayuki",
+		code = "Shirayuki"
 	},
 	{
 		id = 4,
-		name = "初雪",
-		code = "杨"
+		name = "Hatsuyuki",
+		code = "Hatsuyuki"
 	},
 	{
 		id = 5,
-		name = "深雪",
-		code = "梧"
+		name = "Miyuki",
+		code = "Miyuki"
 	},
 	{
 		id = 6,
-		name = "绫波",
-		code = "柚"
+		name = "Ayanami",
+		code = "Ayanami"
 	},
 	{
 		id = 7,
-		name = "敷波",
-		code = "柿"
+		name = "Shikinami",
+		code = "Shikinami"
 	},
 	{
 		id = 8,
-		name = "曙",
-		code = "棪"
+		name = "Akebono",
+		code = "Akebono"
 	},
 	{
 		id = 9,
-		name = "涟",
-		code = "槿"
+		name = "Sazanami",
+		code = "Sazanami"
 	},
 	{
 		id = 10,
-		name = "潮",
-		code = "槟"
+		name = "Ushio",
+		code = "Ushio"
 	},
 	{
 		id = 11,
-		name = "晓",
-		code = "枫"
+		name = "Akatsuki",
+		code = "Akatsuki"
 	},
 	{
 		id = 12,
-		name = "响",
-		code = "栀"
+		name = "Hibiki",
+		code = "Hibiki"
 	},
 	{
 		id = 13,
-		name = "雷",
-		code = "梓"
+		name = "Ikazuchi",
+		code = "Ikazuchi"
 	},
 	{
 		id = 14,
-		name = "电",
-		code = "柏"
+		name = "Inazuma",
+		code = "Inazuma"
 	},
 	{
 		id = 15,
-		name = "白露",
-		code = "梿"
+		name = "Shiratsuyu",
+		code = "Shiratsuyu"
 	},
 	{
 		id = 16,
-		name = "夕立",
-		code = "椿"
+		name = "Yuudachi",
+		code = "Yuudachi"
 	},
 	{
 		id = 17,
-		name = "时雨",
-		code = "栴"
+		name = "Shigure",
+		code = "Shigure"
 	},
 	{
 		id = 18,
-		name = "岛风",
-		code = "芒"
+		name = "Shimakaze",
+		code = "Shimakaze"
 	},
 	{
 		id = 19,
-		name = "阳炎",
-		code = "萩"
+		name = "Kagerou",
+		code = "Kagerou"
 	},
 	{
 		id = 20,
-		name = "不知火",
-		code = "蒲"
+		name = "Shiranui",
+		code = "Shiranui"
 	},
 	{
 		id = 21,
-		name = "黑潮",
-		code = "蓉"
+		name = "Kuroshio",
+		code = "Kuroshio"
 	},
 	{
 		id = 22,
-		name = "雪风",
-		code = "莲"
+		name = "Yukikaze",
+		code = "Yukikaze"
 	},
 	{
 		id = 23,
-		name = "天津风",
-		code = "菡"
+		name = "Amatsukaze",
+		code = "Amatsukaze"
 	},
 	{
 		id = 24,
-		name = "野分",
-		code = "苓"
+		name = "Nowaki",
+		code = "Nowaki"
 	},
 	{
 		id = 25,
-		name = "岚",
-		code = "萍"
+		name = "Arashi",
+		code = "Arashi"
 	},
 	{
 		id = 26,
-		name = "秋月",
-		code = "椛"
+		name = "Akizuki",
+		code = "Akizuki"
 	},
 	{
 		id = 27,
-		name = "凉月",
-		code = "栎"
+		name = "Suzutsuki",
+		code = "Suzutsuki"
 	},
 	{
 		id = 28,
-		name = "宵月",
-		code = "楛"
+		name = "Yoizuki",
+		code = "Yoizuki"
 	},
 	{
 		id = 29,
-		name = "花月",
-		code = "榵"
+		name = "Hanazuki",
+		code = "Hanazuki"
 	},
 	{
 		id = 30,
-		name = "初春",
-		code = "梅"
+		name = "Hatsuharu",
+		code = "Hatsuharu"
 	},
 	{
 		id = 31,
-		name = "有明",
-		code = "榎"
+		name = "Ariake",
+		code = "Ariake"
 	},
 	{
 		id = 32,
-		name = "夕暮",
-		code = "棭"
+		name = "Yuugure",
+		code = "Yuugure"
 	},
 	{
 		id = 33,
-		name = "睦月",
-		code = "松"
+		name = "Mutsuki",
+		code = "Mutsuki"
 	},
 	{
 		id = 34,
-		name = "如月",
-		code = "樟"
+		name = "Kisaragi",
+		code = "Kisaragi"
 	},
 	{
 		id = 35,
-		name = "夕云",
-		code = "茭"
+		name = "Yugumo",
+		code = "Yugumo"
 	},
 	{
 		id = 36,
-		name = "卷云",
-		code = "荨"
+		name = "Makinami",
+		code = "Makinami"
 	},
 	{
 		id = 37,
-		name = "夕张",
-		code = "狐"
+		name = "Yuubari",
+		code = "Yuubari"
 	},
 	{
 		id = 38,
-		name = "川内",
-		code = "貆"
+		name = "Sendai",
+		code = "Sendai"
 	},
 	{
 		id = 39,
-		name = "神通",
-		code = "貎"
+		name = "Jintsuu",
+		code = "Jintsuu"
 	},
 	{
 		id = 40,
-		name = "那珂",
-		code = "豻"
+		name = "Naka",
+		code = "Naka"
 	},
 	{
 		id = 41,
-		name = "天龙",
-		code = "豺"
+		name = "Tenryu",
+		code = "Tenryu"
 	},
 	{
 		id = 42,
-		name = "龙田",
-		code = "豹"
+		name = "Tatsuta",
+		code = "Tatsuta"
 	},
 	{
 		id = 43,
-		name = "球磨",
-		code = "熊"
+		name = "Kuma",
+		code = "Kuma"
 	},
 	{
 		id = 44,
-		name = "北上",
-		code = "狸"
+		name = "Kitakami",
+		code = "Kitakami"
 	},
 	{
 		id = 45,
-		name = "大井",
-		code = "獾"
+		name = "Oi",
+		code = "Oi"
 	},
 	{
 		id = 46,
-		name = "长良",
-		code = "貊"
+		name = "Nagara",
+		code = "Nagara"
 	},
 	{
 		id = 47,
-		name = "阿武隈",
-		code = "貃"
+		name = "Abukuma",
+		code = "Abukuma"
 	},
 	{
 		id = 48,
-		name = "五十铃",
-		code = "貉"
+		name = "Isuzu",
+		code = "Isuzu"
 	},
 	{
 		id = 49,
-		name = "阿贺野",
-		code = "豼"
+		name = "Agano",
+		code = "Agano"
 	},
 	{
 		id = 50,
-		name = "能代",
-		code = "貅"
+		name = "Noshiro",
+		code = "Noshiro"
 	},
 	{
 		id = 51,
-		name = "矢矧",
-		code = "貁"
+		name = "Yahagi",
+		code = "Yahagi"
 	},
 	{
 		id = 52,
-		name = "大淀",
-		code = "淀"
+		name = "Oyodo",
+		code = "Oyodo"
 	},
 	{
 		id = 53,
-		name = "古鹰",
-		code = "狼"
+		name = "Furutaka",
+		code = "Furutaka"
 	},
 	{
 		id = 54,
-		name = "加古",
-		code = "狌"
+		name = "Kako",
+		code = "Kako"
 	},
 	{
 		id = 55,
-		name = "青叶",
-		code = "犹"
+		name = "Aoba",
+		code = "Aoba"
 	},
 	{
 		id = 56,
-		name = "衣笠",
-		code = "猅"
+		name = "Kinugasa",
+		code = "Kinugasa"
 	},
 	{
 		id = 57,
-		name = "最上",
-		code = "猨"
+		name = "Mogami",
+		code = "Mogami"
 	},
 	{
 		id = 58,
-		name = "三隈",
-		code = "狻"
+		name = "Mikuma",
+		code = "Mikuma"
 	},
 	{
 		id = 59,
-		name = "铃谷",
-		code = "狺"
+		name = "Suzuya",
+		code = "Suzuya"
 	},
 	{
 		id = 60,
-		name = "熊野",
-		code = "猁"
+		name = "Kumano",
+		code = "Kumano"
 	},
 	{
 		id = 61,
-		name = "利根",
-		code = "猑"
+		name = "Tone",
+		code = "Tone"
 	},
 	{
 		id = 62,
-		name = "筑摩",
-		code = "狘"
+		name = "Chikuma",
+		code = "Chikuma"
 	},
 	{
 		id = 63,
-		name = "妙高",
-		code = "獌"
+		name = "Myoukou",
+		code = "Myoukou"
 	},
 	{
 		id = 64,
-		name = "那智",
-		code = "狏"
+		name = "Nachi",
+		code = "Nachi"
 	},
 	{
 		id = 65,
-		name = "羽黑",
-		code = "犰"
+		name = "Haguro",
+		code = "Haguro"
 	},
 	{
 		id = 66,
-		name = "高雄",
-		code = "獒"
+		name = "Takao",
+		code = "Takao"
 	},
 	{
 		id = 67,
-		name = "爱宕",
-		code = "犬"
+		name = "Atago",
+		code = "Atago"
 	},
 	{
 		id = 68,
-		name = "摩耶",
-		code = "犮"
+		name = "Maya",
+		code = "Maya"
 	},
 	{
 		id = 69,
-		name = "鸟海",
-		code = "猋"
+		name = "Choukai",
+		code = "Choukai"
 	},
 	{
 		id = 70,
-		name = "金刚",
-		code = "鲤"
+		name = "Kongou",
+		code = "Kongou"
 	},
 	{
 		id = 71,
-		name = "比叡",
-		code = "鲟"
+		name = "Hiei",
+		code = "Hiei"
 	},
 	{
 		id = 72,
-		name = "榛名",
-		code = "鲑"
+		name = "Haruna",
+		code = "Haruna"
 	},
 	{
 		id = 73,
-		name = "雾岛",
-		code = "鳗"
+		name = "Kirishima",
+		code = "Kirishima"
 	},
 	{
 		id = 74,
-		name = "长门",
-		code = "鲨"
+		name = "Nagato",
+		code = "Nagato"
 	},
 	{
 		id = 75,
-		name = "陆奥",
-		code = "鲛"
+		name = "Mutsu",
+		code = "Mutsu"
 	},
 	{
 		id = 76,
-		name = "伊势",
-		code = "鳌"
+		name = "Ise",
+		code = "Ise"
 	},
 	{
 		id = 77,
-		name = "日向",
-		code = "螯"
+		name = "Hyuuga",
+		code = "Hyuuga"
 	},
 	{
 		id = 78,
-		name = "扶桑",
-		code = "魟"
+		name = "Fusou",
+		code = "Fusou"
 	},
 	{
 		id = 79,
-		name = "山城",
-		code = "鲼"
+		name = "Yamashiro",
+		code = "Yamashiro"
 	},
 	{
 		id = 80,
-		name = "纪伊",
-		code = "鲣"
+		name = "Kii",
+		code = "Kii"
 	},
 	{
 		id = 81,
-		name = "土佐",
-		code = "䲠"
+		name = "Tosa",
+		code = "Tosa"
 	},
 	{
 		id = 82,
-		name = "三笠",
-		code = "鲐"
+		name = "Mikasa",
+		code = "Mikasa"
 	},
 	{
 		id = 83,
-		name = "大和",
-		code = "鲸"
+		name = "Yamato",
+		code = "Yamato"
 	},
 	{
 		id = 84,
-		name = "武藏",
-		code = "鳄"
+		name = "Musashi",
+		code = "Musashi"
 	},
 	{
 		id = 85,
-		name = "飞鹰",
-		code = "鸱"
+		name = "Hiyou",
+		code = "Hiyou"
 	},
 	{
 		id = 86,
-		name = "隼鹰",
-		code = "鸢"
+		name = "Junyou",
+		code = "Junyou"
 	},
 	{
 		id = 87,
-		name = "祥凤",
-		code = "鹞"
+		name = "Shouhou",
+		code = "Shouhou"
 	},
 	{
 		id = 88,
-		name = "瑞凤",
-		code = "鹳"
+		name = "Zuiho",
+		code = "Zuiho"
 	},
 	{
 		id = 89,
-		name = "凤翔",
-		code = "凤"
+		name = "Houshou",
+		code = "Houshou"
 	},
 	{
 		id = 90,
-		name = "龙骧",
-		code = "枭"
+		name = "Ryuujou",
+		code = "Ryuujou"
 	},
 	{
 		id = 91,
-		name = "赤城",
-		code = "凰"
+		name = "Akagi",
+		code = "Akagi"
 	},
 	{
 		id = 92,
-		name = "加贺",
-		code = "鸾"
+		name = "Kaga",
+		code = "Kaga"
 	},
 	{
 		id = 93,
-		name = "苍龙",
-		code = "蛟"
+		name = "Souryuu",
+		code = "Souryuu"
 	},
 	{
 		id = 94,
-		name = "飞龙",
-		code = "龙"
+		name = "Hiryuu",
+		code = "Hiryuu"
 	},
 	{
 		id = 95,
-		name = "翔鹤",
-		code = "鹬"
+		name = "Shoukaku",
+		code = "Shoukaku"
 	},
 	{
 		id = 96,
-		name = "瑞鹤",
-		code = "鹤"
+		name = "Zuikaku",
+		code = "Zuikaku"
 	},
 	{
 		id = 97,
-		name = "大凤",
-		code = "鹩"
+		name = "Taihou",
+		code = "Taihou"
 	},
 	{
 		id = 98,
-		name = "明石",
-		code = "茗"
+		name = "Akashi",
+		code = "Akashi"
 	},
 	{
 		id = 99,
 		name = "IJN",
-		code = "SIN"
+		code = "IJN"
 	},
 	{
 		id = 100,
-		name = "一航战",
-		code = "一航战"
+		name = "First Carrier Division",
+		code = "First Carrier Division"
 	},
 	{
 		id = 101,
-		name = "二航战",
-		code = "二航战"
+		name = "Second Carrier Division",
+		code = "Second Carrier Division"
 	},
 	{
 		id = 102,
-		name = "五航战",
-		code = "五航战"
+		name = "Fifth Carrier Division",
+		code = "Fifth Carrier Division"
 	},
 	{
 		id = 103,
-		name = "千岁",
-		code = "鹂"
+		name = "Chitose",
+		code = "Chitose"
 	},
 	{
 		id = 104,
-		name = "千代田",
-		code = "鹃"
+		name = "Chiyoda",
+		code = "Chiyoda"
 	},
 	{
 		id = 105,
-		name = "吹雪级量产型",
-		code = "桐级量产型"
+		name = "Fubuki Production",
+		code = "Fubuki Production"
 	},
 	{
 		id = 106,
-		name = "白露级量产型",
-		code = "梿级量产型"
+		name = "Shiratsuyu Production",
+		code = "Shiratsuyu Production"
 	},
 	{
 		id = 107,
-		name = "阳炎级量产型",
-		code = "萩级量产型"
+		name = "Kagerou Production",
+		code = "Kagerou Production"
 	},
 	{
 		id = 108,
-		name = "夕云级量产型",
-		code = "茭级量产型"
+		name = "Yugumo Production",
+		code = "Yugumo Production"
 	},
 	{
 		id = 109,
-		name = "睦月级量产型",
-		code = "松级量产型"
+		name = "Mutsuki Production",
+		code = "Mutsuki Production"
 	},
 	{
 		id = 110,
-		name = "长良级量产型",
-		code = "貊级量产型"
+		name = "Nagara Production",
+		code = "Nagara Production"
 	},
 	{
 		id = 111,
-		name = "川内级量产型",
-		code = "貆级量产型"
+		name = "Sendai Production",
+		code = "Sendai Production"
 	},
 	{
 		id = 112,
-		name = "五十铃量产型",
-		code = "貉量产型"
+		name = "Isuzu Production",
+		code = "Isuzu Production"
 	},
 	{
 		id = 113,
-		name = "古鹰级量产型",
-		code = "狼级量产型"
+		name = "Furutaka Production",
+		code = "Furutaka Production"
 	},
 	{
 		id = 114,
-		name = "青叶级量产型",
-		code = "犹级量产型"
+		name = "Aoba Production",
+		code = "Aoba Production"
 	},
 	{
 		id = 115,
-		name = "妙高级量产型",
-		code = "獌级量产型"
+		name = "Myoukou Production",
+		code = "Myoukou Production"
 	},
 	{
 		id = 116,
-		name = "高雄级量产型",
-		code = "獒级量产型"
+		name = "Takao Production",
+		code = "Takao Production"
 	},
 	{
 		id = 117,
-		name = "最上级量产型",
-		code = "猨级量产型"
+		name = "Mogami Production",
+		code = "Mogami Production"
 	},
 	{
 		id = 118,
-		name = "战舰·比叡",
-		code = "战舰·鲟"
+		name = "Battleship Hiei",
+		code = "Battleship Hiei"
 	},
 	{
 		id = 119,
-		name = "战舰·雾岛",
-		code = "战舰·鳗"
+		name = "Battleship Kirishima",
+		code = "Battleship Kirishima"
 	},
 	{
 		id = 120,
-		name = "空母·赤城",
-		code = "空母·凰"
+		name = "Carrier Akagi",
+		code = "Carrier Akagi"
 	},
 	{
 		id = 121,
-		name = "空母·加贺",
-		code = "空母·鸾"
+		name = "Carrier Kaga",
+		code = "Carrier Kaga"
 	},
 	{
 		id = 122,
-		name = "初风",
-		code = "菙"
+		name = "Hatsukaze",
+		code = "Hatsukaze"
 	},
 	{
 		id = 123,
-		name = "球磨级量产型",
-		code = "熊级量产型"
+		name = "Kuma Production",
+		code = "Kuma Production"
 	},
 	{
 		id = 124,
-		name = "神风",
-		code = "榊"
+		name = "Kamikaze",
+		code = "Kamikaze"
 	},
 	{
 		id = 125,
-		name = "新月",
-		code = "枥"
+		name = "Niizuki",
+		code = "Niizuki"
 	},
 	{
 		id = 126,
-		name = "三日月",
-		code = "檧"
+		name = "Mikazuki",
+		code = "Mikazuki"
 	},
 	{
 		id = 127,
-		name = "谷风",
-		code = "栭"
+		name = "Tanikaze",
+		code = "Tanikaze"
 	},
 	{
 		id = 128,
-		name = "滨风",
-		code = "樇"
+		name = "Hamakaze",
+		code = "Hamakaze"
 	},
 	{
 		id = 129,
-		name = "初霜",
-		code = "檨"
+		name = "Hatsushimo",
+		code = "Hatsushimo"
 	},
 	{
 		id = 130,
-		name = "舞风",
-		code = "蒠"
+		name = "Maikaze",
+		code = "Maikaze"
 	},
 	{
 		id = 131,
-		name = "萩风",
-		code = "莵"
+		name = "Hagikaze",
+		code = "Hagikaze"
 	},
 	{
 		id = 132,
-		name = "山城改",
-		code = "鲼改"
+		name = "Yamashiro Retrofit",
+		code = "Yamashiro Retrofit"
 	},
 	{
 		id = 133,
-		name = "水无月",
-		code = "杌"
+		name = "Minazuki",
+		code = "Minazuki"
 	},
 	{
 		id = 134,
-		name = "松风",
-		code = "棡"
+		name = "Matsukaze",
+		code = "Matsukaze"
 	},
 	{
 		id = 135,
-		name = "亲潮",
-		code = "藮"
+		name = "Oyashio",
+		code = "Oyashio"
 	},
 	{
 		id = 136,
-		name = "敷岛",
-		code = "鲙"
+		name = "Shikishima",
+		code = "Shikishima"
 	},
 	{
 		id = 137,
-		name = "卯月",
-		code = "楙"
+		name = "Uzuki",
+		code = "Uzuki"
 	},
 	{
 		id = 138,
-		name = "朝风",
-		code = "櫂"
+		name = "Asakaze",
+		code = "Asakaze"
 	},
 	{
 		id = 139,
-		name = "春风",
-		code = "橪"
+		name = "Harukaze",
+		code = "Harukaze"
 	},
 	{
 		id = 140,
-		name = "旗风",
-		code = "樋"
+		name = "Hatakaze",
+		code = "Hatakaze"
 	},
 	{
 		id = 141,
-		name = "若叶",
-		code = "楉"
+		name = "Wakaba",
+		code = "Wakaba"
 	},
 	{
 		id = 142,
-		name = "浦风",
-		code = "槆"
+		name = "Urakaze",
+		code = "Urakaze"
 	},
 	{
 		id = 143,
-		name = "矶风",
-		code = "柉"
+		name = "Isokaze",
+		code = "Isokaze"
 	},
 	{
 		id = 144,
-		name = "足柄",
-		code = "狳"
+		name = "Ashigara",
+		code = "Ashigara"
 	},
 	{
 		id = 145,
-		name = "朝潮",
-		code = "棹"
+		name = "Asashio",
+		code = "Asashio"
 	},
 	{
 		id = 146,
-		name = "大潮",
-		code = "荙"
+		name = "Ōshio",
+		code = "Ōshio"
 	},
 	{
 		id = 147,
-		name = "满潮",
-		code = "樠"
+		name = "Michishio",
+		code = "Michishio"
 	},
 	{
 		id = 148,
-		name = "荒潮",
-		code = "栘"
+		name = "Arashio",
+		code = "Arashio"
 	},
 	{
 		id = 149,
-		name = "凉风",
-		code = "莨"
+		name = "Suzukaze",
+		code = "Suzukaze"
 	},
 	{
 		id = 150,
-		name = "海风",
-		code = "菪"
+		name = "Umikaze",
+		code = "Umikaze"
 	},
 	{
 		id = 151,
-		name = "出云",
-		code = "侌"
+		name = "Izumo",
+		code = "Izumo"
 	},
 	{
 		id = 152,
-		name = "伊吹",
-		code = "峦"
+		name = "Ibuki",
+		code = "Ibuki"
 	},
 	{
 		id = 153,
-		name = "夕凪",
-		code = "枳"
+		name = "Yunagi",
+		code = "Yunagi"
 	},
 	{
 		id = 154,
-		name = "伊19",
-		code = "衣玖"
+		name = "I-19",
+		code = "I-19"
 	},
 	{
 		id = 155,
-		name = "伊26",
-		code = "双叶梦"
+		name = "I-26",
+		code = "I-26"
 	},
 	{
 		id = 156,
-		name = "伊58",
-		code = "冴矢"
+		name = "I-58",
+		code = "I-58"
 	},
 	{
 		id = 157,
-		name = "春月",
-		code = "桸"
+		name = "Harutsuki",
+		code = "Harutsuki"
 	},
 	{
 		id = 158,
-		name = "江风",
-		code = "茳"
+		name = "Kawakaze",
+		code = "Kawakaze"
 	},
 	{
 		id = 159,
-		name = "文月",
-		code = "橗"
+		name = "Fumizuki",
+		code = "Fumizuki"
 	},
 	{
 		id = 160,
-		name = "长月",
-		code = "枨"
+		name = "Nagatsuki",
+		code = "Nagatsuki"
 	},
 	{
 		id = 161,
-		name = "天城",
-		code = "鳐"
+		name = "Amagi",
+		code = "Amagi"
 	},
 	{
 		id = 162,
-		name = "卷波",
-		code = "棬"
+		name = "Makinami",
+		code = "Makinami"
 	},
 	{
 		id = 163,
-		name = "伊13",
-		code = "十纱"
+		name = "I-13",
+		code = "I-13"
 	},
 	{
 		id = 164,
-		name = "北风",
-		code = "苝"
+		name = "Kitakaze",
+		code = "Kitakaze"
 	},
 	{
 		id = 165,
-		name = "吾妻",
-		code = "猉"
+		name = "Azuma",
+		code = "Azuma"
 	},
 	{
 		id = 166,
-		name = "特II型绫波",
-		code = "特II型柚"
+		name = "Type II Ayanami",
+		code = "Type II Ayanami"
 	},
 	{
 		id = 167,
-		name = "特I型吹雪",
-		code = "特I型桐"
+		name = "Type I Fubuki",
+		code = "Type I Fubuki"
 	},
 	{
 		id = 168,
-		name = "特III型晓",
-		code = "特III型枫"
+		name = "Type III Akatsuki",
+		code = "Type III Akatsuki"
 	},
 	{
 		id = 169,
-		name = "小比叡",
-		code = "小鲟"
+		name = "Baby Huey ",
+		code = "Baby Huey "
 	},
 	{
 		id = 170,
-		name = "小赤城",
-		code = "小凰"
+		name = "Akagi Pickles ",
+		code = "Akagi Pickles "
 	},
 	{
 		id = 171,
-		name = "阳炎级量产型.verAI",
-		code = "萩级量产型.verAI"
+		name = "AI-Type Kagerou Production",
+		code = "AI-Type Kagerou Production"
 	},
 	{
 		id = 172,
-		name = "妙高级量产型.verAI",
-		code = "獌级量产型.verAI"
+		name = "AI-Type Myoukou Production",
+		code = "AI-Type Myoukou Production"
 	},
 	{
 		id = 173,
-		name = "扶桑级量产型.verAI",
-		code = "魟量产型.verAI"
+		name = "AI-Type Fusou Production",
+		code = "AI-Type Fusou Production"
 	},
 	{
 		id = 174,
-		name = "清波",
-		code = "棈"
+		name = "Kiyonami",
+		code = "Kiyonami"
 	},
 	{
 		id = 175,
-		name = "骏河",
-		code = "鲪"
+		name = "Suruga",
+		code = "Suruga"
 	},
 	{
 		id = 176,
-		name = "赤城(μ兵装)",
-		code = "凰(μ兵装)"
+		name = "Akagiμ",
+		code = "Akagiμ"
 	},
 	{
 		id = 177,
-		name = "伊势级量产型",
-		code = "鳌级量产型"
+		name = "Ise Production",
+		code = "Ise Production"
 	},
 	{
 		id = 178,
-		name = "扶桑级量产型",
-		code = "魟级量产型"
+		name = "Fusou Production",
+		code = "Fusou Production"
 	},
 	{
 		id = 179,
-		name = "龙凤",
-		code = "鸗"
+		name = "Ryuuhou",
+		code = "Ryuuhou"
 	},
 	{
 		id = 180,
-		name = "霞",
-		code = "蕸"
+		name = "Kasumi",
+		code = "Kasumi"
 	},
 	{
 		id = 181,
-		name = "鬼怒",
-		code = "猤"
+		name = "Kinu",
+		code = "Kinu"
 	},
 	{
 		id = 182,
-		name = "信浓",
-		code = "鵗"
+		name = "Shinano",
+		code = "Shinano"
 	},
 	{
 		id = 183,
-		name = "大鲸",
-		code = "迖"
+		name = "Taigei",
+		code = "Taigei"
 	},
 	{
 		id = 184,
-		name = "浦波",
-		code = "朴"
+		name = "Uranami",
+		code = "Uranami"
 	},
 	{
 		id = 185,
-		name = "长波",
-		code = "苌"
+		name = "Naganami",
+		code = "Naganami"
 	},
 	{
 		id = 186,
-		name = "冬月",
-		code = "㮔"
+		name = "Fuyutsuki",
+		code = "Fuyutsuki"
 	},
 	{
 		id = 187,
-		name = "满月",
-		code = "槾"
+		name = "Michitsuki",
+		code = "Michitsuki"
 	},
 	{
 		id = 188,
-		name = "樫野",
-		code = "㭴"
+		name = "Kashino",
+		code = "Kashino"
 	},
 	{
 		id = 189,
-		name = "初月",
-		code = "檚"
+		name = "Hatsuzuki",
+		code = "Hatsuzuki"
 	},
 	{
 		id = 190,
-		name = "大凤(μ兵装)",
-		code = "鹩(μ兵装)"
+		name = "Taihou μ ",
+		code = "Taihou μ "
 	},
 	{
 		id = 191,
-		name = "飞龙·META",
-		code = "龙·META"
+		name = "Hiryuu META ",
+		code = "Hiryuu META "
 	},
 	{
 		id = 192,
-		name = "追风",
-		code = "椎"
+		name = "Oite",
+		code = "Oite"
 	},
 	[193] = {
 		id = 193,
-		name = "小天城",
-		code = "小鳐"
+		name = "Little Amagi ",
+		code = "Little Amagi "
 	},
 	[250] = {
 		id = 250,
-		name = "伊9",
-		code = "玖"
+		name = "I-9",
+		code = "I-9"
 	},
 	[251] = {
 		id = 251,
-		name = "伊16",
-		code = "伊知梦"
+		name = "I-16",
+		code = "I-16"
 	},
 	[252] = {
 		id = 252,
-		name = "伊25",
-		code = "双叶檎"
+		name = "I-25",
+		code = "I-25"
 	},
 	[253] = {
 		id = 253,
-		name = "伊54",
-		code = "冴诗"
+		name = "I-54",
+		code = "I-54"
 	},
 	[254] = {
 		id = 254,
-		name = "伊56",
-		code = "冴梦"
+		name = "I-56",
+		code = "I-56"
 	},
 	[255] = {
 		id = 255,
-		name = "伊60",
-		code = "六重"
+		name = "I-60",
+		code = "I-60"
 	},
 	[256] = {
 		id = 256,
-		name = "伊168",
-		code = "伊吕波"
+		name = "I-168",
+		code = "I-168"
 	},
 	[257] = {
 		id = 257,
-		name = "伊490",
-		code = "诗玖玲"
+		name = "I-490",
+		code = "I-490"
 	},
 	[280] = {
 		id = 280,
-		name = "巡潜乙型",
-		code = "Type-B型"
+		name = "Type B1",
+		code = "Type B1"
 	},
 	[281] = {
 		id = 281,
-		name = "海大型",
-		code = "KD型"
+		name = "Kaidai Type ",
+		code = "Kaidai Type "
 	},
 	[282] = {
 		id = 282,
-		name = "巡潜甲型改二型",
-		code = "Type-A Mod.2"
+		name = "Type A Mod. 2",
+		code = "Type A Mod. 2"
 	},
 	[283] = {
 		id = 283,
-		name = "巡潜乙型改二型",
-		code = "Type-B Mod.2"
+		name = "Type B Mod. 2",
+		code = "Type B Mod. 2"
 	},
 	[284] = {
 		id = 284,
-		name = "海大VI型a型",
-		code = "KD VIa型"
+		name = "Kaidai Type VIa",
+		code = "Kaidai Type VIa"
 	},
 	[285] = {
 		id = 285,
-		name = "伊型",
-		code = "衣型"
+		name = "I-Type",
+		code = "I-Type"
 	}
 }

@@ -1,4 +1,5 @@
-ship_skin_words = {
+pg = pg or {}
+pg.ship_skin_words = {
 	[100000] = {
 		touch = "buli？需要给你buli一下吗？",
 		feeling3 = "虽然能让大家变强很高兴，但是和指挥官一起玩也很高兴buli！作为报答，布里也让指挥官变强吧！……欸，不行吗？！",
