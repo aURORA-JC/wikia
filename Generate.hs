@@ -550,14 +550,13 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                                                                  ++ case voice of
                                                                                                                                                                       "main" -> "main_" ++ show j
                                                                                                                                                                       _ -> voice
-                                                                                                                                                                 {- ++ case i of
-                                                                                                                                                                      0 -> ""
-                                                                                                                                                                      i -> "_" ++ show i -}
-                                                                                                                                                                 ++ id
+                                                                                                                                                                 ++ case id of
+                                                                                                                                                                      "0" -> ""
+                                                                                                                                                                      i -> "_" ++ i
                                                                                                                                                                  ++ ".ogg") H.! A.controls "" $ ""
                                                                                                               mapM_ (\(i, x) -> H.td $ H.preEscapedToHtml $ case j <= length x of
                                                                                                                                                               True -> gettext (namecode !! i) (x !! (j - 1))
-                                                                                                                                                              False -> "") (zip [0..] langs')) $ take max [1..]) merged
+                                                                                                                                                              False -> "j:" ++ show j ++ ",i:" ++ show i ++ ",len:" ++ (show $ length x)) (zip [0..] langs')) $ take max [1..]) merged
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
