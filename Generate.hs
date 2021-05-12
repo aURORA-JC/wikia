@@ -477,7 +477,7 @@ showship luaskin luaskinextra namecode encn skins json
                                                           True -> luaskinextra
                                                           False -> luaskin
                                                   id = case splitOneOf "_" skinid of
-                                                        x | length x > 1 -> last x
+                                                        x | "_ex" `isInfixOf` skinid -> last x
                                                         _ -> lineSet % "id"
                                                   luaskin' = (map (\v -> lookupi v (case readMaybe ((init (case json % "internal_id" of
                                                                                                              "" -> "00"
