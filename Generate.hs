@@ -481,7 +481,7 @@ showship luaskin luaskinextra namecode encn skins json
                                                         _ -> lineSet % "id"
                                                   luaskin' = (map (\v -> lookupi v (case readMaybe ((init (case json % "internal_id" of
                                                                                                              "" -> "00"
-                                                                                                             x -> x)) ++ skinid) :: Maybe Int of
+                                                                                                             x -> x)) ++ lineSet % "id") :: Maybe Int of
                                                                                       Just x -> x
                                                                                       Nothing -> 0)) lua) :: [Maybe Val]
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
