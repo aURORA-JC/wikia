@@ -523,7 +523,10 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                     Just (Str x) -> endBy "|" x
                                                                                                                     Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
                                                                                                                     Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
-                                                  merged = (map (\(label, voice, l) -> (label, voice, maximum $ map length l, l)) merged') :: [(String, String, Int, [[String]])]
+                                                  merged = (map (\(label, voice, l) -> (label,
+                                                                                        voice,
+                                                                                        maximum $ map length l,
+                                                                                        maximum' $ map (length . filter ((/=) "")) l, l)) merged') :: [(String, String, Int, Int, [[String]])]
                                               in
                                                 H.table
                                                 $ do H.tr
@@ -533,30 +536,82 @@ showship luaskin luaskinextra namecode encn skins json
                                                           ("West Taiwanese Server", 27),
                                                           ("Japanese Server", 27),
                                                           ("English Server", 27)]
-                                                     mapM_ (\(label, voice, max, langs') -> mapM_ (\j -> H.tr
-                                                                                                         $ do H.th H.! A.scope "row" $ H.preEscapedToHtml $ label ++ (case j of
-                                                                                                                                                                        1 -> ""
-                                                                                                                                                                        x -> " " ++ show x)
-                                                                                                              H.td
-                                                                                                                $ case voice of
-                                                                                                                    "" -> ""
-                                                                                                                    _ -> H.audio H.! A.preload "none" H.! A.src (H.stringValue
-                                                                                                                                                                 $ "https://algwiki.moe/assets/cue/cv-"
-                                                                                                                                                                 ++ init (case json % "internal_id" of
-                                                                                                                                                                            "" -> "0"
-                                                                                                                                                                            x -> x)
-                                                                                                                                                                 ++ (if any (\x -> x `isPrefixOf` voice) ["hp", "lose", "mvp", "skill", "warcry", "link"] then "-battle" else "")
-                                                                                                                                                                 ++ "/acb/awb/"
-                                                                                                                                                                 ++ case voice of
-                                                                                                                                                                      "main" -> "main_" ++ show j
-                                                                                                                                                                      _ -> voice
-                                                                                                                                                                 ++ case id of
-                                                                                                                                                                      "0" -> ""
-                                                                                                                                                                      i -> "_" ++ i
-                                                                                                                                                                 ++ ".ogg") H.! A.controls "" $ ""
-                                                                                                              mapM_ (\(i, x) -> H.td $ H.preEscapedToHtml $ case j <= length x of
-                                                                                                                                                              True -> gettext (namecode !! i) (x !! (j - 1))
-                                                                                                                                                              False -> "j:" ++ show j ++ ",i:" ++ show i ++ ",len:" ++ (show $ length x)) (zip [0..] langs')) $ take max [1..]) merged
+                                                     mapM_ (\(label, voice, max, realmax, langs')
+                                                            -> mapM_ (\j -> case realmax of
+                                                                                   0 -> do lines <- return
+                                                                                                    $ map (\(_, y) -> y)
+                                                                                                    $ sortOn (\(k, _) -> k)
+                                                                                                    $ map (\(x, y) -> (read (unpack x) :: Int, aobj y))
+                                                                                                    $ toList
+                                                                                                    $ aobj
+                                                                                                    $ lineSet ! "dialogue"
+                                                                                           mapM_ (\x
+                                                                                                  -> case x % "media" of
+                                                                                                       s | s == voice
+                                                                                                           -> H.tr
+                                                                                                              $ do H.th H.! A.scope "row"
+                                                                                                                     $ H.preEscapedToHtml $ x %% "event"
+                                                                                                                   H.td
+                                                                                                                     $ H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                               $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                               ++ init (case json % "internal_id" of
+                                                                                                                                                                          "" -> "0"
+                                                                                                                                                                          x -> x)
+                                                                                                                                                               ++ (if any (\x -> x `isPrefixOf` s) ["hp",
+                                                                                                                                                                                                    "lose",
+                                                                                                                                                                                                    "mvp",
+                                                                                                                                                                                                    "skill",
+                                                                                                                                                                                                    "warcry",
+                                                                                                                                                                                                    "link"] then
+                                                                                                                                                                     "-battle"
+                                                                                                                                                                   else
+                                                                                                                                                                     "")
+                                                                                                                                                               ++ "/acb/awb/"
+                                                                                                                                                               ++ s
+                                                                                                                                                               ++ ".ogg") H.! A.controls ""
+                                                                                                                     $ ""
+                                                                                                                   H.td $ x %% "chinese"
+                                                                                                                   H.td $ x %% "japanese"
+                                                                                                                   H.td $ x %% "english"
+                                                                                                       s -> return ())
+                                                                                             $ lines
+                                                                                   _ -> H.tr
+                                                                                        $ do H.th H.! A.scope "row"
+                                                                                               $ H.preEscapedToHtml $ label ++ (case j of
+                                                                                                                                  1 -> ""
+                                                                                                                                  x -> " " ++ show x)
+                                                                                             H.td
+                                                                                               $ case voice of
+                                                                                                   "" -> ""
+                                                                                                   _ -> do H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                   $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                   ++ init (case json % "internal_id" of
+                                                                                                                                                              "" -> "0"
+                                                                                                                                                              x -> x)
+                                                                                                                                                   ++ (if any (\x -> x `isPrefixOf` voice) ["hp",
+                                                                                                                                                                                            "lose",
+                                                                                                                                                                                            "mvp",
+                                                                                                                                                                                            "skill",
+                                                                                                                                                                                            "warcry",
+                                                                                                                                                                                            "link"] then
+                                                                                                                                                         "-battle"
+                                                                                                                                                       else
+                                                                                                                                                         "")
+                                                                                                                                                   ++ "/acb/awb/"
+                                                                                                                                                   ++ case voice of
+                                                                                                                                                        "main" -> "main_" ++ show j
+                                                                                                                                                        _ -> voice
+                                                                                                                                                   ++ case id of
+                                                                                                                                                        "0" -> ""
+                                                                                                                                                        i -> "_" ++ i
+                                                                                                                                                   ++ ".ogg") H.! A.controls ""
+                                                                                                             $ ""
+                                                                                                           mapM_ (\(i, x)
+                                                                                                                  -> H.td
+                                                                                                                     $ H.preEscapedToHtml
+                                                                                                                     $ case j <= length x of
+                                                                                                                         True -> gettext (namecode !! i) (x !! (j - 1))
+                                                                                                                         False -> "") (zip [0..] langs')) $ take max [1..]) merged
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
