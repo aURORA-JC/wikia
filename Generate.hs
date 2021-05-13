@@ -20,11 +20,24 @@ import Data.Char
 import Data.List.Split
 import Data.Maybe
 
-(%) a b = ashow $ a ! (pack b)
+import Extra
+
+import System.IO.Unsafe
+import qualified Control.Exception as Exc
+
+{-# NOINLINE unsafeCleanup #-}
+unsafeCleanup :: a -> Maybe a
+unsafeCleanup x = unsafePerformIO $ Exc.catch (x `seq` return (Just x)) handler
+    where
+    handler exc = return Nothing  `const`  (exc :: Exc.ErrorCall)
+
+(%) a b = case unsafeCleanup (a ! (pack b)) of
+            Nothing -> error $ "Key:" ++ show b ++ " Table:" ++ show a
+            Just x -> ashow x
 (%%) :: Aeson.Object
      -> String
      -> H.Html
-(%%) a b = H.preEscapedToHtml $ ashow $ a ! (pack b)
+(%%) a b = H.preEscapedToHtml $ a % b
 
 rarity :: String
      -> String
@@ -114,12 +127,12 @@ sidebar
 mkhtml :: String
        -> String
        -> String
+       -> String
        -> H.Html
        -> H.Html
        -> IO ()
-mkhtml prefix name title y x
-  = do css <- readFile "style.css"
-       writeFile (prefix ++ name ++ ".html")
+mkhtml css prefix name title y x
+  = do writeFile (prefix ++ name ++ ".html")
          $ renderHtml
          $ H.docTypeHtml
          $ do H.head
@@ -175,11 +188,27 @@ writeskins skins id e f
          mapM_ (\(i, i', skin) -> H.div H.! A.id (H.stringValue $ "skinContent-" ++ id ++ "-" ++ show i) H.! A.class_ "skinContent"
                                   $ f i i' skin) skins'
 
-showship :: [(String, (String, String))]
+gettext :: [(Int, (String, String))]
+        -> String
+        -> String
+gettext namecode "nil" = ""
+gettext namecode x = gettext' x
+  where gettext' []       = ""
+        gettext' ('{':'n':'a':'m':'e':'c':'o':'d':'e':':':xs) = inside 0 xs
+        gettext' (x:xs)   = x:(gettext' xs)
+        inside i ('}':xs) = (fst $ case lookup i namecode of
+                                     Just x -> x
+                                     Nothing -> error $ show i) ++ gettext' xs
+        inside i (x:xs) = inside (i * 10 + digitToInt x) xs
+
+showship :: [Val]
+         -> [Val]
+         -> [[(Int, (String, String))]]
+         -> [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
          -> Aeson.Object
          -> H.Html
-showship encn skins json
+showship luaskin luaskinextra namecode encn skins json
   = do H.tr
          $ do H.td
                 $ H.table
@@ -452,6 +481,154 @@ showship encn skins json
                 $ H.td
                 $ writeskins skins "lineView" False
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
+                                          Nothing -> "Nothing"
+                                          Just lineSet
+                                           -> let skinid = lineSet % "skin_id"
+                                                  lua = case "_ex" `isInfixOf` skinid of
+                                                          True -> luaskinextra
+                                                          False -> luaskin
+                                                  id = case splitOneOf "_" skinid of
+                                                        x | "_ex" `isInfixOf` skinid -> last x
+                                                        _ -> lineSet % "id"
+                                                  luaskin' = (map (\v -> lookupi v (read (case (lineSet % "id", json % "internal_id") of
+                                                                                            (_,        "") -> "0"
+                                                                                            ([x],      iid) -> (init iid) ++ [x]
+                                                                                            (['1', y], ['3', '0', '1', '0', '5', _]) -> "33105" ++ [y]
+                                                                                            x -> trace ("Invalid skin id! " ++ json % "name" ++ ", " ++ show x) "0"))) lua) :: [Maybe Val]
+                                                  labels = [("Ship Description",    "drop_descrip",     ""),
+                                                            ("Biography",           "profile",          "profile"),
+                                                            ("Acquisition",         "unlock",           "get"),
+                                                            ("Login",               "login",            "login"),
+                                                            ("Details",             "detail",           "detail"),
+                                                            ("Main",                "main",             "main"),
+                                                            ("Touch",               "touch",            "touch_1"),
+                                                            ("Touch (Special)",     "touch2",           "touch_2"),
+                                                            ("Touch (Headpat)",     "headtouch",        "touch_head"),
+                                                            ("Mission",             "mission",          "task"),
+                                                            ("Mission Complete",    "mission_complete", "mission_complete"),
+                                                            ("Mail",                "mail",             "mail"),
+                                                            ("Return to Port",      "home",             "home"),
+                                                            ("Commission Complete", "expedition",       "expedition"),
+                                                            ("Enhancement",         "upgrade",          "upgrade"),
+                                                            ("Flagship",            "battle",           "warcry"),
+                                                            ("Victory",             "win_mvp",          "mvp"),
+                                                            ("Defeat",              "lose",             "lose"),
+                                                            ("Skill",               "skill",            "skill"),
+                                                            ("Low HP",              "hp_warning",       "hp"),
+                                                            ("Affinity (Upset)",    "feeling1",         "feeling1"),
+                                                            ("Affinity (Stranger)", "feeling2",         "feeling2"),
+                                                            ("Affinity (Friendly)", "feeling3",         "feeling3"),
+                                                            ("Affinity (Like)",     "feeling4",         "feeling4"),
+                                                            ("Affinity (Love)",     "feeling5",         "feeling5"),
+                                                            ("Pledge",              "propose",          "propose"),
+                                                            ("Like Present",        "",                 "present_like"),
+                                                            ("Dislike Present",     "",                 "present_dislike"),
+                                                            ("Main Title",          "",                 "extra")
+                                                            --TODO: couple_encourage
+                                                           ] :: [(String, String, String)]
+                                                  merged' = (map (\(label, key, voice) -> (label,
+                                                                                           voice,
+                                                                                           map (\v -> case v of
+                                                                                                        Nothing -> []
+                                                                                                        Just v -> case lookups v key of
+                                                                                                                    Just (Str x) -> endBy "|" x
+                                                                                                                    Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                    Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
+                                                  merged = (map (\(label, voice, l) -> (label,
+                                                                                        voice,
+                                                                                        maximum $ map length l,
+                                                                                        maximum' $ map (length . filter ((/=) "")) l, l)) merged') :: [(String, String, Int, Int, [[String]])]
+                                              in
+                                                H.table
+                                                $ do H.tr
+                                                       $ mapM_ (\(x, y) -> H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.style (H.stringValue $ "width:" ++ show y ++ "%;") $ x)
+                                                       $ [("Event", 14),
+                                                          ("", 3),
+                                                          ("West Taiwanese Server", 27),
+                                                          ("Japanese Server", 27),
+                                                          ("English Server", 27)]
+                                                     mapM_ (\(label, voice, max, realmax, langs')
+                                                            -> mapM_ (\j -> case realmax of
+                                                                                   0 -> do lines <- return
+                                                                                                    $ map (\(_, y) -> y)
+                                                                                                    $ sortOn (\(k, _) -> k)
+                                                                                                    $ map (\(x, y) -> (read (unpack x) :: Int, aobj y))
+                                                                                                    $ toList
+                                                                                                    $ aobj
+                                                                                                    $ lineSet ! "dialogue"
+                                                                                           mapM_ (\x
+                                                                                                  -> case x % "media" of
+                                                                                                       s | s == voice
+                                                                                                           -> H.tr
+                                                                                                              $ do H.th H.! A.scope "row"
+                                                                                                                     $ H.preEscapedToHtml $ x %% "event"
+                                                                                                                   H.td
+                                                                                                                     $ H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                               $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                               ++ init (case json % "internal_id" of
+                                                                                                                                                                          "" -> "0"
+                                                                                                                                                                          x -> x)
+                                                                                                                                                               ++ (if any (\x -> x `isPrefixOf` s) ["hp",
+                                                                                                                                                                                                    "lose",
+                                                                                                                                                                                                    "mvp",
+                                                                                                                                                                                                    "skill",
+                                                                                                                                                                                                    "warcry",
+                                                                                                                                                                                                    "link"] then
+                                                                                                                                                                     "-battle"
+                                                                                                                                                                   else
+                                                                                                                                                                     "")
+                                                                                                                                                               ++ "/acb/awb/"
+                                                                                                                                                               ++ s
+                                                                                                                                                               ++ ".ogg") H.! A.controls ""
+                                                                                                                     $ ""
+                                                                                                                   mapM_ (\lang
+                                                                                                                          -> H.td
+                                                                                                                             $ case HM.lookup (pack lang) x of
+                                                                                                                                 Nothing -> ""
+                                                                                                                                 Just x -> H.preEscapedToHtml $ ashow x) ["chinese",
+                                                                                                                                                                          "japanese",
+                                                                                                                                                                          "english"]
+                                                                                                       s -> return ())
+                                                                                             $ lines
+                                                                                   _ -> H.tr
+                                                                                        $ do H.th H.! A.scope "row"
+                                                                                               $ H.preEscapedToHtml $ label ++ (case j of
+                                                                                                                                  1 -> ""
+                                                                                                                                  x -> " " ++ show x)
+                                                                                             H.td
+                                                                                               $ case voice of
+                                                                                                   "" -> ""
+                                                                                                   _ -> do H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                   $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                   ++ init (case json % "internal_id" of
+                                                                                                                                                              "" -> "0"
+                                                                                                                                                              x -> x)
+                                                                                                                                                   ++ (if any (\x -> x `isPrefixOf` voice) ["hp",
+                                                                                                                                                                                            "lose",
+                                                                                                                                                                                            "mvp",
+                                                                                                                                                                                            "skill",
+                                                                                                                                                                                            "warcry",
+                                                                                                                                                                                            "link"] then
+                                                                                                                                                         "-battle"
+                                                                                                                                                       else
+                                                                                                                                                         "")
+                                                                                                                                                   ++ "/acb/awb/"
+                                                                                                                                                   ++ case voice of
+                                                                                                                                                        "main" -> "main_" ++ show j
+                                                                                                                                                        _ -> voice
+                                                                                                                                                   ++ case id of
+                                                                                                                                                        "0" -> ""
+                                                                                                                                                        i -> "_" ++ i
+                                                                                                                                                   ++ ".ogg") H.! A.controls ""
+                                                                                                             $ ""
+                                                                                             mapM_ (\(i, x)
+                                                                                                    -> H.td
+                                                                                                       $ H.preEscapedToHtml
+                                                                                                       $ case j <= length x of
+                                                                                                           True -> gettext (namecode !! i) (x !! (j - 1))
+                                                                                                           False -> "") (zip [0..] langs')) $ take max [1..]) merged
+                {-
+                $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
                                            -> do lines <- return
                                                           $ map (\(_, y) -> y)
@@ -489,7 +666,7 @@ showship encn skins json
                                                           $ lines
                                          Nothing
                                            -> "Missing lines!!"
-
+-}
   where d = displayRow json
 
 displayRow :: Aeson.Object
@@ -520,10 +697,11 @@ indexFood lvl ships
 
 makeMainIndex :: String
               -> String
+              -> String
               -> [[(String, Aeson.Object)]]
               -> IO ()
-makeMainIndex file title ships
-  = do mkhtml "out/" file title (return ())
+makeMainIndex css file title ships
+  = do mkhtml css "out/" file title (return ())
          $ do H.nav
                 $ do H.a H.! A.href "." $ "Home"
                      " > "
@@ -544,15 +722,16 @@ g x
     $ sortBy (comparing $ \a -> elemIndex ((snd a) % "shipType") order) x
 
 makeIndex :: String
+          -> String
           -> (String -> String)
           -> [(String, Aeson.Object)]
           -> IO ()
-makeIndex category f ships
+makeIndex css category f ships
   = do createDirectory $ "out/" ++ category
        subcats <- mapM (\x -> do name <- return $ case (snd $ head $ head x) % category of
                                                     "" -> "unknown"
                                                     x -> x
-                                 mkhtml ("out/" ++ category ++ "/") name (capitalize name) (return ())
+                                 mkhtml css ("out/" ++ category ++ "/") name (capitalize name) (return ())
                                    $ do H.nav
                                           $ do H.a H.! A.href ".." $ "Home"
                                                " > "
@@ -563,7 +742,7 @@ makeIndex category f ships
                                                      $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.preEscapedToHtml $ capitalize $ (snd $ head x) % "shipType"
                                                           indexFood "../" x) x
                                  return name) groupedShips
-       mkhtml ("out/" ++ category ++ "/") "index" (capitalize category) (return ())
+       mkhtml css ("out/" ++ category ++ "/") "index" (capitalize category) (return ())
          $ do H.nav
                 $ do H.a H.! A.href ".." $ "Home"
                      " > "
@@ -616,14 +795,27 @@ decideColor "Rare"       = "rgb(140, 179, 184)"
 decideColor "Common"     = "rgb(115, 115, 115)"
 decideColor ""           = "#24252d"
 
+langs = ["cn", "jp", "en"]
+
+readlua :: String -> IO [Val]
+readlua x
+  = do mapM (\lang -> do file <- return $ "lua/" ++ x ++ "." ++ lang ++ ".lua"
+                         readFile file >>= return . snd . head . start file) langs
+
 main :: IO ()
 main
-  = do catchIOError (removeDirectoryRecursive "out") $ const $ return ()
+  = do css <- readFile "style.css"
+       luaskin <- readlua "ship_skin_words"
+       luaskinextra <- readlua "ship_skin_words_extra"
+       namecode <- readlua "name_code" >>= return . map (\(Block x) -> map (\(_, Block [(Just (Left "id"), Num id),
+                                                                                        (Just (Left "name"), Str name),
+                                                                                        (Just (Left "code"), Str code)]) -> (id, (name, code))) x)
+       dumbjs <- readFile "dumbjs.js"
+       catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
        createDirectory "out/ships"
        dir <- listDirectory "Ships"
        (encn, enen, ships) <- (mapM loadJson $ sort dir) >>= return . unzip3
-       dumbjs <- readFile "dumbjs.js"
        mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
                                            $ zip [0..]
                                            $ sortOn (\(k, _) -> k)
@@ -631,21 +823,21 @@ main
                                            $ aobj
                                            $ json ! "skin"
                                in
-                                 mkhtml "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
-                                                                              mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
-                                                                                $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
-                                                                                   "https://algwiki.moe/js/live2dcubismcore.min.js",
-                                                                                   "https://algwiki.moe/js/live2dcubismframework.js",
-                                                                                   "https://algwiki.moe/js/live2dcubismpixi.js",
-                                                                                   "https://algwiki.moe/js/pixi-spine.js",
-                                                                                   "https://algwiki.moe/js/SkeletonBinary.js"])
+                                 mkhtml css "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
+                                                                                  mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
+                                                                                    $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
+                                                                                       "https://algwiki.moe/js/live2dcubismcore.min.js",
+                                                                                       "https://algwiki.moe/js/live2dcubismframework.js",
+                                                                                       "https://algwiki.moe/js/live2dcubismpixi.js",
+                                                                                       "https://algwiki.moe/js/pixi-spine.js",
+                                                                                       "https://algwiki.moe/js/SkeletonBinary.js"])
                                $ do H.nav
                                       $ do H.a H.! A.href "/" $ "Home"
                                            " > "
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
-                                    H.main $ H.table $ showship encn skins json
+                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json
                                     H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
@@ -655,9 +847,12 @@ main
        shiplist <- return
                    $ g shiplist'
 
-       makeIndex "rarity" rarity shiplist'
-       makeIndex "hull"   hull   shiplist'
-       makeIndex "navy"   navy   shiplist'
-       makeMainIndex "shiplist" "Shiplist (By ID)" shiplist
-       makeMainIndex "shiplist_alpha" "Shiplist (Alphabetic)"
+       makeIndex css "rarity" rarity shiplist'
+       makeIndex css "hull"   hull   shiplist'
+       makeIndex css "navy"   navy   shiplist'
+       makeMainIndex css "shiplist" "Shiplist (By ID)" shiplist
+       makeMainIndex css "shiplist_alpha" "Shiplist (Alphabetic)"
          $ map (sortOn (\(_, json) -> json % "name")) $ shiplist
+
+maximum' [] = 0
+maximum' x = maximum x
