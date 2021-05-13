@@ -128,7 +128,7 @@
 			}
 		},
         "3" : {
-            "id" : "",
+            "id" : "qiabayefu_3",
             "name" : "",
             "description" : "",
             "expression" : {
@@ -996,7 +996,7 @@
 				}
 			},
             "3": {
-                "skin_id": "",
+                "skin_id": "qiabayefu_3",
                 "id": "2",
                 "label": "",
                 "dialogue": {
@@ -1014,7 +1014,7 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_1",
+                        "media": "get_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1026,19 +1026,7 @@
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_1",
+                        "media": "login_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1050,7 +1038,7 @@
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_1",
+                        "media": "main_1_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1062,7 +1050,7 @@
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_1",
+                        "media": "main_2_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1074,7 +1062,7 @@
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_1",
+                        "media": "main_3_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1086,7 +1074,7 @@
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_1",
+                        "media": "touch_1_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1098,7 +1086,7 @@
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_1",
+                        "media": "touch_2_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1109,8 +1097,8 @@
                         "englishNote": ""
                     },
                     "10": {
-                        "event": "Return to Port",
-                        "media": "home_1",
+                        "event": "Touch (Headrub)",
+                        "media": "touch_head_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -1119,7 +1107,31 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    },
+                    "11": {
+                        "event": "Return to Port",
+                        "media": "home_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Flagship",
+                        "media": "warcry_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
                 }
             },
 			"101": {

@@ -283,6 +283,25 @@
                     "id": "3"
                 }
             }
+        },
+        "13": {
+            "id": "lingbo_11",
+            "name": "Off-Duty Battle Station Gear",
+            "description": "No, Ryuujou! Samurai builds should stay back during the boss! ...Oh, welcome, Commander. I'm busy with this game right now, so just make yourself at home or something.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                }
+            }
         }
 	},
 	"defaultEquipment": {
@@ -2509,6 +2528,53 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    }
+                }
+            },
+            "13": {
+                "skin_id": "lingbo_11",
+                "id": "12",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_12"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_12"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_12"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_12"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_12"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_12"
+                    },
+                    "8": {
+                        "event": "Main 4",
+                        "media": "main_4_12"
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1_12"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_12"
                     }
                 }
             }

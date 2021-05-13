@@ -122,8 +122,8 @@
 			}
 		},
         "3" : { 
-            "id" : "",
-            "name" : "",
+            "id" : "tashigan_3",
+            "name" : "The Blue Snoozer",
             "description" : "", 
             "expression" : { 
                 "0" : { 
@@ -872,9 +872,9 @@
 				}
 			},
             "2": {
-                "skin_id": "",
-                "id": "1",
-                "label": "",
+                "skin_id": "tashigan_3",
+                "id": "2",
+                "label": "The Blue Snoozer",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
@@ -890,7 +890,7 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_1",
+                        "media": "get_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -902,7 +902,7 @@
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_1",
+                        "media": "login_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -914,7 +914,7 @@
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_1",
+                        "media": "detail_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -926,7 +926,7 @@
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_1",
+                        "media": "main_1_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -938,7 +938,7 @@
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_1",
+                        "media": "main_2_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -950,7 +950,7 @@
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_1",
+                        "media": "main_3_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -962,7 +962,7 @@
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_1",
+                        "media": "touch_1_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -974,7 +974,7 @@
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_1",
+                        "media": "touch_2_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -986,7 +986,7 @@
                     },
                     "10": {
                         "event": "Return to Port",
-                        "media": "home_1",
+                        "media": "home_2",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -995,7 +995,19 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    },
+                    "11": {
+                        "event": "Defeat",
+                        "media": "lose_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    } 
                 }
             }
 		}
