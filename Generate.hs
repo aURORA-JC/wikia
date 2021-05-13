@@ -621,12 +621,12 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                                                         i -> "_" ++ i
                                                                                                                                                    ++ ".ogg") H.! A.controls ""
                                                                                                              $ ""
-                                                                                                           mapM_ (\(i, x)
-                                                                                                                  -> H.td
-                                                                                                                     $ H.preEscapedToHtml
-                                                                                                                     $ case j <= length x of
-                                                                                                                         True -> gettext (namecode !! i) (x !! (j - 1))
-                                                                                                                         False -> "") (zip [0..] langs')) $ take max [1..]) merged
+                                                                                             mapM_ (\(i, x)
+                                                                                                    -> H.td
+                                                                                                       $ H.preEscapedToHtml
+                                                                                                       $ case j <= length x of
+                                                                                                           True -> gettext (namecode !! i) (x !! (j - 1))
+                                                                                                           False -> "") (zip [0..] langs')) $ take max [1..]) merged
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
