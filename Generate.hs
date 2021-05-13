@@ -22,11 +22,22 @@ import Data.Maybe
 
 import Extra
 
-(%) a b = ashow $ a ! (pack b)
+import System.IO.Unsafe
+import qualified Control.Exception as Exc
+
+{-# NOINLINE unsafeCleanup #-}
+unsafeCleanup :: a -> Maybe a
+unsafeCleanup x = unsafePerformIO $ Exc.catch (x `seq` return (Just x)) handler
+    where
+    handler exc = return Nothing  `const`  (exc :: Exc.ErrorCall)
+
+(%) a b = case unsafeCleanup (a ! (pack b)) of
+            Nothing -> error $ "Key:" ++ show b ++ " Table:" ++ show a
+            Just x -> ashow x
 (%%) :: Aeson.Object
      -> String
      -> H.Html
-(%%) a b = H.preEscapedToHtml $ ashow $ a ! (pack b)
+(%%) a b = H.preEscapedToHtml $ a % b
 
 rarity :: String
      -> String
@@ -570,9 +581,13 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                                                                ++ s
                                                                                                                                                                ++ ".ogg") H.! A.controls ""
                                                                                                                      $ ""
-                                                                                                                   H.td $ x %% "chinese"
-                                                                                                                   H.td $ x %% "japanese"
-                                                                                                                   H.td $ x %% "english"
+                                                                                                                   mapM_ (\lang
+                                                                                                                          -> H.td
+                                                                                                                             $ case HM.lookup (pack lang) x of
+                                                                                                                                 Nothing -> ""
+                                                                                                                                 Just x -> H.preEscapedToHtml $ ashow x) ["chinese",
+                                                                                                                                                                          "japanese",
+                                                                                                                                                                          "english"]
                                                                                                        s -> return ())
                                                                                              $ lines
                                                                                    _ -> H.tr
