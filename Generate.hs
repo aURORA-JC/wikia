@@ -511,7 +511,7 @@ showship luaskin luaskinextra namecode encn skins json
                                                             ("Commission Complete", "expedition",       "expedition"),
                                                             ("Enhancement",         "upgrade",          "upgrade"),
                                                             ("Flagship",            "battle",           "warcry"),
-                                                            ("Victory",             "win_mvp",          "mpv"),
+                                                            ("Victory",             "win_mvp",          "mvp"),
                                                             ("Defeat",              "lose",             "lose"),
                                                             ("Skill",               "skill",            "skill"),
                                                             ("Low HP",              "hp_warning",       "hp"),
