@@ -444,7 +444,7 @@ showship luaskin luaskinextra namecode encn skins json
               H.tr $ mapM_ (H.th H.! A.scope "col" H.! A.class_ "subtitle") ["Icon", "Name", "Description", "Requirements"]
               mapM_ (\(k, Aeson.Object v) -> H.tr
                                              $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (v % "icon") ++ ".png")
-                                                  mapM_ (\x -> H.td $ v %% x) ["name", "description", "requirement"]) $ reverse $ toList $ aobj $ json ! "skill"
+                                                  mapM_ (\x -> H.td $ v %% x) ["name", "description", "requirement"]) $ sortOn (\(k, v) -> read (unpack k) :: Int) $ toList $ aobj $ json ! "skill"
 
        H.tr
          $ H.td H.! A.colspan "2"
