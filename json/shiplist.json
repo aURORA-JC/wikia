@@ -3878,6 +3878,69 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "511": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qiye_younv.png",
+        "link": "little_enterprise",
+        "name": "Little Enterprise",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "512": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xinzexi.png",
+        "link": "new_jersey",
+        "name": "New Jersey",
+        "navy": "Eagle Union",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "513": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tikangdeluojia.png",
+        "link": "ticonderoga",
+        "name": "Ticonderoga",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "514": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sheshuiyu.png",
+        "link": "archerfish",
+        "name": "Archerfish",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "515": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiujinshan.png",
+        "link": "san_francisco",
+        "name": "San Francisco",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "516": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/boyixi.png",
+        "link": "boise",
+        "name": "Boise",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "517": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/molisen.png",
+        "link": "morrison",
+        "name": "Morrison",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
 	"P001": {
 		"hull": "Light Cruiser",
 		"icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4045,6 +4108,15 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/huangjiafangzhou_alter.png",
         "link": "ark_royal_meta",
         "name": "Ark Royal META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M003": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hailunna_alter.png",
+        "link": "helena_meta",
+        "name": "Helena META",
         "navy": "META",
         "rarity": "Super Rare",
         "shipType": "META"

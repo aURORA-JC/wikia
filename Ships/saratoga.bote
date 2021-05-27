@@ -243,6 +243,28 @@
                "id":"0"
             }
          }
+      },
+      "9":{   
+         "id":"salatuojia_8",
+         "name":"", 
+         "description":"",
+         "expression":{
+            "0":{   
+               "id":"0"
+            },      
+            "2":{   
+               "id":"2"
+            },      
+            "3":{   
+               "id":"3"
+            },      
+            "4":{   
+               "id":"4"
+            },      
+            "5":{   
+               "id":"5"
+            }       
+         }
       }
    },
    "defaultEquipment":{
@@ -1579,7 +1601,7 @@
          },
             "7": {
                 "skin_id": "salatuojia_6",
-                "id": "6",
+                "id": "5",
                 "label": "Silent Night Songstress",
                 "dialogue": {
                     "1": {  
@@ -1694,7 +1716,7 @@
             },
             "8": {
                 "skin_id": "salatuojia_7",
-                "id": "7",
+                "id": "6",
                 "label": "Spring's Opening Act!",
                 "dialogue": {
                     "1": {
@@ -1804,6 +1826,53 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    }
+                }
+            },
+            "9": {
+                "skin_id": "salatuojia_8",
+                "id": "7",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": ""
                     }
                 }
             }

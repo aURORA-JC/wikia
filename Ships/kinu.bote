@@ -148,6 +148,34 @@
 					"id" : "6"
 				}
 			}
+		},
+		"4" : {
+			"id" : "guinu_3",
+			"name" : "",
+			"description" : "",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				},
+				"1" : {
+					"id" : "1"
+				},
+				"2" : {
+					"id" : "2"
+				},
+				"3" : {
+					"id" : "3"
+				},
+				"4" : {
+					"id" : "4"
+				},
+				"5" : {
+					"id" : "5"
+				},
+				"6" : {
+					"id" : "6"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -1015,7 +1043,62 @@
 						"englishNote" : ""
 					}
 				}
-			}
+			},
+            "4": {
+                "skin_id": "guinu_3",
+                "id": "2",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1"
+                    },
+                    "11": {
+                        "event": "Flagship",
+                        "media": "warcry_1"
+                    },
+                    "12": {
+                        "event": "Victory",
+                        "media": "mvp_1"
+                    },
+                    "13": {
+                        "event": "Defeat",
+                        "media": "lose_1"
+                    }
+                }
+            }
 		}
 	}
 }
