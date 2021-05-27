@@ -72,7 +72,7 @@
 	},
 	"skin": {
 		"1": {
-			"id": "",
+			"id": "qiye_younv",
 			"name": "Little Enterprise",
 			"description": "",
 			"expression": {
@@ -87,6 +87,21 @@
 				},
 				"3": {
 					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
+				},
+				"8": {
+					"id": "8"
 				}
 			}
 		},
@@ -402,14 +417,34 @@
                         "media": "link1"
                     },
                     "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2"
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3"
+                    },
+                    "32": {
+                        "event": "Additional Voice Line 4",
+                        "media": "link4"
+                    },
+                    "33": {
+                        "event": "Additional Voice Line 5",
+                        "media": "link5"
+                    },
+                    "34": {
+                        "event": "Additional Voice Line 6",
+                        "media": "link6"
+                    },
+                    "35": {
                         "event": "Extra",
                         "media": "extra"
                     },
-                    "31": {
+                    "36": {
                         "event": "Present Like",
                         "media": "present_like"
                     },
-                    "32": {
+                    "37": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
                     }
@@ -424,10 +459,6 @@
                         "event": "Ship Description",
                         "media": ""
                     },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_ex1100"
-                    },
                     "3": {
                         "event": "Login",
                         "media": "login_ex1100"
@@ -437,28 +468,20 @@
                         "media": "detail_ex1100"
                     },
                     "5": {
-                        "event": "Main 1",
-                        "media": "main_1_ex1100"
+                        "event": "Main 4",
+                        "media": "main_4_ex1100"
                     },
                     "6": {
-                        "event": "Main 2",
-                        "media": "main_2_ex1100"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_ex1100"
+                        "event": "Main 5",
+                        "media": "main_5_ex1100"
                     },
                     "8": {
                         "event": "Touch",
                         "media": "touch_1_ex1100"
                     },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_ex1100"
-                    },
                     "10": {
-                        "event": "Return to Port",
-                        "media": "home_ex1100"
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_ex1100"
                     }
                 }
             }

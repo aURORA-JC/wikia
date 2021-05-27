@@ -124,6 +124,9 @@
 				},
 				"6" : {
 					"id" : "6"
+				},
+				"7" : {
+					"id" : "7"
 				}
 			}
 		},
@@ -768,8 +771,16 @@
                         "media": "touch_2_1"
                     },
                     "10": {
+                        "event": "Touch (Headrub)",
+                        "media": "touch_head_1"
+                    },
+                    "11": {
                         "event": "Return to Port",
                         "media": "home_1"
+                    },
+                    "12": {
+                        "event": "Mail",
+                        "media": "mail_1"
                     }
                 }
             },

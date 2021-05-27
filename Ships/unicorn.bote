@@ -219,16 +219,7 @@
                 },      
                 "3": {  
                     "id": "3"
-                },      
-                "4": {  
-                    "id": "4"
-                },      
-                "5": {  
-                    "id": "5"
-                },      
-                "6": {  
-                    "id": "6"
-                }       
+                }      
             }       
         }
 	},
@@ -1539,39 +1530,39 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_6"
+                        "media": ""
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_6"
+                        "media": ""
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_6"
+                        "media": ""
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_6"
+                        "media": ""
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_6"
+                        "media": ""
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_6"
+                        "media": ""
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_6"
+                        "media": ""
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_6"
+                        "media": ""
                     },
                     "10": {
                         "event": "Return to Port",
-                        "media": "home_6"
+                        "media": ""
                     }
                 }
             }

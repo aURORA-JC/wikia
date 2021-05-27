@@ -1,11 +1,11 @@
 {
 	"name_reference": "archerfish",
-	"cn_reference": "",
+	"cn_reference": "sheshuiyu",
 	"nameJP": "",
 	"nameCN": "",
-	"ID": "",
+	"ID": "514",
 	"name": "Archerfish",
-	"internal_id": "105991",
+	"internal_id": "108061",
 	"rarity": "Super Rare",
 	"initialStar": "★★★☆☆☆",
 	"hull": "Submarine",
@@ -65,7 +65,7 @@
 	},
 	"skin": {
 		"1": {
-			"id": "",
+			"id": "sheshuiyu",
 			"name": "Archerfish",
 			"description": "",
 			"expression": {
@@ -84,7 +84,7 @@
 			}
 		},
 		"2": {
-			"id": "",
+			"id": "sheshuiyu_3",
 			"name": "",
 			"description": "",
 			"expression": {
@@ -288,7 +288,7 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "sheshuiyu",
 				"id": "0",
 				"label": "Archerfish",
 				"dialogue": {
@@ -409,21 +409,25 @@
                         "media": "link1"
                     },
                     "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2"
+                    },
+                    "31": {
                         "event": "Extra",
                         "media": "extra"
                     },
-                    "31": {
+                    "32": {
                         "event": "Present Like",
                         "media": "present_like"
                     },
-                    "32": {
+                    "33": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
                     }
                 }
             },
             "2": {
-                "skin_id": "",
+                "skin_id": "sheshuiyu_3",
                 "id": "1",
                 "label": "",
                 "dialogue": {
