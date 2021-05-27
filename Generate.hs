@@ -200,7 +200,6 @@ gettext namecode x = gettext' x
                                      Just x -> x
                                      Nothing -> error $ show i) ++ gettext' xs
         inside i (x:xs) = inside (i * 10 + digitToInt x) xs
-        inside i [] = error $ "Fugg: " ++ show i ++ ": " ++ show namecode
 
 showship :: [Val]
          -> [Val]
