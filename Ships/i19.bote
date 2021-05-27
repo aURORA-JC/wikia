@@ -114,7 +114,7 @@
 			}
 		},
 		"4": {
-			"id": "I19_4",
+			"id": "i19_4",
 			"name": "",
 			"description": "",
 			"expression": {
@@ -129,9 +129,6 @@
 				},
 				"3": {
 					"id": "3"
-				},
-				"4": {
-					"id": "4"
 				}
 			}
 		}
@@ -918,7 +915,7 @@
 				}
 			},
             "4": {
-                "skin_id": "I19_4",
+                "skin_id": "i19_4",
                 "id": "3",
                 "label": "",
                 "dialogue": {
@@ -928,39 +925,39 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_1"
+                        "media": ""
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_1"
+                        "media": ""
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_1"
+                        "media": ""
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_1"
+                        "media": ""
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_1"
+                        "media": ""
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_1"
+                        "media": ""
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_1"
+                        "media": ""
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_1"
+                        "media": ""
                     },
                     "10": {
                         "event": "Return to Port",
-                        "media": "home_1"
+                        "media": ""
                     }
                 }
             }

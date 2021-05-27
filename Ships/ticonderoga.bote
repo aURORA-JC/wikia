@@ -1,11 +1,11 @@
 {
 	"name_reference": "ticonderoga",
-	"cn_reference": "",
+	"cn_reference": "tikangdeluojia",
 	"nameJP": "",
 	"nameCN": "",
 	"ID": "513",
 	"name": "Ticonderoga",
-	"internal_id": "107991",
+	"internal_id": "107141",
 	"rarity": "Super Rare",
 	"initialStar": "★★★☆☆☆",
 	"hull": "Aircraft Carrier",
@@ -65,7 +65,7 @@
 	},
 	"skin": {
 		"1": {
-			"id": "",
+			"id": "tikangdeluojia",
 			"name": "Ticonderoga",
 			"description": "",
 			"expression": {
@@ -80,11 +80,14 @@
 				},
 				"3": {
 					"id": "3"
+				},
+				"4": {
+					"id": "4"
 				}
 			}
 		},
 		"2": {
-			"id": "",
+			"id": "tikangdeluojia_2",
 			"name": "",
 			"description": "",
 			"expression": {
@@ -103,7 +106,7 @@
 			}
 		},
 		"101": {
-			"id": "",
+			"id": "tikangdeluojia_ex1100",
 			"name": "Ticonderoga",
 			"description": "",
 			"expression": {
@@ -298,7 +301,7 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "tikangdeluojia",
 				"id": "0",
 				"label": "Ticonderoga",
 				"dialogue": {
@@ -419,21 +422,25 @@
                         "media": "link1"
                     },
                     "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2"
+                    },
+                    "31": {
                         "event": "Extra",
                         "media": "extra"
                     },
-                    "31": {
+                    "32": {
                         "event": "Present Like",
                         "media": "present_like"
                     },
-                    "32": {
+                    "33": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
                     }
                 }
             },
             "2": {
-                "skin_id": "",
+                "skin_id": "tikangdeluojia_2",
                 "id": "1",
                 "label": "",
                 "dialogue": {
@@ -473,24 +480,24 @@
                         "event": "Touch (Special)",
                         "media": "touch_2_1"
                     },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_1"
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_1"
+                    },
+                    "12": {
+                        "event": "Defeat",
+                        "media": "lose_1"
                     }
                 }
             },
             "101": {
-                "skin_id": "_ex1100",
+                "skin_id": "tikangdeluojia_ex1100",
                 "id": "0",
                 "label": "",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
                         "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_ex1100"
                     },
                     "3": {
                         "event": "Login",
@@ -501,28 +508,24 @@
                         "media": "detail_ex1100"
                     },
                     "5": {
-                        "event": "Main 1",
-                        "media": "main_1_ex1100"
+                        "event": "Main 4",
+                        "media": "main_4_ex1100"
                     },
                     "6": {
-                        "event": "Main 2",
-                        "media": "main_2_ex1100"
+                        "event": "Main 5",
+                        "media": "main_5_ex1100"
                     },
                     "7": {
-                        "event": "Main 3",
-                        "media": "main_3_ex1100"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_ex1100"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_ex1100"
+                        "event": "Main 6",
+                        "media": "main_6_ex1100"
                     },
                     "10": {
                         "event": "Return to Port",
                         "media": "home_ex1100"
+                    },
+                    "11": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_ex1100"
                     }
                 }
             }

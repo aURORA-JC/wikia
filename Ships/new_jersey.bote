@@ -1,6 +1,6 @@
 {
 	"name_reference": "new_jersey",
-	"cn_reference": "",
+	"cn_reference": "xinzexi",
 	"nameJP": "",
 	"nameCN": "",
 	"ID": "64",
@@ -65,7 +65,7 @@
 	},
 	"skin": {
 		"1": {
-			"id": "",
+			"id": "xinzexi",
 			"name": "New Jersey",
 			"description": "",
 			"expression": {
@@ -80,11 +80,23 @@
 				},
 				"3": {
 					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				},
+				"7": {
+					"id": "7"
 				}
 			}
 		},
 		"2": {
-			"id": "",
+			"id": "xinzexi_2",
 			"name": "",
 			"description": "",
 			"expression": {
@@ -99,11 +111,20 @@
 				},
 				"3": {
 					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
 				}
 			}
 		},
 		"101": {
-			"id": "",
+			"id": "xinzexi_ex1100",
 			"name": "New Jersey",
 			"description": "",
 			"expression": {
@@ -298,7 +319,7 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "",
+				"skin_id": "xinzexi",
 				"id": "0",
 				"label": "New Jersey",
 				"dialogue": {
@@ -419,21 +440,37 @@
                         "media": "link1"
                     },
                     "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2"
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3"
+                    },
+                    "32": {
+                        "event": "Additional Voice Line 4",
+                        "media": "link4"
+                    },
+                    "33": {
+                        "event": "Additional Voice Line 5",
+                        "media": "link5"
+                    },
+                    "34": {
                         "event": "Extra",
                         "media": "extra"
                     },
-                    "31": {
+                    "35": {
                         "event": "Present Like",
                         "media": "present_like"
                     },
-                    "32": {
+                    "36": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
                     }
                 }
             },
             "2": {
-                "skin_id": "",
+                "skin_id": "xinzexi_2",
                 "id": "1",
                 "label": "",
                 "dialogue": {
@@ -445,10 +482,6 @@
                         "event": "Acquisition",
                         "media": "get_1"
                     },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_1"
-                    },
                     "4": {
                         "event": "Details",
                         "media": "detail_1"
@@ -458,39 +491,43 @@
                         "media": "main_1_1"
                     },
                     "6": {
-                        "event": "Main 2",
-                        "media": "main_2_1"
-                    },
-                    "7": {
                         "event": "Main 3",
                         "media": "main_3_1"
                     },
+                    "7": {
+                        "event": "Main 4",
+                        "media": "main_4_1"
+                    },
                     "8": {
+                        "event": "Main 5",
+                        "media": "main_5_1"
+                    },
+                    "9": {
                         "event": "Touch",
                         "media": "touch_1_1"
                     },
-                    "9": {
+                    "10": {
                         "event": "Touch (Special)",
                         "media": "touch_2_1"
                     },
-                    "10": {
+                    "11": {
                         "event": "Return to Port",
                         "media": "home_1"
+                    },
+                    "12": {
+                        "event": "Skill",
+                        "media": "skill_1"
                     }
                 }
             },
             "101": {
-                "skin_id": "_ex1100",
+                "skin_id": "xinzexi_ex1100",
                 "id": "0",
                 "label": "",
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
                         "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_ex1100"
                     },
                     "3": {
                         "event": "Login",
@@ -509,8 +546,8 @@
                         "media": "main_2_ex1100"
                     },
                     "7": {
-                        "event": "Main 3",
-                        "media": "main_3_ex1100"
+                        "event": "Main 7",
+                        "media": "main_7_ex1100"
                     },
                     "8": {
                         "event": "Touch",
@@ -523,6 +560,10 @@
                     "10": {
                         "event": "Return to Port",
                         "media": "home_ex1100"
+                    },
+                    "11": {
+                        "event": "Flagship",
+                        "media": "warcry_ex1100"
                     }
                 }
             }
