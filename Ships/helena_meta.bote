@@ -1,245 +1,208 @@
 {
-	"name_reference" : "stephen_potter",
-	"cn_reference" : "shidifenbote",
-	"nameJP" : "",
-	"nameCN" : "",
-	"ID" : "509",
-	"name" : "Stephen Potter",
-	"internal_id" : "101461",
-	"rarity" : "Elite",
-	"initialStar" : "★★☆☆☆",
-	"hull" : "Destroyer",
-	"navy" : "Eagle Union",
-	"prefix" : "USS",
-	"buildTime" : "",
-	"voiceActress" : "",
+	"name_reference": "helena_meta",
+	"cn_reference": "hailunna_alter",
+	"nameJP": "ヘレナ(META)",
+	"nameCN": "海伦娜·META",
+	"ID": "M003",
+	"name": "Helena META",
+	"internal_id": "9707031",
+	"rarity": "Super Rare",
+	"initialStar": "★★★☆☆☆",
+	"hull": "Light Cruiser",
+	"navy": "META",
+	"prefix": "",
+	"buildTime": "",
+	"class": "Brooklyn-Class",
+	"voiceActress": "",
 	"parameters": {
-		"firepower" : "",
-		"torpedo" : "",
-		"aviation" : "",
-		"evasion" : "",
-		"antiAir" : "",
-		"hp" : ""
+		"firepower": "",
+		"torpedo": "",
+		"aviation": "",
+		"evasion": "",
+		"antiAir": "",
+		"hp": ""
 	},
 	"scrap": {
-		"gold" : "",
-		"oil" : "",
-		"medal" : ""
+		"gold": "",
+		"oil": "",
+		"medal": ""
 	},
 	"releaseDate": {
-		"JP" : "2021/03/25",
-		"CN" : "2021/03/25",
-		"KR" : "",
-		"EN" : "2021/03/25"
+		"JP": "2021/05/27",
+		"CN": "2021/05/27",
+		"KR": "",
+		"EN": "2021/05/27"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
+		"name": "",
+		"weibo": "",
+		"twitter": "",
+		"pixiv": "",
+		"other": ""
 	},
-	"class" : "Fletcher-class ",
 	"enhance": {
-		"firepower" : "",
-		"torpedo" : "",
-		"aviation" : "",
-		"reload" : ""
+		"firepower": "0",
+		"torpedo": "0",
+		"aviation": "0",
+		"reload": "0"
 	},
-	"acquisitionMethod" : "Event: Ashen Simulacrum Rerun",
+	"acquisitionMethod": "META Lab",
 	"skill": {
-		"1" : {
-			"icon" : "",
-			"requirement" : "Default Unlocked",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+		"1": {
+			"icon": "",
+			"requirement": "",
+			"name": "",
+			"type": "",
+			"description": ""
 		},
-		"2" : {
-			"icon" : "",
-			"requirement" : "Default Unlocked",
-			"name" : "",
-			"type" : "",
-			"description" : ""
+		"2": {
+			"icon": "",
+			"requirement": "",
+			"name": "",
+			"type": "",
+			"description": ""
 		},
-		"3" : {
-			"icon" : "",
-			"requirement" : "Limit Break I (III)",
-			"name" : "All Out Assault Ⅰ",
-			"type" : "Offensive",
-			"description" : ""
+		"3": {
+			"icon": "",
+			"requirement": "",
+			"name": "",
+			"type": "",
+			"description": ""
+		},
+		"4": {
+			"icon": "",
+			"requirement": "",
+			"name": "",
+			"type": "",
+			"description": ""
 		}
 	},
 	"skin": {
-		"1" : {
-			"id" : "shidifenbote",
-			"name" : "Stephen Potter",
-			"description" : "",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+		"1": {
+			"id": "hailunna_alter",
+			"name": "Helena META",
+			"description": "Helena META",
+			"expression": {
+				"0": {
+					"id": "0"
 				},
 				"1" : {
-					"id" : "1"
+					"id": "1"
 				},
 				"2" : {
-					"id" : "2"
+					"id": "2"
 				},
 				"3" : {
-					"id" : "3"
+					"id": "3"
 				},
 				"4" : {
-					"id" : "4"
-				},
-				"5" : {
-					"id" : "5"
-				},
-				"6" : {
-					"id" : "6"
-				}
-			}
-		},
-		"2" : {
-			"id" : "shidifenbote_2",
-			"name" : "",
-			"description" : "",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				},
-				"5" : {
-					"id" : "5"
-				},
-				"6" : {
-					"id" : "6"
-				}
-			}
-		},
-		"101" : {
-			"id" : "shidifenbote_ex1100",
-			"name" : "Stephen Potter",
-			"description" : "",
-			"expression" : {
-				"0" : {
-					"id" : "0"
+					"id": "4"
 				}
 			}
 		}
 	},
 	"defaultEquipment": {
-		"1" : {
-			"icon" : "11200",
-			"rarity" : "Rare",
-			"name" : "Twin 127mm MK12 Dual Gun"
+		"1": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"2": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
+		"3": {
+			"icon": "",
+			"rarity": "",
+			"name": ""
 		}
 	},
 	"stats": {
-		"base": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "",
-			"armor" : "Light"
-		},
 		"100": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
 		},
 		"120": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
+		},
+		"base": {
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
 		},
 		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
 		},
 		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "0",
-			"ammo" : "0",
-			"cost" : "",
-			"armor" : "Light"
+			"hp": "",
+			"firepower": "",
+			"torpedo": "",
+			"antiAir": "",
+			"aviation": "",
+			"reload": "",
+			"hit": "",
+			"evasion": "",
+			"speed": "",
+			"luck": "",
+			"asw": "",
+			"oxygen": "",
+			"ammo": "",
+			"cost": "",
+			"armor": ""
 		}
 	},
 	"limitBreak": {
@@ -249,48 +212,35 @@
 	},
 	"equipmentLoadout": {
 		"1": {
-			"type": "Destroyer Gun",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "",
+			"efficiency": "///",
+			"amount": "///",
+			"preload": "///"
 		},
 		"2": {
-			"type": "Torpedo",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "",
+			"efficiency": "///",
+			"amount": "///",
+			"preload": "///"
 		},
 		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
+			"type": "",
+			"efficiency": "///",
+			"amount": "///",
+			"preload": "///"
 		},
 		"4": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		},
 		"5": {
-			"type": "Auxilary",
+			"type": "Auxiliary",
 			"efficiency": "-",
 			"amount": "-",
 			"preload": "-"
 		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "9",
-		"ships": "aulick,bache,bush,charles_ausburne,fletcher,foote,halsey_powell,hazelwood,jenkins,kimberly,morrison,mullany,nicholas,radford,smalley,spence,stanly,stephen_potter,thatcher"
 	},
 	"build": {
 		"light": {
@@ -309,22 +259,22 @@
 			"EN": ""
 		},
 		"limited": {
-			"JP": "✓",
-			"CN": "✓",
-			"EN": "✓"
+			"JP": "",
+			"CN": "",
+			"EN": ""
 		}
 	},
 	"drop": {
 		"droppable": "false",
 		"list": {
 			"1": {
-				"event": "",
+				"event": "World",
 				"chapter": {
 					"1": {
-						"label": "Ch .1",
+						"label": "Ch.6",
 						"node": {
 							"1": {
-								"drop": "✓",
+								"drop": "-",
 								"note": "-"
 							}
 						}
@@ -336,9 +286,9 @@
 	"lines": {
 		"skin": {
 			"1": {
-				"skin_id": "shidifenbote",
+				"skin_id": "hailunna_alter",
 				"id": "0",
-				"label": "Stephen Potter",
+				"label": "Helena META",
 				"dialogue": {
 					"1": {
 						"event": "Ship Description",
@@ -451,18 +401,6 @@
                     "10": {
                         "event": "Touch (Special)",
                         "media": "touch_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "11": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head",
                         "chinese": "",
                         "chineseTL": "",
                         "chineseNote": "",
@@ -688,7 +626,7 @@
                         "english": "",
                         "englishNote": ""
                     },
-                    "30": {
+                    "31": {
                         "event": "Additional Voice Line 2",
                         "media": "link2",
                         "chinese": "",
@@ -700,7 +638,19 @@
                         "english": "",
                         "englishNote": ""
                     },
-                    "34": {
+                    "32": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "35": {
                         "event": "Present Like",
                         "media": "present_like",
                         "chinese": "",
@@ -712,7 +662,7 @@
                         "english": "",
                         "englishNote": ""
                     },
-                    "35": {
+                    "36": {
                         "event": "Present Dislike",
                         "media": "present_dislike",
                         "chinese": "",
@@ -725,157 +675,20 @@
                         "englishNote": ""
                     }
 				}
-			},
-            "2": {
-                "skin_id": "shidifenbote_2",
-                "id": "1",
-                "label": "",
-                "dialogue": {
-                    "1": {  
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_1"
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_1"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_1"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_1"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_1"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_1"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_1"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_1"
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_1"
-                    }
-                }
-            },
-            "101": {
-                "skin_id": "shidifenbote_ex1100",
-                "id": "0",
-                "label": "Stephen Potter",
-                "dialogue": {
-                    "1": {  
-                        "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_ex1100",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_ex1100",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "5": {
-                        "event": "Main 4",
-                        "media": "main_4_ex1100",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "6": {
-                        "event": "Main 5",
-                        "media": "main_5_ex1100",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "7": {
-                        "event": "Mission",
-                        "media": "task_ex1100",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "8": {
-                        "event": "Commission Complete",
-                        "media": "expedition_ex1100",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "9": {
-                        "event": "Victory",
-                        "media": "mvp_ex1100",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    }
-                }
-            }
+			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "",
+		"add_get_attr": "",
+		"add_get_value": "",
+		"add_get_shiptype": "",
+		"pt_upgrade": "",
+		"pt_level": "",
+		"add_level_attr": "",
+		"add_level_value": "",
+		"add_level_shiptype": "",
+		"t_level": "",
+		"ships": "brooklyn,phoenix,honolulu,st_louis,helena,boise,helena_meta"
 	}
 }

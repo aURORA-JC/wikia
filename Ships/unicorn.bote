@@ -202,6 +202,34 @@
                     "id": "6"
                 }       
             }       
+        },
+        "8": {  
+            "id": "dujiaoshou_7",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {  
+                    "id": "0"
+                },      
+                "1": {  
+                    "id": "1"
+                },      
+                "2": {  
+                    "id": "2"
+                },      
+                "3": {  
+                    "id": "3"
+                },      
+                "4": {  
+                    "id": "4"
+                },      
+                "5": {  
+                    "id": "5"
+                },      
+                "6": {  
+                    "id": "6"
+                }       
+            }       
         }
 	},
 	"defaultEquipment": {
@@ -1387,7 +1415,7 @@
 			},
             "7": {
                 "skin_id": "dujiaoshou_6",
-                "id": "6",
+                "id": "5",
                 "label": "Angelic Night",
                 "dialogue": {
                     "1": {  
@@ -1498,6 +1526,53 @@
                         "english": "",
                         "englishNote": ""
                     }       
+                }
+            },
+            "8": {
+                "skin_id": "dujiaoshou_7",
+                "id": "6",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_6"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_6"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_6"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_6"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_6"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_6"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_6"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_6"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_6"
+                    }
                 }
             }
 		}

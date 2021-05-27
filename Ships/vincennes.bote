@@ -904,5 +904,18 @@
 				}
 			}
 		}
+	},
+	"fleet_tech": {
+		"pt_get": "",
+		"add_get_attr": "",
+		"add_get_value": "",
+		"add_get_shiptype": "",
+		"pt_upgrade": "",
+		"pt_level": "",
+		"add_level_attr": "",
+		"add_level_value": "",
+		"add_level_shiptype": "",
+		"t_level": "",
+		"ships": "astoria,minneapolis,quincy,vincennes,san_francisco"
 	}
 }
