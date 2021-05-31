@@ -180,7 +180,7 @@ writeskins skins id e f
   = H.div H.! A.style "text-align: left;"
     $ do skins' <- return $ case id of
                               "lineView" -> skins
-                              _ -> map (\(i, (_, i', x)) -> (i, i', x)) $ zip [0..] $ filter (\(_, i, _) -> not $ isInfixOf "_ex1" i) skins
+                              _ -> map (\(i, (_, i', x)) -> (i, i', x)) $ zip [0..] $ filter (\(_, i, _) -> not $ isInfixOf "_ex" i) skins
          mapM_ (\(i, i', skin) -> do H.input H.! A.name (H.stringValue $ "skinSelectors-" ++ id) H.! A.autocomplete "off" H.! A.id (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i) H.! A.type_ "radio" H.!? (i == 0, A.checked "") H.!? (e, A.onchange $ H.stringValue $ "skinChange(" ++ show i ++ ",\"" ++ i' ++ "\")")
                                      H.label H.! A.for (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i)
                                        $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/herohrzicon/" ++ skin % "id" ++ ".png") H.! H.customAttribute "loading" "lazy" H.! A.style "height: 35px; width: 158px;margin: 0px 0px 0px 10px;") skins'
@@ -838,7 +838,9 @@ main
                                            " > "
                                            json %% "name"
                                     H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json
-                                    H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
+                                    H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
+                                                                                                                 False -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],"
+                                                                                                                 True -> "")) ++ "];\n" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
        shiplist' <- case shiplist'' of
