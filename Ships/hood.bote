@@ -108,6 +108,25 @@
 					"id": "4"
 				}
 			}
+		},
+		"5": {
+			"id": "hude_4",
+			"name": "",
+			"description": "",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -881,7 +900,7 @@
 			},
             "4": {
                 "skin_id": "hude_3",
-                "id": "3",
+                "id": "2",
                 "label": "",
                 "dialogue": {
                     "1": {  
@@ -1015,6 +1034,17 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
+                    }
+                }
+            },
+            "5": {
+                "skin_id": "hude_4",
+                "id": "3",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
                     }
                 }
             }

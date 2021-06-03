@@ -102,6 +102,22 @@
 					"id": "4"
 				}
 			}
+		},
+		"3": {
+			"id": "mengbiliai_3",
+			"name": "",
+			"description": "",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -788,7 +804,18 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "3": {
+                "skin_id": "mengbiliai_3",
+                "id": "2",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    }
+                }
+            }
 		}
 	},
 	"fleet_tech": {
