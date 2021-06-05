@@ -558,7 +558,7 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                     $ lineSet ! "dialogue"
                                                                                            mapM_ (\x
                                                                                                   -> case x % "media" of
-                                                                                                       s | s == voice
+                                                                                                       s | voice `isPrefixOf` s && voice /= ""
                                                                                                            -> H.tr
                                                                                                               $ do H.th H.! A.scope "row"
                                                                                                                      $ H.preEscapedToHtml $ x %% "event"
@@ -588,7 +588,7 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                                  Just x -> H.preEscapedToHtml $ ashow x) ["chinese",
                                                                                                                                                                           "japanese",
                                                                                                                                                                           "english"]
-                                                                                                       s -> return ())
+                                                                                                       s -> trace ("s: " ++ s ++ "|v: " ++ voice ++ "|name: " ++ json % "name") $ return ())
                                                                                              $ lines
                                                                                    _ -> case map (\(i, x) -> case j <= length x of
                                                                                                                True  -> gettext (namecode !! i) (x !! (j - 1))
