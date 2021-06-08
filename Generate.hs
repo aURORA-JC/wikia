@@ -207,8 +207,9 @@ showship :: [Val]
          -> [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
          -> Aeson.Object
+         -> [Aeson.Object]
          -> H.Html
-showship luaskin luaskinextra namecode encn skins json
+showship luaskin luaskinextra namecode encn skins json ships
   = do H.tr
          $ do H.td
                 $ H.table
@@ -627,6 +628,28 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                                                           ++ ".ogg") H.! A.controls ""
                                                                                                                     $ ""
                                                                                                     mapM_ (H.td . H.preEscapedToHtml) speech) $ take max [1..]) merged
+                                                     return ()
+                                                     mapM_ (\x
+                                                            -> case x of
+                                                                 Nothing -> return ()
+                                                                 Just x
+                                                                   -> case lookups x "couple_encourage" of
+                                                                        Just (Block encourages)
+                                                                          -> mapM_ (\x
+                                                                                    -> case x of
+                                                                                         (_,
+                                                                                          Block ((_, friends)
+                                                                                                 :_
+                                                                                                 :(_, Str text)
+                                                                                                 :_))
+                                                                                           -> H.tr
+                                                                                              $ do H.td
+                                                                                                     $ H.preEscapedToHtml
+                                                                                                     $ show friends
+                                                                                                   H.td
+                                                                                                     $ H.preEscapedToHtml text
+                                                                                         x -> error $ show x) encourages
+                                                                        _ -> return ()) luaskin'
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
@@ -837,7 +860,7 @@ main
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
-                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json
+                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships)
                                     H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                  False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],"
                                                                                                                  True -> "")) ++ "];\n" ++ dumbjs) ships
