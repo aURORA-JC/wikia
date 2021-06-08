@@ -558,7 +558,7 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                     $ lineSet ! "dialogue"
                                                                                            mapM_ (\x
                                                                                                   -> case x % "media" of
-                                                                                                       s | s == voice
+                                                                                                       s | voice `isPrefixOf` s && voice /= ""
                                                                                                            -> H.tr
                                                                                                               $ do H.th H.! A.scope "row"
                                                                                                                      $ H.preEscapedToHtml $ x %% "event"
@@ -839,7 +839,7 @@ main
                                            json %% "name"
                                     H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json
                                     H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
-                                                                                                                 False -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],"
+                                                                                                                 False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],"
                                                                                                                  True -> "")) ++ "];\n" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
