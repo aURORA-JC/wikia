@@ -677,24 +677,25 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                                                       i -> "_" ++ i
                                                                                                                  ++ ".ogg") H.! A.controls ""
                                                                       $ ""
-                                                                    mapM_ (\x -> case x of
-                                                                                   Nothing -> return ()
-                                                                                   Just x
-                                                                                     -> case lookups x "couple_encourage" of
-                                                                                          Just (Block encourages)
-                                                                                            -> case i < length encourages of
-                                                                                                 True -> case encourages !! i of
-                                                                                                           (_,
-                                                                                                            Block ((_, friends)
-                                                                                                                   :_
-                                                                                                                   :(_, Str text)
-                                                                                                                   :_))
-                                                                                                             -> H.td
-                                                                                                                $ H.preEscapedToHtml text
-                                                                                                           _ -> return ()
-                                                                                                 False -> return ()
-                                                                                          _ -> return ())
-                                                                      $ luaskin')
+                                                                    mapM_ (\(j, x) -> case x of
+                                                                                        Nothing -> return ()
+                                                                                        Just x
+                                                                                          -> case lookups x "couple_encourage" of
+                                                                                               Just (Block encourages)
+                                                                                                 -> case i < length encourages of
+                                                                                                      True -> case encourages !! i of
+                                                                                                                (_,
+                                                                                                                 Block ((_, friends)
+                                                                                                                        :_
+                                                                                                                        :(_, Str text)
+                                                                                                                        :_))
+                                                                                                                  -> H.td
+                                                                                                                     $ H.preEscapedToHtml
+                                                                                                                     $ gettext (namecode !! j) text
+                                                                                                                _ -> return ()
+                                                                                                      False -> return ()
+                                                                                               _ -> return ())
+                                                                      $ zip [0..] luaskin')
                                                        $ [0..(maxenc - 1)]
 {-
                                                      mapM_ (\x
