@@ -628,7 +628,75 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                                                                                           ++ ".ogg") H.! A.controls ""
                                                                                                                     $ ""
                                                                                                     mapM_ (H.td . H.preEscapedToHtml) speech) $ take max [1..]) merged
-                                                     return ()
+                                                     maxenc <- return
+                                                               $ maximum
+                                                               $ fmap (\x -> case x of
+                                                                                   Nothing -> 0
+                                                                                   Just x
+                                                                                     -> case lookups x "couple_encourage" of
+                                                                                          Just (Block encourages) -> length encourages
+                                                                                          _ -> 0) luaskin'
+                                                     mapM_ (\i
+                                                            -> H.tr
+                                                               $ do H.th
+                                                                      $ H.preEscapedToHtml
+                                                                      $ "In battle with "
+                                                                      ++ (case luaskin' !! 0 of
+                                                                            Nothing -> "!ERROR!"
+                                                                            Just x
+                                                                              -> case lookups x "couple_encourage" of
+                                                                                   Just (Block encourages)
+                                                                                     -> case i < length encourages of
+                                                                                          True -> case encourages !! i of
+                                                                                                    (_,
+                                                                                                     Block ((_, Block friends)
+                                                                                                            :_
+                                                                                                            :(_, _)
+                                                                                                            :_))
+                                                                                                      -> intercalate ", "
+                                                                                                         $ fmap (\(_, Num x)
+                                                                                                                 -> case find (\ship -> init (case ship % "internal_id" of
+                                                                                                                                                "" -> "0"
+                                                                                                                                                x  -> x) == show x) ships of
+                                                                                                                      Nothing -> "!UNKNOWN! (" ++ show x ++ ")"
+                                                                                                                      Just x  -> x % "name")
+                                                                                                         $ friends
+                                                                                                    _ -> "!ERROR!"
+                                                                                          False -> "!ERROR!"
+                                                                                   _ -> "!ERROR!")
+                                                                    H.td
+                                                                      $ H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                 $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                 ++ init (case json % "internal_id" of
+                                                                                                                            "" -> "0"
+                                                                                                                            x -> x)
+                                                                                                                 ++ "-battle/acb/awb/link"
+                                                                                                                 ++ show (i + 1)
+                                                                                                                 ++ case id of
+                                                                                                                      "0" -> ""
+                                                                                                                      i -> "_" ++ i
+                                                                                                                 ++ ".ogg") H.! A.controls ""
+                                                                      $ ""
+                                                                    mapM_ (\x -> case x of
+                                                                                   Nothing -> return ()
+                                                                                   Just x
+                                                                                     -> case lookups x "couple_encourage" of
+                                                                                          Just (Block encourages)
+                                                                                            -> case i < length encourages of
+                                                                                                 True -> case encourages !! i of
+                                                                                                           (_,
+                                                                                                            Block ((_, friends)
+                                                                                                                   :_
+                                                                                                                   :(_, Str text)
+                                                                                                                   :_))
+                                                                                                             -> H.td
+                                                                                                                $ H.preEscapedToHtml text
+                                                                                                           _ -> return ()
+                                                                                                 False -> return ()
+                                                                                          _ -> return ())
+                                                                      $ luaskin')
+                                                       $ [0..(maxenc - 1)]
+{-
                                                      mapM_ (\x
                                                             -> case x of
                                                                  Nothing -> return ()
@@ -649,7 +717,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                                    H.td
                                                                                                      $ H.preEscapedToHtml text
                                                                                          x -> error $ show x) encourages
-                                                                        _ -> return ()) luaskin'
+                                                                        _ -> return ()) luaskin' -}
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
