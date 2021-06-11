@@ -529,12 +529,27 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                            ] :: [(String, String, String)]
                                                   merged' = (map (\(label, key, voice) -> (label,
                                                                                            voice,
-                                                                                           map (\v -> case v of
-                                                                                                        Nothing -> []
-                                                                                                        Just v -> case lookups v key of
-                                                                                                                    Just (Str x) -> endBy "|" x
-                                                                                                                    Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
-                                                                                                                    Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
+                                                                                           case key of
+                                                                                             "main"
+                                                                                               -> map (\v
+                                                                                                       -> case v of
+                                                                                                            Nothing -> []
+                                                                                                            Just v -> case lookups v "main" of
+                                                                                                                        Just (Str x) -> endBy "|" x
+                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                        Nothing -> ["nil", "nil", "nil"]
+                                                                                                                      ++ case lookups v "main_extra" of
+                                                                                                                           Just (Str x) -> endBy "|" x
+                                                                                                                           Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                           Nothing -> []) luaskin'
+                                                                                             _
+                                                                                               -> map (\v
+                                                                                                       -> case v of
+                                                                                                            Nothing -> []
+                                                                                                            Just v -> case lookups v key of
+                                                                                                                        Just (Str x) -> endBy "|" x
+                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                        Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
                                                   merged = (map (\(label, voice, l) -> (label,
                                                                                         voice,
                                                                                         maximum $ map length l,
