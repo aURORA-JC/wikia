@@ -5,7 +5,7 @@
 	"nameCN": "海伦娜·META",
 	"ID": "M003",
 	"name": "Helena META",
-	"internal_id": "9707031",
+	"internal_id": "9702011",
 	"rarity": "Super Rare",
 	"initialStar": "★★★☆☆☆",
 	"hull": "Light Cruiser",
@@ -28,10 +28,10 @@
 		"medal": ""
 	},
 	"releaseDate": {
-		"JP": "2021/05/27",
-		"CN": "2021/05/27",
+		"JP": "2021/06/10",
+		"CN": "2021/06/10",
 		"KR": "",
-		"EN": "2021/05/27"
+		"EN": "2021/06/10"
 	},
 	"artist": {
 		"name": "",
@@ -49,28 +49,28 @@
 	"acquisitionMethod": "META Lab",
 	"skill": {
 		"1": {
-			"icon": "",
+			"icon": "800090",
 			"requirement": "",
 			"name": "",
 			"type": "",
 			"description": ""
 		},
 		"2": {
-			"icon": "",
+			"icon": "800100",
 			"requirement": "",
 			"name": "",
 			"type": "",
 			"description": ""
 		},
 		"3": {
-			"icon": "",
+			"icon": "800110",
 			"requirement": "",
 			"name": "",
 			"type": "",
 			"description": ""
 		},
 		"4": {
-			"icon": "",
+			"icon": "800120",
 			"requirement": "",
 			"name": "",
 			"type": "",
@@ -626,29 +626,9 @@
                         "english": "",
                         "englishNote": ""
                     },
-                    "31": {
-                        "event": "Additional Voice Line 2",
-                        "media": "link2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "32": {
-                        "event": "Additional Voice Line 3",
-                        "media": "link3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                    "30": {
+                        "event": "Extra",
+                        "media": "extra"
                     },
                     "35": {
                         "event": "Present Like",

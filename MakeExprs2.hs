@@ -22,7 +22,7 @@ main
                                                 ++ base
                                                 ++ "/1.png") ""
                     out <- readCreateProcess (shell
-                                              $ "compare -metric RMSE -subimage-search assets/painting/"
+                                              $ "compare -metric MAE -subimage-search assets/painting/"
                                               ++ base
                                               ++ ".png assets/paintingface/"
                                               ++ base

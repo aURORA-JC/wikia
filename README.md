@@ -24,8 +24,8 @@ Copied from the previous wiki source at https://github.com/alg-wiki/wikia due to
 ### For details on how you can help please see the wiki at https://gitgud.io/alg-wiki/wikia/-/wikis/home
 
 ## Things that need work:
-- Expression variants - need an automated way to apply the expressions to the full res skins so each expression can be viewed on the full skin
-- Multi-layer skins - some skins come separated into two or more layers, need to find a way to automatically combine these layers with the correct sizing and placement, currently unknown how the game lines them up
+- Multi-layer skins - some skins come separated into two or more layers, need to find a way to automatically combine these layers with the correct sizing and placement, currently unknown how the game lines them up.
+- Automate adding all the stats, skills, and other miscellaneous data on each ship page.
 
 ## Related:
 - https://gitgud.io/alg-wiki/azurlanel2dviewer

@@ -442,7 +442,7 @@ function setShipExpressionNav(skin){
     var firstIteration = true;
     var initial = "";
     var id = "";
-    for (var x in expressions) {
+    for (x of expressions) {
 	var container = document.createElement("img");
 	container.id = "expr-" + current + "_" + x;
 	container.setAttribute("onclick", "onExpressionNavButtonClick(\"" + x + "\",\"" + skin[0] + "\")");
