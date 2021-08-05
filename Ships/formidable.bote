@@ -73,8 +73,8 @@
 	"skin": {
 		"1" : {
 			"id" : "kewei",
-			"name" : "Formidable ",
-			"description" : "Illustrious-class aircraft carrier – Formidable. ",
+			"name" : "Formidable",
+			"description" : "Illustrious-class aircraft carrier – Formidable.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -104,8 +104,8 @@
 		},
 		"2" : {
 			"id" : "kewei_2",
-			"name" : "The Lady of the Beach ",
-			"description" : "Good day, Commander. I am Formidable, third ship of the Illustrious class. Pleased to make your acquaintance. ",
+			"name" : "The Lady of the Beach",
+			"description" : "Good day, Commander. I am Formidable, third ship of the Illustrious class. Pleased to make your acquaintance.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -151,8 +151,18 @@
 		},
 		"101" : {
 			"id" : "kewei_ex1100",
-			"name" : "Formidable ",
-			"description" : "Illustrious-class aircraft carrier – Formidable. ",
+			"name" : "Formidable",
+			"description" : "Illustrious-class aircraft carrier – Formidable.",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}
+		},
+		"102" : {
+			"id" : "kewei_2_ex1100",
+			"name" : "Formidable",
+			"description" : "Illustrious-class aircraft carrier – Formidable.",
 			"expression" : {
 				"0" : {
 					"id" : "0"
@@ -871,6 +881,42 @@
                     "1": {  
                         "event": "Ship Description",
                         "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2"
                     }
                 }
             },
@@ -1025,6 +1071,49 @@
 					}
 				}
 			}
+            "101": {
+                "skin_id": "kewei_2_ex1100",
+                "id": "1",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2_ex1100"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2_ex1100"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2_ex1100"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2_ex1100"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2_ex1100"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2_ex1100"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2_ex1100"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2_ex1100"
+                    }
+                }
+            }
 		}
 	}
 }

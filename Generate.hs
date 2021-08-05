@@ -105,6 +105,7 @@ navy' "Bilibili"            = "bili_icon.png"
 navy' "Hololive"            = "uwrr_icon.png"
 navy' "META"                = "meta_icon.png"
 navy' "Venus Vacation"      = "uwrr_icon.png"
+navy' "Idolm@ster"          = "uwrr_icon.png"
 navy' x = error x
 
 sidebar
