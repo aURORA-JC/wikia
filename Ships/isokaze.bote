@@ -95,6 +95,31 @@
 					"id": "4"
 				}
 			}
+		},
+		"3": {
+			"id": "jifeng_3",
+			"name": "",
+			"description": "",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				}
+			}
 		}
 	},
 	"defaultEquipment": {
@@ -750,7 +775,54 @@
 						"englishNote": ""
 					}
 				}
-			}
+			},
+            "3": {
+                "skin_id": "jifeng_3",
+                "id": "2",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2"
+                    }
+                }
+            }
 		}
 	},
 	"fleet_tech": {
