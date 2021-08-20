@@ -1,0 +1,494 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>Ingraham - /alg/ - Azur Lane General Wiki</title><style type="text/css">th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #373743;
+    border-color: #5c5d70;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+}
+
+th, td {
+    border-color: #5c5d70;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.title {
+    height: 1.5rem;
+}
+
+.subtitle {
+    background-color: #24252d;
+    height: 1.5rem;
+}
+
+body {
+    color: white;
+    background-color: #494a5a;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: block;
+    position: relative;
+}
+
+.tabs .tab {
+    float: left;
+    display: block;
+}
+
+input[name^="skinSelectors"] {
+    display: none;
+}
+
+.skinContent {
+    display: none;
+}
+
+.expression.active {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+
+.expression {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[name^="skinSelectors"] + label {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+input[name^="skinSelectors"]:checked + label {
+    opacity: 1;
+}
+
+#statSelector-base:checked ~ #statContent-base,
+#statSelector-100:checked ~ #statContent-100,
+#statSelector-100retrofit:checked ~ #statContent-100retrofit,
+#statSelector-120:checked ~ #statContent-120,
+#statSelector-120retrofit:checked ~ #statContent-120retrofit,
+#skinSelector-skinView-0:checked ~ #skinContent-skinView-0,
+#skinSelector-skinView-1:checked ~ #skinContent-skinView-1,
+#skinSelector-skinView-2:checked ~ #skinContent-skinView-2,
+#skinSelector-skinView-3:checked ~ #skinContent-skinView-3,
+#skinSelector-skinView-4:checked ~ #skinContent-skinView-4,
+#skinSelector-skinView-5:checked ~ #skinContent-skinView-5,
+#skinSelector-skinView-6:checked ~ #skinContent-skinView-6,
+#skinSelector-skinView-7:checked ~ #skinContent-skinView-7,
+#skinSelector-skinView-8:checked ~ #skinContent-skinView-8,
+#skinSelector-skinView-9:checked ~ #skinContent-skinView-9,
+#skinSelector-skinView-10:checked ~ #skinContent-skinView-10,
+#skinSelector-skinView-11:checked ~ #skinContent-skinView-11,
+#skinSelector-skinView-12:checked ~ #skinContent-skinView-12,
+#skinSelector-skinView-13:checked ~ #skinContent-skinView-13,
+#skinSelector-skinView-14:checked ~ #skinContent-skinView-14,
+#skinSelector-skinView-15:checked ~ #skinContent-skinView-15,
+#skinSelector-skinView-16:checked ~ #skinContent-skinView-16,
+#skinSelector-skinView-17:checked ~ #skinContent-skinView-17,
+#skinSelector-skinView-18:checked ~ #skinContent-skinView-18,
+#skinSelector-skinView-19:checked ~ #skinContent-skinView-19,
+#skinSelector-techView-0:checked ~ #skinContent-techView-0,
+#skinSelector-techView-1:checked ~ #skinContent-techView-1,
+#skinSelector-techView-2:checked ~ #skinContent-techView-2,
+#skinSelector-techView-3:checked ~ #skinContent-techView-3,
+#skinSelector-techView-4:checked ~ #skinContent-techView-4,
+#skinSelector-techView-5:checked ~ #skinContent-techView-5,
+#skinSelector-techView-6:checked ~ #skinContent-techView-6,
+#skinSelector-techView-7:checked ~ #skinContent-techView-7,
+#skinSelector-techView-8:checked ~ #skinContent-techView-8,
+#skinSelector-techView-9:checked ~ #skinContent-techView-9,
+#skinSelector-techView-10:checked ~ #skinContent-techView-10,
+#skinSelector-techView-11:checked ~ #skinContent-techView-11,
+#skinSelector-techView-12:checked ~ #skinContent-techView-12,
+#skinSelector-techView-13:checked ~ #skinContent-techView-13,
+#skinSelector-techView-14:checked ~ #skinContent-techView-14,
+#skinSelector-techView-15:checked ~ #skinContent-techView-15,
+#skinSelector-techView-16:checked ~ #skinContent-techView-16,
+#skinSelector-techView-17:checked ~ #skinContent-techView-17,
+#skinSelector-techView-18:checked ~ #skinContent-techView-18,
+#skinSelector-techView-19:checked ~ #skinContent-techView-19,
+#skinSelector-lineView-0:checked ~ #skinContent-lineView-0,
+#skinSelector-lineView-1:checked ~ #skinContent-lineView-1,
+#skinSelector-lineView-2:checked ~ #skinContent-lineView-2,
+#skinSelector-lineView-3:checked ~ #skinContent-lineView-3,
+#skinSelector-lineView-4:checked ~ #skinContent-lineView-4,
+#skinSelector-lineView-5:checked ~ #skinContent-lineView-5,
+#skinSelector-lineView-6:checked ~ #skinContent-lineView-6,
+#skinSelector-lineView-7:checked ~ #skinContent-lineView-7,
+#skinSelector-lineView-8:checked ~ #skinContent-lineView-8,
+#skinSelector-lineView-9:checked ~ #skinContent-lineView-9,
+#skinSelector-lineView-10:checked ~ #skinContent-lineView-10,
+#skinSelector-lineView-11:checked ~ #skinContent-lineView-11,
+#skinSelector-lineView-12:checked ~ #skinContent-lineView-12,
+#skinSelector-lineView-13:checked ~ #skinContent-lineView-13,
+#skinSelector-lineView-14:checked ~ #skinContent-lineView-14,
+#skinSelector-lineView-15:checked ~ #skinContent-lineView-15,
+#skinSelector-lineView-16:checked ~ #skinContent-lineView-16,
+#skinSelector-lineView-17:checked ~ #skinContent-lineView-17,
+#skinSelector-lineView-18:checked ~ #skinContent-lineView-18,
+#skinSelector-lineView-19:checked ~ #skinContent-lineView-19 {
+    display: block;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #373743;
+    color: #fff;
+    font-size: 15px;
+}
+
+#sidebar .subheader {
+    background: #24252d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sidebar ol li a:hover {
+    background: #6e6f87;
+}
+
+#sidebar ol li a {
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
+
+#sidebarEscape {
+    margin-left: 250px;
+    padding: 10px 10px 10px 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #24252d;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+details {
+    background-color: #373743;
+    border-color: #5c5d70;
+    margin-bottom: 20px;
+}
+
+summary {
+    background-color: #24252d;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: safe space-evenly;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.ship {
+    vertical-align: top;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    border: 3px double #ffffff;
+    background: #24252d;
+    width: 108px;
+    height: 220px;
+    position: relative;
+}
+
+.hull {
+    padding-left: 3px;
+    padding-right: 5px;
+    width: 33px;
+    height: auto;
+}
+
+.navy {
+    padding-right:5px;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+</style><style type="text/css">.title {background: rgb(190, 185, 136);}</style><script src="https://algwiki.moe/js/pixi.min-4.7.1.js"></script><script src="https://algwiki.moe/js/live2dcubismcore.min.js"></script><script src="https://algwiki.moe/js/live2dcubismframework.js"></script><script src="https://algwiki.moe/js/live2dcubismpixi.js"></script><script src="https://algwiki.moe/js/pixi-spine.js"></script><script src="https://algwiki.moe/js/SkeletonBinary.js"></script></head><body><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist (By ID)</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist (By Name)</a></li><li><a href="https://algwiki.moe/navy/index.html">Faction Category</a></li><li><a href="https://algwiki.moe/hull/index.html">Class Category</a></li><li><a href="https://algwiki.moe/rarity/index.html">Rarity Category</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://algwiki.moe/">Player</a></li></ol></nav><div id="sidebarEscape"><nav><a href="/">Home</a> &gt; <a href="../shiplist.html">Shiplist</a> &gt; Ingraham</nav><main><table><tr><td><table><tr><th class="title" scope="col" colspan="5">Ingraham (JP 🇯🇵: , CN 🇹🇼: )</th></tr><tr><td rowspan="3"><img src="https://algwiki.moe/assets/squareicon/yinggelahan.png"></td><th>Ship ID</th><td>No. 518</td><th>Star Rating</th><td>★★★☆☆☆</td></tr><tr><th><a href="../hull/index.html">Hull</a></th><td><img src="https://algwiki.moe/Images/Hull/dd.png" style="height: auto; width: 35px"> Destroyer</td><th>Rarity</th><td>Super Rare</td></tr><tr><th><a href="../navy/index.html">Navy</a></th><td><img src="https://algwiki.moe/Images/Navy/uss_icon.png">Eagle Union</td><th>Build Time</th><td></td></tr><tr><th scope="row">Acquisition</th><td colspan="4">Event: Microlayer Medley Rerun</td></tr><tr><th scope="row">Enhance Income</th><td colspan="4"><table><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/reload_icon.png" style="height:auto;width:25px;"> Reload</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/torpedo_icon.png" style="height:auto;width:25px;"> Torpedo</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/aviation_icon.png" style="height:auto;width:25px;"> Aviation</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/firepower_icon.png" style="height:auto;width:25px;"> Firepower</td><td style="text-align: left;padding-left:5px;"></td></tr></table></td></tr><tr><th scope="row">Scrap Income</th><td colspan="4"><table><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/gold_icon.png" style=""> Gold</td><td style="text-align: left;padding-left:5px;">4</td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/oil_icon.png" style=""> Oil</td><td style="text-align: left;padding-left:5px;">3</td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/medal_icon.png" style=""> Medal</td><td style="text-align: left;padding-left:5px;">4</td></tr></table></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="2">Information</th></tr><tr><th scope="row">Release Date</th><td><table><tr><td colspan="1">EN</td><td>2021/08/19</td></tr><tr><td colspan="1">CN</td><td>2021/08/19</td></tr><tr><td colspan="1">KR</td><td></td></tr><tr><td colspan="1">JP</td><td>2021/08/19</td></tr></table></td></tr><tr><th scope="row">Voice actress</th><td>Kono Hiyori</td></tr><tr><th class="subtitle" scope="col" colspan="2">Illustrator</th></tr><tr><td colspan="1">Name</td><td></td></tr><tr><td colspan="1">Pixiv</td><td></td></tr><tr><td colspan="1">Weibo</td><td></td></tr><tr><td colspan="1">Twitter</td><td></td></tr><tr><td colspan="1">Other</td><td></td></tr></table></td></tr><tr><td colspan="2"><table class="full"><tr><th class="title" scope="col">Skins</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-skinView" autocomplete="off" id="skinSelector-skinView-0" type="radio" checked="" onchange="skinChange(0,&quot;yinggelahan&quot;)"><label for="skinSelector-skinView-0"><img src="https://algwiki.moe/assets/herohrzicon/yinggelahan.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-skinView" autocomplete="off" id="skinSelector-skinView-1" type="radio" onchange="skinChange(1,&quot;yinggelahan_2&quot;)"><label for="skinSelector-skinView-1"><img src="https://algwiki.moe/assets/herohrzicon/yinggelahan_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-skinView-0" class="skinContent"><table><tr><th style="min-width: 50%" class="subtitle">Ingraham</th><th class="subtitle">Description</th></tr><tr><td rowspan="5"><img id="painting-yinggelahan" src="https://algwiki.moe/assets/painting/yinggelahan.png" style="max-width: 100%;"></td><td></td></tr><tr><td id="containerSD-yinggelahan"><select id="selectAnimation-yinggelahan"></select><div id="canvasSD-yinggelahan"></div></td></tr><tr><th class="subtitle">Expressions</th></tr><tr><td id="shipSkinExpressions-yinggelahan"></td></tr></table></div><div id="skinContent-skinView-1" class="skinContent"><table><tr><th style="min-width: 50%" class="subtitle"></th><th class="subtitle">Description</th></tr><tr><td rowspan="5"><img id="painting-yinggelahan_2" src="https://algwiki.moe/assets/painting/yinggelahan_2.png" style="max-width: 100%;"></td><td></td></tr><tr><td id="containerSD-yinggelahan_2"><select id="selectAnimation-yinggelahan_2"></select><div id="canvasSD-yinggelahan_2"></div></td></tr><tr><th class="subtitle">Expressions</th></tr><tr><td id="shipSkinExpressions-yinggelahan_2"></td></tr></table></div></div></td></tr></table></td></tr><tr><td><table><tr><th class="title" scope="col" colspan="2">Parameters</th></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</td><td style="text-align: left; padding-left:5px;"></td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</td><td style="text-align: left; padding-left:5px;"></td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</td><td style="text-align: left; padding-left:5px;"></td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</td><td style="text-align: left; padding-left:5px;"></td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</td><td style="text-align: left; padding-left:5px;"></td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</td><td style="text-align: left; padding-left:5px;"></td></tr><tr><th class="subtitle" scope="col" colspan="2">Stats</th></tr><tr><td colspan="2"><input name="skinSelectors-stat" autocomplete="off" id="statSelector-base" type="radio" checked=""><label for="statSelector-base" style="margin-left: 5px;border-style: solid;">Base</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100" type="radio"><label for="statSelector-100" style="margin-left: 5px;border-style: solid;">100</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100retrofit" type="radio"><label for="statSelector-100retrofit" style="margin-left: 5px;border-style: solid;">100 Retrofit</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120" type="radio"><label for="statSelector-120" style="margin-left: 5px;border-style: solid;">120</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120retrofit" type="radio"><label for="statSelector-120retrofit" style="margin-left: 5px;border-style: solid;">120 Retrofit</label><div id="statContent-base" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3"></td></tr></table></div><div id="statContent-100" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3"></td></tr></table></div><div id="statContent-100retrofit" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3"></td></tr></table></div><div id="statContent-120" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3"></td></tr></table></div><div id="statContent-120retrofit" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center"></td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center"></td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3"></td></tr></table></div></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="5">Limit Break</th></tr><tr><td style="text-align: left; padding-left:5px;">Tier 1</td><td colspan="4" style="text-align: left; padding-left:5px;"></td></tr><tr><td style="text-align: left; padding-left:5px;">Tier 2</td><td colspan="4" style="text-align: left; padding-left:5px;"></td></tr><tr><td style="text-align: left; padding-left:5px;">Tier 3</td><td colspan="4" style="text-align: left; padding-left:5px;"></td></tr><tr><th class="subtitle" scope="col" colspan="5">Equipments</th></tr><tr><th class="subtitle" scope="col">Slot</th><th class="subtitle" scope="col">Equipment Type</th><th class="subtitle" scope="col">Efficiency (LB 0/1/2/3)</th><th class="subtitle" scope="col">Quantity (LB 0/1/2/3)</th><th class="subtitle" scope="col">Preload (LB 0/1/2/3)</th></tr><tr><td>1</td><td></td><td>%/%/%/%</td><td>1/1/1/1</td><td>0/0/0/0</td></tr><tr><td>2</td><td>Torpedo</td><td>%/%/%/%</td><td>1/1/2/2</td><td>0/0/1/1</td></tr><tr><td>3</td><td>Anti-Air Gun</td><td>%/%/%/%</td><td>1/1/1/1</td><td>0/0/0/0</td></tr><tr><td>4</td><td>Auxilary</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>Auxilary</td><td>-</td><td>-</td><td>-</td></tr><tr><th class="subtitle" scope="col" colspan="5">Default Equipments</th><tr><td>1</td><td colspan="4"></td></tr><tr><td>2</td><td colspan="4"></td></tr><tr><td>3</td><td colspan="4"></td></tr></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="3" style="width:40%;">Fleet Tech</th></tr><tr><th class="subtitle">T Destroyer: Allen M. Sumner-class </th><th class="subtitle" colspan="2" style="width:60%;">Tech Points and Bonus</th></tr><tr><td><a href="allen_m_sumner.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg4.png&quot;);" src="https://algwiki.moe/assets/squareicon/ailunsamuna.png"></a><a href="cooper.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg3.png&quot;);" src="https://algwiki.moe/assets/squareicon/kubo.png"></a><a href="ingraham.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg4.png&quot;);" src="https://algwiki.moe/assets/squareicon/yinggelahan.png"></a></td><td><div style="text-align: left;"><input name="skinSelectors-techView" autocomplete="off" id="skinSelector-techView-0" type="radio" checked=""><label for="skinSelector-techView-0"><img src="https://algwiki.moe/assets/herohrzicon/yinggelahan.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-techView" autocomplete="off" id="skinSelector-techView-1" type="radio"><label for="skinSelector-techView-1"><img src="https://algwiki.moe/assets/herohrzicon/yinggelahan_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-techView-0" class="skinContent"><img src="https://algwiki.moe/assets/shipmodels/yinggelahan.png"></div><div id="skinContent-techView-1" class="skinContent"><img src="https://algwiki.moe/assets/shipmodels/yinggelahan_2.png"></div></div></td><td><table><tr><th>Unlock</th><td></td><td><img style="width: 35px;" src="https://algwiki.moe/Images/Hull/dd.png"> <img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr><tr><th>Max LimitBreak</th><td></td><td></td></tr><tr><th>Lv.120</th><td></td><td><img style="width: 35px;" src="https://algwiki.moe/Images/Hull/dd.png"> <img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr></table></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Skillset</th></tr><tr><th scope="col" class="subtitle">Icon</th><th scope="col" class="subtitle">Name</th><th scope="col" class="subtitle">Description</th><th scope="col" class="subtitle">Requirements</th></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/14720.png"></td><td></td><td></td><td>Default Unlocked</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/14730.png"></td><td></td><td></td><td>Default Unlocked</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/29750.png"></td><td>All Out Assault</td><td></td><td>Limit Break I (III)</td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Construction</th></tr><tr><td class="subtitle" style="width:20%;"></td><th class="subtitle" style="width:20%;" scope="col">JP</th><th class="subtitle" style="width:20%;" scope="col">CN</th><th class="subtitle" style="width:20%;" scope="col">EN</th></tr><tr><th scope="row" class="subtitle">Light</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Special</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Heavy</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Limited</th><td></td><td></td><td></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="5">Dialogue</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-0" type="radio" checked=""><label for="skinSelector-lineView-0"><img src="https://algwiki.moe/assets/herohrzicon/yinggelahan.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-1" type="radio"><label for="skinSelector-lineView-1"><img src="https://algwiki.moe/assets/herohrzicon/yinggelahan_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-lineView-0" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Ship Description</th><td></td><td>艾伦·萨姆纳级驱逐舰—英格拉罕，舷号DD-694</td><td>アレン・M・サムナー級駆逐艦「イングラハム」（DD-694)</td><td>Allen M. Sumner-class destroyer – Ingraham, Hull Number DD-694.</td></tr><tr><th scope="row">Biography</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/profile.ogg" controls=""></audio></td><td>唔…想来想去，果然还是没什么好介绍的呢…要不…给你看看我做的这个艾伦·萨姆纳级微缩船模？这些是主炮，这些是防空炮，这些是投放深水炸弹的装置…</td><td>うーん、考えたけど、やっぱ特に語ることないや。そうだ、あたしが作ったミニチュアアレン・M・サムナー級でも見てみる？ほら主砲、対空砲がこっちにあって、その隣が爆雷投射機になってて…</td><td>Thought about it some more, but I really don't have much else to tell you. On another note, wanna see the Allen M. Sumner-class miniature I made? Main battery, AA guns, even depth charges, it's all there. See?</td></tr><tr><th scope="row">Acquisition</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/get.ogg" controls=""></audio></td><td>白鹰驱逐，英格拉罕。嗯…没什么特别要介绍的了？总之以后请多指教吧。</td><td>ユニオン駆逐艦、イングラハムだ。うーん…特に語ることないな…まあ、よろしくっ！</td><td>I'm Ingraham, Eagle Union destroyer. Not much else to tell you, honestly... Anyhoo, good to meet you.</td></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/login.ogg" controls=""></audio></td><td>你迟到了哦？是不是给指挥官做一个停不下来的闹钟比较好呢…</td><td>指揮官、遅刻だよ？押しても止まらないアラームでも作ろうかな…</td><td>You're late, Commander. I oughta build you an alarm clock that keeps ringing no matter what you do.</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/detail.ogg" controls=""></audio></td><td>把东西破坏掉并不难，但想要创造一件东西，可就难多了呢。</td><td>壊すのは簡単だけど、作るのは大変だよ？</td><td>Breaking stuff is easy. Making stuff is not.</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/main_1.ogg" controls=""></audio></td><td>指挥官，我在这里弄些小玩意不会打扰到你的工作吧？…那就好。</td><td>指揮官、ちょっとここでオシゴトしてるんだけど、指揮官の邪魔にならないかな？…おっ、じゃあいいってことね</td><td>Yo, Commander, you mind if I do some tinkering in here? Don't wanna disturb you, is all... All righty, I'll take that as a "yes."</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/main_2.ogg" controls=""></audio></td><td>袜子少了一只？大概是起床的时候忘记穿了…算啦，这又不重要。</td><td>え？タイツを片方履いてないって？あー、面倒だから履き忘れたかもな…そういうのはどうでもいいんだよ、気にしなくてよし！</td><td>Why am I wearing just one stocking? Uhh, because I forgot to put the other one on. What does it matter, anyway? Clothes are just a bother.</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/main_3.ogg" controls=""></audio></td><td>有个螺丝好像掉到柜子底下了…那个，我来捡就好，你只要别看奇怪的地方就行。</td><td>ねじが1本棚の隙間に…？ああ、いいっていいって、自分で拾うから。って変なとこ見るんじゃないぞっ</td><td>There's a loose screw under the bookcase... No biggie, I'll get it myself. And don't you dare try to sneak a dirty peek in while I'm doing it.</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/touch_1.ogg" controls=""></audio></td><td>喂，别到处乱碰啊。</td><td>ちょっと、あんまり触らないでねー</td><td>Keep the touching to a minimum, thanks.</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/touch_2.ogg" controls=""></audio></td><td>就是这只手对吧？被我抓到了就用卡钳夹到你认错为止——</td><td>悪さしてんのはこの手だな？謝るまでこれで挟まれてもらうからな</td><td>This is your dirty-deeds-hand, huh? I'm gonna keep you armlocked until you say you're sorry.</td></tr><tr><th scope="row">Touch (Headpat)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/touch_head.ogg" controls=""></audio></td><td>发夹？是我随手拿的夹子…有问题吗？</td><td>ヘアピン？あーそこら辺にあったクリップを適当にね、変？</td><td>This hairpin? It's made from a repurposed binder clip. Is that so weird?</td></tr><tr><th scope="row">Mission</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/task.ogg" controls=""></audio></td><td>新任务？哎，不太想到处跑啊…</td><td>新しい任務？参ったな、あんま動きたくないけど…</td><td>New missions, huh? Ugh. I don't wanna get off my butt...</td></tr><tr><th scope="row">Mission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/mission_complete.ogg" controls=""></audio></td><td>在找笔签署确认任务完成的文件吗？喏，我这支借你。</td><td>任務完了をサインするペンを探してるって？ほら、あたしの使っていいよ</td><td>Need a pen to write the mission complete papers? Here, you can borrow mine.</td></tr><tr><th scope="row">Mail</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/mail.ogg" controls=""></audio></td><td>邮件…要不要我帮你升级下邮箱？</td><td>メールか…メールボックスアップデートしてあげようか？</td><td>Mail, eh... I could give your mailbox a makeover, if you want.</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/home.ogg" controls=""></audio></td><td>唔…这里果然不对，偏了1毫米……啊，指挥官，来的正好，看看这个？</td><td>うーん、やっぱここか、1ミリずれてたもんな…あ、指揮官じゃない、ちょうどいいところに、これを見てみて？</td><td>My hunch was right – this thing really is a millimeter off... Oh, hey there, Commander. Just who I was looking for. Could you have a look at this?</td></tr><tr><th scope="row">Commission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/expedition.ogg" controls=""></audio></td><td>委托完成了哦。不介意我拿走一些边角料零件吧？</td><td>委託完了したぞー、不要になったパーツもらっていい？</td><td>Commission complete. Any parts you don't need? Send 'em my way.</td></tr><tr><th scope="row">Enhancement</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/upgrade.ogg" controls=""></audio></td><td>装备强化…好像还算靠谱。</td><td>装備強化…まあまあ頼りにしてるよ</td><td>Rigging upgrades, huh? Keep them coming, thanks.</td></tr><tr><th scope="row">Flagship</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/warcry.ogg" controls=""></audio></td><td>各模块调整完毕，可以出击。</td><td>各モジュール調整完了、いつでも戦えるぞ♪</td><td>Full module calibration complete. I'm loaded and ready for battle!</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/mvp.ogg" controls=""></audio></td><td>好，装备状态绝佳~</td><td>よしっ、装備は絶好調！</td><td>Sweet! My rigging's perfectly tuned!</td></tr><tr><th scope="row">Defeat</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/lose.ogg" controls=""></audio></td><td>哎…回去得好好维修一下这身装备了。</td><td>っ、帰ったらちゃんと装備をメンテナンスしなきゃだ！</td><td>I've gotta do thorough rigging maintenance when I get back!</td></tr><tr><th scope="row">Skill</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/skill.ogg" controls=""></audio></td><td>可不要怪我哦？</td><td>悪く思うなよー？</td><td>Nothing personal!</td></tr><tr><th scope="row">Low HP</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/hp.ogg" controls=""></audio></td><td>啊！这里修起来很麻烦的啊！</td><td>あちゃー！ここを直すのは大変なのにっ！</td><td>Oh, crap! That's gonna be a pain to repair!</td></tr><tr><th scope="row">Affinity (Upset)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/feeling1.ogg" controls=""></audio></td><td>要是你的脑袋上有螺丝的话，我一定得拧开来看看里面是什么怪东西……</td><td>あんたの頭にネジがついてるなら、外して中を覗いてみたいものだねー</td><td>I'd love to unscrew your thick skull and have a look at what's inside.</td></tr><tr><th scope="row">Affinity (Stranger)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/feeling2.ogg" controls=""></audio></td><td>任何一个零件上一丝一毫的误差，都会影响整个制造品的成果……所以，必须要保证精确性。</td><td>完成品の質は部品の誤差のあるなしにかかってるからね。つまるところ、精度を確保せーってことよ</td><td>Even minor flaws impact the quality of a product. You want high-end equipment? Make sure it's perfectly calibrated.</td></tr><tr><th scope="row">Affinity (Friendly)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/feeling3.ogg" controls=""></audio></td><td>库珀，你上次说的什么“变身道具”已经做好了。……等等，艾伦，不要擅自往上面贴奇怪的贴纸！</td><td>クーパー、前回言ってた「変身アイテム」とやら、完成したよ。ちょっとアレン、変なステッカー貼るなって！</td><td>Hey, Cooper, I finished that "morph item" you asked about... No, Allen! Stop plastering stickers all over my stuff!</td></tr><tr><th scope="row">Affinity (Like)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/feeling4.ogg" controls=""></audio></td><td>指挥官，我在空闲时间拿边角料做了一个铁勋章哦。你站过来，我给你戴上——噗，还真有点合适呢。</td><td>指揮官、非番の日に余ったパーツを使って鉄の勲章を作ってみたよ。つけてあげるから、こっちに来てっ。…ぷはっ、なかなか似合ってるよ！</td><td>Yo, Commander, I scrounged up some spare parts and made you this steel medal on my day off. C'mere, I'll attach it to your uniform... Pfft! Looks pretty good on you!</td></tr><tr><th scope="row">Affinity (Love)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/feeling5.ogg" controls=""></audio></td><td>指挥官，以后有事可以多来找我……啊当然没事也可以啦。总之，你要是不在我身边我会有些寂寞的……咳、咳咳！</td><td>指揮官、今後なんかあったらいつでも呼んでいいよ。あーその、なんだ、何もなくても呼んでいいからっ。と、とにかくそばにいないとちょっと寂しいていうか…こ、こほん！</td><td>Listen, if you ever need something, just hit me up. Scratch that, uhh... You can hit me up anytime, for any reason. I just feel kinda lonely without you, you know? Ahem... Anyway!</td></tr><tr><th scope="row">Pledge</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/propose.ogg" controls=""></audio></td><td>我还以为你会是比较迟钝的那种，没想到你也挺主动的嘛。对了，这个是我自己做的戒指……虽然比不上这个誓约之戒，不过还是希望你能好好珍惜它，毕竟我不会再做第二个了哦。</td><td>鈍感かと思ってたけど、案外積極的なんだ。そうだ、指輪作ってきたよ。まあ、誓いの指輪には及ばないけど、大事にしてほしいからさ…だ、だからもう一回作れってのはなしだぞっ</td><td>Here I thought you were dense, but I guess I was wrong. Oh yeah, I made this ring for you. It's no promise ring, but I still want you to have it... This thing's special to me, so don't even think about having me remake it for you.</td></tr><tr><th scope="row">Present Like</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/present_like.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th scope="row">Present Dislike</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/present_dislike.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th scope="row">Extra</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/extra.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th>In battle with Allen M. Sumner</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/link1.ogg" controls=""></audio></td><td>艾伦，可别放松过头了。</td><td>アレン、気ぃ抜きすぎるなよー</td><td>Try not to get too sloppy, Allen.</td></tr><tr><th>In battle with Reno</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/link2.ogg" controls=""></audio></td><td>这个手甲，有点厉害……</td><td>そのギア、すごいな……</td><td>That's some cutting-edge tech you've got...</td></tr><tr><th>In battle with Akashi</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148-battle/acb/awb/link3.ogg" controls=""></audio></td><td>交流下维修心得？</td><td>修理のコツ、話し合ってみない？</td><td>Got any pro tips for me about repairing?</td></tr></table></div><div id="skinContent-lineView-1" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Ship Description</th><td></td><td>嗯…可以再加强点甜味…然后再来点这个…——唔？你来了？好，现在开始你就是试喝员一号了，为了做出创造性的饮料，让我们一起努力吧！</td><td>うーん、甘味をもうちょい足して、あとこれも入れとこっとーーあっ、きたの？よしっ、今日から指揮官は試飲スタッフ1号だ。立派な新作ドリンクのために、一緒に頑張ろう！</td><td>Hmm... Could use a little more sweetness, and a splash of the secret ingredient... Oh, you're here? Great. I appoint you as my first dedicated taste-tester, Commander. We're gonna come up with some novel and fresh drinks, you and I!</td></tr><tr><th scope="row">Acquisition</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/get_1.ogg" controls=""></audio></td><td>嗯…可以再加强点甜味…然后再来点这个…——唔？你来了？好，现在开始你就是试喝员一号了，为了做出创造性的饮料，让我们一起努力吧！</td><td>うーん、甘味をもうちょい足して、あとこれも入れとこっとーーあっ、きたの？よしっ、今日から指揮官は試飲スタッフ1号だ。立派な新作ドリンクのために、一緒に頑張ろう！</td><td>Hmm... Could use a little more sweetness, and a splash of the secret ingredient... Oh, you're here? Great. I appoint you as my first dedicated taste-tester, Commander. We're gonna come up with some novel and fresh drinks, you and I!</td></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/login_1.ogg" controls=""></audio></td><td>今天没有迟到呢，作为奖励，给你一杯这个吧，糖分加倍的哦。</td><td>今日は遅刻しなかったね！ご褒美にこれをあげよう。甘さ2倍にしといたよー</td><td>You're on time for once! That means you're due for a reward. I'll make your drink doubly sweet.</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/detail_1.ogg" controls=""></audio></td><td>你的工作很简单，喝掉我做的饮料，然后把口味和感想告诉我就行。</td><td>指揮官の仕事は簡単だよ。あたしの作ったドリンクを飲んで、味とかの感想を聞かせてくれればそれでいいよー</td><td>Your job's simple. All you need to do is drink what I serve you and give feedback on the taste, mouthfeel, et cetera.</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/main_1_1.ogg" controls=""></audio></td><td>明明找艾伦借的是标签纸，为什么她给我塞了一大把各种形状可爱的贴纸…</td><td>アレンにラベル貸してって頼んだだけなのに、どうしてゆるかわステッカーがこんなに…</td><td>All I asked Allen for was some label paper, and instead she dumped a billion different stickers on me...</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/main_2_1.ogg" controls=""></audio></td><td>库珀，那边那些是带酒精的，不能乱碰哦？</td><td>クーパー、そっちはアルコール系だから触っちゃだめだぞ？</td><td>No, Cooper, that stuff's got alcohol in it. Put it back where you found it.</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/main_3_1.ogg" controls=""></audio></td><td>这个衣服…是艾伦说“在吧台要这么穿”然后强行给我套上的…唔…算了，就这样吧。</td><td>この格好？「カウンターに立つなら」ってアレンが無理矢理に…んーまあ…いいけど？</td><td>Yeah, Allen made me wear this getup when she found out I'll be handling the bar counter... That said, I guess I don't really mind it.</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/touch_2_1.ogg" controls=""></audio></td><td>！？信不信我下次弄一杯超浓缩柠檬汁给你…</td><td>っ？！このレモネード、レモン汁の量30倍にしよっか？</td><td>Hey! Wow... Hope you like your lemonade with 30 times more lemon juice.</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/home_1.ogg" controls=""></audio></td><td>如果新饮料研发成功了，我就做个“金牌试喝员”的勋章送给你吧。</td><td>新作ドリンク、開発成功したら、指揮官に「ゴールド試飲スタッフ」の勲章作ってあげるよ</td><td>Once I've perfected this recipe, I'll give you a gold taste-tester medal for your efforts.</td></tr><tr><th scope="row">Commission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-10148/acb/awb/expedition_1.ogg" controls=""></audio></td><td>委托完成了哦。让我看看里面有没有什么能拿来做配方的……</td><td>委託完了したぞー、どれどれ、レシピに使えそうなものは…</td><td>Commission complete. Let's see if they brought back anything I can use...</td></tr></table></div></div></td></tr></table></td></tr></table></main><script>
+skins = [["yinggelahan","0","1","2","3","4","5","6",],["yinggelahan_2","0","1","2","3","4","5","6",],];
+const tail = ([, ...t]) => t;
+
+var util = {
+    ifFileExists: function(file){
+	var http = new XMLHttpRequest();
+
+	http.open('HEAD', file, false);
+	http.send();
+	return (http.status != 404 && http.status != 403);
+    },
+    clearAllChildren: function(element){
+	var myNode = document.getElementById(element);
+	while (myNode.firstChild) {
+	    myNode.removeChild(myNode.firstChild);
+	}
+    },
+    loadShipList: function(callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'json/shiplist.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText);
+	    }
+	};
+	xobj.send(null);
+    },
+    loadShipJSON: function(ship, callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'Ships/'+ship+'.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText, ship);
+	    }
+	};
+	xobj.send(null);
+    },
+    guidGenerator: function(){
+	var S4 = function() {
+	    return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+	};
+	return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+    }
+}
+
+function SD(basePath) {
+    this.basePath = basePath;
+    this.loader = new PIXI.loaders.Loader(this.basePath);
+}
+
+SD.prototype = {
+    spineData : {},
+    load: function(name, v) {
+        if (!this.spineData[name]) {
+            var skelpath = name+'.skel';
+            var atlaspath = name+'.atlas';
+            var texpath = name+'.png';
+
+            this.loader.add(name+'_atlas', atlaspath, { "type" : "atlas" })
+            this.loader.add(name+'_skel', skelpath, { "xhrType" : "arraybuffer" })
+            this.loader.add(name+'_tex', texpath)
+
+            this.loader.load((loader, resources) => {
+                var dec = new TextDecoder("utf-8");
+                var head = dec.decode(resources[name+'_skel'].data.slice(2, 10));
+                var rawSkeletonData;
+                if (head == "skeleton") {
+                    rawSkeletonData = JSON.parse(dec.decode(resources[name+'_skel'].data));
+                } else {
+                    var skelBin = new SkeletonBinary();
+                    skelBin.data = new Uint8Array(resources[name+'_skel'].data);
+                    skelBin.initJson();
+
+                    rawSkeletonData = skelBin.json;
+                }
+                var rawAtlasData = resources[name+'_atlas'].data;
+
+                var spineAtlas = new PIXI.spine.core.TextureAtlas(rawAtlasData, function(line, callback) {
+                    callback(PIXI.BaseTexture.from(name+'_tex'));
+                });
+                var spineAtlasLoader = new PIXI.spine.core.AtlasAttachmentLoader(spineAtlas);
+                var spineJsonParser = new PIXI.spine.core.SkeletonJson(spineAtlasLoader);
+                var skeletonData = spineJsonParser.readSkeletonData(rawSkeletonData);
+
+                this.spineData[name] = skeletonData;
+                v.changeCanvas(skeletonData);
+            });
+        } else {
+            v.changeCanvas(this.spineData[name]);
+        }
+    }
+}
+
+var viewer = {
+    init2: function() {
+        viewer.canvas = document.getElementById("canvasSD-" + current);
+        viewer.selectAnimation = document.getElementById("selectAnimation-" + current);
+        viewer.selectAnimation.addEventListener('change', function() {
+            viewer.changeAnimation(this.selectedIndex);
+        });
+        viewer.canvas.appendChild(viewer.app.view);
+    },
+    init: function(basePath) {
+        viewer.sd = new SD(basePath);
+        viewer.app = new PIXI.Application(512, 512, { transparent: true });
+	viewer.init2();
+    },
+    changeCanvas : function(skeletonData) {
+        viewer.app.stage.removeChildren();
+
+        viewer.spine = new PIXI.spine.Spine(skeletonData);
+        var animations = viewer.spine.spineData.animations;
+        var stringAnimations = "";
+        for(var i = 0; i < animations.length; i++) {
+            if (animations[i].name == "stand")
+                stringAnimations += "<option value=\"" + animations[i].name + "\" selected>" + animations[i].name + "</option>";
+            else
+                stringAnimations += "<option value=\"" + animations[i].name + "\">" + animations[i].name + "</option>";
+        }
+        viewer.selectAnimation.innerHTML = stringAnimations;
+        viewer.spine.state.setAnimation(0, "stand", true);
+        viewer.app.stage.addChild(viewer.spine);
+        viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        centerSD();
+    },
+    changeAnimation : function(num) {
+        var name = viewer.spine.spineData.animations[num].name;
+        viewer.spine.state.setAnimation(0, name, true);
+    },
+    onResize: function() {
+        var element = document.getElementById("containerSD-" + current);
+        var positionInfo = element.getBoundingClientRect();
+        var width = positionInfo.width;
+        if (width > 512){
+            width = 512;
+        }
+        var height = width;
+        viewer.app.view.style.width = width + "px";
+        viewer.app.view.style.height = height + "px";
+        viewer.app.renderer.resize(width, height);
+        viewer.spine.position.set(width * 0.5 , height * 0.8);
+    },
+    removeSd : function() {
+        viewer.app.stage.removeChildren();
+    },
+    loadSd: function(sd) {
+        viewer.sd.load(sd, viewer);
+    },
+    sdWidth: function (){
+        return viewer.app.view.width;
+    }
+};
+
+function centerSD(){
+    var containerWidth = document.getElementById("containerSD-" + current).getBoundingClientRect().width;
+    var sdWidth = viewer.sdWidth();
+    document.getElementById("canvasSD-" + current).style.left = Math.floor((containerWidth / 2) - (sdWidth / 2)) + "px";
+}
+
+window.onresize = function(){
+    viewer.onResize();
+    centerSD();
+}
+
+function loadShipSkinElements(skinID){
+    try {
+	viewer.removeSd();
+    } catch (err){
+    }
+
+    if (util.ifFileExists("https://algwiki.moe/assets/char/" + skinID + ".png")){
+	viewer.loadSd(skinID);
+    }
+
+    util.clearAllChildren("shipSkinExpressions-" + current);
+}
+
+function setShipExpressionNav(skin){
+    const expressions = tail(skin);
+    var firstIteration = true;
+    var initial = "";
+    var id = "";
+    for (x of expressions) {
+	var container = document.createElement("img");
+	container.id = "expr-" + current + "_" + x;
+	container.setAttribute("onclick", "onExpressionNavButtonClick(\"" + x + "\",\"" + skin[0] + "\")");
+	if (firstIteration){
+	    container.src = expressions.length == 1 ? "https://algwiki.moe/assets/squareicon/" + skin[0] + ".png" : "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "active expression";
+	    firstIteration = false;
+	    initial = x;
+	    id = x;
+	} else {
+	    container.src = "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "expression";
+	}
+
+	document.getElementById("shipSkinExpressions-" + current).appendChild(container);
+    }
+}
+
+function onExpressionNavButtonClick(exprID, skinID){
+    var id = "expr-" + current + "_" + exprID;
+    var obj = document.getElementById('shipSkinExpressions-' + current).children;
+
+    for (var i = 0; i < obj.length; ++i){
+	if (obj[i].id == id) {
+	    document.getElementById(id).classList.add('active');
+	    document.getElementById("painting-" + current).src = "https://algwiki.moe/assets/painting/" + skinID + (exprID == 0 ? "" : "-" + exprID) + ".png";
+	} else
+	    document.getElementById(obj[i].id).classList.remove('active');
+    }
+}
+
+var current = skins[0][0];
+
+function skinChange(i, skinID) {
+    current = skins[i][0];
+    viewer.init2();
+    loadShipSkinElements(skinID);
+    setShipExpressionNav(skins[i]);
+    onExpressionNavButtonClick(skins[i][1], skinID);
+}
+
+viewer.init("https://algwiki.moe/assets/char");
+loadShipSkinElements(skins[0][0]);
+setShipExpressionNav(skins[0]);
+onExpressionNavButtonClick(skins[0][1], skins[0][0]);
+</script><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
+Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.
+/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.</pre></footer></div></body></html>

@@ -105,6 +105,7 @@ navy' "Bilibili"            = "bili_icon.png"
 navy' "Hololive"            = "uwrr_icon.png"
 navy' "META"                = "meta_icon.png"
 navy' "Venus Vacation"      = "uwrr_icon.png"
+navy' "Idolm@ster"          = "uwrr_icon.png"
 navy' x = error x
 
 sidebar
@@ -180,7 +181,7 @@ writeskins skins id e f
   = H.div H.! A.style "text-align: left;"
     $ do skins' <- return $ case id of
                               "lineView" -> skins
-                              _ -> map (\(i, (_, i', x)) -> (i, i', x)) $ zip [0..] $ filter (\(_, i, _) -> not $ isInfixOf "_ex1" i) skins
+                              _ -> map (\(i, (_, i', x)) -> (i, i', x)) $ zip [0..] $ filter (\(_, i, _) -> not $ isInfixOf "_ex" i) skins
          mapM_ (\(i, i', skin) -> do H.input H.! A.name (H.stringValue $ "skinSelectors-" ++ id) H.! A.autocomplete "off" H.! A.id (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i) H.! A.type_ "radio" H.!? (i == 0, A.checked "") H.!? (e, A.onchange $ H.stringValue $ "skinChange(" ++ show i ++ ",\"" ++ i' ++ "\")")
                                      H.label H.! A.for (H.stringValue $ "skinSelector-" ++ id ++ "-" ++ show i)
                                        $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/herohrzicon/" ++ skin % "id" ++ ".png") H.! H.customAttribute "loading" "lazy" H.! A.style "height: 35px; width: 158px;margin: 0px 0px 0px 10px;") skins'
@@ -207,8 +208,9 @@ showship :: [Val]
          -> [(String, (String, String))]
          -> [(Int, String, Aeson.Object)]
          -> Aeson.Object
+         -> [Aeson.Object]
          -> H.Html
-showship luaskin luaskinextra namecode encn skins json
+showship luaskin luaskinextra namecode encn skins json ships
   = do H.tr
          $ do H.td
                 $ H.table
@@ -528,12 +530,27 @@ showship luaskin luaskinextra namecode encn skins json
                                                            ] :: [(String, String, String)]
                                                   merged' = (map (\(label, key, voice) -> (label,
                                                                                            voice,
-                                                                                           map (\v -> case v of
-                                                                                                        Nothing -> []
-                                                                                                        Just v -> case lookups v key of
-                                                                                                                    Just (Str x) -> endBy "|" x
-                                                                                                                    Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
-                                                                                                                    Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
+                                                                                           case key of
+                                                                                             "main"
+                                                                                               -> map (\v
+                                                                                                       -> case v of
+                                                                                                            Nothing -> []
+                                                                                                            Just v -> case lookups v "main" of
+                                                                                                                        Just (Str x) -> endBy "|" x
+                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                        Nothing -> ["nil", "nil", "nil"]
+                                                                                                                      ++ case lookups v "main_extra" of
+                                                                                                                           Just (Str x) -> endBy "|" x
+                                                                                                                           Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                           Nothing -> []) luaskin'
+                                                                                             _
+                                                                                               -> map (\v
+                                                                                                       -> case v of
+                                                                                                            Nothing -> []
+                                                                                                            Just v -> case lookups v key of
+                                                                                                                        Just (Str x) -> endBy "|" x
+                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                        Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
                                                   merged = (map (\(label, voice, l) -> (label,
                                                                                         voice,
                                                                                         maximum $ map length l,
@@ -558,7 +575,7 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                     $ lineSet ! "dialogue"
                                                                                            mapM_ (\x
                                                                                                   -> case x % "media" of
-                                                                                                       s | s == voice
+                                                                                                       s | voice `isPrefixOf` s && voice /= ""
                                                                                                            -> H.tr
                                                                                                               $ do H.th H.! A.scope "row"
                                                                                                                      $ H.preEscapedToHtml $ x %% "event"
@@ -590,43 +607,134 @@ showship luaskin luaskinextra namecode encn skins json
                                                                                                                                                                           "english"]
                                                                                                        s -> return ())
                                                                                              $ lines
-                                                                                   _ -> H.tr
-                                                                                        $ do H.th H.! A.scope "row"
-                                                                                               $ H.preEscapedToHtml $ label ++ (case j of
-                                                                                                                                  1 -> ""
-                                                                                                                                  x -> " " ++ show x)
-                                                                                             H.td
-                                                                                               $ case voice of
-                                                                                                   "" -> ""
-                                                                                                   _ -> do H.audio H.! A.preload "none" H.! A.src (H.stringValue
-                                                                                                                                                   $ "https://algwiki.moe/assets/cue/cv-"
-                                                                                                                                                   ++ init (case json % "internal_id" of
-                                                                                                                                                              "" -> "0"
-                                                                                                                                                              x -> x)
-                                                                                                                                                   ++ (if any (\x -> x `isPrefixOf` voice) ["hp",
-                                                                                                                                                                                            "lose",
-                                                                                                                                                                                            "mvp",
-                                                                                                                                                                                            "skill",
-                                                                                                                                                                                            "warcry",
-                                                                                                                                                                                            "link"] then
-                                                                                                                                                         "-battle"
-                                                                                                                                                       else
-                                                                                                                                                         "")
-                                                                                                                                                   ++ "/acb/awb/"
-                                                                                                                                                   ++ case voice of
-                                                                                                                                                        "main" -> "main_" ++ show j
-                                                                                                                                                        _ -> voice
-                                                                                                                                                   ++ case id of
-                                                                                                                                                        "0" -> ""
-                                                                                                                                                        i -> "_" ++ i
-                                                                                                                                                   ++ ".ogg") H.! A.controls ""
-                                                                                                             $ ""
-                                                                                             mapM_ (\(i, x)
-                                                                                                    -> H.td
-                                                                                                       $ H.preEscapedToHtml
-                                                                                                       $ case j <= length x of
-                                                                                                           True -> gettext (namecode !! i) (x !! (j - 1))
-                                                                                                           False -> "") (zip [0..] langs')) $ take max [1..]) merged
+                                                                                   _ -> case map (\(i, x) -> case j <= length x of
+                                                                                                               True  -> gettext (namecode !! i) (x !! (j - 1))
+                                                                                                               False -> "") (zip [0..] langs') of
+                                                                                          ["", "", ""] -> ""
+                                                                                          speech
+                                                                                            -> H.tr
+                                                                                               $ do H.th H.! A.scope "row"
+                                                                                                      $ H.preEscapedToHtml $ label ++ (case j of
+                                                                                                                                         1 -> ""
+                                                                                                                                         x -> " " ++ show x)
+                                                                                                    H.td
+                                                                                                      $ case voice of
+                                                                                                          "" -> ""
+                                                                                                          _ -> do H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                          $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                          ++ init (case json % "internal_id" of
+                                                                                                                                                                     "" -> "0"
+                                                                                                                                                                     x -> x)
+                                                                                                                                                          ++ (if any (\x -> x `isPrefixOf` voice) ["hp",
+                                                                                                                                                                                                   "lose",
+                                                                                                                                                                                                   "mvp",
+                                                                                                                                                                                                   "skill",
+                                                                                                                                                                                                   "warcry",
+                                                                                                                                                                                                   "link"] then
+                                                                                                                                                                "-battle"
+                                                                                                                                                              else
+                                                                                                                                                                "")
+                                                                                                                                                          ++ "/acb/awb/"
+                                                                                                                                                          ++ case voice of
+                                                                                                                                                               "main" -> "main_" ++ show j
+                                                                                                                                                               _ -> voice
+                                                                                                                                                          ++ case id of
+                                                                                                                                                               "0" -> ""
+                                                                                                                                                               i -> "_" ++ i
+                                                                                                                                                          ++ ".ogg") H.! A.controls ""
+                                                                                                                    $ ""
+                                                                                                    mapM_ (H.td . H.preEscapedToHtml) speech) $ take max [1..]) merged
+                                                     maxenc <- return
+                                                               $ maximum
+                                                               $ fmap (\x -> case x of
+                                                                                   Nothing -> 0
+                                                                                   Just x
+                                                                                     -> case lookups x "couple_encourage" of
+                                                                                          Just (Block encourages) -> length encourages
+                                                                                          _ -> 0) luaskin'
+                                                     mapM_ (\i
+                                                            -> H.tr
+                                                               $ do H.th
+                                                                      $ H.preEscapedToHtml
+                                                                      $ "In battle with "
+                                                                      ++ (case luaskin' !! 0 of
+                                                                            Nothing -> "!ERROR!"
+                                                                            Just x
+                                                                              -> case lookups x "couple_encourage" of
+                                                                                   Just (Block encourages)
+                                                                                     -> case i < length encourages of
+                                                                                          True -> case encourages !! i of
+                                                                                                    (_,
+                                                                                                     Block ((_, Block friends)
+                                                                                                            :_
+                                                                                                            :(_, _)
+                                                                                                            :_))
+                                                                                                      -> intercalate ", "
+                                                                                                         $ fmap (\(_, Num x)
+                                                                                                                 -> case find (\ship -> init (case ship % "internal_id" of
+                                                                                                                                                "" -> "0"
+                                                                                                                                                x  -> x) == show x) ships of
+                                                                                                                      Nothing -> "!UNKNOWN! (" ++ show x ++ ")"
+                                                                                                                      Just x  -> x % "name")
+                                                                                                         $ friends
+                                                                                                    _ -> "!ERROR!"
+                                                                                          False -> "!ERROR!"
+                                                                                   _ -> "!ERROR!")
+                                                                    H.td
+                                                                      $ H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                 $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                 ++ init (case json % "internal_id" of
+                                                                                                                            "" -> "0"
+                                                                                                                            x -> x)
+                                                                                                                 ++ "-battle/acb/awb/link"
+                                                                                                                 ++ show (i + 1)
+                                                                                                                 ++ case id of
+                                                                                                                      "0" -> ""
+                                                                                                                      i -> "_" ++ i
+                                                                                                                 ++ ".ogg") H.! A.controls ""
+                                                                      $ ""
+                                                                    mapM_ (\(j, x) -> case x of
+                                                                                        Nothing -> return ()
+                                                                                        Just x
+                                                                                          -> case lookups x "couple_encourage" of
+                                                                                               Just (Block encourages)
+                                                                                                 -> case i < length encourages of
+                                                                                                      True -> case encourages !! i of
+                                                                                                                (_,
+                                                                                                                 Block ((_, friends)
+                                                                                                                        :_
+                                                                                                                        :(_, Str text)
+                                                                                                                        :_))
+                                                                                                                  -> H.td
+                                                                                                                     $ H.preEscapedToHtml
+                                                                                                                     $ gettext (namecode !! j) text
+                                                                                                                _ -> return ()
+                                                                                                      False -> return ()
+                                                                                               _ -> return ())
+                                                                      $ zip [0..] luaskin')
+                                                       $ [0..(maxenc - 1)]
+{-
+                                                     mapM_ (\x
+                                                            -> case x of
+                                                                 Nothing -> return ()
+                                                                 Just x
+                                                                   -> case lookups x "couple_encourage" of
+                                                                        Just (Block encourages)
+                                                                          -> mapM_ (\x
+                                                                                    -> case x of
+                                                                                         (_,
+                                                                                          Block ((_, friends)
+                                                                                                 :_
+                                                                                                 :(_, Str text)
+                                                                                                 :_))
+                                                                                           -> H.tr
+                                                                                              $ do H.td
+                                                                                                     $ H.preEscapedToHtml
+                                                                                                     $ show friends
+                                                                                                   H.td
+                                                                                                     $ H.preEscapedToHtml text
+                                                                                         x -> error $ show x) encourages
+                                                                        _ -> return ()) luaskin' -}
                 {-
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
                                          Just lineSet
@@ -837,8 +945,10 @@ main
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
-                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json
-                                    H.script $ H.preEscapedToHtml $ "skins = [" ++ (skins >>= (\(_, _, x) -> "[\"" ++ x % "id" ++ "\"," ++ ((keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],")) ++ "];" ++ dumbjs) ships
+                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships)
+                                    H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
+                                                                                                                 False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],"
+                                                                                                                 True -> "")) ++ "];\n" ++ dumbjs) ships
 
        shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
        shiplist' <- case shiplist'' of

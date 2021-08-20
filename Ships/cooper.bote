@@ -289,7 +289,7 @@
 		"add_level_value": "1",
 		"add_level_shiptype": "Destroyer",
 		"t_level": "9",
-		"ships": "cooper"
+		"ships": "allen_m_sumner,cooper,ingraham"
 	},
 	"build": {
 		"light": {
@@ -847,16 +847,52 @@
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Hm? I'm just wrapping up some presents! Can't just present them as-is, and all that. Hehe~ I could sure use a little help, Commander!",
-                        "englishNote": ""
-                    }       
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2"
+                    },
+                    "11": {
+                        "event": "Commission Complete",
+                        "media": "expedition_2"
+                    },
+                    "12": {
+                        "event": "Mail",
+                        "media": "mail_2"
+                    }
                 }
             }
 		}

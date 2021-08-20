@@ -1,12 +1,12 @@
 #!/usr/bin/env sh
-wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/zh-CN/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.cn.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/ja-JP/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.jp.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/en-US/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.en.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/zh-CN/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.cn.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/ja-JP/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.jp.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/en-US/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.en.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/zh-CN/sharecfg/name_code.lua -O lua/name_code.cn.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/ja-JP/sharecfg/name_code.lua -O lua/name_code.jp.lua \
-    && wget https://raw.githubusercontent.com/Dimbreath/AzurLaneData/master/en-US/sharecfg/name_code.lua -O lua/name_code.en.lua \
+wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/zh-CN/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.cn.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/ja-JP/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.jp.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/en-US/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.en.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/zh-CN/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.cn.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/ja-JP/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.jp.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/en-US/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.en.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/zh-CN/sharecfg/name_code.lua -O lua/name_code.cn.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/ja-JP/sharecfg/name_code.lua -O lua/name_code.jp.lua \
+    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/en-US/sharecfg/name_code.lua -O lua/name_code.en.lua \
     && echo "Generating..." \
     && ./Generate.hs

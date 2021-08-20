@@ -1124,6 +1124,15 @@
 		"rarity": "Elite",
 		"shipType": "common"
 	},
+		"152": {
+		"hull": "Destroyer",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/baixue.png",
+		"link": "shirayuki",
+		"name": "Shirayuki",
+		"navy": "Sakura Empire",
+		"rarity": "Elite",
+		"shipType": "common"
+	},
 	"155": {
 		"hull": "Destroyer",
 		"icon": "https://algwiki.moe/assets/shipyardicon_new/lingbo.png",
@@ -3420,7 +3429,7 @@
         "shipType": "common"
     },
     "459": {
-		"name" : "Illustrious",
+		"name" : "Little Illustrious",
 		"hull" : "Aircraft Carrier",
 		"navy" : "Royal Navy",
 		"icon" : "https://algwiki.moe/assets/shipyardicon_new/guanghui_younv.png",
@@ -3941,6 +3950,33 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+	"517": {
+		"hull": "Destroyer",
+		"icon": "https://algwiki.moe/assets/shipyardicon_new/fengyun.png",
+		"link": "kazagumo",
+		"name": "Kazagumo",
+		"navy": "Sakura Empire",
+		"rarity": "Super Rare",
+		"shipType": "common"
+	},
+    "518": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yinggelahan.png",
+        "link": "ingraham",
+        "name": "Ingraham",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "519": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yingwuluo.png",
+        "link": "nautilus",
+        "name": "Nautilus",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
 	"P001": {
 		"hull": "Light Cruiser",
 		"icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4091,6 +4127,51 @@
         "link": "champagne",
         "name": "Champagne",
         "navy": "Iris Libre",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P018": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ankeleiqi.png",
+        "link": "anchorage",
+        "name": "Anchorage",
+        "navy": "Eagle Union",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P019": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bailong.png",
+        "link": "hakuryuu",
+        "name": "Hakuryuu",
+        "navy": "Sakura Empire",
+        "rarity": "Decisive",
+        "shipType": "research"
+    },
+    "P020": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aogusite.png",
+        "link": "august_von_parseval",
+        "name": "August von Parseval",
+        "navy": "Ironblood",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P021": {
+        "hull": "Super Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aijier.png",
+        "link": "ägir",
+        "name": "Ägir",
+        "navy": "Ironblood",
+        "rarity": "Decisive",
+        "shipType": "research"
+    },
+    "P022": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/makeboluo.png",
+        "link": "marco_polo",
+        "name": "Marco Polo",
+        "navy": "Sardegna Empire",
         "rarity": "Priority",
         "shipType": "research"
     },
@@ -4424,6 +4505,69 @@
         "link": "monica_doa",
         "name": "Monica",
         "navy": "Venus Vacation",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C071": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chunxiang.png",
+        "link": "imas_haruka",
+        "name": "Amami Haruka",
+        "navy": "Idolm@ster",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C072": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qianzao.png",
+        "link": "imas_chihaya",
+        "name": "Kisaragi Chihaya",
+        "navy": "Idolm@ster",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C073": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yizhi.png",
+        "link": "imas_iori",
+        "name": "Minase Iori",
+        "navy": "Idolm@ster",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C074": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zi.png",
+        "link": "imas_azusa",
+        "name": "Miura Azusa",
+        "navy": "Idolm@ster",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C075": {
+        "hull": "Munition Ship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lvzi.png",
+        "link": "imas_ritsuko",
+        "name": "Akizuki Ritsuko",
+        "navy": "Idolm@ster",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C076": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yamei.png",
+        "link": "imas_ami",
+        "name": "Futami Ami",
+        "navy": "Idolm@ster",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C077": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhenmei.png",
+        "link": "imas_mami",
+        "name": "Futami Mami",
+        "navy": "Idolm@ster",
         "rarity": "Elite",
         "shipType": "collab"
     },

@@ -108,7 +108,17 @@
 					"id" : "7"
 				}
 			}
-		}
+		},
+		"101" : {
+			"id" : "meiyinci_ex1100",
+			"name" : "Mainz",
+			"description" : "",
+			"expression" : {
+				"0" : {
+					"id" : "0"
+				}
+			}        
+        }
 	},
 	"defaultEquipment": {
 		"1" : {
@@ -688,7 +698,58 @@
 						"englishNote" : ""
 					}
 				}
-			}
+			},
+            "101": {
+                "skin_id": "meiyinci_ex1100",
+                "id": "0",
+                "label": "Mainz",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_ex1100"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_ex1100"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_ex1100"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_ex1100"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100"
+                    },
+                    "10": {
+                        "event": "Mail",
+                        "media": "mail_ex1100"
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task_ex1100"
+                    },
+                    "12": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_ex1100"
+                    },
+                    "13": {
+                        "event": "Flagship",
+                        "media": "warcry_ex1100"
+                    }
+                }
+            }
 		}
 	}
 }

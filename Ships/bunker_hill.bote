@@ -84,7 +84,7 @@
 		},
 		"2": {
 			"id": "bangkeshan_2",
-			"name": "",
+			"name": "Mission Relaxation",
 			"description": "",
 			"expression": {
 				"0": {
@@ -689,15 +689,47 @@
                 "dialogue": {
                     "1": {  
                         "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1"
+                    },
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_1"
+                    },
+                    "12": {
+                        "event": "Commission Complete",
+                        "media": "expedition_1"
                     }
                 }
             }

@@ -12,7 +12,7 @@
 	"navy" : "Eagle Union",
 	"prefix" : "USS",
 	"buildTime" : "",
-	"voiceActress" : "",
+	"voiceActress" : "Hazuki Ogino",
 	"parameters": {
 		"firepower" : "",
 		"torpedo" : "",
@@ -33,10 +33,10 @@
 		"EN" : "2021/03/25"
 	},
 	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
+		"name" : "Nagu",
+		"weibo" : "https://weibo.com/wooperfuri",
+		"twitter" : "https://twitter.com/wooperfuri",
+		"pixiv" : "https://www.pixiv.net/en/users/316388",
 		"other" : ""
 	},
 	"class" : "Allen M. Sumner-class ",
@@ -284,7 +284,7 @@
 		"add_level_value": "",
 		"add_level_shiptype": "Destroyer",
 		"t_level": "9",
-		"ships": "cooper,allen_m_sumner"
+		"ships": "allen_m_sumner,cooper,ingraham"
 	},
 	"build": {
 		"light": {

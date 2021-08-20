@@ -164,6 +164,34 @@
 			}
 		},
 		"7": {
+			"id": "shancheng_8",
+			"name": "",
+			"description": "",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				},
+				"4": {
+					"id": "4"
+				},
+				"5": {
+					"id": "5"
+				},
+				"6": {
+					"id": "6"
+				}
+			}
+		},
+		"8": {
 			"id": "shancheng_h",
 			"name": "Bridal Attack! ",
 			"description": "Milord, Milord, I've finished changing! What do you think, what do you think? Milord, do you like Yamashiro's dress~? ",
@@ -185,7 +213,7 @@
 				}
 			}
 		},
-		"8": {
+		"9": {
 			"id": "shancheng_g",
 			"name": "Yamashiro (Retrofit)",
 			"description": "Milord! I can do anything now~ bombardment or aerial strikes! So, the thing is, you can totally count on me, much much more, Milord! Milord~!",
@@ -1371,7 +1399,50 @@
 					}
 				}
 			},
-			"7": {
+            "8": {
+                "skin_id": "shancheng_8",
+                "id": "5",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_5"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_5"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_5"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_5"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_5"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_5"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_5"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_5"
+                    }
+                }
+            },
+			"8": {
 				"skin_id": "shancheng_h",
 				"id": "8",
 				"label": "Bridal Attack! ",
@@ -1510,7 +1581,7 @@
 					}
 				}
 			},
-			"8": {
+			"9": {
 				"skin_id": "shancheng_g",
 				"id": "9",
 				"label": "Yamashiro (Retrofit)",
