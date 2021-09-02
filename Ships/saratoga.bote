@@ -265,6 +265,25 @@
                "id":"5"
             }       
          }
+      },
+      "10":{   
+         "id":"salatuojia_9",
+         "name":"", 
+         "description":"",
+         "expression":{
+            "0":{   
+               "id":"0"
+            },
+            "2":{   
+               "id":"2"
+            },
+            "3":{   
+               "id":"3"
+            },
+            "4":{   
+               "id":"4"
+            }
+         }
       }
    },
    "defaultEquipment":{
@@ -1009,7 +1028,7 @@
          },
          "3":{
             "skin_id":"salatuojia_3",
-            "id":"3",
+            "id":"2",
             "label":"Hibiscus-scented Idol",
             "dialogue":{
                "1":{
@@ -1124,7 +1143,7 @@
          },
          "4":{
             "skin_id":"salatuojia_4",
-            "id":"4",
+            "id":"3",
             "label":"Virtual Idol",
             "dialogue":{
                "1":{
@@ -1872,6 +1891,17 @@
                     },
                     "10": {
                         "event": "Return to Port",
+                        "media": ""
+                    }
+                }
+            },
+            "10": {
+                "skin_id": "salatuojia_9",
+                "id": "8",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
                         "media": ""
                     }
                 }
