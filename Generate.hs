@@ -495,7 +495,8 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                   luaskin' = (map (\v -> lookupi v (read (case (lineSet % "id", json % "internal_id") of
                                                                                             (_,        "") -> "0"
                                                                                             ([x],      iid) -> (init iid) ++ [x]
-                                                                                            (['1', y], ['3', '0', '1', '0', '5', _]) -> "33105" ++ [y]
+                                                                                            (['1', y], '3':'0':'1':'0':'5':[_]) -> "33105" ++ [y]
+                                                                                            (['1', y], '1':'0':'7':'0':'3':[_]) -> "13703" ++ [y]
                                                                                             x -> trace ("Invalid skin id! " ++ json % "name" ++ ", " ++ show x) "0"))) lua) :: [Maybe Val]
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
                                                             ("Biography",           "profile",          "profile"),
