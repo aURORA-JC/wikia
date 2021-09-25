@@ -1,22 +1,22 @@
 {
-	"1": {
-		"name": "Universal Bullin",
-		"hull": "Destroyer",
-		"navy": "Universal",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/gin.png",
-		"rarity": "Elite",
-		"link": "bullin",
-		"shipType": "common"
-	},
-	"2": {
-		"name": "Trial Bulin MKII",
-		"hull": "Destroyer",
-		"navy": "Universal",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kin.png",
-		"rarity": "Super Rare",
-		"link": "bullin_mkii",
-		"shipType": "common"
-	},
+    "1": {
+        "name": "Universal Bullin",
+        "hull": "Destroyer",
+        "navy": "Universal",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gin.png",
+        "rarity": "Elite",
+        "link": "bullin",
+        "shipType": "common"
+    },
+    "2": {
+        "name": "Trial Bulin MKII",
+        "hull": "Destroyer",
+        "navy": "Universal",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kin.png",
+        "rarity": "Super Rare",
+        "link": "bullin_mkii",
+        "shipType": "common"
+    },
     "3": {  
         "name": "Specialized Bulin Custom MKIII",
         "hull": "Destroyer",
@@ -26,358 +26,358 @@
         "link": "bullin_mkiii",
         "shipType": "common"
     },
-	"4": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/duwei.png",
-		"link": "dewey",
-		"name": "Dewey",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"5": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kaxin.png",
-		"link": "cassin",
-		"name": "Cassin",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"6": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tangsi.png",
-		"link": "downes",
-		"name": "Downes",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"7": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/gelideli.png",
-		"link": "gridley",
-		"name": "Gridley",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"8": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/keleiwen.png",
-		"link": "craven",
-		"name": "Craven",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"9": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/maikaoer.png",
-		"link": "mccall",
-		"name": "McCall",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"10": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/moli.png",
-		"link": "maury",
-		"name": "Maury",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"11": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fulaiche.png",
-		"link": "fletcher",
-		"name": "Fletcher",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"13": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aosiben.png",
-		"link": "charles_ausburne",
-		"name": "Charles Ausburne",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"14": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/saqieer.png",
-		"link": "thatcher",
-		"name": "Thatcher",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"15": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aolike.png",
-		"link": "aulick",
-		"name": "Aulick",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"16": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fute.png",
-		"link": "foote",
-		"name": "Foote",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"17": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/sipengsi.png",
-		"link": "spence",
-		"name": "Spence",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"18": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bensen.png",
-		"link": "benson",
-		"name": "Benson",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"19": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lafei.png",
-		"link": "laffey",
-		"name": "Laffey",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"26": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ximusi.png",
-		"link": "sims",
-		"name": "Sims",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"27": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/haman.png",
-		"link": "hammann",
-		"name": "Hammann",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"28": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aierdeliqi.png",
-		"link": "eldridge",
-		"name": "Eldridge",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"29": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aomaha.png",
-		"link": "omaha",
-		"name": "Omaha",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"30": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/luoli.png",
-		"link": "raleigh",
-		"name": "Raleigh",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"31": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bulukelin.png",
-		"link": "brooklyn",
-		"name": "Brooklyn",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"32": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/feinikesi.png",
-		"link": "phoenix",
-		"name": "Phoenix",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"33": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/hailunna.png",
-		"link": "helena",
-		"name": "Helena",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"34": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yatelanda.png",
-		"link": "atlanta",
-		"name": "Atlanta",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"35": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhunuo.png",
-		"link": "juneau",
-		"name": "Juneau",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"36": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengdiyage.png",
-		"link": "san_diego",
-		"name": "San Diego",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"37": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kelifulan.png",
-		"link": "cleveland",
-		"name": "Cleveland",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"38": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/gelunbiya.png",
-		"link": "columbia",
-		"name": "Columbia",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"39": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/pengsakela.png",
-		"link": "pensacola",
-		"name": "Pensacola",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"40": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yanhucheng.png",
-		"link": "salt_lake_city",
-		"name": "Salt Lake City",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"41": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/beianpudun.png",
-		"link": "northampton",
-		"name": "Northampton",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"42": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhijiage.png",
-		"link": "chicago",
-		"name": "Chicago",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"43": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiusidun.png",
-		"link": "houston",
-		"name": "Houston",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"44": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/botelan.png",
-		"link": "portland",
-		"name": "Portland",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"45": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bolisi.png",
-		"link": "indianapolis",
-		"name": "Indianapolis",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"46": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/asituoliya.png",
-		"link": "astoria",
-		"name": "Astoria",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"47": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kunxi.png",
-		"link": "quincy",
-		"name": "Quincy",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"48": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/wensensi.png",
-		"link": "vincennes",
-		"name": "Vincennes",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"49": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/weiqita.png",
-		"link": "wichita",
-		"name": "Wichita",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"50": {
+    "4": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/duwei.png",
+        "link": "dewey",
+        "name": "Dewey",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "5": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kaxin.png",
+        "link": "cassin",
+        "name": "Cassin",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "6": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tangsi.png",
+        "link": "downes",
+        "name": "Downes",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "7": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gelideli.png",
+        "link": "gridley",
+        "name": "Gridley",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "8": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/keleiwen.png",
+        "link": "craven",
+        "name": "Craven",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "9": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/maikaoer.png",
+        "link": "mccall",
+        "name": "McCall",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "10": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/moli.png",
+        "link": "maury",
+        "name": "Maury",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "11": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fulaiche.png",
+        "link": "fletcher",
+        "name": "Fletcher",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "13": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aosiben.png",
+        "link": "charles_ausburne",
+        "name": "Charles Ausburne",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "14": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/saqieer.png",
+        "link": "thatcher",
+        "name": "Thatcher",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "15": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aolike.png",
+        "link": "aulick",
+        "name": "Aulick",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "16": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fute.png",
+        "link": "foote",
+        "name": "Foote",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "17": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sipengsi.png",
+        "link": "spence",
+        "name": "Spence",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "18": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bensen.png",
+        "link": "benson",
+        "name": "Benson",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "19": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lafei.png",
+        "link": "laffey",
+        "name": "Laffey",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "26": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ximusi.png",
+        "link": "sims",
+        "name": "Sims",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "27": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haman.png",
+        "link": "hammann",
+        "name": "Hammann",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "28": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aierdeliqi.png",
+        "link": "eldridge",
+        "name": "Eldridge",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "29": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aomaha.png",
+        "link": "omaha",
+        "name": "Omaha",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "30": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luoli.png",
+        "link": "raleigh",
+        "name": "Raleigh",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "31": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bulukelin.png",
+        "link": "brooklyn",
+        "name": "Brooklyn",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "32": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feinikesi.png",
+        "link": "phoenix",
+        "name": "Phoenix",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "33": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hailunna.png",
+        "link": "helena",
+        "name": "Helena",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "34": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yatelanda.png",
+        "link": "atlanta",
+        "name": "Atlanta",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "35": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhunuo.png",
+        "link": "juneau",
+        "name": "Juneau",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "36": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shengdiyage.png",
+        "link": "san_diego",
+        "name": "San Diego",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "37": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kelifulan.png",
+        "link": "cleveland",
+        "name": "Cleveland",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "38": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gelunbiya.png",
+        "link": "columbia",
+        "name": "Columbia",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "39": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/pengsakela.png",
+        "link": "pensacola",
+        "name": "Pensacola",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "40": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yanhucheng.png",
+        "link": "salt_lake_city",
+        "name": "Salt Lake City",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "41": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beianpudun.png",
+        "link": "northampton",
+        "name": "Northampton",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "42": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhijiage.png",
+        "link": "chicago",
+        "name": "Chicago",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "43": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiusidun.png",
+        "link": "houston",
+        "name": "Houston",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "44": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/botelan.png",
+        "link": "portland",
+        "name": "Portland",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "45": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bolisi.png",
+        "link": "indianapolis",
+        "name": "Indianapolis",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "46": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/asituoliya.png",
+        "link": "astoria",
+        "name": "Astoria",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "47": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kunxi.png",
+        "link": "quincy",
+        "name": "Quincy",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "48": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wensensi.png",
+        "link": "vincennes",
+        "name": "Vincennes",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "49": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/weiqita.png",
+        "link": "wichita",
+        "name": "Wichita",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "50": {
         "hull": "Heavy Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/baerdimo.png",
         "link": "baltimore",
@@ -386,114 +386,114 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
-	"52": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/neihuada.png",
-		"link": "nevada",
-		"name": "Nevada",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"53": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ekelahema.png",
-		"link": "oklahoma",
-		"name": "Oklahoma",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"54": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/binxifaniya.png",
-		"link": "pennsylvania",
-		"name": "Pennsylvania",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"55": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yalisangna.png",
-		"link": "arizona",
-		"name": "Arizona",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"58": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tiannaxi.png",
-		"link": "tennessee",
-		"name": "Tennessee",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"59": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jialifuniya.png",
-		"link": "california",
-		"name": "California",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"60": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/keluoladuo.png",
-		"link": "colorado",
-		"name": "Colorado",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"61": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/malilan.png",
-		"link": "maryland",
-		"name": "Maryland",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"62": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xifujiniya.png",
-		"link": "west_virginia",
-		"name": "West Virginia",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"63": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/beikaluolaina.png",
-		"link": "north_carolina",
-		"name": "North Carolina",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"64": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huashengdun.png",
-		"link": "washington",
-		"name": "Washington",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"65": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/nandaketa.png",
-		"link": "south_dakota",
-		"name": "South Dakota",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
+    "52": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/neihuada.png",
+        "link": "nevada",
+        "name": "Nevada",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "53": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ekelahema.png",
+        "link": "oklahoma",
+        "name": "Oklahoma",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "54": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/binxifaniya.png",
+        "link": "pennsylvania",
+        "name": "Pennsylvania",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "55": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yalisangna.png",
+        "link": "arizona",
+        "name": "Arizona",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "58": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tiannaxi.png",
+        "link": "tennessee",
+        "name": "Tennessee",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "59": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jialifuniya.png",
+        "link": "california",
+        "name": "California",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "60": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/keluoladuo.png",
+        "link": "colorado",
+        "name": "Colorado",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "61": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/malilan.png",
+        "link": "maryland",
+        "name": "Maryland",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "62": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xifujiniya.png",
+        "link": "west_virginia",
+        "name": "West Virginia",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "63": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beikaluolaina.png",
+        "link": "north_carolina",
+        "name": "North Carolina",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "64": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huashengdun.png",
+        "link": "washington",
+        "name": "Washington",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "65": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nandaketa.png",
+        "link": "south_dakota",
+        "name": "South Dakota",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "68": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/xinzexi.png",
@@ -503,547 +503,547 @@
         "rarity": "Ultra Rare",
         "shipType": "common"
     },
-	"70": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/changdao.png",
-		"link": "long_island",
-		"name": "Long Island",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"71": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/boge.png",
-		"link": "bogue",
-		"name": "Bogue",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"72": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lanli.png",
-		"link": "langley",
-		"name": "Langley",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"73": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/liekexingdun.png",
-		"link": "lexington",
-		"name": "Lexington",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"74": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/salatuojia.png",
-		"link": "saratoga",
-		"name": "Saratoga",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"75": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tujizhe.png",
-		"link": "ranger",
-		"name": "Ranger",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"76": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yuekecheng.png",
-		"link": "yorktown",
-		"name": "Yorktown",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"77": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/qiye.png",
-		"link": "enterprise",
-		"name": "Enterprise",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"78": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/dahuangfeng.png",
-		"link": "hornet",
-		"name": "Hornet",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"79": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/hufeng.png",
-		"link": "wasp",
-		"name": "Wasp",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"80": {
-		"hull": "Repair",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zaoshen.png",
-		"link": "vestal",
-		"name": "Vestal",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"81": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/nvjiang.png",
-		"link": "amazon",
-		"name": "Amazon",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"82": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/akasita.png",
-		"link": "acasta",
-		"name": "Acasta",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"83": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/rexin.png",
-		"link": "ardent",
-		"name": "Ardent",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"86": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiaolietuquan.png",
-		"link": "beagle",
-		"name": "Beagle",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"87": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/dadouquan.png",
-		"link": "bulldog",
-		"name": "Bulldog",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"88": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huixing.png",
-		"link": "comet",
-		"name": "Comet",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"89": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xinyue.png",
-		"link": "crescent",
-		"name": "Crescent",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"90": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiaotiane.png",
-		"link": "cygnet",
-		"name": "Cygnet",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"91": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huti.png",
-		"link": "foxhound",
-		"name": "Foxhound",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"92": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/mingyunnvshen.png",
-		"link": "fortune",
-		"name": "Fortune",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"93": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/gelunweier.png",
-		"link": "grenville",
-		"name": "Grenville",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"94": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yinghuochong.png",
-		"link": "glowworm",
-		"name": "Glowworm",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"96": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yonggan.png",
-		"link": "hardy",
-		"name": "Hardy",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"100": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lieren.png",
-		"link": "hunter",
-		"name": "Hunter",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"101": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/biaoqiang.png",
-		"link": "javelin",
-		"name": "Javelin",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"102": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tianhou.png",
-		"link": "juno",
-		"name": "Juno",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"103": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xixuegui.png",
-		"link": "vampire",
-		"name": "Vampire",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"104": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/liande.png",
-		"link": "leander",
-		"name": "Leander",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"105": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ajilisi.png",
-		"link": "achilles",
-		"name": "Achilles",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"106": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ajiakesi.png",
-		"link": "ajax",
-		"name": "Ajax",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"107": {
-		"name" : "Dido",
-		"hull" : "Light Cruiser",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/daiduo.png",
-		"rarity" : "Super Rare",
-		"link" : "dido",
-		"shipType" : "common"
-	},
-	"110": {
-		"name" : "Southampton",
-		"hull" : "Light Cruiser",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/nananpudun.png",
-		"rarity" : "Rare",
-		"link" : "southampton",
-		"shipType" : "common"
-	},
-	"111": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiefeierde.png",
-		"link": "sheffield",
-		"name": "Sheffield",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"113": {
-		"name" : "Gloucester",
-		"hull" : "Light Cruiser",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/geluosite.png",
-		"rarity" : "Elite",
-		"link" : "gloucester",
-		"shipType" : "common"
-	},
-	"114": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aidingbao.png",
-		"link": "edinburgh",
-		"name": "Edinburgh",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"115": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/beierfasite.png",
-		"link": "belfast",
-		"name": "Belfast",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"116": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aruituosha.png",
-		"link": "arethusa",
-		"name": "Arethusa",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"117": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jialadiya.png",
-		"link": "galatea",
-		"name": "Galatea",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"118": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ouruola.png",
-		"link": "aurora",
-		"name": "Aurora",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"119": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lundun.png",
-		"link": "london",
-		"name": "London",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"120": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shiluopujun.png",
-		"link": "shropshire",
-		"name": "Shropshire",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"121": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kente.png",
-		"link": "kent",
-		"name": "Kent",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"122": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/safuke.png",
-		"link": "suffolk",
-		"name": "Suffolk",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"123": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/nuofuke.png",
-		"link": "norfolk",
-		"name": "Norfolk",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"124": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/duosaitejun.png",
-		"link": "dorsetshire",
-		"name": "Dorsetshire",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"125": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yueke.png",
-		"link": "york",
-		"name": "York",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"126": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aikesaite.png",
-		"link": "exeter",
-		"name": "Exeter",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"127": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengwang.png",
-		"link": "renown",
-		"name": "Renown",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"128": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fanji.png",
-		"link": "repulse",
-		"name": "Repulse",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"129": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/hude.png",
-		"link": "hood",
-		"name": "Hood",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"130": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yilishabai.png",
-		"link": "queen_elizabeth",
-		"name": "Queen Elizabeth",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"131": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yanzhan.png",
-		"link": "warspite",
-		"name": "Warspite",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"132": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/naerxun.png",
-		"link": "nelson",
-		"name": "Nelson",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"133": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/luodeni.png",
-		"link": "rodney",
-		"name": "Rodney",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"134": {
-		"name" : "King George V",
-		"hull" : "Battleship",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/qiaozhiwushi.png",
-		"rarity" : "Super Rare",
-		"link" : "king_george_v",
-		"shipType" : "common"
-	},
-	"135": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/weiershiqinwang.png",
-		"link": "prince_of_wales",
-		"name": "Prince of Wales",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"136": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yuekegongjue.png",
-		"link": "duke_of_york",
-		"name": "Duke of York",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"140": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jingjishen.png",
-		"link": "hermes",
-		"name": "Hermes",
-		"navy": "Royal Navy",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"142": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/dujiaoshou.png",
-		"link": "unicorn",
-		"name": "Unicorn",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"143": {
+    "70": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/changdao.png",
+        "link": "long_island",
+        "name": "Long Island",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "71": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/boge.png",
+        "link": "bogue",
+        "name": "Bogue",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "72": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lanli.png",
+        "link": "langley",
+        "name": "Langley",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "73": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/liekexingdun.png",
+        "link": "lexington",
+        "name": "Lexington",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "74": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/salatuojia.png",
+        "link": "saratoga",
+        "name": "Saratoga",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "75": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tujizhe.png",
+        "link": "ranger",
+        "name": "Ranger",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "76": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yuekecheng.png",
+        "link": "yorktown",
+        "name": "Yorktown",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "77": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qiye.png",
+        "link": "enterprise",
+        "name": "Enterprise",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "78": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dahuangfeng.png",
+        "link": "hornet",
+        "name": "Hornet",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "79": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hufeng.png",
+        "link": "wasp",
+        "name": "Wasp",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "80": {
+        "hull": "Repair",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zaoshen.png",
+        "link": "vestal",
+        "name": "Vestal",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "81": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nvjiang.png",
+        "link": "amazon",
+        "name": "Amazon",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "82": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/akasita.png",
+        "link": "acasta",
+        "name": "Acasta",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "83": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/rexin.png",
+        "link": "ardent",
+        "name": "Ardent",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "86": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiaolietuquan.png",
+        "link": "beagle",
+        "name": "Beagle",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "87": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dadouquan.png",
+        "link": "bulldog",
+        "name": "Bulldog",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "88": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huixing.png",
+        "link": "comet",
+        "name": "Comet",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "89": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xinyue.png",
+        "link": "crescent",
+        "name": "Crescent",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "90": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiaotiane.png",
+        "link": "cygnet",
+        "name": "Cygnet",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "91": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huti.png",
+        "link": "foxhound",
+        "name": "Foxhound",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "92": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mingyunnvshen.png",
+        "link": "fortune",
+        "name": "Fortune",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "93": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gelunweier.png",
+        "link": "grenville",
+        "name": "Grenville",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "94": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yinghuochong.png",
+        "link": "glowworm",
+        "name": "Glowworm",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "96": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yonggan.png",
+        "link": "hardy",
+        "name": "Hardy",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "100": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lieren.png",
+        "link": "hunter",
+        "name": "Hunter",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "101": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/biaoqiang.png",
+        "link": "javelin",
+        "name": "Javelin",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "102": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tianhou.png",
+        "link": "juno",
+        "name": "Juno",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "103": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xixuegui.png",
+        "link": "vampire",
+        "name": "Vampire",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "104": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/liande.png",
+        "link": "leander",
+        "name": "Leander",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "105": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ajilisi.png",
+        "link": "achilles",
+        "name": "Achilles",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "106": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ajiakesi.png",
+        "link": "ajax",
+        "name": "Ajax",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "107": {
+        "name" : "Dido",
+        "hull" : "Light Cruiser",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/daiduo.png",
+        "rarity" : "Super Rare",
+        "link" : "dido",
+        "shipType" : "common"
+    },
+    "110": {
+        "name" : "Southampton",
+        "hull" : "Light Cruiser",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/nananpudun.png",
+        "rarity" : "Rare",
+        "link" : "southampton",
+        "shipType" : "common"
+    },
+    "111": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiefeierde.png",
+        "link": "sheffield",
+        "name": "Sheffield",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "113": {
+        "name" : "Gloucester",
+        "hull" : "Light Cruiser",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/geluosite.png",
+        "rarity" : "Elite",
+        "link" : "gloucester",
+        "shipType" : "common"
+    },
+    "114": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aidingbao.png",
+        "link": "edinburgh",
+        "name": "Edinburgh",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "115": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beierfasite.png",
+        "link": "belfast",
+        "name": "Belfast",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "116": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aruituosha.png",
+        "link": "arethusa",
+        "name": "Arethusa",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "117": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jialadiya.png",
+        "link": "galatea",
+        "name": "Galatea",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "118": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ouruola.png",
+        "link": "aurora",
+        "name": "Aurora",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "119": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lundun.png",
+        "link": "london",
+        "name": "London",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "120": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shiluopujun.png",
+        "link": "shropshire",
+        "name": "Shropshire",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "121": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kente.png",
+        "link": "kent",
+        "name": "Kent",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "122": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/safuke.png",
+        "link": "suffolk",
+        "name": "Suffolk",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "123": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nuofuke.png",
+        "link": "norfolk",
+        "name": "Norfolk",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "124": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/duosaitejun.png",
+        "link": "dorsetshire",
+        "name": "Dorsetshire",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "125": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yueke.png",
+        "link": "york",
+        "name": "York",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "126": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aikesaite.png",
+        "link": "exeter",
+        "name": "Exeter",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "127": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shengwang.png",
+        "link": "renown",
+        "name": "Renown",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "128": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fanji.png",
+        "link": "repulse",
+        "name": "Repulse",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "129": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hude.png",
+        "link": "hood",
+        "name": "Hood",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "130": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yilishabai.png",
+        "link": "queen_elizabeth",
+        "name": "Queen Elizabeth",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "131": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yanzhan.png",
+        "link": "warspite",
+        "name": "Warspite",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "132": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/naerxun.png",
+        "link": "nelson",
+        "name": "Nelson",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "133": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luodeni.png",
+        "link": "rodney",
+        "name": "Rodney",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "134": {
+        "name" : "King George V",
+        "hull" : "Battleship",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/qiaozhiwushi.png",
+        "rarity" : "Super Rare",
+        "link" : "king_george_v",
+        "shipType" : "common"
+    },
+    "135": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/weiershiqinwang.png",
+        "link": "prince_of_wales",
+        "name": "Prince of Wales",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "136": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yuekegongjue.png",
+        "link": "duke_of_york",
+        "name": "Duke of York",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "140": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jingjishen.png",
+        "link": "hermes",
+        "name": "Hermes",
+        "navy": "Royal Navy",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "142": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dujiaoshou.png",
+        "link": "unicorn",
+        "name": "Unicorn",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "143": {
         "hull": "Aircraft Carrier",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/ying.png",
         "link": "eagle",
@@ -1052,34 +1052,34 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-	"144": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huangjiafangzhou.png",
-		"link": "ark_royal",
-		"name": "Ark Royal",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"145": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/guanghui.png",
-		"link": "illustrious",
-		"name": "Illustrious",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"146": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengli.png",
-		"link": "victorious",
-		"name": "Victorious",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"147": {
+    "144": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huangjiafangzhou.png",
+        "link": "ark_royal",
+        "name": "Ark Royal",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "145": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/guanghui.png",
+        "link": "illustrious",
+        "name": "Illustrious",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "146": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shengli.png",
+        "link": "victorious",
+        "name": "Victorious",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "147": {
         "hull": "Aircraft Carrier",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/kewei.png",
         "link": "formidable",
@@ -1088,474 +1088,492 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
-	"148": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/guangrong.png",
-		"link": "glorious",
-		"name": "Glorious",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"149": {
-		"hull": "Monitor",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/heianjie.png",
-		"link": "erebus",
-		"name": "Erebus",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"150": {
-		"hull": "Monitor",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kongbu.png",
-		"link": "terror",
-		"name": "Terror",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"151": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuixue.png",
-		"link": "fubuki",
-		"name": "Fubuki",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-		"152": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/baixue.png",
-		"link": "shirayuki",
-		"name": "Shirayuki",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"155": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lingbo.png",
-		"link": "ayanami",
-		"name": "Ayanami",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"159": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiao.png",
-		"link": "akatsuki",
-		"name": "Akatsuki",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"160": {
-		"name" : "Hibiki",
-		"hull" : "Destroyer",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/xiang.png",
-		"rarity" : "Elite",
-		"link" : "hibiki",
-		"shipType" : "common"
-	},
-	"161": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lei.png",
-		"link": "ikazuchi",
-		"name": "Ikazuchi",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"162": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/dian.png",
-		"link": "inazuma",
-		"name": "Inazuma",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"163": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bailu.png",
-		"link": "shiratsuyu",
-		"name": "Shiratsuyu",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"164": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xili.png",
-		"link": "yuudachi",
-		"name": "Yuudachi",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"165": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shiyu.png",
-		"link": "shigure",
-		"name": "Shigure",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"166": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xuefeng.png",
-		"link": "yukikaze",
-		"name": "Yukikaze",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"167": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yangyan.png",
-		"link": "kagerou",
-		"name": "Kagerou",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"168": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/buzhihuo.png",
-		"link": "shiranui",
-		"name": "Shiranui",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"170": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yefen.png",
-		"link": "nowaki",
-		"name": "Nowaki",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"171": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuchun.png",
-		"link": "hatsuharu",
-		"name": "Hatsuharu",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"173": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ruoye.png",
-		"link": "wakaba",
-		"name": "Wakaba",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"174": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chushuang.png",
-		"link": "hatsushimo",
-		"name": "Hatsushimo",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"175": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/youming.png",
-		"link": "ariake",
-		"name": "Ariake",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"176": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ximu.png",
-		"link": "yuugure",
-		"name": "Yuugure",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"177": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/heichao.png",
-		"link": "kuroshio",
-		"name": "Kuroshio",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"178": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/qinchao.png",
-		"link": "oyashio",
-		"name": "Oyashio",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"179": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xizhang.png",
-		"link": "yuubari",
-		"name": "Yuubari",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"182": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/changliang.png",
-		"link": "nagara",
-		"name": "Nagara",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"183": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/wushiling.png",
-		"link": "isuzu",
-		"name": "Isuzu",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"186": {
-		"name" : "Kinu",
-		"hull" : "Light Cruiser",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/guinu.png",
-		"rarity" : "Elite",
-		"link" : "kinu",
-		"shipType" : "common"
-	},
-	"187": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/awuwei.png",
-		"link": "abukuma",
-		"name": "Abukuma",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"188": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zuishang.png",
-		"link": "mogami",
-		"name": "Mogami",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"189": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/sanwei.png",
-		"link": "mikuma",
-		"name": "Mikuma",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"190": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/guying.png",
-		"link": "furutaka",
-		"name": "Furutaka",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"191": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiagu.png",
-		"link": "kako",
-		"name": "Kako",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"192": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/qingye.png",
-		"link": "aoba",
-		"name": "Aoba",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"193": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yili.png",
-		"link": "kinugasa",
-		"name": "Kinugasa",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"196": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/miaogao.png",
-		"link": "myoukou",
-		"name": "Myoukou",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"197": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/nazhi.png",
-		"link": "nachi",
-		"name": "Nachi",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"198": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zubing.png",
-		"link": "ashigara",
-		"name": "Ashigara",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"200": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/gaoxiong.png",
-		"link": "takao",
-		"name": "Takao",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"201": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aidang.png",
-		"link": "atago",
-		"name": "Atago",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"202": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/moye.png",
-		"link": "maya",
-		"name": "Maya",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"203": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/niaohai.png",
-		"link": "choukai",
-		"name": "Choukai",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"204": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jingang.png",
-		"link": "kongou",
-		"name": "Kongou",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"205": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/birui.png",
-		"link": "hiei",
-		"name": "Hiei",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"206": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhenming.png",
-		"link": "haruna",
-		"name": "Haruna",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"207": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/wudao.png",
-		"link": "kirishima",
-		"name": "Kirishima",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"208": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fusang.png",
-		"link": "fusou",
-		"name": "Fusou",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"209": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shancheng.png",
-		"link": "yamashiro",
-		"name": "Yamashiro",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"210": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yishi.png",
-		"link": "ise",
-		"name": "Ise",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"211": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/rixiang.png",
-		"link": "hyuuga",
-		"name": "Hyuuga",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"212": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/changmen.png",
-		"link": "nagato",
-		"name": "Nagato",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"213": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/luao.png",
-		"link": "mutsu",
-		"name": "Mutsu",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
+    "148": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/guangrong.png",
+        "link": "glorious",
+        "name": "Glorious",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "149": {
+        "hull": "Monitor",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/heianjie.png",
+        "link": "erebus",
+        "name": "Erebus",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "150": {
+        "hull": "Monitor",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kongbu.png",
+        "link": "terror",
+        "name": "Terror",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "151": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chuixue.png",
+        "link": "fubuki",
+        "name": "Fubuki",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+        "152": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/baixue.png",
+        "link": "shirayuki",
+        "name": "Shirayuki",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "155": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lingbo.png",
+        "link": "ayanami",
+        "name": "Ayanami",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "159": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiao.png",
+        "link": "akatsuki",
+        "name": "Akatsuki",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "160": {
+        "name" : "Hibiki",
+        "hull" : "Destroyer",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/xiang.png",
+        "rarity" : "Elite",
+        "link" : "hibiki",
+        "shipType" : "common"
+    },
+    "161": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lei.png",
+        "link": "ikazuchi",
+        "name": "Ikazuchi",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "162": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dian.png",
+        "link": "inazuma",
+        "name": "Inazuma",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "163": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bailu.png",
+        "link": "shiratsuyu",
+        "name": "Shiratsuyu",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "164": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xili.png",
+        "link": "yuudachi",
+        "name": "Yuudachi",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "165": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shiyu.png",
+        "link": "shigure",
+        "name": "Shigure",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "166": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xuefeng.png",
+        "link": "yukikaze",
+        "name": "Yukikaze",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "167": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yangyan.png",
+        "link": "kagerou",
+        "name": "Kagerou",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "168": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/buzhihuo.png",
+        "link": "shiranui",
+        "name": "Shiranui",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "170": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yefen.png",
+        "link": "nowaki",
+        "name": "Nowaki",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "171": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chuchun.png",
+        "link": "hatsuharu",
+        "name": "Hatsuharu",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "173": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ruoye.png",
+        "link": "wakaba",
+        "name": "Wakaba",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "174": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chushuang.png",
+        "link": "hatsushimo",
+        "name": "Hatsushimo",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "175": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/youming.png",
+        "link": "ariake",
+        "name": "Ariake",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "176": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ximu.png",
+        "link": "yuugure",
+        "name": "Yuugure",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "177": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/heichao.png",
+        "link": "kuroshio",
+        "name": "Kuroshio",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "178": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qinchao.png",
+        "link": "oyashio",
+        "name": "Oyashio",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "179": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xizhang.png",
+        "link": "yuubari",
+        "name": "Yuubari",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "182": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/changliang.png",
+        "link": "nagara",
+        "name": "Nagara",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "183": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wushiling.png",
+        "link": "isuzu",
+        "name": "Isuzu",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "185": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/youliang.png",
+        "link": "yura",
+        "name": "Yura",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "186": {
+        "name" : "Kinu",
+        "hull" : "Light Cruiser",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/guinu.png",
+        "rarity" : "Elite",
+        "link" : "kinu",
+        "shipType" : "common"
+    },
+    "187": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/awuwei.png",
+        "link": "abukuma",
+        "name": "Abukuma",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "188": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zuishang.png",
+        "link": "mogami",
+        "name": "Mogami",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "189": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sanwei.png",
+        "link": "mikuma",
+        "name": "Mikuma",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "190": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/guying.png",
+        "link": "furutaka",
+        "name": "Furutaka",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "191": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiagu.png",
+        "link": "kako",
+        "name": "Kako",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "192": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qingye.png",
+        "link": "aoba",
+        "name": "Aoba",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "193": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yili.png",
+        "link": "kinugasa",
+        "name": "Kinugasa",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "195": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhumo.png",
+        "link": "chikuma",
+        "name": "Chikuma",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "196": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/miaogao.png",
+        "link": "myoukou",
+        "name": "Myoukou",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "197": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nazhi.png",
+        "link": "nachi",
+        "name": "Nachi",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "198": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zubing.png",
+        "link": "ashigara",
+        "name": "Ashigara",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "200": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gaoxiong.png",
+        "link": "takao",
+        "name": "Takao",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "201": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aidang.png",
+        "link": "atago",
+        "name": "Atago",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "202": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/moye.png",
+        "link": "maya",
+        "name": "Maya",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "203": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/niaohai.png",
+        "link": "choukai",
+        "name": "Choukai",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "204": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jingang.png",
+        "link": "kongou",
+        "name": "Kongou",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "205": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/birui.png",
+        "link": "hiei",
+        "name": "Hiei",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "206": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhenming.png",
+        "link": "haruna",
+        "name": "Haruna",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "207": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wudao.png",
+        "link": "kirishima",
+        "name": "Kirishima",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "208": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fusang.png",
+        "link": "fusou",
+        "name": "Fusou",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "209": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shancheng.png",
+        "link": "yamashiro",
+        "name": "Yamashiro",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "210": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yishi.png",
+        "link": "ise",
+        "name": "Ise",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "211": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/rixiang.png",
+        "link": "hyuuga",
+        "name": "Hyuuga",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "212": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/changmen.png",
+        "link": "nagato",
+        "name": "Nagato",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "213": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luao.png",
+        "link": "mutsu",
+        "name": "Mutsu",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "214": {
         "name" : "Kii",
         "hull" : "Battleship",
@@ -1565,123 +1583,123 @@
         "link" : "kii",
         "shipType" : "common"
     },
-	"215": {
-		"name" : "Tosa",
-		"hull" : "Battleship",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/tuzuo.png",
-		"rarity" : "Super Rare",
-		"link" : "tosa",
-		"shipType" : "common"
-	},
-	"218": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/feiying.png",
-		"link": "hiyou",
-		"name": "Hiyou",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"219": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/sunying.png",
-		"link": "junyou",
-		"name": "Jun'you",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"220": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fengxiang.png",
-		"link": "houshou",
-		"name": "Houshou",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"222": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiangfeng.png",
-		"link": "shouhou",
-		"name": "Shouhou",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"223": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/longxiang.png",
-		"link": "ryuujou",
-		"name": "Ryuujou",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"224": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chicheng.png",
-		"link": "akagi",
-		"name": "Akagi",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"225": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiahe.png",
-		"link": "kaga",
-		"name": "Kaga",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"226": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/canglong.png",
-		"link": "souryuu",
-		"name": "Souryuu",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"227": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/feilong.png",
-		"link": "hiryuu",
-		"name": "Hiryuu",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"228": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xianghe.png",
-		"link": "shoukaku",
-		"name": "Shoukaku",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"229": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ruihe.png",
-		"link": "zuikaku",
-		"name": "Zuikaku",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"230": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/dafeng.png",
-		"link": "taihou",
-		"name": "Taihou",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
+    "215": {
+        "name" : "Tosa",
+        "hull" : "Battleship",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/tuzuo.png",
+        "rarity" : "Super Rare",
+        "link" : "tosa",
+        "shipType" : "common"
+    },
+    "218": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feiying.png",
+        "link": "hiyou",
+        "name": "Hiyou",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "219": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sunying.png",
+        "link": "junyou",
+        "name": "Jun'you",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "220": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fengxiang.png",
+        "link": "houshou",
+        "name": "Houshou",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "222": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiangfeng.png",
+        "link": "shouhou",
+        "name": "Shouhou",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "223": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/longxiang.png",
+        "link": "ryuujou",
+        "name": "Ryuujou",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "224": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chicheng.png",
+        "link": "akagi",
+        "name": "Akagi",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "225": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiahe.png",
+        "link": "kaga",
+        "name": "Kaga",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "226": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/canglong.png",
+        "link": "souryuu",
+        "name": "Souryuu",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "227": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feilong.png",
+        "link": "hiryuu",
+        "name": "Hiryuu",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "228": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xianghe.png",
+        "link": "shoukaku",
+        "name": "Shoukaku",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "229": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ruihe.png",
+        "link": "zuikaku",
+        "name": "Zuikaku",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "230": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dafeng.png",
+        "link": "taihou",
+        "name": "Taihou",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "231": {
         "hull": "Aircraft Carrier",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/xinnong.png",
@@ -1691,1248 +1709,1275 @@
         "rarity": "Ultra Rare",
         "shipType": "common"
     },
-	"232": {
-		"hull": "Repair",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/mingshi.png",
-		"link": "akashi",
-		"name": "Akashi",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"233": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z1.png",
-		"link": "z1",
-		"name": "Leberecht Maass",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"236": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z23.png",
-		"link": "z23",
-		"name": "Z23",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"237": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z25.png",
-		"link": "z25",
-		"name": "Z25",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"238": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kenisibao.png",
-		"link": "konigsberg",
-		"name": "Königsberg",
-		"navy": "Ironblood",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"239": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kaersilue.png",
-		"link": "karlsruhe",
-		"name": "Karlsruhe",
-		"navy": "Ironblood",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"240": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kelong.png",
-		"link": "koln",
-		"name": "Köln",
-		"navy": "Ironblood",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"241": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/laibixi.png",
-		"link": "leipzig",
-		"name": "Leipzig",
-		"navy": "Ironblood",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"242": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xipeierhaijunshangjiang.png",
-		"link": "admiral_hipper",
-		"name": "Admiral Hipper",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"244": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ougen.png",
-		"link": "prinz_eugen",
-		"name": "Prinz Eugen",
-		"navy": "Ironblood",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"245": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/deyizhi.png",
-		"link": "deutschland",
-		"name": "Deutschland",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"246": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/sipeibojue.png",
-		"link": "admiral_graf_spee",
-		"name": "Admiral Graf Spee",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"248": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shaenhuosite.png",
-		"link": "scharnhorst",
-		"name": "Scharnhorst",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"249": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/genaisennao.png",
-		"link": "gneisenau",
-		"name": "Gneisenau",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"250": {
-		"name" : "Bismarck",
-		"hull" : "Battleship",
-		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/bisimai.png",
-		"rarity" : "Super Rare",
-		"link" : "bismarck",
-		"shipType" : "common"
-	},
-	"251": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tierbici.png",
-		"link": "tirpitz",
-		"name": "Tirpitz",
-		"navy": "Ironblood",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"252": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/qibolin.png",
-		"link": "graf_zeppelin",
-		"name": "Graf Zeppelin",
-		"navy": "Ironblood",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"253": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/anshan.png",
-		"link": "an_shan",
-		"name": "An shan",
-		"navy": "Dragon Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"254": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fushun.png",
-		"link": "fu_shun",
-		"name": "Fu shun",
-		"navy": "Dragon Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"255": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/changchun.png",
-		"link": "chang_chun",
-		"name": "Chang Chun",
-		"navy": "Dragon Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"256": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/taiyuan.png",
-		"link": "tai_yuan",
-		"name": "Tai Yuan",
-		"navy": "Dragon Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"257": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yixian.png",
-		"link": "yat_sen",
-		"name": "Yat Sen",
-		"navy": "Dragon Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"258": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ninghai.png",
-		"link": "ning_hai",
-		"name": "Ning Hai",
-		"navy": "Dragon Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"259": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/pinghai.png",
-		"link": "ping_hai",
-		"name": "Ping Hai",
-		"navy": "Dragon Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"262": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/afuleer.png",
-		"link": "avrora",
-		"name": "Avrora",
-		"navy": "Northern Parliament",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"263": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/beili.png",
-		"link": "bailey",
-		"name": "Bailey",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"264": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z19.png",
-		"link": "z19",
-		"name": "Hermann Künne",
-		"navy": "Ironblood",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"265": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z20.png",
-		"link": "z20",
-		"name": "Karl Galster",
-		"navy": "Ironblood",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"266": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z21.png",
-		"link": "z21",
-		"name": "Wilhelm Heidkamp",
-		"navy": "Ironblood",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"267": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/Z46.png",
-		"link": "z46",
-		"name": "Z46",
-		"navy": "Ironblood",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"269": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shenfeng.png",
-		"link": "kamikaze",
-		"name": "Kamikaze",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"270": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/songfeng.png",
-		"link": "matsukaze",
-		"name": "Matsukaze",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"271": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/muyue.png",
-		"link": "mutsuki",
-		"name": "Mutsuki",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"272": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ruyue.png",
-		"link": "kisaragi",
-		"name": "Kisaragi",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"274": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/maoyue.png",
-		"link": "uzuki",
-		"name": "Uzuki",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"276": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shuiwuyue.png",
-		"link": "minazuki",
-		"name": "Minazuki",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"277": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/wenyue.png",
-		"link": "fumizuki",
-		"name": "Fumizuki",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"278": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/changyue.png",
-		"link": "nagatsuki",
-		"name": "Nagatsuki",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"280": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/sanriyue.png",
-		"link": "mikazuki",
-		"name": "Mikazuki",
-		"navy": "Sakura Empire",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"288": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiangfeng.png",
-		"link": "kawakaze",
-		"name": "Kawakaze",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"293": {
-		"name" : "Kiyonami",
-		"hull" : "Destroyer",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/qingbo.png",
-		"rarity" : "Rare",
-		"link" : "kiyonami",
-		"shipType" : "common"
-	},
-	"295": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xinyue_jp.png",
-		"link": "niizuki",
-		"name": "Niizuki",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"296": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chunyue.png",
-		"link": "harutsuki",
-		"name": "Harutsuki",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"297": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiaoyue.png",
-		"link": "yoizuki",
-		"name": "Yoizuki",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"299": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ladefute.png",
-		"link": "radford",
-		"name": "Radford",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"300": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiejinsi.png",
-		"link": "jenkins",
-		"name": "Jenkins",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"301": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/nigulasi.png",
-		"link": "nicholas",
-		"name": "Nicholas",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"303": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lishiman.png",
-		"link": "richmond",
-		"name": "Richmond",
-		"navy": "Eagle Union",
-		"rarity": "Common",
-		"shipType": "common"
-	},
-	"304": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huonululu.png",
-		"link": "honolulu",
-		"name": "Honolulu",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"305": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shengluyisi.png",
-		"link": "st_louis",
-		"name": "St.Louis",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"306": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/qiubite.png",
-		"link": "jupiter",
-		"name": "Jupiter",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"307": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zexi.png",
-		"link": "jersey",
-		"name": "Jersey",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"308": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuannei.png",
-		"link": "sendai",
-		"name": "Sendai",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"309": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/shentong.png",
-		"link": "jintsuu",
-		"name": "Jintsuu",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"310": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/nake.png",
-		"link": "naka",
-		"name": "Naka",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"316": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/pufeng.png",
-		"link": "urakaze",
-		"name": "Urakaze",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"317": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jifeng.png",
-		"link": "isokaze",
-		"name": "Isokaze",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"318": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bangfeng.png",
-		"link": "hamakaze",
-		"name": "Hamakaze",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"319": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/gufeng.png",
-		"link": "tanikaze",
-		"name": "Tanikaze",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"320": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/sanli.png",
-		"link": "mikasa",
-		"name": "Mikasa",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"321": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aheye.png",
-		"link": "agano",
-		"name": "Agano",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"322": {
-		"name" : "Noshiro",
-		"hull" : "Light Cruiser",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/nengdai.png",
-		"rarity" : "Super Rare",
-		"link" : "noshiro",
-		"shipType" : "common"
-	},
-	"325": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/wudi.png",
-		"link": "matchless",
-		"name": "Matchless",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"326": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huoqiangshou.png",
-		"link": "musketeer",
-		"name": "Musketeer",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"327": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/feiji.png",
-		"link": "fiji",
-		"name": "Fiji",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"328": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yamaijia.png",
-		"link": "jamaica",
-		"name": "Jamaica",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"329": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/mengbiliai.png",
-		"link": "montpelier",
-		"name": "Montpelier",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"330": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/danfo.png",
-		"link": "denver",
-		"name": "Denver",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"331": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhaochao.png",
-		"link": "asashio",
-		"name": "Asashio",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"332": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/dachao.png",
-		"link": "ooshio",
-		"name": "Ooshio",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"333": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/manchao.png",
-		"link": "michishio",
-		"name": "Michishio",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"334": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huangchao.png",
-		"link": "arashio",
-		"name": "Arashio",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"335": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/beierfasite_younv.png",
-		"link": "belchan",
-		"name": "Bel-chan",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"336": {
-		"hull": "Monitor",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/abeikelongbi.png",
-		"link": "abercrombie",
-		"name": "Abercrombie",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"337": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/susaikesi.png",
-		"link": "sussex",
-		"name": "Sussex",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"338": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/i19.png",
-		"link": "i19",
-		"name": "I19",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"339": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/i26.png",
-		"link": "i26",
-		"name": "I26",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"340": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/i58.png",
-		"link": "i58",
-		"name": "I58",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"341": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/U81.png",
-		"link": "u81",
-		"name": "U-81",
-		"navy": "Ironblood",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"342": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tiaoyu.png",
-		"link": "dace",
-		"name": "Dace",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"343": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/U47.png",
-		"link": "u47",
-		"name": "U-47",
-		"navy": "Ironblood",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"344": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/U557.png",
-		"link": "u557",
-		"name": "U-557",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"345": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z35.png",
-		"link": "z35",
-		"name": "Z35",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"346": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z18.png",
-		"link": "z18",
-		"name": "Hans Lüdemann",
-		"navy": "Ironblood",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"347": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kaixuan.png",
-		"link": "le_triomphant",
-		"name": "Le Triomphant",
-		"navy": "Iris Libre",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"348": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fuerban.png",
-		"link": "forbin",
-		"name": "Forbin",
-		"navy": "Iris Libre",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"349": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aimierbeierding.png",
-		"link": "emile_bertin",
-		"name": "Émile Bertin",
-		"navy": "Iris Libre",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"350": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xukufu.png",
-		"link": "surcouf",
-		"name": "Surcouf",
-		"navy": "Iris Libre",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"351": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lemaer.png",
-		"link": "le_mars",
-		"name": "Le Mars",
-		"navy": "Vichya Dominion",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"352": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/dunkeerke.png",
-		"link": "dunkerque",
-		"name": "Dunkerque",
-		"navy": "Vichya Dominion",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"353": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/rangbaer.png",
-		"link": "jean_bart",
-		"name": "Jean Bart",
-		"navy": "Vichya Dominion",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"354": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/masazhusai.png",
-		"link": "massachusetts",
-		"name": "Massachusetts",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"355": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bushi.png",
-		"link": "bush",
-		"name": "Bush",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"356": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/banrenma.png",
-		"link": "centaur",
-		"name": "Centaur",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"357": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aisaikesi.png",
-		"link": "essex",
-		"name": "Essex",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"358": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/daqinghuayu.png",
-		"link": "albacore",
-		"name": "Albacore",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"359": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lumang.png",
-		"link": "le_temeraire",
-		"name": "Le Téméraire",
-		"navy": "Iris Libre",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"360": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/mengfeisi.png",
-		"link": "memphis",
-		"name": "Memphis",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"361": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/niukasier.png",
-		"link": "newcastle",
-		"name": "Newcastle",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"362": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/huobi.png",
-		"link": "hobby",
-		"name": "Hobby",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"363": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/keerke.png",
-		"link": "kalk",
-		"name": "Kalk",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"364": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/mingniabolisi.png",
-		"link": "minneapolis",
-		"name": "Minneapolis",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"365": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/heizewude.png",
-		"link": "hazelwood",
-		"name": "Hazelwood",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"366": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kangkede.png",
-		"link": "concord",
-		"name": "Concord",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"367": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tiancheng.png",
-		"link": "amagi",
-		"name": "Amagi",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"368": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiahezhanlie.png",
-		"link": "kaga_bb",
-		"name": "Kaga",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"369": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/qifeng.png",
-		"link": "hatakaze",
-		"name": "Hatakaze",
-		"navy": "Sakura Empire",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"370": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/juanbo.png",
-		"link": "makinami",
-		"name": "Makinami",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"371": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/tianlangxing.png",
-		"link": "sirius",
-		"name": "Sirius",
-		"navy": "Royal Navy",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"372": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/kulasuo.png",
-		"link": "curacoa",
-		"name": "Curacoa",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"373": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/biaoyu.png",
-		"link": "curlew",
-		"name": "Curlew",
-		"navy": "Royal Navy",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"374": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jinboli.png",
-		"link": "kimberly",
-		"name": "Kimberly",
-		"navy": "Eagle Union",
-		"rarity": "Rare",
-		"shipType": "common"
-	},
-	"375": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/malani.png",
-		"link": "mullany",
-		"name": "Mullany",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"376": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhuiganzhe.png",
-		"link": "chaser",
-		"name": "Chaser",
-		"navy": "Royal Navy",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"377": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/duli.png",
-		"link": "independence",
-		"name": "Independence",
-		"navy": "Eagle Union",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"378": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xianggelila.png",
-		"link": "shangri-la",
-		"name": "Shangri-La",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"379": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z2.png",
-		"link": "z2",
-		"name": "Georg Thiele",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"380": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bangkeshan.png",
-		"link": "bunker_hill",
-		"name": "Bunker Hill",
-		"navy": "Eagle Union",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"381": {
-		"hull": "Submarine Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/I13.png",
-		"link": "i-13",
-		"name": "I13",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
-	"382": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/linggu.png",
-		"link": "suzuya",
-		"name": "Suzuya",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"383": {
-		"hull": "Battlecruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/birui_younv.png",
-		"link": "hieichan",
-		"name": "Hiei-chan",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"384": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chicheng_younv.png",
-		"link": "akagichan",
-		"name": "Akagi-chan",
-		"navy": "Sakura Empire",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"385": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/qibolin_younv.png",
-		"link": "zeppelinchan",
-		"name": "Zeppelin-chan",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
-	"386": {
-		"name" : "U-556",
-		"hull" : "Submarine",
-		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U556.png",
-		"rarity" : "Elite",
-		"link" : "u556",
-		"shipType" : "common"
-	},
-	"387": {
-		"name" : "U-73",
-		"hull" : "Submarine",
-		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U73.png",
-		"rarity" : "Elite",
-		"link" : "u73",
-		"shipType" : "common"
-	},
-	"388": {
-		"name" : "Z36",
-		"hull" : "Destroyer",
-		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/z36.png",
-		"rarity" : "Elite",
-		"link" : "z36",
-		"shipType" : "common"
-	},
-	"389": {
-		"name" : "Echo",
-		"hull" : "Destroyer",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/huisheng.png",
-		"rarity" : "Rare",
-		"link" : "echo",
-		"shipType" : "common"
-	},
-	"390": {
-		"name" : "Helena",
-		"hull" : "Light Cruiser",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/hailunna_younv.png",
-		"rarity" : "Elite",
-		"link" : "little_helena",
-		"shipType" : "common"
-	},
-	"391": {
-		"name" : "Cleveland",
-		"hull" : "Light Cruiser",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/kelifulan_younv.png",
-		"rarity" : "Elite",
-		"link" : "little_cleveland",
-		"shipType" : "common"
-	},
-	"392": {
-		"name" : "San Diego",
-		"hull" : "Light Cruiser",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/shengdiyage_younv.png",
-		"rarity" : "Elite",
-		"link" : "little_san_diego",
-		"shipType" : "common"
-	},
-	"393": {
-		"name" : "Swiftsure",
-		"hull" : "Light Cruiser",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/quejie.png",
-		"rarity" : "Super Rare",
-		"link" : "swiftsure",
-		"shipType" : "common"
-	},
-	"394": {
-		"name" : "Le Malin",
-		"hull" : "Destroyer",
-		"navy" : "Vichya Dominion",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/edu.png",
-		"rarity" : "Super Rare",
-		"link" : "le_malin",
-		"shipType" : "common"
-	},
-	"395": {
-		"name" : "L'Opiniâtre",
-		"hull" : "Destroyer",
-		"navy" : "Iris Libre",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/juejiang.png",
-		"rarity" : "Elite",
-		"link" : "l_opiniatre",
-		"shipType" : "common"
-	},
-	"396": {
-		"name" : "I25",
-		"hull" : "Submarine",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/I25.png",
-		"rarity" : "Elite",
-		"link" : "i25",
-		"shipType" : "common"
-	},
-	"397": {
-		"name" : "I56",
-		"hull" : "Submarine",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/I56.png",
-		"rarity" : "Elite",
-		"link" : "i56",
-		"shipType" : "common"
-	},
-	"398": {
-		"name" : "I168",
-		"hull" : "Submarine",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/I168.png",
-		"rarity" : "Super Rare",
-		"link" : "i168",
-		"shipType" : "common"
-	},
-	"399": {
-		"name" : "U-101",
-		"hull" : "Submarine",
-		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U101.png",
-		"rarity" : "Super Rare",
-		"link" : "u101",
-		"shipType" : "common"
-	},
-	"400": {
-		"name" : "U-522",
-		"hull" : "Submarine",
-		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U522.png",
-		"rarity" : "Elite",
-		"link" : "u522",
-		"shipType" : "common"
-	},
+    "232": {
+        "hull": "Repair",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mingshi.png",
+        "link": "akashi",
+        "name": "Akashi",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "233": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z1.png",
+        "link": "z1",
+        "name": "Leberecht Maass",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "236": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z23.png",
+        "link": "z23",
+        "name": "Z23",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "237": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z25.png",
+        "link": "z25",
+        "name": "Z25",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "238": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kenisibao.png",
+        "link": "konigsberg",
+        "name": "Königsberg",
+        "navy": "Ironblood",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "239": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kaersilue.png",
+        "link": "karlsruhe",
+        "name": "Karlsruhe",
+        "navy": "Ironblood",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "240": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kelong.png",
+        "link": "koln",
+        "name": "Köln",
+        "navy": "Ironblood",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "241": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/laibixi.png",
+        "link": "leipzig",
+        "name": "Leipzig",
+        "navy": "Ironblood",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "242": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xipeierhaijunshangjiang.png",
+        "link": "admiral_hipper",
+        "name": "Admiral Hipper",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "244": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ougen.png",
+        "link": "prinz_eugen",
+        "name": "Prinz Eugen",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "245": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/deyizhi.png",
+        "link": "deutschland",
+        "name": "Deutschland",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "246": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sipeibojue.png",
+        "link": "admiral_graf_spee",
+        "name": "Admiral Graf Spee",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "248": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shaenhuosite.png",
+        "link": "scharnhorst",
+        "name": "Scharnhorst",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "249": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/genaisennao.png",
+        "link": "gneisenau",
+        "name": "Gneisenau",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "250": {
+        "name" : "Bismarck",
+        "hull" : "Battleship",
+        "navy" : "Ironblood",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/bisimai.png",
+        "rarity" : "Super Rare",
+        "link" : "bismarck",
+        "shipType" : "common"
+    },
+    "251": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tierbici.png",
+        "link": "tirpitz",
+        "name": "Tirpitz",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "252": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qibolin.png",
+        "link": "graf_zeppelin",
+        "name": "Graf Zeppelin",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "253": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/anshan.png",
+        "link": "an_shan",
+        "name": "An shan",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "254": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fushun.png",
+        "link": "fu_shun",
+        "name": "Fu shun",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "255": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/changchun.png",
+        "link": "chang_chun",
+        "name": "Chang Chun",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "256": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/taiyuan.png",
+        "link": "tai_yuan",
+        "name": "Tai Yuan",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "257": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yixian.png",
+        "link": "yat_sen",
+        "name": "Yat Sen",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "258": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ninghai.png",
+        "link": "ning_hai",
+        "name": "Ning Hai",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "259": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/pinghai.png",
+        "link": "ping_hai",
+        "name": "Ping Hai",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "262": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/afuleer.png",
+        "link": "avrora",
+        "name": "Avrora",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "263": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beili.png",
+        "link": "bailey",
+        "name": "Bailey",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "264": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Z19.png",
+        "link": "z19",
+        "name": "Hermann Künne",
+        "navy": "Ironblood",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "265": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Z20.png",
+        "link": "z20",
+        "name": "Karl Galster",
+        "navy": "Ironblood",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "266": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Z21.png",
+        "link": "z21",
+        "name": "Wilhelm Heidkamp",
+        "navy": "Ironblood",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "267": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/Z46.png",
+        "link": "z46",
+        "name": "Z46",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "268": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/daofeng.png",
+        "link": "shimakaze",
+        "name": "Shimakaze",
+        "navy": "Sakura Empire",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "269": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shenfeng.png",
+        "link": "kamikaze",
+        "name": "Kamikaze",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "270": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/songfeng.png",
+        "link": "matsukaze",
+        "name": "Matsukaze",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "271": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/muyue.png",
+        "link": "mutsuki",
+        "name": "Mutsuki",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "272": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ruyue.png",
+        "link": "kisaragi",
+        "name": "Kisaragi",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "274": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/maoyue.png",
+        "link": "uzuki",
+        "name": "Uzuki",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "276": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shuiwuyue.png",
+        "link": "minazuki",
+        "name": "Minazuki",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "277": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wenyue.png",
+        "link": "fumizuki",
+        "name": "Fumizuki",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "278": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/changyue.png",
+        "link": "nagatsuki",
+        "name": "Nagatsuki",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "280": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sanriyue.png",
+        "link": "mikazuki",
+        "name": "Mikazuki",
+        "navy": "Sakura Empire",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "286": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haifeng.png",
+        "link": "umikaze",
+        "name": "Umikaze",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "287": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shanfeng.png",
+        "link": "yamakaze",
+        "name": "Yamakaze",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "288": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiangfeng.png",
+        "link": "kawakaze",
+        "name": "Kawakaze",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "293": {
+        "name" : "Kiyonami",
+        "hull" : "Destroyer",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/qingbo.png",
+        "rarity" : "Rare",
+        "link" : "kiyonami",
+        "shipType" : "common"
+    },
+    "295": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xinyue_jp.png",
+        "link": "niizuki",
+        "name": "Niizuki",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "296": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chunyue.png",
+        "link": "harutsuki",
+        "name": "Harutsuki",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "297": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiaoyue.png",
+        "link": "yoizuki",
+        "name": "Yoizuki",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "299": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ladefute.png",
+        "link": "radford",
+        "name": "Radford",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "300": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiejinsi.png",
+        "link": "jenkins",
+        "name": "Jenkins",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "301": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nigulasi.png",
+        "link": "nicholas",
+        "name": "Nicholas",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "303": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lishiman.png",
+        "link": "richmond",
+        "name": "Richmond",
+        "navy": "Eagle Union",
+        "rarity": "Common",
+        "shipType": "common"
+    },
+    "304": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huonululu.png",
+        "link": "honolulu",
+        "name": "Honolulu",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "305": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shengluyisi.png",
+        "link": "st_louis",
+        "name": "St.Louis",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "306": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qiubite.png",
+        "link": "jupiter",
+        "name": "Jupiter",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "307": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zexi.png",
+        "link": "jersey",
+        "name": "Jersey",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "308": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chuannei.png",
+        "link": "sendai",
+        "name": "Sendai",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "309": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shentong.png",
+        "link": "jintsuu",
+        "name": "Jintsuu",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "310": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/nake.png",
+        "link": "naka",
+        "name": "Naka",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "316": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/pufeng.png",
+        "link": "urakaze",
+        "name": "Urakaze",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "317": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jifeng.png",
+        "link": "isokaze",
+        "name": "Isokaze",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "318": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bangfeng.png",
+        "link": "hamakaze",
+        "name": "Hamakaze",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "319": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gufeng.png",
+        "link": "tanikaze",
+        "name": "Tanikaze",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "320": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sanli.png",
+        "link": "mikasa",
+        "name": "Mikasa",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "321": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aheye.png",
+        "link": "agano",
+        "name": "Agano",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "322": {
+        "name" : "Noshiro",
+        "hull" : "Light Cruiser",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/nengdai.png",
+        "rarity" : "Super Rare",
+        "link" : "noshiro",
+        "shipType" : "common"
+    },
+    "325": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wudi.png",
+        "link": "matchless",
+        "name": "Matchless",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "326": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huoqiangshou.png",
+        "link": "musketeer",
+        "name": "Musketeer",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "327": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feiji.png",
+        "link": "fiji",
+        "name": "Fiji",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "328": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yamaijia.png",
+        "link": "jamaica",
+        "name": "Jamaica",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "329": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mengbiliai.png",
+        "link": "montpelier",
+        "name": "Montpelier",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "330": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/danfo.png",
+        "link": "denver",
+        "name": "Denver",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "331": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhaochao.png",
+        "link": "asashio",
+        "name": "Asashio",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "332": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dachao.png",
+        "link": "ooshio",
+        "name": "Ooshio",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "333": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/manchao.png",
+        "link": "michishio",
+        "name": "Michishio",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "334": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huangchao.png",
+        "link": "arashio",
+        "name": "Arashio",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "335": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beierfasite_younv.png",
+        "link": "belchan",
+        "name": "Bel-chan",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "336": {
+        "hull": "Monitor",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/abeikelongbi.png",
+        "link": "abercrombie",
+        "name": "Abercrombie",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "337": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/susaikesi.png",
+        "link": "sussex",
+        "name": "Sussex",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "338": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/i19.png",
+        "link": "i19",
+        "name": "I19",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "339": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/i26.png",
+        "link": "i26",
+        "name": "I26",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "340": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/i58.png",
+        "link": "i58",
+        "name": "I58",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "341": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/U81.png",
+        "link": "u81",
+        "name": "U-81",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "342": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tiaoyu.png",
+        "link": "dace",
+        "name": "Dace",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "343": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/U47.png",
+        "link": "u47",
+        "name": "U-47",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "344": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/U557.png",
+        "link": "u557",
+        "name": "U-557",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "345": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z35.png",
+        "link": "z35",
+        "name": "Z35",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "346": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z18.png",
+        "link": "z18",
+        "name": "Hans Lüdemann",
+        "navy": "Ironblood",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "347": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kaixuan.png",
+        "link": "le_triomphant",
+        "name": "Le Triomphant",
+        "navy": "Iris Libre",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "348": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fuerban.png",
+        "link": "forbin",
+        "name": "Forbin",
+        "navy": "Iris Libre",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "349": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aimierbeierding.png",
+        "link": "emile_bertin",
+        "name": "Émile Bertin",
+        "navy": "Iris Libre",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "350": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xukufu.png",
+        "link": "surcouf",
+        "name": "Surcouf",
+        "navy": "Iris Libre",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "351": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lemaer.png",
+        "link": "le_mars",
+        "name": "Le Mars",
+        "navy": "Vichya Dominion",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "352": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dunkeerke.png",
+        "link": "dunkerque",
+        "name": "Dunkerque",
+        "navy": "Vichya Dominion",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "353": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/rangbaer.png",
+        "link": "jean_bart",
+        "name": "Jean Bart",
+        "navy": "Vichya Dominion",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "354": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/masazhusai.png",
+        "link": "massachusetts",
+        "name": "Massachusetts",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "355": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bushi.png",
+        "link": "bush",
+        "name": "Bush",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "356": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/banrenma.png",
+        "link": "centaur",
+        "name": "Centaur",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "357": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aisaikesi.png",
+        "link": "essex",
+        "name": "Essex",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "358": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/daqinghuayu.png",
+        "link": "albacore",
+        "name": "Albacore",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "359": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lumang.png",
+        "link": "le_temeraire",
+        "name": "Le Téméraire",
+        "navy": "Iris Libre",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "360": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mengfeisi.png",
+        "link": "memphis",
+        "name": "Memphis",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "361": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/niukasier.png",
+        "link": "newcastle",
+        "name": "Newcastle",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "362": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huobi.png",
+        "link": "hobby",
+        "name": "Hobby",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "363": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/keerke.png",
+        "link": "kalk",
+        "name": "Kalk",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "364": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mingniabolisi.png",
+        "link": "minneapolis",
+        "name": "Minneapolis",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "365": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/heizewude.png",
+        "link": "hazelwood",
+        "name": "Hazelwood",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "366": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kangkede.png",
+        "link": "concord",
+        "name": "Concord",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "367": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tiancheng.png",
+        "link": "amagi",
+        "name": "Amagi",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "368": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiahezhanlie.png",
+        "link": "kaga_bb",
+        "name": "Kaga",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "369": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qifeng.png",
+        "link": "hatakaze",
+        "name": "Hatakaze",
+        "navy": "Sakura Empire",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "370": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/juanbo.png",
+        "link": "makinami",
+        "name": "Makinami",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "371": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/tianlangxing.png",
+        "link": "sirius",
+        "name": "Sirius",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "372": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kulasuo.png",
+        "link": "curacoa",
+        "name": "Curacoa",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "373": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/biaoyu.png",
+        "link": "curlew",
+        "name": "Curlew",
+        "navy": "Royal Navy",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "374": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jinboli.png",
+        "link": "kimberly",
+        "name": "Kimberly",
+        "navy": "Eagle Union",
+        "rarity": "Rare",
+        "shipType": "common"
+    },
+    "375": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/malani.png",
+        "link": "mullany",
+        "name": "Mullany",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "376": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhuiganzhe.png",
+        "link": "chaser",
+        "name": "Chaser",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "377": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/duli.png",
+        "link": "independence",
+        "name": "Independence",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "378": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xianggelila.png",
+        "link": "shangri-la",
+        "name": "Shangri-La",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "379": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z2.png",
+        "link": "z2",
+        "name": "Georg Thiele",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "380": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bangkeshan.png",
+        "link": "bunker_hill",
+        "name": "Bunker Hill",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "381": {
+        "hull": "Submarine Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/I13.png",
+        "link": "i-13",
+        "name": "I13",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "382": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/linggu.png",
+        "link": "suzuya",
+        "name": "Suzuya",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "383": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/birui_younv.png",
+        "link": "hieichan",
+        "name": "Hiei-chan",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "384": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chicheng_younv.png",
+        "link": "akagichan",
+        "name": "Akagi-chan",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "385": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qibolin_younv.png",
+        "link": "zeppelinchan",
+        "name": "Zeppelin-chan",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "386": {
+        "name" : "U-556",
+        "hull" : "Submarine",
+        "navy" : "Ironblood",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/U556.png",
+        "rarity" : "Elite",
+        "link" : "u556",
+        "shipType" : "common"
+    },
+    "387": {
+        "name" : "U-73",
+        "hull" : "Submarine",
+        "navy" : "Ironblood",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/U73.png",
+        "rarity" : "Elite",
+        "link" : "u73",
+        "shipType" : "common"
+    },
+    "388": {
+        "name" : "Z36",
+        "hull" : "Destroyer",
+        "navy" : "Ironblood",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/z36.png",
+        "rarity" : "Elite",
+        "link" : "z36",
+        "shipType" : "common"
+    },
+    "389": {
+        "name" : "Echo",
+        "hull" : "Destroyer",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/huisheng.png",
+        "rarity" : "Rare",
+        "link" : "echo",
+        "shipType" : "common"
+    },
+    "390": {
+        "name" : "Helena",
+        "hull" : "Light Cruiser",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/hailunna_younv.png",
+        "rarity" : "Elite",
+        "link" : "little_helena",
+        "shipType" : "common"
+    },
+    "391": {
+        "name" : "Cleveland",
+        "hull" : "Light Cruiser",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/kelifulan_younv.png",
+        "rarity" : "Elite",
+        "link" : "little_cleveland",
+        "shipType" : "common"
+    },
+    "392": {
+        "name" : "San Diego",
+        "hull" : "Light Cruiser",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/shengdiyage_younv.png",
+        "rarity" : "Elite",
+        "link" : "little_san_diego",
+        "shipType" : "common"
+    },
+    "393": {
+        "name" : "Swiftsure",
+        "hull" : "Light Cruiser",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/quejie.png",
+        "rarity" : "Super Rare",
+        "link" : "swiftsure",
+        "shipType" : "common"
+    },
+    "394": {
+        "name" : "Le Malin",
+        "hull" : "Destroyer",
+        "navy" : "Vichya Dominion",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/edu.png",
+        "rarity" : "Super Rare",
+        "link" : "le_malin",
+        "shipType" : "common"
+    },
+    "395": {
+        "name" : "L'Opiniâtre",
+        "hull" : "Destroyer",
+        "navy" : "Iris Libre",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/juejiang.png",
+        "rarity" : "Elite",
+        "link" : "l_opiniatre",
+        "shipType" : "common"
+    },
+    "396": {
+        "name" : "I25",
+        "hull" : "Submarine",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/I25.png",
+        "rarity" : "Elite",
+        "link" : "i25",
+        "shipType" : "common"
+    },
+    "397": {
+        "name" : "I56",
+        "hull" : "Submarine",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/I56.png",
+        "rarity" : "Elite",
+        "link" : "i56",
+        "shipType" : "common"
+    },
+    "398": {
+        "name" : "I168",
+        "hull" : "Submarine",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/I168.png",
+        "rarity" : "Super Rare",
+        "link" : "i168",
+        "shipType" : "common"
+    },
+    "399": {
+        "name" : "U-101",
+        "hull" : "Submarine",
+        "navy" : "Ironblood",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/U101.png",
+        "rarity" : "Super Rare",
+        "link" : "u101",
+        "shipType" : "common"
+    },
+    "400": {
+        "name" : "U-522",
+        "hull" : "Submarine",
+        "navy" : "Ironblood",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/U522.png",
+        "rarity" : "Elite",
+        "link" : "u522",
+        "shipType" : "common"
+    },
     "401": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/alabama.png",
@@ -2987,33 +3032,33 @@
         "rarity": "Rare",
         "shipType": "common"
     },
-	"407": {
-		"name" : "Bache",
-		"hull" : "Destroyer",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/beiqi.png",
-		"rarity" : "Rare",
-		"link" : "bache",
-		"shipType" : "common"
-	},
-	"408": {
-		"name" : "Black Prince",
-		"hull" : "Light Cruiser",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/heitaizi.png",
-		"rarity" : "Elite",
-		"link" : "black_prince",
-		"shipType" : "common"
-	},
-	"409": {
-		"name" : "Stanly",
-		"hull" : "Destroyer",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/sitanli.png",
-		"rarity" : "Rare",
-		"link" : "stanly",
-		"shipType" : "common"
-	},
+    "407": {
+        "name" : "Bache",
+        "hull" : "Destroyer",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/beiqi.png",
+        "rarity" : "Rare",
+        "link" : "bache",
+        "shipType" : "common"
+    },
+    "408": {
+        "name" : "Black Prince",
+        "hull" : "Light Cruiser",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/heitaizi.png",
+        "rarity" : "Elite",
+        "link" : "black_prince",
+        "shipType" : "common"
+    },
+    "409": {
+        "name" : "Stanly",
+        "hull" : "Destroyer",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/sitanli.png",
+        "rarity" : "Rare",
+        "link" : "stanly",
+        "shipType" : "common"
+    },
     "410": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/lituoliao.png",
@@ -3068,25 +3113,25 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-	"416": {
-		"name" : "U-110",
-		"hull" : "Submarine",
-		"navy" : "Ironblood",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/U110.png",
-		"rarity" : "Elite",
-		"link" : "u110",
-		"shipType" : "common"
-	},
-	"417": {
-		"name" : "Smalley",
-		"hull" : "Destroyer",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/simoli.png",
-		"rarity" : "Rare",
-		"link" : "smalley",
-		"shipType" : "common"
-	},
-	"418": {
+    "416": {
+        "name" : "U-110",
+        "hull" : "Submarine",
+        "navy" : "Ironblood",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/U110.png",
+        "rarity" : "Elite",
+        "link" : "u110",
+        "shipType" : "common"
+    },
+    "417": {
+        "name" : "Smalley",
+        "hull" : "Destroyer",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/simoli.png",
+        "rarity" : "Rare",
+        "link" : "smalley",
+        "shipType" : "common"
+    },
+    "418": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/jiasikenie_idol.png",
         "link": "gascogne_idol",
@@ -3132,68 +3177,68 @@
         "shipType": "common"
     },
     "423": {
-		"name" : "Glasgow",
-		"hull" : "Light Cruiser",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/gelasige.png",
-		"rarity" : "Rare",
-		"link" : "glasgow",
-		"shipType" : "common"
-	},
-	"424": {
-		"name" : "Kasumi",
-		"hull" : "Destroyer",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/xia.png",
-		"rarity" : "Elite",
-		"link" : "kasumi",
-		"shipType" : "common"
-	},
-	"425": {
-		"name" : "Suruga",
-		"hull" : "Battleship",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/junhe.png",
-		"rarity" : "Super Rare",
-		"link" : "suruga",
-		"shipType" : "common"
-	},
-	"426": {
-		"name" : "Ryuuhou",
-		"hull" : "Light Aircraft Carrier",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/longfeng.png",
-		"rarity" : "Super Rare",
-		"link" : "ryuuhou",
-		"shipType" : "common"
-	},
-	"427": {
-		"name" : "Halsey Powell",
-		"hull" : "Destroyer",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/haerxibaoweier.png",
-		"rarity" : "Rare",
-		"link" : "halsey_powell",
-		"shipType" : "common"
-	},
-	"428": {
-		"name" : "Biloxi",
-		"hull" : "Light Cruiser",
-		"navy" : "Eagle Union",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/biluokexi.png",
-		"rarity" : "Elite",
-		"link" : "biloxi",
-		"shipType" : "common"
-	},
-	"429": {
-		"name" : "Uranami",
-		"hull" : "Destroyer",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/pubo.png",
-		"rarity" : "Elite",
-		"link" : "uranami",
-		"shipType" : "common"
-	},
+        "name" : "Glasgow",
+        "hull" : "Light Cruiser",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/gelasige.png",
+        "rarity" : "Rare",
+        "link" : "glasgow",
+        "shipType" : "common"
+    },
+    "424": {
+        "name" : "Kasumi",
+        "hull" : "Destroyer",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/xia.png",
+        "rarity" : "Elite",
+        "link" : "kasumi",
+        "shipType" : "common"
+    },
+    "425": {
+        "name" : "Suruga",
+        "hull" : "Battleship",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/junhe.png",
+        "rarity" : "Super Rare",
+        "link" : "suruga",
+        "shipType" : "common"
+    },
+    "426": {
+        "name" : "Ryuuhou",
+        "hull" : "Light Aircraft Carrier",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/longfeng.png",
+        "rarity" : "Super Rare",
+        "link" : "ryuuhou",
+        "shipType" : "common"
+    },
+    "427": {
+        "name" : "Halsey Powell",
+        "hull" : "Destroyer",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/haerxibaoweier.png",
+        "rarity" : "Rare",
+        "link" : "halsey_powell",
+        "shipType" : "common"
+    },
+    "428": {
+        "name" : "Biloxi",
+        "hull" : "Light Cruiser",
+        "navy" : "Eagle Union",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/biluokexi.png",
+        "rarity" : "Elite",
+        "link" : "biloxi",
+        "shipType" : "common"
+    },
+    "429": {
+        "name" : "Uranami",
+        "hull" : "Destroyer",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/pubo.png",
+        "rarity" : "Elite",
+        "link" : "uranami",
+        "shipType" : "common"
+    },
     "431": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/weiyan.png",
@@ -3339,41 +3384,41 @@
         "shipType": "common"
     },
     "449": {
-		"name" : "Hanazuki",
-		"hull" : "Destroyer",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/huayue.png",
-		"rarity" : "Elite",
-		"link" : "hanazuki",
-		"shipType" : "common"
-	},
-	"450": {
-		"name" : "Naganami",
-		"hull" : "Destroyer",
-		"navy" : "Sakura Empire",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/changbo.png",
-		"rarity" : "Elite",
-		"link" : "naganami",
-		"shipType" : "common"
-	},
-	"451": {
-		"name" : "Renown",
-		"hull" : "Battlecruiser",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/shengwang_younv.png",
-		"rarity" : "Elite",
-		"link" : "little_renown",
-		"shipType" : "common"
-	},
-	"452": {
-		"name" : "Tartu",
-		"hull" : "Destroyer",
-		"navy" : "Vichya Dominion",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/taertu.png",
-		"rarity" : "Elite",
-		"link" : "tartu",
-		"shipType" : "common"
-	},
+        "name" : "Hanazuki",
+        "hull" : "Destroyer",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/huayue.png",
+        "rarity" : "Elite",
+        "link" : "hanazuki",
+        "shipType" : "common"
+    },
+    "450": {
+        "name" : "Naganami",
+        "hull" : "Destroyer",
+        "navy" : "Sakura Empire",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/changbo.png",
+        "rarity" : "Elite",
+        "link" : "naganami",
+        "shipType" : "common"
+    },
+    "451": {
+        "name" : "Renown",
+        "hull" : "Battlecruiser",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/shengwang_younv.png",
+        "rarity" : "Elite",
+        "link" : "little_renown",
+        "shipType" : "common"
+    },
+    "452": {
+        "name" : "Tartu",
+        "hull" : "Destroyer",
+        "navy" : "Vichya Dominion",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/taertu.png",
+        "rarity" : "Elite",
+        "link" : "tartu",
+        "shipType" : "common"
+    },
     "453": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/lisailiu.png",
@@ -3429,23 +3474,23 @@
         "shipType": "common"
     },
     "459": {
-		"name" : "Little Illustrious",
-		"hull" : "Aircraft Carrier",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/guanghui_younv.png",
-		"rarity" : "Elite",
-		"link" : "little_illustrious",
-		"shipType" : "common"
-	},
-	"460": {
-		"name" : "Eskimo",
-		"hull" : "Destroyer",
-		"navy" : "Royal Navy",
-		"icon" : "https://algwiki.moe/assets/shipyardicon_new/aisijimo.png",
-		"rarity" : "Elite",
-		"link" : "eskimo",
-		"shipType" : "common"
-	},
+        "name" : "Little Illustrious",
+        "hull" : "Aircraft Carrier",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/guanghui_younv.png",
+        "rarity" : "Elite",
+        "link" : "little_illustrious",
+        "shipType" : "common"
+    },
+    "460": {
+        "name" : "Eskimo",
+        "hull" : "Destroyer",
+        "navy" : "Royal Navy",
+        "icon" : "https://algwiki.moe/assets/shipyardicon_new/aisijimo.png",
+        "rarity" : "Elite",
+        "link" : "eskimo",
+        "shipType" : "common"
+    },
     "461": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/hao.png",
@@ -3681,14 +3726,14 @@
         "shipType": "common"
     },
     "487": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/z24.png",
-		"link": "z24",
-		"name": "Z24",
-		"navy": "Ironblood",
-		"rarity": "Elite",
-		"shipType": "common"
-	},
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z24.png",
+        "link": "z24",
+        "name": "Z24",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "488": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/z28.png",
@@ -3699,14 +3744,14 @@
         "shipType": "common"
     },
     "489": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/bola.png",
-		"link": "pola",
-		"name": "Pola",
-		"navy": "Sardegna Empire",
-		"rarity": "Super Rare",
-	    "shipType": "common"
-	},
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bola.png",
+        "link": "pola",
+        "name": "Pola",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "490": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/wenqinzuojiaobeidi.png",
@@ -3950,15 +3995,15 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-	"517": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fengyun.png",
-		"link": "kazagumo",
-		"name": "Kazagumo",
-		"navy": "Sakura Empire",
-		"rarity": "Super Rare",
-		"shipType": "common"
-	},
+    "517": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fengyun.png",
+        "link": "kazagumo",
+        "name": "Kazagumo",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "518": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/yinggelahan.png",
@@ -3977,114 +4022,123 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-	"P001": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
-		"link": "neptune",
-		"name": "Neptune",
-		"navy": "Royal Navy",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P002": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/junzhu.png",
-		"link": "monarch",
-		"name": "Monarch",
-		"navy": "Royal Navy",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P003": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/yichui.png",
-		"link": "ibuki",
-		"name": "Ibuki",
-		"navy": "Sakura Empire",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P004": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/chuyun.png",
-		"link": "izumo",
-		"name": "Izumo",
-		"navy": "Sakura Empire",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P005": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/luoen.png",
-		"link": "roon",
-		"name": "Roon",
-		"navy": "Ironblood",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P006": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/luyijiushi.png",
-		"link": "saint_louis",
-		"name": "Saint Louis",
-		"navy": "Iris Libre",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P007": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/xiyatu.png",
-		"link": "seattle",
-		"name": "Seattle",
-		"navy": "Eagle Union",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P008": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zuozhiya.png",
-		"link": "georgia",
-		"name": "Georgia",
-		"navy": "Eagle Union",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P009": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/beifeng.png",
-		"link": "kitakaze",
-		"name": "Kitakaze",
-		"navy": "Sakura Empire",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
-	"P010": {
-		"hull": "Super Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/wuqi.png",
-		"link": "azuma",
-		"name": "Azuma",
-		"navy": "Sakura Empire",
-		"rarity": "Decisive",
-		"shipType": "research"
-	},
-	"P011": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/feiteliedadi.png",
-		"link": "friedrich_der_grosse",
-		"name": "Friedrich der Große",
-		"navy": "Ironblood",
-		"rarity": "Decisive",
-		"shipType": "research"
-	},
-	"P012": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiasikenie.png",
-		"link": "gascogne",
-		"name": "Gascogne",
-		"navy": "Vichya Dominion",
-		"rarity": "Priority",
-		"shipType": "research"
-	},
+    "520": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gecheng.png",
+        "link": "katsuragi",
+        "name": "Katsuragi",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "P001": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
+        "link": "neptune",
+        "name": "Neptune",
+        "navy": "Royal Navy",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P002": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/junzhu.png",
+        "link": "monarch",
+        "name": "Monarch",
+        "navy": "Royal Navy",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P003": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yichui.png",
+        "link": "ibuki",
+        "name": "Ibuki",
+        "navy": "Sakura Empire",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P004": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chuyun.png",
+        "link": "izumo",
+        "name": "Izumo",
+        "navy": "Sakura Empire",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P005": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luoen.png",
+        "link": "roon",
+        "name": "Roon",
+        "navy": "Ironblood",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P006": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luyijiushi.png",
+        "link": "saint_louis",
+        "name": "Saint Louis",
+        "navy": "Iris Libre",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P007": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiyatu.png",
+        "link": "seattle",
+        "name": "Seattle",
+        "navy": "Eagle Union",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P008": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zuozhiya.png",
+        "link": "georgia",
+        "name": "Georgia",
+        "navy": "Eagle Union",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P009": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beifeng.png",
+        "link": "kitakaze",
+        "name": "Kitakaze",
+        "navy": "Sakura Empire",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P010": {
+        "hull": "Super Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wuqi.png",
+        "link": "azuma",
+        "name": "Azuma",
+        "navy": "Sakura Empire",
+        "rarity": "Decisive",
+        "shipType": "research"
+    },
+    "P011": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feiteliedadi.png",
+        "link": "friedrich_der_grosse",
+        "name": "Friedrich der Große",
+        "navy": "Ironblood",
+        "rarity": "Decisive",
+        "shipType": "research"
+    },
+    "P012": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiasikenie.png",
+        "link": "gascogne",
+        "name": "Gascogne",
+        "navy": "Vichya Dominion",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
     "P013": {
         "hull": "Heavy Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/chaijun.png",
@@ -4202,187 +4256,196 @@
         "rarity": "Super Rare",
         "shipType": "META"
     },
-	"C001": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
-		"link": "hdn_neptune",
-		"name": "Neptune",
-		"navy": "Neptunia",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C002": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN201.png",
-		"link": "hdn_noire",
-		"name": "Noire",
-		"navy": "Neptunia",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C003": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN301.png",
-		"link": "hdn_blanc",
-		"name": "Blanc",
-		"navy": "Neptunia",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C004": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN401.png",
-		"link": "hdn_vert",
-		"name": "Vert",
-		"navy": "Neptunia",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C005": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN102_1.png",
-		"link": "hdn_purple_heart",
-		"name": "Purple Heart",
-		"navy": "Neptunia",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C006": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN202_1.png",
-		"link": "hdn_black_heart",
-		"name": "Black Heart",
-		"navy": "Neptunia",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C007": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN302_1.png",
-		"link": "hdn_white_heart",
-		"name": "White Heart",
-		"navy": "Neptunia",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C008": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/HDN402_1.png",
-		"link": "hdn_green_heart",
-		"name": "Green Heart",
-		"navy": "Neptunia",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C021": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/22.png",
-		"link": "bili_22",
-		"name": "22",
-		"navy": "Bilibili",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C022": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/33.png",
-		"link": "bili_33",
-		"name": "33",
-		"navy": "Bilibili",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C031": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/jiuyuan.png",
-		"link": "uta_kuon",
-		"name": "Kuon",
-		"navy": "Utawarerumono",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C032": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/maoyin.png",
-		"link": "uta_nekone",
-		"name": "Nekone",
-		"navy": "Utawarerumono",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C033": {
-		"hull": "Light Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/lulutiye.png",
-		"link": "uta_rurutie",
-		"name": "Rurutie",
-		"navy": "Utawarerumono",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C034": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/wululu.png",
-		"link": "uta_uruuru",
-		"name": "Uruuru",
-		"navy": "Utawarerumono",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C035": {
-		"hull": "Light Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/salana.png",
-		"link": "uta_saraana",
-		"name": "Saraana",
-		"navy": "Utawarerumono",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C036": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/fumilulu.png",
-		"link": "uta_fumiruiru",
-		"name": "Fumiruiru",
-		"navy": "Utawarerumono",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C041": {
-		"hull": "Destroyer",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangDD.png",
-		"link": "kizuna_ai",
-		"name": "KizunaAI",
-		"navy": "KizunaAI",
-		"rarity": "Elite",
-		"shipType": "collab"
-	},
-	"C042": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangCL.png",
-		"link": "kizuna_ai_ca",
-		"name": "KizunaAI·Elegant",
-		"navy": "KizunaAI",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C043": {
-		"hull": "Aircraft Carrier",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangCV.png",
-		"link": "kizuna_ai_cv",
-		"name": "KizunaAI·Anniversary",
-		"navy": "KizunaAI",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C044": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangBB.png",
-		"link": "kizuna_ai_bb",
-		"name": "KizunaAI·SuperGamer",
-		"navy": "KizunaAI",
-		"rarity": "Super Rare",
-		"shipType": "collab"
-	},
-	"C051": {
+    "M004": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/canglong_alter.png",
+        "link": "souryuu_meta",
+        "name": "Souryuu META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "C001": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
+        "link": "hdn_neptune",
+        "name": "Neptune",
+        "navy": "Neptunia",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C002": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN201.png",
+        "link": "hdn_noire",
+        "name": "Noire",
+        "navy": "Neptunia",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C003": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN301.png",
+        "link": "hdn_blanc",
+        "name": "Blanc",
+        "navy": "Neptunia",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C004": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN401.png",
+        "link": "hdn_vert",
+        "name": "Vert",
+        "navy": "Neptunia",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C005": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN102_1.png",
+        "link": "hdn_purple_heart",
+        "name": "Purple Heart",
+        "navy": "Neptunia",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C006": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN202_1.png",
+        "link": "hdn_black_heart",
+        "name": "Black Heart",
+        "navy": "Neptunia",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C007": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN302_1.png",
+        "link": "hdn_white_heart",
+        "name": "White Heart",
+        "navy": "Neptunia",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C008": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN402_1.png",
+        "link": "hdn_green_heart",
+        "name": "Green Heart",
+        "navy": "Neptunia",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C021": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/22.png",
+        "link": "bili_22",
+        "name": "22",
+        "navy": "Bilibili",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C022": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/33.png",
+        "link": "bili_33",
+        "name": "33",
+        "navy": "Bilibili",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C031": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiuyuan.png",
+        "link": "uta_kuon",
+        "name": "Kuon",
+        "navy": "Utawarerumono",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C032": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/maoyin.png",
+        "link": "uta_nekone",
+        "name": "Nekone",
+        "navy": "Utawarerumono",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C033": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lulutiye.png",
+        "link": "uta_rurutie",
+        "name": "Rurutie",
+        "navy": "Utawarerumono",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C034": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wululu.png",
+        "link": "uta_uruuru",
+        "name": "Uruuru",
+        "navy": "Utawarerumono",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C035": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/salana.png",
+        "link": "uta_saraana",
+        "name": "Saraana",
+        "navy": "Utawarerumono",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C036": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fumilulu.png",
+        "link": "uta_fumiruiru",
+        "name": "Fumiruiru",
+        "navy": "Utawarerumono",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C041": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangDD.png",
+        "link": "kizuna_ai",
+        "name": "KizunaAI",
+        "navy": "KizunaAI",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C042": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangCL.png",
+        "link": "kizuna_ai_ca",
+        "name": "KizunaAI·Elegant",
+        "navy": "KizunaAI",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C043": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangCV.png",
+        "link": "kizuna_ai_cv",
+        "name": "KizunaAI·Anniversary",
+        "navy": "KizunaAI",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C044": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aijiangBB.png",
+        "link": "kizuna_ai_bb",
+        "name": "KizunaAI·SuperGamer",
+        "navy": "KizunaAI",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C051": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/Vtuber_Fubuki.png",
         "link": "shirakami_fubuki",
@@ -4571,40 +4634,31 @@
         "rarity": "Elite",
         "shipType": "collab"
     },
-	"X001": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/zhumo.png",
-		"link": "chikuma",
-		"name": "Chikuma",
-		"navy": "Sakura Empire",
-		"rarity": "",
-		"shipType": "unreleased"
-	},
-	"X002": {
-		"hull": "Heavy Cruiser",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/ligen.png",
-		"link": "tone",
-		"name": "Tone",
-		"navy": "Sakura Empire",
-		"rarity": "",
-		"shipType": "unreleased"
-	},
-	"X003": {
-		"hull": "Submarine",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/i8.png",
-		"link": "i8",
-		"name": "I8",
-		"navy": "Sakura Empire",
-		"rarity": "",
-		"shipType": "unreleased"
-	},
-	"X007": {
-		"hull": "Battleship",
-		"icon": "https://algwiki.moe/assets/shipyardicon_new/suweiai.png",
-		"link": "sovetsky_soyuz",
-		"name": "Sovetsky Soyuz",
-		"navy": "Northern Parliament",
-		"rarity": "",
-		"shipType": "unreleased"
-	}
+    "X002": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ligen.png",
+        "link": "tone",
+        "name": "Tone",
+        "navy": "Sakura Empire",
+        "rarity": "",
+        "shipType": "unreleased"
+    },
+    "X003": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/i8.png",
+        "link": "i8",
+        "name": "I8",
+        "navy": "Sakura Empire",
+        "rarity": "",
+        "shipType": "unreleased"
+    },
+    "X007": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/suweiai.png",
+        "link": "sovetsky_soyuz",
+        "name": "Sovetsky Soyuz",
+        "navy": "Northern Parliament",
+        "rarity": "",
+        "shipType": "unreleased"
+    }
 }
