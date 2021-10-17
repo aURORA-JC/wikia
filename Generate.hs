@@ -489,9 +489,16 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                   lua = case "_ex" `isInfixOf` skinid of
                                                           True -> luaskinextra
                                                           False -> luaskin
+                                                  {- if I remember correctly _ex ids may not be in order?
                                                   id = case splitOneOf "_" skinid of
-                                                        x | "_ex" `isInfixOf` skinid -> last x
-                                                        _ -> lineSet % "id"
+                                                        x | "_ex" `isInfixOf` skinid -> case readMaybe (last $ init x) :: Maybe Int of
+                                                                                          Just a -> show a
+                                                                                          Nothing -> "0"
+                                                        _ -> lineSet % "id" -}
+                                                  id = lineSet % "id"
+                                                  ex = case "_ex" `isInfixOf` skinid of
+                                                         True -> "_ex100"
+                                                         False -> ""
                                                   luaskin' = (map (\v -> lookupi v (read (case (lineSet % "id", json % "internal_id") of
                                                                                             (_,        "") -> "0"
                                                                                             ([x],      iid) -> (init iid) ++ [x]
@@ -642,6 +649,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                                                                                           ++ case id of
                                                                                                                                                                "0" -> ""
                                                                                                                                                                i -> "_" ++ i
+                                                                                                                                                          ++ ex
                                                                                                                                                           ++ ".ogg") H.! A.controls ""
                                                                                                                     $ ""
                                                                                                     mapM_ (H.td . H.preEscapedToHtml) speech) $ take max [1..]) merged
