@@ -935,7 +935,9 @@ main
        (encn, enen, ships) <- (mapM loadJson $ sort dir) >>= return . unzip3
        mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
                                            $ zip [0..]
-                                           $ sortOn (\(k, _) -> k)
+                                           $ sortOn (\(k, _) -> case readMaybe (unpack k) :: Maybe Int of
+                                                                  Just k -> k
+                                                                  _      -> 0)
                                            $ toList
                                            $ aobj
                                            $ json ! "skin"
