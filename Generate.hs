@@ -489,13 +489,21 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                   lua = case "_ex" `isInfixOf` skinid of
                                                           True -> luaskinextra
                                                           False -> luaskin
+                                                  {- if I remember correctly _ex ids may not be in order?
                                                   id = case splitOneOf "_" skinid of
-                                                        x | "_ex" `isInfixOf` skinid -> last x
-                                                        _ -> lineSet % "id"
+                                                        x | "_ex" `isInfixOf` skinid -> case readMaybe (last $ init x) :: Maybe Int of
+                                                                                          Just a -> show a
+                                                                                          Nothing -> "0"
+                                                        _ -> lineSet % "id" -}
+                                                  id = lineSet % "id"
+                                                  ex = case "_ex" `isInfixOf` skinid of
+                                                         True -> "_ex100"
+                                                         False -> ""
                                                   luaskin' = (map (\v -> lookupi v (read (case (lineSet % "id", json % "internal_id") of
                                                                                             (_,        "") -> "0"
                                                                                             ([x],      iid) -> (init iid) ++ [x]
-                                                                                            (['1', y], ['3', '0', '1', '0', '5', _]) -> "33105" ++ [y]
+                                                                                            (['1', y], '3':'0':'1':'0':'5':[_]) -> "33105" ++ [y]
+                                                                                            (['1', y], '1':'0':'7':'0':'3':[_]) -> "13703" ++ [y]
                                                                                             x -> trace ("Invalid skin id! " ++ json % "name" ++ ", " ++ show x) "0"))) lua) :: [Maybe Val]
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
                                                             ("Biography",           "profile",          "profile"),
@@ -641,6 +649,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                                                                                           ++ case id of
                                                                                                                                                                "0" -> ""
                                                                                                                                                                i -> "_" ++ i
+                                                                                                                                                          ++ ex
                                                                                                                                                           ++ ".ogg") H.! A.controls ""
                                                                                                                     $ ""
                                                                                                     mapM_ (H.td . H.preEscapedToHtml) speech) $ take max [1..]) merged
@@ -926,7 +935,9 @@ main
        (encn, enen, ships) <- (mapM loadJson $ sort dir) >>= return . unzip3
        mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
                                            $ zip [0..]
-                                           $ sortOn (\(k, _) -> k)
+                                           $ sortOn (\(k, _) -> case readMaybe (unpack k) :: Maybe Int of
+                                                                  Just k -> k
+                                                                  _      -> 0)
                                            $ toList
                                            $ aobj
                                            $ json ! "skin"
