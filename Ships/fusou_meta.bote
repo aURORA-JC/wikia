@@ -1,37 +1,37 @@
 {
-    "name_reference": "souryuu_meta",
-    "cn_reference": "canglong_alter",
-    "nameJP": "蒼龍(META)",
-    "nameCN": "苍龙·META",
-    "ID": "M004",
-    "name": "Souryuu META",
-    "internal_id": "9707031",
-    "rarity": "Super Rare",
-    "initialStar": "★★★☆☆☆",
-    "hull": "Aircraft Carrier",
+    "name_reference": "fusou_meta",
+    "cn_reference": "fusang_alter",
+    "nameJP": "扶桑(META)",
+    "nameCN": "扶桑·META",
+    "ID": "M005",
+    "name": "Fusou META",
+    "internal_id": "9705011",
+    "rarity": "Elite",
+    "initialStar": "★★☆☆☆",
+    "hull": "Battleship",
     "navy": "META",
     "prefix": "",
     "buildTime": "",
-    "class": "",
-    "voiceActress": "Karin Mitarai",
+    "class": "Fusou-Class",
+    "voiceActress": "Ami Koshimizu",
     "parameters": {
-        "firepower": "E",
-        "torpedo": "E",
-        "aviation": "S",
-        "evasion": "B",
-        "antiAir": "A",
-        "hp": "B"
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "evasion": "",
+        "antiAir": "",
+        "hp": ""
     },
     "scrap": {
-        "gold": "9",
-        "oil": "3",
-        "medal": "10"
+        "gold": "",
+        "oil": "",
+        "medal": ""
     },
     "releaseDate": {
-        "JP": "2021/09/09",
-        "CN": "2021/09/09",
+        "JP": "",
+        "CN": "",
         "KR": "",
-        "EN": "2021/09/09"
+        "EN": ""
     },
     "artist": {
         "name": "",
@@ -41,71 +41,62 @@
         "other": ""
     },
     "enhance": {
-        "firepower": "0",
-        "torpedo": "0",
-        "aviation": "0",
-        "reload": "0"
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "reload": ""
     },
     "acquisitionMethod": "META Lab",
     "skill": {
         "1": {
-            "icon": "800130",
-            "requirement": "Tactical Training",
+            "icon": "800170",
+            "requirement": "",
             "name": "",
-            "type": "Offense",
+            "type": "Offensive",
             "description": ""
         },
-        "2": {  
-            "icon": "800140",
-            "requirement": "Tactical Training",
-            "name": "",
-            "type": "Offense",
-            "description": ""
-        },
-        "3": {  
-            "icon": "800150",
-            "requirement": "Tactical Training",
+        "2": {
+            "icon": "800180",
+            "requirement": "",
             "name": "",
             "type": "Support",
             "description": ""
         },
-        "4": {  
-            "icon": "800160",
-            "requirement": "Tactical Training",
+        "3": {
+            "icon": "800190",
+            "requirement": "",
             "name": "",
-            "type": "Support",
+            "type": "Offensive",
+            "description": ""
+        },
+        "4": {
+            "icon": "800200",
+            "requirement": "",
+            "name": "",
+            "type": "Defensive",
             "description": ""
         }
     },
     "skin": {
         "1": {
-            "id": "canglong_alter",
-            "name": "Souryuu META",
-            "description": "Souryuu META",
+            "id": "fusang_alter",
+            "name": "Fusou META",
+            "description": "",
             "expression": {
                 "0": {
                     "id": "0"
                 },
-                "1": {  
+                "1": {
                     "id": "1"
                 },
-                "2": {  
+                "2": {
                     "id": "2"
                 },
-                "3": {  
+                "3": {
                     "id": "3"
                 },
-                "4": {  
+                "4": {
                     "id": "4"
-                },
-                "5": {  
-                    "id": "5"
-                },
-                "6": {  
-                    "id": "6"
-                },
-                "7": {  
-                    "id": "7"
                 }
             }
         }
@@ -221,22 +212,22 @@
     },
     "equipmentLoadout": {
         "1": {
-            "type": "Fighter",
-            "efficiency": "%/%/%/%",
+            "type": "",
+            "efficiency": "///",
             "amount": "///",
-            "preload": "0/0/0/0"
+            "preload": "///"
         },
         "2": {
-            "type": "Dive Bomber",
-            "efficiency": "%/%/%/%",
+            "type": "",
+            "efficiency": "///",
             "amount": "///",
-            "preload": "0/0/0/0"
+            "preload": "///"
         },
         "3": {
-            "type": "Torpedo Bomber",
-            "efficiency": "%/%/%/%",
+            "type": "",
+            "efficiency": "///",
             "amount": "///",
-            "preload": "0/0/0/0"
+            "preload": "///"
         },
         "4": {
             "type": "Auxiliary",
@@ -295,9 +286,9 @@
     "lines": {
         "skin": {
             "1": {
-                "skin_id": "canglong_alter",
+                "skin_id": "fusang_alter",
                 "id": "0",
-                "label": "Souryuu META",
+                "label": "",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
@@ -338,6 +329,10 @@
                     "10": {
                         "event": "Touch (Special)",
                         "media": "touch_2"
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head"
                     },
                     "12": {
                         "event": "Mission",
@@ -438,6 +433,6 @@
         "add_level_value": "",
         "add_level_shiptype": "",
         "t_level": "",
-        "ships": "souryuu,souryuu_meta"
+        "ships": "fusou,yamashiro,fusou_meta"
     }
 }

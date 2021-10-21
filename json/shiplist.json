@@ -4031,6 +4031,15 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
+    "521": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xinaoerliang.png",
+        "link": "new_orleans",
+        "name": "New Orleans",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4263,6 +4272,15 @@
         "name": "Souryuu META",
         "navy": "META",
         "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M005": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fusang_alter.png",
+        "link": "fusou_meta",
+        "name": "Fusou META",
+        "navy": "META",
+        "rarity": "Elite",
         "shipType": "META"
     },
     "C001": {

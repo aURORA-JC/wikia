@@ -1,37 +1,36 @@
 {
-    "name_reference": "souryuu_meta",
-    "cn_reference": "canglong_alter",
-    "nameJP": "蒼龍(META)",
-    "nameCN": "苍龙·META",
-    "ID": "M004",
-    "name": "Souryuu META",
-    "internal_id": "9707031",
+    "name_reference": "new_orleans",
+    "cn_reference": "xinaoerliang",
+    "nameJP": "",
+    "nameCN": "",
+    "ID": "521",
+    "name": "New Orleans",
+    "internal_id": "103121",
     "rarity": "Super Rare",
     "initialStar": "★★★☆☆☆",
-    "hull": "Aircraft Carrier",
-    "navy": "META",
-    "prefix": "",
-    "buildTime": "",
-    "class": "",
-    "voiceActress": "Karin Mitarai",
+    "hull": "Heavy Cruiser",
+    "navy": "Eagle Union",
+    "prefix": "USS",
+    "buildTime": "N/A",
+    "voiceActress": "",
     "parameters": {
-        "firepower": "E",
-        "torpedo": "E",
-        "aviation": "S",
-        "evasion": "B",
-        "antiAir": "A",
-        "hp": "B"
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "evasion": "",
+        "antiAir": "",
+        "hp": ""
     },
     "scrap": {
-        "gold": "9",
-        "oil": "3",
-        "medal": "10"
+        "gold": "",
+        "oil": "",
+        "medal": ""
     },
     "releaseDate": {
-        "JP": "2021/09/09",
-        "CN": "2021/09/09",
+        "JP": "",
+        "CN": "",
         "KR": "",
-        "EN": "2021/09/09"
+        "EN": ""
     },
     "artist": {
         "name": "",
@@ -40,72 +39,53 @@
         "pixiv": "",
         "other": ""
     },
+    "class": "New Orleans-Class",
     "enhance": {
-        "firepower": "0",
-        "torpedo": "0",
-        "aviation": "0",
-        "reload": "0"
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "reload": ""
     },
-    "acquisitionMethod": "META Lab",
+    "acquisitionMethod": "Explore Stage 14-4",
     "skill": {
         "1": {
-            "icon": "800130",
-            "requirement": "Tactical Training",
-            "name": "",
-            "type": "Offense",
-            "description": ""
-        },
-        "2": {  
-            "icon": "800140",
-            "requirement": "Tactical Training",
-            "name": "",
-            "type": "Offense",
-            "description": ""
-        },
-        "3": {  
-            "icon": "800150",
-            "requirement": "Tactical Training",
+            "icon": "14910",
+            "requirement": "Default Unlocked",
             "name": "",
             "type": "Support",
             "description": ""
         },
-        "4": {  
-            "icon": "800160",
-            "requirement": "Tactical Training",
+        "2": {
+            "icon": "14920",
+            "requirement": "Default Unlocked",
             "name": "",
-            "type": "Support",
+            "type": "Defensive",
             "description": ""
         }
     },
     "skin": {
         "1": {
-            "id": "canglong_alter",
-            "name": "Souryuu META",
-            "description": "Souryuu META",
+            "id": "xinaoerliang",
+            "name": "New Orleans",
+            "description": "",
             "expression": {
                 "0": {
                     "id": "0"
                 },
-                "1": {  
+                "1": {
                     "id": "1"
                 },
-                "2": {  
+                "2": {
                     "id": "2"
                 },
-                "3": {  
+                "3": {
                     "id": "3"
                 },
-                "4": {  
+                "4": {
                     "id": "4"
                 },
-                "5": {  
+                "5": {
                     "id": "5"
-                },
-                "6": {  
-                    "id": "6"
-                },
-                "7": {  
-                    "id": "7"
                 }
             }
         }
@@ -221,35 +201,48 @@
     },
     "equipmentLoadout": {
         "1": {
-            "type": "Fighter",
-            "efficiency": "%/%/%/%",
-            "amount": "///",
-            "preload": "0/0/0/0"
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
         },
         "2": {
-            "type": "Dive Bomber",
-            "efficiency": "%/%/%/%",
-            "amount": "///",
-            "preload": "0/0/0/0"
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
         },
         "3": {
-            "type": "Torpedo Bomber",
-            "efficiency": "%/%/%/%",
-            "amount": "///",
-            "preload": "0/0/0/0"
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
         },
         "4": {
-            "type": "Auxiliary",
+            "type": "Auxilary",
             "efficiency": "-",
             "amount": "-",
             "preload": "-"
         },
         "5": {
-            "type": "Auxiliary",
+            "type": "Auxilary",
             "efficiency": "-",
             "amount": "-",
             "preload": "-"
         }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": "astoria,minneapolis,quincy,vincennes,san_francisco,new_orleans"
     },
     "build": {
         "light": {
@@ -274,17 +267,29 @@
         }
     },
     "drop": {
-        "droppable": "false",
+        "droppable": "true",
         "list": {
             "1": {
-                "event": "",
+                "event": "World",
                 "chapter": {
                     "1": {
-                        "label": "Ch .1",
+                        "label": "Ch. 14",
                         "node": {
                             "1": {
-                                "drop": "✓",
+                                "drop": "-",
                                 "note": "-"
+                            },
+                            "2": {
+                                "drop": "-",
+                                "note": "-"
+                            },
+                            "3": {
+                                "drop": "-",
+                                "note": "-"
+                            },
+                            "4": {
+                                "drop": "✓",
+                                "note": "Boss"
                             }
                         }
                     }
@@ -295,9 +300,9 @@
     "lines": {
         "skin": {
             "1": {
-                "skin_id": "canglong_alter",
+                "skin_id": "xinaoerliang",
                 "id": "0",
-                "label": "Souryuu META",
+                "label": "",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
@@ -338,6 +343,10 @@
                     "10": {
                         "event": "Touch (Special)",
                         "media": "touch_2"
+                    },
+                    "11": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head"
                     },
                     "12": {
                         "event": "Mission",
@@ -412,32 +421,35 @@
                         "media": "link1"
                     },
                     "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2"
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3"
+                    },
+                    "32": {
+                        "event": "Additional Voice Line 4",
+                        "media": "link4"
+                    },
+                    "33": {
+                        "event": "Additional Voice Line 5",
+                        "media": "link5"
+                    },
+                    "34": {
                         "event": "Extra",
                         "media": "extra"
                     },
-                    "31": {
+                    "35": {
                         "event": "Present Like",
                         "media": "present_like"
                     },
-                    "32": {
+                    "36": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
                     }
                 }
             }
         }
-    },
-    "fleet_tech": {
-        "pt_get": "",
-        "add_get_attr": "",
-        "add_get_value": "",
-        "add_get_shiptype": "",
-        "pt_upgrade": "",
-        "pt_level": "",
-        "add_level_attr": "",
-        "add_level_value": "",
-        "add_level_shiptype": "",
-        "t_level": "",
-        "ships": "souryuu,souryuu_meta"
     }
 }
