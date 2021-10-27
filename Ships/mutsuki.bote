@@ -1,952 +1,1027 @@
 {
-	"name_reference": "mutsuki",
-	"cn_reference": "muyue",
-	"nameJP": "睦月",
-	"nameCN": "睦月",
-	"ID": "271",
-	"name": "Mutsuki",
-	"internal_id": "301321",
-	"rarity": "Common",
-	"initialStar": "★☆☆☆",
-	"hull": "Destroyer",
-	"navy": "Sakura Empire",
-	"prefix": "IJN",
-	"buildTime": "00:21:00",
-	"class": "Mutsuki-Class",
-	"voiceActress": "Rumi Okubo",
-	"parameters": {
-		"firepower": "D",
-		"torpedo": "A",
-		"aviation": "E",
-		"evasion": "A",
-		"antiAir": "D",
-		"hp": "D"
-	},
-	"scrap": {
-		"gold": "4",
-		"oil": "3",
-		"medal": "0"
-	},
-	"releaseDate": {
-		"JP": "September 13, 2017",
-		"CN": "August 28, 2017",
-		"KR": "March 23, 2018",
-		"EN": "August 16, 2018"
-	},
-	"artist": {
-		"name": "月见",
-		"weibo": "http://www.weibo.com/p/1005051807769224",
-		"twitter": "",
-		"pixiv": "https://www.pixiv.net/member.php?id=786200",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "4",
-		"torpedo": "27",
-		"aviation": "0",
-		"reload": "14"
-	},
-	"acquisitionMethod": "Light Build",
-	"skill": {
-		"1": {
-			"icon": "2001",
-			"requirement": "Default Unlocked",
-			"name": "Quick Reload",
-			"type": "Offensive",
-			"description": "30% (60%) chance to activate every 20 seconds: increase own reload by 20% (40%) for 10 seconds"
-		},
-		"2": {
-			"icon": "1011",
-			"requirement": "Retrofit",
-			"name": "Torpedo Command - Destroyer",
-			"type": "Support",
-			"description": "Increases torpedo stat of Destroyers in the fleet by 5%(15%). Does not stack with other command skills that have similar effect."
-		},
-		"3": {
-			"icon": "22011",
-			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
-			"name": "Full Barrage",
-			"type": "Offensive",
-			"description": "Every 15 (10) shots from the main guns，trigger Full Barrage - Mutsuki-Class I (II)"
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "muyue",
-			"name": "Mutsuki",
-			"description": "Mutsuki-class destroyer number one – Mutsuki.",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"2": {
-			"id": "muyue_2",
-			"name": "Mr. Reindeer, Depart!",
-			"description": "Commander, Merry Christmas~! I am on my best behavior today as well! Uuu... when is Santa Claus going to come? I'm sleepy...",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"3": {
-			"id": "muyue_3",
-			"name": "Candy Festival!",
-			"description": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				}
-			}
-		},
-		"4": {
-			"id": "muyue_g",
-			"name": "Mutsuki (Retrofit) ",
-			"description": "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy! ",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "35100",
-			"rarity": "Common",
-			"name": "Triple 610mm Torpedo"
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "1239",
-			"firepower": "51",
-			"torpedo": "385",
-			"antiAir": "120",
-			"aviation": "0",
-			"reload": "171",
-			"hit": "169",
-			"evasion": "187",
-			"speed": "44.7",
-			"luck": "35",
-			"asw": "162",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
-		},
-		"120": {
-			"hp": "1487",
-			"firepower": "59",
-			"torpedo": "427",
-			"antiAir": "138",
-			"aviation": "0",
-			"reload": "196",
-			"hit": "178",
-			"evasion": "193",
-			"speed": "44.7",
-			"luck": "35",
-			"asw": "181",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "240",
-			"firepower": "11",
-			"torpedo": "82",
-			"antiAir": "26",
-			"aviation": "0",
-			"reload": "72",
-			"hit": "65",
-			"evasion": "72",
-			"speed": "44.7",
-			"luck": "35",
-			"asw": "44",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "1",
-			"armor": "Light"
-		},
-		"100retrofit": {
-			"hp": "1404",
-			"firepower": "51",
-			"torpedo": "420",
-			"antiAir": "155",
-			"aviation": "0",
-			"reload": "191",
-			"hit": "169",
-			"evasion": "187",
-			"speed": "47.7",
-			"luck": "35",
-			"asw": "162",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
-		},
-		"120retrofit": {
-			"hp": "1652",
-			"firepower": "59",
-			"torpedo": "462",
-			"antiAir": "173",
-			"aviation": "0",
-			"reload": "216",
-			"hit": "178",
-			"evasion": "193",
-			"speed": "47.7",
-			"luck": "35",
-			"asw": "181",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "7",
-			"armor": "Light"
-		}
-	},
-	"limitBreak": {
-		"tier1": "Gains Full Barrage I / Torpedo Efficiency +5%",
-		"tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
-		"tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Destroyer Gun",
-			"efficiency": "70%/70%/70%/75%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Torpedo",
-			"efficiency": "125%/130%/140%/145%",
-			"amount": "1/1/2/2",
-			"preload": "0/0/1/1"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "70%/70%/70%/75%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "✓",
-			"CN": "✓",
-			"EN": "✓"
-		},
-		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"limited": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "muyue",
-				"id": "0",
-				"label": "Mutsuki",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "睦月级驱逐舰一番舰—睦月",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "睦月型駆逐艦一番艦・睦月",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Mutsuki-class destroyer number one – Mutsuki.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "睦月是第30驱逐队的睦月，睦月级的姐姐！虽然是旧型，也很能干的！喜欢吃糖，讨厌斯图……呜，不会念，总之就是讨厌！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わたしは「だいさんじゅうくちくたい」の睦月、睦月型のおねえさん！ふるいけどすごいよ！アメさんがすき！すつ……うぅ、よめない…すつーか？きらい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Mutsuki, I'm in the \"Thirtieth Destroyer Division,\" and I'm the oldest Mutsuki-class ship! There are newer ships, but I'm strong! I love candy! I hate Stu... Um... I can't pronounce that... Stookuhs? I hate those!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "指（zi）……挥……官？是和耙耙麻麻一样的人吗？哇~是指挥官！但是，糖是睦月的，不给你哦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅ…き…かん？パパとママと同じ人なの？うん？あ！しきかんだ！アメさんは睦月のものだから、あげないよー",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Co... main... der? Are you like my mommy or daddy? Hm? Ah, it's Commander! This my candy, I'm not giving you any!",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官也想吃糖吗？但我的不给你~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかんもアメさんほしい？わたしのあげないよー",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You want some candy too, Comainder? You're not getting any of mine!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "糖果是最好吃的零食！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アメさんがいっちばんおいしいおやつだよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Candy is the best snack!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "指……挥……官？还是好难念哦……还是耙耙和麻麻简单！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅ……き……かん？よみにくいよぉ……パパとママのほうがかんたん！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Co... main... der? I can't pronounce that... \"Mommy\" and \"daddy\" are easier to pronounce!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "苹果味……芒果味……下次买草莓味好了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "りんごさん、まんごーさん……つぎはいちごさんにする！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "First apple, then mango... next time I'll buy one that tastes like strawberry!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "1,2,3,4……唔，好难……6,然后……11,19！耶！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "いち、にー、さんー、よん……わからない……ろっく…つぎは…じゅういち！じゅうきゅう！やった！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "One, two, three, four... I forgot... six... after that comes... eleven! Then nineteen! I did it!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "就算是指挥官，糖果也不会给你的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかんでも、アメさんあげないよー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I won't give you my candy, even if you are the comainder!",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "指挥官好痒啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、くすぐったいー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, that tickles!",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "任……务？那是什么呀？有糖果吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "にん…むぅ？なに？アメさん？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Mish... shun? What's that? Is that a candy?",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "奖励，奖励~糖果，糖果~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ごほうび、ごほうび、アメさん、アメさん♪",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Rewards, rewards~! Candy, candy~!",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，你的信~不过想要的话要给睦月糖果！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかんの、おてがみー！ほしいなら、睦月にアメさん、ちょうだいー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, you have mail! If you want it you'll have to give me candy!",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "趁着指挥官还没回来，偷偷地……哇！！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかんがもどらないうちに…あぅ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'll take some candy while the comainder's still... Oh!",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "指挥官~姐姐们回来啦~不知道有没有给我带糖果！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかーん。おねえちゃんたちがかえったよーわたしのアメさん、あるかなー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder! The older girls are back! I wonder if they brought me any candy?",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "这样我就能有更多的糖了吗！……没有吗？！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アメさんをもっとくれるの？…ないの！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Will you give me more candy now? ... You won't?!",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "抢糖果的都是坏蛋！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ！アメさんをうばうわるいひとだ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ah! Those are the meanies who steal people's candy!",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "赢啦~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "かったぁー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "We won~!",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "呜呜……指挥官……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うう…しゅきかん…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "*Sob*... Comainder...",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "skill",
-						"media": "skill",
-						"chinese": "让你们见识一下糖果的力量~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アメさんのちから、みせてやる~！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'll show you how powerful candy is~!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "如月在哪儿呢……好想她呀",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "如月はどこ……あいたい……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Where's Kisaragi... I miss her...",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "每种糖果都很好吃，好难选……指挥官，帮我选~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "どのアメさんもおいしそう、えらべないよぉ……しゅきかん、てつだってー",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Both candies look tasty... I can't choose a single one... Help me pick, Commander!",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "指挥官~一~起~来~玩~吧！要玩什么好呢！指挥官来选吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかーん！いーしょーにーあーそーぼうーよー！なにがいい？しゅきかん、えらんでー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comaindeeeer! Let's play together! What should we play? You pick, Comainder!",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "指挥官指挥官，今天我们来玩扮家家酒！指挥官扮丈夫，睦月是妻子！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん！きょうはおままごとやろ！しゅきかんはおとうさん、睦月がおかあさん、だよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder! Let's play house! You'll be daddy and I'll be mommy!",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "亲爱的，你今天又去哪里鬼混了！还想骗我？你身上有偷……偷西喵的味道！……欸？这是电视上学来的，虽然完全不明白什么意思！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「あなた！きょうはまたあのおんなにあいにいったの！？…わたしにまだかくすき！？ど…どろぼうねこのにおいがするわ！」……ほぇ？これ、テレビでみた！…どういういみ？わかんない！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "\"Hey! Did you go out to meet that woman again today? ... Are you still trying to hide it from me?! You... you reek of adultery!\" ... Huh? I saw it on TV! ... What does it mean? I dunno!",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "契……约？关系最好的证明？唔唔唔……我知道了！指挥官，给你糖！这样我们就互相有证明了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "け…こん？なかよしのこと？むぅ……わかった！しゅきかん、アメさんあげる！これでなかよしね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Prow... miss? Does that mean we're close friends? Hm... Okay! Comainder, I'll give you some candy! That makes us close friends!",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "muyue_2",
-				"id": "1",
-				"label": "Mr. Reindeer, Depart!",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "指挥官，圣诞快乐～今天的睦月也在努力做好孩子哦。呜，圣诞老人什么时候才会来呢，睦月好困……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、めりーくりすます！きょうも睦月がいいこしているよ！うぅ…サンタさんいつくるの…？？睦月、ねむいよぉ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Merry Christmas~! I am on my best behavior today as well! Uuu... when is Santa Claus going to come? I'm sleepy...",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "指挥官，圣诞快乐～今天的睦月也在努力做好孩子哦。呜，圣诞老人什么时候才会来呢，睦月好困……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、めりーくりすます！きょうも睦月がいいこしているよ！うぅ…サンタさんいつくるの…？？睦月、ねむいよぉ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Merry Christmas~! I am on my best behavior today as well! Uuu... when is Santa Claus going to come? I'm sleepy...",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "圣……诞……老……人？啊！这个人睦月知道！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "サン…タ…さん…？あ！睦月わかるよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Santa... Claus...? Ah! I know this person!",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "圣诞树上有糖果！我爬～我再爬～",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「くりすますつりー」にアメさんがある！のぼっちゃうぞー！んっしょ、んっしょー…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "驯鹿先生，出发！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "トナカイさん、しゅっぱーつ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "圣诞礼物？睦月想要糖！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「くりすますぷれぜんと」？睦月、アメさんがほしい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Christmas presents? Mutsuki wants candy!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "指挥官……？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん……？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander...?",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
-				"skin_id": "muyue_3",
-				"id": "2",
-				"label": "Candy Festival!",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_2",
-						"chinese": "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Details",
-						"media": "detail_2",
-						"chinese": "巧克力香蕉~章鱼烧~都好吃~和糖果比…？就差一丢丢吧~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "チョコバナナ～たこやき～おいしい！アメさんとどっちがおいしい…？アメさん！のほうがちょっとだけおいしいよ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Chocolate bananas and taiyaki~ are all delicious~ but compared to candy...? Let's call it a draw~",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Main 1",
-						"media": "main_1_2",
-						"chinese": "烟火大会好漂亮~指挥官，港区可以天天放烟火吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おはなびだ～しゅきかん、ぼこうでまいにち、おはなびやってもいい？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The fireworks are so pretty~ Comainder, can we put on fireworks every day? ",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 2",
-						"media": "main_2_2",
-						"chinese": "指挥官，睦月要这个糖果！啊，那个也要！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、睦月このアメさんがほしい！あ、それも！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, I want this candy! Um, I want that one too! ",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 3",
-						"media": "main_3_2",
-						"chinese": "捞金鱼的奖励是限定口味的糖果！？指挥官，我们马上去玩吧！！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "きんぎょすくいの「けいひん」が、めずらしいアメさん！？しゅきかん、はやくあそびにいこうよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The prize for goldfish scooping is a special flavor candy?! Comainder, let's go do that right now!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Touch",
-						"media": "touch_1_2",
-						"chinese": "啊，网又破了…捞金鱼好难！指挥官，帮帮睦月！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ…キンギョさん、またにげた……キンギョすくい、むずかしいよぉ！しゅきかん～たすけて～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Aww... my scooper broke again... goldfish scooping is so hard! Comainder, come help!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch (Special)",
-						"media": "touch_2_2",
-						"chinese": "糖果都要掉了啦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アメさんおちちゃうよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The candy's going to fall out!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Return to Port",
-						"media": "home_2",
-						"chinese": "啊，再不出发祭典的糖果都要被拿光了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ！おまつりいかないと、アメさんなくなっちゃう！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ahh! If we don't hurry to the festival, all the candy will be gone!",
-						"englishNote": ""
-					}
-				}
-			},
-			"4": {
-				"skin_id": "muyue_g",
-				"id": "9",
-				"label": "Mutsuki (Retrofit) ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "指挥官指挥官，改照结束啦，糖给你~欸？因为指挥官对我这么好，跟粑粑麻麻一样，所以以后睦月的糖就是指挥官的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、睦月かいぞうしゅうりょー！アメさんあげる！うん？しゅきかんは睦月にやさしいから、睦月のアメさんしゅきかんにあげる！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_9",
-						"chinese": "指挥官指挥官，改照结束啦，糖给你~欸？因为指挥官对我这么好，跟粑粑麻麻一样，所以以后睦月的糖就是指挥官的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、睦月かいぞうしゅうりょー！アメさんあげる！うん？しゅきかんは睦月にやさしいから、睦月のアメさんしゅきかんにあげる！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_9",
-						"chinese": "指挥官，今天要吃什么味的呀，我都有哦！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、きょうはどんなアメさんがいい？睦月ぜんぶもってるよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, what candy do you want today? I have all kinds!",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_9",
-						"chinese": "这些糖是给如月的，这些糖是给指挥官的，这些糖是我自己的，嗯嗯~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これは如月ちゃんの…これはしゅきかんの…これは睦月の…うんうん！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This one's for Kisaragi... this one's for the Comainder... this one's for me... Okay, that's everything!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_9",
-						"chinese": "指，挥，官，指挥，官，指挥官！诶嘿嘿，就是喊一喊~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅ、き、かん！しゅき、かん！しゅきかん！えへへーよんでみただけ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Co-main-der! Comain-der! Comainder! Hehehe~ I just wanted to say your name!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_9",
-						"chinese": "指挥官喜欢吃什么味的糖？我下次带多一点~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかんはどんなアメさんがいい？こんどもっともってくる！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What candy do you like, Comainder? I'll bring more of it next time!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_9",
-						"chinese": "指挥官，我们把如月叫过来一起扮家家酒吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかん、如月ちゃんをよんでおままごとしよーっ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, let's call Kisaragi over so we can play house together!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_9",
-						"chinese": "指挥官，要吃糖吗？给你~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "しゅきかんも、アメさんほしい？あげるー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Comainder, you want candy, too? Here!",
-						"englishNote": ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "2",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Destroyer",
-		"pt_upgrade": "4",
-		"pt_level": "3",
-		"add_level_attr": "HP",
-		"add_level_value": "1",
-		"add_level_shiptype": "Destroyer",
-		"t_level": "3",
-		"ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
-	}
+    "name_reference": "mutsuki",
+    "cn_reference": "muyue",
+    "nameJP": "睦月",
+    "nameCN": "睦月",
+    "ID": "271",
+    "name": "Mutsuki",
+    "internal_id": "301321",
+    "rarity": "Common",
+    "initialStar": "★☆☆☆",
+    "hull": "Destroyer",
+    "navy": "Sakura Empire",
+    "prefix": "IJN",
+    "buildTime": "00:21:00",
+    "class": "Mutsuki-Class",
+    "voiceActress": "Rumi Okubo",
+    "parameters": {
+        "firepower": "D",
+        "torpedo": "A",
+        "aviation": "E",
+        "evasion": "A",
+        "antiAir": "D",
+        "hp": "D"
+    },
+    "scrap": {
+        "gold": "4",
+        "oil": "3",
+        "medal": "0"
+    },
+    "releaseDate": {
+        "JP": "September 13, 2017",
+        "CN": "August 28, 2017",
+        "KR": "March 23, 2018",
+        "EN": "August 16, 2018"
+    },
+    "artist": {
+        "name": "月见",
+        "weibo": "http://www.weibo.com/p/1005051807769224",
+        "twitter": "",
+        "pixiv": "https://www.pixiv.net/member.php?id=786200",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "4",
+        "torpedo": "27",
+        "aviation": "0",
+        "reload": "14"
+    },
+    "acquisitionMethod": "Light Build",
+    "skill": {
+        "1": {
+            "icon": "2001",
+            "requirement": "Default Unlocked",
+            "name": "Quick Reload",
+            "type": "Offensive",
+            "description": "30% (60%) chance to activate every 20 seconds: increase own reload by 20% (40%) for 10 seconds"
+        },
+        "2": {
+            "icon": "1011",
+            "requirement": "Retrofit",
+            "name": "Torpedo Command - Destroyer",
+            "type": "Support",
+            "description": "Increases torpedo stat of Destroyers in the fleet by 5%(15%). Does not stack with other command skills that have similar effect."
+        },
+        "3": {
+            "icon": "22011",
+            "requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+            "name": "Full Barrage",
+            "type": "Offensive",
+            "description": "Every 15 (10) shots from the main guns，trigger Full Barrage - Mutsuki-Class I (II)"
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "muyue",
+            "name": "Mutsuki",
+            "description": "Mutsuki-class destroyer number one – Mutsuki.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
+        },
+        "2": {
+            "id": "muyue_2",
+            "name": "Mr. Reindeer, Depart!",
+            "description": "Commander, Merry Christmas~! I am on my best behavior today as well! Uuu... when is Santa Claus going to come? I'm sleepy...",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
+        },
+        "3": {
+            "id": "muyue_3",
+            "name": "Candy Festival!",
+            "description": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
+        },
+        "4": {
+            "id": "muyue_4",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                }
+            }
+        },
+        "5": {
+            "id": "muyue_g",
+            "name": "Mutsuki (Retrofit) ",
+            "description": "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy! ",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "35100",
+            "rarity": "Common",
+            "name": "Triple 610mm Torpedo"
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "1239",
+            "firepower": "51",
+            "torpedo": "385",
+            "antiAir": "120",
+            "aviation": "0",
+            "reload": "171",
+            "hit": "169",
+            "evasion": "187",
+            "speed": "44.7",
+            "luck": "35",
+            "asw": "162",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "7",
+            "armor": "Light"
+        },
+        "120": {
+            "hp": "1487",
+            "firepower": "59",
+            "torpedo": "427",
+            "antiAir": "138",
+            "aviation": "0",
+            "reload": "196",
+            "hit": "178",
+            "evasion": "193",
+            "speed": "44.7",
+            "luck": "35",
+            "asw": "181",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "7",
+            "armor": "Light"
+        },
+        "base": {
+            "hp": "240",
+            "firepower": "11",
+            "torpedo": "82",
+            "antiAir": "26",
+            "aviation": "0",
+            "reload": "72",
+            "hit": "65",
+            "evasion": "72",
+            "speed": "44.7",
+            "luck": "35",
+            "asw": "44",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "1",
+            "armor": "Light"
+        },
+        "100retrofit": {
+            "hp": "1404",
+            "firepower": "51",
+            "torpedo": "420",
+            "antiAir": "155",
+            "aviation": "0",
+            "reload": "191",
+            "hit": "169",
+            "evasion": "187",
+            "speed": "47.7",
+            "luck": "35",
+            "asw": "162",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "7",
+            "armor": "Light"
+        },
+        "120retrofit": {
+            "hp": "1652",
+            "firepower": "59",
+            "torpedo": "462",
+            "antiAir": "173",
+            "aviation": "0",
+            "reload": "216",
+            "hit": "178",
+            "evasion": "193",
+            "speed": "47.7",
+            "luck": "35",
+            "asw": "181",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "7",
+            "armor": "Light"
+        }
+    },
+    "limitBreak": {
+        "tier1": "Gains Full Barrage I / Torpedo Efficiency +5%",
+        "tier2": "Max Torpedo Capacity +1 / Pre-Loaded Torpedo +1 / Torpedo Efficiency +10%",
+        "tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "Destroyer Gun",
+            "efficiency": "70%/70%/70%/75%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
+        },
+        "2": {
+            "type": "Torpedo",
+            "efficiency": "125%/130%/140%/145%",
+            "amount": "1/1/2/2",
+            "preload": "0/0/1/1"
+        },
+        "3": {
+            "type": "Anti-Air Gun",
+            "efficiency": "70%/70%/70%/75%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "✓",
+            "CN": "✓",
+            "EN": "✓"
+        },
+        "heavy": {
+            "JP": "-",
+            "CN": "-",
+            "EN": "-"
+        },
+        "special": {
+            "JP": "-",
+            "CN": "-",
+            "EN": "-"
+        },
+        "limited": {
+            "JP": "-",
+            "CN": "-",
+            "EN": "-"
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "muyue",
+                "id": "0",
+                "label": "Mutsuki",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "睦月级驱逐舰一番舰—睦月",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "睦月型駆逐艦一番艦・睦月",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mutsuki-class destroyer number one – Mutsuki.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "睦月是第30驱逐队的睦月，睦月级的姐姐！虽然是旧型，也很能干的！喜欢吃糖，讨厌斯图……呜，不会念，总之就是讨厌！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "わたしは「だいさんじゅうくちくたい」の睦月、睦月型のおねえさん！ふるいけどすごいよ！アメさんがすき！すつ……うぅ、よめない…すつーか？きらい！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm Mutsuki, I'm in the \"Thirtieth Destroyer Division,\" and I'm the oldest Mutsuki-class ship! There are newer ships, but I'm strong! I love candy! I hate Stu... Um... I can't pronounce that... Stookuhs? I hate those!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "指（zi）……挥……官？是和耙耙麻麻一样的人吗？哇~是指挥官！但是，糖是睦月的，不给你哦！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅ…き…かん？パパとママと同じ人なの？うん？あ！しきかんだ！アメさんは睦月のものだから、あげないよー",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Co... main... der? Are you like my mommy or daddy? Hm? Ah, it's Commander! This my candy, I'm not giving you any!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "指挥官也想吃糖吗？但我的不给你~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかんもアメさんほしい？わたしのあげないよー",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You want some candy too, Comainder? You're not getting any of mine!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "糖果是最好吃的零食！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アメさんがいっちばんおいしいおやつだよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Candy is the best snack!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "指……挥……官？还是好难念哦……还是耙耙和麻麻简单！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅ……き……かん？よみにくいよぉ……パパとママのほうがかんたん！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Co... main... der? I can't pronounce that... \"Mommy\" and \"daddy\" are easier to pronounce!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "苹果味……芒果味……下次买草莓味好了！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "りんごさん、まんごーさん……つぎはいちごさんにする！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "First apple, then mango... next time I'll buy one that tastes like strawberry!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "1,2,3,4……唔，好难……6,然后……11,19！耶！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "いち、にー、さんー、よん……わからない……ろっく…つぎは…じゅういち！じゅうきゅう！やった！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "One, two, three, four... I forgot... six... after that comes... eleven! Then nineteen! I did it!",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "就算是指挥官，糖果也不会给你的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかんでも、アメさんあげないよー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I won't give you my candy, even if you are the comainder!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "指挥官好痒啦！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、くすぐったいー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, that tickles!",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "任……务？那是什么呀？有糖果吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "にん…むぅ？なに？アメさん？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Mish... shun? What's that? Is that a candy?",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "奖励，奖励~糖果，糖果~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ごほうび、ごほうび、アメさん、アメさん♪",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Rewards, rewards~! Candy, candy~!",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "指挥官，你的信~不过想要的话要给睦月糖果！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかんの、おてがみー！ほしいなら、睦月にアメさん、ちょうだいー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, you have mail! If you want it you'll have to give me candy!",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "趁着指挥官还没回来，偷偷地……哇！！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかんがもどらないうちに…あぅ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'll take some candy while the comainder's still... Oh!",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "指挥官~姐姐们回来啦~不知道有没有给我带糖果！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかーん。おねえちゃんたちがかえったよーわたしのアメさん、あるかなー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder! The older girls are back! I wonder if they brought me any candy?",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "这样我就能有更多的糖了吗！……没有吗？！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アメさんをもっとくれるの？…ないの！？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Will you give me more candy now? ... You won't?!",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "抢糖果的都是坏蛋！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "あ！アメさんをうばうわるいひとだ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ah! Those are the meanies who steal people's candy!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "赢啦~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "かったぁー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "We won~!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "呜呜……指挥官……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "うう…しゅきかん…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "*Sob*... Comainder...",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "skill",
+                        "media": "skill",
+                        "chinese": "让你们见识一下糖果的力量~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アメさんのちから、みせてやる~！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'll show you how powerful candy is~!",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "如月在哪儿呢……好想她呀",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "如月はどこ……あいたい……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Where's Kisaragi... I miss her...",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "每种糖果都很好吃，好难选……指挥官，帮我选~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "どのアメさんもおいしそう、えらべないよぉ……しゅきかん、てつだってー",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Both candies look tasty... I can't choose a single one... Help me pick, Commander!",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "指挥官~一~起~来~玩~吧！要玩什么好呢！指挥官来选吧！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかーん！いーしょーにーあーそーぼうーよー！なにがいい？しゅきかん、えらんでー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comaindeeeer! Let's play together! What should we play? You pick, Comainder!",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "指挥官指挥官，今天我们来玩扮家家酒！指挥官扮丈夫，睦月是妻子！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん！きょうはおままごとやろ！しゅきかんはおとうさん、睦月がおかあさん、だよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder! Let's play house! You'll be daddy and I'll be mommy!",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "亲爱的，你今天又去哪里鬼混了！还想骗我？你身上有偷……偷西喵的味道！……欸？这是电视上学来的，虽然完全不明白什么意思！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "「あなた！きょうはまたあのおんなにあいにいったの！？…わたしにまだかくすき！？ど…どろぼうねこのにおいがするわ！」……ほぇ？これ、テレビでみた！…どういういみ？わかんない！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "\"Hey! Did you go out to meet that woman again today? ... Are you still trying to hide it from me?! You... you reek of adultery!\" ... Huh? I saw it on TV! ... What does it mean? I dunno!",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "契……约？关系最好的证明？唔唔唔……我知道了！指挥官，给你糖！这样我们就互相有证明了！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "け…こん？なかよしのこと？むぅ……わかった！しゅきかん、アメさんあげる！これでなかよしね！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Prow... miss? Does that mean we're close friends? Hm... Okay! Comainder, I'll give you some candy! That makes us close friends!",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "2": {
+                "skin_id": "muyue_2",
+                "id": "1",
+                "label": "Mr. Reindeer, Depart!",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "指挥官，圣诞快乐～今天的睦月也在努力做好孩子哦。呜，圣诞老人什么时候才会来呢，睦月好困……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、めりーくりすます！きょうも睦月がいいこしているよ！うぅ…サンタさんいつくるの…？？睦月、ねむいよぉ……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, Merry Christmas~! I am on my best behavior today as well! Uuu... when is Santa Claus going to come? I'm sleepy...",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "指挥官，圣诞快乐～今天的睦月也在努力做好孩子哦。呜，圣诞老人什么时候才会来呢，睦月好困……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、めりーくりすます！きょうも睦月がいいこしているよ！うぅ…サンタさんいつくるの…？？睦月、ねむいよぉ……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, Merry Christmas~! I am on my best behavior today as well! Uuu... when is Santa Claus going to come? I'm sleepy...",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "圣……诞……老……人？啊！这个人睦月知道！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "サン…タ…さん…？あ！睦月わかるよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Santa... Claus...? Ah! I know this person!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "圣诞树上有糖果！我爬～我再爬～",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "「くりすますつりー」にアメさんがある！のぼっちゃうぞー！んっしょ、んっしょー…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "驯鹿先生，出发！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "トナカイさん、しゅっぱーつ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "圣诞礼物？睦月想要糖！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "「くりすますぷれぜんと」？睦月、アメさんがほしい！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Christmas presents? Mutsuki wants candy!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "指挥官……？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん……？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander...?",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "3": {
+                "skin_id": "muyue_3",
+                "id": "2",
+                "label": "Candy Festival!",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2",
+                        "chinese": "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带睦月去祭典了~睦月要好多好多祭典上的糖果！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、睦月、ゆかたきがえた！えへへ、しゅきかんとおまつり～睦月、アメさんたっくさんもらっちゃうよー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, I put on my yukata just like you said! Ehehe, you should take me to the festival so I can get lots and lots of candy!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Details",
+                        "media": "detail_2",
+                        "chinese": "巧克力香蕉~章鱼烧~都好吃~和糖果比…？就差一丢丢吧~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "チョコバナナ～たこやき～おいしい！アメさんとどっちがおいしい…？アメさん！のほうがちょっとだけおいしいよ～",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Chocolate bananas and taiyaki~ are all delicious~ but compared to candy...? Let's call it a draw~",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Main 1",
+                        "media": "main_1_2",
+                        "chinese": "烟火大会好漂亮~指挥官，港区可以天天放烟火吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "おはなびだ～しゅきかん、ぼこうでまいにち、おはなびやってもいい？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The fireworks are so pretty~ Comainder, can we put on fireworks every day? ",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 2",
+                        "media": "main_2_2",
+                        "chinese": "指挥官，睦月要这个糖果！啊，那个也要！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、睦月このアメさんがほしい！あ、それも！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, I want this candy! Um, I want that one too! ",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 3",
+                        "media": "main_3_2",
+                        "chinese": "捞金鱼的奖励是限定口味的糖果！？指挥官，我们马上去玩吧！！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "きんぎょすくいの「けいひん」が、めずらしいアメさん！？しゅきかん、はやくあそびにいこうよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The prize for goldfish scooping is a special flavor candy?! Comainder, let's go do that right now!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Touch",
+                        "media": "touch_1_2",
+                        "chinese": "啊，网又破了…捞金鱼好难！指挥官，帮帮睦月！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "あ…キンギョさん、またにげた……キンギョすくい、むずかしいよぉ！しゅきかん～たすけて～",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Aww... my scooper broke again... goldfish scooping is so hard! Comainder, come help!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2",
+                        "chinese": "糖果都要掉了啦！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アメさんおちちゃうよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The candy's going to fall out!",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Return to Port",
+                        "media": "home_2",
+                        "chinese": "啊，再不出发祭典的糖果都要被拿光了！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "あ！おまつりいかないと、アメさんなくなっちゃう！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ahh! If we don't hurry to the festival, all the candy will be gone!",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "4": {
+                "skin_id": "muyue_4",
+                "id": "3",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_3"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_3"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_3"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_3"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_3"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_3"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_3"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_3"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_3"
+                    }
+                }
+            },
+            "5": {
+                "skin_id": "muyue_g",
+                "id": "9",
+                "label": "Mutsuki (Retrofit) ",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "指挥官指挥官，改照结束啦，糖给你~欸？因为指挥官对我这么好，跟粑粑麻麻一样，所以以后睦月的糖就是指挥官的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、睦月かいぞうしゅうりょー！アメさんあげる！うん？しゅきかんは睦月にやさしいから、睦月のアメさんしゅきかんにあげる！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_9",
+                        "chinese": "指挥官指挥官，改照结束啦，糖给你~欸？因为指挥官对我这么好，跟粑粑麻麻一样，所以以后睦月的糖就是指挥官的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、睦月かいぞうしゅうりょー！アメさんあげる！うん？しゅきかんは睦月にやさしいから、睦月のアメさんしゅきかんにあげる！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, I'm done retrofitting! Have some candy! Hm? You're always nice to me, so I'm giving you some candy!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_9",
+                        "chinese": "指挥官，今天要吃什么味的呀，我都有哦！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、きょうはどんなアメさんがいい？睦月ぜんぶもってるよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, what candy do you want today? I have all kinds!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_9",
+                        "chinese": "这些糖是给如月的，这些糖是给指挥官的，这些糖是我自己的，嗯嗯~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "これは如月ちゃんの…これはしゅきかんの…これは睦月の…うんうん！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This one's for Kisaragi... this one's for the Comainder... this one's for me... Okay, that's everything!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_9",
+                        "chinese": "指，挥，官，指挥，官，指挥官！诶嘿嘿，就是喊一喊~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅ、き、かん！しゅき、かん！しゅきかん！えへへーよんでみただけ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Co-main-der! Comain-der! Comainder! Hehehe~ I just wanted to say your name!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_9",
+                        "chinese": "指挥官喜欢吃什么味的糖？我下次带多一点~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかんはどんなアメさんがいい？こんどもっともってくる！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What candy do you like, Comainder? I'll bring more of it next time!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_9",
+                        "chinese": "指挥官，我们把如月叫过来一起扮家家酒吧！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかん、如月ちゃんをよんでおままごとしよーっ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, let's call Kisaragi over so we can play house together!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_9",
+                        "chinese": "指挥官，要吃糖吗？给你~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "しゅきかんも、アメさんほしい？あげるー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Comainder, you want candy, too? Here!",
+                        "englishNote": ""
+                    }
+                }
+            }
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "2",
+        "add_get_attr": "HP",
+        "add_get_value": "1",
+        "add_get_shiptype": "Destroyer",
+        "pt_upgrade": "4",
+        "pt_level": "3",
+        "add_level_attr": "HP",
+        "add_level_value": "1",
+        "add_level_shiptype": "Destroyer",
+        "t_level": "3",
+        "ships": "mutsuki,kisaragi,uzuki,minazuki,fumizuki,nagatsuki,mikazuki"
+    }
 }
