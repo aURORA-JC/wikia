@@ -115,24 +115,24 @@
                 }
             }
         },
-        "3" : { 
+        "3" : {
             "id" : "nengdai_4",
             "name" : "Xanadu's Eventide",
             "description" : "Commander, what are you standing around for? Did you also need a change of pace? That makes two of us— Come, there's nothing to be afraid of here.",
             "expression" : {
-                "0" : { 
+                "0" : {
                     "id" : "0"
-                },      
-                "1" : { 
+                },
+                "1" : {
                     "id" : "1"
-                },      
-                "2" : { 
+                },
+                "2" : {
                     "id" : "2"
-                },      
-                "3" : { 
+                },
+                "3" : {
                     "id" : "3"
-                },      
-                "4" : { 
+                },
+                "4" : {
                     "id" : "4"
                 },
                 "5" : {
@@ -140,46 +140,46 @@
                 }
             }
         },
-        "4" : { 
+        "4" : {
             "id" : "nengdai_6",
             "name" : "Fragrance of the Eastern Snow",
             "description" : "Whew... Oh, are you cold by any chance? I have some hot tea for you if you'd like. If you want someone to chat with, I'd be glad to keep you company.",
             "expression" : {
-                "0" : { 
+                "0" : {
                     "id" : "0"
-                },      
-                "1" : { 
+                },
+                "1" : {
                     "id" : "1"
-                },      
-                "2" : { 
+                },
+                "2" : {
                     "id" : "2"
-                },      
-                "3" : { 
+                },
+                "3" : {
                     "id" : "3"
-                },      
-                "4" : { 
+                },
+                "4" : {
                     "id" : "4"
                 }
             }
         },
-        "5" : { 
+        "5" : {
             "id" : "nengdai_h",
             "name" : "",
             "description" : "",
             "expression" : {
-                "0" : { 
+                "0" : {
                     "id" : "0"
-                },      
-                "1" : { 
+                },
+                "1" : {
                     "id" : "1"
-                },      
-                "2" : { 
+                },
+                "2" : {
                     "id" : "2"
-                },      
-                "3" : { 
+                },
+                "3" : {
                     "id" : "3"
-                },      
-                "4" : { 
+                },
+                "4" : {
                     "id" : "4"
                 },
                 "5": {
@@ -187,6 +187,25 @@
                 },
                 "6": {
                     "id": "6"
+                }
+            }
+        },
+        "6" : {
+            "id" : "nengdai_5",
+            "name" : "",
+            "description" : "",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
                 }
             }
         }
@@ -911,7 +930,7 @@
                 "id": "2",
                 "label": "Xanadu's Eventide",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -1086,7 +1105,7 @@
                 "id": "3",
                 "label": "Fragrance of the Eastern Snow",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -1225,7 +1244,7 @@
                 "id": "8",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -1264,6 +1283,53 @@
                     "10": {
                         "event": "Return to Port",
                         "media": "home_8"
+                    }
+                }
+            },
+            "6": {
+                "skin_id": "nengdai_5",
+                "id": "4",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_4"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_4"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_4"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_4"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_4"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_4"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_4"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_4"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_4"
                     }
                 }
             }

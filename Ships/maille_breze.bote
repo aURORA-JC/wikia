@@ -1,19 +1,18 @@
 {
-    "name_reference": "boise",
-    "cn_reference": "boyixi",
+    "name_reference": "maille_breze",
+    "cn_reference": "mayebuleize",
     "nameJP": "",
     "nameCN": "",
-    "ID": "514",
-    "name": "Boise",
-    "internal_id": "102291",
+    "ID": "523",
+    "name": "Maillé Brézé",
+    "internal_id": "801081",
     "rarity": "Elite",
     "initialStar": "★★☆☆☆",
-    "hull": "Light Cruiser",
-    "navy": "Eagle Union",
-    "prefix": "USS",
+    "hull": "Destroyer",
+    "navy": "Iris Libre",
+    "prefix": "FFNF",
     "buildTime": "",
-    "class": "Brooklyn-Class",
-    "voiceActress": "",
+    "class": "Vauquelin-class",
     "parameters": {
         "firepower": "",
         "torpedo": "",
@@ -46,27 +45,20 @@
         "aviation": "",
         "reload": ""
     },
-    "acquisitionMethod": "",
+    "acquisitionMethod": "Event: Skybound Oratorio Rerun",
     "skill": {
         "1": {
-            "icon": "",
+            "icon": "14950",
             "requirement": "",
             "name": "",
-            "type": "",
-            "description": ""
-        },
-        "2": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
+            "type": "Offensive",
             "description": ""
         }
     },
     "skin": {
         "1": {
-            "id": "boyixi",
-            "name": "Boise",
+            "id": "mayebuleize",
+            "name": "",
             "description": "",
             "expression": {
                 "0": {
@@ -96,30 +88,8 @@
             }
         },
         "2": {
-            "id": "boyixi_2",
+            "id": "mayebuleize_3",
             "name": "",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                }
-            }
-        },
-        "3": {
-            "id": "boyixi_3",
-            "name": "Boise",
             "description": "",
             "expression": {
                 "0": {
@@ -139,19 +109,6 @@
                 },
                 "5": {
                     "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                }
-            }
-        },
-        "101": {
-            "id": "boyixi_ex1100",
-            "name": "Boise",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
                 }
             }
         }
@@ -268,30 +225,30 @@
     "equipmentLoadout": {
         "1": {
             "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
+            "efficiency": "%/%/%/%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
         },
         "2": {
             "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
+            "efficiency": "%/%/%/%",
+            "amount": "1/1/2/2",
+            "preload": "0/0/1/1"
         },
         "3": {
-            "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
+            "type": "Anti-Air Gun",
+            "efficiency": "%/%/%/%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
         },
         "4": {
-            "type": "Auxiliary",
+            "type": "Auxilary",
             "efficiency": "-",
             "amount": "-",
             "preload": "-"
         },
         "5": {
-            "type": "Auxiliary",
+            "type": "Auxilary",
             "efficiency": "-",
             "amount": "-",
             "preload": "-"
@@ -314,8 +271,8 @@
             "EN": ""
         },
         "limited": {
-            "JP": "",
-            "CN": "",
+            "JP": "✓",
+            "CN": "✓",
             "EN": ""
         }
     },
@@ -341,9 +298,9 @@
     "lines": {
         "skin": {
             "1": {
-                "skin_id": "boyixi",
+                "skin_id": "mayebuleize",
                 "id": "0",
-                "label": "Boise",
+                "label": "Maillé Brézé",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
@@ -462,25 +419,21 @@
                         "media": "link1"
                     },
                     "30": {
-                        "event": "Additional Voice Line 2",
-                        "media": "link2"
-                    },
-                    "31": {
                         "event": "Extra",
                         "media": "extra"
                     },
-                    "32": {
+                    "31": {
                         "event": "Present Like",
                         "media": "present_like"
                     },
-                    "33": {
+                    "32": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
                     }
                 }
             },
             "2": {
-                "skin_id": "boyixi_2",
+                "skin_id": "mayebuleize_3",
                 "id": "1",
                 "label": "",
                 "dialogue": {
@@ -489,218 +442,40 @@
                         "media": ""
                     },
                     "2": {
-                        "event": "Biography",
-                        "media": "profile_1"
-                    },
-                    "3": {
                         "event": "Acquisition",
                         "media": "get_1"
                     },
-                    "4": {
+                    "3": {
                         "event": "Login",
                         "media": "login_1"
                     },
-                    "5": {
+                    "4": {
                         "event": "Details",
                         "media": "detail_1"
                     },
-                    "6": {
+                    "5": {
                         "event": "Main 1",
                         "media": "main_1_1"
                     },
-                    "7": {
+                    "6": {
                         "event": "Main 2",
                         "media": "main_2_1"
                     },
-                    "8": {
+                    "7": {
                         "event": "Main 3",
                         "media": "main_3_1"
                     },
-                    "9": {
+                    "8": {
                         "event": "Touch",
                         "media": "touch_1_1"
                     },
-                    "10": {
+                    "9": {
                         "event": "Touch (Special)",
                         "media": "touch_2_1"
                     },
-                    "11": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head_1"
-                    },
-                    "12": {
-                        "event": "Mission",
-                        "media": "task_1"
-                    },
-                    "13": {
-                        "event": "Mission Complete",
-                        "media": "mission_complete_1"
-                    },
-                    "14": {
-                        "event": "Mail",
-                        "media": "mail_1"
-                    },
-                    "15": {
+                    "10": {
                         "event": "Return to Port",
                         "media": "home_1"
-                    },
-                    "16": {
-                        "event": "Commission Complete",
-                        "media": "expedition_1"
-                    },
-                    "17": {
-                        "event": "Enhancement",
-                        "media": "upgrade_1"
-                    },
-                    "18": {
-                        "event": "Flagship",
-                        "media": "warcry_1"
-                    },
-                    "19": {
-                        "event": "Victory",
-                        "media": "mvp_1"
-                    },
-                    "20": {
-                        "event": "Defeat",
-                        "media": "lose_1"
-                    },
-                    "21": {
-                        "event": "Skill",
-                        "media": "skill_1"
-                    },
-                    "22": {
-                        "event": "Low HP",
-                        "media": "hp_1"
-                    },
-                    "23": {
-                        "event": "Affinity (Upset)",
-                        "media": "feeling1_1"
-                    },
-                    "24": {
-                        "event": "Affinity (Stranger)",
-                        "media": "feeling2_1"
-                    },
-                    "25": {
-                        "event": "Affinity (Friendly)",
-                        "media": "feeling3_1"
-                    },
-                    "26": {
-                        "event": "Affinity (Like)",
-                        "media": "feeling4_1"
-                    },
-                    "27": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_1"
-                    },
-                    "28": {
-                        "event": "Pledge",
-                        "media": "propose_1"
-                    },
-                    "32": {
-                        "event": "Present Like",
-                        "media": "present_like_1"
-                    },
-                    "33": {
-                        "event": "Present Dislike",
-                        "media": "present_dislike_1"
-                    }
-                }
-            },
-            "3": {
-                "skin_id": "boyixi_3",
-                "id": "2",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_2"
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_2"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_2"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_2"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_2"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_2"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_2"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_2"
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_2"
-                    }
-                }
-            },
-            "101": {
-                "skin_id": "boyixi_ex1100",
-                "id": "0",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_ex1100"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_ex1100"
-                    },
-                    "5": {
-                        "event": "Main 4",
-                        "media": "main_4_ex1100"
-                    },
-                    "6": {
-                        "event": "Main 5",
-                        "media": "main_5_ex1100"
-                    },
-                    "7": {
-                        "event": "Main 6",
-                        "media": "main_6_ex1100"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_ex1100"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_ex1100"
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_ex1100"
-                    },
-                    "11": {
-                        "event": "Victory",
-                        "media": "mvp_ex1100"
-                    },
-                    "12": {
-                        "event": "Mail",
-                        "media": "mail_ex1100"
                     }
                 }
             }
@@ -717,6 +492,7 @@
         "add_level_value": "",
         "add_level_shiptype": "",
         "t_level": "",
-        "ships": "brooklyn,phoenix,honolulu,st_louis,helena,boise,helena_meta"
-    }
+        "ships": "tartu,vauquelin,maille_breze"
+    },
+    "voiceActress": ""
 }

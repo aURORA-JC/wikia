@@ -17,7 +17,7 @@
         "link": "bullin_mkii",
         "shipType": "common"
     },
-    "3": {  
+    "3": {
         "name": "Specialized Bulin Custom MKIII",
         "hull": "Destroyer",
         "navy": "Universal",
@@ -3302,7 +3302,7 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-    "440": {                                                                                                                         
+    "440": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/suweiaibeilaluosi.png",
         "link": "sovetskaya_belorussiya",
@@ -3541,7 +3541,7 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/z26.png",
         "link": "z26",
         "name": "Z26",
-        "navy": "Ironblood", 
+        "navy": "Ironblood",
         "rarity": "Super Rare",
         "shipType": "common"
     },
@@ -3550,7 +3550,7 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/u96.png",
         "link": "u96",
         "name": "U-96",
-        "navy": "Ironblood", 
+        "navy": "Ironblood",
         "rarity": "Super Rare",
         "shipType": "common"
     },
@@ -3755,8 +3755,8 @@
     "490": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/wenqinzuojiaobeidi.png",
-        "link": "vincenzo_gioberti", 
-        "name": "Vincenzo Gioberti", 
+        "link": "vincenzo_gioberti",
+        "name": "Vincenzo Gioberti",
         "navy": "Sardegna Empire",
         "rarity": "Elite",
         "shipType": "common"
@@ -4038,6 +4038,24 @@
         "name": "New Orleans",
         "navy": "Eagle Union",
         "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "522": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kebu.png",
+        "link": "le_terrible",
+        "name": "Le Terrible",
+        "navy": "Iris Libre",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "523": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mayebuleize.png",
+        "link": "maille_breze",
+        "name": "Maillé Brézé",
+        "navy": "Iris Libre",
+        "rarity": "Elite",
         "shipType": "common"
     },
     "P001": {

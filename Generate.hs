@@ -497,7 +497,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                         _ -> lineSet % "id" -}
                                                   id = lineSet % "id"
                                                   ex = case "_ex" `isInfixOf` skinid of
-                                                         True -> "_ex100"
+                                                         True -> "_ex1100"
                                                          False -> ""
                                                   luaskin' = (map (\v -> lookupi v (read (case (lineSet % "id", json % "internal_id") of
                                                                                             (_,        "") -> "0"
