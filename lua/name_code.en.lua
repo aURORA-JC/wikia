@@ -1020,6 +1020,46 @@ pg.name_code = {
 		name = "Hakuryuu",
 		code = "Hakuryuu"
 	},
+	{
+		id = 205,
+		name = "Souryuu Meta",
+		code = "Souryuu Meta"
+	},
+	{
+		id = 206,
+		name = "Yura",
+		code = "Yura"
+	},
+	{
+		id = 207,
+		name = "Yamakaze",
+		code = "Yamakaze"
+	},
+	{
+		id = 208,
+		name = "Katsuragi",
+		code = "Katsuragi"
+	},
+	{
+		id = 209,
+		name = "Unryuu",
+		code = "Unryuu"
+	},
+	{
+		id = 210,
+		name = "Fusou META",
+		code = "Fusou META"
+	},
+	{
+		id = 211,
+		name = "Fuso Retrofit",
+		code = "Fuso Retrofit"
+	},
+	{
+		id = 212,
+		name = "Mogami Retrofit",
+		code = "Mogami Retrofit"
+	},
 	[250] = {
 		id = 250,
 		name = "I-9",

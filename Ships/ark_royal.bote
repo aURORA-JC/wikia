@@ -165,7 +165,7 @@
 				}
 			}
 		},
-		"5": {
+		"6": {
 			"id": "huangjiafangzhou_g",
 			"name": "Ark Royal (Retrofit)",
 			"description": "",
@@ -1215,7 +1215,7 @@
             },
             "6": {
                 "skin_id": "huangjiafangzhou_g",
-                "id": "4",
+                "id": "9",
                 "label": "",
                 "dialogue": {
                     "1": {  
@@ -1224,39 +1224,39 @@
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_4"
+                        "media": "get_9"
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_4"
+                        "media": "login_9"
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_4"
+                        "media": "detail_9"
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_4"
+                        "media": "main_1_9"
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_4"
+                        "media": "main_2_9"
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_4"
+                        "media": "main_3_9"
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_4"
+                        "media": "touch_1_9"
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_4"
+                        "media": "touch_2_9"
                     },
                     "10": {
                         "event": "Return to Port",
-                        "media": "home_4"
+                        "media": "home_9"
                     }
                 }
             },

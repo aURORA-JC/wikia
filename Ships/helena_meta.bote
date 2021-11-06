@@ -1,307 +1,307 @@
 {
-	"name_reference": "helena_meta",
-	"cn_reference": "hailunna_alter",
-	"nameJP": "ヘレナ(META)",
-	"nameCN": "海伦娜·META",
-	"ID": "M003",
-	"name": "Helena META",
-	"internal_id": "9702011",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Light Cruiser",
-	"navy": "META",
-	"prefix": "",
-	"buildTime": "",
-	"class": "Brooklyn-Class",
-	"voiceActress": "",
-	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
-	},
-	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"releaseDate": {
-		"JP": "2021/06/10",
-		"CN": "2021/06/10",
-		"KR": "",
-		"EN": "2021/06/10"
-	},
-	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "0"
-	},
-	"acquisitionMethod": "META Lab",
-	"skill": {
-		"1": {
-			"icon": "800090",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		},
-		"2": {
-			"icon": "800100",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		},
-		"3": {
-			"icon": "800110",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		},
-		"4": {
-			"icon": "800120",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "hailunna_alter",
-			"name": "Helena META",
-			"description": "Helena META",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1" : {
-					"id": "1"
-				},
-				"2" : {
-					"id": "2"
-				},
-				"3" : {
-					"id": "3"
-				},
-				"4" : {
-					"id": "4"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		}
-	},
-	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "",
-			"efficiency": "///",
-			"amount": "///",
-			"preload": "///"
-		},
-		"2": {
-			"type": "",
-			"efficiency": "///",
-			"amount": "///",
-			"preload": "///"
-		},
-		"3": {
-			"type": "",
-			"efficiency": "///",
-			"amount": "///",
-			"preload": "///"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "World",
-				"chapter": {
-					"1": {
-						"label": "Ch.6",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "hailunna_alter",
-				"id": "0",
-				"label": "Helena META",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
+    "name_reference": "helena_meta",
+    "cn_reference": "hailunna_alter",
+    "nameJP": "ヘレナ(META)",
+    "nameCN": "海伦娜·META",
+    "ID": "M003",
+    "name": "Helena META",
+    "internal_id": "9702011",
+    "rarity": "Super Rare",
+    "initialStar": "★★★☆☆☆",
+    "hull": "Light Cruiser",
+    "navy": "META",
+    "prefix": "",
+    "buildTime": "",
+    "class": "Brooklyn-Class",
+    "voiceActress": "",
+    "parameters": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "evasion": "",
+        "antiAir": "",
+        "hp": ""
+    },
+    "scrap": {
+        "gold": "",
+        "oil": "",
+        "medal": ""
+    },
+    "releaseDate": {
+        "JP": "2021/06/10",
+        "CN": "2021/06/10",
+        "KR": "",
+        "EN": "2021/06/10"
+    },
+    "artist": {
+        "name": "",
+        "weibo": "",
+        "twitter": "",
+        "pixiv": "",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "0",
+        "torpedo": "0",
+        "aviation": "0",
+        "reload": "0"
+    },
+    "acquisitionMethod": "META Lab",
+    "skill": {
+        "1": {
+            "icon": "800090",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        },
+        "2": {
+            "icon": "800100",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        },
+        "3": {
+            "icon": "800110",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        },
+        "4": {
+            "icon": "800120",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "hailunna_alter",
+            "name": "Helena META",
+            "description": "Helena META",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1" : {
+                    "id": "1"
+                },
+                "2" : {
+                    "id": "2"
+                },
+                "3" : {
+                    "id": "3"
+                },
+                "4" : {
+                    "id": "4"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "base": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        }
+    },
+    "limitBreak": {
+        "tier1": "",
+        "tier2": "",
+        "tier3": ""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "",
+            "efficiency": "///",
+            "amount": "///",
+            "preload": "///"
+        },
+        "2": {
+            "type": "",
+            "efficiency": "///",
+            "amount": "///",
+            "preload": "///"
+        },
+        "3": {
+            "type": "",
+            "efficiency": "///",
+            "amount": "///",
+            "preload": "///"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "World",
+                "chapter": {
+                    "1": {
+                        "label": "Ch.6",
+                        "node": {
+                            "1": {
+                                "drop": "-",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "hailunna_alter",
+                "id": "0",
+                "label": "Helena META",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
                         "english": "",
-						"englishNote": ""
-					},
+                        "englishNote": ""
+                    },
                     "2": {
                         "event": "Biography",
                         "media": "profile",
@@ -654,21 +654,21 @@
                         "english": "",
                         "englishNote": ""
                     }
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": "brooklyn,phoenix,honolulu,st_louis,helena,boise,helena_meta"
-	}
+                }
+            }
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": "brooklyn,phoenix,honolulu,st_louis,helena,boise,helena_meta"
+    }
 }

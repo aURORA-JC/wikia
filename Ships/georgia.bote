@@ -1,984 +1,1056 @@
 {
-	"name_reference": "georgia",
-	"cn_reference": "zuozhiya",
-	"nameJP": "ジョージア",
-	"nameCN": "",
-	"ID": "P008",
-	"name": "Georgia",
-	"internal_id": "199021",
-	"rarity": "Priority",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Battleship",
-	"navy": "Eagle Union",
-	"prefix": "USS",
-	"buildTime": "N/A",
-	"class": "Georgia-Class",
-	"parameters": {
-		"firepower": "S",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "C",
-		"antiAir": "B",
-		"hp": "S"
-	},
-	"scrap": {
-		"gold": "11",
-		"oil": "4",
-		"medal": "10"
-	},
-	"releaseDate": {
-		"JP": "April 18, 2019",
-		"CN": "April 18, 2019",
-		"KR": "April 18, 2019",
-		"EN": "December 19, 2019"
-	},
-	"voiceActress": "Shino Shimoji",
-	"artist": {
-		"name": "八九",
-		"weibo": "https://www.weibo.com/NinnG1017",
-		"twitter": "",
-		"pixiv": "https://www.pixiv.net/member.php?id=4935155",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "0"
-	},
-	"acquisitionMethod": "Research and Development",
-	"skill": {
-		"1": {
-			"icon": "19150",
-			"requirement": "Default Unlocked",
-			"name": "Iron Sight Caliber",
-			"type": "Support",
-			"description": "Decreases this ship's Main Gun Spread Range by 3 and increases its DMG dealt to CAs, CBs, BCs, BBs, and BBVs by 10.0% (20.0%)."
-		},
-		"2": {
-			"icon": "18150",
-			"requirement": "Strengthen Level 35",
-			"name": "Iron Sight Caliber+",
-			"type": "Support",
-			"description": "Decreases this ship's Main Gun Spread Range by 3 and increases its DMG dealt to CAs, CBs, BCs, BBs, and BBVs by 10.0% (20.0%), and also increases its DMG dealt to CVs and CVLs by 1.0% (10.0%)."
-		},
-		"3": {
-			"icon": "19160",
-			"requirement": "Default Unlocked",
-			"name": "Heavy Barrel Blaster",
-			"type": "Offensive",
-			"description": "When firing the main gun there's a 50-80% chance to fire a special barrage (barrage always crits, firepower is increased by skill levels)"
-		},
-		"4": {
-			"icon": "19000",
-			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
-			"name": "Siren Killer Ⅰ",
-			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to Sirens by 5.0%."
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "zuozhiya",
-			"name": "Georgia",
-			"description": "Battleship – Georgia. ",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		},
-		"2": {
-			"id": "zuozhiya_2",
-			"name": "Georgia",
-			"description": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		},
-		"3": {
-			"id": "zuozhiya_4",
-			"name": "Lanier Swan",
-			"description": "Heh heh, the warm sun and the sea breeze really hit the spot, don't they? Alright, let's get out there and enjoy ourselves! That's what you've been waiting for, right, Commander?",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "7543",
-			"firepower": "394",
-			"torpedo": "0",
-			"antiAir": "368",
-			"aviation": "0",
-			"reload": "142",
-			"hit": "60",
-			"evasion": "24",
-			"speed": "33",
-			"luck": "0",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "16",
-			"armor": "Heavy"
-		},
-		"120": {
-			"hp": "8297",
-			"firepower": "436",
-			"torpedo": "0",
-			"antiAir": "406",
-			"aviation": "0",
-			"reload": "163",
-			"hit": "73",
-			"evasion": "30",
-			"speed": "33",
-			"luck": "0",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "16",
-			"armor": "Heavy"
-		},
-		"base": {
-			"hp": "1459",
-			"firepower": "84",
-			"torpedo": "0",
-			"antiAir": "79",
-			"aviation": "0",
-			"reload": "60",
-			"hit": "23",
-			"evasion": "9",
-			"speed": "33",
-			"luck": "0",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "5",
-			"armor": "Heavy"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "33",
-			"luck": "0",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "16",
-			"armor": "Heavy"
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "33",
-			"luck": "0",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "16",
-			"armor": "Heavy"
-		}
-	},
-	"strengthenLevel": {
-		"level5": "HP+356 | Anti-Air+19 | Main Gun Efficiency＋5%",
-		"level10": "Main Gun+1 | Main Gun Efficiency+5% | Limit Break ★★★★☆☆",
-		"level15": "HP+711 | Anti-Air+39 | Anti-Air Efficiency ＋10%",
-		"level20": "Secondary Gun+2 | Main Gun Efficiency+10% | Limit Break ★★★★★☆",
-		"level25": "HP+1068 | Anti-Air+58 | Main Gun Efficiency＋5%",
-		"level30": "Main Gun Efficiency+15% | Limit Break ★★★★★★",		
-		"level35": "Luck +5, Improve skill \"Iron Sight Caliber\""
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Battleship Gun",
-			"efficiency": "125%/135%/145%/165%",
-			"amount": "1/2/2/2",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Light Cruiser Gun",
-			"efficiency": "200%/200%/200%/200%",
-			"amount": "1/1/3/3",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "100%/100%/110%/110%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "zuozhiya",
-				"id": "0",
-				"label": "Georgia",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "战列舰—佐治亚",
-						"chineseTL": "Battleship - Georgia",
-						"chineseNote": "",
-						"japanese": "戦艦・ジョージア",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Battleship – Georgia.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "我是白鹰所属战列舰，佐治亚。比起那几位远房姐妹，我的主炮口径更大一些。而我，会用这主炮，粉碎挡在面前的所有敌人",
-						"chineseTL": "I am the Eagle Union battleship, Georgia. Compared to my distant sisters, my main cannons are of larger caliber. As for me, using these cannons, I will pulverize any enemy that stands in my path.",
-						"chineseNote": "",
-						"japanese": "ユニオンの戦艦ジョージアだ。ちょっと縁があるあの子と比べて、私の主砲のほうが口径が大きい。そう、この主砲で目の前に立ちはだかる敵全て…薙ぎ払うのだ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am the Eagle Union Battleship Georgia. My main guns are bigger than those of my distant cousins. Yes indeedy, these guns of mine take all the bad guys in front of me... and blast 'em all to hell!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "我是白鹰的佐治亚。安心吧，我会用巨炮为你带来胜利的",
-						"chineseTL": "I am Georgia of the Eagle Union. Rest assured, I will use these cannons to bring you victory",
-						"chineseNote": "",
-						"japanese": "ユニオン所属のジョージアだ。安心しろ、この大砲であんたに勝利をもたらしてやるぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am Georgia from the Eagle Union. Fear not, for my cannons shall bring victory in your name.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "哼，来得正好。热身运动刚刚好，是要演习还是出击？",
-						"chineseTL": "Hmph, you came at the right time. I was just done with warm-up exercises, are we going for drill exercises or an attack?",
-						"chineseNote": "",
-						"japanese": "ほぅ、いいタイミングで来たな。ウォーミングアップが済んだところだ。さては演習か？それとも出撃か？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh, perfect timing. I just finished warming up. Time to exercise? Or sortie?",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "定期的装备检查与维护可是非常重要的，指挥官，你也要来帮忙吗？",
-						"chineseTL": "Regular equipment inspection and maintenance are very important. Commander, can you lend me a hand?",
-						"chineseNote": "",
-						"japanese": "兵装の定期検査とメンテナンスは大事だ。指揮官も手伝ってくれるか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's a good idea to look over your weapons and keep it all working. You want to help?",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "我有个梦想，那就是有一天，大海上不再有硝烟，所有人都回到和平之中…",
-						"chineseTL": "I have a dream. There will be one day, when the oceans won't be covered by smoke from gunfire, and everyone will return to peaceful times...",
-						"chineseNote": "",
-						"japanese": "私には夢がある。それはいつか、この海での硝煙をなくし、すべての人が平和に生きるという夢だ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I have a dream. A dream where the seas are free of the stink of gunpowder, and all the people of the world live in peace.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "可乐真是很棒的饮料呢，啊，不过酸素可乐指挥官大概不能喝吧……",
-						"chineseTL": "Cola is such an awesome drink. Ah, but I don't think Commander can drink oxygen cola...",
-						"chineseNote": "",
-						"japanese": "コーラは飲み物として最高だろ？あっ、指揮官は酸素コーラ飲めないんじゃ…なかったっけ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Cola sure is the best drink, isn't it? Oh, but you can't drink Oxy-cola, Commander...",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "有机会的话，还是挺想去世界各个不同的地方看看的呢，重樱、东煌、皇家……干脆计划个环球旅行好像也不错？",
-						"chineseTL": "If there's a chance, I want to visit different places across the world. Sakura Empire, Eastern Radiance, Royal Navy... Just planning a tour around the world already sounds good?",
-						"chineseNote": "",
-						"japanese": "きっかけさえあればいろんなところに行きたいな。重桜、東煌、ロイヤル……ふむ、いっそ世界一周でもいい気がする？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If I had the chance, I'd love to travel all around the world. The Sakura Empire, the Dragon Empery, the Royal Navy... Hmm, some kind of world tour sounds nice, doesn't it?",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Normal Touch",
-						"media": "touch_1",
-						"chinese": "嚯~指挥官也觉得这巨炮很美吗？那就尽管欣赏个够吧~",
-						"chineseTL": "Oh~ Commander also thinks these cannons are beautiful? Enjoy it until you're satisfied~",
-						"chineseNote": "",
-						"japanese": "ははーん、指揮官もこの主砲が美しいと思ってくれるのか？思う存分鑑賞するがいいぞ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oooh? You find my guns so appealing, Commander? Enjoy them to your heart's content~",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Special Touch",
-						"media": "touch_2",
-						"chinese": "嚯~？看来指挥官是想要自告奋勇当炮靶呢…",
-						"chineseTL": "Oh~? It seems like Commander has the courage to become cannon target...",
-						"chineseNote": "",
-						"japanese": "ジョージアビーム！…なんてな、ただの飾りだって！ははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oooh? Hey Commander, did you want me to use you for target practice...?",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Rub",
-						"media": "touch_head",
-						"chinese": "佐治亚光线！…开玩笑的，只是普通的头饰而已，啊哈哈",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ジョージアビーム！…なんてな、ただの飾りだって！ははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "GEORGIA BEEAAAAM! ... Just playing around! Hahaha!",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "任务啊…如果是战斗任务就好了呢，嘿嘿~",
-						"chineseTL": "A mission... It would be nice if it's a combat mission, hehe~",
-						"chineseNote": "",
-						"japanese": "任務か…戦闘任務ならさぞいいだろうな。ははは",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A mission...? If it's a combat mission, we're good to go. Hahaha!",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "没有报告过的任务，就不算完成。可别忘了啊，指挥官",
-						"chineseTL": "If it's a mission that hasn't been reported, it's not considered complete. Don't forget, Commander",
-						"chineseNote": "",
-						"japanese": "レポートを提出していない任務は完了したとは言えない。指揮官、確認するのを忘れるでないぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A job's not done until a report's submitted. Commander, don't forget to double check everything.",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "指挥官，你的信。如果方便的话，能把信封上的风景纪念邮票留给我吗？",
-						"chineseTL": "Commander, your mail. If you don't mind, can you let me have the scenic commemorative stamp on the envelope?",
-						"chineseNote": "",
-						"japanese": "指揮官、あんた宛のメールだ。良ければ封筒にある切手を譲ってくれないか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, mail here for you. Would it be okay if I kept the stamp?",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "嗯，出击辛苦了。喝瓶冰镇可乐放松下吧",
-						"chineseTL": "Hmm, good work out on sortie. Have a bottle of iced cola and relax",
-						"chineseNote": "",
-						"japanese": "おう、出撃ご苦労だ。冷えたコーラでも飲んでスッキリしないか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Yo. Good work out there. Nothing like an ice cold Cola after work, huh?",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "委托组回来了呢。等等，把这些酸素可乐带给她们吧，慰劳将士的辛苦是指挥官应当做的事情",
-						"chineseTL": "The commission team came back. Wait, bring these oxygen cola with you, thanking the good work of warriors is something Commander should do",
-						"chineseNote": "",
-						"japanese": "委託組が戻ってきたな。そうだ、酸素コーラも持っていってあげよう。部下を労うのは上官のすべきことだからな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commission team's back. Hey, how about we serve them up some Oxy-cola? An officer has to reward her subordinates for a job well done, you know.",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "下次的战斗，你会看到我的表现的",
-						"chineseTL": "Next battle, you will see my performance",
-						"chineseNote": "",
-						"japanese": "次の戦闘では私の力を見せつけてやろう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You'll see how strong I am next time I fight.",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "这次会是什么样的对手呢？希望不要辜负了我的期待啊",
-						"chineseTL": "What kind of opponent will it be this time? I hope you don't disappoint me",
-						"chineseNote": "",
-						"japanese": "今度はどんな相手だ？期待して損したってのは勘弁してくれよー！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Who am I up against this time? I hope they're up to the task!",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "再坚固的装甲，也只有被巨炮击碎的命运！",
-						"chineseTL": "A stronge armor, will only be fated to be pulverized by large cannons!",
-						"chineseNote": "",
-						"japanese": "どんな装甲だろうと…この巨砲で撃ち貫くのみ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "No matter how thick the armor... these guns can pierce it!",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "只能…暂时撤退了吗",
-						"chineseTL": "Can we... temporarily retreat?",
-						"chineseNote": "",
-						"japanese": "撤退しか…ないのか",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "All we can do... is fall back?",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "skill",
-						"media": "skill",
-						"chinese": "这巨炮的轰鸣就是你们最后的回忆！",
-						"chineseTL": "The roar of these cannons will be your last memory!",
-						"chineseNote": "",
-						"japanese": "この巨砲の響きでお前らの最後を奏でよう！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The sound of these massive guns is your funeral march!",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "咕唔…装甲区损伤？！我会加倍奉还的！",
-						"chineseTL": "Ugh... The armor was damaged?! I will repay it twice!",
-						"chineseNote": "",
-						"japanese": "くっ…装甲損傷だと！？倍返ししてやる！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ack... you scratched my armor?! You'll pay for that!",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "看来指挥官并不足以拥有这份力量……",
-						"chineseTL": "It seems like Commander is not worthy of this power...",
-						"chineseNote": "",
-						"japanese": "指揮官はこの力を手にするのに相応しくないようだな……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You are unworthy of my power...",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "桃子很不错的哦，营养又美味，指挥官要来一颗吗？",
-						"chineseTL": "Peaches are very good, they are nutritious and tasty. Want one, Commander?",
-						"chineseNote": "",
-						"japanese": "モモはいいぞ。美味しくて栄養もバッチリだ。指揮官もどうだ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Peaches are great. Tasty and nutritious. Want one, Commander?",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "出击战斗固然让人热血沸腾，不过偶尔放松一下也是很重要的呢",
-						"chineseTL": "Sortie out to battle makes you boil with hot-blooded passion, but taking a rest to relax once in a while is also very important",
-						"chineseNote": "",
-						"japanese": "出撃、戦闘は確かに血が沸くものだが、たまにはリラックスするのも大事だぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Sorties and battles really get my blood pumping, but every once in a while it's nice to relax.",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "下次有机会的话，就一起去旅行怎么样？有你同行的话，感觉会是段有趣的旅程呢",
-						"chineseTL": "It we get a chance next time, how about going on a trip together? With you as my travel partner, I feel like it will be a fun trip",
-						"chineseNote": "",
-						"japanese": "今度旅行する時は一緒にどうだ？あんたがいれば、きっと面白い旅になるだろうな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Why don't we go on a trip together next time? I think we'd have a lot of fun together.",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "先从白鹰出发…然后到皇家和鸢尾…再是东煌…——嗯？我在计划我们的环球之旅哦。事到如今，指挥官不会说不愿意去了吧~？",
-						"chineseTL": "First we depart from the Eagle Union... then to Royal Navy and Iris Libre... then Eastern Radiance... Eh? I'm planning our trip around the world. At this point, Commander wouldn't say you don't want to go, right~?",
-						"chineseNote": "",
-						"japanese": "ユニオンから出発して…ロイヤルとアイリス、そして東煌と――あっ、いつかする世界一周の旅行の計画を立てているんだ。まさか、行かないってことはないだろう？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "So we head out from the Eagle Union... Drop in on the Royal Navy and Iris, then head over to the Dragon Empery... Oh! I was just planning our world tour. Don't tell me you can't go?",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "咳…没想到会是指挥官发起的直球进攻啊~？啊哈哈…我很高兴哦，看来环球之旅可以提前准备出发了呢~",
-						"chineseTL": "*Cough*... I didn't think Commander would be the one initiating the attack~? Ahaha... I'm really happy, seems like we can depart on the global tour ahead of schedule~",
-						"chineseNote": "",
-						"japanese": "コホン…指揮官が真正面からアタックしてくるとは思わなかったな…いや、私としては世界一周の旅が思ったより早く始まりそうで嬉しいのだぞ、はははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ahem... I never thought you'd attack me head on, Commander... Well, I guess I'm glad I get my world tour sooner than I expected. Hahaha!",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Like Present",
-						"media": "present_like",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私に？はいでは、ありがたく頂戴させてもらいます！いいセンスだ！",
-						"japaneseTL": "For me? Yes, thank you very much! Good taste!",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Dislike Present",
-						"media": "present_dislike",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官は、もう少しセンスを磨いておくべきだな...",
-						"japaneseTL": "Commander should improve his taste a bit more...",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"31": {
-						"event": "Main Title",
-						"media": "extra",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "zuozhiya_2",
-				"id": "1",
-				"label": "Georgia",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おや？指揮官も気分転換か？私？あはは、どうもあのフォーマルな雰囲気が苦手だから、こうして外に新鮮な空気を吸いに来たわけだが……少し一緒に歩かないか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おや？指揮官も気分転換か？私？あはは、どうもあのフォーマルな雰囲気が苦手だから、こうして外に新鮮な空気を吸いに来たわけだが……少し一緒に歩かないか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "还是旁边没有人的时候能够放松下来啊～对吧，指挥官？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "人がいないところのほうが落ち着くな。指揮官もそう思わないか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "这套礼服？啊，这是西雅图给我准备的……老实说，连我自己都不知道我还能打扮成这样……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このドレス？ああシアトルのやつが用意してくれたものだ。正直こんな格好をする日がくるとは思ってなかったな……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "呼，还是在这样的地方喝可乐适合我，指挥官，我包里带了一些，要喝吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふぅ…やっぱりこうして静かな場所で酸素コーラを飲んでいるほうが性に合う。あっ指揮官も飲まないか？まだあるぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "指挥官，你不回去会场没有关系吗，还有很多人在等着你吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官は会場に戻らなくても大丈夫か？待ってる子もいるだろ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "指挥官，不用担心，我很喜欢这支舰队，等一会儿，我也会回到会场去的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、心配しなくていい、この艦隊のことが好きだ。あと少ししたら私も会場に戻るぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "呜哇……！好险，谢谢你扶我，指挥官……我拿高跟鞋是真的没辙",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "！！危なかった…指揮官、ありがとう、こういうハイヒールの靴はどうも苦手でな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "指挥官，这里的空气很不错，稍微休息一下吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、ここの空気はスッキリしているぞ。少し休憩しよう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_1",
-						"chinese": "月色真美啊，指挥官……欸？啊，不，我不是那个意思……呃，不对，我也不是没有那个意思…啊哈哈…怎么说呢…有点不好意思啊……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、今夜はいい月だな……え？そういう意味じゃなくて……あ、いや、そういう意味がないわけでもないぞ？……一体ここは何と言えば……まずい、なんだか恥ずかしいぞ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
-				"skin_id": "zuozhiya_4",
-				"id": "2",
-				"label": "Lanier Swan",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "嗯哼，阳光正好，海风也恰到好处。好啦，一起来享受夏天吧！你也很期待的吧，指挥官？",
-						"chineseTL": "Mhm, the sun is just right, and the sea breeze is on point. Okay, let's enjoy summer together! Commander, weren't you looking forward to this too?",
-						"chineseNote": "",
-						"japanese": "ふふ、日差しも海風もちょうどいい感じ、か。よし、では思いっきり夏を楽しもうじゃないか！指揮官も結構、期待していたんだろ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Heh heh, the warm sun and the sea breeze really hit the spot, don't they? Alright, let's get out there and enjoy ourselves! That's what you've been waiting for, right, Commander?",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_2",
-						"chinese": "嗯哼，阳光正好，海风也恰到好处。好啦，一起来享受夏天吧！你也很期待的吧，指挥官？",
-						"chineseTL": "Mhm, the sun is just right, and the sea breeze is on point. Okay, let's enjoy summer together! Commander, weren't you looking forward to this too?",
-						"chineseNote": "",
-						"japanese": "ふふ、日差しも海風もちょうどいい感じ、か。よし、では思いっきり夏を楽しもうじゃないか！指揮官も結構、期待していたんだろ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Heh heh, the warm sun and the sea breeze really hit the spot, don't they? Alright, let's get out there and enjoy ourselves! That's what you've been waiting for, right, Commander?",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_2",
-						"chinese": "哦？来的正好，我正要把遮阳伞撑起来，来搭把手吧，指挥官。",
-						"chineseTL": "Oh? Good timing. I was just setting up the umbrella. Lend me a hand, Commander.",
-						"chineseNote": "",
-						"japanese": "ほぉ、いいタイミングで来たな。指揮官、このピーチパラソルを立てるのを手伝ってもらえないか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ooh, you're just in time. Commander, mind helping me set up this parasol?",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_2",
-						"chinese": "这件黑色薄纱是西雅图帮忙选的，那家伙虽然看起来大大咧咧的，却意外地对这些分外拿手呢…",
-						"chineseTL": "Seattle helped to choose this black tulle shawl. Though she may seem scatterbrained, she's unexpectedly good at stuff like this.",
-						"chineseNote": "",
-						"japanese": "このレースはシアトルが選んだものだ。あいつこういうのにやたら詳しいよな……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Seattle picked out this lace coverup for me. She's good with this kind of thing...",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_2",
-						"chinese": "怎么样，这个太阳眼镜造型很有趣吧？嘿嘿，我还挺喜欢的呢。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このサングラスはどうだ？結構気に入ってるよ。ははは",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What do you think of my sunglasses? I dig them, personally. Hahaha!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_2",
-						"chinese": "说到夏天，怎么能少了冰镇的可乐呢！你也来一瓶吧指挥官—哦，错了错了，嘿嘿，这个是酸素可乐，这个才是给指挥官的可乐。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夏といえば、冷えた酸素コーラがないとな！指揮官も一本……間違えた、これは指揮官飲めないやつだ…こっちなら飲めるぞ、ほら",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Nothing beats an ice cold Oxy Cola on a summer day! Here, take one, Commander... Oh right, you can't drink these. This one's for you.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_2",
-						"chinese": "趁着夏天还未过去，来计划个“世界沙滩之旅”好像也不错？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夏がまだ過ぎないうちに、「世界のビーチ巡り」をやってみても悪くない気がするな？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "We've still got some summer left, so why not try to plan a \"Beach World Tour\" for us?",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_2",
-						"chinese": "看你露出一副“不知道眼睛往哪摆”的表情意外的有趣呢，哈哈哈！",
-						"chineseTL": "Your \"I don't know where to look\" expression is quite amusing, hahaha!",
-						"chineseNote": "",
-						"japanese": "指揮官のその「目のやり場がわからない」って顔、見ていると意外と楽しいな。はははは",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, it's really funny watching you try to figure out where it's safe to look. Hahaha!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_2",
-						"chinese": "嚯~？指挥官的心也随着来到海边放开了嘛，是不是需要给你一点“刺激”呢？比如这个遮阳伞什么的？",
-						"chineseTL": "Ho? Has the beach opened Commander's heart? Hmm, do I need to provide some \"stimulation\"? How about this umbrella?",
-						"chineseNote": "",
-						"japanese": "ははーん、さては指揮官、海辺で気分もノッてきたかな。どれ、もっと「刺」激を与えたほうがいいか？ビーチパラソルでこうやってカキーンっとな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ah haah? Commander, you've really gotten into the spirit of the beach now. Maybe I should give you a bit more \"stimulation.\" Like a whooping with this parasol, for instance.",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_2",
-						"chinese": "嗯，出击辛苦了。要来根冰棒吗？我这里还有。",
-						"chineseTL": "Hm, sorties are tough. Want a popsicle? I still have some.",
-						"chineseNote": "",
-						"japanese": "おう、出撃ご苦労だ。アイスでもどうだ？まだまだあるぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ooh, nice work on that sortie. Did you want an ice cream? I still have some here.",
-						"englishNote": ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "26",
-		"add_get_attr": "Hit",
-		"add_get_value": "1",
-		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"pt_upgrade": "52",
-		"pt_level": "39",
-		"add_level_attr": "Firepower",
-		"add_level_value": "2",
-		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"t_level": "9",
-		"ships": "georgia"
-	}
+    "name_reference": "georgia",
+    "cn_reference": "zuozhiya",
+    "nameJP": "ジョージア",
+    "nameCN": "",
+    "ID": "P008",
+    "name": "Georgia",
+    "internal_id": "199021",
+    "rarity": "Priority",
+    "initialStar": "★★★☆☆☆",
+    "hull": "Battleship",
+    "navy": "Eagle Union",
+    "prefix": "USS",
+    "buildTime": "N/A",
+    "class": "Georgia-Class",
+    "parameters": {
+        "firepower": "S",
+        "torpedo": "E",
+        "aviation": "E",
+        "evasion": "C",
+        "antiAir": "B",
+        "hp": "S"
+    },
+    "scrap": {
+        "gold": "11",
+        "oil": "4",
+        "medal": "10"
+    },
+    "releaseDate": {
+        "JP": "April 18, 2019",
+        "CN": "April 18, 2019",
+        "KR": "April 18, 2019",
+        "EN": "December 19, 2019"
+    },
+    "voiceActress": "Shino Shimoji",
+    "artist": {
+        "name": "八九",
+        "weibo": "https://www.weibo.com/NinnG1017",
+        "twitter": "",
+        "pixiv": "https://www.pixiv.net/member.php?id=4935155",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "0",
+        "torpedo": "0",
+        "aviation": "0",
+        "reload": "0"
+    },
+    "acquisitionMethod": "Research and Development",
+    "skill": {
+        "1": {
+            "icon": "19150",
+            "requirement": "Default Unlocked",
+            "name": "Iron Sight Caliber",
+            "type": "Support",
+            "description": "Decreases this ship's Main Gun Spread Range by 3 and increases its DMG dealt to CAs, CBs, BCs, BBs, and BBVs by 10.0% (20.0%)."
+        },
+        "2": {
+            "icon": "18150",
+            "requirement": "Strengthen Level 35",
+            "name": "Iron Sight Caliber+",
+            "type": "Support",
+            "description": "Decreases this ship's Main Gun Spread Range by 3 and increases its DMG dealt to CAs, CBs, BCs, BBs, and BBVs by 10.0% (20.0%), and also increases its DMG dealt to CVs and CVLs by 1.0% (10.0%)."
+        },
+        "3": {
+            "icon": "19160",
+            "requirement": "Default Unlocked",
+            "name": "Heavy Barrel Blaster",
+            "type": "Offensive",
+            "description": "When firing the main gun there's a 50-80% chance to fire a special barrage (barrage always crits, firepower is increased by skill levels)"
+        },
+        "4": {
+            "icon": "19000",
+            "requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+            "name": "Siren Killer Ⅰ",
+            "type": "Offensive",
+            "description": "Increases the DMG this ship deals to Sirens by 5.0%."
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "zuozhiya",
+            "name": "Georgia",
+            "description": "Battleship – Georgia. ",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        },
+        "2": {
+            "id": "zuozhiya_2",
+            "name": "Georgia",
+            "description": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        },
+        "3": {
+            "id": "zuozhiya_4",
+            "name": "Lanier Swan",
+            "description": "Heh heh, the warm sun and the sea breeze really hit the spot, don't they? Alright, let's get out there and enjoy ourselves! That's what you've been waiting for, right, Commander?",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        },
+        "4": {
+            "id": "zuozhiya_6",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "7543",
+            "firepower": "394",
+            "torpedo": "0",
+            "antiAir": "368",
+            "aviation": "0",
+            "reload": "142",
+            "hit": "60",
+            "evasion": "24",
+            "speed": "33",
+            "luck": "0",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "16",
+            "armor": "Heavy"
+        },
+        "120": {
+            "hp": "8297",
+            "firepower": "436",
+            "torpedo": "0",
+            "antiAir": "406",
+            "aviation": "0",
+            "reload": "163",
+            "hit": "73",
+            "evasion": "30",
+            "speed": "33",
+            "luck": "0",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "16",
+            "armor": "Heavy"
+        },
+        "base": {
+            "hp": "1459",
+            "firepower": "84",
+            "torpedo": "0",
+            "antiAir": "79",
+            "aviation": "0",
+            "reload": "60",
+            "hit": "23",
+            "evasion": "9",
+            "speed": "33",
+            "luck": "0",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "5",
+            "armor": "Heavy"
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "33",
+            "luck": "0",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "16",
+            "armor": "Heavy"
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "33",
+            "luck": "0",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "16",
+            "armor": "Heavy"
+        }
+    },
+    "strengthenLevel": {
+        "level5": "HP+356 | Anti-Air+19 | Main Gun Efficiency＋5%",
+        "level10": "Main Gun+1 | Main Gun Efficiency+5% | Limit Break ★★★★☆☆",
+        "level15": "HP+711 | Anti-Air+39 | Anti-Air Efficiency ＋10%",
+        "level20": "Secondary Gun+2 | Main Gun Efficiency+10% | Limit Break ★★★★★☆",
+        "level25": "HP+1068 | Anti-Air+58 | Main Gun Efficiency＋5%",
+        "level30": "Main Gun Efficiency+15% | Limit Break ★★★★★★",		
+        "level35": "Luck +5, Improve skill \"Iron Sight Caliber\""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "Battleship Gun",
+            "efficiency": "125%/135%/145%/165%",
+            "amount": "1/2/2/2",
+            "preload": "0/0/0/0"
+        },
+        "2": {
+            "type": "Light Cruiser Gun",
+            "efficiency": "200%/200%/200%/200%",
+            "amount": "1/1/3/3",
+            "preload": "0/0/0/0"
+        },
+        "3": {
+            "type": "Anti-Air Gun",
+            "efficiency": "100%/100%/110%/110%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "zuozhiya",
+                "id": "0",
+                "label": "Georgia",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "战列舰—佐治亚",
+                        "chineseTL": "Battleship - Georgia",
+                        "chineseNote": "",
+                        "japanese": "戦艦・ジョージア",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Battleship – Georgia.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "我是白鹰所属战列舰，佐治亚。比起那几位远房姐妹，我的主炮口径更大一些。而我，会用这主炮，粉碎挡在面前的所有敌人",
+                        "chineseTL": "I am the Eagle Union battleship, Georgia. Compared to my distant sisters, my main cannons are of larger caliber. As for me, using these cannons, I will pulverize any enemy that stands in my path.",
+                        "chineseNote": "",
+                        "japanese": "ユニオンの戦艦ジョージアだ。ちょっと縁があるあの子と比べて、私の主砲のほうが口径が大きい。そう、この主砲で目の前に立ちはだかる敵全て…薙ぎ払うのだ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I am the Eagle Union Battleship Georgia. My main guns are bigger than those of my distant cousins. Yes indeedy, these guns of mine take all the bad guys in front of me... and blast 'em all to hell!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "我是白鹰的佐治亚。安心吧，我会用巨炮为你带来胜利的",
+                        "chineseTL": "I am Georgia of the Eagle Union. Rest assured, I will use these cannons to bring you victory",
+                        "chineseNote": "",
+                        "japanese": "ユニオン所属のジョージアだ。安心しろ、この大砲であんたに勝利をもたらしてやるぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I am Georgia from the Eagle Union. Fear not, for my cannons shall bring victory in your name.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "哼，来得正好。热身运动刚刚好，是要演习还是出击？",
+                        "chineseTL": "Hmph, you came at the right time. I was just done with warm-up exercises, are we going for drill exercises or an attack?",
+                        "chineseNote": "",
+                        "japanese": "ほぅ、いいタイミングで来たな。ウォーミングアップが済んだところだ。さては演習か？それとも出撃か？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh, perfect timing. I just finished warming up. Time to exercise? Or sortie?",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "定期的装备检查与维护可是非常重要的，指挥官，你也要来帮忙吗？",
+                        "chineseTL": "Regular equipment inspection and maintenance are very important. Commander, can you lend me a hand?",
+                        "chineseNote": "",
+                        "japanese": "兵装の定期検査とメンテナンスは大事だ。指揮官も手伝ってくれるか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It's a good idea to look over your weapons and keep it all working. You want to help?",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "我有个梦想，那就是有一天，大海上不再有硝烟，所有人都回到和平之中…",
+                        "chineseTL": "I have a dream. There will be one day, when the oceans won't be covered by smoke from gunfire, and everyone will return to peaceful times...",
+                        "chineseNote": "",
+                        "japanese": "私には夢がある。それはいつか、この海での硝煙をなくし、すべての人が平和に生きるという夢だ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I have a dream. A dream where the seas are free of the stink of gunpowder, and all the people of the world live in peace.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "可乐真是很棒的饮料呢，啊，不过酸素可乐指挥官大概不能喝吧……",
+                        "chineseTL": "Cola is such an awesome drink. Ah, but I don't think Commander can drink oxygen cola...",
+                        "chineseNote": "",
+                        "japanese": "コーラは飲み物として最高だろ？あっ、指揮官は酸素コーラ飲めないんじゃ…なかったっけ……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Cola sure is the best drink, isn't it? Oh, but you can't drink Oxy-cola, Commander...",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "有机会的话，还是挺想去世界各个不同的地方看看的呢，重樱、东煌、皇家……干脆计划个环球旅行好像也不错？",
+                        "chineseTL": "If there's a chance, I want to visit different places across the world. Sakura Empire, Eastern Radiance, Royal Navy... Just planning a tour around the world already sounds good?",
+                        "chineseNote": "",
+                        "japanese": "きっかけさえあればいろんなところに行きたいな。重桜、東煌、ロイヤル……ふむ、いっそ世界一周でもいい気がする？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If I had the chance, I'd love to travel all around the world. The Sakura Empire, the Dragon Empery, the Royal Navy... Hmm, some kind of world tour sounds nice, doesn't it?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Normal Touch",
+                        "media": "touch_1",
+                        "chinese": "嚯~指挥官也觉得这巨炮很美吗？那就尽管欣赏个够吧~",
+                        "chineseTL": "Oh~ Commander also thinks these cannons are beautiful? Enjoy it until you're satisfied~",
+                        "chineseNote": "",
+                        "japanese": "ははーん、指揮官もこの主砲が美しいと思ってくれるのか？思う存分鑑賞するがいいぞ～",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oooh? You find my guns so appealing, Commander? Enjoy them to your heart's content~",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Special Touch",
+                        "media": "touch_2",
+                        "chinese": "嚯~？看来指挥官是想要自告奋勇当炮靶呢…",
+                        "chineseTL": "Oh~? It seems like Commander has the courage to become cannon target...",
+                        "chineseNote": "",
+                        "japanese": "ジョージアビーム！…なんてな、ただの飾りだって！ははは！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oooh? Hey Commander, did you want me to use you for target practice...?",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Rub",
+                        "media": "touch_head",
+                        "chinese": "佐治亚光线！…开玩笑的，只是普通的头饰而已，啊哈哈",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ジョージアビーム！…なんてな、ただの飾りだって！ははは！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "GEORGIA BEEAAAAM! ... Just playing around! Hahaha!",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "任务啊…如果是战斗任务就好了呢，嘿嘿~",
+                        "chineseTL": "A mission... It would be nice if it's a combat mission, hehe~",
+                        "chineseNote": "",
+                        "japanese": "任務か…戦闘任務ならさぞいいだろうな。ははは",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A mission...? If it's a combat mission, we're good to go. Hahaha!",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "没有报告过的任务，就不算完成。可别忘了啊，指挥官",
+                        "chineseTL": "If it's a mission that hasn't been reported, it's not considered complete. Don't forget, Commander",
+                        "chineseNote": "",
+                        "japanese": "レポートを提出していない任務は完了したとは言えない。指揮官、確認するのを忘れるでないぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A job's not done until a report's submitted. Commander, don't forget to double check everything.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "指挥官，你的信。如果方便的话，能把信封上的风景纪念邮票留给我吗？",
+                        "chineseTL": "Commander, your mail. If you don't mind, can you let me have the scenic commemorative stamp on the envelope?",
+                        "chineseNote": "",
+                        "japanese": "指揮官、あんた宛のメールだ。良ければ封筒にある切手を譲ってくれないか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, mail here for you. Would it be okay if I kept the stamp?",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "嗯，出击辛苦了。喝瓶冰镇可乐放松下吧",
+                        "chineseTL": "Hmm, good work out on sortie. Have a bottle of iced cola and relax",
+                        "chineseNote": "",
+                        "japanese": "おう、出撃ご苦労だ。冷えたコーラでも飲んでスッキリしないか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Yo. Good work out there. Nothing like an ice cold Cola after work, huh?",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "委托组回来了呢。等等，把这些酸素可乐带给她们吧，慰劳将士的辛苦是指挥官应当做的事情",
+                        "chineseTL": "The commission team came back. Wait, bring these oxygen cola with you, thanking the good work of warriors is something Commander should do",
+                        "chineseNote": "",
+                        "japanese": "委託組が戻ってきたな。そうだ、酸素コーラも持っていってあげよう。部下を労うのは上官のすべきことだからな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commission team's back. Hey, how about we serve them up some Oxy-cola? An officer has to reward her subordinates for a job well done, you know.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "下次的战斗，你会看到我的表现的",
+                        "chineseTL": "Next battle, you will see my performance",
+                        "chineseNote": "",
+                        "japanese": "次の戦闘では私の力を見せつけてやろう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You'll see how strong I am next time I fight.",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "这次会是什么样的对手呢？希望不要辜负了我的期待啊",
+                        "chineseTL": "What kind of opponent will it be this time? I hope you don't disappoint me",
+                        "chineseNote": "",
+                        "japanese": "今度はどんな相手だ？期待して損したってのは勘弁してくれよー！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Who am I up against this time? I hope they're up to the task!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "再坚固的装甲，也只有被巨炮击碎的命运！",
+                        "chineseTL": "A stronge armor, will only be fated to be pulverized by large cannons!",
+                        "chineseNote": "",
+                        "japanese": "どんな装甲だろうと…この巨砲で撃ち貫くのみ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "No matter how thick the armor... these guns can pierce it!",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "只能…暂时撤退了吗",
+                        "chineseTL": "Can we... temporarily retreat?",
+                        "chineseNote": "",
+                        "japanese": "撤退しか…ないのか",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "All we can do... is fall back?",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "skill",
+                        "media": "skill",
+                        "chinese": "这巨炮的轰鸣就是你们最后的回忆！",
+                        "chineseTL": "The roar of these cannons will be your last memory!",
+                        "chineseNote": "",
+                        "japanese": "この巨砲の響きでお前らの最後を奏でよう！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The sound of these massive guns is your funeral march!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "咕唔…装甲区损伤？！我会加倍奉还的！",
+                        "chineseTL": "Ugh... The armor was damaged?! I will repay it twice!",
+                        "chineseNote": "",
+                        "japanese": "くっ…装甲損傷だと！？倍返ししてやる！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ack... you scratched my armor?! You'll pay for that!",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "看来指挥官并不足以拥有这份力量……",
+                        "chineseTL": "It seems like Commander is not worthy of this power...",
+                        "chineseNote": "",
+                        "japanese": "指揮官はこの力を手にするのに相応しくないようだな……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You are unworthy of my power...",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "桃子很不错的哦，营养又美味，指挥官要来一颗吗？",
+                        "chineseTL": "Peaches are very good, they are nutritious and tasty. Want one, Commander?",
+                        "chineseNote": "",
+                        "japanese": "モモはいいぞ。美味しくて栄養もバッチリだ。指揮官もどうだ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Peaches are great. Tasty and nutritious. Want one, Commander?",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "出击战斗固然让人热血沸腾，不过偶尔放松一下也是很重要的呢",
+                        "chineseTL": "Sortie out to battle makes you boil with hot-blooded passion, but taking a rest to relax once in a while is also very important",
+                        "chineseNote": "",
+                        "japanese": "出撃、戦闘は確かに血が沸くものだが、たまにはリラックスするのも大事だぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Sorties and battles really get my blood pumping, but every once in a while it's nice to relax.",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "下次有机会的话，就一起去旅行怎么样？有你同行的话，感觉会是段有趣的旅程呢",
+                        "chineseTL": "It we get a chance next time, how about going on a trip together? With you as my travel partner, I feel like it will be a fun trip",
+                        "chineseNote": "",
+                        "japanese": "今度旅行する時は一緒にどうだ？あんたがいれば、きっと面白い旅になるだろうな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Why don't we go on a trip together next time? I think we'd have a lot of fun together.",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "先从白鹰出发…然后到皇家和鸢尾…再是东煌…——嗯？我在计划我们的环球之旅哦。事到如今，指挥官不会说不愿意去了吧~？",
+                        "chineseTL": "First we depart from the Eagle Union... then to Royal Navy and Iris Libre... then Eastern Radiance... Eh? I'm planning our trip around the world. At this point, Commander wouldn't say you don't want to go, right~?",
+                        "chineseNote": "",
+                        "japanese": "ユニオンから出発して…ロイヤルとアイリス、そして東煌と――あっ、いつかする世界一周の旅行の計画を立てているんだ。まさか、行かないってことはないだろう？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "So we head out from the Eagle Union... Drop in on the Royal Navy and Iris, then head over to the Dragon Empery... Oh! I was just planning our world tour. Don't tell me you can't go?",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "咳…没想到会是指挥官发起的直球进攻啊~？啊哈哈…我很高兴哦，看来环球之旅可以提前准备出发了呢~",
+                        "chineseTL": "*Cough*... I didn't think Commander would be the one initiating the attack~? Ahaha... I'm really happy, seems like we can depart on the global tour ahead of schedule~",
+                        "chineseNote": "",
+                        "japanese": "コホン…指揮官が真正面からアタックしてくるとは思わなかったな…いや、私としては世界一周の旅が思ったより早く始まりそうで嬉しいのだぞ、はははは！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ahem... I never thought you'd attack me head on, Commander... Well, I guess I'm glad I get my world tour sooner than I expected. Hahaha!",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Like Present",
+                        "media": "present_like",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "私に？はいでは、ありがたく頂戴させてもらいます！いいセンスだ！",
+                        "japaneseTL": "For me? Yes, thank you very much! Good taste!",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Dislike Present",
+                        "media": "present_dislike",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官は、もう少しセンスを磨いておくべきだな...",
+                        "japaneseTL": "Commander should improve his taste a bit more...",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Main Title",
+                        "media": "extra",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "2": {
+                "skin_id": "zuozhiya_2",
+                "id": "1",
+                "label": "Georgia",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "おや？指揮官も気分転換か？私？あはは、どうもあのフォーマルな雰囲気が苦手だから、こうして外に新鮮な空気を吸いに来たわけだが……少し一緒に歩かないか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "呀，指挥官，出来透透气吗？我？哈哈，我不太习惯宴会那种高雅的氛围，所以偷溜出来了……要一起走走吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "おや？指揮官も気分転換か？私？あはは、どうもあのフォーマルな雰囲気が苦手だから、こうして外に新鮮な空気を吸いに来たわけだが……少し一緒に歩かないか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "还是旁边没有人的时候能够放松下来啊～对吧，指挥官？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "人がいないところのほうが落ち着くな。指揮官もそう思わないか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "这套礼服？啊，这是西雅图给我准备的……老实说，连我自己都不知道我还能打扮成这样……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "このドレス？ああシアトルのやつが用意してくれたものだ。正直こんな格好をする日がくるとは思ってなかったな……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "呼，还是在这样的地方喝可乐适合我，指挥官，我包里带了一些，要喝吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ふぅ…やっぱりこうして静かな場所で酸素コーラを飲んでいるほうが性に合う。あっ指揮官も飲まないか？まだあるぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "指挥官，你不回去会场没有关系吗，还有很多人在等着你吧？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官は会場に戻らなくても大丈夫か？待ってる子もいるだろ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "指挥官，不用担心，我很喜欢这支舰队，等一会儿，我也会回到会场去的",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官、心配しなくていい、この艦隊のことが好きだ。あと少ししたら私も会場に戻るぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "呜哇……！好险，谢谢你扶我，指挥官……我拿高跟鞋是真的没辙",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "！！危なかった…指揮官、ありがとう、こういうハイヒールの靴はどうも苦手でな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "指挥官，这里的空气很不错，稍微休息一下吧",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官、ここの空気はスッキリしているぞ。少し休憩しよう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_1",
+                        "chinese": "月色真美啊，指挥官……欸？啊，不，我不是那个意思……呃，不对，我也不是没有那个意思…啊哈哈…怎么说呢…有点不好意思啊……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官、今夜はいい月だな……え？そういう意味じゃなくて……あ、いや、そういう意味がないわけでもないぞ？……一体ここは何と言えば……まずい、なんだか恥ずかしいぞ……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "3": {
+                "skin_id": "zuozhiya_4",
+                "id": "2",
+                "label": "Lanier Swan",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "嗯哼，阳光正好，海风也恰到好处。好啦，一起来享受夏天吧！你也很期待的吧，指挥官？",
+                        "chineseTL": "Mhm, the sun is just right, and the sea breeze is on point. Okay, let's enjoy summer together! Commander, weren't you looking forward to this too?",
+                        "chineseNote": "",
+                        "japanese": "ふふ、日差しも海風もちょうどいい感じ、か。よし、では思いっきり夏を楽しもうじゃないか！指揮官も結構、期待していたんだろ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Heh heh, the warm sun and the sea breeze really hit the spot, don't they? Alright, let's get out there and enjoy ourselves! That's what you've been waiting for, right, Commander?",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2",
+                        "chinese": "嗯哼，阳光正好，海风也恰到好处。好啦，一起来享受夏天吧！你也很期待的吧，指挥官？",
+                        "chineseTL": "Mhm, the sun is just right, and the sea breeze is on point. Okay, let's enjoy summer together! Commander, weren't you looking forward to this too?",
+                        "chineseNote": "",
+                        "japanese": "ふふ、日差しも海風もちょうどいい感じ、か。よし、では思いっきり夏を楽しもうじゃないか！指揮官も結構、期待していたんだろ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Heh heh, the warm sun and the sea breeze really hit the spot, don't they? Alright, let's get out there and enjoy ourselves! That's what you've been waiting for, right, Commander?",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2",
+                        "chinese": "哦？来的正好，我正要把遮阳伞撑起来，来搭把手吧，指挥官。",
+                        "chineseTL": "Oh? Good timing. I was just setting up the umbrella. Lend me a hand, Commander.",
+                        "chineseNote": "",
+                        "japanese": "ほぉ、いいタイミングで来たな。指揮官、このピーチパラソルを立てるのを手伝ってもらえないか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ooh, you're just in time. Commander, mind helping me set up this parasol?",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2",
+                        "chinese": "这件黑色薄纱是西雅图帮忙选的，那家伙虽然看起来大大咧咧的，却意外地对这些分外拿手呢…",
+                        "chineseTL": "Seattle helped to choose this black tulle shawl. Though she may seem scatterbrained, she's unexpectedly good at stuff like this.",
+                        "chineseNote": "",
+                        "japanese": "このレースはシアトルが選んだものだ。あいつこういうのにやたら詳しいよな……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Seattle picked out this lace coverup for me. She's good with this kind of thing...",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2",
+                        "chinese": "怎么样，这个太阳眼镜造型很有趣吧？嘿嘿，我还挺喜欢的呢。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "このサングラスはどうだ？結構気に入ってるよ。ははは",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What do you think of my sunglasses? I dig them, personally. Hahaha!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2",
+                        "chinese": "说到夏天，怎么能少了冰镇的可乐呢！你也来一瓶吧指挥官—哦，错了错了，嘿嘿，这个是酸素可乐，这个才是给指挥官的可乐。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "夏といえば、冷えた酸素コーラがないとな！指揮官も一本……間違えた、これは指揮官飲めないやつだ…こっちなら飲めるぞ、ほら",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Nothing beats an ice cold Oxy Cola on a summer day! Here, take one, Commander... Oh right, you can't drink these. This one's for you.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2",
+                        "chinese": "趁着夏天还未过去，来计划个“世界沙滩之旅”好像也不错？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "夏がまだ過ぎないうちに、「世界のビーチ巡り」をやってみても悪くない気がするな？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "We've still got some summer left, so why not try to plan a \"Beach World Tour\" for us?",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2",
+                        "chinese": "看你露出一副“不知道眼睛往哪摆”的表情意外的有趣呢，哈哈哈！",
+                        "chineseTL": "Your \"I don't know where to look\" expression is quite amusing, hahaha!",
+                        "chineseNote": "",
+                        "japanese": "指揮官のその「目のやり場がわからない」って顔、見ていると意外と楽しいな。はははは",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, it's really funny watching you try to figure out where it's safe to look. Hahaha!",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2",
+                        "chinese": "嚯~？指挥官的心也随着来到海边放开了嘛，是不是需要给你一点“刺激”呢？比如这个遮阳伞什么的？",
+                        "chineseTL": "Ho? Has the beach opened Commander's heart? Hmm, do I need to provide some \"stimulation\"? How about this umbrella?",
+                        "chineseNote": "",
+                        "japanese": "ははーん、さては指揮官、海辺で気分もノッてきたかな。どれ、もっと「刺」激を与えたほうがいいか？ビーチパラソルでこうやってカキーンっとな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ah haah? Commander, you've really gotten into the spirit of the beach now. Maybe I should give you a bit more \"stimulation.\" Like a whooping with this parasol, for instance.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2",
+                        "chinese": "嗯，出击辛苦了。要来根冰棒吗？我这里还有。",
+                        "chineseTL": "Hm, sorties are tough. Want a popsicle? I still have some.",
+                        "chineseNote": "",
+                        "japanese": "おう、出撃ご苦労だ。アイスでもどうだ？まだまだあるぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ooh, nice work on that sortie. Did you want an ice cream? I still have some here.",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "4": {
+                "skin_id": "zuozhiya_6",
+                "id": "3",
+                "label": "",
+                "dialogue": {
+                    "1": {  
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_3"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_3"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_3"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_3"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_3"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_3"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_3"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_3"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_3"
+                    }
+                }
+            }
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "26",
+        "add_get_attr": "Hit",
+        "add_get_value": "1",
+        "add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+        "pt_upgrade": "52",
+        "pt_level": "39",
+        "add_level_attr": "Firepower",
+        "add_level_value": "2",
+        "add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+        "t_level": "9",
+        "ships": "georgia"
+    }
 }
