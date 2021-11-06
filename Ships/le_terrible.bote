@@ -5,7 +5,7 @@
     "nameCN": "",
     "ID": "522",
     "name": "Le Terrible",
-    "internal_id": "",
+    "internal_id": "801071",
     "rarity": "Super Rare",
     "initialStar": "★★★☆☆☆",
     "hull": "Destroyer",
@@ -111,6 +111,16 @@
                 },
                 "4": {
                     "id": "4"
+                }
+            }
+        },
+        "101": {
+            "id": "kebu_ex1100",
+            "name": "",
+            "description": "Le Fantasque-class destroyer – Le Terrible.",
+            "expression": {
+                "0": {
+                    "id": "0"
                 }
             }
         }
@@ -421,14 +431,22 @@
                         "media": "link1"
                     },
                     "30": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2"
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 3",
+                        "media": "link3"
+                    },
+                    "32": {
                         "event": "Extra",
                         "media": "extra"
                     },
-                    "31": {
+                    "33": {
                         "event": "Present Like",
                         "media": "present_like"
                     },
-                    "32": {
+                    "34": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
                     }
@@ -443,41 +461,136 @@
                         "event": "Ship Description",
                         "media": ""
                     },
-                    "2": {
+                    "3": {
                         "event": "Acquisition",
                         "media": "get_1"
                     },
-                    "3": {
+                    "4": {
                         "event": "Login",
                         "media": "login_1"
                     },
-                    "4": {
+                    "5": {
                         "event": "Details",
                         "media": "detail_1"
                     },
-                    "5": {
+                    "6": {
                         "event": "Main 1",
                         "media": "main_1_1"
                     },
-                    "6": {
+                    "7": {
                         "event": "Main 2",
                         "media": "main_2_1"
                     },
-                    "7": {
+                    "8": {
                         "event": "Main 3",
                         "media": "main_3_1"
                     },
-                    "8": {
+                    "9": {
                         "event": "Touch",
                         "media": "touch_1_1"
                     },
-                    "9": {
+                    "10": {
                         "event": "Touch (Special)",
                         "media": "touch_2_1"
                     },
-                    "10": {
+                    "12": {
+                        "event": "Mission",
+                        "media": "task_1"
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_1"
+                    },
+                    "14": {
+                        "event": "Mail",
+                        "media": "mail_1"
+                    },
+                    "15": {
                         "event": "Return to Port",
                         "media": "home_1"
+                    },
+                    "23": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1_1"
+                    },
+                    "24": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2_1"
+                    },
+                    "25": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3_1"
+                    },
+                    "26": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4_1"
+                    },
+                    "27": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_1"
+                    },
+                    "28": {
+                        "event": "Flagship",
+                        "media": "warcry_1"
+                    },
+                    "29": {
+                        "event": "Victory",
+                        "media": "mvp_1"
+                    }
+                }
+            },
+            "101": {
+                "skin_id": "kebu_ex1100",
+                "id": "0",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100"
+                    },
+                    "5": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100"
+                    },
+                    "6": {
+                        "event": "Main 5",
+                        "media": "main_5_ex1100"
+                    },
+                    "7": {
+                        "event": "Main 6",
+                        "media": "main_6_ex1100"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_ex1100"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100"
+                    },
+                    "10": {
+                        "event": "Flagship",
+                        "media": "warcry_ex1100"
+                    },
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_ex1100"
+                    },
+                    "12": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_ex1100"
+                    },
+                    "13": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_ex1100"
+                    },
+                    "14": {
+                        "event": "Enhancement",
+                        "media": "upgrade_ex1100"
                     }
                 }
             }

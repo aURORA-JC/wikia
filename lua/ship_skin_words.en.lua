@@ -28576,7 +28576,7 @@ pg.ship_skin_words_extra = {
 	touch2 = "",
 	voice_key_2 = -1,
 	skill = "",
-	drop_descrip = "",
+	drop_descrip = "Why don't you unwind for a bit before you start reflecting on the day's happenings? I'm sure it'll be far more efficient that way.",
 	mail = "",
 	touch = "",
 	profile = "",
@@ -43817,7 +43817,7 @@ pg.ship_skin_words_extra = {
 		},
 		{
 			{
-				80502
+				80501
 			},
 			1,
 			"Your orders, Cardinal?",
