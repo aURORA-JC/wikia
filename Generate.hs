@@ -106,6 +106,7 @@ navy' "Hololive"            = "uwrr_icon.png"
 navy' "META"                = "meta_icon.png"
 navy' "Venus Vacation"      = "uwrr_icon.png"
 navy' "Idolm@ster"          = "uwrr_icon.png"
+navy' "SSSS"  = "uwrr_icon.png"
 navy' x = error x
 
 sidebar
@@ -114,16 +115,15 @@ sidebar
     $ do H.li H.! A.class_ "subheader"                                   $ H.h1 "/alg/ Wiki"
 
          H.li H.! A.class_ "subheader"                                   $ "Database"
-         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist.html"       $ "Shiplist (By ID)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist_alpha.html" $ "Shiplist (By Name)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/navy/index.html"     $ "Faction Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/hull/index.html"     $ "Class Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/index.html"   $ "Rarity Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist.html"       $ "Shiplist by ID"
+         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist_alpha.html" $ "Shiplist by Name"
+         H.li $ H.a H.! A.href "https://algwiki.moe/navy/index.html"     $ "Faction Shiplists"
+         H.li $ H.a H.! A.href "https://algwiki.moe/hull/index.html"     $ "Class Shiplists"
+         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/index.html"   $ "Rarity Shiplists"
 
          H.li H.! A.class_ "subheader"                                   $ "Tools"
          H.li $ H.a H.! A.href "https://sd.algwiki.moe/"                 $ "SD viewer"
          H.li $ H.a H.! A.href "https://l2d.algwiki.moe/"                $ "L2D viewer"
-         H.li $ H.a H.! A.href "https://algwiki.moe/"                    $ "Player"
 
 mkhtml :: String
        -> String

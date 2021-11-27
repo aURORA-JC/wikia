@@ -4310,6 +4310,15 @@
         "rarity": "Elite",
         "shipType": "META"
     },
+    "M006": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feiying_alter.png",
+        "link": "hiyou_meta",
+        "name": "Hiyou META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
     "C001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
@@ -4676,6 +4685,69 @@
         "link": "imas_mami",
         "name": "Futami Mami",
         "navy": "Idolm@ster",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C081": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/baoduoliuhua.png",
+        "link": "ssss_rikka",
+        "name": "Takarada Rikka",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C082": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qian.png",
+        "link": "ssss_akane",
+        "name": "Shinjou Akane",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C083": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mengya.png",
+        "link": "ssss_yume",
+        "name": "Minami Yume",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C084": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qianlai.png",
+        "link": "ssss_chise",
+        "name": "Asukagawa Chise",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C085": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lian.png",
+        "link": "ssss_hass",
+        "name": "Hass",
+        "navy": "SSSS",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C086": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/naimeizi.png",
+        "link": "ssss_namiko",
+        "name": "Namiko",
+        "navy": "SSSS",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C087": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/he.png",
+        "link": "ssss_mujina",
+        "name": "Mujina",
+        "navy": "SSSS",
         "rarity": "Elite",
         "shipType": "collab"
     },

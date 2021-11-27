@@ -1,121 +1,121 @@
 {
-	"name_reference": "independence",
-	"cn_reference": "duli",
-	"nameJP": "インディペンデンス",
-	"nameCN": "独立",
-	"ID": "377",
-	"name": "Independence",
-	"internal_id": "107221",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Light Aircraft Carrier",
-	"navy": "Eagle Union",
-	"prefix": "USS",
-	"buildTime": "N/A",
-	"voiceActress": "Haruka Yamazaki",
-	"parameters": {
-		"firepower": "E",
-		"torpedo": "E",
-		"aviation": "A",
-		"evasion": "C",
-		"antiAir": "B",
-		"hp": "B"
-	},
-	"scrap": {
-		"gold": "7",
-		"oil": "3",
-		"medal": "4"
-	},
-	"releaseDate": {
-		"JP": "February 28, 2019",
-		"CN": "February 28, 2019",
-		"KR": "February 28, 2019",
-		"EN": "June 24, 2020"
-	},
-	"artist": {
-		"name": "ATDAN",
-		"weibo": "http://www.weibo.com/atdan",
-		"twitter": "https://twitter.com/Atdan86",
-		"pixiv": "https://www.pixiv.net/member.php?id=6662895",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "38",
-		"reload": "13"
-	},
-	"acquisitionMethod": "Event: Air Raid Drills with Essex",
-	"skill": {
-		"1": {
-			"icon": "11910",
-			"requirement": "Default Unlocked",
-			"name": "Patriotic Spirit",
-			"type": "Offensive",
-			"description": "Eagle Union airplanes in use gain 5% (15%) additional Efficiency."
-		},
-		"2": {
-			"icon": "11920",
-			"requirement": "Default Unlocked",
-			"name": "Knights of the Sky",
-			"type": "Support",
-			"description": "When launching an airstrike: launch an additional Lv.1 (Lv.10) TBF Avenger squadron. If sortied with any Cleveland-class cruisers, increase their Firepower by 3.5% (8.0%), increase own Air Power and Accuracy by 5% (15%), and enhance TBF Avenger squadron barrage pattern."
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "duli",
-			"name": "Independence ",
-			"description": "Independence-class light aircraft carrier – Independence, Hull Number CVL-22. ",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"2": {
-			"id": "duli_2",
-			"name": "Transfer Student From Afar",
-			"description": "So this is my new school, huh? Hmm... gotta put my stuff down first before checking in with the teacher.",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				}
-			}
-		},
+    "name_reference": "independence",
+    "cn_reference": "duli",
+    "nameJP": "インディペンデンス",
+    "nameCN": "独立",
+    "ID": "377",
+    "name": "Independence",
+    "internal_id": "107221",
+    "rarity": "Elite",
+    "initialStar": "★★☆☆☆",
+    "hull": "Light Aircraft Carrier",
+    "navy": "Eagle Union",
+    "prefix": "USS",
+    "buildTime": "N/A",
+    "voiceActress": "Haruka Yamazaki",
+    "parameters": {
+        "firepower": "E",
+        "torpedo": "E",
+        "aviation": "A",
+        "evasion": "C",
+        "antiAir": "B",
+        "hp": "B"
+    },
+    "scrap": {
+        "gold": "7",
+        "oil": "3",
+        "medal": "4"
+    },
+    "releaseDate": {
+        "JP": "February 28, 2019",
+        "CN": "February 28, 2019",
+        "KR": "February 28, 2019",
+        "EN": "June 24, 2020"
+    },
+    "artist": {
+        "name": "ATDAN",
+        "weibo": "http://www.weibo.com/atdan",
+        "twitter": "https://twitter.com/Atdan86",
+        "pixiv": "https://www.pixiv.net/member.php?id=6662895",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "0",
+        "torpedo": "0",
+        "aviation": "38",
+        "reload": "13"
+    },
+    "acquisitionMethod": "Event: Air Raid Drills with Essex",
+    "skill": {
+        "1": {
+            "icon": "11910",
+            "requirement": "Default Unlocked",
+            "name": "Patriotic Spirit",
+            "type": "Offensive",
+            "description": "Eagle Union airplanes in use gain 5% (15%) additional Efficiency."
+        },
+        "2": {
+            "icon": "11920",
+            "requirement": "Default Unlocked",
+            "name": "Knights of the Sky",
+            "type": "Support",
+            "description": "When launching an airstrike: launch an additional Lv.1 (Lv.10) TBF Avenger squadron. If sortied with any Cleveland-class cruisers, increase their Firepower by 3.5% (8.0%), increase own Air Power and Accuracy by 5% (15%), and enhance TBF Avenger squadron barrage pattern."
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "duli",
+            "name": "Independence ",
+            "description": "Independence-class light aircraft carrier – Independence, Hull Number CVL-22. ",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
+        },
+        "2": {
+            "id": "duli_2",
+            "name": "Transfer Student From Afar",
+            "description": "So this is my new school, huh? Hmm... gotta put my stuff down first before checking in with the teacher.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
+        },
         "3": {
             "id": "duli_5",
             "name": "The Independent Line",
             "description": "Hmm... Isn't this one a bit too garish? Mm... What if we pair it with a necklace or some sort of purse? ...Commander, your thoughts? C'mon, don't just stare at me, give me something to work with here...",
             "expression": {
                 "0": {
-                    "id": "0" 
-                },  
+                    "id": "0"
+                },
                 "1": {
-                    "id": "1" 
-                },  
+                    "id": "1"
+                },
                 "2": {
-                    "id": "2" 
-                },  
+                    "id": "2"
+                },
                 "3": {
-                    "id": "3" 
+                    "id": "3"
                 }
-            }   
+            }
         },
         "4": {
             "id": "duli_6",
@@ -123,738 +123,760 @@
             "description": "",
             "expression": {
                 "0": {
-                    "id": "0" 
-                },  
+                    "id": "0"
+                },
                 "1": {
-                    "id": "1" 
-                },  
+                    "id": "1"
+                },
                 "2": {
-                    "id": "2" 
-                },  
+                    "id": "2"
+                },
                 "3": {
-                    "id": "3" 
+                    "id": "3"
                 }
-            }   
+            }
         },
-		"5" : {
-			"id" : "duli_g",
-			"name" : "Independence (Retrofit)",
-			"description" : "",
-			"expression" : {
+        "5": {
+            "id": "duli_3",
+            "name": "",
+            "description": "",
+            "expression": {
                 "0": {
-                    "id": "0" 
-                },  
+                    "id": "0"
+                },
                 "1": {
-                    "id": "1" 
-                },  
+                    "id": "1"
+                },
                 "2": {
-                    "id": "2" 
-                },  
+                    "id": "2"
+                },
                 "3": {
-                    "id": "3" 
+                    "id": "3"
                 },
                 "4": {
-                    "id": "4" 
+                    "id": "4"
                 }
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "17300",
-			"rarity": "Rare",
-			"name": "F6F Hellcat"
-		},
-		"2": {
-			"icon": "18100",
-			"rarity": "Common",
-			"name": "TBF Avenger"
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "4135",
-			"firepower": "0",
-			"torpedo": "0",
-			"antiAir": "234",
-			"aviation": "273",
-			"reload": "158",
-			"hit": "75",
-			"evasion": "54",
-			"speed": "31",
-			"luck": "78",
-			"asw": "95",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		},
-		"120": {
-			"hp": "4796",
-			"firepower": "0",
-			"torpedo": "0",
-			"antiAir": "268",
-			"aviation": "310",
-			"reload": "182",
-			"hit": "89",
-			"evasion": "83",
-			"speed": "31",
-			"luck": "78",
-			"asw": "109",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		},
-		"base": {
-			"hp": "800",
-			"firepower": "0",
-			"torpedo": "0",
-			"antiAir": "50",
-			"aviation": "58",
-			"reload": "67",
-			"hit": "29",
-			"evasion": "21",
-			"speed": "31",
-			"luck": "78",
-			"asw": "26",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Medium"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "31",
-			"luck": "78",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "31",
-			"luck": "78",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		}
-	},
-	"limitBreak": {
-		"tier1": "All fighters +1/Fighter efficiency +5%",
-		"tier2": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
-		"tier3": "All aircraft +1/Torpedo Bomber efficiency +15%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Fighter",
-			"efficiency": "115%/120%/130%/130%",
-			"amount": "1/2/2/3",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Torpedo Bomber",
-			"efficiency": "130%/130%/130%/145%",
-			"amount": "1/1/2/3",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "80%/80%/80%/80%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "duli",
-				"id": "0",
-				"label": "Independence ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "独立级航空母舰-独立，舷号CVL-22",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "インディペンデンス級航空母艦・インディペンデンス（CVL-22)",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Independence-class light aircraft carrier – Independence, Hull Number CVL-22.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "原本我要作为克利夫兰级轻巡洋舰五号舰被建造，但因急切的航母需求而被改建为轻型航母。不过，我也得到了新的力量，得以在日后的战场中驰骋，与大家齐心协力拿下胜利。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クリーブランド級の五番艦として建造されていた私は、空母の必要性が急遽高まった状況により軽空母として改装された。こうして新しい力を得られたおかげで、後の戦闘で活躍でき、そして皆と一緒に勝利を勝ち取ったのだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I was initially to be the fifth Cleveland-class cruiser, but got remodeled into a light aircraft carrier due to the skyrocketing need for additional carriers. Thanks to the new capabilities this gave me, I flourished in battle and achieved victory together with my allies.",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "轻型航空母舰独立号向您报道。请不要在意我轻型航母的身份，放心大胆的把任务交给我吧。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "軽空母インディペンデンスだ。…軽空母、というカテゴリーには気にせず、任務をどんどん与えてくれ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm Independence, light carrier. Don't worry about that \"light\" part, and just hand those missions over to me.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官，今天的训练和常规任务进展的都很顺利，请您放心。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、今日の訓練と通常任務も滞りなく遂行されている。ご安心を",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Today's training and routine missions are progressing smoothly, Commander. You can rest easy.",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "如果有必要的话，我可以在夜间行动。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "必要なら、夜の作戦も対応可能だ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm prepared to battle at nighttime, if necessary.",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "克利夫兰……我是应该叫她姐姐吗？还是怎么称呼好……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クリーブランド……姉貴って呼べばいいのか？それとも……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Should I call Cleveland... \"Cleve\"? Or do I keep it simple?",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "我会将你交给我的任务当作最优先事项处理的，指挥官",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任せていただいたタスクのプライオリティを最高レベルにさせてもらう。指揮官",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I will take on that task you assigned me with the highest priority, Commander.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "我不太擅长揣测别人的想法……所以无论什么事还希望指挥官能直接告知我。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "心の探り合いはどうも苦手のようだ……つまるところは指揮官、何事も顔を向けて直接教えてくれ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm apparently terrible at reading between the lines... So please, Commander: whenever you have something to say, tell it to me straight.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "在叫我吗？有什么事？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私？何か用か？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Yes? Do you need something?",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "去海军部解释一下吧，就现在。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "海軍部に出頭して説明を願おうか。……今すぐにだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Go to the Admiralty and explain yourself. Right now.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "有新的作战任务了，早点完成吧。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しい作戦任務だ。早くこなそう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A new mission has come in. Let's get it done ASAP.",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "即使任务完成了，也不能懈怠。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務が完了しても気を緩めてはいけない",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "We've got to stay diligent even after all our missions are complete.",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "邮件我放在桌上了，请及时过目。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "メールはこっちだ。確認を",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I've brought your mail. Give it a read.",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "来制定一下接下来的作战计划如何？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "次の作戦計画でも準備するか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Should we draft a plan for the next operation?",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "委托物资……已经到了，不需要我运过来了呢。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "委託の物資……届いてるね。運ぶ手間が省けた",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The goods from that commission have arrived. Saves us time having to carry it by hand.",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "马上准备一下实战演练如何？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "すぐ実戦演習の準備でもしないか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "How about we set up a naval exercise right away?",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "集中注意，保持警惕！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "集中せよ、警戒を緩めるな！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Stay focused and be on your guard!",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "可别小看了轻型航母的威力。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "軽空母の力を侮るな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Never underestimate a CVL's capabilities.",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "撤退也是战斗的一环……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "撤退も作戦のうち……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Retreating is a legitimate tactic...",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "我盯上你们了。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "狙い定めた！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Target locked!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "我们还有多少胜算？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "勝算は…あとどれぐらいあるのだ？！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "How many... How many chances at victory do we have left?",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "我就直接问了，你到底在打算什么？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "単刀直入に聞かせてもらう。何をやってるんだ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Allow me to be blunt: what the hell is wrong with you?",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "你想了解一下航母的夜间战斗？嗯，那下次夜间演习的时候我会告知指挥官你的。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "空母の夜間戦闘が気になるか？わかった。次の夜間戦闘演習は知らせよう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You're curious how nighttime carrier battles look? Got it. I'll inform you next time there's one on the exercise schedule.",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "轻型航母或许没有办法在战斗力上超越正规航母……不过只要您能认可我的实力，那便足够了。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "軽空母は戦力的に正規空母に及ばないかもしれないが……私の実力を認めてくれたら、それで十分だ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A CVL might never rival an ordinary CV in terms of sheer power, but... I just want you to recognize what I'm capable of.",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "指挥官对我有什么建议想说的吗？无论是战斗还是别的方面都可以的。为什么？我想了解一下自己在指挥官心中的形象是怎么样的。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私に言いたいことはないか？戦闘でも、ほかのことでも、なんでも。…急にどうしたって？ああ、指揮官の心の中での私は一体どういう存在か知りたいんだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Isn't there something you want to tell me? Be it combat-related, or anything else. Why do I ask? Because I want to know what sort of place I have in your heart.",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "“有些事情无需言语表达”？我不太能理解。不说出来的话，不就什么都不知道了吗？就像我很喜欢指挥官，不说出来的话，指挥官也不知道的吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "「言葉では表せないこともある」…か？理解しかねる。言わなければ、相手がわからないんじゃないか？例えば、私が指揮官のことが大好きだということは言葉にしないと、指揮官はどうやってそれを察せるというのだ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "\"There are some things you can't express through words\"...? I don't follow. If you don't tell people how you feel, how would they know? For instance, how would you be able to guess that I love you if I didn't say it directly?",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "在命运的十字路口，我遇见了指挥官，找到了自己的归宿……很奇怪的比喻吗？就，就是有种这样的感觉而已。我，我也想不出什么更好的说法了……总之，以后多多指教了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "運命の分かれ道で指揮官と出会ったおかげで、自分の帰るべき場所を見つけた……変な例え…か？え、ええと、つまりそういうところだ。私もいい言葉が見つからない……とにかく、これからはよろしく頼むっ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's thanks to our fateful encounter at the crossroads of life that I found the place where I belong... Was that... a weird way to put it? Umm, well, you know what I mean. I just can't find the right words... In any case, I'm happy to be together with you!",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Cleveland)",
-						"media": "link1",
-						"chinese": "克利夫兰……姐姐？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "クリーブランド……姉貴？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Cleveland... Or should I say \"Cleve\"?",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Easter Egg 2 (Enterprise, Saratoga)",
-						"media": "link2",
-						"chinese": "夜战航母编队，再次集结！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夜間戦闘空母隊、アセンブル！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Night Carrier Division, assemble!",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Easter Egg 3 (Essex, Massachusetts, South Dakota, Washington)",
-						"media": "link3",
-						"chinese": "特混38编队，出发！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "タスクフォース38、オペレーショナル！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": " Task Force 38 is operational!",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "duli_2",
-				"id": "1",
-				"label": "Transfer Student From Afar",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "这里就是新的学校吗？呼…在报到之前，先把行李放好吧——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ここが学園…か。ふぅ…先生に報告する前に、まずは荷物を――",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "So this is my new school, huh? Hmm... gotta put my stuff down first before checking in with the teacher.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "这里就是新的学校吗？呼…在报到之前，先把行李放好吧——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ここが学園…か。ふぅ…先生に報告する前に、まずは荷物を――",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "So this is my new school, huh? Hmm... gotta put my stuff down first before checking in with the teacher.",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "住在学院宿舍的话，就不用担心会迟到了呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "寮暮らしなら遅刻する心配はないな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Living in a dorm means I don't have to worry about being late for school.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "唔…宠物的话…放在宿舍里应该，没问题吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うん…ペットなら…寮に置いても大丈夫…か？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Yeah, it should be fine to leave my pet in the dorm... I think?",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "社团活动…？我的话…嗯…还是算了吧……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "サークル？私は…ふむ…やっぱりいい",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Join a club? Maybe I should... Hmm... Actually, I'm good.",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "无论学习还是任务，都是一刻都不能松懈的呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "勉強も任務も、一刻たりとも気を緩めん",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Both studies and missions require your full, undivided attention.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "呼…领口这边感觉有点紧呢…嗯？指挥官，怎么了吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "はぁ…襟が少しキツイな…指揮官？どうした？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ugh... This collar is too tight... Why are you staring, Commander?",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "指挥官也有弄不明白的地方吗？让我看看……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官にもわからないところがあるのか？ちょっと見せて……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Do you not get what this paragraph means? Let me have a look.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "…指挥官就到了职员室再解释吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "…説明は職員室でしてもらおうか",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "...Go to the staff room and explain yourself.",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "我看看，下一节课是——",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "どれ、次の授業は……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Now, what's our next subject?",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Victory",
-						"media": "mvp_1",
-						"chinese": "学以致用，才能克敌取胜！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "学んだことを生かして勝つ。それだけだ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I won by making use of the things I learned. That's all there's to it!",
-						"englishNote": ""
-					}
-				}
-			},
+            }
+        },
+        "6" : {
+            "id" : "duli_g",
+            "name" : "Independence (Retrofit)",
+            "description" : "",
+            "expression" : {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "17300",
+            "rarity": "Rare",
+            "name": "F6F Hellcat"
+        },
+        "2": {
+            "icon": "18100",
+            "rarity": "Common",
+            "name": "TBF Avenger"
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "4135",
+            "firepower": "0",
+            "torpedo": "0",
+            "antiAir": "234",
+            "aviation": "273",
+            "reload": "158",
+            "hit": "75",
+            "evasion": "54",
+            "speed": "31",
+            "luck": "78",
+            "asw": "95",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "11",
+            "armor": "Medium"
+        },
+        "120": {
+            "hp": "4796",
+            "firepower": "0",
+            "torpedo": "0",
+            "antiAir": "268",
+            "aviation": "310",
+            "reload": "182",
+            "hit": "89",
+            "evasion": "83",
+            "speed": "31",
+            "luck": "78",
+            "asw": "109",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "11",
+            "armor": "Medium"
+        },
+        "base": {
+            "hp": "800",
+            "firepower": "0",
+            "torpedo": "0",
+            "antiAir": "50",
+            "aviation": "58",
+            "reload": "67",
+            "hit": "29",
+            "evasion": "21",
+            "speed": "31",
+            "luck": "78",
+            "asw": "26",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "3",
+            "armor": "Medium"
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "31",
+            "luck": "78",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "11",
+            "armor": "Medium"
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "31",
+            "luck": "78",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "11",
+            "armor": "Medium"
+        }
+    },
+    "limitBreak": {
+        "tier1": "All fighters +1/Fighter efficiency +5%",
+        "tier2": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+        "tier3": "All aircraft +1/Torpedo Bomber efficiency +15%"
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "Fighter",
+            "efficiency": "115%/120%/130%/130%",
+            "amount": "1/2/2/3",
+            "preload": "0/0/0/0"
+        },
+        "2": {
+            "type": "Torpedo Bomber",
+            "efficiency": "130%/130%/130%/145%",
+            "amount": "1/1/2/3",
+            "preload": "0/0/0/0"
+        },
+        "3": {
+            "type": "Anti-Air Gun",
+            "efficiency": "80%/80%/80%/80%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "duli",
+                "id": "0",
+                "label": "Independence ",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "独立级航空母舰-独立，舷号CVL-22",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "インディペンデンス級航空母艦・インディペンデンス（CVL-22)",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Independence-class light aircraft carrier – Independence, Hull Number CVL-22.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "原本我要作为克利夫兰级轻巡洋舰五号舰被建造，但因急切的航母需求而被改建为轻型航母。不过，我也得到了新的力量，得以在日后的战场中驰骋，与大家齐心协力拿下胜利。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "クリーブランド級の五番艦として建造されていた私は、空母の必要性が急遽高まった状況により軽空母として改装された。こうして新しい力を得られたおかげで、後の戦闘で活躍でき、そして皆と一緒に勝利を勝ち取ったのだ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I was initially to be the fifth Cleveland-class cruiser, but got remodeled into a light aircraft carrier due to the skyrocketing need for additional carriers. Thanks to the new capabilities this gave me, I flourished in battle and achieved victory together with my allies.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "轻型航空母舰独立号向您报道。请不要在意我轻型航母的身份，放心大胆的把任务交给我吧。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "軽空母インディペンデンスだ。…軽空母、というカテゴリーには気にせず、任務をどんどん与えてくれ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm Independence, light carrier. Don't worry about that \"light\" part, and just hand those missions over to me.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "指挥官，今天的训练和常规任务进展的都很顺利，请您放心。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官、今日の訓練と通常任務も滞りなく遂行されている。ご安心を",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Today's training and routine missions are progressing smoothly, Commander. You can rest easy.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "如果有必要的话，我可以在夜间行动。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "必要なら、夜の作戦も対応可能だ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm prepared to battle at nighttime, if necessary.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "克利夫兰……我是应该叫她姐姐吗？还是怎么称呼好……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "クリーブランド……姉貴って呼べばいいのか？それとも……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Should I call Cleveland... \"Cleve\"? Or do I keep it simple?",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "我会将你交给我的任务当作最优先事项处理的，指挥官",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "任せていただいたタスクのプライオリティを最高レベルにさせてもらう。指揮官",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I will take on that task you assigned me with the highest priority, Commander.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "我不太擅长揣测别人的想法……所以无论什么事还希望指挥官能直接告知我。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "心の探り合いはどうも苦手のようだ……つまるところは指揮官、何事も顔を向けて直接教えてくれ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'm apparently terrible at reading between the lines... So please, Commander: whenever you have something to say, tell it to me straight.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "在叫我吗？有什么事？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "私？何か用か？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Yes? Do you need something?",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "去海军部解释一下吧，就现在。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "海軍部に出頭して説明を願おうか。……今すぐにだ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Go to the Admiralty and explain yourself. Right now.",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "有新的作战任务了，早点完成吧。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "新しい作戦任務だ。早くこなそう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A new mission has come in. Let's get it done ASAP.",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "即使任务完成了，也不能懈怠。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "任務が完了しても気を緩めてはいけない",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "We've got to stay diligent even after all our missions are complete.",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "邮件我放在桌上了，请及时过目。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "メールはこっちだ。確認を",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I've brought your mail. Give it a read.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "来制定一下接下来的作战计划如何？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "次の作戦計画でも準備するか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Should we draft a plan for the next operation?",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "委托物资……已经到了，不需要我运过来了呢。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "委託の物資……届いてるね。運ぶ手間が省けた",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The goods from that commission have arrived. Saves us time having to carry it by hand.",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "马上准备一下实战演练如何？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "すぐ実戦演習の準備でもしないか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "How about we set up a naval exercise right away?",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "集中注意，保持警惕！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "集中せよ、警戒を緩めるな！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Stay focused and be on your guard!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "可别小看了轻型航母的威力。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "軽空母の力を侮るな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Never underestimate a CVL's capabilities.",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "撤退也是战斗的一环……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "撤退も作戦のうち……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Retreating is a legitimate tactic...",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "我盯上你们了。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "狙い定めた！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Target locked!",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "我们还有多少胜算？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "勝算は…あとどれぐらいあるのだ？！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "How many... How many chances at victory do we have left?",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "我就直接问了，你到底在打算什么？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "単刀直入に聞かせてもらう。何をやってるんだ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Allow me to be blunt: what the hell is wrong with you?",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "你想了解一下航母的夜间战斗？嗯，那下次夜间演习的时候我会告知指挥官你的。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "空母の夜間戦闘が気になるか？わかった。次の夜間戦闘演習は知らせよう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You're curious how nighttime carrier battles look? Got it. I'll inform you next time there's one on the exercise schedule.",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "轻型航母或许没有办法在战斗力上超越正规航母……不过只要您能认可我的实力，那便足够了。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "軽空母は戦力的に正規空母に及ばないかもしれないが……私の実力を認めてくれたら、それで十分だ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "A CVL might never rival an ordinary CV in terms of sheer power, but... I just want you to recognize what I'm capable of.",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "指挥官对我有什么建议想说的吗？无论是战斗还是别的方面都可以的。为什么？我想了解一下自己在指挥官心中的形象是怎么样的。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "私に言いたいことはないか？戦闘でも、ほかのことでも、なんでも。…急にどうしたって？ああ、指揮官の心の中での私は一体どういう存在か知りたいんだ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Isn't there something you want to tell me? Be it combat-related, or anything else. Why do I ask? Because I want to know what sort of place I have in your heart.",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "“有些事情无需言语表达”？我不太能理解。不说出来的话，不就什么都不知道了吗？就像我很喜欢指挥官，不说出来的话，指挥官也不知道的吧？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "「言葉では表せないこともある」…か？理解しかねる。言わなければ、相手がわからないんじゃないか？例えば、私が指揮官のことが大好きだということは言葉にしないと、指揮官はどうやってそれを察せるというのだ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "\"There are some things you can't express through words\"...? I don't follow. If you don't tell people how you feel, how would they know? For instance, how would you be able to guess that I love you if I didn't say it directly?",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "在命运的十字路口，我遇见了指挥官，找到了自己的归宿……很奇怪的比喻吗？就，就是有种这样的感觉而已。我，我也想不出什么更好的说法了……总之，以后多多指教了！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "運命の分かれ道で指揮官と出会ったおかげで、自分の帰るべき場所を見つけた……変な例え…か？え、ええと、つまりそういうところだ。私もいい言葉が見つからない……とにかく、これからはよろしく頼むっ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It's thanks to our fateful encounter at the crossroads of life that I found the place where I belong... Was that... a weird way to put it? Umm, well, you know what I mean. I just can't find the right words... In any case, I'm happy to be together with you!",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Easter Egg 1 (Cleveland)",
+                        "media": "link1",
+                        "chinese": "克利夫兰……姐姐？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "クリーブランド……姉貴？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Cleveland... Or should I say \"Cleve\"?",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Easter Egg 2 (Enterprise, Saratoga)",
+                        "media": "link2",
+                        "chinese": "夜战航母编队，再次集结！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "夜間戦闘空母隊、アセンブル！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Night Carrier Division, assemble!",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Easter Egg 3 (Essex, Massachusetts, South Dakota, Washington)",
+                        "media": "link3",
+                        "chinese": "特混38编队，出发！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "タスクフォース38、オペレーショナル！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": " Task Force 38 is operational!",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "2": {
+                "skin_id": "duli_2",
+                "id": "1",
+                "label": "Transfer Student From Afar",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "这里就是新的学校吗？呼…在报到之前，先把行李放好吧——",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ここが学園…か。ふぅ…先生に報告する前に、まずは荷物を――",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "So this is my new school, huh? Hmm... gotta put my stuff down first before checking in with the teacher.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "这里就是新的学校吗？呼…在报到之前，先把行李放好吧——",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ここが学園…か。ふぅ…先生に報告する前に、まずは荷物を――",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "So this is my new school, huh? Hmm... gotta put my stuff down first before checking in with the teacher.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "住在学院宿舍的话，就不用担心会迟到了呢",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "寮暮らしなら遅刻する心配はないな",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Living in a dorm means I don't have to worry about being late for school.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "唔…宠物的话…放在宿舍里应该，没问题吧？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "うん…ペットなら…寮に置いても大丈夫…か？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Yeah, it should be fine to leave my pet in the dorm... I think?",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "社团活动…？我的话…嗯…还是算了吧……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "サークル？私は…ふむ…やっぱりいい",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Join a club? Maybe I should... Hmm... Actually, I'm good.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "无论学习还是任务，都是一刻都不能松懈的呢",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "勉強も任務も、一刻たりとも気を緩めん",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Both studies and missions require your full, undivided attention.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "呼…领口这边感觉有点紧呢…嗯？指挥官，怎么了吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "はぁ…襟が少しキツイな…指揮官？どうした？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ugh... This collar is too tight... Why are you staring, Commander?",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "指挥官也有弄不明白的地方吗？让我看看……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官にもわからないところがあるのか？ちょっと見せて……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Do you not get what this paragraph means? Let me have a look.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "…指挥官就到了职员室再解释吧",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "…説明は職員室でしてもらおうか",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "...Go to the staff room and explain yourself.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "我看看，下一节课是——",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "どれ、次の授業は……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Now, what's our next subject?",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_1",
+                        "chinese": "学以致用，才能克敌取胜！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "学んだことを生かして勝つ。それだけだ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I won by making use of the things I learned. That's all there's to it!",
+                        "englishNote": ""
+                    }
+                }
+            },
             "3": {
                 "skin_id": "duli_5",
                 "id": "2",
                 "label": "The Independent Line",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -961,7 +983,7 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    }
                 }
             },
             "4": {
@@ -969,7 +991,7 @@
                 "id": "3",
                 "label": "Liberty and Leisure",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -1012,11 +1034,58 @@
                 }
             },
             "5": {
+                "skin_id": "duli_3",
+                "id": "4",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_4"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_4"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_4"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_4"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_4"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_4"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_4"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_4"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_4"
+                    }
+                }
+            },
+            "6": {
                 "skin_id": "duli_g",
                 "id": "9",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -1066,19 +1135,19 @@
                     }
                 }
             }
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "8",
-		"add_get_attr": "ASW",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Aircraft Carrier",
-		"pt_upgrade": "16",
-		"pt_level": "12",
-		"add_level_attr": "Reload",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
-		"t_level": "4",
-		"ships": "independence,bataan"
-	}
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "8",
+        "add_get_attr": "ASW",
+        "add_get_value": "1",
+        "add_get_shiptype": "Light Aircraft Carrier",
+        "pt_upgrade": "16",
+        "pt_level": "12",
+        "add_level_attr": "Reload",
+        "add_level_value": "1",
+        "add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+        "t_level": "4",
+        "ships": "independence,bataan"
+    }
 }

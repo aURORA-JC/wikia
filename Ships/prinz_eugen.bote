@@ -1108,7 +1108,7 @@
             "5": {
                 "skin_id": "ougen_5",
                 "id": "4",
-                "label": "",
+                "label": "Final Lap",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
@@ -1121,10 +1121,6 @@
                     "3": {
                         "event": "Login",
                         "media": "login_4"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_4"
                     },
                     "5": {
                         "event": "Main 1",
@@ -1149,6 +1145,18 @@
                     "10": {
                         "event": "Return to Port",
                         "media": "home_4"
+                    },
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_4"
+                    },
+                    "12": {
+                        "event": "Defeat",
+                        "media": "lose_4"
+                    },
+                    "13": {
+                        "event": "Commission Complete",
+                        "media": "expedition_4"
                     }
                 }
             },
