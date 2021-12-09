@@ -138,7 +138,7 @@ mkhtml css prefix name title y x
          $ H.docTypeHtml
          $ do H.head
                 $ do H.meta H.! A.httpEquiv "content-type" H.! A.content "text/html; charset=utf-8"
-                     H.title (H.preEscapedToHtml $ "/alg/ - Azur Lane General Wiki - " ++ title)
+                     H.title (H.preEscapedToHtml $ "/alg/ Wiki - " ++ title)
                      H.style H.! A.type_ "text/css" $ H.preEscapedToHtml css
                      y
               H.body
