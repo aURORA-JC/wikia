@@ -1,995 +1,995 @@
 {
-	"name_reference": "friedrich_der_grosse",
-	"cn_reference": "feiteliedadi",
-	"nameJP": "フリードリヒ・デア・グローセ",
-	"nameCN": "",
-	"ID": "P011",
-	"name": "Friedrich der Große",
-	"internal_id": "499021",
-	"rarity": "Decisive",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Battleship",
-	"navy": "Ironblood",
-	"prefix": "KMS",
-	"buildTime": "N/A",
-	"class": "Friedrich der Große-Class",
-	"parameters": {
-		"firepower": "S",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "C",
-		"antiAir": "C",
-		"hp": "S"
-	},
-	"scrap": {
-		"gold": "11",
-		"oil": "4",
-		"medal": "30"
-	},
-	"releaseDate": {
-		"JP": "April 18, 2019",
-		"CN": "April 18, 2019",
-		"KR": "April 18, 2019",
-		"EN": "December 19, 2019"
-	},
-	"voiceActress": "Hitomi Nabatame",
-	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "0"
-	},
-	"acquisitionMethod": "Research and Development",
-	"skill": {
-		"1": {
-			"icon": "19220",
-			"name": "Symphony of Destruction",
-			"type": "Offensive",
-			"requirement": "Default Unlocked",
-			"description": "When taking damage or when an enemy enters the defensive firing line, trigger an armor piercing barrage from the secondary weapon (firepower increased by skill level) and enter a 15 second cooldown"
-		},
-		"2": {
-			"icon": "19230",
-			"name": "Sonata of Chaos",
-			"type": "Offensive",
-			"requirement": "Default Unlocked",
-			"description": "When main gun is fired an odd numbered of times, increase reload by 30-50% and damage by 10-20%. When main gun is fired an even number of times, increase critical chance by 10-20% and critical damage by 20-50%. Effects gained persist until the main gun is fired again"
-		},
-		"3": {
-			"icon": "19240",
-			"name": "Rhapsody of Darkness",
-			"type": "Support",
-			"requirement": "Default Unlocked",
-			"description": "When health is between 70-100%, increase firepower by 10-20%. When health is between 30-70%, increase firepower by 4-10% and reduce damage taken by 4-10%. When health drops below 30%, reduce damage taken by 10-20%"
-		},
-		"4": {
-			"icon": "19000",
-			"name": "Siren Killer Ⅰ",
-			"type": "Offensive",
-			"requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
-			"description": "Increase damage done to sirens by 5%"
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "feiteliedadi",
-			"name": "Friedrich der Große ",
-			"description": "Battleship – Friedrich der Große. ",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		},
-		"2": {
-			"id": "feiteliedadi_2",
-			"name": "Dark Raiments of Gagaku",
-			"description": "I see, so this is a \"kimono\" from the Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed... How to wear it? ...My child, what are you talking about?",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				}
-			}
-		},
-		"3": {
-			"id": "feiteliedadi_h",
-			"name": "Zeremonie of the Cradle",
-			"description": "Ahh, the dreamlike beauty of this variation... let us write down this movement so that it may continue forever, my sweet child.",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "8449",
-			"firepower": "407",
-			"torpedo": "0",
-			"antiAir": "210",
-			"aviation": "0",
-			"reload": "137",
-			"hit": "57",
-			"evasion": "21",
-			"speed": "30",
-			"luck": "0",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "19",
-			"armor": "Heavy"
-		},
-		"120": {
-			"hp": "9886",
-			"firepower": "449",
-			"torpedo": "0",
-			"antiAir": "241",
-			"aviation": "0",
-			"reload": "157",
-			"hit": "65",
-			"evasion": "27",
-			"speed": "30",
-			"luck": "0",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "19",
-			"armor": "Heavy"
-		},
-		"base": {
-			"hp": "1634",
-			"firepower": "87",
-			"torpedo": "0",
-			"antiAir": "45",
-			"aviation": "0",
-			"reload": "58",
-			"hit": "22",
-			"evasion": "8",
-			"speed": "30",
-			"luck": "0",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "",
-			"armor": "Heavy"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "30",
-			"luck": "0",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "19",
-			"armor": "Heavy"
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "30",
-			"luck": "0",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "19",
-			"armor": "Heavy"
-		}
-	},
-	"strengthenLevel": {
-		"level5": "HP+400 | Anti-Air+11 | Main Gun Efficiency＋5%",
-		"level10": "Main Gun+1 | Main Gun Efficiency+5% | Limit Break ★★★★☆☆",
-		"level15": "HP+797 | Anti-Air+22 | Anti-Air Efficiency＋10%",
-		"level20": "Secondary Gun+2 | Main Gun Efficiency+10% | Limit Break ★★★★★☆",
-		"level25": "HP+1195 | Anti-Air+33 | Main Gun Efficiency＋5%",
-		"level30": "Main Gun+1 | Main gun Efficiency+15% | Limit Break ★★★★★★"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Battleship Gun",
-			"efficiency": "120%/130%/140%/160%",
-			"amount": "1/2/2/3",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Light Cruiser Gun",
-			"efficiency": "220%/220%/220%/220%",
-			"amount": "1/1/3/3",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "90%/90%/100%/100%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "feiteliedadi",
-				"id": "0",
-				"label": "Friedrich der Große ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "战列舰—腓特烈大帝",
-						"chineseTL": "Battleship - Friedrich der Große",
-						"chineseNote": "",
-						"japanese": "戦艦・フリードリヒ・デア・グローセ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Battleship – Friedrich der Große.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "铁血海军腓特烈大帝号战列舰，H计划的产物之一。我的孩子，如果失眠的话，就让我为你唱首摇篮曲吧",
-						"chineseTL": "Ironblood battleship Friedrich der Große, one of the products from the H Plan. My child, if you feel sleepless, let me sing you a lullaby",
-						"chineseNote": "",
-						"japanese": "鉄血海軍、戦艦フリードリヒ・デア・グローセ、H級戦艦の計画型。さあ、ボウヤ…寝付けないなら、子守唄を奏でてあげるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I am Friedrich der Große, prototype H-class battleship of the Iron Blood Navy. Come, my child... If you are unable to sleep, allow me to play you a lullaby.",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "欢迎你的到来，我的孩子，你希望我赠予你什么？黄金、荣耀，还是青春？",
-						"chineseTL": "Welcome, my child. What do you wish for? Riches, glory, or eternal youth?",
-						"chineseNote": "",
-						"japanese": "ようこそ私の元へ。ボウヤ、なにがお望み？富？栄誉？それとも永遠なる青春？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You've returned to my side once more, my child. Tell me, what is it that you wish for? Wealth? Glory? Or perhaps eternal youth?",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "快拉开今日的帷幕吧，奏者们早已急不可耐了！",
-						"chineseTL": "Let's open today's curtain, the performers are getting impatient!",
-						"chineseNote": "",
-						"japanese": "奏者たちはもうお待ちかねだわ！さあ、今宵の戦幕を上げてごらん！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The performers can wait no longer! Hurry, let us raise the curtains of battle!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "我的孩子，若想取得彻底的胜利，必须保持绝对的理性",
-						"chineseTL": "My child, if you wish to achieve complete victory, you must maintain absolute rationality",
-						"chineseNote": "",
-						"japanese": "ボウヤ、絶対なる勝利を得るには、絶対なる理性が必要よ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My child, if you desire absolute victory, you must maintain absolute rationality.",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "战斗时压抑的感情，就在演奏中释放出来吧",
-						"chineseTL": "The emotions suppressed during combat, let's release them during our performance",
-						"chineseNote": "",
-						"japanese": "戦闘中に抑えつけた激情など、この調べを聞いて解き放つがいいわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "All those emotions that you’ve bottled up through all those conflicts... Listen to my concert, and let it all out. ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "战场上的我理性得几近残酷？我姑且把它当做一种夸奖吧",
-						"chineseTL": "My level of rationality approaches cruelty in the battlefield? I will consider it a compliment",
-						"chineseNote": "",
-						"japanese": "戦場の私は残酷に見える？フフフ…褒め言葉として受け取ってあげるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My appearance upon the battlefield gives off an air of cruelty? Hehe... I’ll take that as a compliment. ",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "即便不小心惹怒了我，只要好好道歉，我还是会原谅你的",
-						"chineseTL": "If you carelessly anger me, as long as you apologize, I will forgive you",
-						"chineseNote": "",
-						"japanese": "私を怒らせても、ちゃんと謝れば許してあげるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Even should you anger me, I’ll forgive you as long as you properly apologize.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Normal Touch",
-						"media": "touch_1",
-						"chinese": "害怕的时候，就躲到我身后吧",
-						"chineseTL": "When afraid, just hide behind me",
-						"chineseNote": "",
-						"japanese": "恐怖で身を震わせるときは私の後ろに居るべきね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you are ever afraid, come hide behind my back.",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Special Touch",
-						"media": "touch_2",
-						"chinese": "仿佛变回了小孩子呢……真可爱",
-						"chineseTL": "It's as if you became a little child again... So cute",
-						"chineseNote": "",
-						"japanese": "まるで子供みたい……可愛いわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Just like a baby... how sweet.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "无论想要什么，我都可以帮你拿到",
-						"chineseTL": "No matter what it is, I can help you obtain it",
-						"chineseNote": "",
-						"japanese": "ボウヤが欲しいものなら、何でも手に入れてあげるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My child, no matter what it is that you desire, I can help you obtain it.",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "那么，想要什么奖励呢？",
-						"chineseTL": "Then, what rewards do you want?",
-						"chineseNote": "",
-						"japanese": "では、どんな報酬がお望み？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Now then, what kind of reward would you like?",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "那么，我来唱给你听吧",
-						"chineseTL": "Then, let me sing it for you",
-						"chineseNote": "",
-						"japanese": "メールの内容、奏でてあげましょうか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Shall I sing the contents of this message for you?",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "欢迎回来，无论遇到什么事，都可以向我报告",
-						"chineseTL": "Welcome back, no matter what happened, you can report it to me",
-						"chineseNote": "",
-						"japanese": "おかえり。どんな報告でも聞いてあげるわよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Welcome back. Whether it’s good news or bad news, I’d be glad to hear you out.",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "要好好欢迎认真完成了委托的孩子们哟",
-						"chineseTL": "Make sure to nicely welcome back the children that were entrusted to carry out the commission",
-						"chineseNote": "",
-						"japanese": "委託をこなしてきた子たちはしっかり出迎えてあげないとダメよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "We must properly praise the girls who have returned from their commissions.",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "感觉能奏出更精妙的乐曲了呢",
-						"chineseTL": "Feels like I can play even more exquisite music",
-						"chineseNote": "",
-						"japanese": "より美しい調べが奏でられるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I feel as if I can bring out even more beautiful music.",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "聆听我的演奏，献上痛恶、深惧与绝望吧！",
-						"chineseTL": "Listen to my performance and wallow in sorrow, fear and despair!",
-						"chineseNote": "",
-						"japanese": "調べを奏でよ！憎悪、恐怖、絶望を――！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Let us play a requiem! Resound, o hatred, fear, and despair—!",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "真遗憾，安可演奏还没有开始呢",
-						"chineseTL": "Such a shame, the encore hasn't even started",
-						"chineseNote": "",
-						"japanese": "残念だわ。アンコールもまだ始まっていないというのに…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What a pity. The encore had only just begun...",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "那么，请静待下次演奏吧",
-						"chineseTL": "Then, please wait patiently for the next performance",
-						"chineseNote": "",
-						"japanese": "次の演奏をご期待……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Please await our next performance...",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "skill",
-						"media": "skill",
-						"chinese": "第九交响曲，合唱！",
-						"chineseTL": "Sinfonie Nr. 9, chorus!",
-						"chineseNote": "",
-						"japanese": "Sinfonie Nr. 9…合唱せよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The 9th Symphony... in unison!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "再稍微，忍耐一下喔",
-						"chineseTL": "A little bit more, please be patient",
-						"chineseNote": "",
-						"japanese": "もう少し我慢してあげるわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I shall persevere yet.",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "有在认真反省了吗？",
-						"chineseTL": "Have you seriously reflected on yourself?",
-						"chineseNote": "",
-						"japanese": "ちゃんと反省、しているのかしら",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I wonder if you’re properly repenting yet...?",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "我是本不应出现的存在，不过，既然我已存在于此，那么其中必然蕴藏着某种合理性…",
-						"chineseTL": "I am a presence that should not exist. But, since I already exist, there must be some rationality behind it...",
-						"chineseNote": "",
-						"japanese": "この身体はこの世あらざるべき 存在。しかしこうして立っていられる以上、なにかしらの理由…合理性が働いているのが必然というものよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I never should have come to exist in this world... But since I am here, there must be a higher principle behind it...",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "在战场上，勇气并没有意义，谁更接近拉普拉斯的恶魔，谁就更接近胜利",
-						"chineseTL": "On the battlefield, courage does not have a meaning. Whoever is closer to Laplace's demon is the closest to victory",
-						"chineseNote": "",
-						"japanese": "勇気など戦場では役に立たないわ。ラプラスの悪魔により近づく者だけに勝利の女神が微笑むのよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Things such as courage have no value on the battlefield. Only those who approach Laplace’s demon shall approach victory.",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "比起战斗，我更喜欢像现在这样，来、张开嘴，啊~~",
-						"chineseTL": "Compared to battles, I like it more like this. Come, open your mouth, aaah~",
-						"chineseNote": "",
-						"japanese": "戦闘よりこういうのが好きだわ。ボウヤ、はい、あーんして、あーーーん",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I do prefer this to fighting. Here, may child. Open your mouth~ ahhn~",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "尽情地向我撒娇吧，更多地、更多地……",
-						"chineseTL": "Feel free to get spoiled until you're satisfied, more, more...",
-						"chineseNote": "",
-						"japanese": "もっと私に甘えてちょうだい。もっと、もっと……もっとよ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Please dote upon me more. Yes, more... more...!",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "以后，悲伤也好、喜悦也好、痛苦也好、欢愉也好，无论发生什么，都来依靠我吧，我会一直、一直理解你、包容你、支持你的喔……",
-						"chineseTL": "From now on, in sadness, in joy, in pain, in happiness, no matter what happens, you can rely on me. I will always, always understand you, tolerate you, support you...",
-						"chineseNote": "",
-						"japanese": "悲しいことも楽しいことも、痛さも気持ちよさも、これからは全部分け与えて…ボウヤのこと、ずっと、ずっと、ずっと、包んであげるわよ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "From now on, I shall share everything with you - your sorrow, your joy, your pain, and and your pleasure. My child, I will always, always welcome you into my embrace...",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Z46)",
-						"media": "link1",
-						"chinese": "偶尔也来向我撒撒娇嘛",
-						"chineseTL": "You can come get spoiled by me once in a while",
-						"chineseNote": "",
-						"japanese": "たまには私にも甘えてちょうだい",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You should let me pamper you once in a while.",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Easter Egg 2 (Tirpitz)",
-						"media": "link2",
-						"chinese": "我的指挥无法让你的才能淋漓尽致地展现出来吗……",
-						"chineseTL": "Will my command be able to realize your full talents...",
-						"chineseNote": "",
-						"japanese": "私の指揮では貴方の力が十分発揮できないかしら",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Perhaps you're unable to display your full power with me in charge?",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Like Present",
-						"media": "present_like",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "気に入ったは～",
-						"japaneseTL": "I fancy it~",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"31": {
-						"event": "Dislike Present",
-						"media": "present_dislike",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "悲しいは...",
-						"japaneseTL": "Sad...",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"32": {
-						"event": "Main Title",
-						"media": "extra",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "feiteliedadi_2",
-				"id": "1",
-				"label": "Dark Raiments of Gagaku",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "这就是重樱称作“和服”的装扮吧。质地非常舒服，色调也很高雅——穿法？孩子，你说的是什么呢？",
-						"chineseTL": "This outfit is what the Sakura Empire calls \"kimono\". The texture feels very comfortable and the colors are very elegant as well. How to put on? Child, what are you trying to say?",
-						"chineseNote": "",
-						"japanese": "この衣装、重桜の「着物」というものね。上質な素材で落ち着く着心地、それでいて色合いも上品――着付け？ボウヤ、それは……どういうことかしら？",
-						"japaneseTL": "This outfit, the Sakura Empire calls it \"kimono\". The high quality materials makes it feel very comfortable, and the colors are very elegant as well. How to put on? Child... what are you trying to say?",
-						"japaneseNote": "",
-						"english": "I see, so this is a \"kimono\" from the Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed... How to wear it? ...My child, what are you talking about?",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "这就是重樱称作“和服”的装扮吧。质地非常舒服，色调也很高雅——穿法？孩子，你说的是什么呢？",
-						"chineseTL": "This outfit is what the Sakura Empire calls \"kimono\". The texture feels very comfortable and the colors are very elegant as well. How to put on? Child, what are you trying to say?",
-						"chineseNote": "",
-						"japanese": "この衣装、重桜の「着物」というものね。上質な素材で落ち着く着心地、それでいて色合いも上品――着付け？ボウヤ、それは……どういうことかしら？",
-						"japaneseTL": "This outfit, the Sakura Empire calls it \"kimono\". The high quality materials makes it feel very comfortable, and the colors are very elegant as well. How to put on? Child... what are you trying to say?",
-						"japaneseNote": "",
-						"english": "I see, so this is a \"kimono\" from the Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed... How to wear it? ...My child, what are you talking about?",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "一直站在那儿很冷吧？过来吧，孩子",
-						"chineseTL": "It must feel cold if you keep standing there? Come here, my child.",
-						"chineseNote": "",
-						"japanese": "じっとそこで立っていては寒くならない？おいで、ボウヤ",
-						"japaneseTL": "Isn't it cold if you keep standing there? Come here, my child.",
-						"japaneseNote": "",
-						"english": "Aren't you cold standing over there? Come to me, my child.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "人类的欲望是无限的。没错…就像这巨大的舰装一般…追求更巨大的形态、更强大的力量…更多的炮塔…以及更伟大的荣光——",
-						"chineseTL": "Humanity's desires are infinite. That's right... just like this massive rigging... pursuing an even larger form, a stronger power... a greater number of cannons... and greater glory.",
-						"chineseNote": "",
-						"japanese": "人間の欲望は無限よ。そう、まるで私の艤装のように…より巨大な形を、力を、砲塔を、栄光を求めて――",
-						"japaneseTL": "Humanity's desires are infinite. That's right, just like this massive rigging of mine... pursuing an even larger form, power, cannons and glory.",
-						"japaneseNote": "",
-						"english": "Mankind's ambitions know no limits. Indeed, just like these riggings of mine... they strive to expand, to become more powerful... to command more cannons, and to seize greater glory...",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "重樱的雅乐，所谓“幽玄”…究竟代表着怎么样一种感情…我非常感兴趣呢",
-						"chineseTL": "The elegant music of the Sakura Empire, so-called \"Yūgen\"... what kind of emotions does it represent... I am very interested.",
-						"chineseNote": "",
-						"japanese": "重桜の雅楽、幽玄というのはどんな感情を表すものか――興味があるわ",
-						"japaneseTL": "The elegant music of the Sakura Empire, so-called \"Yūgen\", what kind of emotions does it represent. I am very interested.",
-						"japaneseNote": "",
-						"english": "Sakura Empire's classical \"gagaku\" is said to elicit profound and mysterious emotions... I'm quite curious about it. ",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "感情的压抑与释放，可以是毒也可以是药。合理地控制自己的状态，对于提高效率很有帮助哦",
-						"chineseTL": "The suppression and release of emotions can be either poison or medicine. The ability to rationally control yourself helps improve efficiency.",
-						"chineseNote": "",
-						"japanese": "感情の抑制と解放は毒にも薬にもなるもの。自分の調子を上手く制御できてこそ効率が上がるわよ",
-						"japaneseTL": "Suppression and release of emotions can be both poison or medicine. If you can properly control yourself, your efficiency will improve.",
-						"japaneseNote": "",
-						"english": "The release of repressed emotions can be both medicine and poison. The effect depends on how well you can control your state of being. ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "孩子，能帮我穿上这件衣服吗？",
-						"chineseTL": "My child, would you help me put this outfit on?",
-						"chineseNote": "",
-						"japanese": "ボウヤ、この着物の着付けを手伝ってもらえるかしら？",
-						"japaneseTL": "My child, would you help me put this kimono on?",
-						"japaneseNote": "",
-						"english": "My child, could you help me with putting on this outfit?",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "与人拥抱的触感，是肌肤的温热——你明白的吧，孩子",
-						"chineseTL": "The sensation of hugging someone is the warmth of the skin. My child, you understand, right?",
-						"chineseNote": "",
-						"japanese": "この抱擁の感触は人肌の温もり――ボウヤにはそれがわかるのかしら",
-						"japaneseTL": "The sensation of hugging someone is the warmth of the skin. My child would also understand, right?",
-						"japaneseNote": "",
-						"english": "The sensation of this embrace is the warmth of human contact... Do you understand, my child?",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "你喜欢这里吗，孩子？呵呵呵",
-						"chineseTL": "You like it here, my child? Ho ho ho",
-						"chineseNote": "",
-						"japanese": "ボウヤはここが恋しい？ふふふふ",
-						"japaneseTL": "You like it here, my child? Fu fu fu fu",
-						"japaneseNote": "",
-						"english": "Do you like it here, my child? Hehehe~",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Rub",
-						"media": "touch_head_1",
-						"chinese": "这应该是由我对你做的才对吧？孩子",
-						"chineseTL": "That's something I should be doing to you, right? My child.",
-						"chineseNote": "",
-						"japanese": "これは私から貴方にすることじゃなくて？ボウヤ",
-						"japaneseTL": "That's something I should be doing to you, right? My child.",
-						"japaneseNote": "",
-						"english": "Shouldn't I be the one doing this to you instead, my child?",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "欢迎回来。我准备了饮料，一边暖暖身子一边报告吧",
-						"chineseTL": "Welcome back. I prepared some drinks, let's warm you up while you report.",
-						"chineseNote": "",
-						"japanese": "おかえり。飲み物を用意したわ。体を温めてから報告を聞いてちょうだい",
-						"japaneseTL": "Welcome back. I prepared some drinks. Please warm up while you report.",
-						"japaneseNote": "",
-						"english": "Welcome back. I've prepared a beverage for you. Come warm yourself as I read the report to you.",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Flagship",
-						"media": "warcry_1",
-						"chinese": "与虚无的交响一起消失殆尽吧——！",
-						"chineseTL": "Disappear with the symphony of the void!",
-						"chineseNote": "",
-						"japanese": "虚無の交響とともに、跡形もなく消え去るがいい――！",
-						"japaneseTL": "Disappear with the symphony of the void!",
-						"japaneseNote": "",
-						"english": "Turn into nothingness, along with the symphony of the void!",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
-				"skin_id": "feiteliedadi_h",
-				"id": "8",
-				"label": "Zeremonie of the Cradle",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "啊啊…真是如梦境一般的展开呢…让我们把这美妙的乐章永远、永远续写下去吧，我的孩子？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ああ、この夢のような美しい変奏――私たちの楽章、調べが永遠に続くことを望むわ。愛しいボウヤ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ahh, the dreamlike beauty of this variation... let us write down this movement so that it may continue forever, my sweet child.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_8",
-						"chinese": "啊啊…真是如梦境一般的展开呢…让我们把这美妙的乐章永远、永远续写下去吧，我的孩子？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_8",
-						"chinese": "今天想听我为你演奏什么呢，我的孩子？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_8",
-						"chinese": "希望从你那得到什么？呵…对我来说，世界上最美妙的宝物，就是现在的你哦，我的孩子？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Touch",
-						"media": "touch_1_8",
-						"chinese": "呵呵，渴望与挚爱接触的温暖了吗？来吧，你可以再靠近一些，我的孩子",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Touch (Special)",
-						"media": "touch_2_8",
-						"chinese": "呵呵，真是调皮的孩子呢，没关系，我会包容你的一切的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Return to Port",
-						"media": "home_8",
-						"chinese": "不急着报告，先让我看看你…嗯，很好，没有什么异常~那么，有什么要和我说的吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_8",
-						"chinese": "我会接纳你的全部，并且为你铲除挡在面前的一切…所以，尽情地向我撒娇吧，更多地、更多地…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "56",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"pt_upgrade": "114",
-		"pt_level": "86",
-		"add_level_attr": "Firepower",
-		"add_level_value": "2",
-		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"t_level": "9",
-		"ships": "friedrich_der_grosse"
-	}
+    "name_reference": "friedrich_der_grosse",
+    "cn_reference": "feiteliedadi",
+    "nameJP": "フリードリヒ・デア・グローセ",
+    "nameCN": "",
+    "ID": "P011",
+    "name": "Friedrich der Große",
+    "internal_id": "499021",
+    "rarity": "Decisive",
+    "initialStar": "★★★☆☆☆",
+    "hull": "Battleship",
+    "navy": "Ironblood",
+    "prefix": "KMS",
+    "buildTime": "N/A",
+    "class": "Friedrich der Große-Class",
+    "parameters": {
+        "firepower": "S",
+        "torpedo": "E",
+        "aviation": "E",
+        "evasion": "C",
+        "antiAir": "C",
+        "hp": "S"
+    },
+    "scrap": {
+        "gold": "11",
+        "oil": "4",
+        "medal": "30"
+    },
+    "releaseDate": {
+        "JP": "April 18, 2019",
+        "CN": "April 18, 2019",
+        "KR": "April 18, 2019",
+        "EN": "December 19, 2019"
+    },
+    "voiceActress": "Hitomi Nabatame",
+    "artist": {
+        "name": "",
+        "weibo": "",
+        "twitter": "",
+        "pixiv": "",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "0",
+        "torpedo": "0",
+        "aviation": "0",
+        "reload": "0"
+    },
+    "acquisitionMethod": "Research and Development",
+    "skill": {
+        "1": {
+            "icon": "19220",
+            "name": "Symphony of Destruction",
+            "type": "Offensive",
+            "requirement": "Default Unlocked",
+            "description": "When taking damage or when an enemy enters the defensive firing line, trigger an armor piercing barrage from the secondary weapon (firepower increased by skill level) and enter a 15 second cooldown"
+        },
+        "2": {
+            "icon": "19230",
+            "name": "Sonata of Chaos",
+            "type": "Offensive",
+            "requirement": "Default Unlocked",
+            "description": "When main gun is fired an odd numbered of times, increase reload by 30-50% and damage by 10-20%. When main gun is fired an even number of times, increase critical chance by 10-20% and critical damage by 20-50%. Effects gained persist until the main gun is fired again"
+        },
+        "3": {
+            "icon": "19240",
+            "name": "Rhapsody of Darkness",
+            "type": "Support",
+            "requirement": "Default Unlocked",
+            "description": "When health is between 70-100%, increase firepower by 10-20%. When health is between 30-70%, increase firepower by 4-10% and reduce damage taken by 4-10%. When health drops below 30%, reduce damage taken by 10-20%"
+        },
+        "4": {
+            "icon": "19000",
+            "name": "Siren Killer Ⅰ",
+            "type": "Offensive",
+            "requirement": "Strenghten Level 10 (I) / Level 20 (II) / Level 30 (III)",
+            "description": "Increase damage done to sirens by 5%"
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "feiteliedadi",
+            "name": "Friedrich der Große ",
+            "description": "Battleship – Friedrich der Große. ",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        },
+        "2": {
+            "id": "feiteliedadi_2",
+            "name": "Dark Raiments of Gagaku",
+            "description": "I see, so this is a \"kimono\" from the Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed... How to wear it? ...My child, what are you talking about?",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                }
+            }
+        },
+        "3": {
+            "id": "feiteliedadi_h",
+            "name": "Zeremonie of the Cradle",
+            "description": "Ahh, the dreamlike beauty of this variation... let us write down this movement so that it may continue forever, my sweet child.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "8449",
+            "firepower": "407",
+            "torpedo": "0",
+            "antiAir": "210",
+            "aviation": "0",
+            "reload": "137",
+            "hit": "57",
+            "evasion": "21",
+            "speed": "30",
+            "luck": "0",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "19",
+            "armor": "Heavy"
+        },
+        "120": {
+            "hp": "9886",
+            "firepower": "449",
+            "torpedo": "0",
+            "antiAir": "241",
+            "aviation": "0",
+            "reload": "157",
+            "hit": "65",
+            "evasion": "27",
+            "speed": "30",
+            "luck": "0",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "19",
+            "armor": "Heavy"
+        },
+        "base": {
+            "hp": "1634",
+            "firepower": "87",
+            "torpedo": "0",
+            "antiAir": "45",
+            "aviation": "0",
+            "reload": "58",
+            "hit": "22",
+            "evasion": "8",
+            "speed": "30",
+            "luck": "0",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "",
+            "armor": "Heavy"
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "30",
+            "luck": "0",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "19",
+            "armor": "Heavy"
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "30",
+            "luck": "0",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "19",
+            "armor": "Heavy"
+        }
+    },
+    "strengthenLevel": {
+        "level5": "HP+400 | Anti-Air+11 | Main Gun Efficiency＋5%",
+        "level10": "Main Gun+1 | Main Gun Efficiency+5% | Limit Break ★★★★☆☆",
+        "level15": "HP+797 | Anti-Air+22 | Anti-Air Efficiency＋10%",
+        "level20": "Secondary Gun+2 | Main Gun Efficiency+10% | Limit Break ★★★★★☆",
+        "level25": "HP+1195 | Anti-Air+33 | Main Gun Efficiency＋5%",
+        "level30": "Main Gun+1 | Main gun Efficiency+15% | Limit Break ★★★★★★"
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "Battleship Gun",
+            "efficiency": "120%/130%/140%/160%",
+            "amount": "1/2/2/3",
+            "preload": "0/0/0/0"
+        },
+        "2": {
+            "type": "Light Cruiser Gun",
+            "efficiency": "220%/220%/220%/220%",
+            "amount": "1/1/3/3",
+            "preload": "0/0/0/0"
+        },
+        "3": {
+            "type": "Anti-Air Gun",
+            "efficiency": "90%/90%/100%/100%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "feiteliedadi",
+                "id": "0",
+                "label": "Friedrich der Große ",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "战列舰—腓特烈大帝",
+                        "chineseTL": "Battleship - Friedrich der Große",
+                        "chineseNote": "",
+                        "japanese": "戦艦・フリードリヒ・デア・グローセ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Battleship – Friedrich der Große.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "铁血海军腓特烈大帝号战列舰，H计划的产物之一。我的孩子，如果失眠的话，就让我为你唱首摇篮曲吧",
+                        "chineseTL": "Ironblood battleship Friedrich der Große, one of the products from the H Plan. My child, if you feel sleepless, let me sing you a lullaby",
+                        "chineseNote": "",
+                        "japanese": "鉄血海軍、戦艦フリードリヒ・デア・グローセ、H級戦艦の計画型。さあ、ボウヤ…寝付けないなら、子守唄を奏でてあげるわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I am Friedrich der Große, prototype H-class battleship of the Iron Blood Navy. Come, my child... If you are unable to sleep, allow me to play you a lullaby.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "欢迎你的到来，我的孩子，你希望我赠予你什么？黄金、荣耀，还是青春？",
+                        "chineseTL": "Welcome, my child. What do you wish for? Riches, glory, or eternal youth?",
+                        "chineseNote": "",
+                        "japanese": "ようこそ私の元へ。ボウヤ、なにがお望み？富？栄誉？それとも永遠なる青春？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You've returned to my side once more, my child. Tell me, what is it that you wish for? Wealth? Glory? Or perhaps eternal youth?",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "快拉开今日的帷幕吧，奏者们早已急不可耐了！",
+                        "chineseTL": "Let's open today's curtain, the performers are getting impatient!",
+                        "chineseNote": "",
+                        "japanese": "奏者たちはもうお待ちかねだわ！さあ、今宵の戦幕を上げてごらん！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The performers can wait no longer! Hurry, let us raise the curtains of battle!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "我的孩子，若想取得彻底的胜利，必须保持绝对的理性",
+                        "chineseTL": "My child, if you wish to achieve complete victory, you must maintain absolute rationality",
+                        "chineseNote": "",
+                        "japanese": "ボウヤ、絶対なる勝利を得るには、絶対なる理性が必要よ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "My child, if you desire absolute victory, you must maintain absolute rationality.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "战斗时压抑的感情，就在演奏中释放出来吧",
+                        "chineseTL": "The emotions suppressed during combat, let's release them during our performance",
+                        "chineseNote": "",
+                        "japanese": "戦闘中に抑えつけた激情など、この調べを聞いて解き放つがいいわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "All those emotions that you’ve bottled up through all those conflicts... Listen to my concert, and let it all out. ",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "战场上的我理性得几近残酷？我姑且把它当做一种夸奖吧",
+                        "chineseTL": "My level of rationality approaches cruelty in the battlefield? I will consider it a compliment",
+                        "chineseNote": "",
+                        "japanese": "戦場の私は残酷に見える？フフフ…褒め言葉として受け取ってあげるわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "My appearance upon the battlefield gives off an air of cruelty? Hehe... I’ll take that as a compliment. ",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "即便不小心惹怒了我，只要好好道歉，我还是会原谅你的",
+                        "chineseTL": "If you carelessly anger me, as long as you apologize, I will forgive you",
+                        "chineseNote": "",
+                        "japanese": "私を怒らせても、ちゃんと謝れば許してあげるわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Even should you anger me, I’ll forgive you as long as you properly apologize.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Normal Touch",
+                        "media": "touch_1",
+                        "chinese": "害怕的时候，就躲到我身后吧",
+                        "chineseTL": "When afraid, just hide behind me",
+                        "chineseNote": "",
+                        "japanese": "恐怖で身を震わせるときは私の後ろに居るべきね",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If you are ever afraid, come hide behind my back.",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Special Touch",
+                        "media": "touch_2",
+                        "chinese": "仿佛变回了小孩子呢……真可爱",
+                        "chineseTL": "It's as if you became a little child again... So cute",
+                        "chineseNote": "",
+                        "japanese": "まるで子供みたい……可愛いわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Just like a baby... how sweet.",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "无论想要什么，我都可以帮你拿到",
+                        "chineseTL": "No matter what it is, I can help you obtain it",
+                        "chineseNote": "",
+                        "japanese": "ボウヤが欲しいものなら、何でも手に入れてあげるわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "My child, no matter what it is that you desire, I can help you obtain it.",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "那么，想要什么奖励呢？",
+                        "chineseTL": "Then, what rewards do you want?",
+                        "chineseNote": "",
+                        "japanese": "では、どんな報酬がお望み？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Now then, what kind of reward would you like?",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "那么，我来唱给你听吧",
+                        "chineseTL": "Then, let me sing it for you",
+                        "chineseNote": "",
+                        "japanese": "メールの内容、奏でてあげましょうか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Shall I sing the contents of this message for you?",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "欢迎回来，无论遇到什么事，都可以向我报告",
+                        "chineseTL": "Welcome back, no matter what happened, you can report it to me",
+                        "chineseNote": "",
+                        "japanese": "おかえり。どんな報告でも聞いてあげるわよ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Welcome back. Whether it’s good news or bad news, I’d be glad to hear you out.",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "要好好欢迎认真完成了委托的孩子们哟",
+                        "chineseTL": "Make sure to nicely welcome back the children that were entrusted to carry out the commission",
+                        "chineseNote": "",
+                        "japanese": "委託をこなしてきた子たちはしっかり出迎えてあげないとダメよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "We must properly praise the girls who have returned from their commissions.",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "感觉能奏出更精妙的乐曲了呢",
+                        "chineseTL": "Feels like I can play even more exquisite music",
+                        "chineseNote": "",
+                        "japanese": "より美しい調べが奏でられるわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I feel as if I can bring out even more beautiful music.",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "聆听我的演奏，献上痛恶、深惧与绝望吧！",
+                        "chineseTL": "Listen to my performance and wallow in sorrow, fear and despair!",
+                        "chineseNote": "",
+                        "japanese": "調べを奏でよ！憎悪、恐怖、絶望を――！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Let us play a requiem! Resound, o hatred, fear, and despair—!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "真遗憾，安可演奏还没有开始呢",
+                        "chineseTL": "Such a shame, the encore hasn't even started",
+                        "chineseNote": "",
+                        "japanese": "残念だわ。アンコールもまだ始まっていないというのに…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "What a pity. The encore had only just begun...",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "那么，请静待下次演奏吧",
+                        "chineseTL": "Then, please wait patiently for the next performance",
+                        "chineseNote": "",
+                        "japanese": "次の演奏をご期待……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Please await our next performance...",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "skill",
+                        "media": "skill",
+                        "chinese": "第九交响曲，合唱！",
+                        "chineseTL": "Sinfonie Nr. 9, chorus!",
+                        "chineseNote": "",
+                        "japanese": "Sinfonie Nr. 9…合唱せよ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The 9th Symphony... in unison!",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "再稍微，忍耐一下喔",
+                        "chineseTL": "A little bit more, please be patient",
+                        "chineseNote": "",
+                        "japanese": "もう少し我慢してあげるわ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I shall persevere yet.",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "有在认真反省了吗？",
+                        "chineseTL": "Have you seriously reflected on yourself?",
+                        "chineseNote": "",
+                        "japanese": "ちゃんと反省、しているのかしら",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I wonder if you’re properly repenting yet...?",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "我是本不应出现的存在，不过，既然我已存在于此，那么其中必然蕴藏着某种合理性…",
+                        "chineseTL": "I am a presence that should not exist. But, since I already exist, there must be some rationality behind it...",
+                        "chineseNote": "",
+                        "japanese": "この身体はこの世あらざるべき 存在。しかしこうして立っていられる以上、なにかしらの理由…合理性が働いているのが必然というものよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I never should have come to exist in this world... But since I am here, there must be a higher principle behind it...",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "在战场上，勇气并没有意义，谁更接近拉普拉斯的恶魔，谁就更接近胜利",
+                        "chineseTL": "On the battlefield, courage does not have a meaning. Whoever is closer to Laplace's demon is the closest to victory",
+                        "chineseNote": "",
+                        "japanese": "勇気など戦場では役に立たないわ。ラプラスの悪魔により近づく者だけに勝利の女神が微笑むのよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Things such as courage have no value on the battlefield. Only those who approach Laplace’s demon shall approach victory.",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "比起战斗，我更喜欢像现在这样，来、张开嘴，啊~~",
+                        "chineseTL": "Compared to battles, I like it more like this. Come, open your mouth, aaah~",
+                        "chineseNote": "",
+                        "japanese": "戦闘よりこういうのが好きだわ。ボウヤ、はい、あーんして、あーーーん",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I do prefer this to fighting. Here, may child. Open your mouth~ ahhn~",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "尽情地向我撒娇吧，更多地、更多地……",
+                        "chineseTL": "Feel free to get spoiled until you're satisfied, more, more...",
+                        "chineseNote": "",
+                        "japanese": "もっと私に甘えてちょうだい。もっと、もっと……もっとよ……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Please dote upon me more. Yes, more... more...!",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "以后，悲伤也好、喜悦也好、痛苦也好、欢愉也好，无论发生什么，都来依靠我吧，我会一直、一直理解你、包容你、支持你的喔……",
+                        "chineseTL": "From now on, in sadness, in joy, in pain, in happiness, no matter what happens, you can rely on me. I will always, always understand you, tolerate you, support you...",
+                        "chineseNote": "",
+                        "japanese": "悲しいことも楽しいことも、痛さも気持ちよさも、これからは全部分け与えて…ボウヤのこと、ずっと、ずっと、ずっと、包んであげるわよ……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "From now on, I shall share everything with you - your sorrow, your joy, your pain, and and your pleasure. My child, I will always, always welcome you into my embrace...",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Easter Egg 1 (Z46)",
+                        "media": "link1",
+                        "chinese": "偶尔也来向我撒撒娇嘛",
+                        "chineseTL": "You can come get spoiled by me once in a while",
+                        "chineseNote": "",
+                        "japanese": "たまには私にも甘えてちょうだい",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You should let me pamper you once in a while.",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Easter Egg 2 (Tirpitz)",
+                        "media": "link2",
+                        "chinese": "我的指挥无法让你的才能淋漓尽致地展现出来吗……",
+                        "chineseTL": "Will my command be able to realize your full talents...",
+                        "chineseNote": "",
+                        "japanese": "私の指揮では貴方の力が十分発揮できないかしら",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Perhaps you're unable to display your full power with me in charge?",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Like Present",
+                        "media": "present_like",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "気に入ったは～",
+                        "japaneseTL": "I fancy it~",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Dislike Present",
+                        "media": "present_dislike",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "悲しいは...",
+                        "japaneseTL": "Sad...",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Main Title",
+                        "media": "extra",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "2": {
+                "skin_id": "feiteliedadi_2",
+                "id": "1",
+                "label": "Dark Raiments of Gagaku",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "这就是重樱称作“和服”的装扮吧。质地非常舒服，色调也很高雅——穿法？孩子，你说的是什么呢？",
+                        "chineseTL": "This outfit is what the Sakura Empire calls \"kimono\". The texture feels very comfortable and the colors are very elegant as well. How to put on? Child, what are you trying to say?",
+                        "chineseNote": "",
+                        "japanese": "この衣装、重桜の「着物」というものね。上質な素材で落ち着く着心地、それでいて色合いも上品――着付け？ボウヤ、それは……どういうことかしら？",
+                        "japaneseTL": "This outfit, the Sakura Empire calls it \"kimono\". The high quality materials makes it feel very comfortable, and the colors are very elegant as well. How to put on? Child... what are you trying to say?",
+                        "japaneseNote": "",
+                        "english": "I see, so this is a \"kimono\" from the Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed... How to wear it? ...My child, what are you talking about?",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "这就是重樱称作“和服”的装扮吧。质地非常舒服，色调也很高雅——穿法？孩子，你说的是什么呢？",
+                        "chineseTL": "This outfit is what the Sakura Empire calls \"kimono\". The texture feels very comfortable and the colors are very elegant as well. How to put on? Child, what are you trying to say?",
+                        "chineseNote": "",
+                        "japanese": "この衣装、重桜の「着物」というものね。上質な素材で落ち着く着心地、それでいて色合いも上品――着付け？ボウヤ、それは……どういうことかしら？",
+                        "japaneseTL": "This outfit, the Sakura Empire calls it \"kimono\". The high quality materials makes it feel very comfortable, and the colors are very elegant as well. How to put on? Child... what are you trying to say?",
+                        "japaneseNote": "",
+                        "english": "I see, so this is a \"kimono\" from the Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed... How to wear it? ...My child, what are you talking about?",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "一直站在那儿很冷吧？过来吧，孩子",
+                        "chineseTL": "It must feel cold if you keep standing there? Come here, my child.",
+                        "chineseNote": "",
+                        "japanese": "じっとそこで立っていては寒くならない？おいで、ボウヤ",
+                        "japaneseTL": "Isn't it cold if you keep standing there? Come here, my child.",
+                        "japaneseNote": "",
+                        "english": "Aren't you cold standing over there? Come to me, my child.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "人类的欲望是无限的。没错…就像这巨大的舰装一般…追求更巨大的形态、更强大的力量…更多的炮塔…以及更伟大的荣光——",
+                        "chineseTL": "Humanity's desires are infinite. That's right... just like this massive rigging... pursuing an even larger form, a stronger power... a greater number of cannons... and greater glory.",
+                        "chineseNote": "",
+                        "japanese": "人間の欲望は無限よ。そう、まるで私の艤装のように…より巨大な形を、力を、砲塔を、栄光を求めて――",
+                        "japaneseTL": "Humanity's desires are infinite. That's right, just like this massive rigging of mine... pursuing an even larger form, power, cannons and glory.",
+                        "japaneseNote": "",
+                        "english": "Mankind's ambitions know no limits. Indeed, just like these riggings of mine... they strive to expand, to become more powerful... to command more cannons, and to seize greater glory...",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "重樱的雅乐，所谓“幽玄”…究竟代表着怎么样一种感情…我非常感兴趣呢",
+                        "chineseTL": "The elegant music of the Sakura Empire, so-called \"Yūgen\"... what kind of emotions does it represent... I am very interested.",
+                        "chineseNote": "",
+                        "japanese": "重桜の雅楽、幽玄というのはどんな感情を表すものか――興味があるわ",
+                        "japaneseTL": "The elegant music of the Sakura Empire, so-called \"Yūgen\", what kind of emotions does it represent. I am very interested.",
+                        "japaneseNote": "",
+                        "english": "Sakura Empire's classical \"gagaku\" is said to elicit profound and mysterious emotions... I'm quite curious about it. ",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "感情的压抑与释放，可以是毒也可以是药。合理地控制自己的状态，对于提高效率很有帮助哦",
+                        "chineseTL": "The suppression and release of emotions can be either poison or medicine. The ability to rationally control yourself helps improve efficiency.",
+                        "chineseNote": "",
+                        "japanese": "感情の抑制と解放は毒にも薬にもなるもの。自分の調子を上手く制御できてこそ効率が上がるわよ",
+                        "japaneseTL": "Suppression and release of emotions can be both poison or medicine. If you can properly control yourself, your efficiency will improve.",
+                        "japaneseNote": "",
+                        "english": "The release of repressed emotions can be both medicine and poison. The effect depends on how well you can control your state of being. ",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "孩子，能帮我穿上这件衣服吗？",
+                        "chineseTL": "My child, would you help me put this outfit on?",
+                        "chineseNote": "",
+                        "japanese": "ボウヤ、この着物の着付けを手伝ってもらえるかしら？",
+                        "japaneseTL": "My child, would you help me put this kimono on?",
+                        "japaneseNote": "",
+                        "english": "My child, could you help me with putting on this outfit?",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "与人拥抱的触感，是肌肤的温热——你明白的吧，孩子",
+                        "chineseTL": "The sensation of hugging someone is the warmth of the skin. My child, you understand, right?",
+                        "chineseNote": "",
+                        "japanese": "この抱擁の感触は人肌の温もり――ボウヤにはそれがわかるのかしら",
+                        "japaneseTL": "The sensation of hugging someone is the warmth of the skin. My child would also understand, right?",
+                        "japaneseNote": "",
+                        "english": "The sensation of this embrace is the warmth of human contact... Do you understand, my child?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "你喜欢这里吗，孩子？呵呵呵",
+                        "chineseTL": "You like it here, my child? Ho ho ho",
+                        "chineseNote": "",
+                        "japanese": "ボウヤはここが恋しい？ふふふふ",
+                        "japaneseTL": "You like it here, my child? Fu fu fu fu",
+                        "japaneseNote": "",
+                        "english": "Do you like it here, my child? Hehehe~",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Rub",
+                        "media": "touch_head_1",
+                        "chinese": "这应该是由我对你做的才对吧？孩子",
+                        "chineseTL": "That's something I should be doing to you, right? My child.",
+                        "chineseNote": "",
+                        "japanese": "これは私から貴方にすることじゃなくて？ボウヤ",
+                        "japaneseTL": "That's something I should be doing to you, right? My child.",
+                        "japaneseNote": "",
+                        "english": "Shouldn't I be the one doing this to you instead, my child?",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "欢迎回来。我准备了饮料，一边暖暖身子一边报告吧",
+                        "chineseTL": "Welcome back. I prepared some drinks, let's warm you up while you report.",
+                        "chineseNote": "",
+                        "japanese": "おかえり。飲み物を用意したわ。体を温めてから報告を聞いてちょうだい",
+                        "japaneseTL": "Welcome back. I prepared some drinks. Please warm up while you report.",
+                        "japaneseNote": "",
+                        "english": "Welcome back. I've prepared a beverage for you. Come warm yourself as I read the report to you.",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Flagship",
+                        "media": "warcry_1",
+                        "chinese": "与虚无的交响一起消失殆尽吧——！",
+                        "chineseTL": "Disappear with the symphony of the void!",
+                        "chineseNote": "",
+                        "japanese": "虚無の交響とともに、跡形もなく消え去るがいい――！",
+                        "japaneseTL": "Disappear with the symphony of the void!",
+                        "japaneseNote": "",
+                        "english": "Turn into nothingness, along with the symphony of the void!",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "3": {
+                "skin_id": "feiteliedadi_h",
+                "id": "8",
+                "label": "Zeremonie of the Cradle",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "啊啊…真是如梦境一般的展开呢…让我们把这美妙的乐章永远、永远续写下去吧，我的孩子？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ああ、この夢のような美しい変奏――私たちの楽章、調べが永遠に続くことを望むわ。愛しいボウヤ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ahh, the dreamlike beauty of this variation... let us write down this movement so that it may continue forever, my sweet child.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_8",
+                        "chinese": "啊啊…真是如梦境一般的展开呢…让我们把这美妙的乐章永远、永远续写下去吧，我的孩子？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_8",
+                        "chinese": "今天想听我为你演奏什么呢，我的孩子？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_8",
+                        "chinese": "希望从你那得到什么？呵…对我来说，世界上最美妙的宝物，就是现在的你哦，我的孩子？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Touch",
+                        "media": "touch_1_8",
+                        "chinese": "呵呵，渴望与挚爱接触的温暖了吗？来吧，你可以再靠近一些，我的孩子",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_8",
+                        "chinese": "呵呵，真是调皮的孩子呢，没关系，我会包容你的一切的",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Return to Port",
+                        "media": "home_8",
+                        "chinese": "不急着报告，先让我看看你…嗯，很好，没有什么异常~那么，有什么要和我说的吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_8",
+                        "chinese": "我会接纳你的全部，并且为你铲除挡在面前的一切…所以，尽情地向我撒娇吧，更多地、更多地…",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            }
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "56",
+        "add_get_attr": "HP",
+        "add_get_value": "1",
+        "add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+        "pt_upgrade": "114",
+        "pt_level": "86",
+        "add_level_attr": "Firepower",
+        "add_level_value": "2",
+        "add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+        "t_level": "9",
+        "ships": "friedrich_der_grosse,ulrich_von_hutten"
+    }
 }

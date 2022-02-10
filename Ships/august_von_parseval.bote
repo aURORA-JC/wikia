@@ -1,320 +1,354 @@
 {
-	"name_reference" : "august_von_parseval",
-	"cn_reference" : "aogusite",
-	"nameJP" : "",
-	"nameCN" : "",
-	"ID" : "P020",
-	"name" : "August von Parseval",
-	"internal_id" : "499061",
-	"rarity" : "Priority",
-	"initialStar" : "★★★☆☆☆",
-	"hull" : "Aircraft Carrier",
-	"navy" : "Ironblood",
-	"prefix" : "KMS",
-	"buildTime" : "N/A",
-	"voiceActress" : "",
-	"parameters": {
-		"firepower" : "",
-		"torpedo" : "",
-		"aviation" : "",
-		"evasion" : "",
-		"antiAir" : "",
-		"hp" : ""
-	},
-	"scrap": {
-		"gold" : "",
-		"oil" : "",
-		"medal" : ""
-	},
-	"releaseDate": {
-		"JP" : "2021/07/08",
-		"CN" : "2021/07/08",
-		"KR" : "",
-		"EN" : "2021/07/08"
-	},
-	"artist": {
-		"name" : "",
-		"weibo" : "",
-		"twitter" : "",
-		"pixiv" : "",
-		"other" : ""
-	},
-	"class" : "August von Parseval-Class",
-	"enhance": {
-		"firepower" : "0",
-		"torpedo" : "0",
-		"aviation" : "0",
-		"reload" : "0"
-	},
-	"acquisitionMethod" : "Research and Development",
-	"skill": {
-		"1" : {
-			"icon" : "",
-			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
-		},
-		"2" : {
-			"icon" : "",
-			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
-		},
-		"3" : {
-			"icon" : "",
-			"requirement" : "",
-			"name" : "",
-			"type" : "",
-			"description" : ""
-		}
-	},
-	"skin": {
-		"1" : {
-			"id" : "aogusite",
-			"name" : "August von Parseval",
-			"description" : "",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				},
-				"5" : {
-					"id" : "5"
-				},
-				"6" : {
-					"id" : "6"
-				},
-				"7" : {
-					"id" : "7"
-				},
-				"8" : {
-					"id" : "8"
-				}
-			}        
+    "name_reference" : "august_von_parseval",
+    "cn_reference" : "aogusite",
+    "nameJP" : "",
+    "nameCN" : "",
+    "ID" : "P020",
+    "name" : "August von Parseval",
+    "internal_id" : "499061",
+    "rarity" : "Priority",
+    "initialStar" : "★★★☆☆☆",
+    "hull" : "Aircraft Carrier",
+    "navy" : "Ironblood",
+    "prefix" : "KMS",
+    "buildTime" : "N/A",
+    "voiceActress" : "",
+    "parameters": {
+        "firepower" : "",
+        "torpedo" : "",
+        "aviation" : "",
+        "evasion" : "",
+        "antiAir" : "",
+        "hp" : ""
+    },
+    "scrap": {
+        "gold" : "",
+        "oil" : "",
+        "medal" : ""
+    },
+    "releaseDate": {
+        "JP" : "2021/07/08",
+        "CN" : "2021/07/08",
+        "KR" : "",
+        "EN" : "2021/07/08"
+    },
+    "artist": {
+        "name" : "",
+        "weibo" : "",
+        "twitter" : "",
+        "pixiv" : "",
+        "other" : ""
+    },
+    "class" : "August von Parseval-Class",
+    "enhance": {
+        "firepower" : "0",
+        "torpedo" : "0",
+        "aviation" : "0",
+        "reload" : "0"
+    },
+    "acquisitionMethod" : "Research and Development",
+    "skill": {
+        "1" : {
+            "icon" : "",
+            "requirement" : "",
+            "name" : "",
+            "type" : "",
+            "description" : ""
+        },
+        "2" : {
+            "icon" : "",
+            "requirement" : "",
+            "name" : "",
+            "type" : "",
+            "description" : ""
+        },
+        "3" : {
+            "icon" : "",
+            "requirement" : "",
+            "name" : "",
+            "type" : "",
+            "description" : ""
         }
-	},
-	"defaultEquipment": {
-		"1" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
-		},
-		"2" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
-		},
-		"3" : {
-			"icon" : "",
-			"rarity" : "",
-			"name" : ""
-		}
-	},
-	"stats": {
-		"base": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
-		},
-		"100": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
-		},
-		"120": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
-		},
-		"100retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
-		},
-		"120retrofit": {
-			"hp" : "",
-			"firepower" : "",
-			"torpedo" : "",
-			"antiAir" : "",
-			"aviation" : "",
-			"reload" : "",
-			"hit" : "",
-			"evasion" : "",
-			"speed" : "",
-			"luck" : "",
-			"asw" : "",
-			"oxygen" : "",
-			"ammo" : "",
-			"cost" : "",
-			"armor" : ""
-		}
-	},
-	"strengthenLevel": {
-		"level5": "",
-		"level10": "",
-		"level15": "",
-		"level20": "",
-		"level25": "",
-		"level30": ""
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "",
-			"efficiency": "%/%/%/%/%/%/%",
-			"amount": "//////",
-			"preload": "//////"
-		},
-		"2": {
-			"type": "",
-			"efficiency": "%/%/%/%/%/%/%",
-			"amount": "//////",
-			"preload": "//////"
-		},
-		"3": {
-			"type": "",
-			"efficiency": "%/%/%/%/%/%/%",
-			"amount": "//////",
-			"preload": "//////"
-		},
-		"4": {
-			"type": "Auxilary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxilary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": "august_von_parseval"
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id" : "aogusite",
-				"id" : "0",
-				"label" : "August von Parseval",
-				"dialogue" : {
-					"1": {
-						"event": "Ship Description",
-						"media": ""
-					},
+    },
+    "skin": {
+        "1" : {
+            "id" : "aogusite",
+            "name" : "August von Parseval",
+            "description" : "",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                },
+                "4" : {
+                    "id" : "4"
+                },
+                "5" : {
+                    "id" : "5"
+                },
+                "6" : {
+                    "id" : "6"
+                },
+                "7" : {
+                    "id" : "7"
+                },
+                "8" : {
+                    "id" : "8"
+                }
+            }
+        },
+        "2" : {
+            "id" : "aogusite_2",
+            "name" : "",
+            "description" : "",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                },
+                "4" : {
+                    "id" : "4"
+                },
+                "5" : {
+                    "id" : "5"
+                },
+                "6" : {
+                    "id" : "6"
+                },
+                "7" : {
+                    "id" : "7"
+                },
+                "8" : {
+                    "id" : "8"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1" : {
+            "icon" : "",
+            "rarity" : "",
+            "name" : ""
+        },
+        "2" : {
+            "icon" : "",
+            "rarity" : "",
+            "name" : ""
+        },
+        "3" : {
+            "icon" : "",
+            "rarity" : "",
+            "name" : ""
+        }
+    },
+    "stats": {
+        "base": {
+            "hp" : "",
+            "firepower" : "",
+            "torpedo" : "",
+            "antiAir" : "",
+            "aviation" : "",
+            "reload" : "",
+            "hit" : "",
+            "evasion" : "",
+            "speed" : "",
+            "luck" : "",
+            "asw" : "",
+            "oxygen" : "",
+            "ammo" : "",
+            "cost" : "",
+            "armor" : ""
+        },
+        "100": {
+            "hp" : "",
+            "firepower" : "",
+            "torpedo" : "",
+            "antiAir" : "",
+            "aviation" : "",
+            "reload" : "",
+            "hit" : "",
+            "evasion" : "",
+            "speed" : "",
+            "luck" : "",
+            "asw" : "",
+            "oxygen" : "",
+            "ammo" : "",
+            "cost" : "",
+            "armor" : ""
+        },
+        "120": {
+            "hp" : "",
+            "firepower" : "",
+            "torpedo" : "",
+            "antiAir" : "",
+            "aviation" : "",
+            "reload" : "",
+            "hit" : "",
+            "evasion" : "",
+            "speed" : "",
+            "luck" : "",
+            "asw" : "",
+            "oxygen" : "",
+            "ammo" : "",
+            "cost" : "",
+            "armor" : ""
+        },
+        "100retrofit": {
+            "hp" : "",
+            "firepower" : "",
+            "torpedo" : "",
+            "antiAir" : "",
+            "aviation" : "",
+            "reload" : "",
+            "hit" : "",
+            "evasion" : "",
+            "speed" : "",
+            "luck" : "",
+            "asw" : "",
+            "oxygen" : "",
+            "ammo" : "",
+            "cost" : "",
+            "armor" : ""
+        },
+        "120retrofit": {
+            "hp" : "",
+            "firepower" : "",
+            "torpedo" : "",
+            "antiAir" : "",
+            "aviation" : "",
+            "reload" : "",
+            "hit" : "",
+            "evasion" : "",
+            "speed" : "",
+            "luck" : "",
+            "asw" : "",
+            "oxygen" : "",
+            "ammo" : "",
+            "cost" : "",
+            "armor" : ""
+        }
+    },
+    "strengthenLevel": {
+        "level5": "",
+        "level10": "",
+        "level15": "",
+        "level20": "",
+        "level25": "",
+        "level30": ""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "",
+            "efficiency": "%/%/%/%/%/%/%",
+            "amount": "//////",
+            "preload": "//////"
+        },
+        "2": {
+            "type": "",
+            "efficiency": "%/%/%/%/%/%/%",
+            "amount": "//////",
+            "preload": "//////"
+        },
+        "3": {
+            "type": "",
+            "efficiency": "%/%/%/%/%/%/%",
+            "amount": "//////",
+            "preload": "//////"
+        },
+        "4": {
+            "type": "Auxilary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxilary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": "august_von_parseval"
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id" : "aogusite",
+                "id" : "0",
+                "label" : "August von Parseval",
+                "dialogue" : {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
                     "2": {
                         "event": "Biography",
                         "media": "profile"
@@ -446,9 +480,92 @@
                     "34": {
                         "event": "Present Dislike",
                         "media": "present_dislike"
-					}
-				}
-			}
-		}
-	}
+                    }
+                }
+            },
+            "2": {
+                "skin_id": "aogusite_2",
+                "id": "1",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1"
+                    },
+                    "11": {
+                        "event": "Flagship",
+                        "media": "warcry_1"
+                    },
+                    "12": {
+                        "event": "Victory",
+                        "media": "mvp_1"
+                    },
+                    "13": {
+                        "event": "Defeat",
+                        "media": "lose_1"
+                    },
+                    "14": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head_1"
+                    },
+                    "15": {
+                        "event": "Mission",
+                        "media": "task_1"
+                    },
+                    "16": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_1"
+                    },
+                    "17": {
+                        "event": "Mail",
+                        "media": "mail_1"
+                    },
+                    "18": {
+                        "event": "Commission Complete",
+                        "media": "expedition_1"
+                    },
+                    "19": {
+                        "event": "Enhancement",
+                        "media": "upgrade_1"
+                    }
+                }
+            }
+        }
+    }
 }

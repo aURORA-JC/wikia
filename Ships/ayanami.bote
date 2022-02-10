@@ -308,6 +308,25 @@
                     "id": "5"
                 }
             }
+        },
+        "14": {
+            "id": "lingbo_13",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                }
+            }
         }
     },
     "defaultEquipment": {
@@ -1996,544 +2015,188 @@
             "9": {
                 "skin_id": "lingbo_8",
                 "id": "8",
-                "label": "Pulse of the New Year",
+                "label": "",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
-                        "media": "",
-                        "chinese": "指挥官，新年快乐。新的一年，也请多多指教…的说。",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "指揮官、あけましておめでとうです。この一年も、綾波をよろしく…です",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
-                        "englishNote": ""
+                        "media": ""
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_10",
-                        "chinese": "指挥官，新年快乐。新的一年，也请多多指教…的说。",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "指揮官、あけましておめでとうです。この一年も、綾波をよろしく…です",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
-                        "englishNote": ""
+                        "media": "get_8"
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_10",
-                        "chinese": "节日里，大家都很开心。绫波，也很开心…",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "祝日は皆、楽しいです。もちろん、綾波も楽しい…です",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "During holidays, everyone always has lots of fun. Of course, Ayanami is also having lots of fun...",
-                        "englishNote": ""
+                        "media": "login_8"
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_10",
-                        "chinese": "吹雪在神社抽到了“凶”，不过，她好像不怎么在意。…我？“小吉”，有点高兴",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "吹雪、おみくじで凶が出たですけど、あまり気にしていなかったようです。綾波は…小吉、です。嬉しいです",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Fubuki seems to have drawn \"Misfortune\" at the fortune-telling shrine, but she doesn't really seem to mind... Me? \"Small blessing.\" I'm glad.",
-                        "englishNote": ""
+                        "media": "detail_8"
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_10",
-                        "chinese": "新年的衣服，很华丽，但是行动有些不便。绫波还没有完全适应…",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "お正月の衣装、とても綺麗です。でもちょっと動きづらいです…綾波、まだ慣れていないです……",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "New Year's outfits... are very pretty, but they're hard to move around in... Ayanami still isn't used to it yet... ",
-                        "englishNote": ""
+                        "media": "main_1_8"
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_10",
-                        "chinese": "雪花很漂亮，但是，一落在手上，就消失不见了",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "雪の結晶、とても綺麗ですけど……手のひらに載せるとすぐ融けるです",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Snowflakes are very beautiful, but, they melt as soon as they land in your palm. ",
-                        "englishNote": ""
+                        "media": "main_2_8"
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_10",
-                        "chinese": "新的一年，也希望能和指挥官，还有大家，一直在一起。",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "この一年も、指揮官とみんなと、一緒にいたいです",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "This year as well... I hope to stay together with everyone, and Commander as well. ",
-                        "englishNote": ""
+                        "media": "main_3_8"
                     },
                     "8": {
-                        "event": "Main 4",
-                        "media": "main_4_10",
-                        "chinese": "说到新年的话…煮年糕？指挥官，要来一份吗？还热腾腾的",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "お正月といえば…お雑煮です。ホカホカです。どうぞ召し上がって、です",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "New Year's isn't complete... without ozoni. It's piping hot. Please have some if you'd like.",
-                        "englishNote": ""
+                        "event": "Touch",
+                        "media": "touch_1_8"
                     },
                     "9": {
-                        "event": "Touch",
-                        "media": "touch_1_10",
-                        "chinese": "绫波，不冷的说",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "綾波、別に寒くないです",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Ayanami... isn't cold.",
-                        "englishNote": ""
+                        "event": "Touch (Special)",
+                        "media": "touch_2_8"
                     },
                     "10": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_10",
-                        "chinese": "不要把衣服弄乱了，不然绫波也不知道该怎么弄好…",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "服に変なことしちゃダメですっ、綾波、着付けがわからないです……",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Please do not mess up my clothes... Otherwise, Ayanami would not know how to fix them...",
-                        "englishNote": ""
-                    },
-                    "11": {
                         "event": "Return to Port",
-                        "media": "home_10",
-                        "chinese": "新年有很多有趣的活动，绫波想都试试…的说。",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "お正月には、面白いイベントがたくさん行われるそうです。綾波はどれも試してみたいです",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "During New Year's, there are many interesting-looking events. Ayanami would like to try going to some...",
-                        "englishNote": ""
-                    },
-                    "12": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_10",
-                        "chinese": "新的一年想做的事情？和指挥官还有大家在一起…不算吗？那…春天的时候，想和指挥官一起看樱花，可以吗？",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "この一年で新たにしたいこと、ですか？指揮官と皆と一緒…じゃ「したいこと」とは言えないですか？指揮官とお花見にいきたい、でもいい…ですか？",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "What I'd like to do this year? I'd like to continue being with you as well as my friends... That doesn't count? Um... in that case, I'd like to watch the petals with you during the spring? Is that better?",
-                        "englishNote": ""
+                        "media": "home_8"
                     }
                 }
             },
             "10": {
-                "skin_id": "lingbo_h",
+                "skin_id": "lingbo_g",
                 "id": "9",
-                "label": "Demon's Finest Dress ",
+                "label": "",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
-                        "media": "",
-                        "chinese": "还是绫波…的说。这样的服装，还不太习惯…指挥官，觉得合适吗？",
-                        "chineseTL": "This is Ayanami... yes. This outfit, I am not quite used to it... Commander, do you think it's appropriate?",
-                        "chineseNote": "",
-                        "japanese": "綾波……です。この衣装、まだ慣れないですけど…指揮官、綾波に似合っているのですか？",
-                        "japaneseTL": "This is... Ayanami. This outfit, I am not quite used to it but... Commander, does it suit me?",
-                        "japaneseNote": "",
-                        "english": "I'm still... your Ayanami... though I'm not very used to this outfit... Commander, does it suit me?",
-                        "englishNote": ""
+                        "media": ""
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_8",
-                        "chinese": "还是绫波…的说。这样的服装，还不太习惯…指挥官，觉得合适吗？",
-                        "chineseTL": "This is Ayanami... yes. This outfit, I am not quite used to it... Commander, do you think it's appropriate?",
-                        "chineseNote": "",
-                        "japanese": "綾波……です。この衣装、まだ慣れないですけど…指揮官、綾波に似合っているのですか？",
-                        "japaneseTL": "This is... Ayanami. This outfit, I am not quite used to it but... Commander, does it suit me?",
-                        "japaneseNote": "",
-                        "english": "I'm still... your Ayanami... though I'm not very used to this outfit... Commander, does it suit me?",
-                        "englishNote": ""
+                        "media": "get_9"
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_8",
-                        "chinese": "无论去哪里，我都会跟上你的脚步的…一起出发吧，指挥官",
-                        "chineseTL": "Regardless of where it is, I will follow your footsteps... let us go together, Commander.",
-                        "chineseNote": "",
-                        "japanese": "どこに行っても、綾波はついていくのです。…指揮官、一緒に出発です",
-                        "japaneseTL": "No matter where you go, Ayanami will follow you... Commander, let's head out together.",
-                        "japaneseNote": "",
-                        "english": "No matter where you go, Ayanami shall always walk three steps behind you. Commander... shall we go?",
-                        "englishNote": ""
+                        "media": "login_9"
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_8",
-                        "chinese": "现在的话，能感觉到自己不是孤单一人…因为指挥官一直在这里",
-                        "chineseTL": "If it's now, I can feel that I am not alone... as Commander is always here.",
-                        "chineseNote": "",
-                        "japanese": "今は、綾波がひとりじゃないってわかるのです。…だって指揮官がここにいるんですもの",
-                        "japaneseTL": "Now, Ayanami isn't alone... Commander is always here.",
-                        "japaneseNote": "",
-                        "english": "Now, I know that I'm not alone anymore... because you're here after all, Commander...",
-                        "englishNote": ""
+                        "media": "detail_9"
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_8",
-                        "chinese": "不太明白这身衣服的含义…不过，如果指挥官喜欢，我会一直穿着的",
-                        "chineseTL": "I don't quite understand the meaning of these clothes... but, if Commander likes it, I will keep wearing it.",
-                        "chineseNote": "",
-                        "japanese": "この服の意味、よくわからないです。…でも指揮官が好きなら、ずっと着ていてもいいと思うです",
-                        "japaneseTL": "I don't quite understand the meaning of these clothes... but, if Commander likes it, I will keep wearing them.",
-                        "japaneseNote": "",
-                        "english": "I'm not sure... I understand the meaning of these clothes... but since you'd like me to wear them, I don't mind... ",
-                        "englishNote": ""
+                        "media": "main_1_9"
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_8",
-                        "chinese": "大家都太过热情…一直在盯着我看。突然这样还不太习惯…",
-                        "chineseTL": "Everyone is so excited... keep on staring at me. Doing it this sudden... I'm not used to it.",
-                        "chineseNote": "",
-                        "japanese": "みんな、盛り上がっていたです。…綾波はじっと見られていたのですけど…まだ、ちょっと慣れない、です",
-                        "japaneseTL": "Everyone is so excited... they keep staring at me... I'm not quite used to it.",
-                        "japaneseNote": "",
-                        "english": "Everyone was staring at me so excitedly... I'm not used to this... ",
-                        "englishNote": ""
+                        "media": "main_2_9"
                     },
                     "7": {
-                        "event": "Touch",
-                        "media": "touch_1_8",
-                        "chinese": "这样和指挥官靠在一起的感觉很好，我很喜欢",
-                        "chineseTL": "To be together side by side with Commander is nice, I like it very much.",
-                        "chineseNote": "",
-                        "japanese": "指揮官と寄り添い合っている感触、気持ちよくて好きです",
-                        "japaneseTL": "To feel so close to Commander, I like it very much.",
-                        "japaneseNote": "",
-                        "english": "Commander, I like cuddling with you like this... It feels nice.",
-                        "englishNote": ""
+                        "event": "Main 3",
+                        "media": "main_3_9"
                     },
                     "8": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_8",
-                        "chinese": "还是感觉…有点奇怪，不过…你喜欢就好",
-                        "chineseTL": "It still feels... a little weird, but.. as long as you like it.",
-                        "chineseNote": "",
-                        "japanese": "やっぱり、ちょっとだけ…変な感じ、です……ううん、指揮官が好きなら綾波、ダイジョウブです",
-                        "japaneseTL": "As I thought, it still feels a bit... weird... but, if Commander likes it, it's fine.",
-                        "japaneseNote": "",
-                        "english": "This feels... a bit weird after all... But, if you like it, I don't mind...",
-                        "englishNote": ""
+                        "event": "Touch",
+                        "media": "touch_1_9"
                     },
                     "9": {
-                        "event": "Return to Port",
-                        "media": "home_8",
-                        "chinese": "指挥官…需要揉一下肩膀？",
-                        "chineseTL": "Commander, do you need to massage your shoulders a little?",
-                        "chineseNote": "",
-                        "japanese": "指揮官…肩もみもみでもどうですか？",
-                        "japaneseTL": "Commander... how about a shoulder massage?",
-                        "japaneseNote": "",
-                        "english": "Commander... shall I rub your shoulders?",
-                        "englishNote": ""
+                        "event": "Touch (Special)",
+                        "media": "touch_2_9"
                     },
                     "10": {
-                        "event": "Victory",
-                        "media": "mvp_8",
-                        "chinese": "有指挥官在，就绝对不会输",
-                        "chineseTL": "There's Commander here, I definitely won't lose.",
-                        "chineseNote": "",
-                        "japanese": "指揮官さえいれば、絶対に負けないです",
-                        "japaneseTL": "As Commander is here, I absolutely won't lose.",
-                        "japaneseNote": "",
-                        "english": "Commander, as long as you're by my side, I won't lose.",
-                        "englishNote": ""
-                    },
-                    "11": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_8",
-                        "chinese": "和大家待在一起很开心，但是…还是会想要，和指挥官独处",
-                        "chineseTL": "I'm very happy being together with everyone, but... I still do want, to be together with Commander.",
-                        "chineseNote": "",
-                        "japanese": "みんなと一緒にいるのは嬉しいです。けど…綾波、指揮官と二人っきりでもっといたいです",
-                        "japaneseTL": "Being together with everyone makes me happy. But... Ayanami, I want to be just with Commander even more.",
-                        "japaneseNote": "",
-                        "english": "I enjoy being with everyone, but... I'd also like to spend more time alone with you, Commander...",
-                        "englishNote": ""
+                        "event": "Return to Port",
+                        "media": "home_9"
                     }
                 }
             },
             "11": {
-                "skin_id": "lingbo_g",
+                "skin_id": "lingbo_8",
                 "id": "10",
-                "label": "Ayanami (Retrofit) ",
+                "label": "",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
-                        "media": "",
-                        "chinese": "绫波，改造完毕…的说。感觉变得更强了，不过…指挥官，能摸摸我的头吗？稍微有点…想要撒娇…",
-                        "chineseTL": "Ayanami, retrofit complete... yes. It feels that I got stronger, but... Commander, can you pet my head? It slightly feels.. like I want to be pampered more.",
-                        "chineseNote": "",
-                        "japanese": "綾波、改造完了……です。強くなったのです、けど…指揮官、綾波をナデナデしてもらっていい…ですか？少しだけ、甘えたい気分……です",
-                        "japaneseTL": "My retrofitting has been… completed. But… Commander, could you pat my head… please? I feel like being indulged… just a little.",
-                        "japaneseNote": "",
-                        "english": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
-                        "englishNote": ""
+                        "media": ""
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_9",
-                        "chinese": "绫波，改造完毕…的说。感觉变得更强了，不过…指挥官，能摸摸我的头吗？稍微有点…想要撒娇…",
-                        "chineseTL": "Ayanami, retrofit complete... yes. It feels that I got stronger, but... Commander, can you pet my head? It slightly feels.. like I want to be pampered more.",
-                        "chineseNote": "",
-                        "japanese": "綾波、改造完了……です。強くなったのです、けど…指揮官、綾波をナデナデしてもらっていい…ですか？少しだけ、甘えたい気分……です",
-                        "japaneseTL": "My retrofitting has been… completed. But… Commander, could you pat my head… please? I feel like being indulged… just a little.",
-                        "japaneseNote": "",
-                        "english": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be pampered a bit...",
-                        "englishNote": ""
+                        "media": "get_10"
                     },
                     "3": {
-                        "event": "Main 1",
-                        "media": "main_1_9",
-                        "chinese": "和指挥官在一起，感觉就能有更多干劲——",
-                        "chineseTL": "Together with Commander, I feel a lot more motivated--",
-                        "chineseNote": "",
-                        "japanese": "指揮官と一緒なら、やる気ももっと出る、です",
-                        "japaneseTL": "When I'm with you I feel more… motivated, Commander.",
-                        "japaneseNote": "",
-                        "english": "Commander, I feel like I can work a bit harder when I'm with you...",
-                        "englishNote": ""
+                        "event": "Login",
+                        "media": "login_10"
                     },
                     "4": {
-                        "event": "Main 2",
-                        "media": "main_2_9",
-                        "chinese": "和大家在一起很开心，所以我…想和大家在一起",
-                        "chineseTL": "I'm happy together with everyone, so I... wish to be with everyone.",
-                        "chineseNote": "",
-                        "japanese": "みんなと一緒にいるのは楽しいですから、綾波も…みんなともっと一緒にいたいです",
-                        "japaneseTL": "It's fun to be with everyone, so I want to stay together with everyone.",
-                        "japaneseNote": "",
-                        "english": "Being with everyone makes me happy... so I want to be able to stay together...",
-                        "englishNote": ""
+                        "event": "Details",
+                        "media": "detail_10"
                     },
                     "5": {
-                        "event": "Main 3",
-                        "media": "main_3_9",
-                        "chinese": "指挥官不理我的话，会有点…伤心",
-                        "chineseTL": "If Commander ignores me, I will be a bit... sad.",
-                        "chineseNote": "",
-                        "japanese": "指揮官が綾波をかまってくれないと、少しだけ悲しい…です",
-                        "japaneseTL": "Commander, when you won't pay attention to me, it makes me just a little… sad.",
-                        "japaneseNote": "",
-                        "english": "Commander, if you leave me alone... I'll be hurt...",
-                        "englishNote": ""
+                        "event": "Main 1",
+                        "media": "main_1_10"
                     },
                     "6": {
-                        "event": "Touch",
-                        "media": "touch_1_9",
-                        "chinese": "指挥官的手，很温暖…",
-                        "chineseTL": "Commander's hands, warm...",
-                        "chineseNote": "",
-                        "japanese": "指揮官の手、温かいです…",
-                        "japaneseTL": "Your hand is… warm.",
-                        "japaneseNote": "",
-                        "english": "Commander's hands... are so warm...",
-                        "englishNote": ""
+                        "event": "Main 2",
+                        "media": "main_2_10"
                     },
                     "7": {
-                        "event": "Flagship",
-                        "media": "warcry_9",
-                        "chinese": "没关系的，指挥官…相信我——",
-                        "chineseTL": "It is alright, Commander... believe in me--",
-                        "chineseNote": "",
-                        "japanese": "大丈夫です、指揮官…綾波を信じて――",
-                        "japaneseTL": "It's all right, Commander… Believe in me.",
-                        "japaneseNote": "",
-                        "english": "It will be all right, Commander... Believe in me...",
-                        "englishNote": ""
+                        "event": "Main 3",
+                        "media": "main_3_10"
                     },
                     "8": {
-                        "event": "Victory",
-                        "media": "mvp_9",
-                        "chinese": "如果是为了大家，我愿意化身为“鬼神”…",
-                        "chineseTL": "If it is for everyone, I am willing to transform to a \"Demon\".",
-                        "chineseNote": "",
-                        "japanese": "みんなのためなら、「鬼神」になってもいい…です",
-                        "japaneseTL": "I'm fine with becoming a demon… if it's for everyone else's sake.",
-                        "japaneseNote": "",
-                        "english": "If it is for everyone's sake... I am willing to become the \"Demon.\"",
-                        "englishNote": ""
+                        "event": "Touch",
+                        "media": "touch_1_10"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_10"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_10"
                     }
                 }
             },
             "12": {
                 "skin_id": "lingbo_10",
                 "id": "11",
-                "label": "Nightfall Raiment",
+                "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Commander, thank you for coming to the party. Ayanami... has been waiting for you. ...I look a bit scary? I'm not sure I get it... I guess.",
-                        "englishNote": ""
+                        "media": ""
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "get_11"
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "login_11"
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "detail_11"
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "main_1_11"
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "main_2_11"
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "main_3_11"
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "touch_1_11"
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "touch_2_11"
                     },
                     "10": {
-                        "event": "Flagship",
-                        "media": "warcry_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "11": {
-                        "event": "Victory",
-                        "media": "mvp_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "12": {
-                        "event": "Defeat",
-                        "media": "lose_11",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "event": "Return to Port",
+                        "media": "home_11"
                     }
                 }
             },
@@ -2542,7 +2205,7 @@
                 "id": "12",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -2571,16 +2234,63 @@
                         "media": "main_3_12"
                     },
                     "8": {
-                        "event": "Main 4",
-                        "media": "main_4_12"
-                    },
-                    "9": {
                         "event": "Touch",
                         "media": "touch_1_12"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_12"
                     },
                     "10": {
                         "event": "Return to Port",
                         "media": "home_12"
+                    }
+                }
+            },
+            "14": {
+                "skin_id": "lingbo_13",
+                "id": "13",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_13"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_13"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_13"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_13"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_13"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_13"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_13"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_13"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_13"
                     }
                 }
             }

@@ -4067,6 +4067,96 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "525": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/magedebao.png",
+        "link": "magdeburg",
+        "name": "Magdeburg",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "526": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yibei.png",
+        "link": "elbe",
+        "name": "Elbe",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "527": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/adaerbote.png",
+        "link": "prinz_adalbert",
+        "name": "Prinz Adalbert",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "528": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/u1206.png",
+        "link": "u1206",
+        "name": "U-1206",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "529": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wuerlixi.png",
+        "link": "ulrich_von_hutten",
+        "name": "Ulrich von Hutten",
+        "navy": "Ironblood",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "530": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kalvbudisi.png",
+        "link": "charybdis",
+        "name": "Charybdis",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "531": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haitian.png",
+        "link": "hai_tien",
+        "name": "Hai Tien",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "532": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haiqi.png",
+        "link": "hai_chi",
+        "name": "Hai Chi",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "533": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bulisituoer.png",
+        "link": "bristol",
+        "name": "Bristol",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "534": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhenhai.png",
+        "link": "chen_hai",
+        "name": "Chen Hai",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4326,6 +4416,15 @@
         "name": "Gneisenau META",
         "navy": "META",
         "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M008": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sunying_alter.png",
+        "link": "junyou_meta",
+        "name": "Junyou META",
+        "navy": "META",
+        "rarity": "Elite",
         "shipType": "META"
     },
     "C001": {

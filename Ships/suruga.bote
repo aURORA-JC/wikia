@@ -124,6 +124,28 @@
                 }
             }
         },
+        "4" : {
+            "id" : "junhe_4",
+            "name" : "",
+            "description" : "",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                },
+                "4" : {
+                    "id" : "4"
+                }
+            }
+        },
         "101": {
             "id": "junhe_ex1100",
             "name": "Suruga",
@@ -958,6 +980,53 @@
                     "12": {
                         "event": "Mail",
                         "media": "mail_2"
+                    }
+                }
+            },
+            "4": {
+                "skin_id": "junhe_4",
+                "id": "3",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_3"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_3"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_3"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_3"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_3"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_3"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_3"
+                    },
+                    "9": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_3"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_3"
                     }
                 }
             },
