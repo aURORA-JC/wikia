@@ -3,16 +3,17 @@ pg.ship_skin_words_extra = {
 	[999010] = {
 		main_extra = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		profile = "",
 		win_mvp = "",
 		headtouch = "",
 		unlock = "",
 		feeling2 = "",
+		skill = "",
 		battle = "",
 		id = 999010,
-		feeling1 = "",
+		lose = "",
 		login = {
 			{
 				100,
@@ -86,21 +87,54 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
-	[108030] = {
+	[801040] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
 		touch2 = "",
-		lose = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
+		feeling1 = "",
 		mail = "",
 		touch = "",
+		profile = "",
+		login = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 801040,
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"Now that I think about it, whenever I'm around you, Commander, my heart always feels fluttery and I can't calm down... Wait, could this be... the Magic of Love?!"
+			}
+		}
+	},
+	[108030] = {
+		main_extra = "",
+		feeling3 = "",
+		unlock = "",
+		lose = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling4 = "",
+		skill = "",
+		feeling1 = "",
+		mail = "",
+		touch = "",
+		profile = "",
 		login = "",
 		main = "",
 		upgrade = "",
@@ -120,14 +154,15 @@ pg.ship_skin_words_extra = {
 	[999011] = {
 		main_extra = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -182,17 +217,18 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		feeling5 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		win_mvp = "",
 		main_extra = "",
 		unlock = "",
 		feeling2 = "",
 		headtouch = "",
-		profile = "",
+		skill = "",
 		battle = "",
 		id = 207050,
-		feeling1 = "",
+		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -258,16 +294,17 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		main_extra = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		win_mvp = "",
 		profile = "",
 		unlock = "",
 		feeling2 = "",
 		headtouch = "",
+		skill = "",
 		battle = "",
 		id = 905030,
-		feeling1 = "",
+		lose = "",
 		login = {
 			{
 				1100,
@@ -335,21 +372,59 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301090] = {
+		main_extra = "",
+		feeling3 = "",
+		unlock = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		profile = "",
+		mail = "",
+		lose = "",
+		login = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 301090,
+		detail = "",
+		main = {
+			{
+				100,
+				"nil|Hibiki, I won't let myself get lost over something like that ever again!|nil"
+			}
+		},
+		touch = {
+			{
+				100,
+				"Hibiki? Oh, it's just you, Commander..."
+			}
+		}
+	},
 	[305140] = {
 		upgrade = "",
 		feeling3 = "",
 		main_extra = "",
-		feeling1 = "",
+		mail = "",
 		expedition = "",
 		win_mvp = "",
-		mail = "",
+		lose = "",
 		unlock = "",
 		feeling2 = "",
-		feeling4 = "",
+		feeling1 = "",
+		skill = "",
 		profile = "",
-		lose = "",
 		id = 305140,
 		touch = "",
+		feeling4 = "",
 		login = {
 			{
 				1100,
@@ -412,16 +487,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[306070] = {
-		feeling1 = "",
-		feeling3 = "",
 		lose = "",
+		feeling3 = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		main_extra = "",
 		home = "",
 		unlock = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -458,20 +534,21 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[301260] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		main_extra = "",
 		home = "",
 		mission = "",
 		touch2 = "",
-		feeling4 = "",
+		feeling1 = "",
+		skill = "",
 		profile = "",
-		login = "",
 		mail = "",
 		touch = "",
+		login = "",
 		feeling5 = "",
 		main = "",
 		upgrade = "",
@@ -496,18 +573,19 @@ pg.ship_skin_words_extra = {
 	[202100] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
 		touch2 = "",
-		lose = "",
 		feeling4 = "",
-		profile = "",
+		skill = "",
+		feeling1 = "",
 		mail = "",
 		touch = "",
+		profile = "",
 		login = "",
 		main = "",
 		upgrade = "",
@@ -528,16 +606,17 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		login = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -576,11 +655,12 @@ pg.ship_skin_words_extra = {
 		mission = "",
 		feeling2 = "",
 		profile = "",
+		skill = "",
+		feeling4 = "",
+		id = 702030,
 		lose = "",
 		headtouch = "",
-		id = 702030,
 		feeling1 = "",
-		feeling4 = "",
 		login = {
 			{
 				1100,
@@ -639,14 +719,15 @@ pg.ship_skin_words_extra = {
 	[702020] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
+		skill = "",
 		profile = "",
 		mail = "",
 		touch = "",
@@ -691,15 +772,16 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
 		login = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -742,14 +824,15 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -802,14 +885,15 @@ pg.ship_skin_words_extra = {
 	[103240] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
-		lose = "",
-		mission = "",
 		feeling4 = "",
+		mission = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -859,15 +943,16 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
-		profile = "",
-		mail = "",
 		feeling1 = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -910,18 +995,19 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		main_extra = "",
-		feeling1 = "",
+		mail = "",
 		expedition = "",
 		win_mvp = "",
-		mail = "",
+		lose = "",
 		unlock = "",
 		feeling2 = "",
-		feeling4 = "",
-		profile = "",
+		feeling1 = "",
+		skill = "",
 		battle = "",
 		id = 107110,
 		touch = "",
-		lose = "",
+		feeling4 = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -978,16 +1064,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[207020] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		main_extra = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -1037,14 +1124,15 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -1092,15 +1180,16 @@ pg.ship_skin_words_extra = {
 	[302140] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		main_extra = "",
 		profile = "",
 		mission = "",
 		touch2 = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1154,14 +1243,15 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -1216,16 +1306,17 @@ pg.ship_skin_words_extra = {
 		feeling3 = "",
 		main_extra = "",
 		mail = "",
-		lose = "",
+		feeling4 = "",
 		win_mvp = "",
 		mission_complete = "",
 		unlock = "",
 		feeling2 = "",
-		feeling4 = "",
-		headtouch = "",
-		profile = "",
-		id = 905010,
 		feeling1 = "",
+		skill = "",
+		headtouch = "",
+		id = 905010,
+		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -1290,13 +1381,14 @@ pg.ship_skin_words_extra = {
 	[301820] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		unlock = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -1352,16 +1444,17 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		main_extra = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		win_mvp = "",
 		profile = "",
 		unlock = "",
 		feeling2 = "",
 		headtouch = "",
+		skill = "",
 		battle = "",
 		id = 305080,
-		feeling1 = "",
+		lose = "",
 		login = {
 			{
 				1100,
@@ -1433,17 +1526,18 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		main_extra = "",
-		feeling1 = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		mission_complete = "",
 		unlock = "",
 		feeling2 = "",
-		feeling4 = "",
-		profile = "",
+		feeling1 = "",
+		skill = "",
 		battle = "",
 		id = 903020,
 		touch = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -1509,14 +1603,15 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -1562,15 +1657,16 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[901020] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		main_extra = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -1618,21 +1714,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[901030] = {
-		main_extra = "",
-		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
-		mail = "",
-		upgrade = "",
+		feeling3 = "",
 		lose = "",
-		mission = "",
-		feeling2 = "",
+		feeling4 = "",
+		feeling1 = "",
+		main_extra = "",
 		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		upgrade = "",
 		headtouch = "",
+		feeling2 = "",
 		battle = "",
 		id = 901030,
-		touch = "",
-		feeling4 = "",
 		detail = "",
 		login = {
 			{
@@ -1687,17 +1784,18 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		feeling5 = "",
-		unlock = "",
 		feeling4 = "",
+		feeling1 = "",
 		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
-		feeling1 = "",
-		headtouch = "",
+		skill = "",
+		unlock = "",
 		id = 202030,
 		touch = "",
+		headtouch = "",
 		feeling2 = "",
 		login = {
 			{
@@ -1755,22 +1853,23 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[201100] = {
-		main_extra = "",
-		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
+		main_extra = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		touch = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
+		headtouch = "",
 		feeling2 = "",
-		profile = "",
-		mail = "",
 		battle = "",
 		id = 201100,
-		touch = "",
-		feeling4 = "",
-		headtouch = "",
 		login = {
 			{
 				1100,
@@ -1823,14 +1922,15 @@ pg.ship_skin_words_extra = {
 	[901110] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		mail = "",
 		feeling4 = "",
+		feeling1 = "",
 		upgrade = "",
 		profile = "",
 		unlock = "",
 		touch2 = "",
 		headtouch = "",
+		skill = "",
 		feeling2 = "",
 		id = 901110,
 		touch = "",
@@ -1912,10 +2012,11 @@ pg.ship_skin_words_extra = {
 		mission = "",
 		feeling2 = "",
 		feeling4 = "",
+		skill = "",
 		headtouch = "",
-		profile = "",
 		id = 205060,
 		feeling1 = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -1978,16 +2079,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[205070] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		main_extra = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -2036,14 +2138,15 @@ pg.ship_skin_words_extra = {
 	[902010] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
-		lose = "",
-		mission = "",
 		feeling4 = "",
+		mission = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -2088,15 +2191,16 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -2139,13 +2243,14 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
-		mission = "",
-		mail = "",
 		feeling1 = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
 		profile = "",
 		mission_complete = "",
 		headtouch = "",
@@ -2199,15 +2304,16 @@ pg.ship_skin_words_extra = {
 	[201330] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		main = "",
 		upgrade = "",
 		mission_complete = "",
@@ -2256,15 +2362,16 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
-		profile = "",
-		mail = "",
 		feeling1 = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -2307,14 +2414,15 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -2360,22 +2468,23 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[206060] = {
-		upgrade = "",
-		feeling3 = "",
 		unlock = "",
-		mail = "",
-		lose = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		profile = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		feeling2 = "",
-		profile = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		upgrade = "",
 		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
 		battle = "",
 		id = 206060,
-		feeling1 = "",
-		feeling4 = "",
-		headtouch = "",
 		login = {
 			{
 				1100,
@@ -2428,14 +2537,15 @@ pg.ship_skin_words_extra = {
 	[499040] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
-		lose = "",
-		mission = "",
 		feeling4 = "",
+		mission = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -2484,14 +2594,15 @@ pg.ship_skin_words_extra = {
 	[299030] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
-		lose = "",
-		mission = "",
 		feeling4 = "",
+		mission = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -2545,18 +2656,19 @@ pg.ship_skin_words_extra = {
 	[299040] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
+		skill = "",
 		profile = "",
-		login = "",
 		mail = "",
 		touch = "",
+		login = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -2587,18 +2699,19 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		feeling5 = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
 		main_extra = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 499030,
+		lose = "",
+		headtouch = "",
 		feeling1 = "",
-		feeling4 = "",
 		login = {
 			{
 				1100,
@@ -2655,16 +2768,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[305120] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		main_extra = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -2706,15 +2820,16 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[319010] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		main_extra = "",
 		home = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -2767,16 +2882,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[301840] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main = "",
@@ -2831,15 +2947,16 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -2882,16 +2999,17 @@ pg.ship_skin_words_extra = {
 		unlock = "",
 		feeling3 = "",
 		feeling5 = "",
-		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		upgrade = "",
-		lose = "",
+		feeling4 = "",
 		mission = "",
 		feeling2 = "",
 		headtouch = "",
+		skill = "",
 		profile = "",
 		id = 408090,
-		feeling1 = "",
+		lose = "",
 		login = {
 			{
 				1100,
@@ -2963,16 +3081,17 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
 		touch2 = "",
-		feeling4 = "",
+		feeling1 = "",
+		skill = "",
 		profile = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -3009,16 +3128,17 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		feeling5 = "",
+		feeling1 = "",
 		feeling4 = "",
-		lose = "",
 		upgrade = "",
 		profile = "",
 		unlock = "",
 		feeling2 = "",
 		headtouch = "",
+		skill = "",
 		battle = "",
 		id = 901120,
-		feeling1 = "",
+		lose = "",
 		login = {
 			{
 				1100,
@@ -3090,14 +3210,15 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
@@ -3148,16 +3269,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[407030] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -3189,22 +3311,23 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[403090] = {
-		upgrade = "",
-		feeling3 = "",
-		feeling5 = "",
-		unlock = "",
-		mail = "",
-		win_mvp = "",
-		lose = "",
-		mission = "",
-		feeling2 = "",
 		main_extra = "",
+		feeling3 = "",
+		unlock = "",
+		feeling4 = "",
+		feeling1 = "",
+		win_mvp = "",
 		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
 		battle = "",
 		id = 403090,
-		feeling1 = "",
-		feeling4 = "",
-		headtouch = "",
 		login = {
 			{
 				1100,
@@ -3255,15 +3378,16 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[401240] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
-		expedition = "",
 		feeling4 = "",
+		expedition = "",
+		feeling1 = "",
 		profile = "",
 		mission = "",
 		touch2 = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -3308,16 +3432,17 @@ pg.ship_skin_words_extra = {
 	[402050] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		main_extra = "",
 		home = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -3365,18 +3490,19 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		feeling5 = "",
-		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
-		lose = "",
+		feeling4 = "",
 		unlock = "",
 		touch2 = "",
 		profile = "",
-		headtouch = "",
+		skill = "",
 		battle = "",
 		id = 301630,
-		feeling1 = "",
+		lose = "",
 		feeling2 = "",
+		headtouch = "",
 		login = {
 			{
 				1100,
@@ -3440,6 +3566,7 @@ pg.ship_skin_words_extra = {
 		win_mvp = "",
 		home = "",
 		mission = "",
+		skill = "",
 		mail = "",
 		lose = "",
 		feeling5 = "",
@@ -3494,16 +3621,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[502040] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
 		touch2 = "",
-		feeling4 = "",
+		feeling1 = "",
+		skill = "",
 		profile = "",
 		mail = "",
 		touch = "",
@@ -3550,10 +3678,11 @@ pg.ship_skin_words_extra = {
 		unlock = "",
 		feeling2 = "",
 		headtouch = "",
-		profile = "",
+		skill = "",
 		battle = "",
 		id = 502050,
 		touch = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -3616,22 +3745,23 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[701070] = {
-		upgrade = "",
+		feeling4 = "",
 		feeling3 = "",
-		feeling5 = "",
-		mail = "",
+		feeling1 = "",
+		profile = "",
 		expedition = "",
 		win_mvp = "",
-		mission_complete = "",
 		unlock = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
 		feeling2 = "",
-		profile = "",
-		feeling4 = "",
 		battle = "",
 		id = 701070,
-		touch = "",
-		feeling1 = "",
-		headtouch = "",
 		login = {
 			{
 				1100,
@@ -3682,16 +3812,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[701080] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		main_extra = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -3733,16 +3864,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[702060] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
-		feeling4 = "",
+		feeling1 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -3776,14 +3908,15 @@ pg.ship_skin_words_extra = {
 	[703010] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -3830,15 +3963,16 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[702040] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -3876,13 +4010,14 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[705040] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling1 = "",
 		profile = "",
 		win_mvp = "",
 		mission = "",
+		skill = "",
 		feeling4 = "",
 		touch = "",
 		feeling5 = "",
@@ -3937,15 +4072,16 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[101450] = {
-		feeling1 = "",
-		feeling3 = "",
 		lose = "",
+		feeling3 = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		profile = "",
 		home = "",
 		unlock = "",
 		touch2 = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -3998,15 +4134,16 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[101460] = {
-		feeling1 = "",
-		feeling3 = "",
 		lose = "",
+		feeling3 = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		profile = "",
 		home = "",
 		unlock = "",
 		touch2 = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -4053,16 +4190,17 @@ pg.ship_skin_words_extra = {
 		feeling3 = "",
 		feeling5 = "",
 		main = "",
-		lose = "",
+		feeling4 = "",
 		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
-		feeling4 = "",
-		headtouch = "",
-		profile = "",
-		id = 605010,
 		feeling1 = "",
+		skill = "",
+		headtouch = "",
+		id = 605010,
+		lose = "",
+		profile = "",
 		detail = "",
 		login = {
 			{
@@ -4122,20 +4260,21 @@ pg.ship_skin_words_extra = {
 	[304070] = {
 		unlock = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
+		headtouch = "",
 		feeling2 = "",
-		profile = "",
-		feeling4 = "",
 		battle = "",
 		id = 304070,
-		feeling1 = "",
-		lose = "",
-		headtouch = "",
 		login = {
 			{
 				1100,
@@ -4188,14 +4327,15 @@ pg.ship_skin_words_extra = {
 	[602010] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		profile = "",
 		home = "",
 		mission = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -4250,18 +4390,19 @@ pg.ship_skin_words_extra = {
 		upgrade = "",
 		feeling3 = "",
 		feeling5 = "",
-		mail = "",
+		lose = "",
 		expedition = "",
 		win_mvp = "",
-		lose = "",
+		feeling4 = "",
 		unlock = "",
 		feeling2 = "",
-		feeling1 = "",
+		mail = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 607010,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -4318,22 +4459,23 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[601040] = {
-		main_extra = "",
+		unlock = "",
 		feeling3 = "",
-		feeling5 = "",
-		mail = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
+		main_extra = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
-		feeling2 = "",
-		unlock = "",
-		profile = "",
-		lose = "",
-		id = 601040,
-		feeling1 = "",
 		headtouch = "",
-		feeling4 = "",
+		feeling2 = "",
+		id = 601040,
 		login = {
 			{
 				1100,
@@ -4387,15 +4529,16 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -4437,14 +4580,15 @@ pg.ship_skin_words_extra = {
 	[601060] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
 		lose = "",
-		win_mvp = "",
 		feeling4 = "",
+		win_mvp = "",
+		feeling1 = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -4491,15 +4635,16 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[608010] = {
-		feeling1 = "",
-		feeling3 = "",
 		lose = "",
+		feeling3 = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		profile = "",
 		home = "",
 		unlock = "",
 		login = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
@@ -4549,20 +4694,21 @@ pg.ship_skin_words_extra = {
 	[102290] = {
 		unlock = "",
 		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		expedition = "",
+		mission = "",
+		skill = "",
+		feeling4 = "",
+		lose = "",
 		feeling5 = "",
 		main = "",
-		expedition = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
+		headtouch = "",
 		feeling2 = "",
-		profile = "",
-		lose = "",
 		battle = "",
 		id = 102290,
-		feeling1 = "",
-		feeling4 = "",
-		headtouch = "",
 		login = {
 			{
 				1100,
@@ -4613,14 +4759,15 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[103140] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling1 = "",
 		profile = "",
 		win_mvp = "",
 		mission = "",
 		touch2 = "",
+		skill = "",
 		feeling4 = "",
 		touch = "",
 		main = "",
@@ -4672,16 +4819,17 @@ pg.ship_skin_words_extra = {
 		unlock = "",
 		feeling3 = "",
 		feeling5 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		upgrade = "",
 		mail = "",
 		mission = "",
 		feeling2 = "",
 		headtouch = "",
+		skill = "",
 		profile = "",
 		id = 101470,
-		feeling1 = "",
+		lose = "",
 		login = {
 			{
 				1100,
@@ -4750,16 +4898,17 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[107140] = {
-		feeling1 = "",
-		feeling3 = "",
 		unlock = "",
+		feeling3 = "",
 		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		main = "",
@@ -4801,22 +4950,23 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[105170] = {
-		upgrade = "",
+		unlock = "",
 		feeling3 = "",
-		feeling5 = "",
-		mail = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
-		mission_complete = "",
-		mission = "",
-		feeling2 = "",
-		unlock = "",
 		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
 		lose = "",
-		id = 105170,
-		feeling1 = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
 		headtouch = "",
-		feeling4 = "",
+		feeling2 = "",
+		id = 105170,
 		login = {
 			{
 				1100,
@@ -4869,16 +5019,17 @@ pg.ship_skin_words_extra = {
 	[107990] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
 		touch2 = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		main = "",
 		upgrade = "",
 		mission_complete = "",
@@ -4921,14 +5072,15 @@ pg.ship_skin_words_extra = {
 		main_extra = "",
 		feeling3 = "",
 		unlock = "",
-		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -4976,15 +5128,16 @@ pg.ship_skin_words_extra = {
 	[301860] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
 		profile = "",
 		mission = "",
 		touch2 = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
@@ -5032,13 +5185,14 @@ pg.ship_skin_words_extra = {
 	[399050] = {
 		main_extra = "",
 		feeling3 = "",
-		feeling1 = "",
 		unlock = "",
 		lose = "",
-		win_mvp = "",
 		feeling4 = "",
+		win_mvp = "",
+		feeling1 = "",
 		mission = "",
 		profile = "",
+		skill = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -5091,21 +5245,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[10700010] = {
-		feeling1 = "",
-		feeling3 = "",
 		mail = "",
+		feeling3 = "",
+		lose = "",
 		main = "",
 		expedition = "",
 		upgrade = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
-		lose = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 10700010,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -5162,21 +5317,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[10700020] = {
-		feeling1 = "",
-		feeling3 = "",
 		mail = "",
+		feeling3 = "",
+		lose = "",
 		main = "",
 		expedition = "",
 		upgrade = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
-		lose = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 10700020,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -5233,21 +5389,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[10700030] = {
-		feeling1 = "",
-		feeling3 = "",
 		mail = "",
+		feeling3 = "",
+		lose = "",
 		main = "",
 		expedition = "",
 		upgrade = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
-		lose = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 10700030,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -5304,21 +5461,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[10700040] = {
-		feeling1 = "",
-		feeling3 = "",
 		mail = "",
+		feeling3 = "",
+		lose = "",
 		main = "",
 		expedition = "",
 		upgrade = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
-		lose = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 10700040,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -5375,21 +5533,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[10700050] = {
-		feeling1 = "",
-		feeling3 = "",
 		mail = "",
+		feeling3 = "",
+		lose = "",
 		main = "",
 		expedition = "",
 		upgrade = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
-		lose = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 10700050,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -5446,21 +5605,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[10700060] = {
-		feeling1 = "",
-		feeling3 = "",
 		mail = "",
+		feeling3 = "",
+		lose = "",
 		main = "",
 		expedition = "",
 		upgrade = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
-		lose = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 10700060,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -5517,21 +5677,22 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	[10700070] = {
-		feeling1 = "",
-		feeling3 = "",
 		mail = "",
+		feeling3 = "",
+		lose = "",
 		main = "",
 		expedition = "",
 		upgrade = "",
 		home = "",
 		unlock = "",
 		feeling2 = "",
-		lose = "",
+		feeling4 = "",
+		skill = "",
 		profile = "",
-		headtouch = "",
 		id = 10700070,
 		touch = "",
-		feeling4 = "",
+		headtouch = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -5590,15 +5751,16 @@ pg.ship_skin_words_extra = {
 	[108070] = {
 		unlock = "",
 		feeling3 = "",
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
 		profile = "",
 		mission = "",
 		login = "",
+		skill = "",
 		mail = "",
-		feeling1 = "",
+		lose = "",
 		feeling5 = "",
 		main = "",
 		upgrade = "",
@@ -5648,12 +5810,1804 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301290] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		feeling4 = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		id = 301290,
+		lose = "",
+		login = {
+			{
+				1100,
+				"Good morning, my sweetheart! Hehehe♡ Time for your morning kiss, just... Oh, sorry, we're at work! As you were, Commander!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"The Shimakaze Fleet can make even the impossible happen!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"W-welcome back, Commander! I was wondering when you'd return."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"In the event we lose, please don't take it out on me!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Mweeehhh..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"To protect what's dear, what matters isn't the weapon in your hands, but the will in your heart. Wouldn't you say that's true?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"My rigging is in tip-top condition! I feel like I could take on the world today!|I'm not THE fastest – I just happen to be the fastest ship! After all, one should not ever outrun humility.|Long-range torpedo strikes are my specialty, but... I don't suppose there is any way this fleet can leverage that."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"How can I be of assistance, Commander?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"I've confirmed the commission team's safe return to port! A peaceful journey is always best!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission completed! I went ahead and brought you the rewards!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"At least you didn't touch my ears. The outcome wouldn't have been worksafe... Ugh..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Sweetheart? I'd love to have dinner with you after work, then go shopping together. I wish we'd have more time for ourselves, even if I'd always want more of it. Hehehe~ Got to make the most of what we can get, though, right?"
+			}
+		}
+	},
+	[307120] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		main_extra = "",
+		home = "",
+		mission = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		id = 307120,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Good mooorning, Commander! So, I have good news and bad news for you today. The bad news is, you've got a ton of work lined up. The good news is, I'm willing to help out! Do you understand the importance of this?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Oh~ho~ho! With you commanding from the rear, victory was all but assured!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Uhhh... So, how far are we into those 365 days? Well, seeing how I can't remember, let's start over from day one."
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|One document, two documents, three documents... What am I doing? Seeing how there's nothing for me to do at the moment, I thought I'd count your files to pass the time!|Commander, I brought two different flavors of cake this time! You choose the one you want first, and I'll take the other one! Of course, we could also share them half-and-half!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"So tell me, what is this super important, ultra difficult mission that you cannot entrust to anyone but Katsuragi?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hwaah?! D-don't you know that you need to give me time to prepare myself before doing stuff like that? *blush*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, how has work been recently? Are you doing well? And how did you like that cake? Oh, and do you know where you want to go for next weekend's date? ...Hehe, every time I see you, I just can't stop myself~ But first of all, I'll have you answer each and every one of my questions~♪"
+			}
+		}
+	},
+	[301470] = {
+		main_extra = "",
+		feeling3 = "",
+		unlock = "",
+		mail = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		battle = "",
+		id = 301470,
+		lose = "",
+		feeling1 = "",
+		feeling4 = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. I hope that I will be able to be of use to you today!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Even one such as myself was able to obtain victory!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, welcome back. Here are your documents, as well as some light snacks and drinks for you to enjoy... If there is anything else you need, please call for me right away."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Ah, um... it's okay to do more of that head-patting thing..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Um, Commander, I think... I can handle a bit more of the touchy-feely stuff...!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, could you open the window? Ahh... The sea breeze is just right, refreshing but not blowing the documents away...|Yamakaze, if you want to play with Commander, please wait a bit... H-huh? I'm not trying to monopolize Commander...!|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ah, um, it's alright! I'm already used to your touch...!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ermm... Is this also a part of my training\"...?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, I hope you'll allow me to hug you... H-hup! Umm... Somehow, I thin k I'm getting too sleepy to... get any practice out of this... Zzz..."
+			}
+		}
+	},
+	[301480] = {
+		upgrade = "",
+		feeling3 = "",
+		unlock = "",
+		mail = "",
+		feeling4 = "",
+		win_mvp = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		feeling1 = "",
+		skill = "",
+		battle = "",
+		id = 301480,
+		lose = "",
+		profile = "",
+		headtouch = "",
+		login = {
+			{
+				1100,
+				"My motivation tanks are at max! Gimme a \"let's go,\" Commander!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander! Wanna sit? Heehee... You'll have to play with me first if you wanna take this spot!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Heehee~ I love playing games with you, Commander~"
+			}
+		},
+		main = {
+			{
+				1100,
+				"I'll promise to stop scaring you, but in exchange I wanna play with you more often!|nil|nil"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Umikaze! I've got a bag full of breadcrumbs! Wanna go feed some seagulls?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"What are we gonna do this time? More knock-out boxing? Sumo wrestling?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commander! Our commission buddies brought back more goodies! I'll go give 'em a hand!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I caught youuuu~♪"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander! I'm here to play another game! Hehehe~ Whatever we do together, it's always so much fun! Oh, here, Umikaze shared some snacks with me! You can have aaaall of them!"
+			}
+		}
+	},
+	[302070] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		mission_complete = "",
+		id = 302070,
+		feeling1 = "",
+		feeling4 = "",
+		login = {
+			{
+				1100,
+				"Commander, um... it's great to see you again!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"You shouldn't underestimate my Self's power or the Commander's tactics."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I must thank my Self for protecting us... Oh, is everyone safe?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I can feel the power flowing through me..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heehee~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"My Self is a very good girl. I'm sure that you'll be able to get along with her just as well as you do with me. Hehe~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Were you helping Kinu out with her training? Ehe... Would you mind if I came over to watch?|If you would ever like to see my Self, please let me know. I really love having conversations with her.|If you're ever worried that you're being possessed by something, do let me know. I'm fairly confident in my ability to exorcise spirits.|I pulled a lucky fortune while at the shrine earlier today. I'm sure something good is going to happen soon!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Um... did you need something from me?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"My, aren't you quite the prankster?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Just as my Self stays by my side and protects me, I would like to stay by your side and protect you. At your side, always... Hehehe~♪"
+			}
+		}
+	},
+	[303060] = {
+		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 303060,
+		lose = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Oh, it looks like you're up early today... Very praiseworthy of you, Commander."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"As long as I'm able to gather information with my seaplanes, this should be the expected result. Hehe."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work out there. Leave the combat report to me. You... should relax for a bit. Hehe."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Hm~? Are you curious about what I was doing? I was collecting info, of course. You unexpectedly have a lot of openings. Hehe~♡"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Calm down, Commander. If there were rumors any floating around about you, I'd tell them off. You're even more worried now? My my...|So, about those affection points... Mm, well, I'm maxed out, but... would you like to find out about some of the other girls? Hehehe."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"My, what am I going to do with you... So, what is it that you'd like~?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Well, whatever you might be worried about, let's focus on knocking that mission out together."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission rewards? Well... Hehe, let's check on them together."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Your tastes... Hehehe, there's no way I wouldn't know by now, right~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Oh, are you asking me on a date? Mm~ What should I tell you in return... Hehehe, how about... the place I'd like to go today~?"
+			}
+		}
+	},
+	[801070] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		mission = "",
+		feeling2 = "",
+		feeling1 = "",
+		skill = "",
+		headtouch = "",
+		id = 801070,
+		lose = "",
+		feeling4 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"You look to be in high spirits today. So, what do you need me to do next?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"How's that? Look what I, in all my grace and elegance, have done in your name."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Accept your divine punishment!"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"Ahaha! Thanks to you, Commander, I feel even stronger."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"A tea party with my sisters? ...I don't know about that... H-hey, it's not that I don't want to go... But what if the tea is too hot...|If you have a mission that requires speed, just leave it to me. That's one of my fortes, after all.|Want to head to somewhere high up after you're done with work? I'd like to understand... what it feels like to be a bird, soaring freely through the skies."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you could talk to me about your concerns, Commander, I'd be really happy~♪"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"The mission rewards are right here. Heh heh~ I love the way you look when you're pushing yourself to the limit~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"This... is also one of my weaknesses."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, have some spare time to have a chat? No no, I didn't have anything special in mind. You know, I get anxious if I don't get to see your face for even a day. Whether you're having a good day or a not-so-good day, I just want to see more of you~"
+			}
+		}
+	},
+	[801080] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		feeling1 = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 801080,
+		login = {
+			{
+				1100,
+				"Good morning, Lord Commander! Early as always, I see! Hehehe~"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We did it! We are victorious, Lord Commander! Hehehe! The Cardinal will surely honor me for this!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Outstanding performance, Lord Commander! If you brought gifts for the Cardinal, I may deliver them for you!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You went shopping with Algérie?! N-no, I'm not envious in the slightest, not at all! ...Though I wish you'd have taken me along..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I will protect you with my life, as your sworn knight, Lord Commander! Hehehe~|Mayhaps I should ask Émile for dancing lessons... N-nothing! Just thinking out loud!|Anything you require, I can do no problem! Simply give the order, Lord Commander!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Is this... what falling in love feels like?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Lord Commander! When is the next sortie? I must know so I can prepare for our holy battle, and also to relax and repose! Most of all, I'd love to spend a day off together with you~"
+			}
+		}
+	},
+	[903010] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
+		profile = "",
+		mission = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 903010,
+		feeling1 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, the documents for you to take care of today are on your desk. ...No need to look so down, Commander~ I'll help you with anything!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Yep~ Feel free to keep relying on me~♪"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"What a miscalculation... I'm sorry, Commander..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Do you need some help with the reports? Leave them to me, and go take a break. I'll find you if I need anything from you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Algérie invited you to a cat café? Haha, then let's go there after we're done with work.|I'll help you out so you don't need to work extra hours.|If someone wants to disturb the peace that we've built... Well, it's our job to stop them, isn't it?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you want me to pamper you, just say the word~♪"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Our supplies have arrived. Don't worry, I've already checked up on them myself!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"I've gone and collected the mission rewards for you. This favor's on the house~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander? What might you be thinking about?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, did you have any plans for the evening? Ahaha, it's nothing special. I was just thinking that I'd like to eat dinner with you tonight. The reason is... Well, isn't wanting to spend more time with you reason enough? Haha~♪"
+			}
+		}
+	},
+	[10800010] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10800010,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Y'know, It sure feels weird not having to go to school in the morning..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Thank goodness... Everyone's safe and sound."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"This time, it's my turn to fight."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Your coffee, Commander. Thanks for waiting so patiently. How does it taste?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Excuse me... Oh, huh. You're asleep already? Work must've been tough. I'll be waiting here until you wake up.|The shops here really have everything. I wish we had something like this back where I'm from.|This PC's not turning on? Hm, let's check if it's plugged in... (*thump*) What's wrong? Why do you look like you saw a ghost?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Please continue working. I'll brew something for you to drink, so stay focused until the very end."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Well done. Since you worked so hard, why not take a little break?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Whaaa?! What's the meaning of this?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Back then, I wasn't able to fight the enemy head-on. But this time, I have the power to help others. Now, I swear to fight for you and everyone else."
+			}
+		}
+	},
+	[10800060] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10800060,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Hey, looks like you're all chipper this morning. Good ol' Commander, you~!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Commander~! Were you watching~!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Everyone, let's go get'em~!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander! Take me somewhere fun~! I'm so sick and tired of watching TV in this room."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Even the Commander dozes off from time to time, huh. Well, I guess I can slack off for a bit. I wonder if there's anything interesting here...|This office is so clean, even though there are so many things here. Who's in charge of cleaning it?|This place is surrounded by the sea, right? Does that mean that I could swim every day when it's hot out if I wanted to?!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Chop chop, hurry and wrap up those missions, so we can go somewhere together~"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander~! A bunch of stuff arrived because you finished those missions~!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Wha, Commander! I'll call the police on you!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Huh? Commander? What's with your expression? ...Is there something you're worrying about? If you'd like, I'd be willing to lend an ear. We're friends, after all."
+			}
+		}
+	},
+	[10800070] = {
+		lose = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		unlock = "",
+		touch2 = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		id = 10800070,
+		login = {
+			{
+				1100,
+				"Good morning. Still feeling tired? You should go wash your face."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Interesting. I'm a little wiser than I was a minute ago."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I will crush you... No matter what!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"How old am I? Well... 5,000 years... Yeah..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You poor overworked soul... Do you need a hand? I've got nothing better to do right now.|I like how lax this coat is. Although, it's not so great in winter.|Say, Commander, do you wanna watch a movie I borrowed from a friend? ...What's it about? Fairly sure it involves crabs one way or another."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"These missions still aren't done? Let's get to it then. I'll assist you."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Outstanding job on that mission. Get cozy and I'll make you something to eat."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Oh, time to sortie soon? Take me with you. You'll want a battleship like me... Yeah, that'll be great."
+			}
+		}
+	},
+	[10800040] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10800040,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Huh, you're pretty early today. Did something good happen?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"That attack... was TOTALLY BADASS!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Let's go all out~!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"So, Commander, you definitely have someone you're crushin' on, right? ...Seriously, you don't? C'mon, don't be like that. Just between the two of us, I swear I won't tell anyone?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Oy, Commander, wake up! Do you really have time to laze around when you still have so much work left?|Hm? Need me to help with your work? Sure, but you owe me juice afterwards~|The girls here are all such pearls, you know that? I promised to go on vacation with them the next time we have time off. I'm really looking forward to it~"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Huh? You're still not done with work? I'll lend a hand, so let's tackle this one step at a time."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"We're finally done! Now, go get me that can of juice you promised!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"W-w-w-wait a minute! Do you have any idea what you're doing?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Oh, Commander! You'd better not forget to come to the next tea party! Heh heh, I swear I'll show you why I'm awesome!"
+			}
+		}
+	},
+	[10800030] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10800030,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Yo, morning. I'm amazed you even manage to get up in the morning~"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'm invincible with my friends around~"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Follow my lead, guys."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Huh, Commander? You brought gifts... Wait, are those the super popular sweets that everyone's talking about?! Yay! Come on in and share the goods!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander! The menu here at the cafeteria is pretty impressive! There are so many dishes I've never even heard of... I bet I'll get a bunch of likes if I upload these pictures to my socials.|Eh? Huh?? Were you... asleep? Sleeping even though the deadline is right around the corner... you've got nerves of steel...|Commander, your office might look nice and tidy, but when I open your shelf, I bet your documents are totally going to... not rain down everywhere? Welp, what was I expecting..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You're at the final stretch with your work, aren't ya? I'll put some music on, so let's focus and wrap things up~"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Good work. Well then, let's go and feast on some sweets~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hey Commander, your pranks are going a bit overboard."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Yo, Commander. I'm about to head out to hang out with my friends, wanna tag along? No need to worry, I'm sure everyone would love to see you there."
+			}
+		}
+	},
+	[10800050] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10800050,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Surely the Commander isn't going to be late to work, right..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We were able to come together as one, right?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Enemy fleet incoming... Ready up, everyone!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Welcome back, Commander. You said you had something to ask me? Then let's sit down and talk."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hum-hum, hmm...♪ Oh, welcome back, Commander. Sheesh, that's a huge pile of paperwork you've got. Need a hand with those?|Hey, a ring-and-string puzzle... I'm not great at puzzles or anything, but I've solved one like this before.|I'm usually uncomfortable in places with lots of people, but with how friendly all the shipgirls here are, I think I'll slowly fit in..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"We still have missions to do. If I can help with them in any way, just let me know."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission completed. Great job, Commander."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Umm, what are you trying to tell me...?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Hey, can you come see during break time? I want to really familiarize myself with this place, and I was hoping you could show me around..."
+			}
+		}
+	},
+	[10800020] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10800020,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Oh, if it isn't the Commander~ Good timing too. I was starting to get bored."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Aw yeah! We got 'em!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Hanging out with you all is kinda fun."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Check it out! I made a new figure! I put extra effort into the details on this one. Feel like praising me, Commander?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Zzz... Heheh... Caught you reachin', Commander. If you admit it, I might let you keep going~ Or maybe not, hehe.|Commander, are you working hard, or hardly working? ...The former? Really? All you've been doing is staring off into space though.|Good on you for keeping your office nice and tidy... How's my room in comparison? Sorry, that's top-secret."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Look at that. Unfinished missions. I'll be here for moral support if you need it."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Whoa, you finished a mission. Real nice work."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ah, you're what they call a hands-on person, eh?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You hold a pretty special place in my heart, Commander... Huh? Is that a blush I see~?"
+			}
+		}
+	},
+	[403100] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		mission = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 403100,
+		login = {
+			{
+				1100,
+				"Howdy. Finished charging your batteries? I can help if you still need more energy."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I'm gonna open the window and get some fresh air in here. C'mon! Breathe in, breathe out!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Yeah, hey... Hmm... Huh? Me? I'm as carefree as can be. What about you? Something you wanna get off your chest?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Man, your desk is just loaded with neat stuff. Hehehe, ain't never a dull moment in your office~|I'm like a human shredder, tearing paperwork you don't wanna do into ribbons... Hmm. You sure you can still manage with this amount?|It's not so bad doing the same task all day when you've got someone to vibe with~|Heard Strasser sat Heinrich down and made her read a book for once. Maybe I should find something to read before bedtime."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You've really got a, uh, keen interest in women's bodies."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You down to hang out with me today? Ah, right, you've got work... Tell you what, I'll help you with it. First order of business: putting a smile on your face~"
+			}
+		}
+	},
+	[402060] = {
+		upgrade = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		win_mvp = "",
+		mission_complete = "",
+		unlock = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		battle = "",
+		id = 402060,
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Oh yeah, I'm in the zone! So, what are we doin' today, buddy?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good, you're back! I won't even have to lift a finger if you keep this performance up! Ahahaha!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Huh? Uhh... Guess I don't mind..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Too slow, Commander! Hahaha! To be fair, keepin' up with my pace ain't easy. I can teach you a way to run faster, if you're interested."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, why don't ya try a somersault for yourself? Don't be scared now, I'll catch you to make sure you don't get hurt.|You slackin' again? Heheh, well, that's a forehead-flicking right there! ...Oh, crap, did I overdo it? Sorry, buddy. I'll go easy on ya next time.|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Brofist coming at you! Intercept! Hahahaha!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Every new mission's a new challenge! C'mon, let's get it done!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hm? Whuh...? I can't put my finger on what I'm feeling here..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Now that we've gone from homies to like, hand-holding homies, I don't know where to take things from here... \"Don't worry about it?\" Yeah, guess you're right! We got to this point by just going with the flow, so let's stick to that!"
+			}
+		}
+	},
+	[405030] = {
+		feeling4 = "",
+		feeling3 = "",
+		profile = "",
+		main = "",
+		upgrade = "",
+		unlock = "",
+		feeling2 = "",
+		skill = "",
+		id = 405030,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"You finally showed up... but you're not needed anymore. Hehehe. Don't just stand there in shock, guess what I did for you."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I want you to tell me whether you're satisfied with my performance or not."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I was able to bring everyone back... safely."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Are you alright? ...I don't doubt my ability to take care of my subordinates' safety, but I can't help but worry about you... Tell me, are you really alright?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'll mow all of you down!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Does being pampered like this irritate you?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"What's wrong? Did something happen? You're not acting like yourself... Trust in others like you trust in me, that's how you'll put those girls at ease. Of course, the same goes for me."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Even though you do so well when I pamper you, you refuse to be pampered when you're not doing well... Hmph. You're just like those little kitties in the most peculiar ways...|If you're really dying to find out what's behind the Mysteries of the Port, I won't stop you. I'll even accompany you. It'll be a good way of spending time with you.|Focus more on myself? It seems like you don't understand. It's because I'm focusing on myself that I do all these things for you.|When you neglect your health, think about the people who would be sad if you collapsed. I, for one, don't want to feel sad."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"This is how our relationship together is. I don't know why you're getting all flustered about it at this point..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Looks like the fleet is back after their commissions. Don't you want to look at their beaming smiles?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"There's a new mission. I did the parts I could help out with. I'll leave the rest to you."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete. Feeling a bit tired? Let's take a break until you've recovered enough energy."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Here's some mail for you. I broke the seals for you, is that alright?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Do you want to find out which of us has less self-restraint?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Stay still. Don't wander away. I can't leave the one I absolutely adore alone. If someone actually tried to tear the two of us apart... Hehehe... Let's just say, I'd tell them to eat shit."
+			}
+		}
+	},
+	[406020] = {
+		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 406020,
+		lose = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. Where shall we head to today? Hehehe."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We did it, Commander! ...A-aren't you going to praise me?!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Great work out there, Commander. Hehe, did you expect to come back to a nice meal? Too bad for you, I left one of the side dishes out today♪ Ahahaha~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I've been thinking... Isn't it pretty unusual for you to be the one who always makes coffee for me? I mean, even if I'm a bad girl, you're still my superior, and... you can't leave out my sugar on purpose like that!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hehehe, I went and swapped around some of the forms you're supposed to work on. Will you finally admit that I'm a bad girl now?|Once this war is over, maybe I can go back to being a good girl... B-but, that's only if you promise that you'll always stay with me!|As your secretary ship, I'll make sure that I work myself to the bone! Now now, leave all of your work to me, and wallow in your pangs of guilt~♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"My gorgeous body can even withstand battles! Hehe, you can keep admiring me♪"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"If they make you fill out a reflection form for not completing your missions on time, leave it to me! Ehehe♪"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Here are the mission rewards. Your beaming face is enough to make it worthwhile."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"A-aren't you too enthusiastic about this?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I always thought that being a bad girl would keep you interested in me, but... sometimes, I just want to be a good girl who clings to your side... O-only every once in a while though, got it...?"
+			}
+		}
+	},
+	[408120] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		feeling1 = "",
+		skill = "",
+		battle = "",
+		id = 408120,
+		lose = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Hey, Commander! We're gonna hang out again after work is over, remember that!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Victory! Hehehe! We did it, Commander!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Open sesame! Kidding~ I'll just open the door like normal for you!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehehe, I like this!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Okay, so... I'm meant to press this blue button instead of the red one on the AC... Achoo! Aww, dang it... I pressed the red one without even thinking about it!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I've got an idea! Hehehe, lemme just push this button... There we go! Fan's on now! Enjoy that cool air!|nil|Your documents are printed and good to go! I made sure to read the instructions this time! ...Agh, the text is on both sides of the paper! How'd this happen?!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"It's always you touching me! Let me touch you for once!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"You've got new mail! I'll open it for y– Phew. I nearly did it again... Here you are! Your unopened mail!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hehehe~ Don't be shy~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander! Do you have time right now? Then come play with me! I remember you saying you would! Oh, we're gonna have so, sooo much fun later!"
+			}
+		}
+	},
+	[101490] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		profile = "",
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		feeling1 = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		id = 101490,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Investigation complete! Nothing seems out of order in the office. Welcome back, Commander!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"There's... kelp on my head... Agghh... No regrets..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Nice going out there, Commander! Did you come across any places warranting an investigation?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Feels like you just charged me up with energy! Your touch is like magic, Commander~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"nil|nil|nil|Kelp is really gross to me... Never mind eating it, I can't even touch the stuff!|Data 857 and I are ready to go, just give us the word! ...It's not time just yet? Fine... I'll check my gear again in the meanwhile!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"My tie's all crooked? Thanks for telling me!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"S-so that's your favorite part of me, huh..."
+			}
+		}
+	},
+	[502080] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		mission = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 502080,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Let's get to work, Commander! The faster we get it done, the sooner we can do other stuff! It's as easy as that!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Where'd you go this time, Commander? The stories about your journeys are as interesting to me as dramatic operas!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"nil|nil|nil|Commander! You should definitely come watch my next spear dance performance! I guarantee your jaw will drop when you see it! Hehehe~|\"Reward the righteous and punish the wicked, and you will live neither indebted nor in regret.\" That's my motto! You can't go easy on wrongdoers – they'll only keep pushing the boundary of what they can get away with!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Being upfront about your feelings is good, b-but I'd appreciate at least a little restraint!"
+			}
+		}
+	},
+	[502070] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		home = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		id = 502070,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Let what should be done today not burden you tomorrow. Commander, let's both strive to reject procrastination."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"It would appear that the winds of fortune favor us today. Hehe~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hmph... I'm not a child anymore..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"nil|nil|nil|The Dragon Empery has produced countless beautiful works that evoke the imagery of love, such as red beans symbolizing fidelity, and the ever-famous mandarin ducks... Hehe, maybe we should recite some love poem together, Commander?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Whether you'd like to discuss some poetry or simply chat for a bit, I'd love to spend some time with you."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ah, um, at least let me prepare myself..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"It is quite natural for me to be in high spirits. After all, my beloved is by my side, your warmth imbuing me with a happiness that overflows without cessation. What cause could I possibly have to be displeased? And just like me, I hope that as long as I remain by your side, your precious smile will never fade away~♪"
+			}
+		}
+	},
+	[202300] = {
+		main_extra = "",
+		feeling3 = "",
+		mail = "",
+		feeling4 = "",
+		expedition = "",
+		upgrade = "",
+		mission_complete = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		battle = "",
+		id = 202300,
+		feeling1 = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Heehee, it's adorable how devoted you are to your job, Master~ Sorry, I'll go and prepare the documents right away."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'll say it once again. Ahem... An elegant victory, just the way your maid does it!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I won't let you be swallowed up by the sea! Grab my hand!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Master, allow me to take your coat~ Here's a towel, a warm cup of coffee, and a hug from me~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Master, does it feel good~? Heehee, since we're fine on time, I'll keep on pampering you more and more~"
+			}
+		},
+		main = {
+			{
+				1100,
+				"May your mission today be successful, and may you return safe and sound... All right, Master. Everything is bound to go swimmingly!|I-is there really nothing I can do to help...? I can't believe you'd just leave me with nothing to do like this... There's no way this should be allowed... Masterrrr...|Master, let's check on this report together... You can't see the report because my chest is in the way? Oh goodness... I'm sorry..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Master? Whenever, wherever, please leave everything to me~!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Master, I've received word that there's a new mission for you. Though, it looks like you were already aware of it... I-it was Dido who informed you about it?!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh Master, you~ Heehee♡"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Thank you for waiting, my dear Master. Heehee, you seem pretty tired... Hah! I'll pet you on the head today. Good work, good work~ I'm not going anywhere, so just sit tight and let my affection warm you up~!"
+			}
+		}
+	},
 	all = {
 		999010,
+		801040,
 		108030,
 		999011,
 		207050,
 		905030,
+		301090,
 		305140,
 		306070,
 		301260,
@@ -5741,6 +7695,31 @@ pg.ship_skin_words_extra = {
 		10700050,
 		10700060,
 		10700070,
-		108070
+		108070,
+		301290,
+		307120,
+		301470,
+		301480,
+		302070,
+		303060,
+		801070,
+		801080,
+		903010,
+		10800010,
+		10800060,
+		10800070,
+		10800040,
+		10800030,
+		10800050,
+		10800020,
+		403100,
+		402060,
+		405030,
+		406020,
+		408120,
+		101490,
+		502080,
+		502070,
+		202300
 	}
 }

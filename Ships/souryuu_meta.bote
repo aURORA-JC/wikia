@@ -1,91 +1,91 @@
 {
-	"name_reference": "souryuu_meta",
-	"cn_reference": "canglong_alter",
-	"nameJP": "蒼龍(META)",
-	"nameCN": "苍龙·META",
-	"ID": "M004",
-	"name": "Souryuu META",
-	"internal_id": "9707031",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Aircraft Carrier",
-	"navy": "META",
-	"prefix": "",
-	"buildTime": "",
-	"class": "",
-	"voiceActress": "Karin Mitarai",
-	"parameters": {
-		"firepower": "E",
-		"torpedo": "E",
-		"aviation": "S",
-		"evasion": "B",
-		"antiAir": "A",
-		"hp": "B"
-	},
-	"scrap": {
-		"gold": "9",
-		"oil": "3",
-		"medal": "10"
-	},
-	"releaseDate": {
-		"JP": "2021/09/09",
-		"CN": "2021/09/09",
-		"KR": "",
-		"EN": "2021/09/09"
-	},
-	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "0"
-	},
-	"acquisitionMethod": "META Lab",
-	"skill": {
-		"1": {
-			"icon": "800130",
-			"requirement": "Tactical Training",
-			"name": "",
-			"type": "Offense",
-			"description": ""
-		},
+    "name_reference": "souryuu_meta",
+    "cn_reference": "canglong_alter",
+    "nameJP": "蒼龍(META)",
+    "nameCN": "苍龙·META",
+    "ID": "M004",
+    "name": "Souryuu META",
+    "internal_id": "9707031",
+    "rarity": "Super Rare",
+    "initialStar": "★★★☆☆☆",
+    "hull": "Aircraft Carrier",
+    "navy": "META",
+    "prefix": "",
+    "buildTime": "",
+    "class": "",
+    "voiceActress": "Karin Mitarai",
+    "parameters": {
+        "firepower": "E",
+        "torpedo": "E",
+        "aviation": "S",
+        "evasion": "B",
+        "antiAir": "A",
+        "hp": "B"
+    },
+    "scrap": {
+        "gold": "9",
+        "oil": "3",
+        "medal": "10"
+    },
+    "releaseDate": {
+        "JP": "2021/09/09",
+        "CN": "2021/09/09",
+        "KR": "",
+        "EN": "2021/09/09"
+    },
+    "artist": {
+        "name": "",
+        "weibo": "",
+        "twitter": "",
+        "pixiv": "",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "0",
+        "torpedo": "0",
+        "aviation": "0",
+        "reload": "0"
+    },
+    "acquisitionMethod": "META Lab",
+    "skill": {
+        "1": {
+            "icon": "800130",
+            "requirement": "Tactical Training",
+            "name": "",
+            "type": "Offense",
+            "description": ""
+        },
         "2": {  
-			"icon": "800140",
-			"requirement": "Tactical Training",
-			"name": "",
-			"type": "Offense",
-			"description": ""
+            "icon": "800140",
+            "requirement": "Tactical Training",
+            "name": "",
+            "type": "Offense",
+            "description": ""
         },
         "3": {  
-			"icon": "800150",
-			"requirement": "Tactical Training",
-			"name": "",
-			"type": "Support",
-			"description": ""
+            "icon": "800150",
+            "requirement": "Tactical Training",
+            "name": "",
+            "type": "Support",
+            "description": ""
         },
         "4": {  
-			"icon": "800160",
-			"requirement": "Tactical Training",
-			"name": "",
-			"type": "Support",
-			"description": ""
+            "icon": "800160",
+            "requirement": "Tactical Training",
+            "name": "",
+            "type": "Support",
+            "description": ""
         }
-	},
-	"skin": {
-		"1": {
-			"id": "canglong_alter",
-			"name": "Souryuu META",
-			"description": "Souryuu META",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
+    },
+    "skin": {
+        "1": {
+            "id": "canglong_alter",
+            "name": "Souryuu META",
+            "description": "Souryuu META",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
                 "1": {  
                     "id": "1"
                 },
@@ -107,202 +107,202 @@
                 "7": {  
                     "id": "7"
                 }
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		}
-	},
-	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Fighter",
-			"efficiency": "%/%/%/%",
-			"amount": "///",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Dive Bomber",
-			"efficiency": "%/%/%/%",
-			"amount": "///",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Torpedo Bomber",
-			"efficiency": "%/%/%/%",
-			"amount": "///",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "canglong_alter",
-				"id": "0",
-				"label": "Souryuu META",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": ""
-					},
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "base": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        }
+    },
+    "limitBreak": {
+        "tier1": "",
+        "tier2": "",
+        "tier3": ""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "Fighter",
+            "efficiency": "%/%/%/%",
+            "amount": "///",
+            "preload": "0/0/0/0"
+        },
+        "2": {
+            "type": "Dive Bomber",
+            "efficiency": "%/%/%/%",
+            "amount": "///",
+            "preload": "0/0/0/0"
+        },
+        "3": {
+            "type": "Torpedo Bomber",
+            "efficiency": "%/%/%/%",
+            "amount": "///",
+            "preload": "0/0/0/0"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "canglong_alter",
+                "id": "0",
+                "label": "Souryuu META",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
                     "2": {
                         "event": "Biography",
                         "media": "profile"
@@ -425,19 +425,19 @@
                     }
                 }
             }
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": "souryuu,souryuu_meta"
-	}
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": "souryuu,souryuu_meta"
+    }
 }

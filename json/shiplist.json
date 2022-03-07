@@ -17,7 +17,7 @@
         "link": "bullin_mkii",
         "shipType": "common"
     },
-    "3": {  
+    "3": {
         "name": "Specialized Bulin Custom MKIII",
         "hull": "Destroyer",
         "navy": "Universal",
@@ -3302,7 +3302,7 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-    "440": {                                                                                                                         
+    "440": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/suweiaibeilaluosi.png",
         "link": "sovetskaya_belorussiya",
@@ -3541,7 +3541,7 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/z26.png",
         "link": "z26",
         "name": "Z26",
-        "navy": "Ironblood", 
+        "navy": "Ironblood",
         "rarity": "Super Rare",
         "shipType": "common"
     },
@@ -3550,7 +3550,7 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/u96.png",
         "link": "u96",
         "name": "U-96",
-        "navy": "Ironblood", 
+        "navy": "Ironblood",
         "rarity": "Super Rare",
         "shipType": "common"
     },
@@ -3755,8 +3755,8 @@
     "490": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/wenqinzuojiaobeidi.png",
-        "link": "vincenzo_gioberti", 
-        "name": "Vincenzo Gioberti", 
+        "link": "vincenzo_gioberti",
+        "name": "Vincenzo Gioberti",
         "navy": "Sardegna Empire",
         "rarity": "Elite",
         "shipType": "common"
@@ -4031,6 +4031,132 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
+    "521": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xinaoerliang.png",
+        "link": "new_orleans",
+        "name": "New Orleans",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "522": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kebu.png",
+        "link": "le_terrible",
+        "name": "Le Terrible",
+        "navy": "Iris Libre",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "523": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mayebuleize.png",
+        "link": "maille_breze",
+        "name": "Maillé Brézé",
+        "navy": "Iris Libre",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "524": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fuxu.png",
+        "link": "foch",
+        "name": "Foch",
+        "navy": "Vichya Dominion",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "525": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/magedebao.png",
+        "link": "magdeburg",
+        "name": "Magdeburg",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "526": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yibei.png",
+        "link": "elbe",
+        "name": "Elbe",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "527": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/adaerbote.png",
+        "link": "prinz_adalbert",
+        "name": "Prinz Adalbert",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "528": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/u1206.png",
+        "link": "u1206",
+        "name": "U-1206",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "529": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wuerlixi.png",
+        "link": "ulrich_von_hutten",
+        "name": "Ulrich von Hutten",
+        "navy": "Ironblood",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "530": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kalvbudisi.png",
+        "link": "charybdis",
+        "name": "Charybdis",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "531": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haitian.png",
+        "link": "hai_tien",
+        "name": "Hai Tien",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "532": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haiqi.png",
+        "link": "hai_chi",
+        "name": "Hai Chi",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "533": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bulisituoer.png",
+        "link": "bristol",
+        "name": "Bristol",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "534": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhenhai.png",
+        "link": "chen_hai",
+        "name": "Chen Hai",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4263,6 +4389,42 @@
         "name": "Souryuu META",
         "navy": "META",
         "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M005": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fusang_alter.png",
+        "link": "fusou_meta",
+        "name": "Fusou META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M006": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feiying_alter.png",
+        "link": "hiyou_meta",
+        "name": "Hiyou META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M007": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/genaisennao_alter.png",
+        "link": "gneisenau_meta",
+        "name": "Gneisenau META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M008": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sunying_alter.png",
+        "link": "junyou_meta",
+        "name": "Junyou META",
+        "navy": "META",
+        "rarity": "Elite",
         "shipType": "META"
     },
     "C001": {
@@ -4631,6 +4793,69 @@
         "link": "imas_mami",
         "name": "Futami Mami",
         "navy": "Idolm@ster",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C081": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/baoduoliuhua.png",
+        "link": "ssss_rikka",
+        "name": "Takarada Rikka",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C082": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qian.png",
+        "link": "ssss_akane",
+        "name": "Shinjou Akane",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C083": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mengya.png",
+        "link": "ssss_yume",
+        "name": "Minami Yume",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C084": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qianlai.png",
+        "link": "ssss_chise",
+        "name": "Asukagawa Chise",
+        "navy": "SSSS",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C085": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lian.png",
+        "link": "ssss_hass",
+        "name": "Hass",
+        "navy": "SSSS",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C086": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/naimeizi.png",
+        "link": "ssss_namiko",
+        "name": "Namiko",
+        "navy": "SSSS",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C087": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/he.png",
+        "link": "ssss_mujina",
+        "name": "Mujina",
+        "navy": "SSSS",
         "rarity": "Elite",
         "shipType": "collab"
     },

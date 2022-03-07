@@ -1,60 +1,60 @@
 {
-	"name_reference": "u410",
-	"cn_reference": "u410",
-	"nameJP": "U-410",
-	"nameCN": "U-410",
-	"ID": "492",
-	"name": "U-410",
-	"internal_id": "408111",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Submarine",
-	"navy": "Ironblood",
-	"prefix": "KMS",
-	"buildTime": "",
-	"class": "Type VIIC",
-	"voiceActress": "Ayaka Fujimoto",
-	"parameters": {
-		"firepower": "D",
-		"torpedo": "A",
-		"aviation": "E",
-		"evasion": "D",
-		"antiAir": "E",
-		"hp": "D"
-	},
-	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"releaseDate": {
-		"JP": "2021/02/04",
-		"CN": "2021/02/04",
-		"KR": "",
-		"EN": "2021/02/04"
-	},
-	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
-	},
-	"acquisitionMethod": "Event: Chinese New Year 2021",
-	"skill": {
-		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		},
+    "name_reference": "u410",
+    "cn_reference": "u410",
+    "nameJP": "U-410",
+    "nameCN": "U-410",
+    "ID": "492",
+    "name": "U-410",
+    "internal_id": "408111",
+    "rarity": "Elite",
+    "initialStar": "★★☆☆☆",
+    "hull": "Submarine",
+    "navy": "Ironblood",
+    "prefix": "KMS",
+    "buildTime": "",
+    "class": "Type VIIC",
+    "voiceActress": "Ayaka Fujimoto",
+    "parameters": {
+        "firepower": "D",
+        "torpedo": "A",
+        "aviation": "E",
+        "evasion": "D",
+        "antiAir": "E",
+        "hp": "D"
+    },
+    "scrap": {
+        "gold": "",
+        "oil": "",
+        "medal": ""
+    },
+    "releaseDate": {
+        "JP": "2021/02/04",
+        "CN": "2021/02/04",
+        "KR": "",
+        "EN": "2021/02/04"
+    },
+    "artist": {
+        "name": "",
+        "weibo": "",
+        "twitter": "",
+        "pixiv": "",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "reload": ""
+    },
+    "acquisitionMethod": "Event: Chinese New Year 2021",
+    "skill": {
+        "1": {
+            "icon": "",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        },
         "2": {
             "icon": "",
             "requirement": "",
@@ -69,16 +69,16 @@
             "type": "",
             "description": ""
         }
-	},
-	"skin": {
-		"1": {
-			"id": "u410",
-			"name": "",
-			"description": "",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
+    },
+    "skin": {
+        "1": {
+            "id": "u410",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
                 "1": {
                     "id": "1"
                 },
@@ -92,8 +92,8 @@
                     "id": "4"
                 }
 
-			}
-		},
+            }
+        },
         "2": {
             "id": "u410_2",
             "name": "",
@@ -116,208 +116,208 @@
                 }
             }
         }
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		}
-	},
-	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "u410",
-				"id": "0",
-				"label": "U-410",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "base": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        }
+    },
+    "limitBreak": {
+        "tier1": "",
+        "tier2": "",
+        "tier3": ""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "2": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "3": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "u410",
+                "id": "0",
+                "label": "U-410",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
                         "english": "",
-						"englishNote": ""
-					},
+                        "englishNote": ""
+                    },
                     "2": {
                         "event": "Biography",
                         "media": "profile",
@@ -642,7 +642,7 @@
                         "english": "",
                         "englishNote": ""
                     },
-                    "30": { 
+                    "30": {
                         "event": "Additional Voice Line 2",
                         "media": "link2",
                         "chinese": "",
@@ -654,14 +654,14 @@
                         "english": "",
                         "englishNote": ""
                     }
-				}
-			},
+                }
+            },
             "2": {
                 "skin_id": "u410_2",
                 "id": "1",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -780,22 +780,22 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    }
                 }
             }
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": ""
-	}
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": "u81,u96,u410,u556,u557,u1206"
+    }
 }

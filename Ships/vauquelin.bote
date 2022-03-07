@@ -384,7 +384,7 @@
         "add_level_value": "1",
         "add_level_shiptype": "Destroyer",
         "t_level": "7",
-        "ships": "tartu,vauquelin"
+        "ships": "tartu,vauquelin,maille_breze"
     },
     "build": {
         "light": {
@@ -892,7 +892,7 @@
                 "id": "2",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },

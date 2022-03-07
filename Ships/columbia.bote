@@ -1,774 +1,847 @@
 {
-	"name_reference": "columbia",
-	"cn_reference": "gelunbiya",
-	"nameJP": "コロンビア",
-	"nameCN": "哥伦比亚",
-	"ID": "38",
-	"name": "Columbia",
-	"internal_id": "102101",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Light Cruiser",
-	"navy": "Eagle Union",
-	"prefix": "USS",
-	"buildTime": "N/A",
-	"class": "Cleveland-Class",
-	"voiceActress": "Saya Horigome",
-	"parameters": {
-		"firepower": "B",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "B",
-		"antiAir": "B",
-		"hp": "B"
-	},
-	"scrap": {
-		"gold": "6",
-		"oil": "3",
-		"medal": "4"
-	},
-	"releaseDate": {
-		"JP": "April 19, 2018",
-		"CN": "March 21, 2018",
-		"KR": "",
-		"EN": "March 14, 2019"
-	},
-	"artist": {
-		"name": "八才提督",
-		"weibo": "http://weibo.com/vihao",
-		"twitter": "",
-		"pixiv": "https://www.pixiv.net/member.php?id=1393609",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "13",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "13"
-	},
-	"acquisitionMethod": "Boss Only Drop",
-	"skill": {
-		"1": {
-			"icon": "5051",
-			"requirement": "Default Unlocked",
-			"name": "Flagship Protection",
-			"type": "Support",
-			"description": "Reduces the damage taken by the Flagship by 15% (25%)."
-		},
-		"2": {
-			"icon": "4091",
-			"requirement": "Default Unlocked",
-			"name": "Anti-Air Mode",
-			"type": "Defensive",
-			"description": "25% activation when attacking with Anti-Air Guns: For 3 seconds, increase own Anti-Air by 20% (40%) but decrease Firepower by 40% (20%)."
-		},
-		"3": {
-			"icon": "20141",
-			"requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
-			"name": "Full Barrage",
-			"type": "Offensive",
-			"description": "Every 15 (10) times the main gun is fired, trigger Full Barrage - Cleveland Class I (II)."
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "gelunbiya",
-			"name": "Columbia ",
-			"description": "Cleveland-class light cruiser – Columbia, hull number CL-56. ",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				}
-			}
-		},
-		"2": {
-			"id": "gelunbiya_2",
-			"name": "After-School Odette",
-			"description": "Commander, here, I made some chocolate for you~ Come on, hurry up and take it already! Holding this pose makes me look like I'm waiting for some Prince Charming, and it's super embarrassing.",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "16400",
-			"rarity": "Rare",
-			"name": "Quadruple 40mm Bofors Gun"
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "3880",
-			"firepower": "146",
-			"torpedo": "0",
-			"antiAir": "285",
-			"aviation": "0",
-			"reload": "163",
-			"hit": "145",
-			"evasion": "77",
-			"speed": "32.5",
-			"luck": "70",
-			"asw": "88",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		},
-		"120": {
-			"hp": "4307",
-			"firepower": "168",
-			"torpedo": "0",
-			"antiAir": "323",
-			"aviation": "0",
-			"reload": "187",
-			"hit": "163",
-			"evasion": "92",
-			"speed": "32.5",
-			"luck": "70",
-			"asw": "100",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "751",
-			"firepower": "31",
-			"torpedo": "0",
-			"antiAir": "61",
-			"aviation": "0",
-			"reload": "69",
-			"hit": "56",
-			"evasion": "30",
-			"speed": "32.5",
-			"luck": "70",
-			"asw": "24",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Light"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "32.5",
-			"luck": "70",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "32.5",
-			"luck": "70",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		}
-	},
-	"limitBreak": {
-		"tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
-		"tier2": "Main Gun Mount +1 / Main Gun Efficiency +10%",
-		"tier3": "Upgrades Full Barrage I→II / Main Gun Efficiency +15%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Light Cruiser",
-			"efficiency": "100%/105%/115%/130%",
-			"amount": "1/1/2/2",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Destroyer Gun",
-			"efficiency": "70%/70%/70%/70%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "120%/120%/120%/120%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"limited": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		}
-	},
-	"drop": {
-		"droppable": "true",
-		"list": {
-			"1": {
-				"event": "World",
-				"chapter": {
-					"1": {
-						"label": "Ch. 11",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": ""
-							},
-							"2": {
-								"drop": "-",
-								"note": ""
-							},
-							"3": {
-								"drop": "-",
-								"note": ""
-							},
-							"4": {
-								"drop": "✓",
-								"note": "Boss"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "gelunbiya",
-				"id": "0",
-				"label": "Columbia ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "克利夫兰级轻巡洋舰—哥伦比亚，舷号CL-56",
-						"chineseTL": "Cleveland-class light cruiser, Columbia. Hull number CL-56.",
-						"chineseNote": "",
-						"japanese": "クリーブランド級軽巡洋艦・コロンビア（CL-56)",
-						"japaneseTL": "Cleveland-class light cruiser, Columbia. (CL-56)",
-						"japaneseNote": "",
-						"english": "Cleveland-class light cruiser – Columbia, hull number CL-56.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "嗨，我是跑遍了大半个太平洋，获得10颗战役之星的哥伦比亚。我知道自己很厉害啦，要夸就多夸夸我姐姐克利夫兰吧。没事的话，我继续去巡航了？",
-						"chineseTL": "Hi, I am the Columbia that sailed around half of the Pacific and earned 10 battle stars. I know how strong I am, so if you want to compliment someone, go compliment Cleveland. If there is nothing else, I am going to continue my patrol, okay?",
-						"chineseNote": "",
-						"japanese": "ハーイ！私こそがかつて太平洋を駆け巡って、バトルスターを10個手に入れたコロンビアだ！まあまあそう褒めてくれなくていいの、褒めるなら姉のクリーブランドを褒めてね☆もう用はない？じゃあ巡回に戻るわよー",
-						"japaneseTL": "Hi! I'm, Columbia, I sped about the Pacific and earned ten battle stars!Now, now, there's no need to heap praises on me. If you'd like to compliment someone, compliment my big sis, Cleveland☆ Is that all? I'll get back to my patrol then.",
-						"japaneseNote": "",
-						"english": "Hiii! It's me, the girl who scooted through the Pacific and earned 10 battle stars: Columbia! Hey, now, no need to sing my praises, go see Cleveland and sing hers instead! Need anything else? Alright, then I'll get back to patrolling.",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "指挥官好，克利夫兰级轻巡二号舰哥伦比亚就是我~是南卡罗莱纳的哥伦比亚不是首都那个哦~什么，南美洲的？你是故意装傻吧？",
-						"chineseTL": "Hello Commander. I am the second ship of the Cleveland-class light cruisers, Columbia. It's the Columbia in South Carolina, not the one in the capital, okay? What, the one in South America? Are you acting dense on purpose?",
-						"chineseNote": "",
-						"japanese": "クリーブランド級軽巡、二番艦のコロンビアとはこの私のことよ～首都のじゃなくて、あのサウスカロライナのコロンビアよ！もう~だからボゴタのコロンビアじゃないって！",
-						"japaneseTL": "I'm the Cleveland-class light cruiser, 2nd ship, Columbia~ Not the capital city, the Columbia in South Carolina! Jeez~ Like I said, it's not the Columbia with Bogotá!",
-						"japaneseNote": "",
-						"english": "Cleveland-class light cruiser number 2, Columbia! That's me~! Not the Columbia in D.C., the one in South Carolina! Geez, listen to me! Not the Columbia with Bogotá as its capital!",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "今天也是风平浪静的好天气，很好很好~",
-						"chineseTL": "Today's weather is pretty nice and calm. Good, good~",
-						"chineseNote": "",
-						"japanese": "今日も天気が穏やか！よしよし！",
-						"japaneseTL": "The weather is calm today as well! Good, good!",
-						"japaneseNote": "",
-						"english": "Another day of calm weather! Nice!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "想了解我？那就让你看个够吧",
-						"chineseTL": "You want to know more about me? Then I'll let you examine me until you have had enough.",
-						"chineseNote": "",
-						"japanese": "私のことを知りたい？どーぞー心ゆくまでご覧あれー",
-						"japaneseTL": "Wanna know me better? You're welcome to look as much as you pleaseー",
-						"japaneseNote": "",
-						"english": "You wanna get to know me? Sure thing. Inspect me to your heart's content.",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "指挥官问我在听什么？你猜？摇滚？错啦~",
-						"chineseTL": "What I am listening to? Guess... Rock? Wrong!",
-						"chineseNote": "",
-						"japanese": "なにを聞いてるのかって？さあ？当ててみてよー…ロックンロール？ブッブー！",
-						"japaneseTL": "What I'm listening to? Who knows? Take a guess… Rock and roll? Bzzt, wrong!",
-						"japaneseNote": "",
-						"english": "What tunes do I listen to? Good question. See if you can guess! ... Rock 'n' roll? Bzzzt, wrong!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "切，墨镜又被姐姐抢走了……",
-						"chineseTL": "Tsk, sis took my shades again...",
-						"chineseNote": "",
-						"japanese": "げぇ、サングラスまた姉貴に持っていかれちゃった……",
-						"japaneseTL": "Guh, my sunglasses were taken by big sis again…",
-						"japaneseNote": "",
-						"english": "Bleh, my sis snatched my sunglasses again...",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "战争结束后，去玩橄榄球也不错……",
-						"chineseTL": "It would be pretty nice to play some football once the war is over...",
-						"chineseNote": "",
-						"japanese": "戦争が終わったら、ユニオンフットボールでもやってみよっかな……",
-						"japaneseTL": "When the war is over, perhaps I should try Union football…",
-						"japaneseNote": "",
-						"english": "Once this war is over, maybe I should give Eagle Union football a try...",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "干嘛啦！害我泡泡都吹破了~",
-						"chineseTL": "What are you doing! It's your fault that the bubble burst!",
-						"chineseNote": "",
-						"japanese": "もう！風船はじけちゃったじゃない！",
-						"japaneseTL": "Jeez! My bubble popped because of you!",
-						"japaneseNote": "",
-						"english": "Gee, thanks! You made my bubble pop!",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "指挥官喜欢的是星星，还是别的什么~？",
-						"chineseTL": "Is it the stars that the Commander likes, or is it something else~?",
-						"chineseNote": "",
-						"japanese": "指揮官、このスターが好きなのかなー？そ～れ～と～も～？",
-						"japaneseTL": "Commander, is it my star that you likeー? Or~some~thing~else~?",
-						"japaneseNote": "",
-						"english": "Commander, is it this star on my shirt you like? Or is it... what's underneath it~?",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "刚把口香糖放进嘴里，又有新的任务下达了……",
-						"chineseTL": "A new mission has been assigned, and just as I started chewing a new gum too...",
-						"chineseNote": "",
-						"japanese": "新しいガム噛んだばかりなのにもう新しい任務なの……？",
-						"japaneseTL": "I've only just started chewing on a new stick of gum, and we've already gotten a new mission…?",
-						"japaneseNote": "",
-						"english": "I only just started chewing this gum, and we've already got a new mission...?",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "今天的任务也是小菜一碟，轻松轻松~",
-						"chineseTL": "Once again, today's mission was a piece of cake!",
-						"chineseNote": "",
-						"japanese": "今日の任務もお茶の子さいさーい、ちょろいちょろい！",
-						"japaneseTL": "Today's mission was easy peasy lemon squeezy!",
-						"japaneseNote": "",
-						"english": "Today's missions were a breeze! Total walk in the park!",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "快去翻翻信箱吧，说不定有好东西呢",
-						"chineseTL": "Let's go through the mailbox, maybe there is something good inside.",
-						"chineseNote": "",
-						"japanese": "メールボックス確認してみない？いいものがあるかもよ？",
-						"japaneseTL": "Aren't you checking the mailbox? There might be something good in there.",
-						"japaneseNote": "",
-						"english": "Aren't you gonna check your mail? There might be something nice in there.",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "回去喽，口香糖都嚼得没味道啦~",
-						"chineseTL": "Let's head back, we been here for so long that even this gum has lost its flavor...",
-						"chineseNote": "",
-						"japanese": "帰ったね～、もーガム噛みすぎて味もなくなったよー",
-						"japaneseTL": "You're back~, I've been chewing on this gum so long it's lost its tasteー",
-						"japaneseNote": "",
-						"english": "You're back~! I've been chewing on this gum so long it's lost all its taste.",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "姐妹们下班回家了，不去慰劳一下么？",
-						"chineseTL": "They are returning home from work, shouldn't you go show them some appreciation?",
-						"chineseNote": "",
-						"japanese": "みんな委託から上がったよー労いに行かないの？",
-						"japaneseTL": "Everyone's back from the commission. Aren't you going to thank them?",
-						"japaneseNote": "",
-						"english": "The commission team's back! Aren't you gonna go thank them?",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "哼嗯……感觉还不错",
-						"chineseTL": "Hmm...this feels nice.",
-						"chineseNote": "",
-						"japanese": "えっへん、いい感じじゃない？",
-						"japaneseTL": "Humhum, looking good!",
-						"japaneseNote": "",
-						"english": "Uh-huh, feelin' pretty good!",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "切~没办法，就让你们见识下南方人的厉害吧",
-						"chineseTL": "Tsk...I guess there's no other way, let me show you the prowess of a southerner.",
-						"chineseNote": "",
-						"japanese": "ちっ、しょうがない！我々南部人の力を見せてやる！",
-						"japaneseTL": "I-it can't be helped! I'll show you the strength of us southerners!",
-						"japaneseNote": "",
-						"english": "Dang, guess I've got no choice! I'll show you the might of us Southerners!",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "没什么没什么，只是日常操作而已啦~",
-						"chineseTL": "Nothing special, this is just daily routine for me...",
-						"chineseNote": "",
-						"japanese": "大したことないよ～普通、普通さ～",
-						"japaneseTL": "It was nothing special~ Just another day~",
-						"japaneseNote": "",
-						"english": "That was nothing special~ I do it all the time~",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "啧……这帮不要命的家伙……",
-						"chineseTL": "Tsk...this bunch of fearless bastards...",
-						"chineseNote": "",
-						"japanese": "ちぃ…命知らずめ……",
-						"japaneseTL": "Tsk… Those daredevils…",
-						"japaneseNote": "",
-						"english": "Darn it... Reckless bunch of...",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "skill",
-						"media": "skill",
-						"chinese": "枪炮无眼，自求多福吧~",
-						"chineseTL": "Guns are merciless, good luck out there~",
-						"chineseNote": "",
-						"japanese": "あたっても知らないぞー",
-						"japaneseTL": "I'm not responsible if you get hit.",
-						"japaneseNote": "",
-						"english": "Don't blame me if you get hit!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "别以为这样就算完了……",
-						"chineseTL": "Don't think that I'm done just like this...",
-						"chineseNote": "",
-						"japanese": "このままでは終わらないわよ！",
-						"japaneseTL": "At this rate, it won't end!",
-						"japaneseNote": "",
-						"english": "It won't end like this!",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "哈啊……看来你也不过如此，有所期待是我的错",
-						"chineseTL": "Sigh...seems like you only amount to this much, it's my fault to set my expectations so high.",
-						"chineseNote": "",
-						"japanese": "はぁ……この程度ね。期待した私が間違ってた",
-						"japaneseTL": "Sigh… so that's all you've got. I was wrong to have expected anything.",
-						"japaneseNote": "",
-						"english": "*Sigh*... So that's all, huh. I was wrong to get my hopes up.",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "指挥官，天气不错，不出门透透风么？老呆在家里小心发霉哦~",
-						"chineseTL": "Good day today, Commander, not going to get some fresh air? You will grow mold if you always stay indoors.",
-						"chineseNote": "",
-						"japanese": "指揮官、天気いいよ、でかけないの？お家に引きこもってばかりじゃくさっちゃうぞー",
-						"japaneseTL": "Commander, the weather's great, so why not head out? You'll rot if you stay indoors all the time.",
-						"japaneseNote": "",
-						"english": "Commander, it's sunny outside, so why don't we go for a walk? It's unhealthy to stay indoors all the time!",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "什么？没想到我居然会喜欢芭蕾舞？你什么意思？再笑我可锤你了哦？",
-						"chineseTL": "What? Didn't think that I would like ballet? What do you mean? Stop laughing, or I will whack you!",
-						"chineseNote": "",
-						"japanese": "うん？私の趣味がバレエって思いもよらなかったって？…どういう意味よ！もうこれ以上笑ったら叩くわよ！",
-						"japaneseTL": "Hmm? You never imagined that I'd be interested in ballet? Whaddya you mean by that! If you won't stop laughing I'll hit you!",
-						"japaneseNote": "",
-						"english": "Hm? You'd never have guessed that I'd be into ballet? ... What's that supposed to mean?! Laugh one more time and I'll punch you!",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "为什么只有左脚穿了袜子？这可是秘密，有本事就来脱掉试试呀，嘻嘻",
-						"chineseTL": "Why am I only wearing socks on my left feet? That's classified information. Try taking it off if you can, hehe.",
-						"chineseNote": "",
-						"japanese": "なぜ靴下が片足だけかって？ヒミツ！気になるなら脱がしてみてよ、えへへ♪",
-						"japaneseTL": "Why do I wear socks only on one leg? It's a secret! If you're that curious, why don't you try taking it off, ehehe♪",
-						"japaneseNote": "",
-						"english": "Why do I wear only one sock? That's a secret! If you're so curious, try taking it off~ Hehehe♪",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "休假的时候见不到你，总觉得心里空落落的……让女孩子主动说这种话，你好意思吗，笨蛋！",
-						"chineseTL": "During the vacations where I can't see you, I will always feel a little empty inside...Shouldn't you be ashamed, Making a girl say that by herself, idiot!",
-						"chineseNote": "",
-						"japanese": "休暇中あなたに会えなくて、心のどこかが寂しかったの……って女のコにこういうことを言わせるなんて、は、恥ずかしいじゃない！ばかぁ！",
-						"japaneseTL": "During breaks, when I can't see you, I feel somewhat lonely… Hey, look at what you just made a girl say, i-it's embarrassing! Dummy!",
-						"japaneseNote": "",
-						"english": "When I can't see you on my days off, I feel kinda lonely... Geez, look at you, making a girl say stuff like this! A-aren't you ashamed of yourself?! Jerk!",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "嗯……谢谢。希望今后就算远离了战场，我也能一直和指挥官在一起……哎呀，这样的台词真是不适合我，总之，我真的很高兴！",
-						"chineseTL": "Emm...thanks. Hopefully from now on, even when we are not in the battlefield, I can still be together with Commander... Ah, lines like this really don't suit me! Anyways, I am really happy!",
-						"chineseNote": "",
-						"japanese": "うん……ありがと。戦場から離れても、指揮官とずっと一緒に……ってこのセリフ、私に全然似合ってなーい！とにかく、今はすっごく嬉しいよ！",
-						"japaneseTL": "Umm… thank you. I'll be with you, always, even when away from the battlefield… Wait, words like these don't suit me at all! Anyway, I'm really happy right now!",
-						"japaneseNote": "",
-						"english": "Yeah... thanks. Even when we're not on the battlefield, we'll always be together... No, wait, cheesy lines like this are totally out of character for me! Anyhow, right now, I feel so happy!",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Cleveland)",
-						"media": "link1",
-						"chinese": "老姐，没我支援还是不行吧？",
-						"chineseTL": "(Cleveland) Sis, you can't do it without my support, right?",
-						"chineseNote": "",
-						"japanese": "姉貴～やっぱり私の支援がないとダメっしょ？",
-						"japaneseTL": "(Sortie with Cleveland) Big sis~ As I thought, don't you need my support?",
-						"japaneseNote": "",
-						"english": "Hey, sis~ You really do need my support, don't you?",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Valentines 2019",
-						"media": "",
-						"chinese": "想说难得的节日，姑且也准备了一份巧克力…不过，姐姐就不用说了，我们克利夫兰级多少对这方面都不太擅长呢…味道什么的，就请多多通融啦～",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "せっかくのバレンタインだし、チョコを作ってみたよ！…まあ姉貴もそうだけど、うちの海上騎士団ってこういうのにちょっと疎いとこもあるから、そこはお手柔らかにね！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "gelunbiya_2",
-				"id": "1",
-				"label": "After-School Odette",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "指挥官，给，我自己做的巧克力~好啦，快点收下！一直保持这个姿势，像等待王子一样的感觉还是挺让人害羞的啊",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、ほら、私の手作りチョコだよ～もう、焦らさないで早く受け取って？王子様待ちってのはそこそこ恥ずかしいんだよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, here, I made some chocolate for you~ Come on, hurry up and take it already! Holding this pose makes me look like I'm waiting for some Prince Charming, and it's super embarrassing.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "指挥官，给，我自己做的巧克力~好啦，快点收下！一直保持这个姿势，像等待王子一样的感觉还是挺让人害羞的啊",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "平时就大受欢迎的指挥官，今天想必会更忙吧，毕竟这节日一年也只有一次呢~总之加油咯~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "大姐头这次突然提出来要大家各自做巧克力，为什么呢……算了，随便啦，毕竟是大姐头，一定也是为了我们好吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "白色情人节的时候，记得给我回礼哦？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "是我的校徽歪了？还是指挥官其实另有打算~？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "指挥官，你今天收到了多少个巧克力？…没什么，只是随口问问而已",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "10",
-		"add_get_attr": "Anti-Air",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "20",
-		"pt_level": "15",
-		"add_level_attr": "Firepower",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "7",
-		"ships": "cleveland,columbia,montpelier,denver,birmingham"
-	}
+    "name_reference": "columbia",
+    "cn_reference": "gelunbiya",
+    "nameJP": "コロンビア",
+    "nameCN": "哥伦比亚",
+    "ID": "38",
+    "name": "Columbia",
+    "internal_id": "102101",
+    "rarity": "Elite",
+    "initialStar": "★★☆☆☆",
+    "hull": "Light Cruiser",
+    "navy": "Eagle Union",
+    "prefix": "USS",
+    "buildTime": "N/A",
+    "class": "Cleveland-Class",
+    "voiceActress": "Saya Horigome",
+    "parameters": {
+        "firepower": "B",
+        "torpedo": "E",
+        "aviation": "E",
+        "evasion": "B",
+        "antiAir": "B",
+        "hp": "B"
+    },
+    "scrap": {
+        "gold": "6",
+        "oil": "3",
+        "medal": "4"
+    },
+    "releaseDate": {
+        "JP": "April 19, 2018",
+        "CN": "March 21, 2018",
+        "KR": "",
+        "EN": "March 14, 2019"
+    },
+    "artist": {
+        "name": "八才提督",
+        "weibo": "http://weibo.com/vihao",
+        "twitter": "",
+        "pixiv": "https://www.pixiv.net/member.php?id=1393609",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "13",
+        "torpedo": "0",
+        "aviation": "0",
+        "reload": "13"
+    },
+    "acquisitionMethod": "Boss Only Drop",
+    "skill": {
+        "1": {
+            "icon": "5051",
+            "requirement": "Default Unlocked",
+            "name": "Flagship Protection",
+            "type": "Support",
+            "description": "Reduces the damage taken by the Flagship by 15% (25%)."
+        },
+        "2": {
+            "icon": "4091",
+            "requirement": "Default Unlocked",
+            "name": "Anti-Air Mode",
+            "type": "Defensive",
+            "description": "25% activation when attacking with Anti-Air Guns: For 3 seconds, increase own Anti-Air by 20% (40%) but decrease Firepower by 40% (20%)."
+        },
+        "3": {
+            "icon": "20141",
+            "requirement": "Limit Break Rank 1 (I) / Rank 3 (II)",
+            "name": "Full Barrage",
+            "type": "Offensive",
+            "description": "Every 15 (10) times the main gun is fired, trigger Full Barrage - Cleveland Class I (II)."
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "gelunbiya",
+            "name": "Columbia ",
+            "description": "Cleveland-class light cruiser – Columbia, hull number CL-56. ",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
+        },
+        "2": {
+            "id": "gelunbiya_2",
+            "name": "After-School Odette",
+            "description": "Commander, here, I made some chocolate for you~ Come on, hurry up and take it already! Holding this pose makes me look like I'm waiting for some Prince Charming, and it's super embarrassing.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        },
+        "3": {
+            "id": "gelunbiya_3",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "16400",
+            "rarity": "Rare",
+            "name": "Quadruple 40mm Bofors Gun"
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "3880",
+            "firepower": "146",
+            "torpedo": "0",
+            "antiAir": "285",
+            "aviation": "0",
+            "reload": "163",
+            "hit": "145",
+            "evasion": "77",
+            "speed": "32.5",
+            "luck": "70",
+            "asw": "88",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "10",
+            "armor": "Light"
+        },
+        "120": {
+            "hp": "4307",
+            "firepower": "168",
+            "torpedo": "0",
+            "antiAir": "323",
+            "aviation": "0",
+            "reload": "187",
+            "hit": "163",
+            "evasion": "92",
+            "speed": "32.5",
+            "luck": "70",
+            "asw": "100",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "10",
+            "armor": "Light"
+        },
+        "base": {
+            "hp": "751",
+            "firepower": "31",
+            "torpedo": "0",
+            "antiAir": "61",
+            "aviation": "0",
+            "reload": "69",
+            "hit": "56",
+            "evasion": "30",
+            "speed": "32.5",
+            "luck": "70",
+            "asw": "24",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "3",
+            "armor": "Light"
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "32.5",
+            "luck": "70",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "10",
+            "armor": "Light"
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "32.5",
+            "luck": "70",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "10",
+            "armor": "Light"
+        }
+    },
+    "limitBreak": {
+        "tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
+        "tier2": "Main Gun Mount +1 / Main Gun Efficiency +10%",
+        "tier3": "Upgrades Full Barrage I→II / Main Gun Efficiency +15%"
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "Light Cruiser",
+            "efficiency": "100%/105%/115%/130%",
+            "amount": "1/1/2/2",
+            "preload": "0/0/0/0"
+        },
+        "2": {
+            "type": "Destroyer Gun",
+            "efficiency": "70%/70%/70%/70%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
+        },
+        "3": {
+            "type": "Anti-Air Gun",
+            "efficiency": "120%/120%/120%/120%",
+            "amount": "1/1/1/1",
+            "preload": "0/0/0/0"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "-",
+            "CN": "-",
+            "EN": "-"
+        },
+        "heavy": {
+            "JP": "-",
+            "CN": "-",
+            "EN": "-"
+        },
+        "special": {
+            "JP": "-",
+            "CN": "-",
+            "EN": "-"
+        },
+        "limited": {
+            "JP": "-",
+            "CN": "-",
+            "EN": "-"
+        }
+    },
+    "drop": {
+        "droppable": "true",
+        "list": {
+            "1": {
+                "event": "World",
+                "chapter": {
+                    "1": {
+                        "label": "Ch. 11",
+                        "node": {
+                            "1": {
+                                "drop": "-",
+                                "note": ""
+                            },
+                            "2": {
+                                "drop": "-",
+                                "note": ""
+                            },
+                            "3": {
+                                "drop": "-",
+                                "note": ""
+                            },
+                            "4": {
+                                "drop": "✓",
+                                "note": "Boss"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "gelunbiya",
+                "id": "0",
+                "label": "Columbia ",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "克利夫兰级轻巡洋舰—哥伦比亚，舷号CL-56",
+                        "chineseTL": "Cleveland-class light cruiser, Columbia. Hull number CL-56.",
+                        "chineseNote": "",
+                        "japanese": "クリーブランド級軽巡洋艦・コロンビア（CL-56)",
+                        "japaneseTL": "Cleveland-class light cruiser, Columbia. (CL-56)",
+                        "japaneseNote": "",
+                        "english": "Cleveland-class light cruiser – Columbia, hull number CL-56.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "嗨，我是跑遍了大半个太平洋，获得10颗战役之星的哥伦比亚。我知道自己很厉害啦，要夸就多夸夸我姐姐克利夫兰吧。没事的话，我继续去巡航了？",
+                        "chineseTL": "Hi, I am the Columbia that sailed around half of the Pacific and earned 10 battle stars. I know how strong I am, so if you want to compliment someone, go compliment Cleveland. If there is nothing else, I am going to continue my patrol, okay?",
+                        "chineseNote": "",
+                        "japanese": "ハーイ！私こそがかつて太平洋を駆け巡って、バトルスターを10個手に入れたコロンビアだ！まあまあそう褒めてくれなくていいの、褒めるなら姉のクリーブランドを褒めてね☆もう用はない？じゃあ巡回に戻るわよー",
+                        "japaneseTL": "Hi! I'm, Columbia, I sped about the Pacific and earned ten battle stars!Now, now, there's no need to heap praises on me. If you'd like to compliment someone, compliment my big sis, Cleveland☆ Is that all? I'll get back to my patrol then.",
+                        "japaneseNote": "",
+                        "english": "Hiii! It's me, the girl who scooted through the Pacific and earned 10 battle stars: Columbia! Hey, now, no need to sing my praises, go see Cleveland and sing hers instead! Need anything else? Alright, then I'll get back to patrolling.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "指挥官好，克利夫兰级轻巡二号舰哥伦比亚就是我~是南卡罗莱纳的哥伦比亚不是首都那个哦~什么，南美洲的？你是故意装傻吧？",
+                        "chineseTL": "Hello Commander. I am the second ship of the Cleveland-class light cruisers, Columbia. It's the Columbia in South Carolina, not the one in the capital, okay? What, the one in South America? Are you acting dense on purpose?",
+                        "chineseNote": "",
+                        "japanese": "クリーブランド級軽巡、二番艦のコロンビアとはこの私のことよ～首都のじゃなくて、あのサウスカロライナのコロンビアよ！もう~だからボゴタのコロンビアじゃないって！",
+                        "japaneseTL": "I'm the Cleveland-class light cruiser, 2nd ship, Columbia~ Not the capital city, the Columbia in South Carolina! Jeez~ Like I said, it's not the Columbia with Bogotá!",
+                        "japaneseNote": "",
+                        "english": "Cleveland-class light cruiser number 2, Columbia! That's me~! Not the Columbia in D.C., the one in South Carolina! Geez, listen to me! Not the Columbia with Bogotá as its capital!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "今天也是风平浪静的好天气，很好很好~",
+                        "chineseTL": "Today's weather is pretty nice and calm. Good, good~",
+                        "chineseNote": "",
+                        "japanese": "今日も天気が穏やか！よしよし！",
+                        "japaneseTL": "The weather is calm today as well! Good, good!",
+                        "japaneseNote": "",
+                        "english": "Another day of calm weather! Nice!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "想了解我？那就让你看个够吧",
+                        "chineseTL": "You want to know more about me? Then I'll let you examine me until you have had enough.",
+                        "chineseNote": "",
+                        "japanese": "私のことを知りたい？どーぞー心ゆくまでご覧あれー",
+                        "japaneseTL": "Wanna know me better? You're welcome to look as much as you pleaseー",
+                        "japaneseNote": "",
+                        "english": "You wanna get to know me? Sure thing. Inspect me to your heart's content.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "指挥官问我在听什么？你猜？摇滚？错啦~",
+                        "chineseTL": "What I am listening to? Guess... Rock? Wrong!",
+                        "chineseNote": "",
+                        "japanese": "なにを聞いてるのかって？さあ？当ててみてよー…ロックンロール？ブッブー！",
+                        "japaneseTL": "What I'm listening to? Who knows? Take a guess… Rock and roll? Bzzt, wrong!",
+                        "japaneseNote": "",
+                        "english": "What tunes do I listen to? Good question. See if you can guess! ... Rock 'n' roll? Bzzzt, wrong!",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "切，墨镜又被姐姐抢走了……",
+                        "chineseTL": "Tsk, sis took my shades again...",
+                        "chineseNote": "",
+                        "japanese": "げぇ、サングラスまた姉貴に持っていかれちゃった……",
+                        "japaneseTL": "Guh, my sunglasses were taken by big sis again…",
+                        "japaneseNote": "",
+                        "english": "Bleh, my sis snatched my sunglasses again...",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "战争结束后，去玩橄榄球也不错……",
+                        "chineseTL": "It would be pretty nice to play some football once the war is over...",
+                        "chineseNote": "",
+                        "japanese": "戦争が終わったら、ユニオンフットボールでもやってみよっかな……",
+                        "japaneseTL": "When the war is over, perhaps I should try Union football…",
+                        "japaneseNote": "",
+                        "english": "Once this war is over, maybe I should give Eagle Union football a try...",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "干嘛啦！害我泡泡都吹破了~",
+                        "chineseTL": "What are you doing! It's your fault that the bubble burst!",
+                        "chineseNote": "",
+                        "japanese": "もう！風船はじけちゃったじゃない！",
+                        "japaneseTL": "Jeez! My bubble popped because of you!",
+                        "japaneseNote": "",
+                        "english": "Gee, thanks! You made my bubble pop!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "指挥官喜欢的是星星，还是别的什么~？",
+                        "chineseTL": "Is it the stars that the Commander likes, or is it something else~?",
+                        "chineseNote": "",
+                        "japanese": "指揮官、このスターが好きなのかなー？そ～れ～と～も～？",
+                        "japaneseTL": "Commander, is it my star that you likeー? Or~some~thing~else~?",
+                        "japaneseNote": "",
+                        "english": "Commander, is it this star on my shirt you like? Or is it... what's underneath it~?",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "刚把口香糖放进嘴里，又有新的任务下达了……",
+                        "chineseTL": "A new mission has been assigned, and just as I started chewing a new gum too...",
+                        "chineseNote": "",
+                        "japanese": "新しいガム噛んだばかりなのにもう新しい任務なの……？",
+                        "japaneseTL": "I've only just started chewing on a new stick of gum, and we've already gotten a new mission…?",
+                        "japaneseNote": "",
+                        "english": "I only just started chewing this gum, and we've already got a new mission...?",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "今天的任务也是小菜一碟，轻松轻松~",
+                        "chineseTL": "Once again, today's mission was a piece of cake!",
+                        "chineseNote": "",
+                        "japanese": "今日の任務もお茶の子さいさーい、ちょろいちょろい！",
+                        "japaneseTL": "Today's mission was easy peasy lemon squeezy!",
+                        "japaneseNote": "",
+                        "english": "Today's missions were a breeze! Total walk in the park!",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "快去翻翻信箱吧，说不定有好东西呢",
+                        "chineseTL": "Let's go through the mailbox, maybe there is something good inside.",
+                        "chineseNote": "",
+                        "japanese": "メールボックス確認してみない？いいものがあるかもよ？",
+                        "japaneseTL": "Aren't you checking the mailbox? There might be something good in there.",
+                        "japaneseNote": "",
+                        "english": "Aren't you gonna check your mail? There might be something nice in there.",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "回去喽，口香糖都嚼得没味道啦~",
+                        "chineseTL": "Let's head back, we been here for so long that even this gum has lost its flavor...",
+                        "chineseNote": "",
+                        "japanese": "帰ったね～、もーガム噛みすぎて味もなくなったよー",
+                        "japaneseTL": "You're back~, I've been chewing on this gum so long it's lost its tasteー",
+                        "japaneseNote": "",
+                        "english": "You're back~! I've been chewing on this gum so long it's lost all its taste.",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "姐妹们下班回家了，不去慰劳一下么？",
+                        "chineseTL": "They are returning home from work, shouldn't you go show them some appreciation?",
+                        "chineseNote": "",
+                        "japanese": "みんな委託から上がったよー労いに行かないの？",
+                        "japaneseTL": "Everyone's back from the commission. Aren't you going to thank them?",
+                        "japaneseNote": "",
+                        "english": "The commission team's back! Aren't you gonna go thank them?",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "哼嗯……感觉还不错",
+                        "chineseTL": "Hmm...this feels nice.",
+                        "chineseNote": "",
+                        "japanese": "えっへん、いい感じじゃない？",
+                        "japaneseTL": "Humhum, looking good!",
+                        "japaneseNote": "",
+                        "english": "Uh-huh, feelin' pretty good!",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "切~没办法，就让你们见识下南方人的厉害吧",
+                        "chineseTL": "Tsk...I guess there's no other way, let me show you the prowess of a southerner.",
+                        "chineseNote": "",
+                        "japanese": "ちっ、しょうがない！我々南部人の力を見せてやる！",
+                        "japaneseTL": "I-it can't be helped! I'll show you the strength of us southerners!",
+                        "japaneseNote": "",
+                        "english": "Dang, guess I've got no choice! I'll show you the might of us Southerners!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "没什么没什么，只是日常操作而已啦~",
+                        "chineseTL": "Nothing special, this is just daily routine for me...",
+                        "chineseNote": "",
+                        "japanese": "大したことないよ～普通、普通さ～",
+                        "japaneseTL": "It was nothing special~ Just another day~",
+                        "japaneseNote": "",
+                        "english": "That was nothing special~ I do it all the time~",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "啧……这帮不要命的家伙……",
+                        "chineseTL": "Tsk...this bunch of fearless bastards...",
+                        "chineseNote": "",
+                        "japanese": "ちぃ…命知らずめ……",
+                        "japaneseTL": "Tsk… Those daredevils…",
+                        "japaneseNote": "",
+                        "english": "Darn it... Reckless bunch of...",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "skill",
+                        "media": "skill",
+                        "chinese": "枪炮无眼，自求多福吧~",
+                        "chineseTL": "Guns are merciless, good luck out there~",
+                        "chineseNote": "",
+                        "japanese": "あたっても知らないぞー",
+                        "japaneseTL": "I'm not responsible if you get hit.",
+                        "japaneseNote": "",
+                        "english": "Don't blame me if you get hit!",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "别以为这样就算完了……",
+                        "chineseTL": "Don't think that I'm done just like this...",
+                        "chineseNote": "",
+                        "japanese": "このままでは終わらないわよ！",
+                        "japaneseTL": "At this rate, it won't end!",
+                        "japaneseNote": "",
+                        "english": "It won't end like this!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "哈啊……看来你也不过如此，有所期待是我的错",
+                        "chineseTL": "Sigh...seems like you only amount to this much, it's my fault to set my expectations so high.",
+                        "chineseNote": "",
+                        "japanese": "はぁ……この程度ね。期待した私が間違ってた",
+                        "japaneseTL": "Sigh… so that's all you've got. I was wrong to have expected anything.",
+                        "japaneseNote": "",
+                        "english": "*Sigh*... So that's all, huh. I was wrong to get my hopes up.",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "指挥官，天气不错，不出门透透风么？老呆在家里小心发霉哦~",
+                        "chineseTL": "Good day today, Commander, not going to get some fresh air? You will grow mold if you always stay indoors.",
+                        "chineseNote": "",
+                        "japanese": "指揮官、天気いいよ、でかけないの？お家に引きこもってばかりじゃくさっちゃうぞー",
+                        "japaneseTL": "Commander, the weather's great, so why not head out? You'll rot if you stay indoors all the time.",
+                        "japaneseNote": "",
+                        "english": "Commander, it's sunny outside, so why don't we go for a walk? It's unhealthy to stay indoors all the time!",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "什么？没想到我居然会喜欢芭蕾舞？你什么意思？再笑我可锤你了哦？",
+                        "chineseTL": "What? Didn't think that I would like ballet? What do you mean? Stop laughing, or I will whack you!",
+                        "chineseNote": "",
+                        "japanese": "うん？私の趣味がバレエって思いもよらなかったって？…どういう意味よ！もうこれ以上笑ったら叩くわよ！",
+                        "japaneseTL": "Hmm? You never imagined that I'd be interested in ballet? Whaddya you mean by that! If you won't stop laughing I'll hit you!",
+                        "japaneseNote": "",
+                        "english": "Hm? You'd never have guessed that I'd be into ballet? ... What's that supposed to mean?! Laugh one more time and I'll punch you!",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "为什么只有左脚穿了袜子？这可是秘密，有本事就来脱掉试试呀，嘻嘻",
+                        "chineseTL": "Why am I only wearing socks on my left feet? That's classified information. Try taking it off if you can, hehe.",
+                        "chineseNote": "",
+                        "japanese": "なぜ靴下が片足だけかって？ヒミツ！気になるなら脱がしてみてよ、えへへ♪",
+                        "japaneseTL": "Why do I wear socks only on one leg? It's a secret! If you're that curious, why don't you try taking it off, ehehe♪",
+                        "japaneseNote": "",
+                        "english": "Why do I wear only one sock? That's a secret! If you're so curious, try taking it off~ Hehehe♪",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "休假的时候见不到你，总觉得心里空落落的……让女孩子主动说这种话，你好意思吗，笨蛋！",
+                        "chineseTL": "During the vacations where I can't see you, I will always feel a little empty inside...Shouldn't you be ashamed, Making a girl say that by herself, idiot!",
+                        "chineseNote": "",
+                        "japanese": "休暇中あなたに会えなくて、心のどこかが寂しかったの……って女のコにこういうことを言わせるなんて、は、恥ずかしいじゃない！ばかぁ！",
+                        "japaneseTL": "During breaks, when I can't see you, I feel somewhat lonely… Hey, look at what you just made a girl say, i-it's embarrassing! Dummy!",
+                        "japaneseNote": "",
+                        "english": "When I can't see you on my days off, I feel kinda lonely... Geez, look at you, making a girl say stuff like this! A-aren't you ashamed of yourself?! Jerk!",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "嗯……谢谢。希望今后就算远离了战场，我也能一直和指挥官在一起……哎呀，这样的台词真是不适合我，总之，我真的很高兴！",
+                        "chineseTL": "Emm...thanks. Hopefully from now on, even when we are not in the battlefield, I can still be together with Commander... Ah, lines like this really don't suit me! Anyways, I am really happy!",
+                        "chineseNote": "",
+                        "japanese": "うん……ありがと。戦場から離れても、指揮官とずっと一緒に……ってこのセリフ、私に全然似合ってなーい！とにかく、今はすっごく嬉しいよ！",
+                        "japaneseTL": "Umm… thank you. I'll be with you, always, even when away from the battlefield… Wait, words like these don't suit me at all! Anyway, I'm really happy right now!",
+                        "japaneseNote": "",
+                        "english": "Yeah... thanks. Even when we're not on the battlefield, we'll always be together... No, wait, cheesy lines like this are totally out of character for me! Anyhow, right now, I feel so happy!",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Easter Egg 1 (Cleveland)",
+                        "media": "link1",
+                        "chinese": "老姐，没我支援还是不行吧？",
+                        "chineseTL": "(Cleveland) Sis, you can't do it without my support, right?",
+                        "chineseNote": "",
+                        "japanese": "姉貴～やっぱり私の支援がないとダメっしょ？",
+                        "japaneseTL": "(Sortie with Cleveland) Big sis~ As I thought, don't you need my support?",
+                        "japaneseNote": "",
+                        "english": "Hey, sis~ You really do need my support, don't you?",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Valentines 2019",
+                        "media": "",
+                        "chinese": "想说难得的节日，姑且也准备了一份巧克力…不过，姐姐就不用说了，我们克利夫兰级多少对这方面都不太擅长呢…味道什么的，就请多多通融啦～",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "せっかくのバレンタインだし、チョコを作ってみたよ！…まあ姉貴もそうだけど、うちの海上騎士団ってこういうのにちょっと疎いとこもあるから、そこはお手柔らかにね！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "2": {
+                "skin_id": "gelunbiya_2",
+                "id": "1",
+                "label": "After-School Odette",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "指挥官，给，我自己做的巧克力~好啦，快点收下！一直保持这个姿势，像等待王子一样的感觉还是挺让人害羞的啊",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "指揮官、ほら、私の手作りチョコだよ～もう、焦らさないで早く受け取って？王子様待ちってのはそこそこ恥ずかしいんだよ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, here, I made some chocolate for you~ Come on, hurry up and take it already! Holding this pose makes me look like I'm waiting for some Prince Charming, and it's super embarrassing.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "指挥官，给，我自己做的巧克力~好啦，快点收下！一直保持这个姿势，像等待王子一样的感觉还是挺让人害羞的啊",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "平时就大受欢迎的指挥官，今天想必会更忙吧，毕竟这节日一年也只有一次呢~总之加油咯~",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "大姐头这次突然提出来要大家各自做巧克力，为什么呢……算了，随便啦，毕竟是大姐头，一定也是为了我们好吧",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "白色情人节的时候，记得给我回礼哦？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1",
+                        "chinese": "是我的校徽歪了？还是指挥官其实另有打算~？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Return to Port",
+                        "media": "home_1",
+                        "chinese": "指挥官，你今天收到了多少个巧克力？…没什么，只是随口问问而已",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "3": {
+                "skin_id": "gelunbiya_3",
+                "id": "2",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2"
+                    },
+                    "11": {
+                        "event": "Flagship",
+                        "media": "warcry_2"
+                    }
+                }
+            }
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "10",
+        "add_get_attr": "Anti-Air",
+        "add_get_value": "1",
+        "add_get_shiptype": "Light Cruiser",
+        "pt_upgrade": "20",
+        "pt_level": "15",
+        "add_level_attr": "Firepower",
+        "add_level_value": "1",
+        "add_level_shiptype": "Light Cruiser",
+        "t_level": "7",
+        "ships": "cleveland,columbia,montpelier,denver,birmingham"
+    }
 }

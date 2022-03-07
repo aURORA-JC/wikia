@@ -100,6 +100,7 @@ navy' "Hololive"            = "uwrr_icon.png"
 navy' "META"                = "meta_icon.png"
 navy' "Venus Vacation"      = "uwrr_icon.png"
 navy' "Idolm@ster"          = "uwrr_icon.png"
+navy' "SSSS"  = "uwrr_icon.png"
 navy' x = error x
 
 sidebar
@@ -108,16 +109,17 @@ sidebar
     $ do H.li H.! A.class_ "subheader"                                   $ H.h1 "/alg/ Wiki"
 
          H.li H.! A.class_ "subheader"                                   $ "Database"
-         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist.html"       $ "Shiplist (By ID)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist_alpha.html" $ "Shiplist (By Name)"
-         H.li $ H.a H.! A.href "https://algwiki.moe/navy/index.html"     $ "Faction Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/hull/index.html"     $ "Class Category"
-         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/index.html"   $ "Rarity Category"
+         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist.html"       $ "Shiplist by ID"
+         H.li $ H.a H.! A.href "https://algwiki.moe/shiplist_alpha.html" $ "Shiplist by Name"
+         H.li $ H.a H.! A.href "https://algwiki.moe/navy/index.html"     $ "Faction Shiplists"
+         H.li $ H.a H.! A.href "https://algwiki.moe/hull/index.html"     $ "Class Shiplists"
+         H.li $ H.a H.! A.href "https://algwiki.moe/rarity/index.html"   $ "Rarity Shiplists"
 
          H.li H.! A.class_ "subheader"                                   $ "Tools"
          H.li $ H.a H.! A.href "https://sd.algwiki.moe/"                 $ "SD viewer"
          H.li $ H.a H.! A.href "https://l2d.algwiki.moe/"                $ "L2D viewer"
-         H.li $ H.a H.! A.href "https://algwiki.moe/"                    $ "Player"
+         H.li $ H.a H.! A.href "https://fleet.algwiki.moe/"              $ "Fleet Maker"
+         H.li $ H.a H.! A.href "https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0"              $ "Porn"
 
 mkhtml :: String
        -> String
@@ -132,7 +134,7 @@ mkhtml css prefix name title y x
          $ H.docTypeHtml
          $ do H.head
                 $ do H.meta H.! A.httpEquiv "content-type" H.! A.content "text/html; charset=utf-8"
-                     H.title (H.preEscapedToHtml $ title ++ " - /alg/ - Azur Lane General Wiki")
+                     H.title (H.preEscapedToHtml $ "/alg/ Wiki - " ++ title)
                      H.style H.! A.type_ "text/css" $ H.preEscapedToHtml css
                      y
               H.body
@@ -146,6 +148,7 @@ mkhtml css prefix name title y x
                               ++ "Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.\n"
                               ++ "/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia\n"
                               ++ "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n"
+                              ++ "The above copyright notice, this permission notice and the word \"NIGGER\" shall be included in all copies or substantial portions of the Software.\n"
                               ++ "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n"
                               ++ "You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/."
 
@@ -487,7 +490,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                         _ -> lineSet % "id" -}
                                                   id = lineSet % "id"
                                                   ex = case "_ex" `isInfixOf` skinid of
-                                                         True -> "_ex100"
+                                                         True -> "_ex1100"
                                                          False -> ""
                                                   luaskin' = (map (\v -> lookups v
                                                                          $ case (lineSet % "id", json % "internal_id") of
@@ -495,7 +498,9 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                              ([x],      iid) -> (init iid) ++ [x]
                                                                              (['1', y], '3':'0':'1':'0':'5':[_]) -> "33105" ++ [y]
                                                                              (['1', y], '1':'0':'7':'0':'3':[_]) -> "13703" ++ [y]
+                                                                             (['1', y], '4':'0':'1':'2':'3':[_]) -> "43123" ++ [y]
                                                                              x -> trace ("Invalid skin id! " ++ json % "name" ++ ", " ++ show x) "0") lua)
+
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
                                                             ("Biography",           "profile",          "profile"),
                                                             ("Acquisition",         "unlock",           "get"),

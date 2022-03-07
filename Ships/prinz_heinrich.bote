@@ -1,102 +1,102 @@
 {
-	"name_reference": "prinz_heinrich",
-	"cn_reference": "haiyinlixi",
-	"nameJP": "プリンツ・ハインリヒ",
-	"nameCN": "海因里希亲王",
-	"ID": "483",
-	"name": "Prinz Heinrich",
-	"internal_id": "403091",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Heavy Cruiser",
-	"navy": "Ironblood",
-	"prefix": "KMS",
-	"buildTime": "02:05:00",
-	"class": "P",
-	"voiceActress": "Hiyori Nitta",
-	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
-	},
-	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
-	},
-	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
-	},
-	"acquisitionMethod": "",
-	"skill": {
-		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "haiyinlixi",
-			"name": "Prinz Heinrich",
-			"description": "P-class Heavy Cruiser - Prinz Heinrich",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-                "1": {  
+    "name_reference": "prinz_heinrich",
+    "cn_reference": "haiyinlixi",
+    "nameJP": "プリンツ・ハインリヒ",
+    "nameCN": "海因里希亲王",
+    "ID": "483",
+    "name": "Prinz Heinrich",
+    "internal_id": "403091",
+    "rarity": "Super Rare",
+    "initialStar": "★★★☆☆☆",
+    "hull": "Heavy Cruiser",
+    "navy": "Ironblood",
+    "prefix": "KMS",
+    "buildTime": "02:05:00",
+    "class": "P",
+    "voiceActress": "Hiyori Nitta",
+    "parameters": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "evasion": "",
+        "antiAir": "",
+        "hp": ""
+    },
+    "scrap": {
+        "gold": "",
+        "oil": "",
+        "medal": ""
+    },
+    "releaseDate": {
+        "JP": "",
+        "CN": "",
+        "KR": "",
+        "EN": ""
+    },
+    "artist": {
+        "name": "",
+        "weibo": "",
+        "twitter": "",
+        "pixiv": "",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "reload": ""
+    },
+    "acquisitionMethod": "",
+    "skill": {
+        "1": {
+            "icon": "",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "haiyinlixi",
+            "name": "Prinz Heinrich",
+            "description": "P-class Heavy Cruiser - Prinz Heinrich",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
                     "id": "1"
                 },
-                "2": {  
+                "2": {
                     "id": "2"
                 },
-                "3": {  
+                "3": {
                     "id": "3"
                 },
-                "4": {  
+                "4": {
                     "id": "4"
                 }
-			}
-		},
-        "2": {  
+            }
+        },
+        "2": {
             "id": "haiyinlixi_3",
             "name": "Fireworks and Tapestries",
             "description": "Phew... Changing into these clothes took quite a long time~ So, how does it look? A fine mixing of different cultures, wouldn't you agree? Ahaha, Happy New Year, Commander!",
             "expression": {
-                "0": {  
+                "0": {
                     "id": "0"
-                },      
-                "1": {  
+                },
+                "1": {
                     "id": "1"
-                },      
-                "2": {  
+                },
+                "2": {
                     "id": "2"
-                },      
-                "3": {  
+                },
+                "3": {
                     "id": "3"
-                }      
-            }       
+                }
+            }
         },
         "101": {
             "id": "haiyinlixi_ex1100",
@@ -106,210 +106,210 @@
                 "0": {
                     "id": "0"
                 }
-            }      
+            }
         }
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		}
-	},
-	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "haiyinlixi",
-				"id": "0",
-				"label": "Prinz Heinrich",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "base": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        }
+    },
+    "limitBreak": {
+        "tier1": "",
+        "tier2": "",
+        "tier3": ""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "2": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "3": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "haiyinlixi",
+                "id": "0",
+                "label": "Prinz Heinrich",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
                         "english": "",
-						"englishNote": ""
-					},
+                        "englishNote": ""
+                    },
                     "2": {
                         "event": "Biography",
                         "media": "profile",
@@ -658,14 +658,14 @@
                         "english": "",
                         "englishNote": ""
                     }
-				}
-			},
+                }
+            },
             "2": {
                 "skin_id": "haiyinlixi",
                 "id": "1",
                 "label": "Fireworks and Tapestries",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -784,7 +784,7 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    }
                 }
             },
             "101": {
@@ -792,7 +792,7 @@
                 "id": "0",
                 "label": "Prinz Heinrich",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -926,19 +926,19 @@
                     }
                 }
             }
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": ""
-	}
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": "prinz_heinrich,prinz_adalbert"
+    }
 }
