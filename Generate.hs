@@ -5,36 +5,30 @@
 import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html5.Attributes as A
 import Text.Blaze.Html.Renderer.String
-import Data.HashMap.Strict hiding (lookup, map, filter)
-import qualified Data.HashMap.Strict as HM
-import qualified Data.Aeson as Aeson
 import System.IO.Error
 import System.Directory
-import Data.Text (pack, unpack)
 import Data.List
 import Text.Read
 import Data.Ord
-import Utils
 import Debug.Trace
 import Data.Char
 import Data.List.Split
 import Data.Maybe
 
-import Extra
+import Data
+import Parsing
 
 import System.IO.Unsafe
 import qualified Control.Exception as Exc
 
-{-# NOINLINE unsafeCleanup #-}
-unsafeCleanup :: a -> Maybe a
-unsafeCleanup x = unsafePerformIO $ Exc.catch (x `seq` return (Just x)) handler
-    where
-    handler exc = return Nothing  `const`  (exc :: Exc.ErrorCall)
-
-(%) a b = case unsafeCleanup (a ! (pack b)) of
-            Nothing -> error $ "Key:" ++ show b ++ " Table:" ++ show a
+(%) a b = case lookups a b of
             Just x -> ashow x
-(%%) :: Aeson.Object
+            _ -> error $ "Key:" ++ show b ++ " Table:" ++ show a
+lookupDefault d b a = case lookups a b of
+                        Nothing -> d
+                        Just x -> ashow x
+
+(%%) :: Expr
      -> String
      -> H.Html
 (%%) a b = H.preEscapedToHtml $ a % b
@@ -156,25 +150,23 @@ mkhtml css prefix name title y x
                               ++ "You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/."
 
 loadJson :: String
-         -> IO ((String, (String, String)), (String, String), (String, Aeson.Object))
+         -> IO ((String, (String, String)), (String, String), (String, Expr))
 loadJson x
   = do name <- return $ "Ships/" ++ x
-       json <- (Aeson.eitherDecodeFileStrict' name :: IO (Either String Aeson.Object))
-       case json of
-         Left e -> error $ name ++ ": " ++ e
-         Right json -> do nameen <- return $ json % "name_reference"
-                          namecn <- return $ json % "cn_reference"
-                          name   <- return $ json % "name"
-                          rarity <- return $ json % "rarity"
-                          return ((nameen, (namecn, rarity)), (nameen, name), (nameen, json))
+       json <- parse name
+       nameen <- return $ json % "name_reference"
+       namecn <- return $ json % "cn_reference"
+       name   <- return $ json % "name"
+       rarity <- return $ json % "rarity"
+       return ((nameen, (namecn, rarity)), (nameen, name), (nameen, json))
 
 lastN :: Int -> [a] -> [a]
 lastN n xs = drop (length xs - n) xs
 
-writeskins :: [(Int, String, Aeson.Object)]
+writeskins :: [(Int, String, Expr)]
            -> String
            -> Bool
-           -> (Int -> String -> Aeson.Object -> H.Html)
+           -> (Int -> String -> Expr -> H.Html)
            -> H.Html
 writeskins [(i, i', x)] _ _ f = f i i' x
 writeskins skins id e f
@@ -202,13 +194,13 @@ gettext namecode x = gettext' x
                                      Nothing -> error $ show i) ++ gettext' xs
         inside i (x:xs) = inside (i * 10 + digitToInt x) xs
 
-showship :: [Val]
-         -> [Val]
+showship :: [Expr]
+         -> [Expr]
          -> [[(Int, (String, String))]]
          -> [(String, (String, String))]
-         -> [(Int, String, Aeson.Object)]
-         -> Aeson.Object
-         -> [Aeson.Object]
+         -> [(Int, String, Expr)]
+         -> Expr
+         -> [Expr]
          -> H.Html
 showship luaskin luaskinextra namecode encn skins json ships
   = do H.tr
@@ -277,7 +269,7 @@ showship luaskin luaskinextra namecode encn skins json ships
          $ do H.td
                 $ H.table
                 $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "2" $ "Parameters"
-                     mapM_ (\k -> let par = aobj $ json ! "parameters"
+                     mapM_ (\k -> let par = json ! "parameters"
                                   in
                                     H.tr
                                     $ do H.td H.! A.style "text-align: left; padding-left:5px;"
@@ -295,9 +287,8 @@ showship luaskin luaskinextra namecode encn skins json ships
                        $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "2"
                        $ "Stats"
                      stats <- return
-                              $ map (\(k, Aeson.Object v) -> (unpack k, v))
                               $ toList
-                              $ aobj
+
                               $ json ! "stats"
                      H.tr
                        $ H.td H.! A.colspan "2"
@@ -352,13 +343,13 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                              x       -> "Level " ++ x
                                             H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;" $ H.preEscapedToHtml $ ashow v)
                        $ sortOn (\(k, _) -> k)
-                       $ map (\(k, v) -> (case lastN 2 $ unpack k of
+                       $ map (\(k, v) -> (case lastN 2 $ k of
                                             ('r':x) -> "r" ++ x
                                             ('l':x) -> "0" ++ x
                                             x       -> x, v))
                        $ toList
-                       $ aobj
-                       $ case HM.lookup "limitBreak" json of
+
+                       $ case lookups json "limitBreak" of
                            Nothing -> json ! "strengthenLevel"
                            Just x -> x
                      H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Equipments"
@@ -369,17 +360,17 @@ showship luaskin luaskinextra namecode encn skins json ships
                           "Efficiency (LB 0/1/2/3)",
                           "Quantity (LB 0/1/2/3)",
                           "Preload (LB 0/1/2/3)"]
-                     mapM_ (\(k, Aeson.Object v) -> H.tr
-                                                    $ do H.td $ H.preEscapedToHtml k
-                                                         mapM_ (\x -> H.td $ v %% x) ["type", "efficiency", "amount", "preload"]) $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "equipmentLoadout"
+                     mapM_ (\(k, v) -> H.tr
+                                       $ do H.td $ H.preEscapedToHtml k
+                                            mapM_ (\x -> H.td $ v %% x) ["type", "efficiency", "amount", "preload"]) $ sortOn (\(k, _) -> k) $ toList $ json ! "equipmentLoadout"
                      H.tr
                        $ do H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Default Equipments"
-                            mapM_ (\(k, Aeson.Object v) -> H.tr
-                                                           $ do H.td $ H.preEscapedToHtml k
-                                                                H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ aobj $ json ! "defaultEquipment"
+                            mapM_ (\(k, v) -> H.tr
+                                              $ do H.td $ H.preEscapedToHtml k
+                                                   H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ json ! "defaultEquipment"
 
-       case HM.lookup "fleet_tech" json of
-         Just (Aeson.Object ft)
+       case lookups json "fleet_tech" of
+         Just ft
            -> H.tr
               $ H.td H.! A.colspan "2"
               $ H.table
@@ -392,7 +383,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                  " "
                                  json %% "hull"
                                  ": "
-                                 H.preEscapedToHtml $ ashow $ HM.lookupDefault "##undefined##" "class" json
+                                 H.preEscapedToHtml $ lookupDefault "##undefined##" "class" json
                           H.th H.! A.class_ "subtitle" H.! A.colspan "2" H.! A.style "width:60%;" $ "Tech Points and Bonus"
                    H.tr
                      $ do H.td
@@ -444,9 +435,9 @@ showship luaskin luaskinextra namecode encn skins json ships
          $ H.table
          $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "4" $ "Skillset"
               H.tr $ mapM_ (H.th H.! A.scope "col" H.! A.class_ "subtitle") ["Icon", "Name", "Description", "Requirements"]
-              mapM_ (\(k, Aeson.Object v) -> H.tr
-                                             $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (v % "icon") ++ ".png")
-                                                  mapM_ (\x -> H.td $ v %% x) ["name", "description", "requirement"]) $ sortOn (\(k, v) -> read (unpack k) :: Int) $ toList $ aobj $ json ! "skill"
+              mapM_ (\(k, v) -> H.tr
+                                $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (v % "icon") ++ ".png")
+                                     mapM_ (\x -> H.td $ v %% x) ["name", "description", "requirement"]) $ sortOn (\(k, v) -> read (k) :: Int) $ toList $ json ! "skill"
 
        H.tr
          $ H.td H.! A.colspan "2"
@@ -457,25 +448,24 @@ showship luaskin luaskinextra namecode encn skins json ships
               H.tr
                 $ do H.td H.! A.class_ "subtitle" H.! A.style "width:20%;" $ json %% "buildTime"
                      mapM_ (H.th H.! A.class_ "subtitle" H.! A.style "width:20%;" H.! A.scope "col") ["JP", "CN", "EN"]
-              mapM_ (\(k, Aeson.Object v) -> H.tr
-                                             $ do H.th H.! A.scope "row" H.! A.class_ "subtitle"
-                                                    $ H.preEscapedToHtml
-                                                    $ capitalize
-                                                    $ unpack k
-                                                  mapM_ (\x -> H.td $ v %% x) ["JP", "CN", "EN"])
+              mapM_ (\(k, v) -> H.tr
+                                $ do H.th H.! A.scope "row" H.! A.class_ "subtitle"
+                                       $ H.preEscapedToHtml
+                                       $ capitalize
+                                       $ k
+                                     mapM_ (\x -> H.td $ v %% x) ["JP", "CN", "EN"])
                 $ reverse
                 $ toList
-                $ aobj
+
                 $ json ! "build"
 
        H.tr
          $ H.td H.! A.colspan "2"
          $ H.table
          $ do linesSet <- return
-                          $ map (\(Aeson.Object x) -> (map toUpper $ x % "skin_id", x))
+                          $ map (\x -> (map toUpper $ x % "skin_id", x))
                           $ elems
-                          $ aobj
-                          $ (aobj $ json ! "lines") ! "skin"
+                          $ (json ! "lines") ! "skin"
               H.tr
                 $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5"
                 $ "Dialogue"
@@ -499,12 +489,13 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                   ex = case "_ex" `isInfixOf` skinid of
                                                          True -> "_ex100"
                                                          False -> ""
-                                                  luaskin' = (map (\v -> lookupi v (read (case (lineSet % "id", json % "internal_id") of
-                                                                                            (_,        "") -> "0"
-                                                                                            ([x],      iid) -> (init iid) ++ [x]
-                                                                                            (['1', y], '3':'0':'1':'0':'5':[_]) -> "33105" ++ [y]
-                                                                                            (['1', y], '1':'0':'7':'0':'3':[_]) -> "13703" ++ [y]
-                                                                                            x -> trace ("Invalid skin id! " ++ json % "name" ++ ", " ++ show x) "0"))) lua) :: [Maybe Val]
+                                                  luaskin' = (map (\v -> lookups v
+                                                                         $ case (lineSet % "id", json % "internal_id") of
+                                                                             (_,        "") -> "0"
+                                                                             ([x],      iid) -> (init iid) ++ [x]
+                                                                             (['1', y], '3':'0':'1':'0':'5':[_]) -> "33105" ++ [y]
+                                                                             (['1', y], '1':'0':'7':'0':'3':[_]) -> "13703" ++ [y]
+                                                                             x -> trace ("Invalid skin id! " ++ json % "name" ++ ", " ++ show x) "0") lua)
                                                   labels = [("Ship Description",    "drop_descrip",     ""),
                                                             ("Biography",           "profile",          "profile"),
                                                             ("Acquisition",         "unlock",           "get"),
@@ -544,20 +535,20 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                                        -> case v of
                                                                                                             Nothing -> []
                                                                                                             Just v -> case lookups v "main" of
-                                                                                                                        Just (Str x) -> endBy "|" x
-                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                        Just (Val _ (Str x)) -> endBy "|" x
+                                                                                                                        Just (Obj _ [("", Obj _ [_, ("", Val _ (Str x))])]) -> endBy "|" x
                                                                                                                         Nothing -> ["nil", "nil", "nil"]
                                                                                                                       ++ case lookups v "main_extra" of
-                                                                                                                           Just (Str x) -> endBy "|" x
-                                                                                                                           Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                           Just (Val _ (Str x)) -> endBy "|" x
+                                                                                                                           Just (Obj _ [("", Obj _ [_, ("", Val _ (Str x))])]) -> endBy "|" x
                                                                                                                            Nothing -> []) luaskin'
                                                                                              _
                                                                                                -> map (\v
                                                                                                        -> case v of
                                                                                                             Nothing -> []
                                                                                                             Just v -> case lookups v key of
-                                                                                                                        Just (Str x) -> endBy "|" x
-                                                                                                                        Just (Block [(Nothing, Block [_, (Nothing, Str x)])]) -> endBy "|" x
+                                                                                                                        Just (Val _ (Str x)) -> endBy "|" x
+                                                                                                                        Just (Obj _ [("", Obj _ [_, ("", Val _ (Str x))])]) -> endBy "|" x
                                                                                                                         Nothing -> [""]) luaskin')) labels) :: [(String, String, [[String]])]
                                                   merged = (map (\(label, voice, l) -> (label,
                                                                                         voice,
@@ -577,9 +568,9 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                    0 -> do lines <- return
                                                                                                     $ map (\(_, y) -> y)
                                                                                                     $ sortOn (\(k, _) -> k)
-                                                                                                    $ map (\(x, y) -> (read (unpack x) :: Int, aobj y))
+                                                                                                    $ map (\(x, y) -> (read (x) :: Int, y))
                                                                                                     $ toList
-                                                                                                    $ aobj
+
                                                                                                     $ lineSet ! "dialogue"
                                                                                            mapM_ (\x
                                                                                                   -> case x % "media" of
@@ -608,7 +599,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                                                      $ ""
                                                                                                                    mapM_ (\lang
                                                                                                                           -> H.td
-                                                                                                                             $ case HM.lookup (pack lang) x of
+                                                                                                                             $ case lookups x lang of
                                                                                                                                  Nothing -> ""
                                                                                                                                  Just x -> H.preEscapedToHtml $ ashow x) ["chinese",
                                                                                                                                                                           "japanese",
@@ -659,7 +650,7 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                    Nothing -> 0
                                                                                    Just x
                                                                                      -> case lookups x "couple_encourage" of
-                                                                                          Just (Block encourages) -> length encourages
+                                                                                          Just (Obj _ encourages) -> length encourages
                                                                                           _ -> 0) luaskin'
                                                      mapM_ (\i
                                                             -> H.tr
@@ -670,16 +661,16 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                             Nothing -> "!ERROR!"
                                                                             Just x
                                                                               -> case lookups x "couple_encourage" of
-                                                                                   Just (Block encourages)
+                                                                                   Just (Obj _ encourages)
                                                                                      -> case i < length encourages of
                                                                                           True -> case encourages !! i of
                                                                                                     (_,
-                                                                                                     Block ((_, Block friends)
+                                                                                                     Obj _ ((_, Obj _ friends)
                                                                                                             :_
                                                                                                             :(_, _)
                                                                                                             :_))
                                                                                                       -> intercalate ", "
-                                                                                                         $ fmap (\(_, Num x)
+                                                                                                         $ fmap (\(_, Val _ (Num x))
                                                                                                                  -> case find (\ship -> init (case ship % "internal_id" of
                                                                                                                                                 "" -> "0"
                                                                                                                                                 x  -> x) == show x) ships of
@@ -706,13 +697,13 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                                         Nothing -> return ()
                                                                                         Just x
                                                                                           -> case lookups x "couple_encourage" of
-                                                                                               Just (Block encourages)
+                                                                                               Just (Obj _ encourages)
                                                                                                  -> case i < length encourages of
                                                                                                       True -> case encourages !! i of
                                                                                                                 (_,
-                                                                                                                 Block ((_, friends)
+                                                                                                                 Obj _ ((_, friends)
                                                                                                                         :_
-                                                                                                                        :(_, Str text)
+                                                                                                                        :(_, Val _ (Str text))
                                                                                                                         :_))
                                                                                                                   -> H.td
                                                                                                                      $ H.preEscapedToHtml
@@ -728,11 +719,11 @@ showship luaskin luaskinextra namecode encn skins json ships
                                                                  Nothing -> return ()
                                                                  Just x
                                                                    -> case lookups x "couple_encourage" of
-                                                                        Just (Block encourages)
+                                                                        Just (Obj _ encourages)
                                                                           -> mapM_ (\x
                                                                                     -> case x of
                                                                                          (_,
-                                                                                          Block ((_, friends)
+                                                                                          Obj _ ((_, friends)
                                                                                                  :_
                                                                                                  :(_, Str text)
                                                                                                  :_))
@@ -750,9 +741,9 @@ showship luaskin luaskinextra namecode encn skins json ships
                                            -> do lines <- return
                                                           $ map (\(_, y) -> y)
                                                           $ sortOn (\(k, _) -> k)
-                                                          $ map (\(x, y) -> (read (unpack x) :: Int, aobj y))
+                                                          $ map (\(x, y) -> (read (x) :: Int, y))
                                                           $ toList
-                                                          $ aobj
+
                                                           $ lineSet ! "dialogue"
                                                  H.table
                                                    $ do H.tr
@@ -786,7 +777,7 @@ showship luaskin luaskinextra namecode encn skins json ships
 -}
   where d = displayRow json
 
-displayRow :: Aeson.Object
+displayRow :: Expr
            -> String
            -> H.Html
            -> H.Html
@@ -797,7 +788,7 @@ displayRow json field text
 order = ["common", "research", "META", "collab", "unreleased"]
 
 indexFood :: String
-          -> [(String, Aeson.Object)]
+          -> [(String, Expr)]
           -> H.Html
 indexFood lvl ships
   = H.div H.! A.class_ "container"
@@ -815,7 +806,7 @@ indexFood lvl ships
 makeMainIndex :: String
               -> String
               -> String
-              -> [[(String, Aeson.Object)]]
+              -> [[(String, Expr)]]
               -> IO ()
 makeMainIndex css file title ships
   = do mkhtml css "out/" file title (return ())
@@ -827,8 +818,8 @@ makeMainIndex css file title ships
                            $ do H.summary $ H.h2 H.! A.style "display: inline;" $ H.preEscapedToHtml $ capitalize $ (snd $ head x) % "shipType"
                                 indexFood "" x) ships
 
-g :: [(String, Aeson.Object)]
-  -> [[(String, Aeson.Object)]]
+g :: [(String, Expr)]
+  -> [[(String, Expr)]]
 g x
   = map (sortOn (\(id, _) -> case readEither id :: Either String Int of
                                Left  x -> case readEither (tail id) :: Either String Int of
@@ -841,7 +832,7 @@ g x
 makeIndex :: String
           -> String
           -> (String -> String)
-          -> [(String, Aeson.Object)]
+          -> [(String, Expr)]
           -> IO ()
 makeIndex css category f ships
   = do createDirectory $ "out/" ++ category
@@ -870,7 +861,7 @@ makeIndex css category f ships
                                $ do H.img H.! A.src (H.stringValue $ f x) H.! A.style "max-width: 64px; max-height: 64px;"
                                     H.preEscapedToHtml x) subcats
   where
-    groupedShips :: [[[(String, Aeson.Object)]]]
+    groupedShips :: [[[(String, Expr)]]]
     groupedShips
       = map g
         $ groupBy (\(_, a) -> \(_, b) -> a % category == b % category)
@@ -878,17 +869,17 @@ makeIndex css category f ships
 
 showtable json i k
   = mapM_ (\(k, v) -> H.tr
-                      $ do H.td H.! A.colspan i $ H.preEscapedToHtml $ capitalize $ unpack k
-                           H.td $ H.preEscapedToHtml $ ashow v) $ reverse $ toList $ aobj $ json ! k
+                      $ do H.td H.! A.colspan i $ H.preEscapedToHtml $ capitalize $ k
+                           H.td $ H.preEscapedToHtml $ ashow v) $ reverse $ toList $ json ! k
 
 showtable'  json i k style
   = H.table
     $ mapM_ (\(k, v) -> H.tr
                         $ do H.td H.! A.style "text-align: left; width: 70%;" H.! A.colspan i
-                               $ do H.img H.! A.src (H.stringValue $ "https://algwiki.moe/Images/" ++ unpack k ++ "_icon.png") H.! A.style style
+                               $ do H.img H.! A.src (H.stringValue $ "https://algwiki.moe/Images/" ++ k ++ "_icon.png") H.! A.style style
                                     " "
-                                    H.preEscapedToHtml $ capitalize $ unpack k
-                             H.td H.! A.style "text-align: left;padding-left:5px;" $ H.preEscapedToHtml $ ashow v) $ reverse $ toList $ aobj $ json ! k
+                                    H.preEscapedToHtml $ capitalize $ k
+                             H.td H.! A.style "text-align: left;padding-left:5px;" $ H.preEscapedToHtml $ ashow v) $ reverse $ toList $ json ! k
 
 capitalize "hp" = "HP"
 capitalize "antiAir" = "Anti-air"
@@ -912,34 +903,27 @@ decideColor "Rare"       = "rgb(140, 179, 184)"
 decideColor "Common"     = "rgb(115, 115, 115)"
 decideColor ""           = "#24252d"
 
-langs = ["cn", "jp", "en"]
-
-readlua :: String -> IO [Val]
-readlua x
-  = do mapM (\lang -> do file <- return $ "lua/" ++ x ++ "." ++ lang ++ ".lua"
-                         readFile file >>= return . snd . head . start file) langs
-
 main :: IO ()
 main
   = do css <- readFile "style.css"
-       luaskin <- readlua "ship_skin_words"
-       luaskinextra <- readlua "ship_skin_words_extra"
-       namecode <- readlua "name_code" >>= return . map (\(Block x) -> map (\(_, Block [(Just (Left "id"), Num id),
-                                                                                        (Just (Left "name"), Str name),
-                                                                                        (Just (Left "code"), Str code)]) -> (id, (name, code))) x)
+       luaskin <- readJsonLangs "ship_skin_words"
+       luaskinextra <- readJsonLangs "ship_skin_words_extra"
+       namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, Obj _ [("id", Val _ (Num id)),
+                                                                                        ("name", Val _ (Str name)),
+                                                                                        ("code", Val _ (Str code))]) -> (id, (name, code))) x)
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
        createDirectory "out/ships"
        dir <- listDirectory "Ships"
        (encn, enen, ships) <- (mapM loadJson $ sort dir) >>= return . unzip3
-       mapM_ (\(name, json) -> let skins = map (\(i, (k, Aeson.Object v)) -> (i, v % "id", v))
+       mapM_ (\(name, json) -> let skins = map (\(i, (k, v)) -> (i, v % "id", v))
                                            $ zip [0..]
-                                           $ sortOn (\(k, _) -> case readMaybe (unpack k) :: Maybe Int of
+                                           $ sortOn (\(k, _) -> case readMaybe (k) :: Maybe Int of
                                                                   Just k -> k
                                                                   _      -> 0)
                                            $ toList
-                                           $ aobj
+
                                            $ json ! "skin"
                                in
                                  mkhtml css "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
@@ -958,13 +942,11 @@ main
                                            json %% "name"
                                     H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships)
                                     H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
-                                                                                                                 False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ aobj $ x ! "expression") >>= \x -> "\"" ++ unpack x ++ "\",") ++ "],"
+                                                                                                                 False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
                                                                                                                  True -> "")) ++ "];\n" ++ dumbjs) ships
 
-       shiplist'' <- (Aeson.eitherDecodeFileStrict' "json/shiplist.json" :: IO (Either String Aeson.Object))
-       shiplist' <- case shiplist'' of
-                      Left  e    -> error $ "shiplist error: " ++ e
-                      Right json -> return $ map (\(id, json) -> (unpack id, aobj json)) $ toList json
+       shiplist'' <- parse "json/shiplist.json"
+       shiplist' <- return $ toList shiplist''
        shiplist <- return
                    $ g shiplist'
 
