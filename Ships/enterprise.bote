@@ -208,6 +208,31 @@
                     "id": "0"
                 }
             }
+        },
+        "9": {
+            "id": "qiye_8",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
         }
     },
     "defaultEquipment": {
@@ -1652,6 +1677,53 @@
                         "japaneseNote": "",
                         "english": "Hmm, I like you the same way that you like me.",
                         "englishNote": ""
+                    }
+                }
+            },
+            "9": {
+                "skin_id": "qiye_8",
+                "id": "7",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_7"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_7"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_7"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_7"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_7"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_7"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_7"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_7"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_7"
                     }
                 }
             }
