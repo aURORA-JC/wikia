@@ -12,7 +12,7 @@ langs = ["cn", "jp", "en"]
 
 readJsonLangs :: String -> IO [Expr]
 readJsonLangs x
-  = mapM (\lang -> do file <- return $ "json/" ++ x ++ "." ++ lang ++ ".bote"
+  = mapM (\lang -> do file <- return $ "json/" ++ x ++ "." ++ lang ++ ".json"
                       parse file) langs
 
 parse :: String -> IO Expr
