@@ -326,7 +326,7 @@
         "add_level_value": "1",
         "add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
         "t_level": "7",
-        "ships": "littorio,vittorio_veneto"
+        "ships": "littorio,vittorio_veneto,impero"
     },
     "build": {
         "light": {
@@ -997,7 +997,7 @@
                 "id": "3",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },

@@ -92,6 +92,25 @@
             }
         },
         "3": {
+            "id": "xili_3",
+            "name": "Meat Bun Hunter",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                }
+            }
+        },
+        "4": {
             "id": "xili_4",
             "name": "Carnivore Carnival!",
             "description": "Commander, look at me, look at me! What do you think of my new outfit? If you like it, wanna give it a feel?",
@@ -116,7 +135,32 @@
                 }
             }
         },
-        "4": {
+        "5": {
+            "id": "xili_5",
+            "name": "Woofy Floofy Christmas Night",
+            "description": "Christmas! The day Santa Claus drops by and leaves presents, right? Hell yeah, I'm pumped! Aren't you pumped too, Commander?",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
+        },
+        "8": {
             "id": "xili_h",
             "name": "The Bride of Solomon",
             "description": "Commander, look! Look at this new dress. Red and white, I really really like it! But what's the occasion?",
@@ -135,68 +179,24 @@
                 }
             }
         },
-        "5": {  
-            "id": "xili_3",
-            "name": "Meat Bun Hunter",
-            "description": "",
-            "expression": {
-                "0": {  
-                    "id": "0"
-                },      
-                "1": {  
-                    "id": "1"
-                },      
-                "2": {  
-                    "id": "2"
-                },      
-                "3": {  
-                    "id": "3"
-                }       
-            }       
-        },
-        "6": {  
-            "id": "xili_5",
-            "name": "Woofy Floofy Christmas Night",
-            "description": "Christmas! The day Santa Claus drops by and leaves presents, right? Hell yeah, I'm pumped! Aren't you pumped too, Commander?",
-            "expression": {
-                "0": {  
-                    "id": "0"
-                },      
-                "1": {  
-                    "id": "1"
-                },      
-                "2": {  
-                    "id": "2"
-                },      
-                "3": {  
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                }
-            }       
-        },
-        "7": {  
+        "9": {
             "id": "xili_g",
             "name": "",
             "description": "",
             "expression": {
-                "0": {  
+                "0": {
                     "id": "0"
-                },      
-                "1": {  
+                },
+                "1": {
                     "id": "1"
-                },      
-                "2": {  
+                },
+                "2": {
                     "id": "2"
-                },      
-                "3": {  
+                },
+                "3": {
                     "id": "3"
                 }
-            }       
+            }
         }
     },
     "defaultEquipment": {
@@ -891,6 +891,133 @@
                 }
             },
             "3": {
+                "skin_id": "xili_3",
+                "id": "2",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Victory",
+                        "media": "mvp_2",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "4": {
                 "skin_id": "xili_4",
                 "id": "3",
                 "label": "Carnivore Carnival!",
@@ -1029,7 +1156,54 @@
                     }
                 }
             },
-            "4": {
+            "5": {
+                "skin_id": "xili_5",
+                "id": "4",
+                "label": "Woofy Floofy Christmas Night",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_4"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_4"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_4"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_4"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_4"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_4"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_4"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_4"
+                    },
+                    "11": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_4"
+                    }
+                }
+            },
+            "8": {
                 "skin_id": "xili_h",
                 "id": "8",
                 "label": "The Bride of Solomon ",
@@ -1204,186 +1378,12 @@
                     }
                 }
             },
-            "5": {
-                "skin_id": "xili_3",
-                "id": "4",
-                "label": "",
-                "dialogue": {
-                    "1": {  
-                        "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "9": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_2",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "10": {
-                        "event": "Victory",
-                        "media": "mvp_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    }       
-                }
-            },
-            "6": {
-                "skin_id": "xili_5",
-                "id": "5",
-                "label": "Woofy Floofy Christmas Night",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_4"
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_4"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_4"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_4"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_4"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_4"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_4"
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_4"
-                    },
-                    "11": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_4"
-                    }
-                }
-            },
-            "7": {
+            "9": {
                 "skin_id": "xili_g",
                 "id": "9",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },

@@ -4157,6 +4157,78 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "535": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jifu.png",
+        "link": "kiev",
+        "name": "Kiev",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "536": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aerhangeersike.png",
+        "link": "arkhangelsk",
+        "name": "Arkhangelsk",
+        "navy": "Northern Parliament",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "537": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lingmin.png",
+        "link": "soobrazitelny",
+        "name": "Soobrazitelny",
+        "navy": "Northern Parliament",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "538": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fuerjia.png",
+        "link": "volga",
+        "name": "Volga",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "539": {
+        "hull": "Super Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kalangshitade.png",
+        "link": "kronshtadt",
+        "name": "Kronshtadt",
+        "navy": "Northern Parliament",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "540": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/diguo.png",
+        "link": "impero",
+        "name": "Impero",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "541": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/pangpeimagenuo.png",
+        "link": "pompeo_magno",
+        "name": "Pompeo Magno",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "542": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/diliyasite.png",
+        "link": "trieste",
+        "name": "Trieste",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4423,6 +4495,24 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/sunying_alter.png",
         "link": "junyou_meta",
         "name": "Junyou META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M009": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shaenhuosite_alter.png",
+        "link": "scharnhorst_meta",
+        "name": "Scharnhorst META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M010": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shancheng_alter.png",
+        "link": "yamashiro_meta",
+        "name": "Yamashiro META",
         "navy": "META",
         "rarity": "Elite",
         "shipType": "META"
