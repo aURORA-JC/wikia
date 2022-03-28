@@ -62,6 +62,9 @@ asnum (Num x) = x
 asstr :: Val -> String
 asstr (Str s) = s
 
+asval :: Expr -> Val
+asval (Val _ x) = x
+
 (!) a b = case lookups a b of
             Just x -> x
 

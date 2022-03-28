@@ -913,9 +913,7 @@ main
   = do css <- readFile "style.css"
        luaskin <- readJsonLangs "ship_skin_words"
        luaskinextra <- readJsonLangs "ship_skin_words_extra"
-       namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, Obj _ [("id", Val _ (Num id)),
-                                                                                        ("name", Val _ (Str name)),
-                                                                                        ("code", Val _ (Str code))]) -> (id, (name, code))) x)
+       namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
        createDirectory "out"
