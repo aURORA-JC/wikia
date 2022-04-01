@@ -1718,12 +1718,36 @@
                         "media": "touch_1_7"
                     },
                     "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_7"
+                        "event": "Mission",
+                        "media": "task_7"
                     },
                     "10": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_7"
+                    },
+                    "11": {
                         "event": "Return to Port",
                         "media": "home_7"
+                    },
+                    "12": {
+                        "event": "Commission Complete",
+                        "media": "expedition_7"
+                    },
+                    "13": {
+                        "event": "Flagship",
+                        "media": "warcry_7"
+                    },
+                    "14": {
+                        "event": "Victory",
+                        "media": "mvp_7"
+                    },
+                    "15": {
+                        "event": "Defeat",
+                        "media": "lose_7"
+                    },
+                    "16": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_7"
                     }
                 }
             }
