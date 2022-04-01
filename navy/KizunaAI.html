@@ -253,7 +253,72 @@ summary {
     top: 10%;
     transform: translateY(-50%);
 }
-</style></head><body><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist by ID</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist by Name</a></li><li><a href="https://algwiki.moe/navy/index.html">Faction Shiplists</a></li><li><a href="https://algwiki.moe/hull/index.html">Class Shiplists</a></li><li><a href="https://algwiki.moe/rarity/index.html">Rarity Shiplists</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://fleet.algwiki.moe/">Fleet Maker</a></li><li><a href="https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0">Porn</a></li></ol></nav><div id="sidebarEscape"><nav><a href="..">Home</a> &gt; <a href="./index.html">Navy</a> &gt; KizunaAI</nav><details open=""><summary><h2 style="display: inline;">Collab</h2></summary><div class="container"><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C041<div style="background: rgb(176, 128, 176);"><a href="../ships/kizuna_ai.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangDD.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai.html">KizunaAI</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C042<div style="background: rgb(190, 185, 136);"><a href="../ships/kizuna_ai_ca.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangCL.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai_ca.html">KizunaAI·Elegant</a></div></div><div class="ship"><a href="../hull/Aircraft Carrier.html"><img src="https://algwiki.moe/Images/Hull/cv.png" title="Aircraft Carrier" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C043<div style="background: rgb(190, 185, 136);"><a href="../ships/kizuna_ai_cv.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangCV.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai_cv.html">KizunaAI·Anniversary</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C044<div style="background: rgb(190, 185, 136);"><a href="../ships/kizuna_ai_bb.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangBB.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai_bb.html">KizunaAI·SuperGamer</a></div></div></div></details><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
+
+@keyframes snowflakes-fall {
+    0%   {top:-10%}
+    100% {top:100%}
+}
+
+@keyframes snowflakes-shake {
+    0%   {transform:translateX(0px)}
+    50%  {transform:translateX(80px)}
+    100% {transform:translateX(0px)}
+}
+
+.snowflake {
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    user-select:none;
+    cursor:default;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+}
+
+.snowflake:nth-of-type(0) {
+    left:1%;
+    animation-delay:0s,0s;
+}
+.snowflake:nth-of-type(1) {
+    left:10%;
+    animation-delay:1s,1s;
+}
+.snowflake:nth-of-type(2) {
+    left:20%;
+    animation-delay:6s,.5s;
+}
+.snowflake:nth-of-type(3) {
+    left:30%;
+    animation-delay:4s,2s;
+}
+.snowflake:nth-of-type(4) {
+    left:40%;
+    animation-delay:2s,2s;
+}
+.snowflake:nth-of-type(5) {
+    left:50%;
+    animation-delay:8s,3s;
+}
+.snowflake:nth-of-type(6) {
+    left:60%;
+    animation-delay:6s,2s;
+}
+.snowflake:nth-of-type(7) {
+    left:70%;
+    animation-delay:2.5s,1s;
+}
+.snowflake:nth-of-type(8) {
+    left:80%;
+    animation-delay:1s,0s;
+}
+.snowflake:nth-of-type(9) {
+    left:90%;
+    animation-delay:3s,1.5s;
+}
+</style></head><body><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><img class="snowflake" src="https://algwiki.moe/snow.gif"><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist by ID</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist by Name</a></li><li><a href="https://algwiki.moe/navy/index.html">Faction Shiplists</a></li><li><a href="https://algwiki.moe/hull/index.html">Class Shiplists</a></li><li><a href="https://algwiki.moe/rarity/index.html">Rarity Shiplists</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://fleet.algwiki.moe/">Fleet Maker</a></li><li><a href="https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0">Porn</a></li></ol></nav><div id="sidebarEscape"><nav><a href="..">Home</a> &gt; <a href="./index.html">Navy</a> &gt; KizunaAI</nav><details open=""><summary><h2 style="display: inline;">Collab</h2></summary><div class="container"><div class="ship"><a href="../hull/Destroyer.html"><img src="https://algwiki.moe/Images/Hull/dd.png" title="Destroyer" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C041<div style="background: rgb(176, 128, 176);"><a href="../ships/kizuna_ai.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangDD.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai.html">KizunaAI</a></div></div><div class="ship"><a href="../hull/Heavy Cruiser.html"><img src="https://algwiki.moe/Images/Hull/ca.png" title="Heavy Cruiser" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C042<div style="background: rgb(190, 185, 136);"><a href="../ships/kizuna_ai_ca.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangCL.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai_ca.html">KizunaAI·Elegant</a></div></div><div class="ship"><a href="../hull/Aircraft Carrier.html"><img src="https://algwiki.moe/Images/Hull/cv.png" title="Aircraft Carrier" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C043<div style="background: rgb(190, 185, 136);"><a href="../ships/kizuna_ai_cv.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangCV.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai_cv.html">KizunaAI·Anniversary</a></div></div><div class="ship"><a href="../hull/Battleship.html"><img src="https://algwiki.moe/Images/Hull/bb.png" title="Battleship" class="hull"></a><a href="../navy/KizunaAI.html"><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png" title="KizunaAI" class="navy"></a>C044<div style="background: rgb(190, 185, 136);"><a href="../ships/kizuna_ai_bb.html"><img src="https://algwiki.moe/assets/shipyardicon_new/aijiangBB.png" loading="lazy" style="height:144px;width: 108px"></a></div><div class="name"><a href="../ships/kizuna_ai_bb.html">KizunaAI·SuperGamer</a></div></div></div></details><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
 Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.
 /alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
