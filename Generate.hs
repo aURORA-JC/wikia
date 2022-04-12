@@ -14,31 +14,27 @@ import Debug.Trace
 import Data.Char
 import Data.List.Split
 import Data.Maybe
+import Control.Concurrent
 
 import Data
 import Parsing
+import Showskills
 
 import System.IO.Unsafe
 import qualified Control.Exception as Exc
 
-(%) a b = case lookups a b of
-            Just x -> ashow x
-            _ -> error $ "Key:" ++ show b ++ " Table:" ++ show a
+import Utils
+
 lookupDefault d b a = case lookups a b of
                         Nothing -> d
                         Just x -> ashow x
 
-(%%) :: Expr
-     -> String
-     -> H.Html
-(%%) a b = H.preEscapedToHtml $ a % b
-
 rarity :: String
-     -> String
+       -> String
 rarity = ((++) "https://algwiki.moe/Images/Rarity/") . rarity'
 
 rarity' :: String
-      -> String
+        -> String
 rarity' "Ultra Rare" = "UR.png"
 rarity' "Decisive"   = "DR.png"
 rarity' "Priority"   = "PR.png"
@@ -204,8 +200,9 @@ showship :: [Expr]
          -> [(Int, String, Expr)]
          -> Expr
          -> [Expr]
+         -> (Expr, Expr)
          -> H.Html
-showship luaskin luaskinextra namecode encn skins json ships
+showship luaskin luaskinextra namecode encn skins json ships (ship_data_template, skill_data_template)
   = do H.tr
          $ do H.td
                 $ H.table
@@ -435,12 +432,7 @@ showship luaskin luaskinextra namecode encn skins json ships
 
        H.tr
          $ H.td H.! A.colspan "2"
-         $ H.table
-         $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "4" $ "Skillset"
-              H.tr $ mapM_ (H.th H.! A.scope "col" H.! A.class_ "subtitle") ["Icon", "Name", "Description", "Requirements"]
-              mapM_ (\(k, v) -> H.tr
-                                $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (v % "icon") ++ ".png")
-                                     mapM_ (\x -> H.td $ v %% x) ["name", "description", "requirement"]) $ sortOn (\(k, v) -> read (k) :: Int) $ toList $ json ! "skill"
+         $ showskills json ship_data_template skill_data_template
 
        H.tr
          $ H.td H.! A.colspan "2"
@@ -913,6 +905,8 @@ main
   = do css <- readFile "style.css"
        luaskin <- readJsonLangs "ship_skin_words"
        luaskinextra <- readJsonLangs "ship_skin_words_extra"
+       ship_data_template <- readJsonLangs "ship_data_template"
+       skill_data_template <- readJsonLangs "skill_data_template"
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
@@ -943,7 +937,7 @@ main
                                            H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                            " > "
                                            json %% "name"
-                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships)
+                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships) (ship_data_template !! 2, skill_data_template !! 2)
                                     H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                  False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
                                                                                                                  True -> "")) ++ "];\n" ++ dumbjs) ships

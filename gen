@@ -1,12 +1,18 @@
 #!/usr/bin/env sh
-wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/zh-CN/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.cn.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/ja-JP/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.jp.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/en-US/sharecfg/ship_skin_words_extra.lua -O lua/ship_skin_words_extra.en.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/zh-CN/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.cn.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/ja-JP/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.jp.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/en-US/sharecfg/ship_skin_words.lua -O lua/ship_skin_words.en.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/zh-CN/sharecfg/name_code.lua -O lua/name_code.cn.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/ja-JP/sharecfg/name_code.lua -O lua/name_code.jp.lua \
-    && wget https://gitgud.io/alg-wiki/azurlanedataminewrapper/-/raw/master/AzurLaneSourceLua/en-US/sharecfg/name_code.lua -O lua/name_code.en.lua \
+wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/skill_data_template.json -O json/skill_data_template.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/skill_data_template.json -O json/skill_data_template.cn.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/skill_data_template.json -O json/skill_data_template.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/sharecfgdata/ship_data_template.json -O json/ship_data_template.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/sharecfgdata/ship_data_template.json -O json/ship_data_template.cn.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/sharecfgdata/ship_data_template.json -O json/ship_data_template.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/sharecfgdata/ship_skin_words.json -O json/ship_skin_words.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/sharecfgdata/ship_skin_words.json -O json/ship_skin_words.cn.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/sharecfgdata/ship_skin_words.json -O json/ship_skin_words.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/ship_skin_words_extra.json -O json/ship_skin_words_extra.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/ship_skin_words_extra.json -O json/ship_skin_words_extra.cn.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/ship_skin_words_extra.json -O json/ship_skin_words_extra.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/name_code.json -O json/name_code.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/name_code.json -O json/name_code.cn.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/name_code.json -O json/name_code.jp.json \
     && echo "Generating..." \
     && ./Generate.hs
