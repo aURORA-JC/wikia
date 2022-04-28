@@ -134,6 +134,28 @@
                     "id": "3"
                 }
             }
+        },
+        "5": {
+            "id": "U47_5",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
         }
     },
     "defaultEquipment": {
@@ -1013,6 +1035,85 @@
                     "17": {
                         "event": "Affinity (Love)",
                         "media": "feeling5_3"
+                    }
+                }
+            },
+            "5": {
+                "skin_id": "U47_5",
+                "id": "4",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_4"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_4"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_4"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_4"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_4"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_4"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_4"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_4"
+                    },
+                    "10": {
+                        "event": "Mission",
+                        "media": "task_4"
+                    },
+                    "11": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_4"
+                    },
+                    "12": {
+                        "event": "Mail",
+                        "media": "mail_4"
+                    },
+                    "13": {
+                        "event": "Return to Port",
+                        "media": "home_4"
+                    },
+                    "14": {
+                        "event": "Commission Complete",
+                        "media": "expedition_4"
+                    },
+                    "15": {
+                        "event": "Flagship",
+                        "media": "warcry_4"
+                    },
+                    "16": {
+                        "event": "Victory",
+                        "media": "mvp_4"
+                    },
+                    "17": {
+                        "event": "Defeat",
+                        "media": "lose_4"
+                    },
+                    "18": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_4"
                     }
                 }
             }
