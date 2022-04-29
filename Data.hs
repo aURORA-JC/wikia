@@ -75,3 +75,8 @@ elems (Obj _ x) = map snd x
 ashow :: Expr
       -> String
 ashow (Val _ x) = show x
+
+byindex (Obj inf a) b = case length a > b of
+                          True -> snd $ a !! b
+                          False -> error $ "OOB: " ++ show b ++ " for " ++ show a ++ " in " ++ show inf
+byindex x _ = error $ show x

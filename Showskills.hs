@@ -6,6 +6,22 @@ import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html5.Attributes as A
 import Utils
 import Data
+import System.IO.Unsafe
+
+subst x with
+  = H.preEscapedToHtml
+    $ subst' x with
+
+subst' "" _
+  = ""
+
+subst' ('$':x:xs) with
+  = let with' = byindex with ((read [x] :: Int) - 1) in
+      (ashow $ byindex (byindex with' 0) 0) ++ " (" ++ (ashow $ byindex (byindex with' $ (length $ toList with') - 1) 0) ++ ") " ++ subst' xs with
+
+
+subst' (x:xs) with
+  = x:(subst' xs with)
 
 showskills json ship_data_template skill_data_template
   = H.table
@@ -27,7 +43,7 @@ showskills json ship_data_template skill_data_template
          mapM_ (\x -> H.tr
                       $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (x % "id") ++ ".png")
                            H.td $ x %% "name"
-                           H.td $ x %% "desc"
+                           H.td $ subst (x % "desc") (x ! "desc_add")
                            H.td $ case filter (\y -> y % "icon" == x % "id") $ elems $ json ! "skill" of
                                     [x] -> x %% "requirement"
                                     _   -> "???") skills
