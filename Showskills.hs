@@ -41,7 +41,10 @@ showskills json ship_data_template skill_data_template
          H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "4" $ "Skillset"
          H.tr $ mapM_ (H.th H.! A.scope "col" H.! A.class_ "subtitle") ["Icon", "Name", "Description", "Requirements"]
          mapM_ (\x -> H.tr
-                      $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (x % "id") ++ ".png")
+                      $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (case x % "id" of
+                                                                                                                     ['1', '9', x, y, _] -> ['1', '9', x, y, '0']
+                                                                                                                     ['2', '9', x, y, _] -> ['2', '9', x, y, '0']
+                                                                                                                     x -> x) ++ ".png")
                            H.td $ x %% "name"
                            H.td $ subst (x % "desc") (x ! "desc_add")
                            H.td $ case filter (\y -> y % "icon" == x % "id") $ elems $ json ! "skill" of
