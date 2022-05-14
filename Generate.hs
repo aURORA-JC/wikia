@@ -24,6 +24,7 @@ import System.IO.Unsafe
 import qualified Control.Exception as Exc
 
 import Utils
+import Multiprocessing
 
 lookupDefault d b a = case lookups a b of
                         Nothing -> d
@@ -916,31 +917,31 @@ main
        createDirectory "out/ships"
        dir <- listDirectory "Ships"
        (encn, enen, ships) <- (mapM loadJson $ sort dir) >>= return . unzip3
-       mapM_ (\(name, json) -> let skins = map (\(i, (k, v)) -> (i, v % "id", v))
-                                           $ zip [0..]
-                                           $ sortOn (\(k, _) -> case readMaybe (k) :: Maybe Int of
-                                                                  Just k -> k
-                                                                  _      -> 0)
-                                           $ toList
+       parMap 8 (\(name, json) -> let skins = map (\(i, (k, v)) -> (i, v % "id", v))
+                                              $ zip [0..]
+                                              $ sortOn (\(k, _) -> case readMaybe (k) :: Maybe Int of
+                                                                     Just k -> k
+                                                                     _      -> 0)
+                                              $ toList
 
-                                           $ json ! "skin"
-                               in
-                                 mkhtml css "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
-                                                                                  mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
-                                                                                    $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
-                                                                                       "https://algwiki.moe/js/live2dcubismcore.min.js",
-                                                                                       "https://algwiki.moe/js/live2dcubismframework.js",
-                                                                                       "https://algwiki.moe/js/live2dcubismpixi.js",
-                                                                                       "https://algwiki.moe/js/pixi-spine.js",
-                                                                                       "https://algwiki.moe/js/SkeletonBinary.js"])
-                               $ do H.nav
-                                      $ do H.a H.! A.href "/" $ "Home"
-                                           " > "
-                                           H.a H.! A.href "../shiplist.html" $ "Shiplist"
-                                           " > "
-                                           json %% "name"
-                                    H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships) (ship_data_template !! 2, skill_data_template !! 2)
-                                    H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
+                                              $ json ! "skin"
+                                  in
+                                    mkhtml css "out/ships/" name (json % "name") (do H.style H.! A.type_ "text/css" $ H.preEscapedToHtml $ ".title {background: " ++ decideColor (json % "rarity") ++ ";}"
+                                                                                     mapM_ (\x -> H.script H.! A.src (H.stringValue x) $ "")
+                                                                                       $ ["https://algwiki.moe/js/pixi.min-4.7.1.js",
+                                                                                          "https://algwiki.moe/js/live2dcubismcore.min.js",
+                                                                                          "https://algwiki.moe/js/live2dcubismframework.js",
+                                                                                          "https://algwiki.moe/js/live2dcubismpixi.js",
+                                                                                          "https://algwiki.moe/js/pixi-spine.js",
+                                                                                          "https://algwiki.moe/js/SkeletonBinary.js"])
+                                    $ do H.nav
+                                           $ do H.a H.! A.href "/" $ "Home"
+                                                " > "
+                                                H.a H.! A.href "../shiplist.html" $ "Shiplist"
+                                                " > "
+                                                json %% "name"
+                                         H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships) (ship_data_template !! 2, skill_data_template !! 2)
+                                         H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                  False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
                                                                                                                  True -> "")) ++ "];\n" ++ dumbjs) ships
 
