@@ -42,6 +42,10 @@ showskills json ship_data_template skill_data_template
          H.tr $ mapM_ (H.th H.! A.scope "col" H.! A.class_ "subtitle") ["Icon", "Name", "Description", "Requirements"]
          mapM_ (\x -> H.tr
                       $ do H.td $ H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/skillicon_new/" ++ (case x % "id" of
+                                                                                                                     ['2', _, '3', _, _] -> "20300"
+                                                                                                                     ['2', _, '2', _, _] -> "20200"
+                                                                                                                     ['2', _, '1', _, _] -> "20100"
+                                                                                                                     ['2', _, '0', _, _] -> "20000"
                                                                                                                      ['1', '9', x, y, _] -> ['1', '9', x, y, '0']
                                                                                                                      ['2', '9', x, y, _] -> ['2', '9', x, y, '0']
                                                                                                                      x -> x) ++ ".png")
