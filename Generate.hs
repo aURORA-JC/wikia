@@ -24,7 +24,6 @@ import System.IO.Unsafe
 import qualified Control.Exception as Exc
 
 import Utils
-import Multiprocessing
 
 lookupDefault d b a = case lookups a b of
                         Nothing -> d
