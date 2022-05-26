@@ -151,6 +151,34 @@
             }
         },
         "6": {
+            "id": "ougen_6",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                }
+            }
+        },
+        "8": {
             "id": "ougen_h",
             "name": "Symphonic Fate ",
             "description": "If fate brought us together, then it has my thanks… I look forward to our future together~ ",
@@ -1161,6 +1189,53 @@
                 }
             },
             "6": {
+                "skin_id": "ougen_6",
+                "id": "5",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_5"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_5"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_5"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_5"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_5"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_5"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_5"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_5"
+                    },
+                    "11": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_5"
+                    }
+                }
+            },
+            "8": {
                 "skin_id": "ougen_h",
                 "id": "8",
                 "label": "Symphonic Fate ",

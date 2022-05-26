@@ -4292,6 +4292,60 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "550": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chaijun_younv.png",
+        "link": "little_cheshire",
+        "name": "Little Cheshire",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "551": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qianwei.png",
+        "link": "vanguard",
+        "name": "Vanguard",
+        "navy": "Royal Navy",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "552": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiaweisi.png",
+        "link": "jervis",
+        "name": "Jervis",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "553": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bunao.png",
+        "link": "indomitable",
+        "name": "Indomitable",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "554": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sizhannvshen.png",
+        "link": "bellona",
+        "name": "Bellona",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "555": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fuchou.png",
+        "link": "revenge",
+        "name": "Revenge",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -5036,6 +5090,24 @@
         "link": "sovetsky_soyuz",
         "name": "Sovetsky Soyuz",
         "navy": "Northern Parliament",
+        "rarity": "",
+        "shipType": "unreleased"
+    },
+    "X008": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mengfeisi_alter.png",
+        "link": "memphis_meta",
+        "name": "Memphis META",
+        "navy": "META",
+        "rarity": "",
+        "shipType": "unreleased"
+    },
+    "X009": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fanji_alter.png",
+        "link": "repulse_meta",
+        "name": "Repulse META",
+        "navy": "META",
         "rarity": "",
         "shipType": "unreleased"
     }

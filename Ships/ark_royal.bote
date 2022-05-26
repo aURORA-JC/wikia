@@ -1,1189 +1,1261 @@
 {
-	"name_reference": "ark_royal",
-	"cn_reference": "huangjiafangzhou",
-	"nameJP": "アーク・ロイヤル",
-	"nameCN": "皇家方舟",
-	"ID": "144",
-	"name": "Ark Royal",
-	"internal_id": "207021",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Aircraft Carrier",
-	"navy": "Royal Navy",
-	"prefix": "HMS",
-	"buildTime": "04:00:00",
-	"class": "Ark Royal-Class",
-	"voiceActress": "Asuka Itou",
-	"parameters": {
-		"firepower": "E",
-		"torpedo": "E",
-		"aviation": "A",
-		"evasion": "C",
-		"antiAir": "B",
-		"hp": "B"
-	},
-	"scrap": {
-		"gold": "9",
-		"oil": "3",
-		"medal": "4"
-	},
-	"releaseDate": {
-		"JP": "September 13, 2017",
-		"CN": "May 25, 2017",
-		"KR": "March 27, 2018",
-		"EN": "August 16, 2018"
-	},
-	"artist": {
-		"name": "MKiiiiii",
-		"weibo": "https://www.weibo.com/kawa33?is_hot=1",
-		"twitter": "https://twitter.com/33kawa",
-		"pixiv": "https://www.pixiv.net/member.php?id=661601",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "0",
-		"torpedo": "0",
-		"aviation": "63",
-		"reload": "8"
-	},
-	"acquisitionMethod": "Honor medal exchange, Explore Stage6-3, Special Ship Construction",
-	"skill": {
-		"1": {
-			"icon": "10330",
-			"requirement": "Default Unlocked",
-			"name": "Swordfishes, Strike!",
-			"type": "Offensive",
-			"description": "When this ship launches an Airstrike: launches an additional special airstrike with Swordfishes (Power++) and decreases the Speed of all onscreen enemies by 30.0% (60.0%) for 8s."
-		},
-		"2": {
-			"icon": "3011",
-			"requirement": "Default Unlocked",
-			"name": "Assault Carrier",
-			"type": "Offensive",
-			"description": "When this ship launches an Airstrike: 15.0% (25.0%) chance for the Airstrike to deal double DMG."
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "huangjiafangzhou",
-			"name": "Ark Royal",
-			"description": "Aircraft carrier – Ark Royal, Hull Number 91!",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				}
-			}
-		},
-		"2": {
-			"id": "huangjiafangzhou_2",
-			"name": "Coast Watcher ",
-			"description": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time! ",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"3": {
-			"id": "huangjiafangzhou_3",
-			"name": "Guardian of the Ball ",
-			"description": "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe! ",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		},
-		"4": {
-			"id": "huangjiafangzhou_4",
-			"name": "New Year's Protectress",
-			"description": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				},
-				"6": {
-					"id": "6"
-				}
-			}
-		},
-		"5": {
-			"id": "huangjiafangzhou_h",
-			"name": "",
-			"description": "",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				}
-			}
-		},
-		"6": {
-			"id": "huangjiafangzhou_g",
-			"name": "Ark Royal (Retrofit)",
-			"description": "",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				},
-				"6": {
-					"id": "6"
-				},
-				"7": {
-					"id": "7"
-				},
-				"8": {
-					"id": "8"
-				}
-			}
-		},
-		"101" : {
-			"id" : "huangjiafangzhou_ex1100",
-			"name" : "Ark Royal",
-			"description" : "Aircraft carrier – Ark Royal, Hull Number 91!",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "28000",
-			"rarity": "Common",
-			"name": "Swordfish"
-		},
-		"2": {
-			"icon": "28000",
-			"rarity": "Common",
-			"name": "Swordfish"
-		},
-		"3": {
-			"icon": "29000",
-			"rarity": "",
-			"name": "Blackburn Skua"
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "5311",
-			"firepower": "0",
-			"torpedo": "0",
-			"antiAir": "270",
-			"aviation": "358",
-			"reload": "102",
-			"hit": "91",
-			"evasion": "33",
-			"speed": "31",
-			"luck": "87",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "12",
-			"armor": "Medium"
-		},
-		"120": {
-			"hp": "6107",
-			"firepower": "0",
-			"torpedo": "0",
-			"antiAir": "307",
-			"aviation": "400",
-			"reload": "117",
-			"hit": "102",
-			"evasion": "53",
-			"speed": "31",
-			"luck": "87",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "12",
-			"armor": "Medium"
-		},
-		"base": {
-			"hp": "1027",
-			"firepower": "0",
-			"torpedo": "0",
-			"antiAir": "58",
-			"aviation": "76",
-			"reload": "43",
-			"hit": "35",
-			"evasion": "13",
-			"speed": "31",
-			"luck": "87",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "4",
-			"armor": "Medium"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "31",
-			"luck": "87",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "12",
-			"armor": "Medium"
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "31",
-			"luck": "87",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "12",
-			"armor": "Medium"
-		}
-	},
-	"limitBreak": {
-		"tier1": "All Torpedo Bombers +1/Torpedo Bomber efficiency +3%",
-		"tier2": "Hangar capacity +1/All Dive Bombers +1/Torpedo Bomber efficiency +5%",
-		"tier3": "All Torpedo Bombers +1/Torpedo Bomber efficiency +7%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Torpedo Bomber",
-			"efficiency": "125%/128%/133%/140%",
-			"amount": "1/2/2/3",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Torpedo Bomber",
-			"efficiency": "125%/128%/133%/140%",
-			"amount": "1/2/2/3",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Dive Bomber",
-			"efficiency": "80%/80%/80%/80%",
-			"amount": "1/1/2/2",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "✓",
-			"CN": "✓",
-			"EN": "✓"
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "true",
-		"list": {
-			"1": {
-				"event": "World",
-				"chapter": {
-					"1": {
-						"label": "Ch.6",
-						"node": {
-							"1": {
-								"drop": "-",
-								"note": "-"
-							},
-							"2": {
-								"drop": "-",
-								"note": "-"
-							},
-							"3": {
-								"drop": "✓",
-								"note": "-"
-							},
-							"4": {
-								"drop": "-",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "huangjiafangzhou",
-				"id": "0",
-				"label": "Ark Royal",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "皇家方舟号航空母舰，舷号91",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アーク・ロイヤル級航空母艦・アーク・ロイヤル（HMS Ark Royal）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Aircraft carrier – Ark Royal, Hull Number 91!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "皇家方舟报到。本人是皇家海军第一艘专门设计建造的航母，并且是后续姐妹们的原型，对此本人十分骄傲！ 对俾斯麦的战绩想必不用本人重复，就是想问一下，舰队里有那种，就是，小小的，很可爱的，驱逐舰妹妹吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アーク・ロイヤル参上だ。私はロイヤルネイビー初の空母として設計・建造された艦であり、後継型の妹たちのプロトタイプでもある。今でも光栄に思っているぞ！ビスマルクとの戦いの戦果についてくどく説明しなくてもいいだろ。それと、一つだけ聞きたい…艦隊にはその…小さくて可愛くて、駆逐艦の妹たちがいるか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ark Royal, reporting in! I'm the first aircraft carrier specifically designed and built for the role in the Royal Navy, I'm proud of being a prototype to all other carriers that followed.  Little needs to be said about my feats against the Bismarck. Rather I must ask, are there any of those cute little destroyers in our fleet?",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "皇家方舟前来报到，随时待命！本人对各种战斗都很有自信的，俾斯麦的方向舵就是被本人破坏的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アーク・ロイヤルが参ったぞ。いつでも命令してくれ！戦闘には自信があるんだ。ビスマルクの舵だって壊したんだからな！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ark Royal, reporting in for duty! I am confident in all manners of battle. Why, it was I who managed to destroy Bismarck's rudder!",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "指挥官，本人已准备就绪，随时待命！我对各种战斗都很有自信的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、準備は整ったぞ。いつでも命令してくれ！戦闘には自信があるんだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ready for orders, Commander. I am confident in any kind of battle!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "皇家方舟，随时恭候指挥官的检阅！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "アーク・ロイヤル、いつでも観閲を待っているぞ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ark Royal, ready for inspection!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "指挥官看起来很忙，那本人先不打搅，有什么吩咐请务必告知",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "考え事か。じゃあ邪魔はしないよ、何かあったら呼んでくれ。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander looks like he’s quite busy, I won't bother you then, Let me know if you need anything.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "指挥官，那个……能把那些驱逐妹妹叫到本人的房间里来吗……本人有点礼物想给她们……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ええっと…あの駆逐艦たちを私の部屋に呼んでいいか…プレゼントを渡したいんだ…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, umm……can you tell the destroyers to come to my room?...... I’d like to give them presents.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "这是……呜哇~好可爱！——欸……指、指挥官什么时候来的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これは何…わあ～かわいい！（なでなで）――あれ…か、閣下、いつの間に来てたんだ！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This is……So cute! *pat pat* Eh? Whe-when did you get here, Commander!?",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "指挥官温暖而坚定的双手给了本人继续战斗的动力！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下の温かく力強い手が、私に力を与えてくれるんだ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Your warm hands keep me energized to keep fighting, Commander!",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "欸……咦……阁下请别……这是为什么啊！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え…ちょっと…閣下、やめろ…なぜこんなこと！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Eh... Commander... please don't... Why are you doing this?!",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "指挥官，请不要忘记完成任务是军人的天职！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、任務遂行は軍人の責務だってこと、忘れるなよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, it's a soldier's duty to complete missions!",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "指挥官，放着奖励不领是对任务的不尊重！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、ボーナスをほったらかすことは任務への蔑視とみなされるぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, to leave your rewards unclaimed is disrespect to the mission.",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "需要本人代为朗读信件内容吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "メールの内容を読み上げさせてもらおうか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Do you need to me read out your mail, Commander?",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "接下来是休息时间吗，那本人去照看驱逐妹妹们！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "次は休憩時間かな？で、では、駆逐艦の妹たちの世話に行かせてもらう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Is it time for a break? I'm going to see my destroyer sisters then!",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "指挥官，有委托已经完成了，要是是有驱逐妹妹去的委托，请尽管交给本人去迎接吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、完了した委託がある…駆逐艦が出ているものなら出迎えを私に任せてほしい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commissions have been completed, Commander. If there are any cute destroyers in the fleet, allow me to welcome them back myself.",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "唔哦哦哦哦哦，驱逐妹妹们，本人来保护你们了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うおおお！駆逐艦たちよ、この私が守ってやるぞ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh! oh! oh! Allow me to protect you, my destroyer friends!",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "呵呵，就凭你们吗？剑鱼中队，准备起飞！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふふん、あんたたちが？ソードフィッシュ中隊、出撃の準備を！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Is that it? Hah! Swordfish squadron, prepare for battle!",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "失去了方向的敌人必将失败！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "方向を見失った敵は、必ず負ける！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "An enemy who loses their ability to steer will be doomed!",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "嘁，被摆了一道！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ちくしょう、はめられた！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Damn, trapped!",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "是诸位退场的时候了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "さて、ご退場願おうか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's time for you to leave!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "要是有驱逐妹妹给本人抱一抱的话！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "駆逐艦を抱っこさせてもらえたら…！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If only a destroyer would give me a hug!",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "果然指挥官完全比不上驱逐妹妹们……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "やはり指揮官じゃ駆逐艦とは比べられないか……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You can't compare with the destroyers, Commander...",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "事，事先声明，本人对驱逐妹妹们是那句话怎么说来着，哦对，发，发乎于情，止乎于礼，可没有构成犯、犯、犯、犯罪……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あ、予め言っておくが、駆逐艦の子たちにはなんというか…そう、そ、そのはつじょ…じゃなくて、愛しく思っているが、マナーに従って自重してるわけだ。け、決して、犯罪ではないぞ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I... I'm going to say this in advance, but... those destroyer girls... u-um... I kid of... I mean... I kind of hold them dear... I know how to mind my manners... It's not... it's not a crime!",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "本人一开始还在想终于要被指挥官送去海军法庭了，能被接受真是太好了——没什么丢人的？……指挥官，皇家方舟将一生追随你！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下に軍事法廷に送られると思っていたが、受け入れられてよかったーー恥じることじゃない、だと？！……閣下、このアーク・ロイヤル、一生ついていきます！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I thought you were finally going to have me Court Martialed, Commander! I'm grateful to finally be recognized by you. It's nothing to be ashamed of? Commander, I, Ark Royal, will follow you forever!",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "真，真是的……指挥官要也是驱逐妹妹们那么大，本人就不会这么害羞了……这种事明明给妹妹们做就很正常，指挥官来就……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ま、まったく……閣下も駆逐艦の子たちと同じサイズだったらこうも恥じらったりはしないもの……こういうの、あの子たちには平気なのに、閣下には……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "G-good grief... If you were the same size as those destroyers, Commander, I wouldn't be so embarrassed... I was fine with doing this with the little ones... but with you...",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "要是本人能以更、更近的距离站在指挥官身边，那就能更近距离接触驱逐妹妹们了…当当当然，需要本人和指挥官都有这种意向才行，本、本人非常愿意！不知指挥官意下如何！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "も、もう少し閣下の近くにいたら、駆逐艦の妹たちとももっとスキンシップができたり……ももももちろん、こういうのは私と閣下の合意の……合意の上です！…わ……わたし……わたしは大丈夫だ！どうだ、閣下！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If I were closer to you, Commander, I could get closer with the destroyers too... Of... of course, that can only happen with your approval. I'm more than happy to help you with destroyer inspections! Is that all right, commander?",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "舰队的驱逐妹妹们从今往后就交给本人吧！谁也别想伤害本人和指挥官的妹妹们，谁也别想！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この艦隊にいる駆逐艦の妹たちは今後私にまかせてくれ！誰が来ようが、私と指揮官の妹たちは一人たりとも傷つけはさせん！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'll take care of all the destroyers from now on! No one can touch Commander or my destroyers. No one!",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 ()",
-						"media": "link1",
-						"chinese": "本人现在充满力量！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今の私は力が溢れている！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I feel so strong now!",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Easter Egg 2 (Nevada, Pennsylvania)",
-						"media": "link2",
-						"chinese": "不给后辈们做榜样可不行！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "後輩たちにいい手本を見せなければな。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I've got to set an example for the others!",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Like Present",
-						"media": "present_like",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"31": {
-						"event": "Dislike Present",
-						"media": "present_dislike",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					},
-					"32": {
-						"event": "Main Title",
-						"media": "extra",
-						"chinese": "",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "huangjiafangzhou_2",
-				"id": "1",
-				"label": "Coast Watcher ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "夏天，沙滩，驱逐……呃，那个，对，享受沙滩的同时也不能忘了驱逐敌人！指挥官，皇家方舟即使身着泳装，也随时待命！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夏、砂浜、くちく……コホン！そうだ！海を楽しむのもいいが、敵を駆逐するのも忘れるでないぞ！閣下、このアーク・ロイヤル、水着姿でも準備万端だ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "夏天，沙滩，驱逐……呃，那个，对，享受沙滩的同时也不能忘了驱逐敌人！指挥官，皇家方舟即使身着泳装，也随时待命！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夏、砂浜、くちく……コホン！そうだ！海を楽しむのもいいが、敵を駆逐するのも忘れるでないぞ！閣下、このアーク・ロイヤル、水着姿でも準備万端だ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "夏天啊…指挥官喜欢吗？本人相当喜欢呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夏か……閣下は夏が好きか？私は好きだぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Summer, huh... Commander, do you enjoy the summertime? I know I do.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "驱逐妹妹们单独在沙滩边玩很危险的，本人建议每天定一个时间段专门让她们一起在沙滩玩！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "駆逐艦の妹たちだけで砂浜で遊ぶのは危険だな……時間帯を設け、集中して遊んでもらえるように具申する！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It is dangerous to let the destroyers play on the beach alone... I suggest setting aside time every day to allow them to frolic together.",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "指挥官，本人买了许多沙滩用的玩具但是不知道怎么用，能去请教一下驱逐妹妹们吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、実は砂浜で遊ぶ遊具を購入したがいまいち使い方がわからないのだ。後学のために駆逐艦の妹たちのところへ教えてもらいに行っても大丈夫だろうか…？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "To be honest, Commander, I wanted to provide everyone with some toys to play with while on the beach, but don't know what would be well received. Could I go consult the destroyers to see what they think? ",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "指挥官，怎么了，盯着本人一直看……安静下来明明是个美人？！…谢、谢谢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、どうしてこっちを……「黙っていれば美人なのに」だと！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, why have you been staring at me this whole time? Huh, I'm \"quite the beauty when I'm not running my mouth\"...?! ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "即使兴趣有些独特，本人也是优秀的秘书舰，工作请尽管交给本人吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "趣味がちょっと変わっているかもしれないが、秘書艦としては自信があるんだぞ！仕事はぜひ私にまかせてくれ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Some say that my tastes are a bit questionable, but I have complete confidence in my abilities as secretary ship. I'll take care of the work!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "有穿泳装的驱逐妹妹在游泳？！在哪？！……指挥官，不要戏弄本人！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "水着姿で泳いでいる駆逐艦が！？どこだ！……閣下！からかわないでくれ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Destroyers frolicking around in swimsuits? Where?! ...Commander, don't mess with me like that!",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
-				"skin_id": "huangjiafangzhou_3",
-				"id": "2",
-				"label": "Guardian of the Ball ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "越是在欢庆的时候，人们越容易丧失警惕之心。今天的晚会，就交由我皇家方舟来守护吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "パーティーでは警戒心が緩みやすい。今夜の宴会はこのアーク・ロイヤルが守る！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_2",
-						"chinese": "越是在欢庆的时候，人们越容易丧失警惕之心。今天的晚会，就交由我皇家方舟来守护吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "パーティーでは警戒心が緩みやすい。今夜の宴会はこのアーク・ロイヤルが守る！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_2",
-						"chinese": "指挥官，目前会场状况一切正常！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、今のところ会場の様子に異常はない",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, status report: all quiet over here.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_2",
-						"chinese": "你是要看这个相机的内容吗？那……请放心，等晚会结束之后，本人会把照片悉数上交的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "撮った写真を見たいのか？では……コホン！安心してくれ！撮った写真は宴会の後でしっかり渡させてもらおう！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You need to inspect what's on my camera? Well... let's not worry about it until after the party. I promise I'll hand over every last negative!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_2",
-						"chinese": "这个相机是专门用来记录可能出现的突发状况的。当然，本人也会用它留下一些晚会的精彩瞬间。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このカメラは基本突発的な状況の記録に使用するが、まあ、宴会における素晴らしい瞬間も撮らせていただこう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This camera is strictly for security recording purposes. You never know what might happen. Of course, I could also use it to record some tender moments.",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_2",
-						"chinese": "指挥官，觉得冷的话，需要本人把外套借给你吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、寒いならこのコートを貸そうか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Are you cold, Commander? You can have my jacket.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_2",
-						"chinese": "晚会会场嘈杂纷乱，本人有义务保证每个驱逐妹妹的安全！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "宴会は騒がしいのが常だが、中にいる駆逐艦の妹たちの安全を守るのは私の義務だ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This party is so noisy, so rowdy. It's my responsibility to take watch over those sweet, innocent, little destroyer girls!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_2",
-						"chinese": "不必担心本人。在大家沉浸于晚会的美好之时，需要有一个人保持冷静的头脑。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私のことは気にするな。皆がパーティーの熱気に包まれているからこそ、誰かが冷静でいなければならないんだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh, don't worry about me. While everyone else sinks into the enrapturing atmosphere of the evening, someone has to stay sober and alert.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_2",
-						"chinese": "你是想邀请本人跳舞吗？但，但是，等等，这，这有点奇怪吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私とダンスを？…待て閣下、これはこう…いくらなんでもおかしくないか？？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You want to dance with me? But, Commander, this... isn't this a little out of the ordinary?",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_2",
-						"chinese": "哦哦，太棒了，这张简直完美！——咳咳，刚刚……没错！刚刚只是例行记录而已，本人绝对没有做奇怪的事情！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おおおお！いいぞ！完璧だ！！――こ、コホン！い、いまのは…そうだ！今のは定時記録だ！おかしな写真でもなんでもないぞ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ooooooh! Brilliant! Perfect! – Ahem! Erm, well, that's right! This is just your average, everyday record keeping here. I'm not doing anything weird at all! No siree!",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Flagship",
-						"media": "warcry_2",
-						"chinese": "现在开始驱逐扰乱分子！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "かく乱者の駆逐を開始する！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Time to get rid of some troublemakers!",
-						"englishNote": ""
-					}
-				}
-			},
-			"4": {
-				"skin_id": "huangjiafangzhou_4",
-				"id": "3",
-				"label": "New Year's Protectress",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "哟，指挥官，新年快乐。不，我并不是准备去打猎，我只是在负责新年期间港区的安保而已——当然是自愿的。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、あけましておめでとう。ああ、別に狩りに出るのではなく、お正月の母港の見回りをしているんだ。もちろん、私から手を挙げてやらせてもらったんだぞ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_3",
-						"chinese": "哟，指挥官，新年快乐。不，我并不是准备去打猎，我只是在负责新年期间港区的安保而已——当然是自愿的。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下、あけましておめでとう。ああ、別に狩りに出るのではなく、お正月の母港の見回りをしているんだ。もちろん、私から手を挙げてやらせてもらったんだぞ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_3",
-						"chinese": "越是温馨和谐的场景，越是让人想要守护好它。指挥官，你觉得呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "心温まる場所、風景――思わず守護りたくなるな。閣下、違うか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The more peaceful and inviting the atmosphere, the more one wants to protect it. What do you think, Commander?",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_3",
-						"chinese": "这把枪也能用来发射礼炮。在晚宴上，本人会让它派上用场的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この銃は礼砲用にも使われる。今度の宴会のときにはしっかり鳴らさせてもらうぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I can use this gun for ceremonial salutes, as well. I'll put her to good use at the banquet!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_3",
-						"chinese": "穿着重樱打扮的驱逐舰们……啊，只是想想，就让人心潮澎湃！新年，实在是太棒了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "重桜風の衣装を身にまとった駆逐艦の妹たち…考えているだけで嬉しい気分だ！お正月、最高だ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh those destroyers in their Eastern dresses... Ah, I was just thinking how captivating it all is. These New Year's celebrations really are splendid!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_3",
-						"chinese": "本人已经把新年里值得关注的节目都记下来了。如果指挥官有需要，尽管咨询本人就行。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "お正月の行事、閣下が気になりそうなものは全部メモしてある。確認したいものがあったらいつでも聞いてくれ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I have already committed everything important about the New Year's programming to memory. If you need anything, Commander, do let me know.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_3",
-						"chinese": "哪里需要帮助，本人就会在哪里出现！这是守护这个新年的本人所做出的的承诺！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "お呼びとあらば即、参上！母港のお正月を守る、私、アーク・ロイヤルがそう誓ったのだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Wherever there is trouble, I shall be there! Such is my solemn oath as guardian of the new year!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_3",
-						"chinese": "指挥官，你要亲自试试发射礼炮吗？可要小心后坐力。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "閣下はこれを撃ってみたいのか？あ、反動だけは気を付けたほうがいいぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, would you like to personally carry out the gun salute? Mind the recoil.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_3",
-						"chinese": "衣服领口歪了？啊，谢谢。……等等，不，不是这样的吧？！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "襟元が乱れている？すまん、感謝する……って、こ、ここではないぞ！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My neckline is off? Oh, thank you... Oh my, no, it doesn't go like this, does it?!",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_3",
-						"chinese": "能在这里守望着驱逐——舰队的大家，对我来说，就是新年最好的礼物了呢。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ここのくちく――じゃなく、艦隊の皆を守護れることは、私にとって一番のニューイヤープレゼントだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "To be able to watch over the destro– The fleet here, that's the best new year's gift anyone could give me.",
-						"englishNote": ""
-					}
-				}
-			},
+    "name_reference": "ark_royal",
+    "cn_reference": "huangjiafangzhou",
+    "nameJP": "アーク・ロイヤル",
+    "nameCN": "皇家方舟",
+    "ID": "144",
+    "name": "Ark Royal",
+    "internal_id": "207021",
+    "rarity": "Elite",
+    "initialStar": "★★☆☆☆",
+    "hull": "Aircraft Carrier",
+    "navy": "Royal Navy",
+    "prefix": "HMS",
+    "buildTime": "04:00:00",
+    "class": "Ark Royal-Class",
+    "voiceActress": "Asuka Itou",
+    "parameters": {
+        "firepower": "E",
+        "torpedo": "E",
+        "aviation": "A",
+        "evasion": "C",
+        "antiAir": "B",
+        "hp": "B"
+    },
+    "scrap": {
+        "gold": "9",
+        "oil": "3",
+        "medal": "4"
+    },
+    "releaseDate": {
+        "JP": "September 13, 2017",
+        "CN": "May 25, 2017",
+        "KR": "March 27, 2018",
+        "EN": "August 16, 2018"
+    },
+    "artist": {
+        "name": "MKiiiiii",
+        "weibo": "https://www.weibo.com/kawa33?is_hot=1",
+        "twitter": "https://twitter.com/33kawa",
+        "pixiv": "https://www.pixiv.net/member.php?id=661601",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "0",
+        "torpedo": "0",
+        "aviation": "63",
+        "reload": "8"
+    },
+    "acquisitionMethod": "Honor medal exchange, Explore Stage6-3, Special Ship Construction",
+    "skill": {
+        "1": {
+            "icon": "10330",
+            "requirement": "Default Unlocked",
+            "name": "Swordfishes, Strike!",
+            "type": "Offensive",
+            "description": "When this ship launches an Airstrike: launches an additional special airstrike with Swordfishes (Power++) and decreases the Speed of all onscreen enemies by 30.0% (60.0%) for 8s."
+        },
+        "2": {
+            "icon": "3011",
+            "requirement": "Default Unlocked",
+            "name": "Assault Carrier",
+            "type": "Offensive",
+            "description": "When this ship launches an Airstrike: 15.0% (25.0%) chance for the Airstrike to deal double DMG."
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "huangjiafangzhou",
+            "name": "Ark Royal",
+            "description": "Aircraft carrier – Ark Royal, Hull Number 91!",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                },
+                "4" : {
+                    "id" : "4"
+                }
+            }
+        },
+        "2": {
+            "id": "huangjiafangzhou_2",
+            "name": "Coast Watcher ",
+            "description": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time! ",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
+        },
+        "3": {
+            "id": "huangjiafangzhou_3",
+            "name": "Guardian of the Ball ",
+            "description": "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe! ",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                }
+            }
+        },
+        "4": {
+            "id": "huangjiafangzhou_4",
+            "name": "New Year's Protectress",
+            "description": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                }
+            }
+        },
+        "5": {
+            "id": "huangjiafangzhou_5",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
+        },
+        "8": {
+            "id": "huangjiafangzhou_h",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                }
+            }
+        },
+        "9": {
+            "id": "huangjiafangzhou_g",
+            "name": "Ark Royal (Retrofit)",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                },
+                "7": {
+                    "id": "7"
+                },
+                "8": {
+                    "id": "8"
+                }
+            }
+        },
+        "101" : {
+            "id" : "huangjiafangzhou_ex1100",
+            "name" : "Ark Royal",
+            "description" : "Aircraft carrier – Ark Royal, Hull Number 91!",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                },
+                "4" : {
+                    "id" : "4"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "28000",
+            "rarity": "Common",
+            "name": "Swordfish"
+        },
+        "2": {
+            "icon": "28000",
+            "rarity": "Common",
+            "name": "Swordfish"
+        },
+        "3": {
+            "icon": "29000",
+            "rarity": "",
+            "name": "Blackburn Skua"
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "5311",
+            "firepower": "0",
+            "torpedo": "0",
+            "antiAir": "270",
+            "aviation": "358",
+            "reload": "102",
+            "hit": "91",
+            "evasion": "33",
+            "speed": "31",
+            "luck": "87",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "12",
+            "armor": "Medium"
+        },
+        "120": {
+            "hp": "6107",
+            "firepower": "0",
+            "torpedo": "0",
+            "antiAir": "307",
+            "aviation": "400",
+            "reload": "117",
+            "hit": "102",
+            "evasion": "53",
+            "speed": "31",
+            "luck": "87",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "12",
+            "armor": "Medium"
+        },
+        "base": {
+            "hp": "1027",
+            "firepower": "0",
+            "torpedo": "0",
+            "antiAir": "58",
+            "aviation": "76",
+            "reload": "43",
+            "hit": "35",
+            "evasion": "13",
+            "speed": "31",
+            "luck": "87",
+            "asw": "0",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "4",
+            "armor": "Medium"
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "31",
+            "luck": "87",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "12",
+            "armor": "Medium"
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "31",
+            "luck": "87",
+            "asw": "",
+            "oxygen": "0",
+            "ammo": "0",
+            "cost": "12",
+            "armor": "Medium"
+        }
+    },
+    "limitBreak": {
+        "tier1": "All Torpedo Bombers +1/Torpedo Bomber efficiency +3%",
+        "tier2": "Hangar capacity +1/All Dive Bombers +1/Torpedo Bomber efficiency +5%",
+        "tier3": "All Torpedo Bombers +1/Torpedo Bomber efficiency +7%"
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "Torpedo Bomber",
+            "efficiency": "125%/128%/133%/140%",
+            "amount": "1/2/2/3",
+            "preload": "0/0/0/0"
+        },
+        "2": {
+            "type": "Torpedo Bomber",
+            "efficiency": "125%/128%/133%/140%",
+            "amount": "1/2/2/3",
+            "preload": "0/0/0/0"
+        },
+        "3": {
+            "type": "Dive Bomber",
+            "efficiency": "80%/80%/80%/80%",
+            "amount": "1/1/2/2",
+            "preload": "0/0/0/0"
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "✓",
+            "CN": "✓",
+            "EN": "✓"
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "true",
+        "list": {
+            "1": {
+                "event": "World",
+                "chapter": {
+                    "1": {
+                        "label": "Ch.6",
+                        "node": {
+                            "1": {
+                                "drop": "-",
+                                "note": "-"
+                            },
+                            "2": {
+                                "drop": "-",
+                                "note": "-"
+                            },
+                            "3": {
+                                "drop": "✓",
+                                "note": "-"
+                            },
+                            "4": {
+                                "drop": "-",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "huangjiafangzhou",
+                "id": "0",
+                "label": "Ark Royal",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "皇家方舟号航空母舰，舷号91",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アーク・ロイヤル級航空母艦・アーク・ロイヤル（HMS Ark Royal）",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Aircraft carrier – Ark Royal, Hull Number 91!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile",
+                        "chinese": "皇家方舟报到。本人是皇家海军第一艘专门设计建造的航母，并且是后续姐妹们的原型，对此本人十分骄傲！ 对俾斯麦的战绩想必不用本人重复，就是想问一下，舰队里有那种，就是，小小的，很可爱的，驱逐舰妹妹吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アーク・ロイヤル参上だ。私はロイヤルネイビー初の空母として設計・建造された艦であり、後継型の妹たちのプロトタイプでもある。今でも光栄に思っているぞ！ビスマルクとの戦いの戦果についてくどく説明しなくてもいいだろ。それと、一つだけ聞きたい…艦隊にはその…小さくて可愛くて、駆逐艦の妹たちがいるか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ark Royal, reporting in! I'm the first aircraft carrier specifically designed and built for the role in the Royal Navy, I'm proud of being a prototype to all other carriers that followed.  Little needs to be said about my feats against the Bismarck. Rather I must ask, are there any of those cute little destroyers in our fleet?",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get",
+                        "chinese": "皇家方舟前来报到，随时待命！本人对各种战斗都很有自信的，俾斯麦的方向舵就是被本人破坏的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アーク・ロイヤルが参ったぞ。いつでも命令してくれ！戦闘には自信があるんだ。ビスマルクの舵だって壊したんだからな！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ark Royal, reporting in for duty! I am confident in all manners of battle. Why, it was I who managed to destroy Bismarck's rudder!",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login",
+                        "chinese": "指挥官，本人已准备就绪，随时待命！我对各种战斗都很有自信的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、準備は整ったぞ。いつでも命令してくれ！戦闘には自信があるんだ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ready for orders, Commander. I am confident in any kind of battle!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail",
+                        "chinese": "皇家方舟，随时恭候指挥官的检阅！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "アーク・ロイヤル、いつでも観閲を待っているぞ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ark Royal, ready for inspection!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1",
+                        "chinese": "指挥官看起来很忙，那本人先不打搅，有什么吩咐请务必告知",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "考え事か。じゃあ邪魔はしないよ、何かあったら呼んでくれ。",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander looks like he’s quite busy, I won't bother you then, Let me know if you need anything.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2",
+                        "chinese": "指挥官，那个……能把那些驱逐妹妹叫到本人的房间里来吗……本人有点礼物想给她们……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ええっと…あの駆逐艦たちを私の部屋に呼んでいいか…プレゼントを渡したいんだ…",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, umm……can you tell the destroyers to come to my room?...... I’d like to give them presents.",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3",
+                        "chinese": "这是……呜哇~好可爱！——欸……指、指挥官什么时候来的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "これは何…わあ～かわいい！（なでなで）――あれ…か、閣下、いつの間に来てたんだ！？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This is……So cute! *pat pat* Eh? Whe-when did you get here, Commander!?",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch",
+                        "media": "touch_1",
+                        "chinese": "指挥官温暖而坚定的双手给了本人继续战斗的动力！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下の温かく力強い手が、私に力を与えてくれるんだ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Your warm hands keep me energized to keep fighting, Commander!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2",
+                        "chinese": "欸……咦……阁下请别……这是为什么啊！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "え…ちょっと…閣下、やめろ…なぜこんなこと！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Eh... Commander... please don't... Why are you doing this?!",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Mission",
+                        "media": "task",
+                        "chinese": "指挥官，请不要忘记完成任务是军人的天职！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、任務遂行は軍人の責務だってこと、忘れるなよ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, it's a soldier's duty to complete missions!",
+                        "englishNote": ""
+                    },
+                    "12": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete",
+                        "chinese": "指挥官，放着奖励不领是对任务的不尊重！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、ボーナスをほったらかすことは任務への蔑視とみなされるぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, to leave your rewards unclaimed is disrespect to the mission.",
+                        "englishNote": ""
+                    },
+                    "13": {
+                        "event": "Mail",
+                        "media": "mail",
+                        "chinese": "需要本人代为朗读信件内容吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "メールの内容を読み上げさせてもらおうか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Do you need to me read out your mail, Commander?",
+                        "englishNote": ""
+                    },
+                    "14": {
+                        "event": "Return to Port",
+                        "media": "home",
+                        "chinese": "接下来是休息时间吗，那本人去照看驱逐妹妹们！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "次は休憩時間かな？で、では、駆逐艦の妹たちの世話に行かせてもらう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Is it time for a break? I'm going to see my destroyer sisters then!",
+                        "englishNote": ""
+                    },
+                    "15": {
+                        "event": "Commission Complete",
+                        "media": "expedition",
+                        "chinese": "指挥官，有委托已经完成了，要是是有驱逐妹妹去的委托，请尽管交给本人去迎接吧！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、完了した委託がある…駆逐艦が出ているものなら出迎えを私に任せてほしい！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commissions have been completed, Commander. If there are any cute destroyers in the fleet, allow me to welcome them back myself.",
+                        "englishNote": ""
+                    },
+                    "16": {
+                        "event": "Enhancement",
+                        "media": "upgrade",
+                        "chinese": "唔哦哦哦哦哦，驱逐妹妹们，本人来保护你们了！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "うおおお！駆逐艦たちよ、この私が守ってやるぞ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh! oh! oh! Allow me to protect you, my destroyer friends!",
+                        "englishNote": ""
+                    },
+                    "17": {
+                        "event": "Flagship",
+                        "media": "warcry",
+                        "chinese": "呵呵，就凭你们吗？剑鱼中队，准备起飞！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ふふん、あんたたちが？ソードフィッシュ中隊、出撃の準備を！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Is that it? Hah! Swordfish squadron, prepare for battle!",
+                        "englishNote": ""
+                    },
+                    "18": {
+                        "event": "Victory",
+                        "media": "mvp",
+                        "chinese": "失去了方向的敌人必将失败！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "方向を見失った敵は、必ず負ける！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "An enemy who loses their ability to steer will be doomed!",
+                        "englishNote": ""
+                    },
+                    "19": {
+                        "event": "Defeat",
+                        "media": "lose",
+                        "chinese": "嘁，被摆了一道！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ちくしょう、はめられた！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Damn, trapped!",
+                        "englishNote": ""
+                    },
+                    "20": {
+                        "event": "Skill",
+                        "media": "skill",
+                        "chinese": "是诸位退场的时候了",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "さて、ご退場願おうか！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It's time for you to leave!",
+                        "englishNote": ""
+                    },
+                    "21": {
+                        "event": "Low HP",
+                        "media": "hp",
+                        "chinese": "要是有驱逐妹妹给本人抱一抱的话！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "駆逐艦を抱っこさせてもらえたら…！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If only a destroyer would give me a hug!",
+                        "englishNote": ""
+                    },
+                    "22": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1",
+                        "chinese": "果然指挥官完全比不上驱逐妹妹们……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "やはり指揮官じゃ駆逐艦とは比べられないか……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You can't compare with the destroyers, Commander...",
+                        "englishNote": ""
+                    },
+                    "23": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2",
+                        "chinese": "事，事先声明，本人对驱逐妹妹们是那句话怎么说来着，哦对，发，发乎于情，止乎于礼，可没有构成犯、犯、犯、犯罪……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "あ、予め言っておくが、駆逐艦の子たちにはなんというか…そう、そ、そのはつじょ…じゃなくて、愛しく思っているが、マナーに従って自重してるわけだ。け、決して、犯罪ではないぞ……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I... I'm going to say this in advance, but... those destroyer girls... u-um... I kid of... I mean... I kind of hold them dear... I know how to mind my manners... It's not... it's not a crime!",
+                        "englishNote": ""
+                    },
+                    "24": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3",
+                        "chinese": "本人一开始还在想终于要被指挥官送去海军法庭了，能被接受真是太好了——没什么丢人的？……指挥官，皇家方舟将一生追随你！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下に軍事法廷に送られると思っていたが、受け入れられてよかったーー恥じることじゃない、だと？！……閣下、このアーク・ロイヤル、一生ついていきます！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I thought you were finally going to have me Court Martialed, Commander! I'm grateful to finally be recognized by you. It's nothing to be ashamed of? Commander, I, Ark Royal, will follow you forever!",
+                        "englishNote": ""
+                    },
+                    "25": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4",
+                        "chinese": "真，真是的……指挥官要也是驱逐妹妹们那么大，本人就不会这么害羞了……这种事明明给妹妹们做就很正常，指挥官来就……",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ま、まったく……閣下も駆逐艦の子たちと同じサイズだったらこうも恥じらったりはしないもの……こういうの、あの子たちには平気なのに、閣下には……",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "G-good grief... If you were the same size as those destroyers, Commander, I wouldn't be so embarrassed... I was fine with doing this with the little ones... but with you...",
+                        "englishNote": ""
+                    },
+                    "26": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5",
+                        "chinese": "要是本人能以更、更近的距离站在指挥官身边，那就能更近距离接触驱逐妹妹们了…当当当然，需要本人和指挥官都有这种意向才行，本、本人非常愿意！不知指挥官意下如何！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "も、もう少し閣下の近くにいたら、駆逐艦の妹たちとももっとスキンシップができたり……ももももちろん、こういうのは私と閣下の合意の……合意の上です！…わ……わたし……わたしは大丈夫だ！どうだ、閣下！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "If I were closer to you, Commander, I could get closer with the destroyers too... Of... of course, that can only happen with your approval. I'm more than happy to help you with destroyer inspections! Is that all right, commander?",
+                        "englishNote": ""
+                    },
+                    "27": {
+                        "event": "Pledge",
+                        "media": "propose",
+                        "chinese": "舰队的驱逐妹妹们从今往后就交给本人吧！谁也别想伤害本人和指挥官的妹妹们，谁也别想！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "この艦隊にいる駆逐艦の妹たちは今後私にまかせてくれ！誰が来ようが、私と指揮官の妹たちは一人たりとも傷つけはさせん！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I'll take care of all the destroyers from now on! No one can touch Commander or my destroyers. No one!",
+                        "englishNote": ""
+                    },
+                    "28": {
+                        "event": "Easter Egg 1 ()",
+                        "media": "link1",
+                        "chinese": "本人现在充满力量！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "今の私は力が溢れている！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I feel so strong now!",
+                        "englishNote": ""
+                    },
+                    "29": {
+                        "event": "Easter Egg 2 (Nevada, Pennsylvania)",
+                        "media": "link2",
+                        "chinese": "不给后辈们做榜样可不行！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "後輩たちにいい手本を見せなければな。",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I've got to set an example for the others!",
+                        "englishNote": ""
+                    },
+                    "30": {
+                        "event": "Like Present",
+                        "media": "present_like",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "31": {
+                        "event": "Dislike Present",
+                        "media": "present_dislike",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "32": {
+                        "event": "Main Title",
+                        "media": "extra",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "2": {
+                "skin_id": "huangjiafangzhou_2",
+                "id": "1",
+                "label": "Coast Watcher ",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "夏天，沙滩，驱逐……呃，那个，对，享受沙滩的同时也不能忘了驱逐敌人！指挥官，皇家方舟即使身着泳装，也随时待命！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "夏、砂浜、くちく……コホン！そうだ！海を楽しむのもいいが、敵を駆逐するのも忘れるでないぞ！閣下、このアーク・ロイヤル、水着姿でも準備万端だ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1",
+                        "chinese": "夏天，沙滩，驱逐……呃，那个，对，享受沙滩的同时也不能忘了驱逐敌人！指挥官，皇家方舟即使身着泳装，也随时待命！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "夏、砂浜、くちく……コホン！そうだ！海を楽しむのもいいが、敵を駆逐するのも忘れるでないぞ！閣下、このアーク・ロイヤル、水着姿でも準備万端だ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1",
+                        "chinese": "夏天啊…指挥官喜欢吗？本人相当喜欢呢",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "夏か……閣下は夏が好きか？私は好きだぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Summer, huh... Commander, do you enjoy the summertime? I know I do.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1",
+                        "chinese": "驱逐妹妹们单独在沙滩边玩很危险的，本人建议每天定一个时间段专门让她们一起在沙滩玩！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "駆逐艦の妹たちだけで砂浜で遊ぶのは危険だな……時間帯を設け、集中して遊んでもらえるように具申する！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "It is dangerous to let the destroyers play on the beach alone... I suggest setting aside time every day to allow them to frolic together.",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1",
+                        "chinese": "指挥官，本人买了许多沙滩用的玩具但是不知道怎么用，能去请教一下驱逐妹妹们吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、実は砂浜で遊ぶ遊具を購入したがいまいち使い方がわからないのだ。後学のために駆逐艦の妹たちのところへ教えてもらいに行っても大丈夫だろうか…？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "To be honest, Commander, I wanted to provide everyone with some toys to play with while on the beach, but don't know what would be well received. Could I go consult the destroyers to see what they think? ",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1",
+                        "chinese": "指挥官，怎么了，盯着本人一直看……安静下来明明是个美人？！…谢、谢谢",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、どうしてこっちを……「黙っていれば美人なのに」だと！？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, why have you been staring at me this whole time? Huh, I'm \"quite the beauty when I'm not running my mouth\"...?! ",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1",
+                        "chinese": "即使兴趣有些独特，本人也是优秀的秘书舰，工作请尽管交给本人吧！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "趣味がちょっと変わっているかもしれないが、秘書艦としては自信があるんだぞ！仕事はぜひ私にまかせてくれ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Some say that my tastes are a bit questionable, but I have complete confidence in my abilities as secretary ship. I'll take care of the work!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1",
+                        "chinese": "有穿泳装的驱逐妹妹在游泳？！在哪？！……指挥官，不要戏弄本人！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "水着姿で泳いでいる駆逐艦が！？どこだ！……閣下！からかわないでくれ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Destroyers frolicking around in swimsuits? Where?! ...Commander, don't mess with me like that!",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "3": {
+                "skin_id": "huangjiafangzhou_3",
+                "id": "2",
+                "label": "Guardian of the Ball ",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "越是在欢庆的时候，人们越容易丧失警惕之心。今天的晚会，就交由我皇家方舟来守护吧！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "パーティーでは警戒心が緩みやすい。今夜の宴会はこのアーク・ロイヤルが守る！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2",
+                        "chinese": "越是在欢庆的时候，人们越容易丧失警惕之心。今天的晚会，就交由我皇家方舟来守护吧！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "パーティーでは警戒心が緩みやすい。今夜の宴会はこのアーク・ロイヤルが守る！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "One tends to let her guard down at a party like this, but worry not! Put the ball in my hands and let Ark Royal keep you safe!",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2",
+                        "chinese": "指挥官，目前会场状况一切正常！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、今のところ会場の様子に異常はない",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, status report: all quiet over here.",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2",
+                        "chinese": "你是要看这个相机的内容吗？那……请放心，等晚会结束之后，本人会把照片悉数上交的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "撮った写真を見たいのか？では……コホン！安心してくれ！撮った写真は宴会の後でしっかり渡させてもらおう！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You need to inspect what's on my camera? Well... let's not worry about it until after the party. I promise I'll hand over every last negative!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2",
+                        "chinese": "这个相机是专门用来记录可能出现的突发状况的。当然，本人也会用它留下一些晚会的精彩瞬间。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "このカメラは基本突発的な状況の記録に使用するが、まあ、宴会における素晴らしい瞬間も撮らせていただこう",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This camera is strictly for security recording purposes. You never know what might happen. Of course, I could also use it to record some tender moments.",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2",
+                        "chinese": "指挥官，觉得冷的话，需要本人把外套借给你吗？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、寒いならこのコートを貸そうか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Are you cold, Commander? You can have my jacket.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2",
+                        "chinese": "晚会会场嘈杂纷乱，本人有义务保证每个驱逐妹妹的安全！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "宴会は騒がしいのが常だが、中にいる駆逐艦の妹たちの安全を守るのは私の義務だ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "This party is so noisy, so rowdy. It's my responsibility to take watch over those sweet, innocent, little destroyer girls!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2",
+                        "chinese": "不必担心本人。在大家沉浸于晚会的美好之时，需要有一个人保持冷静的头脑。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "私のことは気にするな。皆がパーティーの熱気に包まれているからこそ、誰かが冷静でいなければならないんだ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh, don't worry about me. While everyone else sinks into the enrapturing atmosphere of the evening, someone has to stay sober and alert.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2",
+                        "chinese": "你是想邀请本人跳舞吗？但，但是，等等，这，这有点奇怪吧？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "私とダンスを？…待て閣下、これはこう…いくらなんでもおかしくないか？？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You want to dance with me? But, Commander, this... isn't this a little out of the ordinary?",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2",
+                        "chinese": "哦哦，太棒了，这张简直完美！——咳咳，刚刚……没错！刚刚只是例行记录而已，本人绝对没有做奇怪的事情！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "おおおお！いいぞ！完璧だ！！――こ、コホン！い、いまのは…そうだ！今のは定時記録だ！おかしな写真でもなんでもないぞ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Ooooooh! Brilliant! Perfect! – Ahem! Erm, well, that's right! This is just your average, everyday record keeping here. I'm not doing anything weird at all! No siree!",
+                        "englishNote": ""
+                    },
+                    "11": {
+                        "event": "Flagship",
+                        "media": "warcry_2",
+                        "chinese": "现在开始驱逐扰乱分子！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "かく乱者の駆逐を開始する！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Time to get rid of some troublemakers!",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "4": {
+                "skin_id": "huangjiafangzhou_4",
+                "id": "3",
+                "label": "New Year's Protectress",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "哟，指挥官，新年快乐。不，我并不是准备去打猎，我只是在负责新年期间港区的安保而已——当然是自愿的。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、あけましておめでとう。ああ、別に狩りに出るのではなく、お正月の母港の見回りをしているんだ。もちろん、私から手を挙げてやらせてもらったんだぞ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_3",
+                        "chinese": "哟，指挥官，新年快乐。不，我并不是准备去打猎，我只是在负责新年期间港区的安保而已——当然是自愿的。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下、あけましておめでとう。ああ、別に狩りに出るのではなく、お正月の母港の見回りをしているんだ。もちろん、私から手を挙げてやらせてもらったんだぞ？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, Happy New Year. Oh no, I'm not going hunting. I'm patrolling the port during the New Year's celebrations. Naturally, I volunteered for the job.",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_3",
+                        "chinese": "越是温馨和谐的场景，越是让人想要守护好它。指挥官，你觉得呢？",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "心温まる場所、風景――思わず守護りたくなるな。閣下、違うか？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "The more peaceful and inviting the atmosphere, the more one wants to protect it. What do you think, Commander?",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_3",
+                        "chinese": "这把枪也能用来发射礼炮。在晚宴上，本人会让它派上用场的！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "この銃は礼砲用にも使われる。今度の宴会のときにはしっかり鳴らさせてもらうぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I can use this gun for ceremonial salutes, as well. I'll put her to good use at the banquet!",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_3",
+                        "chinese": "穿着重樱打扮的驱逐舰们……啊，只是想想，就让人心潮澎湃！新年，实在是太棒了！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "重桜風の衣装を身にまとった駆逐艦の妹たち…考えているだけで嬉しい気分だ！お正月、最高だ！",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Oh those destroyers in their Eastern dresses... Ah, I was just thinking how captivating it all is. These New Year's celebrations really are splendid!",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_3",
+                        "chinese": "本人已经把新年里值得关注的节目都记下来了。如果指挥官有需要，尽管咨询本人就行。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "お正月の行事、閣下が気になりそうなものは全部メモしてある。確認したいものがあったらいつでも聞いてくれ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "I have already committed everything important about the New Year's programming to memory. If you need anything, Commander, do let me know.",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_3",
+                        "chinese": "哪里需要帮助，本人就会在哪里出现！这是守护这个新年的本人所做出的的承诺！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "お呼びとあらば即、参上！母港のお正月を守る、私、アーク・ロイヤルがそう誓ったのだ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Wherever there is trouble, I shall be there! Such is my solemn oath as guardian of the new year!",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_3",
+                        "chinese": "指挥官，你要亲自试试发射礼炮吗？可要小心后坐力。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "閣下はこれを撃ってみたいのか？あ、反動だけは気を付けたほうがいいぞ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Commander, would you like to personally carry out the gun salute? Mind the recoil.",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_3",
+                        "chinese": "衣服领口歪了？啊，谢谢。……等等，不，不是这样的吧？！",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "襟元が乱れている？すまん、感謝する……って、こ、ここではないぞ！？",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "My neckline is off? Oh, thank you... Oh my, no, it doesn't go like this, does it?!",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_3",
+                        "chinese": "能在这里守望着驱逐——舰队的大家，对我来说，就是新年最好的礼物了呢。",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "ここのくちく――じゃなく、艦隊の皆を守護れることは、私にとって一番のニューイヤープレゼントだ",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "To be able to watch over the destro– The fleet here, that's the best new year's gift anyone could give me.",
+                        "englishNote": ""
+                    }
+                }
+            },
             "5": {
+                "skin_id": "huangjiafangzhou_5",
+                "id": "4",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_4"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_4"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_4"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_4"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_4"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_4"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_4"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_4"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_4"
+                    }
+                }
+            },
+            "8": {
                 "skin_id": "huangjiafangzhou_h",
                 "id": "8",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -1213,12 +1285,12 @@
                     }
                 }
             },
-            "6": {
+            "9": {
                 "skin_id": "huangjiafangzhou_g",
                 "id": "9",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -1260,134 +1332,134 @@
                     }
                 }
             },
-			"101": {
-				"skin_id" : "huangjiafangzhou_ex1100",
-				"id" : "0",
-				"label" : "Ark Royal",
-				"dialogue" : {
-					"1" : {
-						"event" : "Login",
-						"media" : "login_ex1100",
-						"chinese" : "指挥官，本人已准备就绪。当然是战斗的准备了！好啦，让敌人见识下皇家航母的威力吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "閣下、準備は整ったぞ。もちろん戦闘のことだ。さあ、ロイヤル攻撃空母の力を敵に見せてやろう！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, I am ready to act. I mean ready to fight, of course! Let us show the enemy the might of a Royal Navy aircraft carrier!",
-						"englishNote" : ""
-					},
-					"2" : {
-						"event" : "Details",
-						"media" : "detail_ex1100",
-						"chinese" : "指挥官和驱逐妹妹们都由本人来守护！只要有本人在，谁都别想伤害到你们",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "閣下、駆逐艦の妹たちを…ああ、一緒に守ろう！私達がいる限り、誰にも傷つけさせやしない！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander, I'll take care of the destroyers... Err, WE'LL take care of the destroyers! As long as we're around, no one can do them harm!",
-						"englishNote" : ""
-					},
-					"3" : {
-						"event" : "Main 1",
-						"media" : "main_1_ex1100",
-						"chinese" : "在想什么？啊，当然是在考虑指挥官和舰队的事情了",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "考え事、か？ああ、閣下と艦隊のことを考えていたんだ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "What am I thinking? Oh, just about you, and the fleet.",
-						"englishNote" : ""
-					},
-					"4" : {
-						"event" : "Main 2",
-						"media" : "main_2_ex1100",
-						"chinese" : "什么！？要把驱逐妹妹们喊过来…？！指挥官阁下，这个任务请务必交给本人！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "駆逐艦の妹たちをこの執務室に呼んできてほしい、だと…？！閣下、この任務はぜひこのアーク・ロイヤルに！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "You want to call the destroyer girls here to your office, do you...? Commander, this is a task you must entrust to me, Ark Royal!",
-						"englishNote" : ""
-					},
-					"5" : {
-						"event" : "Main 3",
-						"media" : "main_3_ex1100",
-						"chinese" : "光荣，给阿卡斯塔和热心推荐的衣服…应该是这样才好。下次注意点比较好噢",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "グロリアス、アカスタとアーデントに薦める服は…こうしよう。次からは気をつけたほうがいいぞ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The outfit Glorious, Acasta, and Ardent recommended... should go like this. One must be more careful next time.",
-						"englishNote" : ""
-					},
-					"6" : {
-						"event" : "Main 4",
-						"media" : "main_4_ex1100",
-						"chinese" : "好，那个潜艇妹妹不在。真是的，老是把在别人的屋子玩捉迷藏…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "よし、あの潜水艦の子はいないな。全く、人の部屋を鬼ごっこに使うとは一体どういうことだ…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "That little submarine is missing again. Heavens, she's always stealing away into other people's rooms to play hide and seek...",
-						"englishNote" : ""
-					},
-					"7" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_ex1100",
-						"chinese" : "阁下！这、这里可不行…！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "閣下！こ、ここではダメだぞ…！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Commander! N-not here...!",
-						"englishNote" : ""
-					},
-					"8" : {
-						"event" : "Flagship",
-						"media" : "warcry_ex1100",
-						"chinese" : "海燕中队，剑鱼中队，准备起飞！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "フルマー隊、ソードフィッシュ隊、発進準備だ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Fulmar squadron, Swordfish squadron, prepare to launch!",
-						"englishNote" : ""
-					},
-					"9" : {
-						"event" : "Victory",
-						"media" : "mvp_ex1100",
-						"chinese" : "因为有阁下的指挥我们才能发挥全力——胜利也是理所当然的",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "閣下の指揮があってこそ私たちは全力を発揮できた――つまり勝てたのは当然ということだ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "It is thanks to the Commander's guidance that I reach my full potential and seize victory!",
-						"englishNote" : ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "15",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
-		"pt_upgrade": "30",
-		"pt_level": "23",
-		"add_level_attr": "Hit",
-		"add_level_value": "2",
-		"add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
-		"t_level": "7",
-		"ships": "ark_royal,ark_royal_meta"
-	}
+            "101": {
+                "skin_id" : "huangjiafangzhou_ex1100",
+                "id" : "0",
+                "label" : "Ark Royal",
+                "dialogue" : {
+                    "1" : {
+                        "event" : "Login",
+                        "media" : "login_ex1100",
+                        "chinese" : "指挥官，本人已准备就绪。当然是战斗的准备了！好啦，让敌人见识下皇家航母的威力吧！",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "閣下、準備は整ったぞ。もちろん戦闘のことだ。さあ、ロイヤル攻撃空母の力を敵に見せてやろう！",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "Commander, I am ready to act. I mean ready to fight, of course! Let us show the enemy the might of a Royal Navy aircraft carrier!",
+                        "englishNote" : ""
+                    },
+                    "2" : {
+                        "event" : "Details",
+                        "media" : "detail_ex1100",
+                        "chinese" : "指挥官和驱逐妹妹们都由本人来守护！只要有本人在，谁都别想伤害到你们",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "閣下、駆逐艦の妹たちを…ああ、一緒に守ろう！私達がいる限り、誰にも傷つけさせやしない！",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "Commander, I'll take care of the destroyers... Err, WE'LL take care of the destroyers! As long as we're around, no one can do them harm!",
+                        "englishNote" : ""
+                    },
+                    "3" : {
+                        "event" : "Main 1",
+                        "media" : "main_1_ex1100",
+                        "chinese" : "在想什么？啊，当然是在考虑指挥官和舰队的事情了",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "考え事、か？ああ、閣下と艦隊のことを考えていたんだ",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "What am I thinking? Oh, just about you, and the fleet.",
+                        "englishNote" : ""
+                    },
+                    "4" : {
+                        "event" : "Main 2",
+                        "media" : "main_2_ex1100",
+                        "chinese" : "什么！？要把驱逐妹妹们喊过来…？！指挥官阁下，这个任务请务必交给本人！",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "駆逐艦の妹たちをこの執務室に呼んできてほしい、だと…？！閣下、この任務はぜひこのアーク・ロイヤルに！",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "You want to call the destroyer girls here to your office, do you...? Commander, this is a task you must entrust to me, Ark Royal!",
+                        "englishNote" : ""
+                    },
+                    "5" : {
+                        "event" : "Main 3",
+                        "media" : "main_3_ex1100",
+                        "chinese" : "光荣，给阿卡斯塔和热心推荐的衣服…应该是这样才好。下次注意点比较好噢",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "グロリアス、アカスタとアーデントに薦める服は…こうしよう。次からは気をつけたほうがいいぞ",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "The outfit Glorious, Acasta, and Ardent recommended... should go like this. One must be more careful next time.",
+                        "englishNote" : ""
+                    },
+                    "6" : {
+                        "event" : "Main 4",
+                        "media" : "main_4_ex1100",
+                        "chinese" : "好，那个潜艇妹妹不在。真是的，老是把在别人的屋子玩捉迷藏…",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "よし、あの潜水艦の子はいないな。全く、人の部屋を鬼ごっこに使うとは一体どういうことだ…",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "That little submarine is missing again. Heavens, she's always stealing away into other people's rooms to play hide and seek...",
+                        "englishNote" : ""
+                    },
+                    "7" : {
+                        "event" : "Touch (Special)",
+                        "media" : "touch_2_ex1100",
+                        "chinese" : "阁下！这、这里可不行…！",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "閣下！こ、ここではダメだぞ…！",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "Commander! N-not here...!",
+                        "englishNote" : ""
+                    },
+                    "8" : {
+                        "event" : "Flagship",
+                        "media" : "warcry_ex1100",
+                        "chinese" : "海燕中队，剑鱼中队，准备起飞！",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "フルマー隊、ソードフィッシュ隊、発進準備だ！",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "Fulmar squadron, Swordfish squadron, prepare to launch!",
+                        "englishNote" : ""
+                    },
+                    "9" : {
+                        "event" : "Victory",
+                        "media" : "mvp_ex1100",
+                        "chinese" : "因为有阁下的指挥我们才能发挥全力——胜利也是理所当然的",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "閣下の指揮があってこそ私たちは全力を発揮できた――つまり勝てたのは当然ということだ",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "It is thanks to the Commander's guidance that I reach my full potential and seize victory!",
+                        "englishNote" : ""
+                    }
+                }
+            }
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "15",
+        "add_get_attr": "HP",
+        "add_get_value": "1",
+        "add_get_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+        "pt_upgrade": "30",
+        "pt_level": "23",
+        "add_level_attr": "Hit",
+        "add_level_value": "2",
+        "add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
+        "t_level": "7",
+        "ships": "ark_royal,ark_royal_meta"
+    }
 }

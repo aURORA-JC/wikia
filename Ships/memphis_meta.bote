@@ -1,0 +1,425 @@
+{
+    "name_reference": "memphis_meta",
+    "cn_reference": "mengfeisi_alter",
+    "nameJP": "",
+    "nameCN": "",
+    "ID": "X008",
+    "name": "Memphis META",
+    "internal_id": "",
+    "rarity": "Elite",
+    "initialStar": "★★☆☆☆",
+    "hull": "Light Cruiser",
+    "navy": "Eagle Union",
+    "prefix": "USS",
+    "buildTime": "",
+    "class": "Omaha-Class",
+    "voiceActress": "",
+    "parameters": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "evasion": "",
+        "antiAir": "",
+        "hp": ""
+    },
+    "scrap": {
+        "gold": "",
+        "oil": "",
+        "medal": ""
+    },
+    "releaseDate": {
+        "JP": "",
+        "CN": "",
+        "KR": "",
+        "EN": ""
+    },
+    "artist": {
+        "name": "",
+        "weibo": "",
+        "twitter": "",
+        "pixiv": "",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "reload": ""
+    },
+    "acquisitionMethod": "",
+    "skill": {
+        "1": {
+            "icon": "",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "mengfeisi_alter",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                },
+                "7": {
+                    "id": "7"
+                },
+                "8": {
+                    "id": "8"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "base": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        }
+    },
+    "limitBreak": {
+        "tier1": "",
+        "tier2": "",
+        "tier3": ""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "2": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "3": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "mengfeisi_alter",
+                "id": "0",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Biography",
+                        "media": "profile"
+                    },
+                    "3": {
+                        "event": "Acquisition",
+                        "media": "get"
+                    },
+                    "4": {
+                        "event": "Login",
+                        "media": "login"
+                    },
+                    "5": {
+                        "event": "Details",
+                        "media": "detail"
+                    },
+                    "6": {
+                        "event": "Main 1",
+                        "media": "main_1"
+                    },
+                    "7": {
+                        "event": "Main 2",
+                        "media": "main_2"
+                    },
+                    "8": {
+                        "event": "Main 3",
+                        "media": "main_3"
+                    },
+                    "9": {
+                        "event": "Main 4",
+                        "media": "main_4"
+                    },
+                    "10": {
+                        "event": "Touch",
+                        "media": "touch_1"
+                    },
+                    "11": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2"
+                    },
+                    "12": {
+                        "event": "Touch (Headpat)",
+                        "media": "touch_head"
+                    },
+                    "13": {
+                        "event": "Mission",
+                        "media": "task"
+                    },
+                    "14": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete"
+                    },
+                    "15": {
+                        "event": "Mail",
+                        "media": "mail"
+                    },
+                    "16": {
+                        "event": "Return to Port",
+                        "media": "home"
+                    },
+                    "17": {
+                        "event": "Commission Complete",
+                        "media": "expedition"
+                    },
+                    "18": {
+                        "event": "Enhancement",
+                        "media": "upgrade"
+                    },
+                    "19": {
+                        "event": "Flagship",
+                        "media": "warcry"
+                    },
+                    "20": {
+                        "event": "Victory",
+                        "media": "mvp"
+                    },
+                    "21": {
+                        "event": "Defeat",
+                        "media": "lose"
+                    },
+                    "22": {
+                        "event": "Skill",
+                        "media": "skill"
+                    },
+                    "23": {
+                        "event": "Low HP",
+                        "media": "hp"
+                    },
+                    "24": {
+                        "event": "Affinity (Upset)",
+                        "media": "feeling1"
+                    },
+                    "25": {
+                        "event": "Affinity (Stranger)",
+                        "media": "feeling2"
+                    },
+                    "26": {
+                        "event": "Affinity (Friendly)",
+                        "media": "feeling3"
+                    },
+                    "27": {
+                        "event": "Affinity (Like)",
+                        "media": "feeling4"
+                    },
+                    "28": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5"
+                    },
+                    "29": {
+                        "event": "Pledge",
+                        "media": "propose"
+                    },
+                    "30": {
+                        "event": "Additional Voice Line 1",
+                        "media": "link1"
+                    },
+                    "31": {
+                        "event": "Additional Voice Line 2",
+                        "media": "link2"
+                    }
+                }
+            }
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": ""
+    }
+}
