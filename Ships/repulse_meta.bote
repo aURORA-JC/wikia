@@ -3,9 +3,9 @@
     "cn_reference": "fanji_alter",
     "nameJP": "",
     "nameCN": "",
-    "ID": "X009",
+    "ID": "M012",
     "name": "Repulse META",
-    "internal_id": "",
+    "internal_id": "9704031",
     "rarity": "Elite",
     "initialStar": "★★☆☆☆",
     "hull": "Battlecruiser",
@@ -58,7 +58,7 @@
     },
     "skin": {
         "1": {
-            "id": "",
+            "id": "fanji_alter",
             "name": "",
             "description": "",
             "expression": {
@@ -73,9 +73,6 @@
                 },
                 "3": {
                     "id": "3"
-                },
-                "4": {
-                    "id": "4"
                 }
             }
         }
@@ -265,7 +262,7 @@
     "lines": {
         "skin": {
             "1": {
-                "skin_id": "",
+                "skin_id": "fanji_alter",
                 "id": "0",
                 "label": "",
                 "dialogue": {
@@ -312,10 +309,6 @@
                     "11": {
                         "event": "Touch (Special)",
                         "media": "touch_2"
-                    },
-                    "12": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head"
                     },
                     "13": {
                         "event": "Mission",
@@ -384,14 +377,6 @@
                     "29": {
                         "event": "Pledge",
                         "media": "propose"
-                    },
-                    "30": {
-                        "event": "Additional Voice Line 1",
-                        "media": "link1"
-                    },
-                    "31": {
-                        "event": "Additional Voice Line 2",
-                        "media": "link2"
                     }
                 }
             }
@@ -408,6 +393,6 @@
         "add_level_value": "",
         "add_level_shiptype": "",
         "t_level": "",
-        "ships": ""
+        "ships": "renown,repulse,little_renown,repulse_meta"
     }
 }

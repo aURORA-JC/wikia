@@ -4634,6 +4634,24 @@
         "rarity": "Elite",
         "shipType": "META"
     },
+    "M011": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mengfeisi_alter.png",
+        "link": "memphis_meta",
+        "name": "Memphis META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M012": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fanji_alter.png",
+        "link": "repulse_meta",
+        "name": "Repulse META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
     "C001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
@@ -5090,24 +5108,6 @@
         "link": "sovetsky_soyuz",
         "name": "Sovetsky Soyuz",
         "navy": "Northern Parliament",
-        "rarity": "",
-        "shipType": "unreleased"
-    },
-    "X008": {
-        "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/mengfeisi_alter.png",
-        "link": "memphis_meta",
-        "name": "Memphis META",
-        "navy": "META",
-        "rarity": "",
-        "shipType": "unreleased"
-    },
-    "X009": {
-        "hull": "Battlecruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/fanji_alter.png",
-        "link": "repulse_meta",
-        "name": "Repulse META",
-        "navy": "META",
         "rarity": "",
         "shipType": "unreleased"
     }

@@ -190,51 +190,70 @@
             }
          }
       },
-      "6":{   
+      "6":{
          "id":"salatuojia_6",
-         "name":"Silent Night Songstress", 
+         "name":"Silent Night Songstress",
          "description":"Merry Christmas! Here comes Christmas Sara, shining like a star in the silent night! Hehehe, how's that for a holiday greeting? So, have you decided where we're gonna spend our Christmas Eve yet?",
          "expression":{
-            "0":{   
+            "0":{
                "id":"0"
-            },      
-            "1":{   
+            },
+            "1":{
                "id":"1"
-            },      
-            "2":{   
+            },
+            "2":{
                "id":"2"
-            },      
-            "3":{   
+            },
+            "3":{
                "id":"3"
-            },      
-            "4":{   
+            },
+            "4":{
                "id":"4"
             }
          }
       },
-      "7":{   
+      "7":{
          "id":"salatuojia_7",
-         "name":"Spring's Opening Act!", 
+         "name":"Spring's Opening Act!",
          "description":"Tadaaah! Happy Lunar New Year, Commander! How do you like this fresh new spring look that Sara's rocking? Hope you haven't forgotten our promise to check out the port's spring festival together~ Ready, then? Let's go!",
          "expression":{
-            "0":{   
+            "0":{
                "id":"0"
-            },      
-            "2":{   
+            },
+            "2":{
                "id":"2"
-            },      
-            "3":{   
+            },
+            "3":{
                "id":"3"
-            },      
-            "4":{   
+            },
+            "4":{
                "id":"4"
-            },      
-            "5":{   
+            },
+            "5":{
                "id":"5"
-            }       
+            }
          }
       },
       "8":{
+         "id":"salatuojia_h",
+         "name":"",
+         "description":"",
+         "expression":{
+            "0":{
+               "id":"0"
+            },
+            "2":{
+               "id":"2"
+            },
+            "3":{
+               "id":"3"
+            },
+            "4":{
+               "id":"4"
+            },
+         }
+      },
+      "9":{
          "id":"salatuojia_g",
          "name":"Saratoga (Retrofit)",
          "description":"Sister Sara is leaving her nest and going in a new direction! I'm now making my official debut as Saratoga: The Little Witch Idol! I'm leaving my PR to you, Commander~ ",
@@ -244,43 +263,43 @@
             }
          }
       },
-      "9":{   
+      "10":{
          "id":"salatuojia_8",
-         "name":"", 
+         "name":"",
          "description":"",
          "expression":{
-            "0":{   
+            "0":{
                "id":"0"
-            },      
-            "2":{   
+            },
+            "2":{
                "id":"2"
-            },      
-            "3":{   
+            },
+            "3":{
                "id":"3"
-            },      
-            "4":{   
+            },
+            "4":{
                "id":"4"
-            },      
-            "5":{   
+            },
+            "5":{
                "id":"5"
-            }       
+            }
          }
       },
-      "10":{   
+      "11":{
          "id":"salatuojia_9",
-         "name":"", 
+         "name":"",
          "description":"",
          "expression":{
-            "0":{   
+            "0":{
                "id":"0"
             },
-            "2":{   
+            "2":{
                "id":"2"
             },
-            "3":{   
+            "3":{
                "id":"3"
             },
-            "4":{   
+            "4":{
                "id":"4"
             }
          }
@@ -1479,7 +1498,300 @@
                }
             }
          },
-         "6":{
+            "6": {
+                "skin_id": "salatuojia_6",
+                "id": "5",
+                "label": "Silent Night Songstress",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Merry Christmas! Here comes Christmas Sara, shining like a star in the silent night! Hehehe, how's that for a holiday greeting? So, have you decided where we're gonna spend our Christmas Eve yet?",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "9": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_5",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "7": {
+                "skin_id": "salatuojia_7",
+                "id": "6",
+                "label": "Spring's Opening Act!",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": "",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Tadaaah! Happy Lunar New Year, Commander! How do you like this fresh new spring look that Sara's rocking? Hope you haven't forgotten our promise to check out the port's spring festival together~ Ready, then? Let's go!",
+                        "englishNote": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_6",
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
+                        "englishNote": ""
+                    }
+                }
+            },
+            "8": {
+                "skin_id": "salatuojia_h",
+                "id": "8",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_8"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_8"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_8"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_8"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_8"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_8"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_8"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_8"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_8"
+                    },
+                    "11": {
+                        "event": "Victory",
+                        "media": "mvp_8"
+                    },
+                    "12": {
+                        "event": "Defeat",
+                        "media": "lose_8"
+                    },
+                    "13": {
+                        "event": "Mail",
+                        "media": "mail_8"
+                    },
+                    "14": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_8"
+                    }
+                }
+            },
+         "9":{
             "skin_id":"salatuojia_g",
             "id":"9",
             "label":"Saratoga (Retrofit)",
@@ -1618,242 +1930,12 @@
                }
             }
          },
-            "7": {
-                "skin_id": "salatuojia_6",
-                "id": "5",
-                "label": "Silent Night Songstress",
-                "dialogue": {
-                    "1": {  
-                        "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Merry Christmas! Here comes Christmas Sara, shining like a star in the silent night! Hehehe, how's that for a holiday greeting? So, have you decided where we're gonna spend our Christmas Eve yet?",
-                        "englishNote": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "9": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_5",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    }
-                }
-            },
-            "8": {
-                "skin_id": "salatuojia_7",
-                "id": "6",
-                "label": "Spring's Opening Act!",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "Tadaaah! Happy Lunar New Year, Commander! How do you like this fresh new spring look that Sara's rocking? Hope you haven't forgotten our promise to check out the port's spring festival together~ Ready, then? Let's go!",
-                        "englishNote": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_6",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    }
-                }
-            },
-            "9": {
+            "10": {
                 "skin_id": "salatuojia_8",
                 "id": "7",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -1895,12 +1977,12 @@
                     }
                 }
             },
-            "10": {
+            "11": {
                 "skin_id": "salatuojia_9",
                 "id": "10",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },

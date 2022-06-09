@@ -105,6 +105,16 @@
                     "id": "13"
                 }
             }
+        },
+        "101": {
+            "id": "chaijun_younv_ex1100",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
         }
     },
     "defaultEquipment": {
@@ -411,14 +421,49 @@
                     "29": {
                         "event": "Pledge",
                         "media": "propose"
+                    }
+                }
+            },
+            "101": {
+                "skin_id": "chaijun_younv_ex1100",
+                "id": "0",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
                     },
-                    "30": {
-                        "event": "Additional Voice Line 1",
-                        "media": "link1"
+                    "3": {
+                        "event": "Login",
+                        "media": "login_ex1100"
                     },
-                    "31": {
-                        "event": "Additional Voice Line 2",
-                        "media": "link2"
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_ex1100"
+                    },
+                    "5": {
+                        "event": "Main 4",
+                        "media": "main_4_ex1100"
+                    },
+                    "6": {
+                        "event": "Main 5",
+                        "media": "main_5_ex1100"
+                    },
+                    "7": {
+                        "event": "Main 6",
+                        "media": "main_6_ex1100"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_ex1100"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_ex1100"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100"
                     }
                 }
             }

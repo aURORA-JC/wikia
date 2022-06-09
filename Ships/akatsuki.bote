@@ -1137,6 +1137,22 @@
                     "10": {
                         "event": "Return to Port",
                         "media": "home_4"
+                    },
+                    "11": {
+                        "event": "Flagship",
+                        "media": "warcry_4"
+                    },
+                    "12": {
+                        "event": "Victory",
+                        "media": "mvp_4"
+                    },
+                    "13": {
+                        "event": "Commission Complete",
+                        "media": "expedition_4"
+                    },
+                    "14": {
+                        "event": "Mission",
+                        "media": "task_4"
                     }
                 }
             }

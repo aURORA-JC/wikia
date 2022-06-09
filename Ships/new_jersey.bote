@@ -1,332 +1,366 @@
 {
-	"name_reference": "new_jersey",
-	"cn_reference": "xinzexi",
-	"nameJP": "",
-	"nameCN": "",
-	"ID": "68",
-	"name": "New Jersey",
-	"internal_id": "105171",
-	"rarity": "Ultra Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Battleship",
-	"navy": "Eagle Union",
-	"prefix": "USS",
-	"buildTime": "",
-	"class": "Iowa-Class",
-	"voiceActress": "Tomita Miyu",
-	"parameters": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"evasion": "",
-		"antiAir": "",
-		"hp": ""
-	},
-	"scrap": {
-		"gold": "",
-		"oil": "",
-		"medal": ""
-	},
-	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
-	},
-	"artist": {
-		"name": "",
-		"weibo": "",
-		"twitter": "",
-		"pixiv": "",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "",
-		"torpedo": "",
-		"aviation": "",
-		"reload": ""
-	},
-	"acquisitionMethod": "",
-	"skill": {
-		"1": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		},
-		"2": {
-			"icon": "",
-			"requirement": "",
-			"name": "",
-			"type": "",
-			"description": ""
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "xinzexi",
-			"name": "New Jersey",
-			"description": "",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				},
-				"6": {
-					"id": "6"
-				},
-				"7": {
-					"id": "7"
-				}
-			}
-		},
-		"2": {
-			"id": "xinzexi_2",
-			"name": "",
-			"description": "",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				},
-				"6": {
-					"id": "6"
-				}
-			}
-		},
-		"101": {
-			"id": "xinzexi_ex1100",
-			"name": "New Jersey",
-			"description": "",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"base": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "",
-			"luck": "",
-			"asw": "",
-			"oxygen": "",
-			"ammo": "",
-			"cost": "",
-			"armor": ""
-		}
-	},
-	"limitBreak": {
-		"tier1": "",
-		"tier2": "",
-		"tier3": ""
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"2": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"3": {
-			"type": "",
-			"efficiency": "",
-			"amount": "",
-			"preload": ""
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "xinzexi",
-				"id": "0",
-				"label": "New Jersey",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": ""
-					},
+    "name_reference": "new_jersey",
+    "cn_reference": "xinzexi",
+    "nameJP": "",
+    "nameCN": "",
+    "ID": "68",
+    "name": "New Jersey",
+    "internal_id": "105171",
+    "rarity": "Ultra Rare",
+    "initialStar": "★★★☆☆☆",
+    "hull": "Battleship",
+    "navy": "Eagle Union",
+    "prefix": "USS",
+    "buildTime": "",
+    "class": "Iowa-Class",
+    "voiceActress": "Tomita Miyu",
+    "parameters": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "evasion": "",
+        "antiAir": "",
+        "hp": ""
+    },
+    "scrap": {
+        "gold": "",
+        "oil": "",
+        "medal": ""
+    },
+    "releaseDate": {
+        "JP": "",
+        "CN": "",
+        "KR": "",
+        "EN": ""
+    },
+    "artist": {
+        "name": "",
+        "weibo": "",
+        "twitter": "",
+        "pixiv": "",
+        "other": ""
+    },
+    "enhance": {
+        "firepower": "",
+        "torpedo": "",
+        "aviation": "",
+        "reload": ""
+    },
+    "acquisitionMethod": "",
+    "skill": {
+        "1": {
+            "icon": "",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        },
+        "2": {
+            "icon": "",
+            "requirement": "",
+            "name": "",
+            "type": "",
+            "description": ""
+        }
+    },
+    "skin": {
+        "1": {
+            "id": "xinzexi",
+            "name": "New Jersey",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                },
+                "7": {
+                    "id": "7"
+                }
+            }
+        },
+        "2": {
+            "id": "xinzexi_2",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                }
+            }
+        },
+        "8": {
+            "id": "xinzexi_h",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                },
+                "7": {
+                    "id": "7"
+                },
+                "8": {
+                    "id": "8"
+                }
+            }
+        },
+        "101": {
+            "id": "xinzexi_ex1100",
+            "name": "New Jersey",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                }
+            }
+        }
+    },
+    "defaultEquipment": {
+        "1": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "2": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        },
+        "3": {
+            "icon": "",
+            "rarity": "",
+            "name": ""
+        }
+    },
+    "stats": {
+        "100": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "base": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "100retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        },
+        "120retrofit": {
+            "hp": "",
+            "firepower": "",
+            "torpedo": "",
+            "antiAir": "",
+            "aviation": "",
+            "reload": "",
+            "hit": "",
+            "evasion": "",
+            "speed": "",
+            "luck": "",
+            "asw": "",
+            "oxygen": "",
+            "ammo": "",
+            "cost": "",
+            "armor": ""
+        }
+    },
+    "limitBreak": {
+        "tier1": "",
+        "tier2": "",
+        "tier3": ""
+    },
+    "equipmentLoadout": {
+        "1": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "2": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "3": {
+            "type": "",
+            "efficiency": "",
+            "amount": "",
+            "preload": ""
+        },
+        "4": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        },
+        "5": {
+            "type": "Auxiliary",
+            "efficiency": "-",
+            "amount": "-",
+            "preload": "-"
+        }
+    },
+    "build": {
+        "light": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "heavy": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "special": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        },
+        "limited": {
+            "JP": "",
+            "CN": "",
+            "EN": ""
+        }
+    },
+    "drop": {
+        "droppable": "false",
+        "list": {
+            "1": {
+                "event": "",
+                "chapter": {
+                    "1": {
+                        "label": "Ch .1",
+                        "node": {
+                            "1": {
+                                "drop": "✓",
+                                "note": "-"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lines": {
+        "skin": {
+            "1": {
+                "skin_id": "xinzexi",
+                "id": "0",
+                "label": "New Jersey",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
                     "2": {
                         "event": "Biography",
                         "media": "profile"
@@ -474,7 +508,7 @@
                 "id": "1",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -520,12 +554,91 @@
                     }
                 }
             },
+            "8": {
+                "skin_id": "xinzexi_h",
+                "id": "8",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_8"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_8"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_8"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_8"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_8"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_8"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_8"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_8"
+                    },
+                    "10": {
+                        "event": "Mission",
+                        "media": "task_8"
+                    },
+                    "11": {
+                        "event": "Mission Complete",
+                        "media": "mission_complete_8"
+                    },
+                    "12": {
+                        "event": "Return to Port",
+                        "media": "home_8"
+                    },
+                    "13": {
+                        "event": "Commission Complete",
+                        "media": "expedition_8"
+                    },
+                    "14": {
+                        "event": "Flagship",
+                        "media": "warcry_8"
+                    },
+                    "15": {
+                        "event": "Victory",
+                        "media": "mvp_8"
+                    },
+                    "16": {
+                        "event": "Defeat",
+                        "media": "lose_8"
+                    },
+                    "17": {
+                        "event": "Skill",
+                        "media": "skill_8"
+                    },
+                    "18": {
+                        "event": "Affinity (Love)",
+                        "media": "feeling5_8"
+                    }
+                }
+            },
             "101": {
                 "skin_id": "xinzexi_ex1100",
                 "id": "0",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -567,19 +680,19 @@
                     }
                 }
             }
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "",
-		"add_get_attr": "",
-		"add_get_value": "",
-		"add_get_shiptype": "",
-		"pt_upgrade": "",
-		"pt_level": "",
-		"add_level_attr": "",
-		"add_level_value": "",
-		"add_level_shiptype": "",
-		"t_level": "",
-		"ships": "new_jersey"
-	}
+        }
+    },
+    "fleet_tech": {
+        "pt_get": "",
+        "add_get_attr": "",
+        "add_get_value": "",
+        "add_get_shiptype": "",
+        "pt_upgrade": "",
+        "pt_level": "",
+        "add_level_attr": "",
+        "add_level_value": "",
+        "add_level_shiptype": "",
+        "t_level": "",
+        "ships": "new_jersey"
+    }
 }
