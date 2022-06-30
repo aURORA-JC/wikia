@@ -12,7 +12,7 @@
 	"navy": "Eagle Union",
 	"prefix": "USS",
 	"buildTime": "",
-    "voiceActress": "Komatsu Kaoru",
+	"voiceActress": "Komatsu Kaoru",
 	"parameters": {
 		"firepower": "",
 		"torpedo": "",
@@ -134,24 +134,49 @@
 				}
 			}
 		},
-        "4": {  
-            "id": "biluokexi_5",
-            "name": "Night Sky's Brilliant Blue Blossoms", 
-            "description": "I heard that this place is famous for its festivals with beautiful fireworks, so I made sure to come dressed for the occasion... What do you think? ...I'm even more beautiful? Well, I couldn't let the fireworks be the only things leaving an impression upo",
+		"4": {
+			"id": "biluokexi_5",
+			"name": "Night Sky's Brilliant Blue Blossoms",
+			"description": "I heard that this place is famous for its festivals with beautiful fireworks, so I made sure to come dressed for the occasion... What do you think? ...I'm even more beautiful? Well, I couldn't let the fireworks be the only things leaving an impression upo",
+			"expression": {
+				"0": {
+					"id": "0"
+				},
+				"1": {
+					"id": "1"
+				},
+				"2": {
+					"id": "2"
+				},
+				"3": {
+					"id": "3"
+				}
+			}
+		},
+        "5": {
+            "id": "biluokexi_6",
+            "name": "",
+            "description": "",
             "expression": {
-                "0": {  
+                "0": {
                     "id": "0"
-                },      
-                "1": {  
+                },
+                "1": {
                     "id": "1"
-                },      
-                "2": {  
+                },
+                "2": {
                     "id": "2"
-                },      
-                "3": {  
+                },
+                "3": {
                     "id": "3"
-                }       
-            }       
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                }
+            }
         }
 	},
 	"defaultEquipment": {
@@ -996,119 +1021,166 @@
 					}
 				}
 			},
-            "4": {
-                "skin_id": "biluokexi_5",
-                "id": "3",
-                "label": "Night Sky's Brilliant Blue Blossoms",
+			"4": {
+				"skin_id": "biluokexi_5",
+				"id": "3",
+				"label": "Night Sky's Brilliant Blue Blossoms",
+				"dialogue": {
+					"1": {
+						"event": "Ship Description",
+						"media": "",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"2": {
+						"event": "Acquisition",
+						"media": "get_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"3": {
+						"event": "Login",
+						"media": "login_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"4": {
+						"event": "Details",
+						"media": "detail_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"5": {
+						"event": "Main 1",
+						"media": "main_1_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"6": {
+						"event": "Main 2",
+						"media": "main_2_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"7": {
+						"event": "Main 3",
+						"media": "main_3_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"8": {
+						"event": "Touch",
+						"media": "touch_1_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					},
+					"9": {
+						"event": "Touch (Special)",
+						"media": "touch_2_3",
+						"chinese": "",
+						"chineseTL": "",
+						"chineseNote": "",
+						"japanese": "",
+						"japaneseTL": "",
+						"japaneseNote": "",
+						"english": "",
+						"englishNote": ""
+					}
+				}
+			},
+            "5": {
+                "skin_id": "biluokexi_6",
+                "id": "4",
+                "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": ""
                     },
                     "2": {
                         "event": "Acquisition",
-                        "media": "get_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "get_1"
                     },
                     "3": {
                         "event": "Login",
-                        "media": "login_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "login_1"
                     },
                     "4": {
                         "event": "Details",
-                        "media": "detail_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "detail_1"
                     },
                     "5": {
                         "event": "Main 1",
-                        "media": "main_1_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "main_1_1"
                     },
                     "6": {
                         "event": "Main 2",
-                        "media": "main_2_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "main_2_1"
                     },
                     "7": {
                         "event": "Main 3",
-                        "media": "main_3_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "main_3_1"
                     },
                     "8": {
                         "event": "Touch",
-                        "media": "touch_1_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
+                        "media": "touch_1_1"
                     },
                     "9": {
                         "event": "Touch (Special)",
-                        "media": "touch_2_3",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    }       
+                        "media": "touch_2_1"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1"
+                    }
                 }
             }
 		}

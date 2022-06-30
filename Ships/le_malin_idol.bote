@@ -65,35 +65,35 @@
                 "0": {
                     "id": "0"
                 },
-                "1": {  
+                "1": {
                     "id": "1"
                 },
-                "2": {  
+                "2": {
                     "id": "2"
                 },
-                "3": {  
+                "3": {
                     "id": "3"
                 },
-                "4": {  
+                "4": {
                     "id": "4"
                 },
-                "5": {  
+                "5": {
                     "id": "5"
                 },
-                "6": {  
+                "6": {
                     "id": "6"
                 }
             }
         },
-        "101": {  
+        "101": {
             "id": "edu_idol_ex1100",
             "name": "Le Malin µ",
             "description": "Le Fantasque-class Destroyer Le Malin µ",
             "expression": {
-                "0": {  
+                "0": {
                     "id": "0"
-                }       
-            }       
+                }
+            }
         }
     },
     "defaultEquipment": {
@@ -664,7 +664,7 @@
                 "id": "0",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -847,6 +847,6 @@
         "add_level_value": "",
         "add_level_shiptype": "",
         "t_level": "",
-        "ships": ""
+        "ships": "le_triomphant,le_malin,le_malin_idol,le_terrible,l_indomptable"
     }
 }

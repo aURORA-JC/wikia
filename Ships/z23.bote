@@ -303,6 +303,34 @@
                     "id": "6"
                 }
             }
+        },
+        "12": {
+            "id": "z23_11",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                }
+            }
         }
     },
     "defaultEquipment": {
@@ -2138,7 +2166,7 @@
                 "id": "7",
                 "label": "The Eyecatch in the Rye?",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -2257,7 +2285,7 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    } 
+                    }
                 }
             },
             "10": {
@@ -2265,7 +2293,7 @@
                 "id": "8",
                 "label": "Schwarze Hochzeit",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -2416,7 +2444,7 @@
                 "id": "10",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -2455,6 +2483,53 @@
                     "10": {
                         "event": "Return to Port",
                         "media": "home_10"
+                    }
+                }
+            },
+            "12": {
+                "skin_id": "z23_11",
+                "id": "11",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_1"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_1"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_1"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_1"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_1"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_1"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_1"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_1"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_1"
                     }
                 }
             }

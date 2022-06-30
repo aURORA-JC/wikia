@@ -1,16 +1,16 @@
 {
-    "name_reference": "chen_hai",
-    "cn_reference": "zhenhai",
+    "name_reference": "enterprise_hms",
+    "cn_reference": "jinqu",
     "nameJP": "",
     "nameCN": "",
-    "ID": "534",
-    "name": "Chen Hai",
-    "internal_id": "506011",
+    "ID": "556",
+    "name": "Enterprise",
+    "internal_id": "202321",
     "rarity": "Elite",
     "initialStar": "★★☆☆☆",
-    "hull": "Light Aircraft Carrier",
-    "navy": "Dragon Empire",
-    "prefix": "ROC",
+    "hull": "Light Cruiser",
+    "navy": "Royal Navy",
+    "prefix": "HMS",
     "buildTime": "",
     "voiceActress": "",
     "parameters": {
@@ -39,7 +39,7 @@
         "pixiv": "",
         "other": ""
     },
-    "class": "Chen Hai-Class",
+    "class": "Dido-Class",
     "enhance": {
         "firepower": "",
         "torpedo": "",
@@ -68,52 +68,11 @@
             "name": "",
             "type": "",
             "description": ""
-        },
-        "4": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
         }
     },
     "skin": {
         "1": {
-            "id": "zhenhai",
-            "name": "Chen Hai",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                },
-                "7": {
-                    "id": "7"
-                },
-                "8": {
-                    "id": "8"
-                }
-            }
-        },
-        "2": {
-            "id": "zhenhai_2",
+            "id": "jinqu",
             "name": "",
             "description": "",
             "expression": {
@@ -128,39 +87,30 @@
                 },
                 "3": {
                     "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
                 }
             }
         },
         "101": {
-            "id": "zhenhai_ex1100",
-            "name": "Chen Hai",
+            "id": "jinqu_ex1100",
+            "name": "",
             "description": "",
             "expression": {
-            "0": {
-                "id": "0"
+                "0": {
+                    "id": "0"
                 }
             }
         }
     },
     "defaultEquipment": {
         "1": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
+            "icon": "21500",
+            "rarity": "Common",
+            "name": "Twin 134mm AA Gun"
         },
         "2": {
-            "icon": "",
+            "icon": "5000",
             "rarity": "",
-            "name": ""
+            "name": "Triple 533mm Torpedo"
         },
         "3": {
             "icon": "",
@@ -264,20 +214,20 @@
         "1": {
             "type": "",
             "efficiency": "%/%/%/%",
-            "amount": "1/1/1/1",
-            "preload": "0/0/0/0"
+            "amount": "///",
+            "preload": "///"
         },
         "2": {
             "type": "",
             "efficiency": "%/%/%/%",
-            "amount": "1/1/2/2",
-            "preload": "0/0/1/1"
+            "amount": "///",
+            "preload": "///"
         },
         "3": {
             "type": "",
             "efficiency": "%/%/%/%",
-            "amount": "1/1/1/1",
-            "preload": "0/0/0/0"
+            "amount": "///",
+            "preload": "///"
         },
         "4": {
             "type": "Auxilary",
@@ -303,7 +253,7 @@
         "add_level_value": "",
         "add_level_shiptype": "",
         "t_level": "",
-        "ships": "chen_hai"
+        "ships": "dido,dido_idol,sirius,black_prince,hermione,charybdis,enterprise_hms"
     },
     "build": {
         "light": {
@@ -349,9 +299,9 @@
     "lines": {
         "skin": {
             "1": {
-                "skin_id": "zhenhai",
+                "skin_id": "jinqu",
                 "id": "0",
-                "label": "Chen Hai",
+                "label": "",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
@@ -483,77 +433,10 @@
                     }
                 }
             },
-            "2": {
-                "skin_id": "zhenhai_2",
-                "id": "1",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_1"
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_1"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_1"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_1"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_1"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_1"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_1"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_1"
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_1"
-                    },
-                    "11": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head_1"
-                    },
-                    "12": {
-                        "event": "Mission",
-                        "media": "task_1"
-                    },
-                    "13": {
-                        "event": "Mission Complete",
-                        "media": "mission_complete_1"
-                    },
-                    "14": {
-                        "event": "Mail",
-                        "media": "mail_1"
-                    },
-                    "27": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_1"
-                    }
-                }
-            },
             "101": {
-                "skin_id": "zhenhai_ex1100",
+                "skin_id": "jinqu_ex1100",
                 "id": "0",
-                "label": "Chen Hai",
+                "label": "",
                 "dialogue": {
                     "1": {
                         "event": "Ship Description",
@@ -564,20 +447,20 @@
                         "media": "login_ex1100"
                     },
                     "4": {
-                        "event": "Mission",
-                        "media": "task_ex1100"
+                        "event": "Details",
+                        "media": "detail_ex1100"
                     },
                     "5": {
-                        "event": "Main 4",
-                        "media": "main_4_ex1100"
+                        "event": "Main 1",
+                        "media": "main_1_ex1100"
                     },
                     "6": {
-                        "event": "Main 5",
-                        "media": "main_5_ex1100"
+                        "event": "Main 2",
+                        "media": "main_2_ex1100"
                     },
                     "7": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_ex1100"
+                        "event": "Main 3",
+                        "media": "main_3_ex1100"
                     },
                     "8": {
                         "event": "Touch",
@@ -586,6 +469,10 @@
                     "9": {
                         "event": "Touch (Special)",
                         "media": "touch_2_ex1100"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_ex1100"
                     }
                 }
             }
