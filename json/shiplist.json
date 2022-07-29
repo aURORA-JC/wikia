@@ -4373,6 +4373,60 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
+    "559": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zhusaipei.png",
+        "link": "giuseppe_garibaldi",
+        "name": "Giuseppe Garibaldi",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "560": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luoma.png",
+        "link": "roma",
+        "name": "Roma",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "561": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dafenqi.png",
+        "link": "leonardo_da_vinci",
+        "name": "Leonardo da Vinci",
+        "navy": "Sardegna Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "562": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/boerzhanuo.png",
+        "link": "bolzano",
+        "name": "Bolzano",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "563": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aimannuaier.png",
+        "link": "emanuele_pessagno",
+        "name": "Emanuele Pessagno",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "564": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aerfuleiduo.png",
+        "link": "alfredo_oriani",
+        "name": "Alfredo Oriani",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4571,6 +4625,51 @@
         "rarity": "Priority",
         "shipType": "research"
     },
+    "P023": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/pulimaosi.png",
+        "link": "plymouth",
+        "name": "Plymouth",
+        "navy": "Royal Navy",
+        "rarity": "Decisive",
+        "shipType": "research"
+    },
+    "P024": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lupuleixite.png",
+        "link": "prinz_rupprecht",
+        "name": "Prinz Rupprecht",
+        "navy": "Ironblood",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P025": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/haerbin.png",
+        "link": "harbin",
+        "name": "Harbin",
+        "navy": "Dragon Empire",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P026": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qikaluofu.png",
+        "link": "chkalov",
+        "name": "Chkalov",
+        "navy": "Northern Parliament",
+        "rarity": "Priority",
+        "shipType": "research"
+    },
+    "P027": {
+        "hull": "Super Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/buleisite.png",
+        "link": "brest",
+        "name": "Brest",
+        "navy": "Iris Libre",
+        "rarity": "Decisive",
+        "shipType": "research"
+    },
     "M001": {
         "hull": "Aircraft Carrier",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/feilong_alter.png",
@@ -4677,6 +4776,15 @@
         "name": "Repulse META",
         "navy": "META",
         "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M013": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/teluntuo_alter.png",
+        "link": "trento_meta",
+        "name": "Trento META",
+        "navy": "META",
+        "rarity": "Elite",
         "shipType": "META"
     },
     "C001": {

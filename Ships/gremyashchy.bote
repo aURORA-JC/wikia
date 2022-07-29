@@ -9,7 +9,7 @@
 	"rarity": "Elite",
 	"initialStar": "★★☆☆☆",
 	"hull": "Destroyer",
-	"navy": "Northern Union",
+	"navy": "Northern Parliament",
 	"prefix": "SN",
 	"buildTime": "00:32:00",
 	"class": "Gnevny",
@@ -56,17 +56,17 @@
 			"description": "For the first 30s of a battle, self speed +5, FP +30%; After 30s, self evasion stat +15%."
 		},
         "2": {
-            "icon": "14220", 
-            "requirement": "Default Unlocked", 
-            "name": "Silent Advance", 
-            "type": "Defense", 
+            "icon": "14220",
+            "requirement": "Default Unlocked",
+            "name": "Silent Advance",
+            "type": "Defense",
             "description": "Every 20s, 25% to fire a torp barrage (same attribute as firing equipped torps) and evade all attacks for 3s."
         },
         "3": {
-            "icon": "20100", 
-            "requirement": "Limit Break I (III)", 
-            "name": "All Out Assault", 
-            "type": "Offense", 
+            "icon": "20100",
+            "requirement": "Limit Break I (III)",
+            "name": "All Out Assault",
+            "type": "Offense",
             "description": "ctivates All Out Assault Ⅱ: Gnevny once every 10 times the Main Guns are fired."
         }
 	},
@@ -80,28 +80,28 @@
 					"id": "0"
 				},
                 "1": {
-                    "id": "1" 
+                    "id": "1"
                 },
                 "2": {
-                    "id": "2" 
+                    "id": "2"
                 },
                 "3": {
-                    "id": "3" 
+                    "id": "3"
                 },
                 "4": {
-                    "id": "4" 
+                    "id": "4"
                 },
                 "5": {
-                    "id": "5" 
-                },  
+                    "id": "5"
+                },
                 "6": {
-                    "id": "6" 
-                },  
+                    "id": "6"
+                },
                 "7": {
-                    "id": "7" 
-                },  
+                    "id": "7"
+                },
                 "8": {
-                    "id": "8" 
+                    "id": "8"
                 }
 			}
 		},
@@ -682,75 +682,75 @@
                         "englishNote": ""
                     },
                     "30": {
-                        "event": "Additional Voice Line 2", 
+                        "event": "Additional Voice Line 2",
                         "media": "link2",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "Don't be reckless, huh... You too.", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Don't be reckless, huh... You too.",
                         "englishNote": ""
                     },
                     "31": {
-                        "event": "Additional Voice Line 3", 
+                        "event": "Additional Voice Line 3",
                         "media": "link3",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "Friends...", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "Friends...",
                         "englishNote": ""
                     },
                     "32": {
-                        "event": "Additional Voice Line 4",  
+                        "event": "Additional Voice Line 4",
                         "media": "link4",
-                        "chinese": "",  
-                        "chineseTL": "",  
-                        "chineseNote": "",  
-                        "japanese": "",  
-                        "japaneseTL": "",  
-                        "japaneseNote": "",  
-                        "english": "C-can I have some of that?", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "C-can I have some of that?",
                         "englishNote": ""
                     },
                     "33": {
-                        "event": "Extra", 
+                        "event": "Extra",
                         "media": "extra",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
                         "englishNote": ""
                     },
                     "34": {
-                        "event": "Present Like", 
+                        "event": "Present Like",
                         "media": "present_like",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
                         "englishNote": ""
                     },
                     "35": {
-                        "event": "Present Dislike", 
+                        "event": "Present Dislike",
                         "media": "present_dislike",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
                         "englishNote": ""
                     }
 				}
@@ -760,7 +760,7 @@
                 "id": "1",
                 "label": "A Daytime Delight is in a Book",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -883,39 +883,39 @@
                     "10": {
                         "event": "Mail",
                         "media": "mail",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "There's a letter for you. Can I keep the stamp? Mm, thanks.", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "There's a letter for you. Can I keep the stamp? Mm, thanks.",
                         "englishNote": ""
                     },
                     "10": {
                         "event": "Return to Port",
                         "media": "home_1",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "So many books lying around... Oh, Commander, I could use your help returning these books to the shelf when you come back.", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "So many books lying around... Oh, Commander, I could use your help returning these books to the shelf when you come back.",
                         "englishNote": ""
                     },
                     "10": {
                         "event": "Mission",
                         "media": "task_1",
-                        "chinese": "", 
-                        "chineseTL": "", 
-                        "chineseNote": "", 
-                        "japanese": "", 
-                        "japaneseTL": "", 
-                        "japaneseNote": "", 
-                        "english": "You could fill a whole book with all these unfinished mission drafts...", 
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "You could fill a whole book with all these unfinished mission drafts...",
                         "englishNote": ""
-                    } 
+                    }
                 }
             },
             "101": {
@@ -923,7 +923,7 @@
                 "id": "0",
                 "label": "Gremyashchy",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",

@@ -9,7 +9,7 @@
 	"rarity": "Super Rare",
 	"initialStar": "★★★☆☆☆",
 	"hull": "Battleship",
-	"navy": "Northern Union",
+	"navy": "Northern Parliament",
 	"prefix": "SN",
 	"buildTime": "06:23:00",
 	"class": "Sovetsky Soyuz",
@@ -56,10 +56,10 @@
 			"description": "When this ship fires its main guns, 45% (75%) chance to fire a special barrage. If this barrage fails to trigger, increase this ship's AA by 50.0% until the next time this ship fires its main guns."
 		},
         "2": {
-            "icon": "14160", 
-            "requirement": "Default Unlocked", 
-            "name": "Ingenious Tactician", 
-            "type": "Defense", 
+            "icon": "14160",
+            "requirement": "Default Unlocked",
+            "name": "Ingenious Tactician",
+            "type": "Defense",
             "description": "In battle, when this ship's HP is greater than 60.0%: increases FP by 10% (20%) and reduces Burn duration by 3s. Twice per battle, when this ship's HP falls below 50.0% as a result of taking DMG: restores 9.0% of its max HP over 8s. From the third battle of each sortie that this ship participates in: reduces the DMG your vanguard fleet takes by 8.0%."
         }
 	},
@@ -73,48 +73,48 @@
 					"id": "0"
 				},
                 "1": {
-                    "id": "1" 
+                    "id": "1"
                 },
                 "2": {
-                    "id": "2" 
+                    "id": "2"
                 },
                 "3": {
-                    "id": "3" 
+                    "id": "3"
                 },
                 "4": {
-                    "id": "4" 
+                    "id": "4"
                 },
                 "5": {
-                    "id": "5" 
+                    "id": "5"
                 }
 			}
 		},
         "2": {
-            "id": "suweiaibeilaluosi_2", 
-            "name": "Relaxation Stratagem", 
-            "description": "To pass the time by proactively reading, or by passively enjoying the company of others... Ah, good morning, Comrade, I've been expecting you. Hahaha!", 
+            "id": "suweiaibeilaluosi_2",
+            "name": "Relaxation Stratagem",
+            "description": "To pass the time by proactively reading, or by passively enjoying the company of others... Ah, good morning, Comrade, I've been expecting you. Hahaha!",
             "expression": {
                 "0": {
-                    "id": "0" 
-                },  
+                    "id": "0"
+                },
                 "1": {
-                    "id": "1" 
-                },  
+                    "id": "1"
+                },
                 "2": {
-                    "id": "2" 
-                },  
+                    "id": "2"
+                },
                 "3": {
-                    "id": "3" 
+                    "id": "3"
                 }
             }
         },
         "101": {
-            "id": "suweiaibeilaluosi_ex1100", 
-            "name": "Sovetskaya Belorussiya", 
-            "description": "Sovestsky Soyuz-class battleship - Sovetskaya Belorussiya.", 
+            "id": "suweiaibeilaluosi_ex1100",
+            "name": "Sovetskaya Belorussiya",
+            "description": "Sovestsky Soyuz-class battleship - Sovetskaya Belorussiya.",
             "expression": {
                 "0": {
-                    "id": "0" 
+                    "id": "0"
                 }
             }
         }
@@ -657,27 +657,27 @@
                         "englishNote": ""
                     },
                     "30": {
-                        "event": "Present Like", 
+                        "event": "Present Like",
                         "media": "present_like",
-                        "chinese": "",  
-                        "chineseTL": "",  
-                        "chineseNote": "",  
-                        "japanese": "",  
-                        "japaneseTL": "",  
-                        "japaneseNote": "",  
-                        "english": "",  
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
                         "englishNote": ""
-                    },   
+                    },
                     "31": {
-                        "event": "Present Dislike", 
+                        "event": "Present Dislike",
                         "media": "present_dislike",
-                        "chinese": "",  
-                        "chineseTL": "",  
-                        "chineseNote": "",  
-                        "japanese": "",  
-                        "japaneseTL": "",  
-                        "japaneseNote": "",  
-                        "english": "",  
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
                         "englishNote": ""
                     }
 				}
@@ -687,7 +687,7 @@
                 "id": "1",
                 "label": "Relaxation Stratagem",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -814,7 +814,7 @@
                 "id": "0",
                 "label": "Sovetskaya Belorussiya",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -921,7 +921,7 @@
                         "japaneseNote": "",
                         "english": "All right. After we finish these missions, you should go back to pursuing your own ambitions.",
                         "englishNote": ""
-                    } 
+                    }
                 }
             }
 		}

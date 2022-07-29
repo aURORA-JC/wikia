@@ -9,7 +9,7 @@
 	"rarity" : "Elite",
 	"initialStar" : "★★☆☆☆",
 	"hull" : "Battleship",
-	"navy" : "Northern Union",
+	"navy" : "Northern Parliament",
 	"prefix" : "SN",
 	"buildTime" : "N/A",
 	"voiceActress" : "Fuyuka Ono",
@@ -120,30 +120,30 @@
 				}
 			}
 		},
-        "3" : { 
+        "3" : {
             "id" : "gangute_3",
             "name" : "",
             "description" : "",
-            "expression" : { 
-                "0" : { 
-                    "id" : "0" 
-                },  
-                "1" : { 
-                    "id" : "1" 
-                },  
-                "2" : { 
-                    "id" : "2" 
-                },  
-                "3" : { 
-                    "id" : "3" 
-                },  
-                "4" : { 
-                    "id" : "4" 
+            "expression" : {
+                "0" : {
+                    "id" : "0"
                 },
-                "5" : { 
-                    "id" : "5" 
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                },
+                "4" : {
+                    "id" : "4"
+                },
+                "5" : {
+                    "id" : "5"
                 }
-            }   
+            }
         },
 		"101" : {
 			"id" : "gangute_ex100",
@@ -888,7 +888,7 @@
                 "id": "2",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -1007,7 +1007,7 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    }
                 }
             },
 			"101": {

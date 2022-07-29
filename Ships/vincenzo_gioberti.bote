@@ -88,13 +88,13 @@
                 "3" : {
                     "id" : "3"
                 },
-                "4" : {     
+                "4" : {
                     "id" : "4"
                 },
-                "5" : {     
+                "5" : {
                     "id" : "5"
                 },
-                "6" : {     
+                "6" : {
                     "id" : "6"
                 }
             }
@@ -271,7 +271,7 @@
         "add_level_value": "1",
         "add_level_shiptype": "Destroyer",
         "t_level": "6",
-        "ships": "vincenzo_gioberti"
+        "ships": "alfredo_oriani,vincenzo_gioberti"
     },
     "build": {
         "light": {
@@ -657,64 +657,64 @@
                         "english" : "You want to... get engaged with me?! B-b-b-but I...! Calm down, GB! Don't get too excited, be cool and graceful like a big sister and respond with grazia! Okay, now... I say, Commander, would you be a darling and put the ring on my finger?",
                         "englishNote" : ""
                     },
-                    "29" : { 
+                    "29" : {
                         "event" : "Additional Voiceline 1",
                         "media" : "link1",
-                        "chinese" : "", 
-                        "chineseTL" : "", 
-                        "chineseNote" : "", 
-                        "japanese" : "", 
-                        "japaneseTL" : "", 
-                        "japaneseNote" : "", 
-                        "english" : "You don't need to be so formal with me, you know.", 
+                        "chinese" : "",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "You don't need to be so formal with me, you know.",
                         "englishNote" : ""
                     },
-                    "30" : { 
+                    "30" : {
                         "event" : "Additional Voiceline 2",
                         "media" : "link2",
-                        "chinese" : "", 
-                        "chineseTL" : "", 
-                        "chineseNote" : "", 
-                        "japanese" : "", 
-                        "japaneseTL" : "", 
-                        "japaneseNote" : "", 
-                        "english" : "*gasp*! W-we're on the same side now, right...?", 
+                        "chinese" : "",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "*gasp*! W-we're on the same side now, right...?",
                         "englishNote" : ""
                     },
-                    "31" : { 
+                    "31" : {
                         "event" : "Extra",
                         "media" : "extra",
-                        "chinese" : "", 
-                        "chineseTL" : "", 
-                        "chineseNote" : "", 
-                        "japanese" : "", 
-                        "japaneseTL" : "", 
-                        "japaneseNote" : "", 
-                        "english" : "", 
+                        "chinese" : "",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "",
                         "englishNote" : ""
                     },
-                    "32" : { 
+                    "32" : {
                         "event" : "Present Like",
                         "media" : "present_like",
-                        "chinese" : "", 
-                        "chineseTL" : "", 
-                        "chineseNote" : "", 
-                        "japanese" : "", 
-                        "japaneseTL" : "", 
-                        "japaneseNote" : "", 
-                        "english" : "", 
+                        "chinese" : "",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "",
                         "englishNote" : ""
                     },
-                    "33" : { 
+                    "33" : {
                         "event" : "Present Dislike",
                         "media" : "present_dislike",
-                        "chinese" : "", 
-                        "chineseTL" : "", 
-                        "chineseNote" : "", 
-                        "japanese" : "", 
-                        "japaneseTL" : "", 
-                        "japaneseNote" : "", 
-                        "english" : "", 
+                        "chinese" : "",
+                        "chineseTL" : "",
+                        "chineseNote" : "",
+                        "japanese" : "",
+                        "japaneseTL" : "",
+                        "japaneseNote" : "",
+                        "english" : "",
                         "englishNote" : ""
                     }
                 }
@@ -724,7 +724,7 @@
                 "id": "2",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },

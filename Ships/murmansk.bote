@@ -9,7 +9,7 @@
 	"rarity": "Elite",
 	"initialStar": "★★☆☆☆",
 	"hull": "Light Cruiser",
-	"navy": "Northern Union",
+	"navy": "Northern Parliament",
 	"prefix": "SN",
 	"buildTime": "01:05:00",
 	"class": "Omaha",
@@ -56,17 +56,17 @@
 			"description": "For the first 45s of a battle, self FP/Torp +12%; When equipped with HE main guns, deal 10% more damage to BB/BC enemies."
 		},
         "2": {
-            "icon": "14240", 
-            "requirement": "Default Unlocked", 
-            "name": "Laid-Back Defending", 
-            "type": "Defense", 
+            "icon": "14240",
+            "requirement": "Default Unlocked",
+            "name": "Laid-Back Defending",
+            "type": "Defense",
             "description": "Take 15% less damage from AP shells; Every 20s, 60% to fire a special barrage."
         },
         "3": {
-            "icon": "20100", 
-            "requirement": "Limit Break I (III)", 
-            "name": "All Out Assault", 
-            "type": "Offense", 
+            "icon": "20100",
+            "requirement": "Limit Break I (III)",
+            "name": "All Out Assault",
+            "type": "Offense",
             "description": "Activates All Out Assault Ⅱ: Omaha Class once every 8 times the Main Guns are fired."
         }
 	},
@@ -80,65 +80,65 @@
 					"id": "0"
 				},
                 "1": {
-                    "id": "1" 
+                    "id": "1"
                 },
                 "2": {
-                    "id": "2" 
+                    "id": "2"
                 },
                 "3": {
-                    "id": "3" 
+                    "id": "3"
                 },
                 "4": {
-                    "id": "4" 
+                    "id": "4"
                 },
                 "5": {
-                    "id": "5" 
-                },  
+                    "id": "5"
+                },
                 "6": {
-                    "id": "6" 
-                },  
+                    "id": "6"
+                },
                 "7": {
-                    "id": "7" 
+                    "id": "7"
                 }
 			}
 		},
         "2": {
-            "id": "moermansike_2", 
-            "name": "Sceneries of Pure Snow", 
-            "description": "...Achoo! Uhh, good morning... Snow? Yeah, it is snowing today... Woah, it's really coming down hard... Ahaha~", 
+            "id": "moermansike_2",
+            "name": "Sceneries of Pure Snow",
+            "description": "...Achoo! Uhh, good morning... Snow? Yeah, it is snowing today... Woah, it's really coming down hard... Ahaha~",
             "expression": {
                 "0": {
-                    "id": "0" 
-                },  
+                    "id": "0"
+                },
                 "1": {
-                    "id": "1" 
-                },  
+                    "id": "1"
+                },
                 "2": {
-                    "id": "2" 
-                },  
+                    "id": "2"
+                },
                 "3": {
-                    "id": "3" 
-                },  
+                    "id": "3"
+                },
                 "4": {
-                    "id": "4" 
+                    "id": "4"
                 },
                 "5": {
-                    "id": "5" 
-                },  
+                    "id": "5"
+                },
                 "6": {
-                    "id": "6" 
+                    "id": "6"
                 }
             }
         },
         "101": {
-            "id": "moermansike_ex1100", 
-            "name": "Murmansk", 
-            "description": "", 
+            "id": "moermansike_ex1100",
+            "name": "Murmansk",
+            "description": "",
             "expression": {
                 "0": {
-                    "id": "0" 
-                }   
-            }   
+                    "id": "0"
+                }
+            }
         }
 	},
 	"defaultEquipment": {
@@ -667,27 +667,27 @@
                         "englishNote": ""
                     },
                     "30": {
-                        "event": "Present Like", 
+                        "event": "Present Like",
                         "media": "present_like",
-                        "chinese": "",  
-                        "chineseTL": "",  
-                        "chineseNote": "",  
-                        "japanese": "",  
-                        "japaneseTL": "",  
-                        "japaneseNote": "",  
-                        "english": "",  
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
                         "englishNote": ""
-                    },   
+                    },
                     "31": {
-                        "event": "Present Dislike", 
+                        "event": "Present Dislike",
                         "media": "present_dislike",
-                        "chinese": "",  
-                        "chineseTL": "",  
-                        "chineseNote": "",  
-                        "japanese": "",  
-                        "japaneseTL": "",  
-                        "japaneseNote": "",  
-                        "english": "",  
+                        "chinese": "",
+                        "chineseTL": "",
+                        "chineseNote": "",
+                        "japanese": "",
+                        "japaneseTL": "",
+                        "japaneseNote": "",
+                        "english": "",
                         "englishNote": ""
                     }
 				}
@@ -697,7 +697,7 @@
                 "id": "1",
                 "label": "Sceneries of Pure Snow",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -828,7 +828,7 @@
                         "japaneseNote": "",
                         "english": "Easy as porridge in the morning~",
                         "englishNote": ""
-                    } 
+                    }
                 }
             },
             "101": {
@@ -836,7 +836,7 @@
                 "id": "0",
                 "label": "Murmansk",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -895,7 +895,7 @@
                         "japaneseNote": "",
                         "english": "Gosh, your hand feels so warm~",
                         "englishNote": ""
-                    }       
+                    }
                 }
             }
 		}

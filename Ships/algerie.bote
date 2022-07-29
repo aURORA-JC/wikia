@@ -120,6 +120,40 @@
                 }
             }
         },
+        "3": {
+            "id": "aerjiliya_3",
+            "name": "",
+            "description": "",
+            "expression": {
+                "0": {
+                    "id": "0"
+                },
+                "1": {
+                    "id": "1"
+                },
+                "2": {
+                    "id": "2"
+                },
+                "3": {
+                    "id": "3"
+                },
+                "4": {
+                    "id": "4"
+                },
+                "5": {
+                    "id": "5"
+                },
+                "6": {
+                    "id": "6"
+                },
+                "7": {
+                    "id": "7"
+                },
+                "8": {
+                    "id": "8"
+                }
+            }
+        },
         "101" : {
             "id" : "aerjiliya_ex1100",
             "name" : "Algérie ",
@@ -927,6 +961,53 @@
                         "japaneseNote": "",
                         "english": "Commander, if I buried you in the sand neck-down, you wouldn't be able to move, and I'd be able to do whatever I want to you~ Hehehe, I'm joking. Or, would you like to do that to me? Hehehehe.",
                         "englishNote": ""
+                    }
+                }
+            },
+            "3": {
+                "skin_id": "aerjiliya_3",
+                "id": "2",
+                "label": "",
+                "dialogue": {
+                    "1": {
+                        "event": "Ship Description",
+                        "media": ""
+                    },
+                    "2": {
+                        "event": "Acquisition",
+                        "media": "get_2"
+                    },
+                    "3": {
+                        "event": "Login",
+                        "media": "login_2"
+                    },
+                    "4": {
+                        "event": "Details",
+                        "media": "detail_2"
+                    },
+                    "5": {
+                        "event": "Main 1",
+                        "media": "main_1_2"
+                    },
+                    "6": {
+                        "event": "Main 2",
+                        "media": "main_2_2"
+                    },
+                    "7": {
+                        "event": "Main 3",
+                        "media": "main_3_2"
+                    },
+                    "8": {
+                        "event": "Touch",
+                        "media": "touch_1_2"
+                    },
+                    "9": {
+                        "event": "Touch (Special)",
+                        "media": "touch_2_2"
+                    },
+                    "10": {
+                        "event": "Return to Port",
+                        "media": "home_2"
                     }
                 }
             },

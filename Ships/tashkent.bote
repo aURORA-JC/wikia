@@ -9,7 +9,7 @@
 	"rarity" : "Super Rare",
 	"initialStar" : "★★★☆☆☆",
 	"hull" : "Destroyer",
-	"navy" : "Northern Union",
+	"navy" : "Northern Parliament",
 	"prefix" : "SN",
 	"buildTime" : "00:42:00",
 	"voiceActress" : "Shiori Izawa",
@@ -121,27 +121,27 @@
 				}
 			}
 		},
-        "3" : { 
+        "3" : {
             "id" : "tashigan_3",
             "name" : "The Blue Snoozer",
-            "description" : "", 
-            "expression" : { 
-                "0" : { 
-                    "id" : "0" 
-                },  
-                "1" : { 
-                    "id" : "1" 
-                },  
-                "2" : { 
-                    "id" : "2" 
-                },  
-                "3" : { 
-                    "id" : "3" 
-                },  
-                "4" : { 
-                    "id" : "4" 
-                }   
-            }   
+            "description" : "",
+            "expression" : {
+                "0" : {
+                    "id" : "0"
+                },
+                "1" : {
+                    "id" : "1"
+                },
+                "2" : {
+                    "id" : "2"
+                },
+                "3" : {
+                    "id" : "3"
+                },
+                "4" : {
+                    "id" : "4"
+                }
+            }
         }
 	},
 	"defaultEquipment": {
@@ -876,7 +876,7 @@
                 "id": "2",
                 "label": "The Blue Snoozer",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -1007,7 +1007,7 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    } 
+                    }
                 }
             }
 		}
