@@ -1025,6 +1025,15 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
+    "137": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/qianwei.png",
+        "link": "vanguard",
+        "name": "Vanguard",
+        "navy": "Royal Navy",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
     "140": {
         "hull": "Light Aircraft Carrier",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/jingjishen.png",
@@ -4293,30 +4302,30 @@
         "shipType": "common"
     },
     "550": {
-        "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/chaijun_younv.png",
-        "link": "little_cheshire",
-        "name": "Little Cheshire",
-        "navy": "Royal Navy",
-        "rarity": "Elite",
-        "shipType": "common"
-    },
-    "551": {
-        "hull": "Battleship",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/qianwei.png",
-        "link": "vanguard",
-        "name": "Vanguard",
-        "navy": "Royal Navy",
-        "rarity": "Ultra Rare",
-        "shipType": "common"
-    },
-    "552": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/jiaweisi.png",
         "link": "jervis",
         "name": "Jervis",
         "navy": "Royal Navy",
         "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "551": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sizhannvshen.png",
+        "link": "bellona",
+        "name": "Bellona",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "552": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/chaijun_younv.png",
+        "link": "little_cheshire",
+        "name": "Little Cheshire",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
         "shipType": "common"
     },
     "553": {
@@ -4329,15 +4338,6 @@
         "shipType": "common"
     },
     "554": {
-        "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/sizhannvshen.png",
-        "link": "bellona",
-        "name": "Bellona",
-        "navy": "Royal Navy",
-        "rarity": "Elite",
-        "shipType": "common"
-    },
-    "555": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/fuchou.png",
         "link": "revenge",
@@ -4346,16 +4346,16 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-    "556": {
-        "hull": "Light Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/jinqu.png",
-        "link": "enterprise_hms",
-        "name": "Enterprise",
-        "navy": "Royal Navy",
-        "rarity": "Elite",
+    "555": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiafei.png",
+        "link": "joffre",
+        "name": "Joffre",
+        "navy": "Vichya Dominion",
+        "rarity": "Super Rare",
         "shipType": "common"
     },
-    "557": {
+    "556": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/buqu.png",
         "link": "l_indomptable",
@@ -4364,12 +4364,21 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
+    "557": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jinqu.png",
+        "link": "enterprise_hms",
+        "name": "Enterprise",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "558": {
-        "hull": "Aircraft Carrier",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiafei.png",
-        "link": "joffre",
-        "name": "Joffre",
-        "navy": "Vichya Dominion",
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dafenqi.png",
+        "link": "leonardo_da_vinci",
+        "name": "Leonardo da Vinci",
+        "navy": "Sardegna Empire",
         "rarity": "Super Rare",
         "shipType": "common"
     },
@@ -4383,6 +4392,15 @@
         "shipType": "common"
     },
     "560": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/boerzhanuo.png",
+        "link": "bolzano",
+        "name": "Bolzano",
+        "navy": "Sardegna Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "561": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/luoma.png",
         "link": "roma",
@@ -4391,20 +4409,11 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
-    "561": {
-        "hull": "Submarine",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/dafenqi.png",
-        "link": "leonardo_da_vinci",
-        "name": "Leonardo da Vinci",
-        "navy": "Sardegna Empire",
-        "rarity": "Super Rare",
-        "shipType": "common"
-    },
     "562": {
-        "hull": "Heavy Cruiser",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/boerzhanuo.png",
-        "link": "bolzano",
-        "name": "Bolzano",
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aerfuleiduo.png",
+        "link": "alfredo_oriani",
+        "name": "Alfredo Oriani",
         "navy": "Sardegna Empire",
         "rarity": "Elite",
         "shipType": "common"
@@ -4414,15 +4423,6 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/aimannuaier.png",
         "link": "emanuele_pessagno",
         "name": "Emanuele Pessagno",
-        "navy": "Sardegna Empire",
-        "rarity": "Elite",
-        "shipType": "common"
-    },
-    "564": {
-        "hull": "Destroyer",
-        "icon": "https://algwiki.moe/assets/shipyardicon_new/aerfuleiduo.png",
-        "link": "alfredo_oriani",
-        "name": "Alfredo Oriani",
         "navy": "Sardegna Empire",
         "rarity": "Elite",
         "shipType": "common"

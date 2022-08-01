@@ -14,5 +14,11 @@ wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareC
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/name_code.json -O json/name_code.en.json \
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/name_code.json -O json/name_code.cn.json \
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/name_code.json -O json/name_code.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/ship_data_blueprint.json -O json/ship_data_blueprint.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/ship_data_blueprint.json -O json/ship_data_blueprint.cn.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/ship_data_blueprint.json -O json/ship_data_blueprint.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/ship_strengthen_blueprint.json -O json/ship_strengthen_blueprint.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/ship_strengthen_blueprint.json -O json/ship_strengthen_blueprint.cn.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/ship_strengthen_blueprint.json -O json/ship_strengthen_blueprint.jp.json \
     && echo "Generating..." \
     && ./Generate.hs
