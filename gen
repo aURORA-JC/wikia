@@ -20,5 +20,7 @@ wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareC
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/ship_strengthen_blueprint.json -O json/ship_strengthen_blueprint.en.json \
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/ship_strengthen_blueprint.json -O json/ship_strengthen_blueprint.cn.json \
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/ship_strengthen_blueprint.json -O json/ship_strengthen_blueprint.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/sharecfgdata/ship_data_breakout.json -O json/ship_data_breakout.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/ship_strengthen_meta.json -O json/ship_strengthen_meta \
     && echo "Generating..." \
     && ./Generate.hs
