@@ -10,10 +10,13 @@ import Data.List (isSuffixOf)
 
 langs = ["cn", "jp", "en"]
 
+readJsonLang :: String -> IO Expr
+readJsonLang x
+  = parse $ "json/" ++ x ++ ".json"
+
 readJsonLangs :: String -> IO [Expr]
 readJsonLangs x
-  = mapM (\lang -> do file <- return $ "json/" ++ x ++ "." ++ lang ++ ".json"
-                      parse file) langs
+  = mapM (\lang -> readJsonLang $ x ++ "." ++ lang) langs
 
 parse :: String -> IO Expr
 parse path

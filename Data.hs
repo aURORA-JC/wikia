@@ -6,11 +6,13 @@ import Text.Parsec.Pos (SourcePos)
 
 data Val
   = Num Int
+  | Flo Float
   | Str String
 
 instance Show Val where
   show (Num x) = show x
   show (Str x) = x
+  show (Flo x) = show x
 
 data Expr
   = Val SourcePos Val
@@ -61,12 +63,14 @@ asnum (Num x) = x
 
 asstr :: Val -> String
 asstr (Str s) = s
+asstr (Num s) = show s
 
 asval :: Expr -> Val
 asval (Val _ x) = x
 
 (!) a b = case lookups a b of
             Just x -> x
+            _ -> error $ "Table: " ++ show a ++ "\nKey: " ++ show b ++ "\nNot found"
 
 toList (Obj _ x) = x
 keys (Obj _ x) = map fst x

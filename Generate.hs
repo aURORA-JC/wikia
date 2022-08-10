@@ -25,6 +25,24 @@ import qualified Control.Exception as Exc
 
 import Utils
 
+data Context
+  = Context
+  {
+    ctx_luaskin :: [Expr],
+    ctx_luaskinextra :: [Expr],
+    ctx_namecode :: [[(Int, (String, String))]],
+    ctx_encn :: [(String, (String, String))],
+    ctx_skins :: [(Int, String, Expr)],
+    ctx_json :: Expr,
+    ctx_ships :: [Expr],
+    ctx_ship_data_template :: Expr,
+    ctx_skill_data_template :: Expr,
+    ctx_ship_data_blueprint :: Expr,
+    ctx_ship_strengthen_blueprint :: Expr,
+    ctx_ship_data_breakout :: Expr,
+    ctx_ship_strengthen_meta :: Expr
+  }
+
 lookupDefault d b a = case lookups a b of
                         Nothing -> d
                         Just x -> ashow x
@@ -195,17 +213,113 @@ gettext namecode x = gettext' x
                                      Nothing -> error $ show i) ++ gettext' xs
         inside i (x:xs) = inside (i * 10 + digitToInt x) xs
 
-showship :: [Expr]
-         -> [Expr]
-         -> [[(Int, (String, String))]]
-         -> [(String, (String, String))]
-         -> [(Int, String, Expr)]
-         -> Expr
-         -> [Expr]
-         -> (Expr, Expr)
+limitbreaklines :: Expr
+                -> String
+                -> [String]
+limitbreaklines _ ""
+  = return []
+limitbreaklines breakout breakoutid
+  = case lookups breakout breakoutid of
+      Nothing -> []
+      Just ownbreakout -> case asstr $ asval $ ownbreakout ! "breakout_id" of
+                            "" -> []
+                            "0" -> []
+                            next -> (ownbreakout % "breakout_view"):(limitbreaklines breakout next)
+
+
+limitbreaklinesHtml :: [String]
+                    -> H.Html
+limitbreaklinesHtml lines
+  = do mapM_ (\(i, txt) -> H.tr
+                           $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                  $ H.preEscapedToHtml $ "Tier " ++ show i
+                                H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
+                                  $ H.preEscapedToHtml txt)
+         $ zip [1..] $ lines
+
+spacebar :: String
+         -> String
+spacebar ('|':xs) = ' ':'|':' ':(spacebar xs)
+spacebar (x:xs) = x:(spacebar xs)
+spacebar [] = []
+
+limitbreakResearch :: Context
+                   -> [String]
+                   -> H.Html
+limitbreakResearch context lblines
+  = do id <- return $ asstr $ asval $ ctx_json context ! "internal_id"
+       case id of
+         "" -> return ()
+         _ -> do blueprintlist <- return $ ctx_ship_data_blueprint context
+                 blueprints <- return $ ctx_ship_strengthen_blueprint context
+                 lst <- return $ blueprintlist ! init id
+                 fate <- return $ lst ! "fate_strengthen"
+                 strengthen <- return $ lst ! "strengthen_effect"
+                 filtered <- return $ filter (\(i, id) -> i `mod` 5 == 0) (zip [1..] $ elems strengthen)
+                 mapM_ (\(i, id) -> H.tr
+                                     $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                            $ H.preEscapedToHtml $ "Level " ++ show i
+                                          H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
+                                            $ H.preEscapedToHtml $ (if i `mod` 10 == 0 then
+                                                                      if length lblines >= i `div` 10 then
+                                                                        (lblines !! ((i `div` 10) - 1)) ++ " | "
+                                                                      else
+                                                                        trace ("Not enough limit break lines for ship: " ++ (ctx_json context % "name_reference")) ""
+                                                                    else
+                                                                      "")
+                                            ++ spacebar ((blueprints ! (asstr $ asval $ id)) % "effect_desc")) filtered
+                 case elems fate of
+                   [] -> return ()
+                   fate -> do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                $ "Level 35"
+                              H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
+                                $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ last fate)) % "effect_desc")
+
+limitbreak :: Context
+           -> H.Html
+limitbreak context
+  = H.td
+    $ H.table
+    $ do json <- return $ ctx_json context
+         breakout <- return $ ctx_ship_data_breakout context
+         lblines <- return $ limitbreaklines breakout (json % "internal_id")
+
+         H.tr $ H.th H.! A.class_ "title"  H.! A.scope "col" H.! A.colspan "5" $ "Limit Break"
+         case lookups json "strengthenLevel" of
+           Nothing -> limitbreaklinesHtml lblines
+           Just _ -> limitbreakResearch context lblines
+
+         H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Equipments"
+         H.tr
+           $ mapM_ (H.th H.! A.class_ "subtitle" H.! A.scope "col")
+           $ ["Slot",
+              "Equipment Type",
+              "Efficiency (LB 0/1/2/3)",
+              "Quantity (LB 0/1/2/3)",
+              "Preload (LB 0/1/2/3)"]
+         mapM_ (\(k, v) -> H.tr
+                           $ do H.td $ H.preEscapedToHtml k
+                                mapM_ (\x -> H.td $ v %% x) ["type", "efficiency", "amount", "preload"]) $ sortOn (\(k, _) -> k) $ toList $ json ! "equipmentLoadout"
+         H.tr
+           $ do H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Default Equipments"
+                mapM_ (\(k, v) -> H.tr
+                                  $ do H.td $ H.preEscapedToHtml k
+                                       H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ json ! "defaultEquipment"
+
+showship :: Context
          -> H.Html
-showship luaskin luaskinextra namecode encn skins json ships (ship_data_template, skill_data_template)
-  = do H.tr
+showship context
+  = do luaskin <- return $ ctx_luaskin context
+       luaskinextra <- return $ ctx_luaskinextra context
+       namecode <- return $ ctx_namecode context
+       encn <- return $ ctx_encn context
+       skins <- return $ ctx_skins context
+       json <- return $ ctx_json context
+       ships <- return $ ctx_ships context
+       ship_data_template <- return $ ctx_ship_data_template context
+       skill_data_template <- return $ ctx_skill_data_template context
+       d <- return $ displayRow json
+       H.tr
          $ do H.td
                 $ H.table
                 $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "5" $ H.preEscapedToHtml $ (json % "name") ++ " (JP 🇯🇵: " ++ (json % "nameJP") ++ ", CN 🇹🇼: " ++ (json % "nameCN") ++ ")"
@@ -334,42 +448,7 @@ showship luaskin luaskinextra namecode encn skins json ships (ship_data_template
                                                                  " Armor"
                                                           H.td H.! A.style "width:15%;text-align:center" H.! A.colspan "3" $ v %% "armor") stats
 
-              H.td
-                $ H.table
-                $ do H.tr $ H.th H.! A.class_ "title"  H.! A.scope "col" H.! A.colspan "5" $ "Limit Break"
-                     mapM_ (\(k, v) -> H.tr
-                                       $ do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                              $ H.preEscapedToHtml $ case lastN 2 k of
-                                                             ('r':x) -> "Tier " ++ x
-                                                             ('0':x) -> "Level " ++ x
-                                                             x       -> "Level " ++ x
-                                            H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;" $ H.preEscapedToHtml $ ashow v)
-                       $ sortOn (\(k, _) -> k)
-                       $ map (\(k, v) -> (case lastN 2 $ k of
-                                            ('r':x) -> "r" ++ x
-                                            ('l':x) -> "0" ++ x
-                                            x       -> x, v))
-                       $ toList
-
-                       $ case lookups json "limitBreak" of
-                           Nothing -> json ! "strengthenLevel"
-                           Just x -> x
-                     H.tr $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Equipments"
-                     H.tr
-                       $ mapM_ (H.th H.! A.class_ "subtitle" H.! A.scope "col")
-                       $ ["Slot",
-                          "Equipment Type",
-                          "Efficiency (LB 0/1/2/3)",
-                          "Quantity (LB 0/1/2/3)",
-                          "Preload (LB 0/1/2/3)"]
-                     mapM_ (\(k, v) -> H.tr
-                                       $ do H.td $ H.preEscapedToHtml k
-                                            mapM_ (\x -> H.td $ v %% x) ["type", "efficiency", "amount", "preload"]) $ sortOn (\(k, _) -> k) $ toList $ json ! "equipmentLoadout"
-                     H.tr
-                       $ do H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "5" $ "Default Equipments"
-                            mapM_ (\(k, v) -> H.tr
-                                              $ do H.td $ H.preEscapedToHtml k
-                                                   H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ json ! "defaultEquipment"
+              limitbreak context
 
        case lookups json "fleet_tech" of
          Just ft
@@ -774,7 +853,6 @@ showship luaskin luaskinextra namecode encn skins json ships (ship_data_template
                                          Nothing
                                            -> "Missing lines!!"
 -}
-  where d = displayRow json
 
 displayRow :: Expr
            -> String
@@ -904,11 +982,17 @@ decideColor ""           = "#24252d"
 
 main :: IO ()
 main
-  = do css <- readFile "style.css"
+  = do putStrLn "Starting"
+       css <- readFile "style.css"
        luaskin <- readJsonLangs "ship_skin_words"
        luaskinextra <- readJsonLangs "ship_skin_words_extra"
        ship_data_template <- readJsonLangs "ship_data_template"
        skill_data_template <- readJsonLangs "skill_data_template"
+       ship_data_blueprint <- readJsonLangs "ship_data_blueprint"
+       ship_strengthen_blueprint <- readJsonLangs "ship_strengthen_blueprint"
+       ship_strengthen_meta <- readJsonLang "ship_strengthen_meta"
+       ship_data_breakout <- readJsonLang "ship_data_breakout"
+
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
        catchIOError (removeDirectoryRecursive "out") $ const $ return ()
@@ -939,7 +1023,25 @@ main
                                              H.a H.! A.href "../shiplist.html" $ "Shiplist"
                                              " > "
                                              json %% "name"
-                                      H.main $ H.table $ showship luaskin luaskinextra namecode encn skins json (map snd ships) (ship_data_template !! 2, skill_data_template !! 2)
+                                      H.main
+                                        $ H.table
+                                        $ showship
+                                        $ Context { ctx_luaskin = luaskin,
+                                                    ctx_luaskinextra = luaskinextra,
+                                                    ctx_namecode = namecode,
+                                                    ctx_encn = encn,
+                                                    ctx_skins = skins,
+                                                    ctx_json = json,
+                                                    ctx_ships = map snd ships,
+                                                    ctx_ship_data_template = ship_data_template !! 2,
+                                                    ctx_skill_data_template = skill_data_template !! 2,
+
+                                                    ctx_ship_data_breakout = ship_data_breakout,
+                                                    ctx_ship_strengthen_meta = ship_strengthen_meta,
+
+                                                    ctx_ship_strengthen_blueprint = ship_strengthen_blueprint !! 2,
+                                                    ctx_ship_data_blueprint = ship_data_blueprint !! 2
+                                                  }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
                                                                                                                    True -> "")) ++ "];\n" ++ dumbjs) ships

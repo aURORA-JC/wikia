@@ -78,7 +78,11 @@ value
      <|> array
      <|> do pos <- getPosition
             x <- (string >>= return . Str)
-                 <|> (number >>= return . Num)
+                 <|> (do a <- number
+                         (do char '.'
+                             b <- number
+                             return $ Flo $ read (show a ++ "." ++ show b))
+                           <|> (return $ Num a))
                  <|> (symbol >>= return . Str)
             return
               $ Val pos x) <?> "expression"

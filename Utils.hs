@@ -9,7 +9,7 @@ import Parsing
 
 (%) a b = case lookups a b of
             Just x -> ashow x
-            _ -> error $ "Key:" ++ show b ++ " Table:" ++ show a
+            _ -> error $ "Table: " ++ show a ++ "\nKey:" ++ show b ++ "\nNot found"
 
 (%%) :: Expr
      -> String
