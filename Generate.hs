@@ -40,7 +40,8 @@ data Context
     ctx_ship_data_blueprint :: Expr,
     ctx_ship_strengthen_blueprint :: Expr,
     ctx_ship_data_breakout :: Expr,
-    ctx_ship_strengthen_meta :: Expr
+    ctx_ship_strengthen_meta :: Expr,
+    ctx_ship_meta_breakout :: Expr
   }
 
 lookupDefault d b a = case lookups a b of
@@ -281,8 +282,11 @@ limitbreak context
   = H.td
     $ H.table
     $ do json <- return $ ctx_json context
-         breakout <- return $ ctx_ship_data_breakout context
-         lblines <- return $ limitbreaklines breakout (json % "internal_id")
+         lblines <- return
+                    $ limitbreaklines (case json % "internal_id" of
+                                         ['9', '7', _, _, _, _, _] -> ctx_ship_meta_breakout context
+                                         _                         -> ctx_ship_data_breakout context)
+                    $ json % "internal_id"
 
          H.tr $ H.th H.! A.class_ "title"  H.! A.scope "col" H.! A.colspan "5" $ "Limit Break"
          case lookups json "strengthenLevel" of
@@ -992,6 +996,7 @@ main
        ship_strengthen_blueprint <- readJsonLangs "ship_strengthen_blueprint"
        ship_strengthen_meta <- readJsonLang "ship_strengthen_meta"
        ship_data_breakout <- readJsonLang "ship_data_breakout"
+       ship_meta_breakout <- readJsonLang "ship_meta_breakout"
 
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
@@ -1040,7 +1045,9 @@ main
                                                     ctx_ship_strengthen_meta = ship_strengthen_meta,
 
                                                     ctx_ship_strengthen_blueprint = ship_strengthen_blueprint !! 2,
-                                                    ctx_ship_data_blueprint = ship_data_blueprint !! 2
+                                                    ctx_ship_data_blueprint = ship_data_blueprint !! 2,
+
+                                                    ctx_ship_meta_breakout = ship_meta_breakout
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
