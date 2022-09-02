@@ -1,1275 +1,1347 @@
 {
-	"name_reference": "helena",
-	"cn_reference": "hailunna",
-	"nameJP": "ヘレナ",
-	"nameCN": "海伦娜",
-	"ID": "33",
-	"name": "Helena",
-	"internal_id": "102051",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Light Cruiser",
-	"navy": "Eagle Union",
-	"prefix": "USS",
-	"buildTime": "01:15:00",
-	"class": "Brooklyn-Class",
-	"voiceActress": "Tomoyo Chuujou",
-	"parameters": {
-		"firepower": "B",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "B",
-		"antiAir": "B",
-		"hp": "C"
-	},
-	"scrap": {
-		"gold": "6",
-		"oil": "3",
-		"medal": "4"
-	},
-	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
-	},
-	"artist": {
-		"name": "realmbw",
-		"weibo": "http://weibo.com/realmbw",
-		"twitter": "https://twitter.com/realmbw",
-		"pixiv": "https://www.pixiv.net/member.php?id=529070",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "13",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "13"
-	},
-	"acquisitionMethod": "Honor medal exchange, Explore Stage5-1, Light/Heavy/Special Construction",
-	"skill": {
-		"1": {
-			"icon": "10070",
-			"requirement": "",
-			"name": "Radar Scan",
-			"type": "Support",
-			"description": "Every 20s: $1 chance to apply a debuff to all onscreen enemies, increasing the DMG they take by $2 for 10s."
-		},
-		"2": {
-			"icon": "13380",
-			"requirement": "",
-			"name": "The Wonder of Kula Gulf",
-			"type": "Support",
-			"description": "Decreases this ship's torpedo DMG taken by $1. At the start of the battle, if there are 3 ships afloat in your Vanguard and there is an Eagle Union ship in the backmost position (other than this ship): increases that ship's EVA by $2."
-		},
-		"3": {
-			"icon": "20121",
-			"requirement": "",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activates All Out Assault Ⅰ: Brooklyn Class once every 15 times the Main Guns are fired."
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "hailunna",
-			"name": "Helena",
-			"description": "Brooklyn-class Light Cruiser – Helena, Hull Number CL-50!",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		},
-		"2": {
-			"id": "hailunna_2",
-			"name": "New Year's Bluebird ",
-			"description": "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was. ",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				}
-			}
-		},
-		"3": {
-			"id": "hailunna_3",
-			"name": "May I Have this Dance? ",
-			"description": "Um, Commander, could we... share a dance? I have things I want to tell you... ",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		},
-		"4": {
-			"id": "hailunna_g",
-			"name": "Helena (Retrofit)",
-			"description": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "12100",
-			"rarity": "Common",
-			"name": "Triple 152mm Main Gun"
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "16200",
-			"rarity": "Common",
-			"name": "Quadruple 28mm Chicago Piano"
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "3204",
-			"firepower": "149",
-			"torpedo": "0",
-			"antiAir": "279",
-			"aviation": "0",
-			"reload": "161",
-			"hit": "156",
-			"evasion": "73",
-			"speed": "32.5",
-			"luck": "33",
-			"asw": "96",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		},
-		"120": {
-			"hp": "3604",
-			"firepower": "171",
-			"torpedo": "0",
-			"antiAir": "316",
-			"aviation": "0",
-			"reload": "185",
-			"hit": "175",
-			"evasion": "90",
-			"speed": "32.5",
-			"luck": "33",
-			"asw": "109",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		},
-		"base": {
-			"hp": "620",
-			"firepower": "32",
-			"torpedo": "0",
-			"antiAir": "60",
-			"aviation": "0",
-			"reload": "68",
-			"hit": "60",
-			"evasion": "28",
-			"speed": "32.5",
-			"luck": "33",
-			"asw": "26",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Light"
-		},
-		"100retrofit": {
-			"hp": "3444",
-			"firepower": "159",
-			"torpedo": "0",
-			"antiAir": "369",
-			"aviation": "0",
-			"reload": "166",
-			"hit": "171",
-			"evasion": "73",
-			"speed": "32.5",
-			"luck": "33",
-			"asw": "96",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		},
-		"120retrofit": {
-			"hp": "3844",
-			"firepower": "181",
-			"torpedo": "0",
-			"antiAir": "406",
-			"aviation": "0",
-			"reload": "190",
-			"hit": "190",
-			"evasion": "90",
-			"speed": "32.5",
-			"luck": "33",
-			"asw": "109",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "10",
-			"armor": "Light"
-		}
-	},
-	"limitBreak": {
-		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-		"tier2": "Main gun base +1/Main gun efficiency +10%",
-		"tier3": "Improve All Out Assault/Main gun efficiency +15%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Light Cruiser",
-			"efficiency": "105%/110%/120%/135%",
-			"amount": "1/1/2/2",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Destroyer Gun",
-			"efficiency": "65%/65%/65%/65%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "100%/100%/100%/100%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "hailunna",
-				"id": "0",
-				"label": "Helena",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "布鲁克林级轻巡洋舰—海伦娜，舷号CL-50",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ブルックリン級巡洋艦・ヘレナ（CL-50）",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Brooklyn-class Light Cruiser – Helena, Hull Number CL-50!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "我是以不输给其他重巡姐妹们为理念设计的型号，不过果然只靠我一个人是救不了大家的……指挥官，能帮帮我吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ほかの重巡姉妹に負けないようにデザインされたけど、私一人の力ではみんなを救えないわ……指揮官、私を助けてもらえるかな？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I was designed to be on par with heavy cruisers, but just my power alone isn't enough to save everyone... Commander, can you help me?",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "指挥官，您好，我是海伦娜。索敌是我的长项，请……将我们带往胜利吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "はじめまして、指揮官。私はヘレナ。敵を探索するのが得意なの。お願い…私たちを勝利に導いて",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Nice to meet you, Commander. I'm Helena. My strong suit is enemy reconnaissance. Please... guide us towards victory.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "……啊，指挥官，欢迎回来，不好意思刚才在想事情",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "…あ、指揮官、お帰りなさい。ごめんなさい、少し考え事をしていて",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "... Ah, welcome back, Commander. Sorry, I was just brooding over something.",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "光靠这些是没用的呀……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これだけに頼ってもだめ…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I can't rely on this thing alone...",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "指挥官躲起来了吗，就算这样我也知道你在哪里的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、隠れてるの？どこにいるかはお見通しよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Are you trying to hide, Commander? No matter where you hide, I know where you are.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "指挥官，等战争结束以后想做点什么呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、この戦争が終わったら、何をしたい？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, what should we do after the war?",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "要是我的火力能跟雷达一样强的话……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私の火力、このレーダーと同じぐらい強力だったらいいんだけど…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If only my guns could be as strong as my radar...",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "嗯？我没事，只是有些走神而已",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え？私は平気よ。ただ…ぼんやりしてしまって。",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hm? I'm fine. I'm just... a little distracted.",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "如果这样能让指挥官打起精神，我……是愿意的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これで指揮官が元気になれるなら、私は…かまわないわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If this makes you feel good, then... I'm fine with it.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "让我们从任务开始一点一点累积胜利的基石吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "少しずつ、勝利の基盤を作っていきましょう。まずはミッション遂行ですね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Bit by bit we'll build the foundation for victory. We'll start by doing missions.",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "任务的奖励累积起来也是一笔巨大的资源，请好好利用吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "塵も積もれば山だからね。ちゃんと利用しましょう",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Resources are no good if they just pile up. We should make use of them.",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "有新的邮件到了，请好好珍惜和其他人之间的关系哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しいメールね。よそとの付き合いも大事ね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You've got new mail. It's important to stay in touch with your loved ones.",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "大家都回来了吧？感觉除了甲板上多出了点零件以外没什么大问题呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "みんな無事帰還したよね？でも鋼板に部品が増えている…なんだろう…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Did everyone make it back safe and sound? Good. But there's spare parts lying around in the docks now... I wonder why...",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "指挥官，你说下次我把SG借给姐妹们出委托好不好？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、今度はSGを姉妹たちに貸してもいい？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hey, Commander, could I lend my SG radar to my sisters this time?",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "这份力量，我一定会用来保护大家的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この力、みんなを守るために使うわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'll use this power to protect everyone!",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "在我面前，你们无所遁形",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私の前じゃ、隠れても無駄よ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The enemy can't hide from me.",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "……居然赢了？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "…勝ったの！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "... We actually won?",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "……拜托先救我~不要再和敌人纠缠了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "…お願い助けて…もう敵にこだわらないで…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "... Please, save me... Ignore the enemy, just let them go...",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "SG，把你的力量借给我！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "SG、力を貸して！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "SG, give me your power!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "SG，锁定敌人位置！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "SG、敵の所在をロックオンよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "SG, lock on the enemy position!",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "SG，快来保护我……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "SG、私を守って……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "SG, protect me...",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "我的索敌能力要是能帮到姐妹们那就好了……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私の索敵能力、みんなの役に立てればいいのに……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If only my recon could help the others...",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "表情？啊……因为我离开的时候战况还是相当不利的呢……对于和平啊，欢笑啊之类的……稍微有些不适应，不过不用担心，海伦娜没问题的！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "表情？あ……戦線から離れた時はまだ不利な状況だったから、平和とか、笑顔とか……ちょっと慣れないかも。でも心配しないで、ヘレナは大丈夫！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My expression? Ah... it's because I left while we were on the losing end of the war... I might just not be so used to peace and happiness. But don't worry, I'll be fine!",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "最近感觉放松了不少……嗯，之前神经绷的太紧了，这多亏指挥官一直在我身边给我勇气哦~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "最近気が緩んだ気がして……ううん、この前は神経を張り詰めすぎたわ。そばにいて勇気をくれる、指揮官のおかげよ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I think I've been more at ease lately... No, I was just too tense up until now. It's all thanks to the courage you've given me by being beside me.",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "我相信哦，指挥官一定会带给我们曙光的。而且这一次我一定要努力到最后……和喜欢的人生离死别这种事，光是想想就感觉心要裂开了…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私、指揮官なら希望をもたらしてくれるのを信じてるの。そして今度こそ最後まで頑張って……好きな人と死別することは、考えるだけで心が張り裂けそうになるの……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I believe that you will bring us hope, Commander. This time, I'll fight to the end... Just the thought of saying goodbye to the person I love makes me feel like my heart will tear in half...",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "这就是指挥官给我的承诺吗……这样啊……好开心……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これは指揮官からの約束……そうなの……嬉しい……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A promise... from you, Commander? I see... I'm so happy...",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Pennsylvania)",
-						"media": "link1",
-						"chinese": "SG全开，决不让悲剧重演！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ペン姉、頼むわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Penny, cover me!",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Easter Egg 2 (Oklahoma, Arizona, California)",
-						"media": "link2",
-						"chinese": "轰姐罩我~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "SG、領域全開！あの悲劇を絶対に繰り返させないわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "SG, full area scan! I will never let that tragedy repeat itself!",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "hailunna_2",
-				"id": "1",
-				"label": "New Year's Bluebird ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "重樱的新年……嗯，我要参加。指挥官，不用太顾虑我没关系的，我已经不是刚加入舰队时脆弱的我了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "重桜の新年……私にも参加させて。あ、指揮官、そんなに気を使わなくていいわ。もう艦隊に参加したばかりの、か弱い私じゃないの",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "重樱的新年……嗯，我要参加。指挥官，不用太顾虑我没关系的，我已经不是刚加入舰队时脆弱的我了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "重桜の新年……私にも参加させて。あ、指揮官、そんなに気を使わなくていいわ。もう艦隊に参加したばかりの、か弱い私じゃないの",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was.",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "指挥官，舰队里已经完全是节日的气氛了呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、艦隊はすっかり祝日の雰囲気ね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It seems the New Year's spirit has swept over the entire fleet.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "总觉得路易斯姐姐完全把我当成换装娃娃了…指挥官，这样真的可爱吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "セントルイス姉さん、私にいろんな服を着せるのを楽しんでいたのね……指揮官、この衣装は本当に可愛いの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "St. Louis must've had a lot of fun making me try out so many clothes... Do you really think I look cute this way, Commander?",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "新年愿望的话……我希望新的一年，我能够变得更加坚强，还有大家都能平平安安",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新年の願い……今年こそ心がもっと強くなりますように、そして仲間のみんなが無事でありますように……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My New Year's wish is... that I'll be more courageous and positive, and that no harm will come to any of my friends...",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_1",
-						"chinese": "布鲁克林级全员，再加上克利夫兰和她的妹妹们，感觉我们的新年参拜队伍会很壮大呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ブルックリン級のみんな、そしてクリーブランドと海上騎士団の妹たち、今年の初詣は大所帯だったわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "For this year's shrine visit, the whole Brooklyn-class, Cleveland, and her Knights of The Sea all went there together as one big family.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "啊，下雪了……以前都没有发现，真是漂亮又安静呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "これが雪……こんなに静かで綺麗だなんて気づかなかったわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's snowing... I never realized how peaceful and beautiful snow can be.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "嗯？指挥官，我在想，新年期间怎么度过比较好……有很多想做的事呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "え？指揮官、今お正月には何をしようかなって……やりたいことがいっぱいあるからね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Huh? I was just thinking about what I should do during New Year's... There are so many things I want to do.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_1",
-						"chinese": "指、指挥官，这样是不好的……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "し、指揮官、いけないわ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "C-Commander, please stop...",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "指挥官，接下来让我出战也可以哦，SG一定能帮上忙的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、次も私に出撃させて。SGはきっと役に立つわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Let me be part of the mission, Commander. My SG would surely be good to have.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Flagship",
-						"media": "warcry_1",
-						"chinese": "我……想要赢！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私……勝ちたい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I... want to win!",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Victory",
-						"media": "mvp_1",
-						"chinese": "对，就是这样，海伦娜，你很厉害的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うん、そうよ…！ヘレナ、あなたは凄いわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "That's right...! You did a great job, me!",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Defeat",
-						"media": "lose_1",
-						"chinese": "没关系，还有下一次……！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "大丈夫、まだ次があるから……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's okay, there's always the next time...!",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_1",
-						"chinese": "指挥官？不用担心，我只是在想，和朋友一起欢笑，和喜欢的人一同迈向新的一年，原来，这么幸福的时光我是真的可以拥有的啊……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官？心配しないで。今、友達、そして好きな人と一緒に新しい年を迎えることができて――私もこんなに幸せになれるんだって思ったの",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander? You don't have to worry about me. I was just thinking about how I now have friends and a sweetheart who I can celebrate the new year together with, and how unbelievably happy it makes me.",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
-				"skin_id": "hailunna_3",
-				"id": "2",
-				"label": "May I Have this Dance? ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "那个，指挥官，能和我跳一支舞吗？我有很多话，想要和指挥官说呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あの、指揮官、私と…一曲踊ってみない？私、指揮官に伝えたいことがあって……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Um, Commander, could we... share a dance? I have things I want to tell you...",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_2",
-						"chinese": "那个，指挥官，能和我跳一支舞吗？我有很多话，想要和指挥官说呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あの、指揮官、私と…一曲踊ってみない？私、指揮官に伝えたいことがあって……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Um, Commander, could we... share a dance? I have things I want to tell you...",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_2",
-						"chinese": "指挥官，宴会就要开始了呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、パーティーがそろそろ始まるわよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, the party is about to start.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_2",
-						"chinese": "为了这一天，我特意向路易斯姐姐学了跳舞，因为太过笨手笨脚还被她笑话了好久呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "今日のために、セントルイス姉さんにダンスを教えてもらったの。不器用な子だわって何回も笑われちゃって…ふふ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "In preparation for today, I got St. Louis to teach me how to dance. She laughed a lot at me, telling me I'm \"such a klutz\"... Ahah.",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_2",
-						"chinese": "指挥官，你知道吗，是你把我从深渊中拉了出来，是你给了我希望哦",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官は知ってるかな？ヘレナがこんなに明るくなれたのは指揮官のおかげだってこと。ふふっ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, you know something? It's thanks to you that I've become as cheerful as I am now. Ahah~",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_2",
-						"chinese": "指挥官，你知道吗，我已经不再恐惧和迷茫，因为我知道，指挥官和大家，一直会在我身边",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私はもう怖くなったり、迷ったりはしないわ。だって指揮官と皆がいつもそばにいてくれるから",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm not going to be scared or hesitate ever again because you and my friends are always with me.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_2",
-						"chinese": "指挥官，你知道吗，今晚我把所有人的邀请都推掉了，因为，我有太多的话，想和指挥官说呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私のダンスの相手は…ううん、今は指揮官だけ。だって話したいことがたくさんあるもの",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "My dance partner will be... No, it'll just be you, Commander. I have so many things I want to tell you.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_2",
-						"chinese": "指挥官，我已经准备好了，让我们开始跳舞吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、準備ができているわ。一緒に踊りましょ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm all ready, Commander. Shall we dance?",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_2",
-						"chinese": "呀！……啊，指挥官，踩到你的脚了吗……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "きゃっ！？……あっ指揮官、足を踏んづけちゃったの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Eek?! ... Ah, sorry, did I step on your foot, Commander?",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Mission",
-						"media": "task_2",
-						"chinese": "指挥官，请先去完成任务吧，我会等你的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、任務をこなしてきて。私はここで待っているわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, please go complete your missions. Don't worry, I'll be here waiting for you.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission Complete",
-						"media": "mission_complete_2",
-						"chinese": "指挥官真厉害呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官はやっぱりすごいわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You really are incredible, Commander.",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mail",
-						"media": "mail_2",
-						"chinese": "指挥官，又是新的跳舞邀请……真受欢迎呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しいダンスパーティーのお誘いらしいわ？……ふふ、指揮官ってやっぱり人気者だわ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It seems you've got an invitation to another dance party... Hahah, you really are a superstar, Commander.",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Return to Port",
-						"media": "home_2",
-						"chinese": "指挥官，在宴会之前，还有什么要处理的事吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、パーティーに行く前に、やり残した仕事はない？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, before we leave for the party, do you have any unfinished business?",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Commission Complete",
-						"media": "expedition_2",
-						"chinese": "指挥官，我们一起去迎接委托组的各位参加宴会吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、委託から帰ってきたみんなをパーティー会場で迎えましょう？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, let's extend an invitation to the commission team to join us for the party.",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Flagship",
-						"media": "warcry_2",
-						"chinese": "我……想要赢！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私……勝ちたい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I... want to win!",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Victory",
-						"media": "mvp_2",
-						"chinese": "对，就是这样，海伦娜，你很厉害的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "うん、そうよ…！ヘレナ、あなたは凄いわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Yeah, that's right...! You're awesome, Helena! ",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Defeat",
-						"media": "lose_2",
-						"chinese": "没关系，还有下一次……！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "大丈夫、まだ次があるから……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's okay, there's always next time...!",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_2",
-						"chinese": "一直以来，我都心安理得地享受着指挥官的迁就与保护。但是，这样是不够的。我想，总有一天，我也能成为能够站在指挥官身边的人…所以，请再等一等海伦娜吧，可以吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私はずっと皆、そして指揮官に気を使われて、大事に大事に守られてきたの。でもこのままじゃダメ。私、指揮官のそばに立ち、皆に頼られるよう成長したくて……だから、ヘレナのことをもう少し待ってくれない…かな？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You and my friends have always taken care of, looked after, and protected me. But that can't go on forever. I want to stand beside you and become someone people can count on... So, could you wait for me just a little longer... please?",
-						"englishNote": ""
-					}
-				}
-			},
-			"4": {
-				"skin_id": "hailunna_g",
-				"id": "9",
-				"label": "Helena (Retrofit)",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しい装備…使いこなすにはちょっと大変そう…ううん、今の私ならきっと大丈夫！指揮官、ヘレナに…期待してて！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_9",
-						"chinese": "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "新しい装備…使いこなすにはちょっと大変そう…ううん、今の私ならきっと大丈夫！指揮官、ヘレナに…期待してて！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_9",
-						"chinese": "指挥官，欢迎回来，今天也一起加油吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、おかえりなさい。今日も一緒に頑張ろ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Welcome back, Commander. Let's get to work and do our best.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_9",
-						"chinese": "最近我只要一主动做什么事，路易斯姐姐就会一边说“哎呀，女儿长大了”一边假装唉声叹气……真是的，欺负人……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "セントルイス姉さん、私がなにかをするたびに「大きくなったわね」って感動したふりして……もう、困っちゃうわ…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "St. Louis always praises me like, \"my, how you've grown\" whenever I do anything... It's kind of embarrassing...",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_9",
-						"chinese": "指挥官，想知道强化后的SG的性能吗？嘻嘻，那就请你找一个谁都不知道的地方藏起来吧~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、強くなったSGの性能を知りたい？じゃあ…どこか誰も知らない場所に隠れてみて？ふふふ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You want to know what my new and improved SG is capable of? All right... Find a place to hide that nobody knows about. Hehehe~",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_9",
-						"chinese": "我已经决定了，比起想象未来的事，首先要做好眼前的事，过好现在的每一天",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "未来のことを不安がるより、まずは今――悔いのないように毎日を過ごすべきだと思う",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I think everyone would be better off living in the present without regrets than spend every day anxious about the future.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_9",
-						"chinese": "光是装备强化是不够的，我要让自己足够配上这些优秀的装备才行呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "兵装の強化ばかりに気を取られていてはダメ。私もこの兵装を上手く使えるように強くならなきゃ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's not enough to focus only on improving my equipment. I need to become stronger to use it properly, too.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch (Special)",
-						"media": "touch_2_9",
-						"chinese": "指挥官，这样的事，不可以在这里做……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "指揮官、こういうのは…ダメ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You really can't go around doing this, Commander!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Commission Complete",
-						"media": "expedition_9",
-						"chinese": "强化后的SG真厉害呢……在办公室里能直接看到返航的委托组",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "SGより受信。……うん、委託に出かけたみんなが戻ってきたよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "SG receiving message... A commission team has returned to port.",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Flagship",
-						"media": "warcry_9",
-						"chinese": "我……会赢！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私……勝てるよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm... going to win!",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Victory",
-						"media": "mvp_9",
-						"chinese": "海伦娜，你还不可以骄傲，你要变得更厉害才行！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ヘレナ、驕ってはダメ…もっともっと強くならなきゃ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Don't get complacent, Helena... You've got to get even stronger!",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Defeat",
-						"media": "lose_9",
-						"chinese": "没关系，还有下一次……！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "大丈夫よヘレナ。きっと次があるから……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's okay, Helena. There's always next time...!",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_9",
-						"chinese": "现在的我，对站在指挥官身边这件事，稍微有了一些自信……但是，人果然总是贪心的呢，我想要变得更出色，想要更多地占据指挥官的视线……指挥官，这样的我，你会讨厌吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "私、指揮官のそばにいると、ちょっと自信をもてるようになったわ。だから今は、もっともっと頼れるようになって、指揮官にもっともっと振り向いてほしくて……こんなヘレナを、指揮官は好きになってくれる……？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I feel a bit more confident in myself when I'm with you, Commander. But I want more; I want to be the girl you rely on so I can be the center of your attention... It might be selfish to ask, but... will you love me?",
-						"englishNote": ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "9",
-		"add_get_attr": "Hit",
-		"add_get_value": "1",
-		"add_get_shiptype": "Light Cruiser",
-		"pt_upgrade": "18",
-		"pt_level": "13",
-		"add_level_attr": "Firepower",
-		"add_level_value": "1",
-		"add_level_shiptype": "Light Cruiser",
-		"t_level": "6",
-		"ships": "brooklyn,phoenix,honolulu,st_louis,helena,boise,helena_meta"
-	}
+  "name_reference": "helena",
+  "cn_reference": "hailunna",
+  "nameJP": "ヘレナ",
+  "nameCN": "海伦娜",
+  "ID": "33",
+  "name": "Helena",
+  "internal_id": "102051",
+  "rarity": "Elite",
+  "initialStar": "★★☆☆☆",
+  "hull": "Light Cruiser",
+  "navy": "Eagle Union",
+  "prefix": "USS",
+  "buildTime": "01:15:00",
+  "class": "Brooklyn-Class",
+  "voiceActress": "Tomoyo Chuujou",
+  "parameters": {
+    "firepower": "B",
+    "torpedo": "E",
+    "aviation": "E",
+    "evasion": "B",
+    "antiAir": "B",
+    "hp": "C"
+  },
+  "scrap": {
+    "gold": "6",
+    "oil": "3",
+    "medal": "4"
+  },
+  "releaseDate": {
+    "JP": "",
+    "CN": "",
+    "KR": "",
+    "EN": ""
+  },
+  "artist": {
+    "name": "realmbw",
+    "weibo": "http://weibo.com/realmbw",
+    "twitter": "https://twitter.com/realmbw",
+    "pixiv": "https://www.pixiv.net/member.php?id=529070",
+    "other": ""
+  },
+  "enhance": {
+    "firepower": "13",
+    "torpedo": "0",
+    "aviation": "0",
+    "reload": "13"
+  },
+  "acquisitionMethod": "Honor medal exchange, Explore Stage5-1, Light/Heavy/Special Construction",
+  "skill": {
+    "1": {
+      "icon": "10070",
+      "requirement": "",
+      "name": "Radar Scan",
+      "type": "Support",
+      "description": "Every 20s: $1 chance to apply a debuff to all onscreen enemies, increasing the DMG they take by $2 for 10s."
+    },
+    "2": {
+      "icon": "13380",
+      "requirement": "",
+      "name": "The Wonder of Kula Gulf",
+      "type": "Support",
+      "description": "Decreases this ship's torpedo DMG taken by $1. At the start of the battle, if there are 3 ships afloat in your Vanguard and there is an Eagle Union ship in the backmost position (other than this ship): increases that ship's EVA by $2."
+    },
+    "3": {
+      "icon": "20121",
+      "requirement": "",
+      "name": "All Out Assault Ⅰ",
+      "type": "Offensive",
+      "description": "Activates All Out Assault Ⅰ: Brooklyn Class once every 15 times the Main Guns are fired."
+    }
+  },
+  "skin": {
+    "1": {
+      "id": "hailunna",
+      "name": "Helena",
+      "description": "Brooklyn-class Light Cruiser – Helena, Hull Number CL-50!",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    },
+    "2": {
+      "id": "hailunna_2",
+      "name": "New Year's Bluebird ",
+      "description": "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was. ",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        }
+      }
+    },
+    "3": {
+      "id": "hailunna_3",
+      "name": "May I Have this Dance? ",
+      "description": "Um, Commander, could we... share a dance? I have things I want to tell you... ",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    },
+    "8": {
+      "id": "hailunna_h",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        }
+      }
+    },
+    "9": {
+      "id": "hailunna_g",
+      "name": "Helena (Retrofit)",
+      "description": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "12100",
+      "rarity": "Common",
+      "name": "Triple 152mm Main Gun"
+    },
+    "2": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "3": {
+      "icon": "16200",
+      "rarity": "Common",
+      "name": "Quadruple 28mm Chicago Piano"
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "3204",
+      "firepower": "149",
+      "torpedo": "0",
+      "antiAir": "279",
+      "aviation": "0",
+      "reload": "161",
+      "hit": "156",
+      "evasion": "73",
+      "speed": "32.5",
+      "luck": "33",
+      "asw": "96",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "10",
+      "armor": "Light"
+    },
+    "120": {
+      "hp": "3604",
+      "firepower": "171",
+      "torpedo": "0",
+      "antiAir": "316",
+      "aviation": "0",
+      "reload": "185",
+      "hit": "175",
+      "evasion": "90",
+      "speed": "32.5",
+      "luck": "33",
+      "asw": "109",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "10",
+      "armor": "Light"
+    },
+    "base": {
+      "hp": "620",
+      "firepower": "32",
+      "torpedo": "0",
+      "antiAir": "60",
+      "aviation": "0",
+      "reload": "68",
+      "hit": "60",
+      "evasion": "28",
+      "speed": "32.5",
+      "luck": "33",
+      "asw": "26",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "3",
+      "armor": "Light"
+    },
+    "100retrofit": {
+      "hp": "3444",
+      "firepower": "159",
+      "torpedo": "0",
+      "antiAir": "369",
+      "aviation": "0",
+      "reload": "166",
+      "hit": "171",
+      "evasion": "73",
+      "speed": "32.5",
+      "luck": "33",
+      "asw": "96",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "10",
+      "armor": "Light"
+    },
+    "120retrofit": {
+      "hp": "3844",
+      "firepower": "181",
+      "torpedo": "0",
+      "antiAir": "406",
+      "aviation": "0",
+      "reload": "190",
+      "hit": "190",
+      "evasion": "90",
+      "speed": "32.5",
+      "luck": "33",
+      "asw": "109",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "10",
+      "armor": "Light"
+    }
+  },
+  "limitBreak": {
+    "tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "tier2": "Main gun base +1/Main gun efficiency +10%",
+    "tier3": "Improve All Out Assault/Main gun efficiency +15%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Light Cruiser",
+      "efficiency": "105%/110%/120%/135%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Destroyer Gun",
+      "efficiency": "65%/65%/65%/65%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "100%/100%/100%/100%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "heavy": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "special": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "limited": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "hailunna",
+        "id": "0",
+        "label": "Helena",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "布鲁克林级轻巡洋舰—海伦娜，舷号CL-50",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ブルックリン級巡洋艦・ヘレナ（CL-50）",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Brooklyn-class Light Cruiser – Helena, Hull Number CL-50!",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Biography",
+            "media": "profile",
+            "chinese": "我是以不输给其他重巡姐妹们为理念设计的型号，不过果然只靠我一个人是救不了大家的……指挥官，能帮帮我吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ほかの重巡姉妹に負けないようにデザインされたけど、私一人の力ではみんなを救えないわ……指揮官、私を助けてもらえるかな？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I was designed to be on par with heavy cruisers, but just my power alone isn't enough to save everyone... Commander, can you help me?",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "get",
+            "chinese": "指挥官，您好，我是海伦娜。索敌是我的长项，请……将我们带往胜利吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "はじめまして、指揮官。私はヘレナ。敵を探索するのが得意なの。お願い…私たちを勝利に導いて",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Nice to meet you, Commander. I'm Helena. My strong suit is enemy reconnaissance. Please... guide us towards victory.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "……啊，指挥官，欢迎回来，不好意思刚才在想事情",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "…あ、指揮官、お帰りなさい。ごめんなさい、少し考え事をしていて",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "... Ah, welcome back, Commander. Sorry, I was just brooding over something.",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "detail",
+            "chinese": "光靠这些是没用的呀……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "これだけに頼ってもだめ…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I can't rely on this thing alone...",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 1",
+            "media": "main_1",
+            "chinese": "指挥官躲起来了吗，就算这样我也知道你在哪里的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、隠れてるの？どこにいるかはお見通しよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Are you trying to hide, Commander? No matter where you hide, I know where you are.",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 2",
+            "media": "main_2",
+            "chinese": "指挥官，等战争结束以后想做点什么呢？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、この戦争が終わったら、何をしたい？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, what should we do after the war?",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Main 3",
+            "media": "main_3",
+            "chinese": "要是我的火力能跟雷达一样强的话……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私の火力、このレーダーと同じぐらい強力だったらいいんだけど…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If only my guns could be as strong as my radar...",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch_1",
+            "chinese": "嗯？我没事，只是有些走神而已",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "え？私は平気よ。ただ…ぼんやりしてしまって。",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hm? I'm fine. I'm just... a little distracted.",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Touch (Special)",
+            "media": "touch_2",
+            "chinese": "如果这样能让指挥官打起精神，我……是愿意的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "これで指揮官が元気になれるなら、私は…かまわないわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If this makes you feel good, then... I'm fine with it.",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission",
+            "media": "task",
+            "chinese": "让我们从任务开始一点一点累积胜利的基石吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "少しずつ、勝利の基盤を作っていきましょう。まずはミッション遂行ですね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Bit by bit we'll build the foundation for victory. We'll start by doing missions.",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete",
+            "chinese": "任务的奖励累积起来也是一笔巨大的资源，请好好利用吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "塵も積もれば山だからね。ちゃんと利用しましょう",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Resources are no good if they just pile up. We should make use of them.",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Mail",
+            "media": "mail",
+            "chinese": "有新的邮件到了，请好好珍惜和其他人之间的关系哦",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "新しいメールね。よそとの付き合いも大事ね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You've got new mail. It's important to stay in touch with your loved ones.",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return to Port",
+            "media": "home",
+            "chinese": "大家都回来了吧？感觉除了甲板上多出了点零件以外没什么大问题呢……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "みんな無事帰還したよね？でも鋼板に部品が増えている…なんだろう…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Did everyone make it back safe and sound? Good. But there's spare parts lying around in the docks now... I wonder why...",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "expedition",
+            "chinese": "指挥官，你说下次我把SG借给姐妹们出委托好不好？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、今度はSGを姉妹たちに貸してもいい？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hey, Commander, could I lend my SG radar to my sisters this time?",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "upgrade",
+            "chinese": "这份力量，我一定会用来保护大家的！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "この力、みんなを守るために使うわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'll use this power to protect everyone!",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Flagship",
+            "media": "warcry",
+            "chinese": "在我面前，你们无所遁形",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私の前じゃ、隠れても無駄よ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "The enemy can't hide from me.",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "Victory",
+            "media": "mvp",
+            "chinese": "……居然赢了？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "…勝ったの！？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "... We actually won?",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "lose",
+            "chinese": "……拜托先救我~不要再和敌人纠缠了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "…お願い助けて…もう敵にこだわらないで…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "... Please, save me... Ignore the enemy, just let them go...",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill",
+            "media": "skill",
+            "chinese": "SG，把你的力量借给我！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "SG、力を貸して！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "SG, give me your power!",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low HP",
+            "media": "hp",
+            "chinese": "SG，锁定敌人位置！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "SG、敵の所在をロックオンよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "SG, lock on the enemy position!",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Upset)",
+            "media": "feeling1",
+            "chinese": "SG，快来保护我……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "SG、私を守って……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "SG, protect me...",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "feeling2",
+            "chinese": "我的索敌能力要是能帮到姐妹们那就好了……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私の索敵能力、みんなの役に立てればいいのに……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If only my recon could help the others...",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "feeling3",
+            "chinese": "表情？啊……因为我离开的时候战况还是相当不利的呢……对于和平啊，欢笑啊之类的……稍微有些不适应，不过不用担心，海伦娜没问题的！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "表情？あ……戦線から離れた時はまだ不利な状況だったから、平和とか、笑顔とか……ちょっと慣れないかも。でも心配しないで、ヘレナは大丈夫！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My expression? Ah... it's because I left while we were on the losing end of the war... I might just not be so used to peace and happiness. But don't worry, I'll be fine!",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "feeling4",
+            "chinese": "最近感觉放松了不少……嗯，之前神经绷的太紧了，这多亏指挥官一直在我身边给我勇气哦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "最近気が緩んだ気がして……ううん、この前は神経を張り詰めすぎたわ。そばにいて勇気をくれる、指揮官のおかげよ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I think I've been more at ease lately... No, I was just too tense up until now. It's all thanks to the courage you've given me by being beside me.",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "feeling5",
+            "chinese": "我相信哦，指挥官一定会带给我们曙光的。而且这一次我一定要努力到最后……和喜欢的人生离死别这种事，光是想想就感觉心要裂开了…",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私、指揮官なら希望をもたらしてくれるのを信じてるの。そして今度こそ最後まで頑張って……好きな人と死別することは、考えるだけで心が張り裂けそうになるの……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I believe that you will bring us hope, Commander. This time, I'll fight to the end... Just the thought of saying goodbye to the person I love makes me feel like my heart will tear in half...",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "propose",
+            "chinese": "这就是指挥官给我的承诺吗……这样啊……好开心……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "これは指揮官からの約束……そうなの……嬉しい……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "A promise... from you, Commander? I see... I'm so happy...",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Easter Egg 1 (Pennsylvania)",
+            "media": "link1",
+            "chinese": "SG全开，决不让悲剧重演！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ペン姉、頼むわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Penny, cover me!",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Easter Egg 2 (Oklahoma, Arizona, California)",
+            "media": "link2",
+            "chinese": "轰姐罩我~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "SG、領域全開！あの悲劇を絶対に繰り返させないわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "SG, full area scan! I will never let that tragedy repeat itself!",
+            "englishNote": ""
+          }
+        }
+      },
+      "2": {
+        "skin_id": "hailunna_2",
+        "id": "1",
+        "label": "New Year's Bluebird ",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "重樱的新年……嗯，我要参加。指挥官，不用太顾虑我没关系的，我已经不是刚加入舰队时脆弱的我了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "重桜の新年……私にも参加させて。あ、指揮官、そんなに気を使わなくていいわ。もう艦隊に参加したばかりの、か弱い私じゃないの",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was.",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1",
+            "chinese": "重樱的新年……嗯，我要参加。指挥官，不用太顾虑我没关系的，我已经不是刚加入舰队时脆弱的我了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "重桜の新年……私にも参加させて。あ、指揮官、そんなに気を使わなくていいわ。もう艦隊に参加したばかりの、か弱い私じゃないの",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I... want to be part of the new year festivities too. Oh, you don't have to worry about me. I'm no longer the fledgling I once was.",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_1",
+            "chinese": "指挥官，舰队里已经完全是节日的气氛了呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、艦隊はすっかり祝日の雰囲気ね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It seems the New Year's spirit has swept over the entire fleet.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_1",
+            "chinese": "总觉得路易斯姐姐完全把我当成换装娃娃了…指挥官，这样真的可爱吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "セントルイス姉さん、私にいろんな服を着せるのを楽しんでいたのね……指揮官、この衣装は本当に可愛いの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "St. Louis must've had a lot of fun making me try out so many clothes... Do you really think I look cute this way, Commander?",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_1",
+            "chinese": "新年愿望的话……我希望新的一年，我能够变得更加坚强，还有大家都能平平安安",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "新年の願い……今年こそ心がもっと強くなりますように、そして仲間のみんなが無事でありますように……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My New Year's wish is... that I'll be more courageous and positive, and that no harm will come to any of my friends...",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_1",
+            "chinese": "布鲁克林级全员，再加上克利夫兰和她的妹妹们，感觉我们的新年参拜队伍会很壮大呢……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ブルックリン級のみんな、そしてクリーブランドと海上騎士団の妹たち、今年の初詣は大所帯だったわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "For this year's shrine visit, the whole Brooklyn-class, Cleveland, and her Knights of The Sea all went there together as one big family.",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_1",
+            "chinese": "啊，下雪了……以前都没有发现，真是漂亮又安静呢……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "これが雪……こんなに静かで綺麗だなんて気づかなかったわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It's snowing... I never realized how peaceful and beautiful snow can be.",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_1",
+            "chinese": "嗯？指挥官，我在想，新年期间怎么度过比较好……有很多想做的事呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "え？指揮官、今お正月には何をしようかなって……やりたいことがいっぱいあるからね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Huh? I was just thinking about what I should do during New Year's... There are so many things I want to do.",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_1",
+            "chinese": "指、指挥官，这样是不好的……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "し、指揮官、いけないわ……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "C-Commander, please stop...",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_1",
+            "chinese": "指挥官，接下来让我出战也可以哦，SG一定能帮上忙的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、次も私に出撃させて。SGはきっと役に立つわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Let me be part of the mission, Commander. My SG would surely be good to have.",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Flagship",
+            "media": "warcry_1",
+            "chinese": "我……想要赢！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私……勝ちたい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I... want to win!",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Victory",
+            "media": "mvp_1",
+            "chinese": "对，就是这样，海伦娜，你很厉害的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "うん、そうよ…！ヘレナ、あなたは凄いわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "That's right...! You did a great job, me!",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Defeat",
+            "media": "lose_1",
+            "chinese": "没关系，还有下一次……！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "大丈夫、まだ次があるから……！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It's okay, there's always the next time...!",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_1",
+            "chinese": "指挥官？不用担心，我只是在想，和朋友一起欢笑，和喜欢的人一同迈向新的一年，原来，这么幸福的时光我是真的可以拥有的啊……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官？心配しないで。今、友達、そして好きな人と一緒に新しい年を迎えることができて――私もこんなに幸せになれるんだって思ったの",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander? You don't have to worry about me. I was just thinking about how I now have friends and a sweetheart who I can celebrate the new year together with, and how unbelievably happy it makes me.",
+            "englishNote": ""
+          }
+        }
+      },
+      "3": {
+        "skin_id": "hailunna_3",
+        "id": "2",
+        "label": "May I Have this Dance? ",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "那个，指挥官，能和我跳一支舞吗？我有很多话，想要和指挥官说呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あの、指揮官、私と…一曲踊ってみない？私、指揮官に伝えたいことがあって……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Um, Commander, could we... share a dance? I have things I want to tell you...",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_2",
+            "chinese": "那个，指挥官，能和我跳一支舞吗？我有很多话，想要和指挥官说呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あの、指揮官、私と…一曲踊ってみない？私、指揮官に伝えたいことがあって……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Um, Commander, could we... share a dance? I have things I want to tell you...",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_2",
+            "chinese": "指挥官，宴会就要开始了呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、パーティーがそろそろ始まるわよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, the party is about to start.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_2",
+            "chinese": "为了这一天，我特意向路易斯姐姐学了跳舞，因为太过笨手笨脚还被她笑话了好久呢……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "今日のために、セントルイス姉さんにダンスを教えてもらったの。不器用な子だわって何回も笑われちゃって…ふふ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "In preparation for today, I got St. Louis to teach me how to dance. She laughed a lot at me, telling me I'm \"such a klutz\"... Ahah.",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_2",
+            "chinese": "指挥官，你知道吗，是你把我从深渊中拉了出来，是你给了我希望哦",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官は知ってるかな？ヘレナがこんなに明るくなれたのは指揮官のおかげだってこと。ふふっ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, you know something? It's thanks to you that I've become as cheerful as I am now. Ahah~",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_2",
+            "chinese": "指挥官，你知道吗，我已经不再恐惧和迷茫，因为我知道，指挥官和大家，一直会在我身边",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私はもう怖くなったり、迷ったりはしないわ。だって指揮官と皆がいつもそばにいてくれるから",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'm not going to be scared or hesitate ever again because you and my friends are always with me.",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_2",
+            "chinese": "指挥官，你知道吗，今晚我把所有人的邀请都推掉了，因为，我有太多的话，想和指挥官说呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私のダンスの相手は…ううん、今は指揮官だけ。だって話したいことがたくさんあるもの",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My dance partner will be... No, it'll just be you, Commander. I have so many things I want to tell you.",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_2",
+            "chinese": "指挥官，我已经准备好了，让我们开始跳舞吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、準備ができているわ。一緒に踊りましょ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'm all ready, Commander. Shall we dance?",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_2",
+            "chinese": "呀！……啊，指挥官，踩到你的脚了吗……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "きゃっ！？……あっ指揮官、足を踏んづけちゃったの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Eek?! ... Ah, sorry, did I step on your foot, Commander?",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Mission",
+            "media": "task_2",
+            "chinese": "指挥官，请先去完成任务吧，我会等你的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、任務をこなしてきて。私はここで待っているわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, please go complete your missions. Don't worry, I'll be here waiting for you.",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission Complete",
+            "media": "mission_complete_2",
+            "chinese": "指挥官真厉害呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官はやっぱりすごいわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You really are incredible, Commander.",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mail",
+            "media": "mail_2",
+            "chinese": "指挥官，又是新的跳舞邀请……真受欢迎呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "新しいダンスパーティーのお誘いらしいわ？……ふふ、指揮官ってやっぱり人気者だわ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It seems you've got an invitation to another dance party... Hahah, you really are a superstar, Commander.",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Return to Port",
+            "media": "home_2",
+            "chinese": "指挥官，在宴会之前，还有什么要处理的事吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、パーティーに行く前に、やり残した仕事はない？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, before we leave for the party, do you have any unfinished business?",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Commission Complete",
+            "media": "expedition_2",
+            "chinese": "指挥官，我们一起去迎接委托组的各位参加宴会吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、委託から帰ってきたみんなをパーティー会場で迎えましょう？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, let's extend an invitation to the commission team to join us for the party.",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Flagship",
+            "media": "warcry_2",
+            "chinese": "我……想要赢！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私……勝ちたい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I... want to win!",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Victory",
+            "media": "mvp_2",
+            "chinese": "对，就是这样，海伦娜，你很厉害的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "うん、そうよ…！ヘレナ、あなたは凄いわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Yeah, that's right...! You're awesome, Helena! ",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Defeat",
+            "media": "lose_2",
+            "chinese": "没关系，还有下一次……！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "大丈夫、まだ次があるから……！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It's okay, there's always next time...!",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_2",
+            "chinese": "一直以来，我都心安理得地享受着指挥官的迁就与保护。但是，这样是不够的。我想，总有一天，我也能成为能够站在指挥官身边的人…所以，请再等一等海伦娜吧，可以吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私はずっと皆、そして指揮官に気を使われて、大事に大事に守られてきたの。でもこのままじゃダメ。私、指揮官のそばに立ち、皆に頼られるよう成長したくて……だから、ヘレナのことをもう少し待ってくれない…かな？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You and my friends have always taken care of, looked after, and protected me. But that can't go on forever. I want to stand beside you and become someone people can count on... So, could you wait for me just a little longer... please?",
+            "englishNote": ""
+          }
+        }
+      },
+      "8": {
+        "skin_id": "hailunna_h",
+        "id": "8",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_8"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_8"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_8"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_8"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_8"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_8"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_8"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_8"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_8"
+          }
+        }
+      },
+      "9": {
+        "skin_id": "hailunna_g",
+        "id": "9",
+        "label": "Helena (Retrofit)",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "新しい装備…使いこなすにはちょっと大変そう…ううん、今の私ならきっと大丈夫！指揮官、ヘレナに…期待してて！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_9",
+            "chinese": "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "新しい装備…使いこなすにはちょっと大変そう…ううん、今の私ならきっと大丈夫！指揮官、ヘレナに…期待してて！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_9",
+            "chinese": "指挥官，欢迎回来，今天也一起加油吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、おかえりなさい。今日も一緒に頑張ろ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Welcome back, Commander. Let's get to work and do our best.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_9",
+            "chinese": "最近我只要一主动做什么事，路易斯姐姐就会一边说“哎呀，女儿长大了”一边假装唉声叹气……真是的，欺负人……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "セントルイス姉さん、私がなにかをするたびに「大きくなったわね」って感動したふりして……もう、困っちゃうわ…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "St. Louis always praises me like, \"my, how you've grown\" whenever I do anything... It's kind of embarrassing...",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_9",
+            "chinese": "指挥官，想知道强化后的SG的性能吗？嘻嘻，那就请你找一个谁都不知道的地方藏起来吧~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、強くなったSGの性能を知りたい？じゃあ…どこか誰も知らない場所に隠れてみて？ふふふ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You want to know what my new and improved SG is capable of? All right... Find a place to hide that nobody knows about. Hehehe~",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_9",
+            "chinese": "我已经决定了，比起想象未来的事，首先要做好眼前的事，过好现在的每一天",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "未来のことを不安がるより、まずは今――悔いのないように毎日を過ごすべきだと思う",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I think everyone would be better off living in the present without regrets than spend every day anxious about the future.",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_9",
+            "chinese": "光是装备强化是不够的，我要让自己足够配上这些优秀的装备才行呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "兵装の強化ばかりに気を取られていてはダメ。私もこの兵装を上手く使えるように強くならなきゃ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It's not enough to focus only on improving my equipment. I need to become stronger to use it properly, too.",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch (Special)",
+            "media": "touch_2_9",
+            "chinese": "指挥官，这样的事，不可以在这里做……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、こういうのは…ダメ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You really can't go around doing this, Commander!",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Commission Complete",
+            "media": "expedition_9",
+            "chinese": "强化后的SG真厉害呢……在办公室里能直接看到返航的委托组",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "SGより受信。……うん、委託に出かけたみんなが戻ってきたよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "SG receiving message... A commission team has returned to port.",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Flagship",
+            "media": "warcry_9",
+            "chinese": "我……会赢！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私……勝てるよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'm... going to win!",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Victory",
+            "media": "mvp_9",
+            "chinese": "海伦娜，你还不可以骄傲，你要变得更厉害才行！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ヘレナ、驕ってはダメ…もっともっと強くならなきゃ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Don't get complacent, Helena... You've got to get even stronger!",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Defeat",
+            "media": "lose_9",
+            "chinese": "没关系，还有下一次……！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "大丈夫よヘレナ。きっと次があるから……！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It's okay, Helena. There's always next time...!",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_9",
+            "chinese": "现在的我，对站在指挥官身边这件事，稍微有了一些自信……但是，人果然总是贪心的呢，我想要变得更出色，想要更多地占据指挥官的视线……指挥官，这样的我，你会讨厌吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "私、指揮官のそばにいると、ちょっと自信をもてるようになったわ。だから今は、もっともっと頼れるようになって、指揮官にもっともっと振り向いてほしくて……こんなヘレナを、指揮官は好きになってくれる……？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I feel a bit more confident in myself when I'm with you, Commander. But I want more; I want to be the girl you rely on so I can be the center of your attention... It might be selfish to ask, but... will you love me?",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "9",
+    "add_get_attr": "Hit",
+    "add_get_value": "1",
+    "add_get_shiptype": "Light Cruiser",
+    "pt_upgrade": "18",
+    "pt_level": "13",
+    "add_level_attr": "Firepower",
+    "add_level_value": "1",
+    "add_level_shiptype": "Light Cruiser",
+    "t_level": "6",
+    "ships": "brooklyn,phoenix,honolulu,st_louis,helena,boise,helena_meta"
+  }
 }

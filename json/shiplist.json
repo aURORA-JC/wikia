@@ -1799,6 +1799,15 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "243": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bulvxieer.png",
+        "link": "blucher",
+        "name": "Blücher",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "244": {
         "hull": "Heavy Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/ougen.png",
@@ -4250,7 +4259,7 @@
     "544": {
         "hull": "Battlecruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/lvzuofu.png",
-        "link": "lützow",
+        "link": "lutzow",
         "name": "Lützow",
         "navy": "Ironblood",
         "rarity": "Super Rare",
@@ -4268,7 +4277,7 @@
     "546": {
         "hull": "Battleship",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/tulingen.png",
-        "link": "thüringen",
+        "link": "thuringen",
         "name": "Thüringen",
         "navy": "Ironblood",
         "rarity": "Elite",
@@ -4425,6 +4434,24 @@
         "name": "Emanuele Pessagno",
         "navy": "Sardegna Empire",
         "rarity": "Elite",
+        "shipType": "common"
+    },
+    "564": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/z16.png",
+        "link": "z16",
+        "name": "Z16",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "566": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bulunxierde.png",
+        "link": "brunhilde",
+        "name": "Brünhilde",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
         "shipType": "common"
     },
     "P001": {
@@ -4610,7 +4637,7 @@
     "P021": {
         "hull": "Super Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/aijier.png",
-        "link": "ägir",
+        "link": "agir",
         "name": "Ägir",
         "navy": "Ironblood",
         "rarity": "Decisive",
@@ -4785,6 +4812,15 @@
         "name": "Trento META",
         "navy": "META",
         "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M014": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shengwang_alter.png",
+        "link": "renown_meta",
+        "name": "Renown META",
+        "navy": "META",
+        "rarity": "Super Rare",
         "shipType": "META"
     },
     "C001": {

@@ -1,0 +1,51 @@
+<div class="sidebar-header">
+    <h3>/alg/ Wiki</h3>
+</div>
+<div class="sidebar-subheader">
+    Database
+</div>
+
+<ul class="list-unstyled components">
+    <li id="sbar_shiplist_id">
+        <a href="https://algwiki.moe/shiplist.html">Shiplist by ID</a>
+    </li>
+    <li id="sbar_shiplist_alpha">
+        <a href="https://algwiki.moe/shiplist_alpha.html">Shiplist by Name</a>
+
+    </li>
+    <li id="sbar_faction_shiplist">
+        <a href="https://algwiki.moe/navy/index.html">Faction Shiplists</a>
+
+    </li>
+    <li id="sbar_class_shiplist">
+        <a href="https://algwiki.moe/hull/index.html">Class Shiplists</a>
+
+    </li>
+    <li id="sbar_rarity_shiplist">
+        <a href="https://algwiki.moe/rarity/index.html">Rarity Shiplists</a>
+
+    </li>
+</ul>
+
+<div class="sidebar-subheader">
+    Tools
+</div>
+
+<ul class="list-unstyled components">
+    <li id="sbar_SD">
+        <a href="https://sd.algwiki.moe/">SD Viewer</a>
+    </li>
+    <li id="sbar_L2D">
+        <a href="https://l2d.algwiki.moe/">L2D Viewer</a>
+
+    </li>
+	<li id="sbar_Fleet">
+        <a href="https://fleet.algwiki.moe/">Fleet Maker</a>
+
+    </li>
+	<li id="sbar_Porn">
+        <a href="https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0">Porn</a>
+
+    </li>
+</ul>
+

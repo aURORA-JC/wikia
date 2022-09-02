@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<title>/alg/ - Azur Lane General Wiki</title>
-	
+
 <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,34 +16,34 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-	<script src="js/util.js"></script>
+	<script src="js/player/util.js"></script>
 	<script src="components/CustomComponents.js" type="module"></script>
 
-	<!-- Components -->    
-    <script defer src="js/sidebar.js"></script>
-    <script defer src="js/footer.js"></script>
-    <script defer src="js/header.js"></script>
-    
+	<!-- Components -->
+    <script defer src="js/player/sidebar.js"></script>
+    <script defer src="js/player/footer.js"></script>
+    <script defer src="js/player/header.js"></script>
+
     <!-- Dependencies -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/player/jquery.min.js"></script>
 	<script src="Player/thirdparty/js.cookie.js"></script>
-	
+
 	<!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/player/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css\mainstyle.css">	
+    <link rel="stylesheet" href="css/mainstyle.css">
     <!-- CSS -->
 	<link rel="stylesheet" href="Player/build/ableplayer.min.css" type="text/css"/>
 
 	<!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-	
+    <link rel="stylesheet" href="js/player/css/jquery.mCustomScrollbar.min.css">
+
 	<!-- Font Awesome JS -->
-    <script defer src="js/solid.js"></script>
-    <script defer src="js/fontawesome.js"></script>
+    <script defer src="js/player/solid.js"></script>
+    <script defer src="js/player/fontawesome.js"></script>
 
     <script type="text/javascript">
-        
+
         window.onload = function() {
 
           addFooter();
@@ -53,12 +53,12 @@
         };
     </script>
 
-	
+
 	<!-- JavaScript -->
-	<script src="Player/build/ableplayer.min.js"></script>	
-		
+	<script src="Player/build/ableplayer.min.js"></script>
+
 </head>
-	
+
 <body>
 
 <div class="wrapper">
@@ -70,7 +70,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-light" id="header">
 	</nav>
-			
+
 	<!-- content -->
 	<!-- content -->
 	<!-- content -->
@@ -89,139 +89,242 @@
 	<!-- Add data-embedded to embed the playlist into the media player -->
 	<!-- see documentation for additional details about markup -->
 	<ul class="able-playlist" data-player="audio1">
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-theme.ogg></span><button type=button>Azur Lane</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-login.ogg></span><button type=button>Azur Lane - Title Screen</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-login_0401.ogg></span><button type=button>Azur Lane - Title Screen (8bit)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-main.ogg></span><button type=button>Azur Lane - Main</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-backyard.ogg></span><button type=button>Azur Lane - Backyard</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-wedding.ogg></span><button type=button>Azur Lane - Wedding</button></li>		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level.ogg></span><button type=button>Azur Lane - Map</button></li>	
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-1.ogg></span><button type=button>Azur Lane - Battle</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-1.ogg></span><button type=button>Azur Lane - Battle (Boss)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-2.ogg></span><button type=button>Azur Lane - Battle (Hiryuu)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-2.ogg></span><button type=button>Azur Lane - Battle (Yuudachi)</button></li>
-		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level02.ogg></span><button type=button>Azur Lane - Map (Mirror Sea)</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/01_繝ｯ繧ｿ繝・Α繧定ｶ翫∴縺ｦ.ogg"></span><button type=button>01_繝ｯ繧ｿ繝・Α繧定ｶ翫∴縺ｦ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/05_闖ｯ鮗励↑繧九Ο繧､繝､繝ｫ繝｡繧､繝蛾嚏 (1).ogg"></span><button type=button>05_闖ｯ鮗励↑繧九Ο繧､繝､繝ｫ繝｡繧､繝蛾嚏 (1)</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/05 髮ｪ荵玖干2.ogg"></span><button type=button>05 髮ｪ荵玖干2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/05_魄ｮ繧・°縺ｪ讓ｩ隰陦捺焚.ogg"></span><button type=button>05_魄ｮ繧・°縺ｪ讓ｩ隰陦捺焚</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/06_繧ｳ繝ｳ繝繧ｯ繧ｿ繝ｼ縺ｮ繝・・繝・.ogg"></span><button type=button>06_繧ｳ繝ｳ繝繧ｯ繧ｿ繝ｼ縺ｮ繝・・繝・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/06謌代ｉ縺ｮ譬・・縺ｫ髮・∴縲・朿OYAL NAVY.ogg"></span><button type=button>06謌代ｉ縺ｮ譬・・縺ｫ髮・∴縲・朿OYAL NAVY</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/07霈昴￠繧句､ｧ豬ｷ繧貞ｾ√￥鄙ｼ縲・昿AGLEUNION.ogg"></span><button type=button>07霈昴￠繧句､ｧ豬ｷ繧貞ｾ√￥鄙ｼ縲・昿AGLEUNION</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/08_譛井ｸ九・謌ｦ髣・.ogg"></span><button type=button>08_譛井ｸ九・謌ｦ髣・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/09_譛井ｸ九・螳臥悛.ogg"></span><button type=button>09_譛井ｸ九・螳臥悛</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/10.battle in pacific.ogg"></span><button type=button>10.battle in pacific</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/11.battle in arctic ocean.ogg"></span><button type=button>11.battle in arctic ocean</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/11_雜・ｼｩ邏喟HEROINES.ogg"></span><button type=button>11_雜・ｼｩ邏喟HEROINES</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/12_菴咏Ξ_2.ogg"></span><button type=button>12_菴咏Ξ_2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/12_髻ｿ縺第茶髻ｳ縲∬ｽ溘°縺幃峭蜈峨・朶AKURA EMPIRE.ogg"></span><button type=button>12_髻ｿ縺第茶髻ｳ縲∬ｽ溘°縺幃峭蜈峨・朶AKURA EMPIRE</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/13_re1_菴咏Ξ.ogg"></span><button type=button>13_re1_菴咏Ξ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/14_莉ｲ陬∵惻蜈ｳ.ogg"></span><button type=button>14_莉ｲ陬∵惻蜈ｳ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/15_驪ｼ驩・・陬√″_・朞ETALBLOOD.ogg"></span><button type=button>15_驪ｼ驩・・陬√″_・朞ETALBLOOD</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/16_陦蝪励ｉ繧後◆霈ｪ蟒ｻ縺ｮ譫懊※縺ｫ_・朶EIREN.ogg"></span><button type=button>16_陦蝪励ｉ繧後◆霈ｪ蟒ｻ縺ｮ譫懊※縺ｫ_・朶EIREN</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/17-蠑ｺ謨・.ogg"></span><button type=button>17-蠑ｺ謨・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/18G.ogg"></span><button type=button>18G</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/34 GO MY WAY!! (SHORT VERSION).ogg"></span><button type=button>34 GO MY WAY!! (SHORT VERSION)</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/8bit.ogg"></span><button type=button>8bit</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/airRaidAlarm.ogg"></span><button type=button>airRaidAlarm</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL005_ItalyBattle_demo02_1.ogg"></span><button type=button>AL005_ItalyBattle_demo02_1</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL005_ItalyBoss_demo03_1.ogg"></span><button type=button>AL005_ItalyBoss_demo03_1</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL005_ItalyStory1.ogg"></span><button type=button>AL005_ItalyStory1</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL005_jpStory_fin.ogg"></span><button type=button>AL005_jpStory_fin</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL_battle_boss_2.ogg"></span><button type=button>AL_battle_boss_2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL_battle_normal.ogg"></span><button type=button>AL_battle_normal</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL_theme_japanese_style_cut.ogg"></span><button type=button>AL_theme_japanese_style_cut</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL_theme_siren_2_cut.ogg"></span><button type=button>AL_theme_siren_2_cut</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AL_theme_siren_NEW.ogg"></span><button type=button>AL_theme_siren_NEW</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/al譌･邉ｻbossR.ogg"></span><button type=button>al譌･邉ｻbossR</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/APPEAL_RMX.ogg"></span><button type=button>APPEAL_RMX</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Az_check_T2.ogg"></span><button type=button>Az_check_T2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/AZR03_08_R2.ogg"></span><button type=button>AZR03_08_R2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Azur Lane remix demo3.ogg"></span><button type=button>Azur Lane remix demo3</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Azur Lane - Remix - Loading Page JoJo April Fools - SMAMIX1B (Vocals Up).ogg"></span><button type=button>Azur Lane - Remix - Loading Page JoJo April Fools - SMAMIX1B (Vocals Up)</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b10-PV01_remix.ogg"></span><button type=button>b10-PV01_remix</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b1-11_蟋九∪繧翫・轣ｽ蜴・.ogg"></span><button type=button>b1-11_蟋九∪繧翫・轣ｽ蜴・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b2-13_驕主悉縺ｮ隕ｳ貂ｬ閠・.ogg"></span><button type=button>b2-13_驕主悉縺ｮ隕ｳ貂ｬ閠・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b3-閭梧ｰｴ荳謌・.ogg"></span><button type=button>b3-閭梧ｰｴ荳謌・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b4-Also sprach Zarathustra.ogg"></span><button type=button>b4-Also sprach Zarathustra</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b5-蝗樊雷譖ｲ.ogg"></span><button type=button>b5-蝗樊雷譖ｲ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b6-體∬｡(piano).ogg"></span><button type=button>b6-體∬｡(piano)</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b7-蝨溯ｳ蜈ｶ霑幄｡梧峇.ogg"></span><button type=button>b7-蝨溯ｳ蜈ｶ霑幄｡梧峇</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b8-18_cut.ogg"></span><button type=button>b8-18_cut</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/b9-AL_theme_siren_2.ogg"></span><button type=button>b9-AL_theme_siren_2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-ash-strong霑ｫ繧翫￥繧区雰.ogg"></span><button type=button>battle-ash-strong霑ｫ繧翫￥繧区雰</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-boss-camelot.ogg"></span><button type=button>battle-boss-camelot</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-boss-longgong.ogg"></span><button type=button>battle-boss-longgong</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-camelot.ogg"></span><button type=button>battle-camelot</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-highseasfleet-reborn.ogg"></span><button type=button>battle-highseasfleet-reborn</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-hightech.ogg"></span><button type=button>battle-hightech</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle in the memory.ogg"></span><button type=button>battle in the memory</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-longgong.ogg"></span><button type=button>battle-longgong</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-midgard-hunting.ogg"></span><button type=button>battle-midgard-hunting</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-midgard.ogg"></span><button type=button>battle-midgard</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-midgard-up.ogg"></span><button type=button>battle-midgard-up</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/battle-xinnong-image.ogg"></span><button type=button>battle-xinnong-image</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Beverly_short_eng.ogg"></span><button type=button>Beverly_short_eng</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Beverly_short_inst.ogg"></span><button type=button>Beverly_short_inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Beverly_short_jp.ogg"></span><button type=button>Beverly_short_jp</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM002.ogg"></span><button type=button>BGM002</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM003.ogg"></span><button type=button>BGM003</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM013.ogg"></span><button type=button>BGM013</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM014.ogg"></span><button type=button>BGM014</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM10-蜑ｧ諠・GM1-蠕ｪ邇ｯ.ogg"></span><button type=button>BGM10-蜑ｧ諠・GM1-蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM11-蜑ｧ諠・GM2-閾ｪ辟ｶ蠕ｪ邇ｯ.ogg"></span><button type=button>BGM11-蜑ｧ諠・GM2-閾ｪ辟ｶ蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM12-蜑ｧ諠・GM3-閾ｪ辟ｶ扈灘ｰｾ.ogg"></span><button type=button>BGM12-蜑ｧ諠・GM3-閾ｪ辟ｶ扈灘ｰｾ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM12-逋ｻ蠖慕阜髱｢.ogg"></span><button type=button>BGM12-逋ｻ蠖慕阜髱｢</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM1-荳ｻ逡碁擇-蠕ｪ邇ｯ.ogg"></span><button type=button>BGM1-荳ｻ逡碁擇-蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM2-蜷主ｮ・蠕ｪ邇ｯ-01.ogg"></span><button type=button>BGM2-蜷主ｮ・蠕ｪ邇ｯ-01</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM3-蜃ｺ蠕・蠕ｪ邇ｯ.ogg"></span><button type=button>BGM3-蜃ｺ蠕・蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM4-謌俶沫1-蠕ｪ邇ｯ.ogg"></span><button type=button>BGM4-謌俶沫1-蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM5-謌俶沫2-蠕ｪ邇ｯ.ogg"></span><button type=button>BGM5-謌俶沫2-蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM7-BOSS謌・-蠕ｪ邇ｯ.ogg"></span><button type=button>BGM7-BOSS謌・-蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM8-BOSS謌・-蠕ｪ邇ｯ.ogg"></span><button type=button>BGM8-BOSS謌・-蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM9-BOSS謌・-謾ｹ-蠕ｪ邇ｯ.ogg"></span><button type=button>BGM9-BOSS謌・-謾ｹ-蠕ｪ邇ｯ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-bar-soft.ogg"></span><button type=button>bgm-bar-soft</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-battle-boss-deepecho.ogg"></span><button type=button>bgm-battle-boss-deepecho</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-battle-deepecho2.ogg"></span><button type=button>bgm-battle-deepecho2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-battle-deepecho.ogg"></span><button type=button>bgm-battle-deepecho</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-battle-roma-image.ogg"></span><button type=button>bgm-battle-roma-image</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-battle-roma-sky.ogg"></span><button type=button>bgm-battle-roma-sky</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-cccp2.ogg"></span><button type=button>bgm-cccp2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-cccp3.ogg"></span><button type=button>bgm-cccp3</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-cccp.ogg"></span><button type=button>bgm-cccp</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM-China.ogg"></span><button type=button>BGM-China</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-china-party.ogg"></span><button type=button>bgm-china-party</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-cw-level.ogg"></span><button type=button>bgm-cw-level</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-cw-story.ogg"></span><button type=button>bgm-cw-story</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_boss.ogg"></span><button type=button>bgm_doa_boss</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_daozhong.ogg"></span><button type=button>bgm_doa_daozhong</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_guanqia.ogg"></span><button type=button>bgm_doa_guanqia</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_huanzhuang.ogg"></span><button type=button>bgm_doa_huanzhuang</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_main_day.ogg"></span><button type=button>bgm_doa_main_day</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_main_night.ogg"></span><button type=button>bgm_doa_main_night</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_minigame.ogg"></span><button type=button>bgm_doa_minigame</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_story1.ogg"></span><button type=button>bgm_doa_story1</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm_doa_story3.ogg"></span><button type=button>bgm_doa_story3</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-hunhe-battle.ogg"></span><button type=button>bgm-hunhe-battle</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-hunhe-boss.ogg"></span><button type=button>bgm-hunhe-boss</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-hunhe-level.ogg"></span><button type=button>bgm-hunhe-level</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-level-freanch1.ogg"></span><button type=button>bgm-level-freanch1</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-level-french2.ogg"></span><button type=button>bgm-level-french2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-spring.ogg"></span><button type=button>bgm-spring</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-story-french1.ogg"></span><button type=button>bgm-story-french1</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-story-french2.ogg"></span><button type=button>bgm-story-french2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-story-french.ogg"></span><button type=button>bgm-story-french</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-story-masazhusai.ogg"></span><button type=button>bgm-story-masazhusai</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-story-roma-inside.ogg"></span><button type=button>bgm-story-roma-inside</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-story-roma-outside.ogg"></span><button type=button>bgm-story-roma-outside</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-theme-dailyfuture.ogg"></span><button type=button>bgm-theme-dailyfuture</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-theme-irisangel逾櫁＊螂ｪ驍・.ogg"></span><button type=button>bgm-theme-irisangel逾櫁＊螂ｪ驍・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-theme-partydress.ogg"></span><button type=button>bgm-theme-partydress</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-theme-roma-image.ogg"></span><button type=button>bgm-theme-roma-image</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM-WEDDING.ogg"></span><button type=button>BGM-WEDDING</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM-荳ｻ逡碁擇17-5-12.ogg"></span><button type=button>BGM-荳ｻ逡碁擇17-5-12</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM-蝨｣隸・.ogg"></span><button type=button>BGM-蝨｣隸・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/bgm-譁ｰ蟷ｴ2.ogg"></span><button type=button>bgm-譁ｰ蟷ｴ2</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/BGM-譁ｰ蟷ｴ.ogg"></span><button type=button>BGM-譁ｰ蟷ｴ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Blue Spirit ShortSize Final Mixed.ogg"></span><button type=button>Blue Spirit ShortSize Final Mixed</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/Blue Spirit ShortSize Inst Mixed.ogg"></span><button type=button>Blue Spirit ShortSize Inst Mixed</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/guangbo.ogg"></span><button type=button>guangbo</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_Fake_Fake_Fake_inst.ogg"></span><button type=button>holo_Fake_Fake_Fake_inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_Fake_Fake_Fake.ogg"></span><button type=button>holo_Fake_Fake_Fake</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_I_can't_control_my_self_inst.ogg"></span><button type=button>holo_I_can't_control_my_self_inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_I_can't_control_my_self.ogg"></span><button type=button>holo_I_can't_control_my_self</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_inochi_inst.ogg"></span><button type=button>holo_inochi_inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_inochi.ogg"></span><button type=button>holo_inochi</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_ShinySmilyStory_inst.ogg"></span><button type=button>holo_ShinySmilyStory_inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_ShinySmilyStory.ogg"></span><button type=button>holo_ShinySmilyStory</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_TOKIWA.ogg"></span><button type=button>holo_TOKIWA</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_螟ｧ逾樊ｾｪ_Hometown.ogg"></span><button type=button>holo_螟ｧ逾樊ｾｪ_Hometown</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_螟剰牡逾ｭ_縺顔･ｭ繧翫ョ繧｣繧ｹ繧ｳ.ogg"></span><button type=button>holo_螟剰牡逾ｭ_縺顔･ｭ繧翫ョ繧｣繧ｹ繧ｳ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_譌ｶ荵・ｩｺ_縺ゅａ縺ゅ′繧翫・繧ｫ繝ｬ繧､繝峨せ繧ｳ繝ｼ繝・.ogg"></span><button type=button>holo_譌ｶ荵・ｩｺ_縺ゅａ縺ゅ′繧翫・繧ｫ繝ｬ繧､繝峨せ繧ｳ繝ｼ繝・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_貉企仭蠎灘ｨ・讌ｽ縺励＞譎る俣縺ｯ縺ゅ▲縺ｨ縺・≧髢薙↓.ogg"></span><button type=button>holo_貉企仭蠎灘ｨ・讌ｽ縺励＞譎る俣縺ｯ縺ゅ▲縺ｨ縺・≧髢薙↓</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_逋ｽ荳雁聖髮ｪ_Brand New Life_inst.ogg"></span><button type=button>holo_逋ｽ荳雁聖髮ｪ_Brand New Life_inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_逋ｾ鬯ｼ扈ｫ逶ｮ_Yumesakura縲仙柱鬚ｨEDM縲・.ogg"></span><button type=button>holo_逋ｾ鬯ｼ扈ｫ逶ｮ_Yumesakura縲仙柱鬚ｨEDM縲・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/holo_邏ｫ蜥ｲ隸鈴浹_Shopping day.ogg"></span><button type=button>holo_邏ｫ蜥ｲ隸鈴浹_Shopping day</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/inst_AZURLANE_1018 mix.ogg"></span><button type=button>inst_AZURLANE_1018 mix</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/list.txt.ogg"></span><button type=button>list.txt</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/login_us_0401.ogg"></span><button type=button>login_us_0401</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/main_AZURLANE_0918 mix.ogg"></span><button type=button>main_AZURLANE_0918 mix</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/MAINBGM_RMX.ogg"></span><button type=button>MAINBGM_RMX</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/main-chunjie3.ogg"></span><button type=button>main-chunjie3</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/main-chunjie-pv.ogg"></span><button type=button>main-chunjie-pv</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/map-longgong.ogg"></span><button type=button>map-longgong</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nagato_boss.ogg"></span><button type=button>nagato_boss</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nagato_map.ogg"></span><button type=button>nagato_map</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_001_Sailing Of A Day dream.ogg"></span><button type=button>nepu_001_Sailing Of A Day dream</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_004_Outside The Dimension.ogg"></span><button type=button>nepu_004_Outside The Dimension</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_008_ABSOLUTE_1411.ogg"></span><button type=button>nepu_008_ABSOLUTE_1411</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_009_VOLTAGE_1411.ogg"></span><button type=button>nepu_009_VOLTAGE_1411</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_024_Let's Bake The Cookie!.ogg"></span><button type=button>nepu_024_Let's Bake The Cookie!</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_025_The Code~Noisy And Calm~.ogg"></span><button type=button>nepu_025_The Code~Noisy And Calm~</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_031_TUTORIAL_1411.ogg"></span><button type=button>nepu_031_TUTORIAL_1411</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_037_WILL BE VENUS_1411.ogg"></span><button type=button>nepu_037_WILL BE VENUS_1411</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/nepu_048_URANUS_1411.ogg"></span><button type=button>nepu_048_URANUS_1411</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/s01_band.ogg"></span><button type=button>s01_band</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/s02_遘√・No_1・・.ogg"></span><button type=button>s02_遘√・No_1・・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/s03_Unicorn_FinalMix.ogg"></span><button type=button>s03_Unicorn_FinalMix</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/s04_Phantom9.ogg"></span><button type=button>s04_Phantom9</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/s05_Cleveland_13 BRIGHT BATTLE STARS.ogg"></span><button type=button>s05_Cleveland_13 BRIGHT BATTLE STARS</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/SPEED_RMX.ogg"></span><button type=button>SPEED_RMX</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/spring_2021.ogg"></span><button type=button>spring_2021</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/ssss-1114A.ogg"></span><button type=button>ssss-1114A</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/ssss-az-battle-boss.ogg"></span><button type=button>ssss-az-battle-boss</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/ssss-az-battle.ogg"></span><button type=button>ssss-az-battle</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/ssss-az-pv.ogg"></span><button type=button>ssss-az-pv</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/ssss-az-story.ogg"></span><button type=button>ssss-az-story</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/ssss-StrobeMemory.ogg"></span><button type=button>ssss-StrobeMemory</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/story-midgard.ogg"></span><button type=button>story-midgard</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/TENDER_RMX.ogg"></span><button type=button>TENDER_RMX</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/THE IDOLM@STER(Movie ver).ogg"></span><button type=button>THE IDOLM@STER(Movie ver)</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-arbitrator-tower.ogg"></span><button type=button>theme-arbitrator-tower</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-camelot.ogg"></span><button type=button>theme-camelot</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-designfleet.ogg"></span><button type=button>theme-designfleet</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-frederick豺ｱ豬ｷ縺ｮ鬲泌･ｳ.ogg"></span><button type=button>theme-frederick豺ｱ豬ｷ縺ｮ鬲泌･ｳ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-highseasfleet .ogg"></span><button type=button>theme-highseasfleet </button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-highseasfleet-reborn.ogg"></span><button type=button>theme-highseasfleet-reborn</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-longgong-loop.ogg"></span><button type=button>theme-longgong-loop</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-longgong.ogg"></span><button type=button>theme-longgong</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-midgard-hunting.ogg"></span><button type=button>theme-midgard-hunting</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-richard迢ゆｹｱ縺ｮMETA.ogg"></span><button type=button>theme-richard迢ゆｹｱ縺ｮMETA</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-richelieu繧｢繧､繝ｪ繧ｹ鮗嶺ｺｺ.ogg"></span><button type=button>theme-richelieu繧｢繧､繝ｪ繧ｹ鮗嶺ｺｺ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-royalknights-battle鬨主｣ｫ蝗｣騾ｲ謦・.ogg"></span><button type=button>theme-royalknights-battle鬨主｣ｫ蝗｣騾ｲ謦・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-theloversVI.ogg"></span><button type=button>theme-theloversVI</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/theme-vanguard逋ｽ縺ｨ鮟偵・邇句ｮｶ鬨主｣ｫ.ogg"></span><button type=button>theme-vanguard逋ｽ縺ｨ鮟偵・邇句ｮｶ鬨主｣ｫ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/THINKING_RMX.ogg"></span><button type=button>THINKING_RMX</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/TOWN_RMX.ogg"></span><button type=button>TOWN_RMX</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/uta-battle-boss-謌ｦ轣ｫ縺ｮ迢ｼ辣・.ogg"></span><button type=button>uta-battle-boss-謌ｦ轣ｫ縺ｮ迢ｼ辣・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/uta-battle-螟ｩ蝠薙・蝨ｰ.ogg"></span><button type=button>uta-battle-螟ｩ蝠薙・蝨ｰ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/uta-level-荵ｱ荳悶・蛻ｰ譚･.ogg"></span><button type=button>uta-level-荵ｱ荳悶・蛻ｰ譚･</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/uta-main-繧ｦ繧ｿ繝・げ繝・.ogg"></span><button type=button>uta-main-繧ｦ繧ｿ繝・げ繝・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/uta-story-驕頑･ｽ.ogg"></span><button type=button>uta-story-驕頑･ｽ</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/wavyflow-full.ogg"></span><button type=button>wavyflow-full</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/wavyflow-inst-full.ogg"></span><button type=button>wavyflow-inst-full</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/wavyflow-inst-short.ogg"></span><button type=button>wavyflow-inst-short</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/wavyflow-short.ogg"></span><button type=button>wavyflow-short</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/world_02_re1.ogg"></span><button type=button>world_02_re1</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/world_07.ogg"></span><button type=button>world_07</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/濶ｦ荳貝OYALTY ShortSize Final Mixed.ogg"></span><button type=button>濶ｦ荳貝OYALTY ShortSize Final Mixed</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/濶ｦ荳貝OYALTY ShortSize Inst Mixed.ogg"></span><button type=button>濶ｦ荳貝OYALTY ShortSize Inst Mixed</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_Sail Away Justice_Final mix_inst.ogg"></span><button type=button>繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_Sail Away Justice_Final mix_inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_Sail Away Justice_Final mix.ogg"></span><button type=button>繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_Sail Away Justice_Final mix</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_WISHNESS_ShortSize_Final_Inst.ogg"></span><button type=button>繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_WISHNESS_ShortSize_Final_Inst</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_WISHNESS_ShortSize_Final.ogg"></span><button type=button>繧｢繧ｺ繝ｼ繝ｫ繝ｬ繝ｼ繝ｳ_WISHNESS_ShortSize_Final</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/蜉譁ｯ遘第ｶ・emix_short.ogg"></span><button type=button>蜉譁ｯ遘第ｶ・emix_short</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/螟ｧ豢・.ogg"></span><button type=button>螟ｧ豢・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/螢ｰ蜻先沖謠・.ogg"></span><button type=button>螢ｰ蜻先沖謠・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/螢ｮ邨ｶ豼譏・FinlMix[Main].ogg"></span><button type=button>螢ｮ邨ｶ豼譏・FinlMix[Main]</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/逧・ｮｶ荳ｻ蝨ｺBGM.ogg"></span><button type=button>逧・ｮｶ荳ｻ蝨ｺBGM</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/逧・ｮｶ謌俶沫螂ｳ莉・屬・悟・蜃ｻ・・.ogg"></span><button type=button>逧・ｮｶ謌俶沫螂ｳ莉・屬・悟・蜃ｻ・・</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/逾医ｊ繝弱え繧ｿ ShortSize Final Mixed.ogg"></span><button type=button>逾医ｊ繝弱え繧ｿ ShortSize Final Mixed</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/逾医ｊ繝弱え繧ｿ ShortSize Inst Mixed.ogg"></span><button type=button>逾医ｊ繝弱え繧ｿ ShortSize Inst Mixed</button></li>
+<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/cue/bgm/遘√・No.ogg"></span><button type=button>遘√・No</button></li>
 
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-1.ogg></span><button type=button>Azur Lane - Story 1</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-2.ogg></span><button type=button>Azur Lane - Story 2</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-3.ogg></span><button type=button>Azur Lane - Story 3 (Azur Lane)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-4.ogg></span><button type=button>Azur Lane - Story 4</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-5.ogg></span><button type=button>Azur Lane - Story 5 (The Sinking of Yorktown)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-6.ogg></span><button type=button>Azur Lane - Story 6 (Siren)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-7.ogg></span><button type=button>Azur Lane - Story 7 (The Return of the War God)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-8.ogg></span><button type=button>Azur Lane - Story 8 (Fallen Wings)</button></li>
-
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-4.ogg></span><button type=button>Azur Lane - Battle (Siren)</button></li>
-		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-main-christmas.ogg></span><button type=button>Christmas - Main</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-newyear.ogg></span><button type=button>New Year - Main 1</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-main-newyear.ogg></span><button type=button>New Year - Main 2</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-main-chunjie.ogg></span><button type=button>Spring Festival - Main</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-china.ogg></span><button type=button>Eastern Radiance</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-star.ogg></span><button type=button>Stardust</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-diego.ogg></span><button type=button>San Diego - 私はNo.1!</button></li>
-
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-3.ogg></span><button type=button>Fallen Wings</button></li>
-
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level03.ogg></span><button type=button>Winter's Crown - Map</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-5.ogg></span><button type=button>Winter's Crown - Battle (Boss)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-6.ogg></span><button type=button>Winter's Crown - Battle (Purifier)</button></li>
-		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-tiancheng.ogg></span><button type=button>Crimson Echoes - Story</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-nagato-map.ogg></span><button type=button>Ink-stained Steel Sakura - Map</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-tiancheng.ogg></span><button type=button>Crimson Echoes - Battle (Amagi)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-nagato-boss.ogg></span><button type=button>Ink-stained Steel Sakura - Battle (Boss)</button></li>
-		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-french1.ogg></span><button type=button>Iris of the Light and the Dark - Story 1</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level-french1.ogg></span><button type=button>Iris of the Light and the Dark - Battle</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-french2.ogg></span><button type=button>Iris of the Light and the Dark - Story 2</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-french.ogg></span><button type=button>Iris of the Light and the Dark - Story (C3)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level-french2.ogg></span><button type=button>Iris of the Light and the Dark - Map (D3)</button></li>		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-masazhusai.ogg></span><button type=button>Iris of the Light and the Dark - Battle (Jean Bart)</button></li>
-
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-maid.ogg></span><button type=button>Royal Maids Battle Royale</button></li>
-
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-1.ogg></span><button type=button>Scherzo of Iron and Blood 1</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-2.ogg></span><button type=button>Scherzo of Iron and Blood 2</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-3.ogg></span><button type=button>Scherzo of Iron and Blood 3</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-4.ogg></span><button type=button>Scherzo of Iron and Blood 4 - Also Sprach Zarathustra</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-5.ogg></span><button type=button>Scherzo of Iron and Blood 5</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-6.ogg></span><button type=button>Scherzo of Iron and Blood 6</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-7.ogg></span><button type=button>Scherzo of Iron and Blood 7</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-8.ogg></span><button type=button>Scherzo of Iron and Blood 8</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-9.ogg></span><button type=button>Scherzo of Iron and Blood 9</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-bsm-10.ogg></span><button type=button>Scherzo of Iron and Blood 10</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-echo-loop.ogg></span><button type=button>Echo Loop</button></li>
-
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-nepu1.ogg></span><button type=button>Neptunia - Let's Bake The Cookie!</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-nepu2.ogg></span><button type=button>Neptunia - Tutorial</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level-nep.ogg></span><button type=button>Neptunia - Sailing of a Daydream</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level-nep2.ogg></span><button type=button>Neptunia - WILL BE VENUS</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-nep.ogg></span><button type=button>Neptunia - The Code ~Noisy And Calm~</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-nep2.ogg></span><button type=button>Neptunia - VOLTAGE</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-nep1.ogg></span><button type=button>Neptunia - URANUS</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-nep2.ogg></span><button type=button>Neptunia - Outside The Dimension</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-nep3.ogg></span><button type=button>Neptunia - ABSOLUTE</button></li>
-		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-main-uta.ogg></span><button type=button>Utawarerumono - ウタツグミ (Utatsugumi)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-story-uta.ogg></span><button type=button>Utawarerumono - 遊楽 (Yuuraku)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-level-uta.ogg></span><button type=button>Utawarerumono - 乱世の到来 (Ransei no Tourai)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-uta.ogg></span><button type=button>Utawarerumono - 天啓の地 (Tenkei no Chi)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-battle-boss-uta.ogg></span><button type=button>Utawarerumono - 戦火の狼煙 (Senka no Noroshi)</button></li>
-
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-ai-otr.ogg></span><button type=button>Kizuna Ai - over the reality</button></li>		
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-ai-fb.ogg></span><button type=button>Kizuna Ai - future base</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-ai-mw.ogg></span><button type=button>Kizuna Ai - melty world</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-ai-otr-inst.ogg></span><button type=button>Kizuna Ai - over the reality (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-ai-fb-inst.ogg></span><button type=button>Kizuna Ai - future base (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-ai-mw-inst.ogg></span><button type=button>Kizuna Ai - melty world (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/AL005_ItalyStory1.ogg></span><button type=button>Empyreal Tragicomedy - Story</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/AL005_ItalyBattle_demo02_1.ogg></span><button type=button>Empyreal Tragicomedy - Battle</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/AL005_ItalyBoss_demo03_1.ogg></span><button type=button>Empyreal Tragicomedy - Boss</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-cw-story.ogg></span><button type=button>A New Crosswave - Story</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-cw-level.ogg></span><button type=button>A New Crosswave - level</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/bgm-cw-battle-boss.ogg></span><button type=button>A New Crosswave - Boss</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/main_AZURLANE_0918_mix.ogg"></span><button type=button>Crescendo of Polaris - cœur</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/inst_AZURLANE_1018_mix.ogg"></span><button type=button>Crescendo of Polaris - cœur (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/watashi_wa_numba_wan.ogg"></span><button type=button>San Diego - Watashi Wa No.1</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/unicorn_my_night.ogg"></span><button type=button>Unicorn - My Night</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/s04_Phantom9.ogg"></span><button type=button>Enterprise - Phantom 9</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/s05_Cleveland_13_BRIGHT BATTLE_STARS.ogg"></span><button type=button>Cleveland - 13 Battle Star</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/holo_aqua_home.ogg></span><button type=button>Hololive - Aqua</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/holo_ayame_home.ogg></span><button type=button>Hololive - Ayame</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/holo_fubuki_home.ogg></span><button type=button>Hololive - Fubuki</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/holo_matsuri_home.ogg></span><button type=button>Hololive - Matsuri</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/holo_mio_home.ogg></span><button type=button>Hololive - Mio</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/holo_shion_home.ogg></span><button type=button>Hololive - Shion</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src=https://algwiki.moe/assets/bgm/holo_sora_home.ogg></span><button type=button>Hololive - Sora</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_I_can't_control_my_self.ogg"></span><button type=button>Hololive - I can't control myself by AZKi</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_I_can't_control_my_self_inst.ogg"></span><button type=button>Hololive - I can't control myself by AZKi (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_Fake_Fake_Fake.ogg"></span><button type=button>Hololive - Fake Fake Fake by AZKi</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_Fake_Fake_Fake_inst.ogg"></span><button type=button>Hololive - Fake Fake Fake by AZKi (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_inochi.ogg"></span><button type=button>Hololive - Inochi by AZKi</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_inochi_inst.ogg"></span><button type=button>Hololive - Inochi by AZKi (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_ShinySmilyStory.ogg"></span><button type=button>Hololive - Shiny Smily Story</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_ShinySmilyStory_inst.ogg"></span><button type=button>Hololive - Shiny Smily Story (Instrumental)</button></li>
-		<li><span class=able-source data-type=audio/ogg data-src="https://algwiki.moe/assets/bgm/holo_TOKIWA.ogg"></span><button type=button>Hololive - TOKIWA</button></li>
-	
 	</ul>
-		
+
 	<!-- content -->
 	<!-- content -->
 	<!-- content -->
 	</div>
 </div>
-    
+
     <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/player/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js/player/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/player/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-   
+    <script src="js/player/jquery.mCustomScrollbar.concat.min.js"></script>
+
 <footer id="footer"></footer>
 </body>
 </html>
