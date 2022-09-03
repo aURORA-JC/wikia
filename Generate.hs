@@ -268,7 +268,10 @@ limitbreakResearch context lblines
                                                                         trace ("Not enough limit break lines for ship: " ++ (ctx_json context % "name_reference")) ""
                                                                     else
                                                                       "")
-                                            ++ spacebar ((blueprints ! (asstr $ asval $ id)) % "effect_desc")) filtered
+                                            ++ spacebar ((blueprints ! (asstr $ asval $ id)) % "effect_desc")
+                                            ++ (intercalate " | " $ case (blueprints ! (asstr $ asval $ id)) ! "extra_desc" of
+                                                                      Obj _ x -> map (ashow . snd) x
+                                                                      Val _ _ -> [])) filtered
                  case elems fate of
                    [] -> return ()
                    fate -> do H.td H.! A.style "text-align: left; padding-left:5px;"
