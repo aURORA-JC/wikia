@@ -80,6 +80,7 @@ toList (Val info x) = error $ "Expected array/object in {" ++ show info ++ "} bu
 keys (Obj _ x) = map fst x
 keys (Val info x) = error $ "Expected array/object in {" ++ show info ++ "} but got {" ++ show x ++ "}"
 
+elems :: Expr -> [Expr]
 elems (Obj _ x) = map snd x
 elems (Val info x) = error $ "Expected array/object in {" ++ show info ++ "} but got {" ++ show x ++ "}"
 

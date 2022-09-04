@@ -25,24 +25,7 @@ import qualified Control.Exception as Exc
 
 import Utils
 
-data Context
-  = Context
-  {
-    ctx_luaskin :: [Expr],
-    ctx_luaskinextra :: [Expr],
-    ctx_namecode :: [[(Int, (String, String))]],
-    ctx_encn :: [(String, (String, String))],
-    ctx_skins :: [(Int, String, Expr)],
-    ctx_json :: Expr,
-    ctx_ships :: [Expr],
-    ctx_ship_data_template :: Expr,
-    ctx_skill_data_template :: Expr,
-    ctx_ship_data_blueprint :: Expr,
-    ctx_ship_strengthen_blueprint :: Expr,
-    ctx_ship_data_breakout :: Expr,
-    ctx_ship_strengthen_meta :: Expr,
-    ctx_ship_meta_breakout :: Expr
-  }
+import Context
 
 lookupDefault d b a = case lookups a b of
                         Nothing -> d
@@ -274,10 +257,17 @@ limitbreakResearch context lblines
                                                                       Val _ _ -> [])) filtered
                  case elems fate of
                    [] -> return ()
-                   fate -> do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                $ "Level 35"
-                              H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
-                                $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ last fate)) % "effect_desc")
+                   fate -> do H.tr
+                                $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                       $ "Level 33"
+                                     H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
+                                       $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ fate !! 2)) % "effect_desc")
+
+                              H.tr
+                                $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                       $ "Level 35"
+                                     H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
+                                       $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ last fate)) % "effect_desc")
 
 limitbreak :: Context
            -> H.Html
@@ -520,7 +510,7 @@ showship context
 
        H.tr
          $ H.td H.! A.colspan "2"
-         $ showskills json ship_data_template skill_data_template
+         $ showskills context
 
        H.tr
          $ H.td H.! A.colspan "2"
