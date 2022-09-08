@@ -1,1169 +1,1228 @@
 {
-	"name_reference": "nagato",
-	"cn_reference": "changmen",
-	"nameJP": "長門",
-	"nameCN": "鲨",
-	"ID": "212",
-	"name": "Nagato",
-	"internal_id": "305051",
-	"rarity": "Super Rare",
-	"initialStar": "★★★☆☆☆",
-	"hull": "Battleship",
-	"navy": "Sakura Empire",
-	"prefix": "IJN",
-	"buildTime": "4:20:00",
-	"class": "Nagato-Class",
-	"voiceActress": "Kuno Misaki",
-	"parameters": {
-		"firepower": "A",
-		"torpedo": "E",
-		"aviation": "E",
-		"evasion": "D",
-		"antiAir": "D",
-		"hp": "B"
-	},
-	"scrap": {
-		"gold": "11",
-		"oil": "4",
-		"medal": "10"
-	},
-	"releaseDate": {
-		"JP": "May 31, 2018",
-		"CN": "June 7, 2018",
-		"KR": "-",
-		"EN": "-"
-	},
-	"artist": {
-		"name": "Alisa",
-		"weibo": "https://weibo.com/u/6056658230",
-		"twitter": "https://twitter.com/16119831274",
-		"pixiv": "https://www.pixiv.net/member.php?id=1966676",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "63",
-		"torpedo": "0",
-		"aviation": "0",
-		"reload": "10"
-	},
-	"acquisitionMethod": "Limited Build (Ink-stained Steel Sakura)",
-	"skill": {
-		"1": {
-			"icon": "11310",
-			"requirement": "Default Unlocked",
-			"name": "The Fourth Combined Fleet Flagship",
-			"type": "Support",
-			"description": "When sortied as the flagship, Sakura ships in the fleet receive increased firepower by 4.0% (10.0%), reload and accuracy by 5.0% (20.0%). Sakura carriers deal increased damage by 5.0% (20.0%)"
-		},
-		"2": {
-			"icon": "11420",
-			"requirement": "Default Unlocked",
-			"name": "BIG SEVEN - Sakura",
-			"type": "Offensive",
-			"description": "When firing main gun, 20.0% (40.0%) chance of unleashing a frontal barrage (damage based on skill level)."
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "changmen",
-			"name": "Nagato",
-			"description": "Nagato-class Battleship No. 1 – Nagato.",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"2": {
-			"id": "changmen_2",
-			"name": "Great Fox's Respite ",
-			"description": "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive? ",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				}
-			}
-		},
-		"3" : {
-			"id" : "changmen_3",
-			"name" : "Guardian Fox's Shining Furisode",
-			"description" : "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				},
-				"5" : {
-					"id" : "5"
-				},
-				"6" : {
-					"id" : "6"
-				}
-			}
-		},
-		"4": {
-			"id": "changmen_h",
-			"name": "Great Fox's Shiroshouzoku",
-			"description": "I-I'm not much good at anything, but please be kind to me... Was that good enough? T-this is... rather embarrassing... H-hahaha...",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"5" : {
-			"id" : "changmen_4",
-			"name" : "Guardian Fox's Vacation",
-			"description" : "",
-			"expression" : {
-				"0" : {
-					"id" : "0"
-				},
-				"1" : {
-					"id" : "1"
-				},
-				"2" : {
-					"id" : "2"
-				},
-				"3" : {
-					"id" : "3"
-				},
-				"4" : {
-					"id" : "4"
-				},
-				"5" : {
-					"id" : "5"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "36200",
-			"rarity": "Common",
-			"name": "25mm Mounted AA Gun"
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "6955",
-			"firepower": "377",
-			"torpedo": "0",
-			"antiAir": "159",
-			"aviation": "0",
-			"reload": "127",
-			"hit": "56",
-			"evasion": "18",
-			"speed": "25",
-			"luck": "71",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
-		},
-		"120": {
-			"hp": "8117",
-			"firepower": "419",
-			"torpedo": "0",
-			"antiAir": "182",
-			"aviation": "0",
-			"reload": "146",
-			"hit": "70",
-			"evasion": "37",
-			"speed": "25",
-			"luck": "71",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
-		},
-		"base": {
-			"hp": "1345",
-			"firepower": "80",
-			"torpedo": "0",
-			"antiAir": "34",
-			"aviation": "0",
-			"reload": "54",
-			"hit": "22",
-			"evasion": "7",
-			"speed": "25",
-			"luck": "71",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "5",
-			"armor": "Heavy"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "25",
-			"luck": "71",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "25",
-			"luck": "71",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "15",
-			"armor": "Heavy"
-		}
-	},
-	"limitBreak": {
-		"tier1": "Main Gun Base +1 / Main Gun Efficiency +5%",
-		"tier2": "Secondary Gun Base +2 / Main Gun Efficiency +10%",
-		"tier3": "Main Gun Base +1 / Main Gun Efficiency +15%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Battleship",
-			"efficiency": "105%/110%/120%/135%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Light Cruiser",
-			"efficiency": "210%/210%/210%/210%",
-			"amount": "1/1/3/3",
-			"preload": "0/0/0/0"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "100%/100%/100%/100%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"heavy": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"special": {
-			"JP": "-",
-			"CN": "-",
-			"EN": "-"
-		},
-		"limited": {
-			"JP": "✓",
-			"CN": "✓",
-			"EN": "✓"
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "changmen",
-				"id": "0",
-				"label": "Nagato ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "长门级战列舰一番舰—长门",
-						"chineseTL": "Nagato-class Battleship No. 1 - Nagato",
-						"chineseNote": "",
-						"japanese": "長門型戰艦一番艦·長門",
-						"japaneseTL": "Nagato-class Battleship No. 1 - Nagato",
-						"japaneseNote": "",
-						"english": "Nagato-class battleship number one – Nagato.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "吾代表着重樱的军魂，重樱的荣光以及重樱的辉煌。吾是BIG 7之一，吾之存在即是那个时代，睁大汝的双眼，顶礼膜拜吧——看够了吗，吾站腻了，要休息一下…",
-						"chineseTL": "I represent the military soul of the Sakura Empire, I am the glory and brilliance of the Sakura. I am one of the Big Seven, my existence is representative of that era, keep thy eyes open and pay respects- Have thou seen enough? I'm tired of standing, need to rest a bit...",
-						"chineseNote": "",
-						"japanese": "重桜の魂、重桜の誇り、そして重桜の栄光……かの時代そのものの象徴でもある、ビッグセブンの余を、刮目して見るが良い――…これでいいか？疲れたから、余はもう休むぞ",
-						"japaneseTL": "The soul of the Sakura Empire, the pride of the Sakura Empire, and also the glory of the Sakura Empire... I am the symbol of that era, one of the Big Seven, take a good look at me... Was that good enough? I'm tired, I will rest now",
-						"japaneseNote": "",
-						"english": "I am the manifestation of the soul of the Sakura Empire, the pride and glory of her warrior spirit. As a Big Seven, I am also the symbol of an era. Open your eyes and bask in my radiance... You may stop basking now, I'm getting a bit sleepy...",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "吾乃重樱联合舰队旗舰——长门。汝就是指挥官吗？汝是否有取得天下的能力，就由吾用这双眼亲自确认吧",
-						"chineseTL": "I am the flagship of the Sakura Empire Combined Fleet - Nagato. Are thou the Commander? Whether thou have the power to take over the world or not, I shall confirm it with my own eyes",
-						"chineseNote": "",
-						"japanese": "余は重桜連合艦隊旗艦――長門である。お主は指揮官か？天下を取る資質があるか、しかとこの目で見させてもらおう",
-						"japaneseTL": "I am the Sakura Empire Combined Fleet flagship - Nagato. Are thee the Commander? Thy ability or not to take over the world, I shall witness it with my own eyes",
-						"japaneseNote": "",
-						"english": "I am called Nagato, flagship of the Sakura Empire's Combined Fleet. Are you the one known as the Commander? I shall bear witness to whether or not you have the ability to unite this world.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "欢迎肥…咬到了舌头…",
-						"chineseTL": "Welcome f- I bit my tongue...",
-						"chineseNote": "",
-						"japanese": "おかえれ…し、舌を噛んただけだぞ…",
-						"japaneseTL": "Welcome be... I-I merely bit my tongue...",
-						"japaneseNote": "",
-						"english": "Welcome ba... oww, I bit my tongue...",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "在这里，大家脸上都洋溢着笑容……吾喜欢这里！",
-						"chineseTL": "In this place, everyone's face is full of smiles... I like it here!",
-						"chineseNote": "",
-						"japanese": "皆の顔に笑顔が溢れておる……余はこの場所を気に入っているぞ！",
-						"japaneseTL": "The faces of everyone here are brimming with smiles... I really like this place!",
-						"japaneseNote": "",
-						"english": "Everyone's faces are full of laughter here... I think I am rather fond of this place!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "吾厌恶斗争，但…那个时候，吾……别无选择",
-						"chineseTL": "I hate fighting, but... that time, I... had no choice",
-						"chineseNote": "",
-						"japanese": "争いは好まぬ、しかしあの時は…余に選択肢はなかった",
-						"japaneseTL": "I do not like conflict, but that time... I had no choice",
-						"japaneseNote": "",
-						"english": "I despise wars, but... at that time, the choice was not mine to make... ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "那些轻言战争的人们…真的做好了付出代价的准备了吗？",
-						"chineseTL": "Those that speak lightly of war... are they really prepared to pay the sacrifices?",
-						"chineseNote": "",
-						"japanese": "戦争を語る輩は、果たして本腰の覚悟と自信はあるか？",
-						"japaneseTL": "Those who preach about war, do they possess the resolve and confidence?",
-						"japaneseNote": "",
-						"english": "Those who speak lightly of war... do you think they are prepared to face the consequences of their actions? ",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "获得拯救的人们脸上的表情，吾永远不会忘记…那才是吾想要保护的东西",
-						"chineseTL": "To obtain the expression of those who are saved, I will never forget it... That is the very thing I want to protect",
-						"chineseNote": "",
-						"japanese": "かの天災で救った民の笑顔、余は絶対に忘れない…あれこそ余が守りたいものである",
-						"japaneseTL": "The smiles of those who were rescued from that disaster, I will never forget it... for those smiles are the very thing I wish to protect",
-						"japaneseNote": "",
-						"english": "I shall never forget the smiles on the faces of those people who were saved from calamity. That is the reason why I fight.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "……！还、还没有人敢这么随意触碰我…",
-						"chineseTL": "...! N-nobody has ever dared to touch me as they please like this...",
-						"chineseNote": "",
-						"japanese": "……！こ、こうも容易く余に触れた者はおらんかったぞ…",
-						"japaneseTL": "...! N-nobody has ever dared to touch me so nonchalantly like this...",
-						"japaneseNote": "",
-						"english": "...! N-No one has ever dared to lay hands on me in such a manner...",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "……轻、轻薄无礼！",
-						"chineseTL": "...S-such insolence!",
-						"chineseNote": "",
-						"japanese": "……ぶ、無礼者！",
-						"japaneseTL": "...T-thou impertinent!",
-						"japaneseNote": "",
-						"english": "... H-How uncouth!",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "任务书整理成这样就好了吗？吾不太明白",
-						"chineseTL": "Is it fine to arrange the mission documents like this? I don't quite understand",
-						"chineseNote": "",
-						"japanese": "任務の書類はこれで良いか？余はよく分からぬが",
-						"japaneseTL": "Is it fine to arrange the mission documents like this? I don't quite understand",
-						"japaneseNote": "",
-						"english": "Is it acceptable to arrange the itinerary in this manner? I do not quite understand how to do it yet...",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "任务奖励…嘿咻…放这里就可以了吗？",
-						"chineseTL": "Mission rewards... heave-ho... shall I place them here?",
-						"chineseNote": "",
-						"japanese": "任務報酬…よいっしょ…ふぅ…ここで良いのか？",
-						"japaneseTL": "Mission rewards... heave-ho... phew... shall I place them here?",
-						"japaneseNote": "",
-						"english": "The mission rewards... Ngh...! Phew... is it acceptable to leave them here?",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "这些纸是什么？信？原来这就是信吗，吾能看看吗？",
-						"chineseTL": "What are these papers? Mail? So this is mail, can I see?",
-						"chineseNote": "",
-						"japanese": "この紙切れは？「めーる」？そうかメールか。余にも読ませてもらって良いか？",
-						"japaneseTL": "What is this piece of paper? \"Meeru\"? I see, it's mail. May I read it as well?",
-						"japaneseNote": "",
-						"english": "What is this piece of paper? \"Mail?\" I see, it's mail. Shall I read it?",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "吾从未迎接过别人，能开一炮作为代替吗？",
-						"chineseTL": "I have never welcomed anyone before, can I fire my cannons instead?",
-						"chineseNote": "",
-						"japanese": "人を出迎えたことはないが…砲を撃てば良かろう？",
-						"japaneseTL": "I have never welcomed anyone before... should I greet them with a cannon shot?",
-						"japaneseNote": "",
-						"english": "I have never had to welcome anyone before. Perhaps I shall do so by firing my cannons?",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "委托完成了…喂，吾难得记住了时间，汝就没有什么表示吗？",
-						"chineseTL": "Commissions are complete... Hey, I even managed to remember the time, are thee not going to say something?",
-						"chineseNote": "",
-						"japanese": "委託が完了したぞ…お、おい…せっかく余が時間を覚えたのに、お主は何も思わんのか？",
-						"japaneseTL": "Commissions complete... H-hey... I even managed to remember the time, are thee not going to say anything?",
-						"japaneseNote": "",
-						"english": "The commission fleet has returned... H-Hey, I managed to remember the time. Have you no words of praise for me?",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "但愿…能迎来铸剑为犁的那天——",
-						"chineseTL": "I wish... one day we can beat our swords into ploughshares...",
-						"chineseNote": "",
-						"japanese": "矛を収める日が来るように――",
-						"japaneseTL": "For the day we may lay down our arms...",
-						"japaneseNote": "",
-						"english": "I hope... to be able to welcome the day when we can all beat our swords into plowshares...",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "又是…悲哀的战争…",
-						"chineseTL": "Another... sorrowful war...",
-						"chineseNote": "",
-						"japanese": "また…悲しい戦争を…",
-						"japaneseTL": "Once again... we fight a tragic war...",
-						"japaneseNote": "",
-						"english": "Yet another... tragic battle.",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "为什么非要招惹吾呢？",
-						"chineseTL": "Why did thee have to provoke me?",
-						"chineseNote": "",
-						"japanese": "痴れ者が…なにゆえ余を怒らせたのだ？",
-						"japaneseTL": "Fools... why did thee provoke me?",
-						"japaneseNote": "",
-						"english": "Impudent fools... why did they have to provoke me?",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "呜…又失败了吗…",
-						"chineseTL": "Uu... did I fail again...",
-						"chineseNote": "",
-						"japanese": "うぅ……また失敗しちゃった……",
-						"japaneseTL": "Uu... I failed again...",
-						"japaneseNote": "",
-						"english": "Ugh... I have failed once again...",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "吾乃长门，重樱的长门",
-						"chineseTL": "I am Nagato, Nagato of the Sakura Empire",
-						"chineseNote": "",
-						"japanese": "余は長門…重桜の長門である！",
-						"japaneseTL": "I am Nagato... Nagato of the Sakura Empire!",
-						"japaneseNote": "",
-						"english": "I am called Nagato... Nagato of the Sakura Empire!",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "决战的时刻到了吗…",
-						"chineseTL": "Is it the moment for the decisive battle...",
-						"chineseNote": "",
-						"japanese": "決戦の時か…！",
-						"japaneseTL": "Is it time for the decisive battle...!",
-						"japaneseNote": "",
-						"english": "The decisive battle is upon us!",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "汝的愿望…就是让吾做和过去一样的事吗？吾…知道了",
-						"chineseTL": "Thy wish... is for me to do the same as in the past? I... understand",
-						"chineseNote": "",
-						"japanese": "お主の願いは…余にアヤマチを繰り返させることか？余は…分かった…",
-						"japaneseTL": "Thy wish is... to make me repeat the same mistakes as in the past? I... understand...",
-						"japaneseNote": "",
-						"english": "Your wish... is to repeat the errors of the past once more? Very well... I see...",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "汝有什么事吗？吾？吾什么都没在做。自从把位置交给大和后，吾就只有在战场之上才有事可做了",
-						"chineseTL": "Is anything the matter? Me? I don't have anything to do. Ever since my position was given to Yamato, the only things I have left to do are in the battlefield",
-						"chineseNote": "",
-						"japanese": "何事か？余？余は何もしておらぬぞ。あの働きを大和に任せてから、余のすることは戦いしか残っておらぬぞ",
-						"japaneseTL": "Is anything the matter? Me? I don't have anything to do. After leaving that work to Yamato, my only responsibility left is to fight",
-						"japaneseNote": "",
-						"english": "What do you require of me? Hmm? I am not doing anything in particular. After I handed the work to Yamato, there is little to do except fight.",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "多和大家在一起？即使和她们在一起吾也不知道做什么，而且吾看得出来，她们在畏惧吾……汝在做什么，为什么要把吾的舰装脱下来……",
-						"chineseTL": "Spend more time with everyone? Even if I am with them I don't know what do do, I can also tell they are fearful of me... What are thee doing, why are thee taking off my rigging...?",
-						"chineseNote": "",
-						"japanese": "皆ともっと一緒にいろ、だと？一緒にいても余は何をして良いのか分からぬし、それに余のことを皆が怖がっているのは目に見えておる……何をしておる！どうして余の艤装を下ろそうとするのだ！",
-						"japaneseTL": "Go spend more time with everyone, thou say? Even if I am with them, I do not really know what I should do, and I can see that everyone is afraid of me... What are thee doing?! Why are thee taking off my rigging?!",
-						"japaneseNote": "",
-						"english": "I should spend more time with the others? Even if I tried to do that, I would not know how to behave, and they would be afraid of me all the same... Hey, what are you doing... why are you taking off my riggings?!",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "原来如此，脱掉以后，大家似乎不再那么敬畏吾了。确实有种轻松的感觉…但这股淡淡的失落感又是怎么回事呢…就像把旗舰之职转交给大和那时一样…",
-						"chineseTL": "I see, after taking the rigging off, it seems like they are not fearful of me out of respect. It really makes me feel relaxed... but what is this subtle feeling of loss... It reminds me of that time the flagship duty was handed over to Yamato...",
-						"chineseNote": "",
-						"japanese": "なるほど、艤装を下ろしてから、皆に恐がられなくなったな。確かに気持ちが軽くなっておるが…でもこの淡い喪失感はなぜだろう…旗艦を大和に譲った時とおなじような……",
-						"japaneseTL": "I see, after taking the rigging off, they aren't afraid of me anymore. It certainly feels more relaxing... but what is this faint feeling of loss... it feels the same as that time when the flagship title was handed off to Yamato...",
-						"japaneseNote": "",
-						"english": "I see! I am less intimidating with my riggings taken off. I certainly do feel lighter... but why does it feel like I've lost something... like when I appointed Yamato to take over as flagship?",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "要被一个人视为珍宝就足够了吗？…是汝将吾硬拉了出来，汝要对吾负责…所以…那个，就是说…我、吾命令汝，将吾是视作汝的宝物…不、不行吗？",
-						"chineseTL": "It is good enough to be seen as treasure by just one person?... It was thee who forcibly pulled me out, so thou need to be responsible... So, that is to say... I-I command thee to regard me as thy treasure... I-Is that fine?",
-						"chineseNote": "",
-						"japanese": "大切にしてくれる人がいたほうが良いのか？じゃ…余を連れ出すのがお主だから、せ、責任を取ってもらうぞ…えっと…その、つまり…お、お主に命じる…余を大切にするのだ…ど、どうだ…？",
-						"japaneseTL": "I should have someone important that cares about me? Well... since thou was the one who pulled me out, I-I'll have thee take responsibility... Uhm... that being said, I-I hereby command thee... take good care of me... h-how does that sound?",
-						"japaneseNote": "",
-						"english": "It is enough to be treasured by one person? Since you were the one who brought me out... I shall have you take responsibility... that is, umm, in other words, I command you to... treasure me... if that is acceptable?",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "若战争的彼端，不是吞噬一切的白光，而是你温暖的怀抱…对现今的我来说，就已经别无他求了",
-						"chineseTL": "If at the other side of the war, it is not a white light that devours everything, but thy warm embrace... to the present me, I have nothing else to desire for.",
-						"chineseNote": "",
-						"japanese": "戦乱の彼方にあるのは、あのすべてを飲み込む光ではなく、お主の温かいぬくもりなら、今の余は…他に何も求めないよ",
-						"japaneseTL": "If beyond this war, it is not that light that devours everything, but thy warm embrace, the current me... has nothing else to desire for",
-						"japaneseNote": "",
-						"english": "When I cross the river after the war ends, what awaits me is not a searing white light that engulfs everything, but rather, your warm embrace... There is nothing more that I could ask for...",
-						"englishNote": ""
-					},
-					"28": {
-						"event": "Easter Egg 1 (Sakura x5)",
-						"media": "link1",
-						"chinese": "联合舰队，粉碎敌人",
-						"chineseTL": "Combined Fleet, pulverize the enemy!",
-						"chineseNote": "",
-						"japanese": "連合艦隊、敵を粉砕せよ",
-						"japaneseTL": "Combined Fleet, pulverize the enemy!",
-						"japaneseNote": "",
-						"english": "Combined Fleet, crush our enemies!",
-						"englishNote": ""
-					},
-					"29": {
-						"event": "Easter Egg 2 (Fuso, Yamashiro, Mutsu)",
-						"media": "link2",
-						"chinese": "第一战队，火力全开",
-						"chineseTL": "First fleet, full force attack!",
-						"chineseNote": "",
-						"japanese": "第一戦隊、火力全開",
-						"japaneseTL": "First fleet, full force attack!",
-						"japaneseNote": "",
-						"english": "1st Battleship Division, open fire!",
-						"englishNote": ""
-					},
-					"30": {
-						"event": "Valentines (2019)",
-						"media": "",
-						"chinese": "就、就把吾的第一次尝试制作的这个巧、巧克力赐予汝吧！汝就心怀感激地接受吧！…汝、汝会真的吃掉的吧…会吧…？",
-						"chineseTL": "I-I'm giving thee this c-chocolate that I made for the first time! Thou shall receive it with the utmost gratitude!... T-thou will really eat it... right...?",
-						"chineseNote": "",
-						"japanese": "よ、余が初めて作ったちょ、「ちょこれーと」を賜ってやる！この寛大なる余の気持ちを、お主の心で感じるが良いぞ！……ほ、本当に食べてくれる…よね…？",
-						"japaneseTL": "I-I'm giving thee this \"chocolate\" that I-I handmade for the first time! This generosity of mine better reach thy heart!... T-thou will really eat it... right...?",
-						"japaneseNote": "",
-						"english": "",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "changmen_2",
-				"id": "1",
-				"label": "Great Fox's Respite ",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "呼，今天要招待指挥官，拜托你们把吾打扮得好看些，吾，呼啊……还有点困……汝等在吵闹什么？……？！指、指挥官，汝什么时候在那的！",
-						"chineseTL": "Phew, I have to host the Commander today, please dress me up nicely, I, wah... am still sleepy... why are thee all so restless?...? C-commander, when did thee get here?!",
-						"chineseNote": "",
-						"japanese": "今日は指揮官を招待するぞ。饅頭たち、あとで余を盛装に着せ替えさせるがよい！余は、ふは……もう少しうたた寝を……ぬぅ、なにかが騒がしいぞ？…お、お主！？いつからいたのだ！？",
-						"japaneseTL": "I shalt be hosting the Commander today. Manjuus, please dress me up nicely! I, fwah... will sleep a bit more... Ughh, why are thee all so restless?... M-milord!? When did thee get here!?",
-						"japaneseNote": "",
-						"english": "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive?",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "呼，今天要招待指挥官，拜托你们把吾打扮得好看些，吾，呼啊……还有点困……汝等在吵闹什么？……？！指、指挥官，汝什么时候在那的！",
-						"chineseTL": "Phew, I have to host the Commander today, please dress me up nicely, I, wah... am still sleepy... why are thee all so restless?...? C-commander, when did thee get here?!",
-						"chineseNote": "",
-						"japanese": "今日は指揮官を招待するぞ。饅頭たち、あとで余を盛装に着せ替えさせるがよい！余は、ふは……もう少しうたた寝を……ぬぅ、なにかが騒がしいぞ？…お、お主！？いつからいたのだ！？",
-						"japaneseTL": "I shalt be hosting the Commander today. Manjuus, please dress me up nicely! I, fwah... will sleep a bit more... Ughh, why are thee all so restless?... M-milord!? When did thee get here!?",
-						"japaneseNote": "",
-						"english": "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive?",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_1",
-						"chinese": "呼啊……指挥官，汝来了，吾还要睡会儿，晚安……",
-						"chineseTL": "*Yawn*... Commander, thou are here, I still want to sleep a bit more, good night...",
-						"chineseNote": "",
-						"japanese": "ふぁ……お、お主か？余はもう少し……おやすみ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "*yawn* Oh... Commander? I desire a few more minutes of respite... Good night...",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "指挥官，汝休息的时候都在做些什么，也和吾说说吧",
-						"chineseTL": "Commander, what do thee do when thou rest, can thou let me know?",
-						"chineseNote": "",
-						"japanese": "お主が休日になにをしておるのか……す、少しだけ余に聞かせてもよいぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, what are you going to do on your next day off? I-I would not mind hearing you out.",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Idle 1",
-						"media": "main_1_1",
-						"chinese": "指挥官，汝来得正好，帮吾找找，吾的衣服不知道去哪儿了……先、先说好，可不是吾不小心塞到奇怪的地方然后忘记了",
-						"chineseTL": "Commander, thou came at the right time, can thee help find my clothing, I don't know where they went... J-just letting thee know, I did not carelessly put them in some strange place and forget afterwards",
-						"chineseNote": "",
-						"japanese": "いいところに来た。余の服を探すのを手伝ってくれぬか……予め言っておくが…け、決して余が散らかして見つからなくなったわけではないぞっ！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Good timing. I require your assistance in locating my lost clothes... Just so you know, I did not misplace them because I was playing around, understood?! ",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Idle 2",
-						"media": "main_2_1",
-						"chinese": "有时候，吾也有些羡慕陆奥。以前坐在很高的地方什么也不做的吾，现在即使自由，也不知该如何像她那样玩耍…",
-						"chineseTL": "At times, I'm a bit envious of Mutsu. In the past I would sit at a high place and have nothing to do, but now that I am free, I still don't know how to be as playful as her",
-						"chineseNote": "",
-						"japanese": "陸奥のことが羨ましく思える時もある…神子として拝まれ、ただただ雲の上にいた余は、今こうして自由でいても、あの子のように遊べんのだ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I sometimes envy Mutsu... Even though I have my freedom now, unlike when I was placed upon a pedestal and worshipped, I can't be carefree like her... ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Idle 3",
-						"media": "main_3_1",
-						"chinese": "指挥官，汝日后工作要是有空，也可以多来找吾，这里即使算上陆奥和江风她们，对吾来说还是太大了",
-						"chineseTL": "Commander, if thou have time after work, thou can come here more often. Even with Mutsu and Kawakaze, this place still feels too big for me",
-						"chineseNote": "",
-						"japanese": "都合が付く時は、いつでも余に会いにくるがよいぞ。この場所は陸奥と江風たちを入れても…いささか広すぎるからな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, you should come visit me more often if you're not busy. Though Mutsu and Kawakaze keep me company, this place is still too spacious for my tastes.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "汝是打算邀请吾出去玩吗？…也好，吾也想与汝一同出去看看",
-						"chineseTL": "Thou were planning to take me out to play?... Hmm, I also want to go out together with thee",
-						"chineseNote": "",
-						"japanese": "余に外遊を誘うつもりか？…良い、余もお主と一緒に出かけたいところだぞ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, did you plan to invite me out? ... Very well. Our interests happen to be in concordance.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_1",
-						"chinese": "吾的另一面，现在也已经被汝看完了…所以，现在汝即使说要离开吾，吾……吾也不允许，嗯，决不允许！",
-						"chineseTL": "The other side of me, has been fully seen by thee... That's why, even if thou say thou want to leave, I-I won't allow it, yes, won't ever allow it!",
-						"chineseNote": "",
-						"japanese": "お主、小腹が空いておるのか？このお団子で腹ごしらえでもするがよい",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Commander, do you hunger? Then do partake of this dango.",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
-				"skin_id" : "changmen_3",
-				"id" : "2",
-				"label" : "Guardian Fox's Shining Furisode",
-				"dialogue" : {
-					"1" : {
-						"event" : "Ship Description",
-						"media" : "",
-						"chinese" : "来得正好，有汝在，就算是一成不变的赏月也多少会变得有趣些吧——今天就好好在这休息吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "よくぞ来てくれた。お主がいれば、同じ月見でもいつもよりも楽しくなるやもしれぬ――今日はここでゆ、ゆっくりくつろいでゆくが良いぞ？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
-						"englishNote" : ""
-					},
-					"2" : {
-						"event" : "Acquisition",
-						"media" : "get_2",
-						"chinese" : "来得正好，有汝在，就算是一成不变的赏月也多少会变得有趣些吧——今天就好好在这休息吧",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "よくぞ来てくれた。お主がいれば、同じ月見でもいつもよりも楽しくなるやもしれぬ――今日はここでゆ、ゆっくりくつろいでゆくが良いぞ？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
-						"englishNote" : ""
-					},
-					"3" : {
-						"event" : "Login",
-						"media" : "login_2",
-						"chinese" : "今天要做些什么？尽管指示吾没关系的",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "今日は何をするか？余に手伝えることを指示するが良い",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "What do you plan to do today? Do call upon me if you need my help.",
-						"englishNote" : ""
-					},
-					"4" : {
-						"event" : "Details",
-						"media" : "detail_2",
-						"chinese" : "也、也不用那么急着走吧…？这里又宽阔，又安静，还有暖气…想要埋在这孩子身上蹭蹭也是可以的哦！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "べ、別に急いで外に出ることもなかろう…？ここは広いし、静かだし、暖房も効いておる…なんなら余をモフモフしても良いぞ！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Th-there's no need to be in a hurry to go outside, right...? It's spacious, quiet, and warm here... and you are authorized to pat my fluffy friend.",
-						"englishNote" : ""
-					},
-					"5" : {
-						"event" : "Main 1",
-						"media" : "main_1_2",
-						"chinese" : "虽说一年到头都可以赏月，不过，像这样和汝两人一同赏月，就不是那么随时可以的了…",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "月見というのは年中できるものだが、お主とこうして二人っきりになるきっかけは中々ないものだな…",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "The moon can be freely enjoyed throughout the year, but there are few opportunities for the two of us to gaze at the moon together... ",
-						"englishNote" : ""
-					},
-					"6" : {
-						"event" : "Main 2",
-						"media" : "main_2_2",
-						"chinese" : "陆奥？让她出去玩了。那孩子，跟江风比起来…该说她不懂得看气氛还是什么呢…呜…就、就别让吾想起这事了！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "陸奥？あの子は出かけさせておる。江風と違って、空気を読まないというか…うぅ……思い出させるでない！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Mutsu? Let her go out and play. Unlike Kawakaze, she has no awareness of her surroundings... Ah, b-but don't let her hear I said that!",
-						"englishNote" : ""
-					},
-					"7" : {
-						"event" : "Main 3",
-						"media" : "main_3_2",
-						"chinese" : "月见酒？确实挺风雅的，吾就…果然还是算了！想喝的话就汝自己喝吧！……(小声)吾是不能喝酒的……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "月見酒？確かに風流ではるが、余は……や、やっぱり……飲むならお主ひとりで酌をするが良い！……（小声）余はお酒は飲めぬぞ……",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Moon-viewing sake? This has indeed been quite popular, but I... Ah, f-forget it! If you want to drink, then treat yourself! ...after all, I'm not allowed to...",
-						"englishNote" : ""
-					},
-					"8" : {
-						"event" : "Touch",
-						"media" : "touch_1_2",
-						"chinese" : "汝是想要点评吾这身衣裳吗？哼哼，可别小看了重樱匠人的技巧哦？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "余のこの衣装を品評するつもりか？ふふ、重桜の職人の腕を甘く見るでないぞ？",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Do you wish to comment upon my attire? Hehe, don't underestimate the skill of the Sakura Empire's craftspeople!",
-						"englishNote" : ""
-					},
-					"9" : {
-						"event" : "Touch (Special)",
-						"media" : "touch_2_2",
-						"chinese" : "汝、汝想做什么！？",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "な、何をしておる？！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Wh-what are you doing?!",
-						"englishNote" : ""
-					},
-					"10" : {
-						"event" : "Return to Port",
-						"media" : "home_2",
-						"chinese" : "江风，给指挥官准备个坐垫。可不能只有吾这么享受",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "江風、指揮官の座布団も支度せよ。余だけが楽するわけにはいかぬぞ",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Kawakaze, prepare a cushion for the Commander. It would be inappropriate for only me to be comfortable.",
-						"englishNote" : ""
-					},
-					"11" : {
-						"event" : "Victory",
-						"media" : "mvp_2",
-						"chinese" : "在吾等重樱的力量之前倾倒吧！",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "我が重桜の力にひれ伏すが良い！",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "Prostrate yourself before the might of the Sakura Empire!",
-						"englishNote" : ""
-					},
-					"12" : {
-						"event" : "Affinity (Love)",
-						"media" : "feeling5_2",
-						"chinese" : "汝、汝啊！那个，吾想说的是…“今晚月色真美”……唔…！果然还是太令人害羞了…说不出口……",
-						"chineseTL" : "",
-						"chineseNote" : "",
-						"japanese" : "お、お主！ええと、余は…こ、「今夜の月は綺麗だね…」ぐぅうううう…！こんな恥ずかしいことうまく言えぬぞ………",
-						"japaneseTL" : "",
-						"japaneseNote" : "",
-						"english" : "C-Commander, I, um... \"th-the moon is beautiful tonight...!\" Gyaaah...! It's way too embarrassing... there's no way I could say that...",
-						"englishNote" : ""
-					}
-				}
-			},
-			"4": {
-				"skin_id": "changmen_h",
-				"id": "8",
-				"label": "Great Fox's Shiroshouzoku",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "小、小女子不才，还请多多关照……这么说就可以了吗？总觉得有点…不好意思呢，呵呵……",
-						"chineseTL": "T-this girl has no talents, please take good of me... Was that okay? It somehow feels a bit... embarrassing, hehe...",
-						"chineseNote": "",
-						"japanese": "こうして大切な人を待つのも結構嬉しいものだぞ…ふ、ふふ……",
-						"japaneseTL": "I-I'm not much good at anything, but please be kind to me... Was that good enough? T-this is... rather embarrassing... H-hahaha...",
-						"japaneseNote": "",
-						"english": "It may be presumptuous of me, but please take care of me from now on... Is that acceptable? S-Somehow, it feels a little embarrassing... Ahaha...",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_8",
-						"chinese": "小、小女子不才，还请多多关照……这么说就可以了吗？总觉得有点…不好意思呢，呵呵……",
-						"chineseTL": "T-this girl has no talents, please take good of me... Was that okay? It somehow feels a bit... embarrassing, hehe...",
-						"chineseNote": "",
-						"japanese": "ふ、不束者ですが、よろしくお願いします……これでよかろう？な、なんだか……気恥ずかしいぞ…は、ははは……",
-						"japaneseTL": "I-I'm not much good at anything, but please be kind to me... Was that good enough? T-this is... rather embarrassing... H-hahaha...",
-						"japaneseNote": "",
-						"english": "It may be presumptuous of me, but please take care of me from now on... Is that acceptable? S-Somehow, it feels a little embarrassing... Ahaha...",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_8",
-						"chinese": "也只有汝敢让吾等这么久了呢",
-						"chineseTL": "Only thou would dare having me wait this long",
-						"chineseNote": "",
-						"japanese": "余をこれ程待たせる勇気があるのはお主ぐらいだぞ",
-						"japaneseTL": "Only thou have the courage to make me wait this long",
-						"japaneseNote": "",
-						"english": "You are the only one who has the nerve to keep me waiting.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_8",
-						"chinese": "在这里，吾才能够露出发自内心的笑容…吾喜欢这里！",
-						"chineseTL": "In this place, I am able to express the smile coming from the bottom of my heart... I like it here!",
-						"chineseNote": "",
-						"japanese": "ここなら余も心から笑っていられよう……余はこの場所を気に入っているぞ！",
-						"japaneseTL": "In here, even I can smile from the bottom of my heart... I like this place!",
-						"japaneseNote": "",
-						"english": "I am able to smile from the bottom of my heart when I am here. Yes, I am very fond of this place!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_8",
-						"chinese": "现在的话，吾愿意战斗，因为吾知道吾，吾等是在为什么而战",
-						"chineseTL": "The present me is willing to fight, because I now know what is it we are fighting for",
-						"chineseNote": "",
-						"japanese": "余は戦うぞ！何のために戦っているか、今の余には分かっているのだから！",
-						"japaneseTL": "I shall fight! For what purpose we are fighting for, the current me understands it!",
-						"japaneseNote": "",
-						"english": "I shall fight on! At long last I have discovered, what it is that I fight for! ",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_8",
-						"chinese": "吾永远都会记得，汝将吾从舾装里拉出来时，那双手的温暖",
-						"chineseTL": "I will forever remember the warmth of thy hands the moment thou pulled me out of my rigging",
-						"chineseNote": "",
-						"japanese": "「艤装」から余を救い出したお主の手のぬくもり、今でもはっきりと覚えておるぞ",
-						"japaneseTL": "Thy warm hands that freed me from my rigging, I can vividly remember it even now",
-						"japaneseNote": "",
-						"english": "I shall never forget... the warmth of the hands that pulled me out from the shackles of my armaments... ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_8",
-						"chinese": "未来会是什么样的呢……有生以来，吾头一次这么想要知道",
-						"chineseTL": "What will be our future... Since I was born, this is the first time I wish to know",
-						"chineseNote": "",
-						"japanese": "未来はどんな形になるのか……生まれて初めてそれが知りたくなったのだ",
-						"japaneseTL": "What the future has in store for us... for the first time since I was born, I really wish to know",
-						"japaneseNote": "",
-						"english": "What will the future hold in store...? For the first time in my life, I want to know the answer.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_8",
-						"chinese": "被汝这般触碰，原来是如此幸福的一件事…",
-						"chineseTL": "To be touched by thee, it turned out to be such happiness...",
-						"chineseNote": "",
-						"japanese": "お主にこうして触れられるのが、ここまで幸せなものとは……",
-						"japaneseTL": "To be touched by thee, I have never experienced such happiness...",
-						"japaneseNote": "",
-						"english": "I never knew that being touched like this... could bring me so much joy...",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_8",
-						"chinese": "呜…这里不行啦…",
-						"chineseTL": "Uu... not here...",
-						"chineseNote": "",
-						"japanese": "うぅ……こ、ここでしてはならぬぞ…",
-						"japaneseTL": "Uu... t-thou must not do that here...",
-						"japaneseNote": "",
-						"english": "Uuhh... p-please, not right there...",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Mission",
-						"media": "task_8",
-						"chinese": "任务书按照汝习惯的方式整理好了哦",
-						"chineseTL": "I organized the mission documents the way thou are used to",
-						"chineseNote": "",
-						"japanese": "お主が読みやすいように書類を整理したぞ",
-						"japaneseTL": "I organized the documents so thou can read them easily",
-						"japaneseNote": "",
-						"english": "I have arranged the tasks in accordance with your instructions.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mail",
-						"media": "mail_8",
-						"chinese": "小狐狸们帮忙把信带过来了，嘻嘻，看来它们也很喜欢你呢",
-						"chineseTL": "My little foxes brought us mail, hehe, seems like they also like thee a lot",
-						"chineseNote": "",
-						"japanese": "手紙はこの子達が持ってきたぞ。ふふ、お主のこともずいぶんと気に入っておるな",
-						"japaneseTL": "The little ones brought thee mail, hehe, it seems like thou have caught their interest",
-						"japaneseNote": "",
-						"english": "My familiars helped bring the mail in. Ehehe, they seem to have taken a liking to you.",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Return to Port",
-						"media": "home_8",
-						"chinese": "像这样等待着重要的人回来，好像也不错呢…嘻嘻…",
-						"chineseTL": "Waiting for thy most beloved to come back like this, not a bad feeling... hehe...",
-						"chineseNote": "",
-						"japanese": "こうして大切な人を待つのも結構嬉しいものだぞ…ふ、ふふ……",
-						"japaneseTL": "Being able to wait for thy most beloved like this makes me very happy... H-hehe",
-						"japaneseNote": "",
-						"english": "Waiting for a beloved person to come back... is a thing of joy as well, hehe...",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Commission Complete",
-						"media": "expedition_8",
-						"chinese": "委托完成了哦，正好一起散步去港口迎接她们吧",
-						"chineseTL": "Commissions complete, let's take a walk to the port to welcome them back",
-						"chineseNote": "",
-						"japanese": "委託が完了したぞ。港に行って出迎えてあげようではないか",
-						"japaneseTL": "Commissions complete. Let's go to the port to welcome them back",
-						"japaneseNote": "",
-						"english": "A commission has been completed. Shall we take this opportunity to take a walk around the port?",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Flagship",
-						"media": "warcry_8",
-						"chinese": "为了吾等的未来！",
-						"chineseTL": "For the sake of our future!",
-						"chineseNote": "",
-						"japanese": "我らが未来のために！",
-						"japaneseTL": "For the sake of our future!",
-						"japaneseNote": "",
-						"english": "For the sake of our futures!",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Affinity (Love)",
-						"media": "feeling5_8",
-						"chinese": "吾乃长门，不仅仅是重樱的长门，更是汝的长门。是汝对吾伸出了手，让吾不再感到孤独…所以，吾想一直待在汝的身边，汝…是不会拒绝吾的…吧？",
-						"chineseTL": "I am Nagato, not only Nagato of the Sakura Empire, but also thy Nagato. It was thee who reached out with thy hands, allowing me to not feel lonely anymore... That's why, I want to be thy side forever... Thou... won't object... right?",
-						"chineseNote": "",
-						"japanese": "余は長門。重桜の長門だけでなく、お主の長門でもあるのだ。孤独だった余に手を差し伸べてくれたお主、余はこれからもずっとお主の側にいたいのだぞ。よもや断られることなんてない……よね？",
-						"japaneseTL": "I am Nagato. Not only Nagato of the Sakura Empire, but also thy Nagato. When I was alone, thou reached out with thy hands, and for this I want to stay by thy side forever. Surely thou have no objections... right?",
-						"japaneseNote": "",
-						"english": "My name is Nagato. Not the Nagato of the Sakura Empire, but of you only. Because you were the one who reached out to me and pulled me from the depths of my loneliness, I wish to always stay by your side. You... won't reject me, right?",
-						"englishNote": ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "18",
-		"add_get_attr": "HP",
-		"add_get_value": "2",
-		"add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"pt_upgrade": "36",
-		"pt_level": "27",
-		"add_level_attr": "Firepower",
-		"add_level_value": "1",
-		"add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
-		"t_level": "6",
-		"ships": "nagato,mutsu"
-	}
+  "name_reference": "nagato",
+  "cn_reference": "changmen",
+  "nameJP": "長門",
+  "nameCN": "鲨",
+  "ID": "212",
+  "name": "Nagato",
+  "internal_id": "305051",
+  "rarity": "Super Rare",
+  "initialStar": "★★★☆☆☆",
+  "hull": "Battleship",
+  "navy": "Sakura Empire",
+  "prefix": "IJN",
+  "buildTime": "4:20:00",
+  "class": "Nagato-Class",
+  "voiceActress": "Kuno Misaki",
+  "parameters": {
+    "firepower": "A",
+    "torpedo": "E",
+    "aviation": "E",
+    "evasion": "D",
+    "antiAir": "D",
+    "hp": "B"
+  },
+  "scrap": {
+    "gold": "11",
+    "oil": "4",
+    "medal": "10"
+  },
+  "releaseDate": {
+    "JP": "May 31, 2018",
+    "CN": "June 7, 2018",
+    "KR": "-",
+    "EN": "-"
+  },
+  "artist": {
+    "name": "Alisa",
+    "weibo": "https://weibo.com/u/6056658230",
+    "twitter": "https://twitter.com/16119831274",
+    "pixiv": "https://www.pixiv.net/member.php?id=1966676",
+    "other": ""
+  },
+  "enhance": {
+    "firepower": "63",
+    "torpedo": "0",
+    "aviation": "0",
+    "reload": "10"
+  },
+  "acquisitionMethod": "Limited Build (Ink-stained Steel Sakura)",
+  "skill": {
+    "1": {
+      "icon": "11310",
+      "requirement": "Default Unlocked",
+      "name": "The Fourth Combined Fleet Flagship",
+      "type": "Support",
+      "description": "When sortied as the flagship, Sakura ships in the fleet receive increased firepower by 4.0% (10.0%), reload and accuracy by 5.0% (20.0%). Sakura carriers deal increased damage by 5.0% (20.0%)"
+    },
+    "2": {
+      "icon": "11420",
+      "requirement": "Default Unlocked",
+      "name": "BIG SEVEN - Sakura",
+      "type": "Offensive",
+      "description": "When firing main gun, 20.0% (40.0%) chance of unleashing a frontal barrage (damage based on skill level)."
+    }
+  },
+  "skin": {
+    "1": {
+      "id": "changmen",
+      "name": "Nagato",
+      "description": "Nagato-class Battleship No. 1 – Nagato.",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    },
+    "2": {
+      "id": "changmen_2",
+      "name": "Great Fox's Respite ",
+      "description": "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive? ",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        }
+      }
+    },
+    "3": {
+      "id": "changmen_3",
+      "name": "Guardian Fox's Shining Furisode",
+      "description": "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        }
+      }
+    },
+    "4": {
+      "id": "changmen_4",
+      "name": "Guardian Fox's Vacation",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        }
+      }
+    },
+    "8": {
+      "id": "changmen_h",
+      "name": "Great Fox's Shiroshouzoku",
+      "description": "I-I'm not much good at anything, but please be kind to me... Was that good enough? T-this is... rather embarrassing... H-hahaha...",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
+    }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "36200",
+      "rarity": "Common",
+      "name": "25mm Mounted AA Gun"
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "6955",
+      "firepower": "377",
+      "torpedo": "0",
+      "antiAir": "159",
+      "aviation": "0",
+      "reload": "127",
+      "hit": "56",
+      "evasion": "18",
+      "speed": "25",
+      "luck": "71",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "15",
+      "armor": "Heavy"
+    },
+    "120": {
+      "hp": "8117",
+      "firepower": "419",
+      "torpedo": "0",
+      "antiAir": "182",
+      "aviation": "0",
+      "reload": "146",
+      "hit": "70",
+      "evasion": "37",
+      "speed": "25",
+      "luck": "71",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "15",
+      "armor": "Heavy"
+    },
+    "base": {
+      "hp": "1345",
+      "firepower": "80",
+      "torpedo": "0",
+      "antiAir": "34",
+      "aviation": "0",
+      "reload": "54",
+      "hit": "22",
+      "evasion": "7",
+      "speed": "25",
+      "luck": "71",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "5",
+      "armor": "Heavy"
+    },
+    "100retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "25",
+      "luck": "71",
+      "asw": "",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "15",
+      "armor": "Heavy"
+    },
+    "120retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "25",
+      "luck": "71",
+      "asw": "",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "15",
+      "armor": "Heavy"
+    }
+  },
+  "limitBreak": {
+    "tier1": "Main Gun Base +1 / Main Gun Efficiency +5%",
+    "tier2": "Secondary Gun Base +2 / Main Gun Efficiency +10%",
+    "tier3": "Main Gun Base +1 / Main Gun Efficiency +15%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Battleship",
+      "efficiency": "105%/110%/120%/135%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Light Cruiser",
+      "efficiency": "210%/210%/210%/210%",
+      "amount": "1/1/3/3",
+      "preload": "0/0/0/0"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "100%/100%/100%/100%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "heavy": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "special": {
+      "JP": "-",
+      "CN": "-",
+      "EN": "-"
+    },
+    "limited": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "changmen",
+        "id": "0",
+        "label": "Nagato ",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "长门级战列舰一番舰—长门",
+            "chineseTL": "Nagato-class Battleship No. 1 - Nagato",
+            "chineseNote": "",
+            "japanese": "長門型戰艦一番艦·長門",
+            "japaneseTL": "Nagato-class Battleship No. 1 - Nagato",
+            "japaneseNote": "",
+            "english": "Nagato-class battleship number one – Nagato.",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Biography",
+            "media": "profile",
+            "chinese": "吾代表着重樱的军魂，重樱的荣光以及重樱的辉煌。吾是BIG 7之一，吾之存在即是那个时代，睁大汝的双眼，顶礼膜拜吧——看够了吗，吾站腻了，要休息一下…",
+            "chineseTL": "I represent the military soul of the Sakura Empire, I am the glory and brilliance of the Sakura. I am one of the Big Seven, my existence is representative of that era, keep thy eyes open and pay respects- Have thou seen enough? I'm tired of standing, need to rest a bit...",
+            "chineseNote": "",
+            "japanese": "重桜の魂、重桜の誇り、そして重桜の栄光……かの時代そのものの象徴でもある、ビッグセブンの余を、刮目して見るが良い――…これでいいか？疲れたから、余はもう休むぞ",
+            "japaneseTL": "The soul of the Sakura Empire, the pride of the Sakura Empire, and also the glory of the Sakura Empire... I am the symbol of that era, one of the Big Seven, take a good look at me... Was that good enough? I'm tired, I will rest now",
+            "japaneseNote": "",
+            "english": "I am the manifestation of the soul of the Sakura Empire, the pride and glory of her warrior spirit. As a Big Seven, I am also the symbol of an era. Open your eyes and bask in my radiance... You may stop basking now, I'm getting a bit sleepy...",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "get",
+            "chinese": "吾乃重樱联合舰队旗舰——长门。汝就是指挥官吗？汝是否有取得天下的能力，就由吾用这双眼亲自确认吧",
+            "chineseTL": "I am the flagship of the Sakura Empire Combined Fleet - Nagato. Are thou the Commander? Whether thou have the power to take over the world or not, I shall confirm it with my own eyes",
+            "chineseNote": "",
+            "japanese": "余は重桜連合艦隊旗艦――長門である。お主は指揮官か？天下を取る資質があるか、しかとこの目で見させてもらおう",
+            "japaneseTL": "I am the Sakura Empire Combined Fleet flagship - Nagato. Are thee the Commander? Thy ability or not to take over the world, I shall witness it with my own eyes",
+            "japaneseNote": "",
+            "english": "I am called Nagato, flagship of the Sakura Empire's Combined Fleet. Are you the one known as the Commander? I shall bear witness to whether or not you have the ability to unite this world.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "欢迎肥…咬到了舌头…",
+            "chineseTL": "Welcome f- I bit my tongue...",
+            "chineseNote": "",
+            "japanese": "おかえれ…し、舌を噛んただけだぞ…",
+            "japaneseTL": "Welcome be... I-I merely bit my tongue...",
+            "japaneseNote": "",
+            "english": "Welcome ba... oww, I bit my tongue...",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "detail",
+            "chinese": "在这里，大家脸上都洋溢着笑容……吾喜欢这里！",
+            "chineseTL": "In this place, everyone's face is full of smiles... I like it here!",
+            "chineseNote": "",
+            "japanese": "皆の顔に笑顔が溢れておる……余はこの場所を気に入っているぞ！",
+            "japaneseTL": "The faces of everyone here are brimming with smiles... I really like this place!",
+            "japaneseNote": "",
+            "english": "Everyone's faces are full of laughter here... I think I am rather fond of this place!",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 1",
+            "media": "main_1",
+            "chinese": "吾厌恶斗争，但…那个时候，吾……别无选择",
+            "chineseTL": "I hate fighting, but... that time, I... had no choice",
+            "chineseNote": "",
+            "japanese": "争いは好まぬ、しかしあの時は…余に選択肢はなかった",
+            "japaneseTL": "I do not like conflict, but that time... I had no choice",
+            "japaneseNote": "",
+            "english": "I despise wars, but... at that time, the choice was not mine to make... ",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 2",
+            "media": "main_2",
+            "chinese": "那些轻言战争的人们…真的做好了付出代价的准备了吗？",
+            "chineseTL": "Those that speak lightly of war... are they really prepared to pay the sacrifices?",
+            "chineseNote": "",
+            "japanese": "戦争を語る輩は、果たして本腰の覚悟と自信はあるか？",
+            "japaneseTL": "Those who preach about war, do they possess the resolve and confidence?",
+            "japaneseNote": "",
+            "english": "Those who speak lightly of war... do you think they are prepared to face the consequences of their actions? ",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Main 3",
+            "media": "main_3",
+            "chinese": "获得拯救的人们脸上的表情，吾永远不会忘记…那才是吾想要保护的东西",
+            "chineseTL": "To obtain the expression of those who are saved, I will never forget it... That is the very thing I want to protect",
+            "chineseNote": "",
+            "japanese": "かの天災で救った民の笑顔、余は絶対に忘れない…あれこそ余が守りたいものである",
+            "japaneseTL": "The smiles of those who were rescued from that disaster, I will never forget it... for those smiles are the very thing I wish to protect",
+            "japaneseNote": "",
+            "english": "I shall never forget the smiles on the faces of those people who were saved from calamity. That is the reason why I fight.",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch_1",
+            "chinese": "……！还、还没有人敢这么随意触碰我…",
+            "chineseTL": "...! N-nobody has ever dared to touch me as they please like this...",
+            "chineseNote": "",
+            "japanese": "……！こ、こうも容易く余に触れた者はおらんかったぞ…",
+            "japaneseTL": "...! N-nobody has ever dared to touch me so nonchalantly like this...",
+            "japaneseNote": "",
+            "english": "...! N-No one has ever dared to lay hands on me in such a manner...",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Touch (Special)",
+            "media": "touch_2",
+            "chinese": "……轻、轻薄无礼！",
+            "chineseTL": "...S-such insolence!",
+            "chineseNote": "",
+            "japanese": "……ぶ、無礼者！",
+            "japaneseTL": "...T-thou impertinent!",
+            "japaneseNote": "",
+            "english": "... H-How uncouth!",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission",
+            "media": "task",
+            "chinese": "任务书整理成这样就好了吗？吾不太明白",
+            "chineseTL": "Is it fine to arrange the mission documents like this? I don't quite understand",
+            "chineseNote": "",
+            "japanese": "任務の書類はこれで良いか？余はよく分からぬが",
+            "japaneseTL": "Is it fine to arrange the mission documents like this? I don't quite understand",
+            "japaneseNote": "",
+            "english": "Is it acceptable to arrange the itinerary in this manner? I do not quite understand how to do it yet...",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete",
+            "chinese": "任务奖励…嘿咻…放这里就可以了吗？",
+            "chineseTL": "Mission rewards... heave-ho... shall I place them here?",
+            "chineseNote": "",
+            "japanese": "任務報酬…よいっしょ…ふぅ…ここで良いのか？",
+            "japaneseTL": "Mission rewards... heave-ho... phew... shall I place them here?",
+            "japaneseNote": "",
+            "english": "The mission rewards... Ngh...! Phew... is it acceptable to leave them here?",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Mail",
+            "media": "mail",
+            "chinese": "这些纸是什么？信？原来这就是信吗，吾能看看吗？",
+            "chineseTL": "What are these papers? Mail? So this is mail, can I see?",
+            "chineseNote": "",
+            "japanese": "この紙切れは？「めーる」？そうかメールか。余にも読ませてもらって良いか？",
+            "japaneseTL": "What is this piece of paper? \"Meeru\"? I see, it's mail. May I read it as well?",
+            "japaneseNote": "",
+            "english": "What is this piece of paper? \"Mail?\" I see, it's mail. Shall I read it?",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return to Port",
+            "media": "home",
+            "chinese": "吾从未迎接过别人，能开一炮作为代替吗？",
+            "chineseTL": "I have never welcomed anyone before, can I fire my cannons instead?",
+            "chineseNote": "",
+            "japanese": "人を出迎えたことはないが…砲を撃てば良かろう？",
+            "japaneseTL": "I have never welcomed anyone before... should I greet them with a cannon shot?",
+            "japaneseNote": "",
+            "english": "I have never had to welcome anyone before. Perhaps I shall do so by firing my cannons?",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "expedition",
+            "chinese": "委托完成了…喂，吾难得记住了时间，汝就没有什么表示吗？",
+            "chineseTL": "Commissions are complete... Hey, I even managed to remember the time, are thee not going to say something?",
+            "chineseNote": "",
+            "japanese": "委託が完了したぞ…お、おい…せっかく余が時間を覚えたのに、お主は何も思わんのか？",
+            "japaneseTL": "Commissions complete... H-hey... I even managed to remember the time, are thee not going to say anything?",
+            "japaneseNote": "",
+            "english": "The commission fleet has returned... H-Hey, I managed to remember the time. Have you no words of praise for me?",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "upgrade",
+            "chinese": "但愿…能迎来铸剑为犁的那天——",
+            "chineseTL": "I wish... one day we can beat our swords into ploughshares...",
+            "chineseNote": "",
+            "japanese": "矛を収める日が来るように――",
+            "japaneseTL": "For the day we may lay down our arms...",
+            "japaneseNote": "",
+            "english": "I hope... to be able to welcome the day when we can all beat our swords into plowshares...",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Flagship",
+            "media": "warcry",
+            "chinese": "又是…悲哀的战争…",
+            "chineseTL": "Another... sorrowful war...",
+            "chineseNote": "",
+            "japanese": "また…悲しい戦争を…",
+            "japaneseTL": "Once again... we fight a tragic war...",
+            "japaneseNote": "",
+            "english": "Yet another... tragic battle.",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "Victory",
+            "media": "mvp",
+            "chinese": "为什么非要招惹吾呢？",
+            "chineseTL": "Why did thee have to provoke me?",
+            "chineseNote": "",
+            "japanese": "痴れ者が…なにゆえ余を怒らせたのだ？",
+            "japaneseTL": "Fools... why did thee provoke me?",
+            "japaneseNote": "",
+            "english": "Impudent fools... why did they have to provoke me?",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "lose",
+            "chinese": "呜…又失败了吗…",
+            "chineseTL": "Uu... did I fail again...",
+            "chineseNote": "",
+            "japanese": "うぅ……また失敗しちゃった……",
+            "japaneseTL": "Uu... I failed again...",
+            "japaneseNote": "",
+            "english": "Ugh... I have failed once again...",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill",
+            "media": "skill",
+            "chinese": "吾乃长门，重樱的长门",
+            "chineseTL": "I am Nagato, Nagato of the Sakura Empire",
+            "chineseNote": "",
+            "japanese": "余は長門…重桜の長門である！",
+            "japaneseTL": "I am Nagato... Nagato of the Sakura Empire!",
+            "japaneseNote": "",
+            "english": "I am called Nagato... Nagato of the Sakura Empire!",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low HP",
+            "media": "hp",
+            "chinese": "决战的时刻到了吗…",
+            "chineseTL": "Is it the moment for the decisive battle...",
+            "chineseNote": "",
+            "japanese": "決戦の時か…！",
+            "japaneseTL": "Is it time for the decisive battle...!",
+            "japaneseNote": "",
+            "english": "The decisive battle is upon us!",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Upset)",
+            "media": "feeling1",
+            "chinese": "汝的愿望…就是让吾做和过去一样的事吗？吾…知道了",
+            "chineseTL": "Thy wish... is for me to do the same as in the past? I... understand",
+            "chineseNote": "",
+            "japanese": "お主の願いは…余にアヤマチを繰り返させることか？余は…分かった…",
+            "japaneseTL": "Thy wish is... to make me repeat the same mistakes as in the past? I... understand...",
+            "japaneseNote": "",
+            "english": "Your wish... is to repeat the errors of the past once more? Very well... I see...",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "feeling2",
+            "chinese": "汝有什么事吗？吾？吾什么都没在做。自从把位置交给大和后，吾就只有在战场之上才有事可做了",
+            "chineseTL": "Is anything the matter? Me? I don't have anything to do. Ever since my position was given to Yamato, the only things I have left to do are in the battlefield",
+            "chineseNote": "",
+            "japanese": "何事か？余？余は何もしておらぬぞ。あの働きを大和に任せてから、余のすることは戦いしか残っておらぬぞ",
+            "japaneseTL": "Is anything the matter? Me? I don't have anything to do. After leaving that work to Yamato, my only responsibility left is to fight",
+            "japaneseNote": "",
+            "english": "What do you require of me? Hmm? I am not doing anything in particular. After I handed the work to Yamato, there is little to do except fight.",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "feeling3",
+            "chinese": "多和大家在一起？即使和她们在一起吾也不知道做什么，而且吾看得出来，她们在畏惧吾……汝在做什么，为什么要把吾的舰装脱下来……",
+            "chineseTL": "Spend more time with everyone? Even if I am with them I don't know what do do, I can also tell they are fearful of me... What are thee doing, why are thee taking off my rigging...?",
+            "chineseNote": "",
+            "japanese": "皆ともっと一緒にいろ、だと？一緒にいても余は何をして良いのか分からぬし、それに余のことを皆が怖がっているのは目に見えておる……何をしておる！どうして余の艤装を下ろそうとするのだ！",
+            "japaneseTL": "Go spend more time with everyone, thou say? Even if I am with them, I do not really know what I should do, and I can see that everyone is afraid of me... What are thee doing?! Why are thee taking off my rigging?!",
+            "japaneseNote": "",
+            "english": "I should spend more time with the others? Even if I tried to do that, I would not know how to behave, and they would be afraid of me all the same... Hey, what are you doing... why are you taking off my riggings?!",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "feeling4",
+            "chinese": "原来如此，脱掉以后，大家似乎不再那么敬畏吾了。确实有种轻松的感觉…但这股淡淡的失落感又是怎么回事呢…就像把旗舰之职转交给大和那时一样…",
+            "chineseTL": "I see, after taking the rigging off, it seems like they are not fearful of me out of respect. It really makes me feel relaxed... but what is this subtle feeling of loss... It reminds me of that time the flagship duty was handed over to Yamato...",
+            "chineseNote": "",
+            "japanese": "なるほど、艤装を下ろしてから、皆に恐がられなくなったな。確かに気持ちが軽くなっておるが…でもこの淡い喪失感はなぜだろう…旗艦を大和に譲った時とおなじような……",
+            "japaneseTL": "I see, after taking the rigging off, they aren't afraid of me anymore. It certainly feels more relaxing... but what is this faint feeling of loss... it feels the same as that time when the flagship title was handed off to Yamato...",
+            "japaneseNote": "",
+            "english": "I see! I am less intimidating with my riggings taken off. I certainly do feel lighter... but why does it feel like I've lost something... like when I appointed Yamato to take over as flagship?",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "feeling5",
+            "chinese": "要被一个人视为珍宝就足够了吗？…是汝将吾硬拉了出来，汝要对吾负责…所以…那个，就是说…我、吾命令汝，将吾是视作汝的宝物…不、不行吗？",
+            "chineseTL": "It is good enough to be seen as treasure by just one person?... It was thee who forcibly pulled me out, so thou need to be responsible... So, that is to say... I-I command thee to regard me as thy treasure... I-Is that fine?",
+            "chineseNote": "",
+            "japanese": "大切にしてくれる人がいたほうが良いのか？じゃ…余を連れ出すのがお主だから、せ、責任を取ってもらうぞ…えっと…その、つまり…お、お主に命じる…余を大切にするのだ…ど、どうだ…？",
+            "japaneseTL": "I should have someone important that cares about me? Well... since thou was the one who pulled me out, I-I'll have thee take responsibility... Uhm... that being said, I-I hereby command thee... take good care of me... h-how does that sound?",
+            "japaneseNote": "",
+            "english": "It is enough to be treasured by one person? Since you were the one who brought me out... I shall have you take responsibility... that is, umm, in other words, I command you to... treasure me... if that is acceptable?",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "propose",
+            "chinese": "若战争的彼端，不是吞噬一切的白光，而是你温暖的怀抱…对现今的我来说，就已经别无他求了",
+            "chineseTL": "If at the other side of the war, it is not a white light that devours everything, but thy warm embrace... to the present me, I have nothing else to desire for.",
+            "chineseNote": "",
+            "japanese": "戦乱の彼方にあるのは、あのすべてを飲み込む光ではなく、お主の温かいぬくもりなら、今の余は…他に何も求めないよ",
+            "japaneseTL": "If beyond this war, it is not that light that devours everything, but thy warm embrace, the current me... has nothing else to desire for",
+            "japaneseNote": "",
+            "english": "When I cross the river after the war ends, what awaits me is not a searing white light that engulfs everything, but rather, your warm embrace... There is nothing more that I could ask for...",
+            "englishNote": ""
+          },
+          "28": {
+            "event": "Easter Egg 1 (Sakura x5)",
+            "media": "link1",
+            "chinese": "联合舰队，粉碎敌人",
+            "chineseTL": "Combined Fleet, pulverize the enemy!",
+            "chineseNote": "",
+            "japanese": "連合艦隊、敵を粉砕せよ",
+            "japaneseTL": "Combined Fleet, pulverize the enemy!",
+            "japaneseNote": "",
+            "english": "Combined Fleet, crush our enemies!",
+            "englishNote": ""
+          },
+          "29": {
+            "event": "Easter Egg 2 (Fuso, Yamashiro, Mutsu)",
+            "media": "link2",
+            "chinese": "第一战队，火力全开",
+            "chineseTL": "First fleet, full force attack!",
+            "chineseNote": "",
+            "japanese": "第一戦隊、火力全開",
+            "japaneseTL": "First fleet, full force attack!",
+            "japaneseNote": "",
+            "english": "1st Battleship Division, open fire!",
+            "englishNote": ""
+          },
+          "30": {
+            "event": "Valentines (2019)",
+            "media": "",
+            "chinese": "就、就把吾的第一次尝试制作的这个巧、巧克力赐予汝吧！汝就心怀感激地接受吧！…汝、汝会真的吃掉的吧…会吧…？",
+            "chineseTL": "I-I'm giving thee this c-chocolate that I made for the first time! Thou shall receive it with the utmost gratitude!... T-thou will really eat it... right...?",
+            "chineseNote": "",
+            "japanese": "よ、余が初めて作ったちょ、「ちょこれーと」を賜ってやる！この寛大なる余の気持ちを、お主の心で感じるが良いぞ！……ほ、本当に食べてくれる…よね…？",
+            "japaneseTL": "I-I'm giving thee this \"chocolate\" that I-I handmade for the first time! This generosity of mine better reach thy heart!... T-thou will really eat it... right...?",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      },
+      "2": {
+        "skin_id": "changmen_2",
+        "id": "1",
+        "label": "Great Fox's Respite ",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "呼，今天要招待指挥官，拜托你们把吾打扮得好看些，吾，呼啊……还有点困……汝等在吵闹什么？……？！指、指挥官，汝什么时候在那的！",
+            "chineseTL": "Phew, I have to host the Commander today, please dress me up nicely, I, wah... am still sleepy... why are thee all so restless?...? C-commander, when did thee get here?!",
+            "chineseNote": "",
+            "japanese": "今日は指揮官を招待するぞ。饅頭たち、あとで余を盛装に着せ替えさせるがよい！余は、ふは……もう少しうたた寝を……ぬぅ、なにかが騒がしいぞ？…お、お主！？いつからいたのだ！？",
+            "japaneseTL": "I shalt be hosting the Commander today. Manjuus, please dress me up nicely! I, fwah... will sleep a bit more... Ughh, why are thee all so restless?... M-milord!? When did thee get here!?",
+            "japaneseNote": "",
+            "english": "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive?",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1",
+            "chinese": "呼，今天要招待指挥官，拜托你们把吾打扮得好看些，吾，呼啊……还有点困……汝等在吵闹什么？……？！指、指挥官，汝什么时候在那的！",
+            "chineseTL": "Phew, I have to host the Commander today, please dress me up nicely, I, wah... am still sleepy... why are thee all so restless?...? C-commander, when did thee get here?!",
+            "chineseNote": "",
+            "japanese": "今日は指揮官を招待するぞ。饅頭たち、あとで余を盛装に着せ替えさせるがよい！余は、ふは……もう少しうたた寝を……ぬぅ、なにかが騒がしいぞ？…お、お主！？いつからいたのだ！？",
+            "japaneseTL": "I shalt be hosting the Commander today. Manjuus, please dress me up nicely! I, fwah... will sleep a bit more... Ughh, why are thee all so restless?... M-milord!? When did thee get here!?",
+            "japaneseNote": "",
+            "english": "I shall be hosting the commander today. Manjuus, I beseech you to help me look my best. I am... *yawn* a bit sleepy... Urghh... what is that ruckus out there? C-Commander! When did you arrive?",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_1",
+            "chinese": "呼啊……指挥官，汝来了，吾还要睡会儿，晚安……",
+            "chineseTL": "*Yawn*... Commander, thou are here, I still want to sleep a bit more, good night...",
+            "chineseNote": "",
+            "japanese": "ふぁ……お、お主か？余はもう少し……おやすみ……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "*yawn* Oh... Commander? I desire a few more minutes of respite... Good night...",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_1",
+            "chinese": "指挥官，汝休息的时候都在做些什么，也和吾说说吧",
+            "chineseTL": "Commander, what do thee do when thou rest, can thou let me know?",
+            "chineseNote": "",
+            "japanese": "お主が休日になにをしておるのか……す、少しだけ余に聞かせてもよいぞ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, what are you going to do on your next day off? I-I would not mind hearing you out.",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Idle 1",
+            "media": "main_1_1",
+            "chinese": "指挥官，汝来得正好，帮吾找找，吾的衣服不知道去哪儿了……先、先说好，可不是吾不小心塞到奇怪的地方然后忘记了",
+            "chineseTL": "Commander, thou came at the right time, can thee help find my clothing, I don't know where they went... J-just letting thee know, I did not carelessly put them in some strange place and forget afterwards",
+            "chineseNote": "",
+            "japanese": "いいところに来た。余の服を探すのを手伝ってくれぬか……予め言っておくが…け、決して余が散らかして見つからなくなったわけではないぞっ！？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Good timing. I require your assistance in locating my lost clothes... Just so you know, I did not misplace them because I was playing around, understood?! ",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Idle 2",
+            "media": "main_2_1",
+            "chinese": "有时候，吾也有些羡慕陆奥。以前坐在很高的地方什么也不做的吾，现在即使自由，也不知该如何像她那样玩耍…",
+            "chineseTL": "At times, I'm a bit envious of Mutsu. In the past I would sit at a high place and have nothing to do, but now that I am free, I still don't know how to be as playful as her",
+            "chineseNote": "",
+            "japanese": "陸奥のことが羨ましく思える時もある…神子として拝まれ、ただただ雲の上にいた余は、今こうして自由でいても、あの子のように遊べんのだ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I sometimes envy Mutsu... Even though I have my freedom now, unlike when I was placed upon a pedestal and worshipped, I can't be carefree like her... ",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Idle 3",
+            "media": "main_3_1",
+            "chinese": "指挥官，汝日后工作要是有空，也可以多来找吾，这里即使算上陆奥和江风她们，对吾来说还是太大了",
+            "chineseTL": "Commander, if thou have time after work, thou can come here more often. Even with Mutsu and Kawakaze, this place still feels too big for me",
+            "chineseNote": "",
+            "japanese": "都合が付く時は、いつでも余に会いにくるがよいぞ。この場所は陸奥と江風たちを入れても…いささか広すぎるからな",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, you should come visit me more often if you're not busy. Though Mutsu and Kawakaze keep me company, this place is still too spacious for my tastes.",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_1",
+            "chinese": "汝是打算邀请吾出去玩吗？…也好，吾也想与汝一同出去看看",
+            "chineseTL": "Thou were planning to take me out to play?... Hmm, I also want to go out together with thee",
+            "chineseNote": "",
+            "japanese": "余に外遊を誘うつもりか？…良い、余もお主と一緒に出かけたいところだぞ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, did you plan to invite me out? ... Very well. Our interests happen to be in concordance.",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_1",
+            "chinese": "吾的另一面，现在也已经被汝看完了…所以，现在汝即使说要离开吾，吾……吾也不允许，嗯，决不允许！",
+            "chineseTL": "The other side of me, has been fully seen by thee... That's why, even if thou say thou want to leave, I-I won't allow it, yes, won't ever allow it!",
+            "chineseNote": "",
+            "japanese": "お主、小腹が空いておるのか？このお団子で腹ごしらえでもするがよい",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, do you hunger? Then do partake of this dango.",
+            "englishNote": ""
+          }
+        }
+      },
+      "3": {
+        "skin_id": "changmen_3",
+        "id": "2",
+        "label": "Guardian Fox's Shining Furisode",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "来得正好，有汝在，就算是一成不变的赏月也多少会变得有趣些吧——今天就好好在这休息吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "よくぞ来てくれた。お主がいれば、同じ月見でもいつもよりも楽しくなるやもしれぬ――今日はここでゆ、ゆっくりくつろいでゆくが良いぞ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_2",
+            "chinese": "来得正好，有汝在，就算是一成不变的赏月也多少会变得有趣些吧——今天就好好在这休息吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "よくぞ来てくれた。お主がいれば、同じ月見でもいつもよりも楽しくなるやもしれぬ――今日はここでゆ、ゆっくりくつろいでゆくが良いぞ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Perfect, you have arrived. As long as you are here, the usual moon-watching will prove to be much more enjoyable... Why don't you stay here today and rest for a while?",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_2",
+            "chinese": "今天要做些什么？尽管指示吾没关系的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "今日は何をするか？余に手伝えることを指示するが良い",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "What do you plan to do today? Do call upon me if you need my help.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_2",
+            "chinese": "也、也不用那么急着走吧…？这里又宽阔，又安静，还有暖气…想要埋在这孩子身上蹭蹭也是可以的哦！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "べ、別に急いで外に出ることもなかろう…？ここは広いし、静かだし、暖房も効いておる…なんなら余をモフモフしても良いぞ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Th-there's no need to be in a hurry to go outside, right...? It's spacious, quiet, and warm here... and you are authorized to pat my fluffy friend.",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_2",
+            "chinese": "虽说一年到头都可以赏月，不过，像这样和汝两人一同赏月，就不是那么随时可以的了…",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "月見というのは年中できるものだが、お主とこうして二人っきりになるきっかけは中々ないものだな…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "The moon can be freely enjoyed throughout the year, but there are few opportunities for the two of us to gaze at the moon together... ",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_2",
+            "chinese": "陆奥？让她出去玩了。那孩子，跟江风比起来…该说她不懂得看气氛还是什么呢…呜…就、就别让吾想起这事了！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "陸奥？あの子は出かけさせておる。江風と違って、空気を読まないというか…うぅ……思い出させるでない！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Mutsu? Let her go out and play. Unlike Kawakaze, she has no awareness of her surroundings... Ah, b-but don't let her hear I said that!",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_2",
+            "chinese": "月见酒？确实挺风雅的，吾就…果然还是算了！想喝的话就汝自己喝吧！……(小声)吾是不能喝酒的……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "月見酒？確かに風流ではるが、余は……や、やっぱり……飲むならお主ひとりで酌をするが良い！……（小声）余はお酒は飲めぬぞ……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Moon-viewing sake? This has indeed been quite popular, but I... Ah, f-forget it! If you want to drink, then treat yourself! ...after all, I'm not allowed to...",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_2",
+            "chinese": "汝是想要点评吾这身衣裳吗？哼哼，可别小看了重樱匠人的技巧哦？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "余のこの衣装を品評するつもりか？ふふ、重桜の職人の腕を甘く見るでないぞ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Do you wish to comment upon my attire? Hehe, don't underestimate the skill of the Sakura Empire's craftspeople!",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_2",
+            "chinese": "汝、汝想做什么！？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "な、何をしておる？！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Wh-what are you doing?!",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_2",
+            "chinese": "江风，给指挥官准备个坐垫。可不能只有吾这么享受",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "江風、指揮官の座布団も支度せよ。余だけが楽するわけにはいかぬぞ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Kawakaze, prepare a cushion for the Commander. It would be inappropriate for only me to be comfortable.",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Victory",
+            "media": "mvp_2",
+            "chinese": "在吾等重樱的力量之前倾倒吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "我が重桜の力にひれ伏すが良い！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Prostrate yourself before the might of the Sakura Empire!",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_2",
+            "chinese": "汝、汝啊！那个，吾想说的是…“今晚月色真美”……唔…！果然还是太令人害羞了…说不出口……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "お、お主！ええと、余は…こ、「今夜の月は綺麗だね…」ぐぅうううう…！こんな恥ずかしいことうまく言えぬぞ………",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "C-Commander, I, um... \"th-the moon is beautiful tonight...!\" Gyaaah...! It's way too embarrassing... there's no way I could say that...",
+            "englishNote": ""
+          }
+        }
+      },
+      "4": {
+        "skin_id": "changmen_4",
+        "id": "3",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_3"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_3"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_3"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_3"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_3"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_3"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_3"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_3"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_3"
+          }
+        }
+      },
+      "8": {
+        "skin_id": "changmen_h",
+        "id": "8",
+        "label": "Great Fox's Shiroshouzoku",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "小、小女子不才，还请多多关照……这么说就可以了吗？总觉得有点…不好意思呢，呵呵……",
+            "chineseTL": "T-this girl has no talents, please take good of me... Was that okay? It somehow feels a bit... embarrassing, hehe...",
+            "chineseNote": "",
+            "japanese": "こうして大切な人を待つのも結構嬉しいものだぞ…ふ、ふふ……",
+            "japaneseTL": "I-I'm not much good at anything, but please be kind to me... Was that good enough? T-this is... rather embarrassing... H-hahaha...",
+            "japaneseNote": "",
+            "english": "It may be presumptuous of me, but please take care of me from now on... Is that acceptable? S-Somehow, it feels a little embarrassing... Ahaha...",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_8",
+            "chinese": "小、小女子不才，还请多多关照……这么说就可以了吗？总觉得有点…不好意思呢，呵呵……",
+            "chineseTL": "T-this girl has no talents, please take good of me... Was that okay? It somehow feels a bit... embarrassing, hehe...",
+            "chineseNote": "",
+            "japanese": "ふ、不束者ですが、よろしくお願いします……これでよかろう？な、なんだか……気恥ずかしいぞ…は、ははは……",
+            "japaneseTL": "I-I'm not much good at anything, but please be kind to me... Was that good enough? T-this is... rather embarrassing... H-hahaha...",
+            "japaneseNote": "",
+            "english": "It may be presumptuous of me, but please take care of me from now on... Is that acceptable? S-Somehow, it feels a little embarrassing... Ahaha...",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_8",
+            "chinese": "也只有汝敢让吾等这么久了呢",
+            "chineseTL": "Only thou would dare having me wait this long",
+            "chineseNote": "",
+            "japanese": "余をこれ程待たせる勇気があるのはお主ぐらいだぞ",
+            "japaneseTL": "Only thou have the courage to make me wait this long",
+            "japaneseNote": "",
+            "english": "You are the only one who has the nerve to keep me waiting.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_8",
+            "chinese": "在这里，吾才能够露出发自内心的笑容…吾喜欢这里！",
+            "chineseTL": "In this place, I am able to express the smile coming from the bottom of my heart... I like it here!",
+            "chineseNote": "",
+            "japanese": "ここなら余も心から笑っていられよう……余はこの場所を気に入っているぞ！",
+            "japaneseTL": "In here, even I can smile from the bottom of my heart... I like this place!",
+            "japaneseNote": "",
+            "english": "I am able to smile from the bottom of my heart when I am here. Yes, I am very fond of this place!",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_8",
+            "chinese": "现在的话，吾愿意战斗，因为吾知道吾，吾等是在为什么而战",
+            "chineseTL": "The present me is willing to fight, because I now know what is it we are fighting for",
+            "chineseNote": "",
+            "japanese": "余は戦うぞ！何のために戦っているか、今の余には分かっているのだから！",
+            "japaneseTL": "I shall fight! For what purpose we are fighting for, the current me understands it!",
+            "japaneseNote": "",
+            "english": "I shall fight on! At long last I have discovered, what it is that I fight for! ",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_8",
+            "chinese": "吾永远都会记得，汝将吾从舾装里拉出来时，那双手的温暖",
+            "chineseTL": "I will forever remember the warmth of thy hands the moment thou pulled me out of my rigging",
+            "chineseNote": "",
+            "japanese": "「艤装」から余を救い出したお主の手のぬくもり、今でもはっきりと覚えておるぞ",
+            "japaneseTL": "Thy warm hands that freed me from my rigging, I can vividly remember it even now",
+            "japaneseNote": "",
+            "english": "I shall never forget... the warmth of the hands that pulled me out from the shackles of my armaments... ",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_8",
+            "chinese": "未来会是什么样的呢……有生以来，吾头一次这么想要知道",
+            "chineseTL": "What will be our future... Since I was born, this is the first time I wish to know",
+            "chineseNote": "",
+            "japanese": "未来はどんな形になるのか……生まれて初めてそれが知りたくなったのだ",
+            "japaneseTL": "What the future has in store for us... for the first time since I was born, I really wish to know",
+            "japaneseNote": "",
+            "english": "What will the future hold in store...? For the first time in my life, I want to know the answer.",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_8",
+            "chinese": "被汝这般触碰，原来是如此幸福的一件事…",
+            "chineseTL": "To be touched by thee, it turned out to be such happiness...",
+            "chineseNote": "",
+            "japanese": "お主にこうして触れられるのが、ここまで幸せなものとは……",
+            "japaneseTL": "To be touched by thee, I have never experienced such happiness...",
+            "japaneseNote": "",
+            "english": "I never knew that being touched like this... could bring me so much joy...",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_8",
+            "chinese": "呜…这里不行啦…",
+            "chineseTL": "Uu... not here...",
+            "chineseNote": "",
+            "japanese": "うぅ……こ、ここでしてはならぬぞ…",
+            "japaneseTL": "Uu... t-thou must not do that here...",
+            "japaneseNote": "",
+            "english": "Uuhh... p-please, not right there...",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Mission",
+            "media": "task_8",
+            "chinese": "任务书按照汝习惯的方式整理好了哦",
+            "chineseTL": "I organized the mission documents the way thou are used to",
+            "chineseNote": "",
+            "japanese": "お主が読みやすいように書類を整理したぞ",
+            "japaneseTL": "I organized the documents so thou can read them easily",
+            "japaneseNote": "",
+            "english": "I have arranged the tasks in accordance with your instructions.",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mail",
+            "media": "mail_8",
+            "chinese": "小狐狸们帮忙把信带过来了，嘻嘻，看来它们也很喜欢你呢",
+            "chineseTL": "My little foxes brought us mail, hehe, seems like they also like thee a lot",
+            "chineseNote": "",
+            "japanese": "手紙はこの子達が持ってきたぞ。ふふ、お主のこともずいぶんと気に入っておるな",
+            "japaneseTL": "The little ones brought thee mail, hehe, it seems like thou have caught their interest",
+            "japaneseNote": "",
+            "english": "My familiars helped bring the mail in. Ehehe, they seem to have taken a liking to you.",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Return to Port",
+            "media": "home_8",
+            "chinese": "像这样等待着重要的人回来，好像也不错呢…嘻嘻…",
+            "chineseTL": "Waiting for thy most beloved to come back like this, not a bad feeling... hehe...",
+            "chineseNote": "",
+            "japanese": "こうして大切な人を待つのも結構嬉しいものだぞ…ふ、ふふ……",
+            "japaneseTL": "Being able to wait for thy most beloved like this makes me very happy... H-hehe",
+            "japaneseNote": "",
+            "english": "Waiting for a beloved person to come back... is a thing of joy as well, hehe...",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Commission Complete",
+            "media": "expedition_8",
+            "chinese": "委托完成了哦，正好一起散步去港口迎接她们吧",
+            "chineseTL": "Commissions complete, let's take a walk to the port to welcome them back",
+            "chineseNote": "",
+            "japanese": "委託が完了したぞ。港に行って出迎えてあげようではないか",
+            "japaneseTL": "Commissions complete. Let's go to the port to welcome them back",
+            "japaneseNote": "",
+            "english": "A commission has been completed. Shall we take this opportunity to take a walk around the port?",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Flagship",
+            "media": "warcry_8",
+            "chinese": "为了吾等的未来！",
+            "chineseTL": "For the sake of our future!",
+            "chineseNote": "",
+            "japanese": "我らが未来のために！",
+            "japaneseTL": "For the sake of our future!",
+            "japaneseNote": "",
+            "english": "For the sake of our futures!",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_8",
+            "chinese": "吾乃长门，不仅仅是重樱的长门，更是汝的长门。是汝对吾伸出了手，让吾不再感到孤独…所以，吾想一直待在汝的身边，汝…是不会拒绝吾的…吧？",
+            "chineseTL": "I am Nagato, not only Nagato of the Sakura Empire, but also thy Nagato. It was thee who reached out with thy hands, allowing me to not feel lonely anymore... That's why, I want to be thy side forever... Thou... won't object... right?",
+            "chineseNote": "",
+            "japanese": "余は長門。重桜の長門だけでなく、お主の長門でもあるのだ。孤独だった余に手を差し伸べてくれたお主、余はこれからもずっとお主の側にいたいのだぞ。よもや断られることなんてない……よね？",
+            "japaneseTL": "I am Nagato. Not only Nagato of the Sakura Empire, but also thy Nagato. When I was alone, thou reached out with thy hands, and for this I want to stay by thy side forever. Surely thou have no objections... right?",
+            "japaneseNote": "",
+            "english": "My name is Nagato. Not the Nagato of the Sakura Empire, but of you only. Because you were the one who reached out to me and pulled me from the depths of my loneliness, I wish to always stay by your side. You... won't reject me, right?",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "18",
+    "add_get_attr": "HP",
+    "add_get_value": "2",
+    "add_get_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+    "pt_upgrade": "36",
+    "pt_level": "27",
+    "add_level_attr": "Firepower",
+    "add_level_value": "1",
+    "add_level_shiptype": "Battlecruiser,Battleship,Aviation Battleship",
+    "t_level": "6",
+    "ships": "nagato,mutsu"
+  }
 }
