@@ -747,12 +747,14 @@ showship context
                                                                                                             :(_, _)
                                                                                                             :_))
                                                                                                       -> intercalate ", "
-                                                                                                         $ fmap (\(_, Val _ (Num x))
-                                                                                                                 -> case find (\ship -> init (case ship % "internal_id" of
-                                                                                                                                                "" -> "0"
-                                                                                                                                                x  -> x) == show x) ships of
-                                                                                                                      Nothing -> "!UNKNOWN! (" ++ show x ++ ")"
-                                                                                                                      Just x  -> x % "name")
+                                                                                                         $ fmap (\(_, x)
+                                                                                                                 -> case x of
+                                                                                                                      Val _ (Num x) -> case find (\ship -> init (case ship % "internal_id" of
+                                                                                                                                                                   "" -> "0"
+                                                                                                                                                                   x  -> x) == show x) ships of
+                                                                                                                                         Nothing -> "!UNKNOWN! (" ++ show x ++ ")"
+                                                                                                                                         Just x  -> x % "name"
+                                                                                                                      x             -> error $ "Expected a number, got " ++ show x)
                                                                                                          $ friends
                                                                                                     _ -> "!ERROR!"
                                                                                           False -> "!ERROR!"
