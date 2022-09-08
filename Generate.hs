@@ -117,6 +117,7 @@ sidebar
          H.li $ H.a H.! A.href "https://sd.algwiki.moe/"                 $ "SD viewer"
          H.li $ H.a H.! A.href "https://l2d.algwiki.moe/"                $ "L2D viewer"
          H.li $ H.a H.! A.href "https://fleet.algwiki.moe/"              $ "Fleet Maker"
+         H.li $ H.a H.! A.href "https://algwiki.moe/player"              $ "Music Player"
          H.li $ H.a H.! A.href "https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0"              $ "Porn"
 
 mkhtml :: String
