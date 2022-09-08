@@ -64,21 +64,30 @@ asnum (Num x) = x
 asstr :: Val -> String
 asstr (Str s) = s
 asstr (Num s) = show s
+asstr (Flo s) = show s
 
 asval :: Expr -> Val
 asval (Val _ x) = x
+asval (Obj info x) = error $ "Expected value in {" ++ show info ++ "} but got {" ++ show x ++ "}"
 
 (!) a b = case lookups a b of
             Just x -> x
             _ -> error $ "Table: " ++ show a ++ "\nKey: " ++ show b ++ "\nNot found"
 
 toList (Obj _ x) = x
+toList (Val info x) = error $ "Expected array/object in {" ++ show info ++ "} but got {" ++ show x ++ "}"
+
 keys (Obj _ x) = map fst x
+keys (Val info x) = error $ "Expected array/object in {" ++ show info ++ "} but got {" ++ show x ++ "}"
+
+elems :: Expr -> [Expr]
 elems (Obj _ x) = map snd x
+elems (Val info x) = error $ "Expected array/object in {" ++ show info ++ "} but got {" ++ show x ++ "}"
 
 ashow :: Expr
       -> String
 ashow (Val _ x) = show x
+ashow (Obj info x) = error $ "Expected value in {" ++ show info ++ "} but got {" ++ show x ++ "}"
 
 byindex (Obj inf a) b = case length a > b of
                           True -> snd $ a !! b
