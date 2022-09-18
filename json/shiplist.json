@@ -1133,11 +1133,20 @@
         "rarity": "Elite",
         "shipType": "common"
     },
-        "152": {
+    "152": {
         "hull": "Destroyer",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/baixue.png",
         "link": "shirayuki",
         "name": "Shirayuki",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "154": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shenxue.png",
+        "link": "miyuki",
+        "name": "Miyuki",
         "navy": "Sakura Empire",
         "rarity": "Elite",
         "shipType": "common"
@@ -1457,6 +1466,15 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "199": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yuhei.png",
+        "link": "haguro",
+        "name": "Haguro",
+        "navy": "Sakura Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "200": {
         "hull": "Heavy Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/gaoxiong.png",
@@ -1600,6 +1618,15 @@
         "rarity" : "Super Rare",
         "link" : "tosa",
         "shipType" : "common"
+    },
+    "217": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/wuzang.png",
+        "link": "musashi",
+        "name": "Musashi",
+        "navy": "Sakura Empire",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
     },
     "218": {
         "hull": "Light Aircraft Carrier",
@@ -2311,6 +2338,15 @@
         "rarity" : "Super Rare",
         "link" : "noshiro",
         "shipType" : "common"
+    },
+    "324": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiuyun.png",
+        "link": "sakawa",
+        "name": "Sakawa",
+        "navy": "Sakura Empire",
+        "rarity": "Super Rare",
+        "shipType": "common"
     },
     "325": {
         "hull": "Destroyer",
@@ -4451,6 +4487,15 @@
         "link": "brunhilde",
         "name": "Brünhilde",
         "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "567": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/ruoyue.png",
+        "link": "wakatsuki",
+        "name": "Wakatsuki",
+        "navy": "Sakura Empire",
         "rarity": "Super Rare",
         "shipType": "common"
     },
