@@ -33,6 +33,7 @@ showskills context
          skill_data_template <- return $ ctx_skill_data_template context
          ship_data_blueprint <- return $ ctx_ship_data_blueprint context
          ship_strengthen_blueprint <- return $ ctx_ship_strengthen_blueprint context
+         spweapon_data_statistics <- return $ ctx_spweapon_data_statistics context
 
          id <- return
                $ init
@@ -42,9 +43,17 @@ showskills context
                    x  -> x
 
          buff_list <- return
-                      $ map (\x -> case lookups ship_data_template (id ++ [x]) of
-                                     Just x | x % "star" == x % "star_max" -> [map ashow $ elems $ x ! "buff_list_display"]
-                                     _ -> []) ['1'..'9'] >>= concat
+                      $ (map (\x -> case lookups ship_data_template (id ++ [x]) of
+                                      Just x | x % "star" == x % "star_max" -> [map ashow $ elems $ x ! "buff_list_display"]
+                                      _ -> []) ['1'..'9'] >>= concat)
+                      ++ ((elems spweapon_data_statistics)
+                           >>= (\x -> case lookups x "unique" of
+                                        Just y | ashow y == id -> case lookups x "skill_upgrade" of
+                                                                    Just x -> case elems x of
+                                                                                [v]    -> [ashow ((elems v) !! 1)]
+                                                                                _      -> []
+                                                                    _      -> []
+                                        _                      -> []))
 
          -- for each fate_strengthen and strengthen_effect
          -- check in ship_strengthen_blueprint for change skill
