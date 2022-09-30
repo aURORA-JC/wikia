@@ -18,5 +18,6 @@ data Context
     ctx_ship_strengthen_blueprint :: Expr,
     ctx_ship_data_breakout :: Expr,
     ctx_ship_strengthen_meta :: Expr,
-    ctx_ship_meta_breakout :: Expr
+    ctx_ship_meta_breakout :: Expr,
+    ctx_spweapon_data_statistics :: Expr
   }

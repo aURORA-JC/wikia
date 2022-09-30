@@ -994,6 +994,7 @@ main
        ship_strengthen_meta <- readJsonLang "ship_strengthen_meta"
        ship_data_breakout <- readJsonLang "ship_data_breakout"
        ship_meta_breakout <- readJsonLang "ship_meta_breakout"
+       spweapon_data_statistics <- readJsonLangs "spweapon_data_statistics"
 
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
@@ -1044,7 +1045,9 @@ main
                                                     ctx_ship_strengthen_blueprint = ship_strengthen_blueprint !! 2,
                                                     ctx_ship_data_blueprint = ship_data_blueprint !! 2,
 
-                                                    ctx_ship_meta_breakout = ship_meta_breakout
+                                                    ctx_ship_meta_breakout = ship_meta_breakout,
+
+                                                    ctx_spweapon_data_statistics = spweapon_data_statistics !! 2
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
