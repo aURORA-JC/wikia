@@ -547,7 +547,7 @@ showship context
                 $ H.td
                 $ writeskins skins "lineView" False
                 $ \i -> \n -> \skin -> case lookup (map toUpper n) linesSet of
-                                          Nothing -> "Nothing"
+                                          Nothing -> trace ("Skin error: missing: " ++ map toUpper n) $ H.toHtml $ "In " ++ show linesSet ++ "\n could not find " ++ map toUpper n
                                           Just lineSet
                                            -> let skinid = lineSet % "skin_id"
                                                   lua = case "_ex" `isInfixOf` skinid of
