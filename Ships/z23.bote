@@ -214,41 +214,6 @@
       }
     },
     "8": {
-      "id": "z23_g",
-      "name": "Z23 (Retrofit)",
-      "description": "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~ ",
-      "expression": {
-        "0": {
-          "id": "0"
-        }
-      }
-    },
-    "9": {
-      "id": "z23_6",
-      "name": "The Eyecatch in the Rye?",
-      "description": "Commander, please help hold onto the ladder. I've almost got the book... Just a little more... All right... C-Commander?! Please don't look up!",
-      "expression": {
-        "0": {
-          "id": "0"
-        },
-        "1": {
-          "id": "1"
-        },
-        "2": {
-          "id": "2"
-        },
-        "3": {
-          "id": "3"
-        },
-        "4": {
-          "id": "4"
-        },
-        "5": {
-          "id": "5"
-        }
-      }
-    },
-    "10": {
       "id": "z23_h",
       "name": "Schwarze Hochzeit",
       "description": "Whew... Sorry to keep you waiting. I was having a hard time deciding which outfit to wear... Ah, um... how do I look?",
@@ -273,6 +238,41 @@
         },
         "6": {
           "id": "6"
+        }
+      }
+    },
+    "9": {
+      "id": "z23_g",
+      "name": "Z23 (Retrofit)",
+      "description": "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~ ",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
+    },
+    "10": {
+      "id": "z23_6",
+      "name": "The Eyecatch in the Rye?",
+      "description": "Commander, please help hold onto the ladder. I've almost got the book... Just a little more... All right... C-Commander?! Please don't look up!",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
         }
       }
     },
@@ -329,6 +329,37 @@
         },
         "6": {
           "id": "6"
+        }
+      }
+    },
+    "13": {
+      "id": "z23_10",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        },
+        "7": {
+          "id": "7"
         }
       }
     }
@@ -2035,260 +2066,6 @@
         }
       },
       "8": {
-        "skin_id": "z23_g",
-        "id": "9",
-        "label": "Z23 (Retrofit)",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_9",
-            "chinese": "既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Login",
-            "media": "login_9",
-            "chinese": "指挥官，打起精神，投入紧张的工作中吧",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、しっかりしてください。これからお仕事ですよ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, look alive, let’s make a greater effort on our attacks.",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Details",
-            "media": "detail_9",
-            "chinese": "嗯，这样就完成得差不多了…好，去找标枪她们玩——欸，指、指挥官？！咳咳，正好，这里有一些文件……",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "これでよし、と…うん、そろそろジャベリンたちに会いに――え、し、指揮官！？コホン！ちょうどいいです！確認してほしい書類が……",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Ok, just little bit more and the retrofit will be complete... let’s go find Javelin and play with them—— Hey, *points*, it’s the Commander?! *Cough*, great timing, here are some documents...",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Main 3",
-            "media": "main_3_9",
-            "chinese": "俯瞰战场的战术，纵观全局的战略……除此之外！知道自己在为什么而战也是很重要的哟",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "戦場を見渡す戦術、大局を見る戦略……のほかに！何のために戦っているかを知ることも大事ですよ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": " Once we complete today’s mission, then come back and confirm our schedule for sorties over the next few days, there are still many things left to do.",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Main 4",
-            "media": "main_4_9",
-            "chinese": "指挥官，休息够了的话，就开始处理这座公文山吧",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、休憩が済んだら、引き続きこの文書の山の対応に励みましょう",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Main 5",
-            "media": "main_5_9",
-            "chinese": "今天的任务完成了的话，就来确认一下接下来几天的日程吧，事情还多的是呢",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "今日の任務完了しました？これからの数日間のスケジュールを確認しましょう。やることはいっぱいありますよ",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Touch",
-            "media": "touch_1_9",
-            "chinese": "指挥官，战场上气势也是很重要的哦，来，跟我一起练习出击姿势吧！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch (Special)",
-            "media": "touch_2_9",
-            "chinese": "指挥官，做好在禁闭室办公的准备了吗？",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "指揮官、独房で仕事をする準備は出来ていますよね…？",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, are you prepared to work in a lockdown environment?",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Victory",
-            "media": "mvp_9",
-            "chinese": "很好，大家再接再厉！",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "よし！次もがんばりましょう！",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Well done, let’s keep this up, everyone!",
-            "englishNote": ""
-          }
-        }
-      },
-      "9": {
-        "skin_id": "z23_6",
-        "id": "7",
-        "label": "The Eyecatch in the Rye?",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "Commander, please help hold onto the ladder. I've almost got the book... Just a little more... All right... C-Commander?! Please don't look up!",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Details",
-            "media": "detail_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Main 1",
-            "media": "main_1_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Main 2",
-            "media": "main_2_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Main 3",
-            "media": "main_3_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "8": {
-            "event": "Touch",
-            "media": "touch_1_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "9": {
-            "event": "Touch (Special)",
-            "media": "touch_2_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "10": {
-            "event": "Return to Port",
-            "media": "home_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "11": {
-            "event": "Mail",
-            "media": "mail_7",
-            "chinese": "",
-            "chineseTL": "",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      },
-      "10": {
         "skin_id": "z23_h",
         "id": "8",
         "label": "Schwarze Hochzeit",
@@ -2439,6 +2216,260 @@
           }
         }
       },
+      "9": {
+        "skin_id": "z23_g",
+        "id": "9",
+        "label": "Z23 (Retrofit)",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_9",
+            "chinese": "既然能力提升了，效率也要提升，公文也好，作战计划也好，尽管来吧！指挥官，做好心理准备，接下来会很忙哦~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "性能の向上はすなわち、業務効率の上昇です！さあ、文書の処理でも、作戦計画の立案でも、なんでも任せてください！指揮官、これからはどんどん忙しくなりますから、覚悟をしていてくださいね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "My efficiency should be upgraded along with my performance. Paperwork, battle plans... I can handle them all! Commander, be prepared, we’ll be very busy~",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_9",
+            "chinese": "指挥官，打起精神，投入紧张的工作中吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、しっかりしてください。これからお仕事ですよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, look alive, let’s make a greater effort on our attacks.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_9",
+            "chinese": "嗯，这样就完成得差不多了…好，去找标枪她们玩——欸，指、指挥官？！咳咳，正好，这里有一些文件……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "これでよし、と…うん、そろそろジャベリンたちに会いに――え、し、指揮官！？コホン！ちょうどいいです！確認してほしい書類が……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Ok, just little bit more and the retrofit will be complete... let’s go find Javelin and play with them—— Hey, *points*, it’s the Commander?! *Cough*, great timing, here are some documents...",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 3",
+            "media": "main_3_9",
+            "chinese": "俯瞰战场的战术，纵观全局的战略……除此之外！知道自己在为什么而战也是很重要的哟",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "戦場を見渡す戦術、大局を見る戦略……のほかに！何のために戦っているかを知ることも大事ですよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": " Once we complete today’s mission, then come back and confirm our schedule for sorties over the next few days, there are still many things left to do.",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 4",
+            "media": "main_4_9",
+            "chinese": "指挥官，休息够了的话，就开始处理这座公文山吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、休憩が済んだら、引き続きこの文書の山の対応に励みましょう",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 5",
+            "media": "main_5_9",
+            "chinese": "今天的任务完成了的话，就来确认一下接下来几天的日程吧，事情还多的是呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "今日の任務完了しました？これからの数日間のスケジュールを確認しましょう。やることはいっぱいありますよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_9",
+            "chinese": "指挥官，战场上气势也是很重要的哦，来，跟我一起练习出击姿势吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_9",
+            "chinese": "指挥官，做好在禁闭室办公的准备了吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "指揮官、独房で仕事をする準備は出来ていますよね…？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, are you prepared to work in a lockdown environment?",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Victory",
+            "media": "mvp_9",
+            "chinese": "很好，大家再接再厉！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "よし！次もがんばりましょう！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Well done, let’s keep this up, everyone!",
+            "englishNote": ""
+          }
+        }
+      },
+      "10": {
+        "skin_id": "z23_6",
+        "id": "7",
+        "label": "The Eyecatch in the Rye?",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Commander, please help hold onto the ladder. I've almost got the book... Just a little more... All right... C-Commander?! Please don't look up!",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mail",
+            "media": "mail_7",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
+        }
+      },
       "11": {
         "skin_id": "z23_9",
         "id": "10",
@@ -2530,6 +2561,53 @@
           "10": {
             "event": "Return to Port",
             "media": "home_11"
+          }
+        }
+      },
+      "13": {
+        "skin_id": "z23_10",
+        "id": "12",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_12"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_12"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_12"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_12"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_12"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_12"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_12"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_12"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_12"
           }
         }
       }

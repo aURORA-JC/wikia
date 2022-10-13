@@ -184,53 +184,6 @@
       }
     },
     "8": {
-      "id": "lingbo_7",
-      "name": "Low-Key Idol @Confused",
-      "description": "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
-      "expression": {
-        "0": {
-          "id": "0"
-        },
-        "1": {
-          "id": "1"
-        },
-        "2": {
-          "id": "2"
-        },
-        "3": {
-          "id": "3"
-        },
-        "4": {
-          "id": "4"
-        }
-      }
-    },
-    "9": {
-      "id": "lingbo_8",
-      "name": "Pulse of the New Year",
-      "description": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
-      "expression": {
-        "0": {
-          "id": "0"
-        },
-        "1": {
-          "id": "1"
-        },
-        "2": {
-          "id": "2"
-        },
-        "3": {
-          "id": "3"
-        },
-        "4": {
-          "id": "4"
-        },
-        "5": {
-          "id": "5"
-        }
-      }
-    },
-    "10": {
       "id": "lingbo_h",
       "name": "Demon's Finest Dress ",
       "description": "This dress is... Ayanami’s. I'm not used to this dress yet... Commander, do you think it fits me?",
@@ -255,13 +208,60 @@
         }
       }
     },
-    "11": {
+    "9": {
       "id": "lingbo_g",
       "name": "Ayanami (Retrofit) ",
       "description": "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
       "expression": {
         "0": {
           "id": "0"
+        }
+      }
+    },
+    "10": {
+      "id": "lingbo_7",
+      "name": "Low-Key Idol @Confused",
+      "description": "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    },
+    "11": {
+      "id": "lingbo_8",
+      "name": "Pulse of the New Year",
+      "description": "Commander, Happy New Year's. In this coming year, please continue to look after me...",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
         }
       }
     },
@@ -330,6 +330,31 @@
     },
     "15": {
       "id": "lingbo_14",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        }
+      }
+    },
+    "16": {
+      "id": "lingbo_15",
       "name": "",
       "description": "",
       "expression": {
@@ -1875,6 +1900,100 @@
         }
       },
       "8": {
+        "skin_id": "lingbo_h",
+        "id": "8",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_8"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_8"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_8"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_8"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_8"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_8"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_8"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_8"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_8"
+          }
+        }
+      },
+      "9": {
+        "skin_id": "lingbo_g",
+        "id": "9",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_9"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_9"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_9"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_9"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_9"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_9"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_9"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_9"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_9"
+          }
+        }
+      },
+      "10": {
         "skin_id": "lingbo_7",
         "id": "7",
         "label": "Low-Key Idol @Confused",
@@ -2034,100 +2153,6 @@
             "japaneseNote": "",
             "english": "Victory pose. Yeah.",
             "englishNote": ""
-          }
-        }
-      },
-      "9": {
-        "skin_id": "lingbo_h",
-        "id": "8",
-        "label": "",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_8"
-          },
-          "3": {
-            "event": "Login",
-            "media": "login_8"
-          },
-          "4": {
-            "event": "Details",
-            "media": "detail_8"
-          },
-          "5": {
-            "event": "Main 1",
-            "media": "main_1_8"
-          },
-          "6": {
-            "event": "Main 2",
-            "media": "main_2_8"
-          },
-          "7": {
-            "event": "Main 3",
-            "media": "main_3_8"
-          },
-          "8": {
-            "event": "Touch",
-            "media": "touch_1_8"
-          },
-          "9": {
-            "event": "Touch (Special)",
-            "media": "touch_2_8"
-          },
-          "10": {
-            "event": "Return to Port",
-            "media": "home_8"
-          }
-        }
-      },
-      "10": {
-        "skin_id": "lingbo_g",
-        "id": "9",
-        "label": "",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": ""
-          },
-          "2": {
-            "event": "Acquisition",
-            "media": "get_9"
-          },
-          "3": {
-            "event": "Login",
-            "media": "login_9"
-          },
-          "4": {
-            "event": "Details",
-            "media": "detail_9"
-          },
-          "5": {
-            "event": "Main 1",
-            "media": "main_1_9"
-          },
-          "6": {
-            "event": "Main 2",
-            "media": "main_2_9"
-          },
-          "7": {
-            "event": "Main 3",
-            "media": "main_3_9"
-          },
-          "8": {
-            "event": "Touch",
-            "media": "touch_1_9"
-          },
-          "9": {
-            "event": "Touch (Special)",
-            "media": "touch_2_9"
-          },
-          "10": {
-            "event": "Return to Port",
-            "media": "home_9"
           }
         }
       },
@@ -2319,53 +2344,100 @@
           }
         }
       },
-          "15": {
-      "skin_id": "lingbo_14",
-      "id": "14",
-      "label": "",
-      "dialogue": {
-        "1": {
-          "event": "Ship Description",
-          "media": ""
-        },
-        "2": {
-          "event": "Acquisition",
-          "media": "get_14"
-        },
-        "3": {
-          "event": "Login",
-          "media": "login_14"
-        },
-        "4": {
-          "event": "Details",
-          "media": "detail_14"
-        },
-        "5": {
-          "event": "Main 1",
-          "media": "main_1_14"
-        },
-        "6": {
-          "event": "Main 2",
-          "media": "main_2_14"
-        },
-        "7": {
-          "event": "Main 3",
-          "media": "main_3_14"
-        },
-        "8": {
-          "event": "Touch",
-          "media": "touch_1_14"
-        },
-        "9": {
-          "event": "Touch (Special)",
-          "media": "touch_2_14"
-        },
-        "10": {
-          "event": "Return to Port",
-          "media": "home_14"
+      "15": {
+        "skin_id": "lingbo_14",
+        "id": "14",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_14"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_14"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_14"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_14"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_14"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_14"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_14"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_14"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_14"
+          }
+        }
+      },
+      "16": {
+        "skin_id": "lingbo_15",
+        "id": "15",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_15"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_15"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_15"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_15"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_15"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_15"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_15"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_15"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_15"
+          }
         }
       }
-    }
     }
   },
   "retrofit": {

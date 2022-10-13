@@ -1,1219 +1,1219 @@
 {
-	"name_reference": "deutschland",
-	"cn_reference": "deyizhi",
-	"nameJP": "ドイッチュラント",
-	"nameCN": "德意志",
-	"ID": "245",
-	"name": "Deutschland",
-	"internal_id": "403041",
-	"rarity": "Elite",
-	"initialStar": "★★☆☆☆",
-	"hull": "Heavy Cruiser",
-	"navy": "Ironblood",
-	"prefix": "KMS",
-	"buildTime": "01:55:00",
-	"class": "Deutschland-Class",
-	"voiceActress": "Sumire Uesaka",
-	"parameters": {
-		"firepower": "A",
-		"torpedo": "C",
-		"aviation": "E",
-		"evasion": "C",
-		"antiAir": "C",
-		"hp": "A"
-	},
-	"scrap": {
-		"gold": "9",
-		"oil": "3",
-		"medal": "4"
-	},
-	"releaseDate": {
-		"JP": "",
-		"CN": "",
-		"KR": "",
-		"EN": ""
-	},
-	"artist": {
-		"name": "RAN",
-		"weibo": "https://weibo.com/u/2235541213",
-		"twitter": "https://twitter.com/bukeranwu",
-		"pixiv": "https://www.pixiv.net/member.php?id=2957827",
-		"other": ""
-	},
-	"enhance": {
-		"firepower": "31",
-		"torpedo": "13",
-		"aviation": "0",
-		"reload": "12"
-	},
-	"acquisitionMethod": "Event: Divergent Chessboard, Heavy Construction (JP/CN)",
-	"skill": {
-		"1": {
-			"icon": "10650",
-			"requirement": "Default Unlocked",
-			"name": "Pocket Battleship",
-			"type": "Offensive",
-			"description": "Increases the DMG this ship deals to DDs and CLs by 15%(35%)."
-		},
-		"2": {
-			"icon": "23221",
-			"requirement": "Limit Break I(III)",
-			"name": "All Out Assault Ⅰ",
-			"type": "Offensive",
-			"description": "Activate All Out Assault Ⅰ: Deutschland Class once every 9 times the main gun is fired."
-		}
-	},
-	"skin": {
-		"1": {
-			"id": "deyizhi",
-			"name": "Deutschland",
-			"description": "Deutschland-class armored cruiser, Deutschland.",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"2": {
-			"id": "deyizhi_2",
-			"name": "Dark Demon Princess",
-			"description": "For a servant, your eyes are good... *coughs*... I'm an Ironblood Princess, the Queen of Night, Deutschland! Servant? No. I am the first of my family. Come, kiss the ring of royalty!",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"3": {
-			"id": "deyizhi_3",
-			"name": "Service Time?!",
-			"description": "One must not neglect sunscreen during the summer... Plebeian, if you wish to serve your master, prostrate yourself and yell \"I beg of you, Queen Deutschland\" three times, and I might consider giving you an opportunity. Ahahaha~",
-			"expression": {
-				"0": {
-					"id": "0"
-				}
-			}
-		},
-		"4": {
-			"id": "deyizhi_4",
-			"name": "Demon Princess' Dark Hour Banquet",
-			"description": "I seem pleased? Of course I am. Why wouldn't I be when my sweet little sister will be joining us at the party? Now shape up and entertain your master, you lowly animal! Ahahahaha!",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				}
-			}
-		},
-		"5": {
-			"id": "deyizhi_5",
-			"name": "Lantern-Lit Ruler",
-			"description": "Why are so many people out and about during a holiday? ...That's it! Lowly animal, was it your idea to prepare all this to surprise me...?! Heh... Hehe, that's right, don't you dare disappoint me!",
-			"expression": {
-				"0": {
-					"id": "0"
-				},
-				"1": {
-					"id": "1"
-				},
-				"2": {
-					"id": "2"
-				},
-				"3": {
-					"id": "3"
-				},
-				"4": {
-					"id": "4"
-				},
-				"5": {
-					"id": "5"
-				}
-			}
-		}
-	},
-	"defaultEquipment": {
-		"1": {
-			"icon": "43100",
-			"rarity": "Common",
-			"name": "Triple 283mm Main Gun (SK C/28)"
-		},
-		"2": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		},
-		"3": {
-			"icon": "",
-			"rarity": "",
-			"name": ""
-		}
-	},
-	"stats": {
-		"100": {
-			"hp": "3571",
-			"firepower": "265",
-			"torpedo": "191",
-			"antiAir": "134",
-			"aviation": "0",
-			"reload": "153",
-			"hit": "117",
-			"evasion": "18",
-			"speed": "22.4",
-			"luck": "72",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		},
-		"120": {
-			"hp": "4018",
-			"firepower": "301",
-			"torpedo": "220",
-			"antiAir": "154",
-			"aviation": "0",
-			"reload": "176",
-			"hit": "131",
-			"evasion": "53",
-			"speed": "22.4",
-			"luck": "72",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		},
-		"base": {
-			"hp": "691",
-			"firepower": "56",
-			"torpedo": "41",
-			"antiAir": "29",
-			"aviation": "0",
-			"reload": "65",
-			"hit": "45",
-			"evasion": "7",
-			"speed": "22.4",
-			"luck": "72",
-			"asw": "0",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "3",
-			"armor": "Medium"
-		},
-		"100retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "22.4",
-			"luck": "72",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		},
-		"120retrofit": {
-			"hp": "",
-			"firepower": "",
-			"torpedo": "",
-			"antiAir": "",
-			"aviation": "",
-			"reload": "",
-			"hit": "",
-			"evasion": "",
-			"speed": "22.4",
-			"luck": "72",
-			"asw": "",
-			"oxygen": "0",
-			"ammo": "0",
-			"cost": "11",
-			"armor": "Medium"
-		}
-	},
-	"limitBreak": {
-		"tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-		"tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
-		"tier3": "Improve All Out Assault/Main gun efficiency +15%"
-	},
-	"equipmentLoadout": {
-		"1": {
-			"type": "Heavy Cruiser",
-			"efficiency": "110%/115%/125%/140%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"2": {
-			"type": "Torpedo",
-			"efficiency": "130%/130%/130%/130%",
-			"amount": "1/1/2/2",
-			"preload": "0/0/1/1"
-		},
-		"3": {
-			"type": "Anti-Air Gun",
-			"efficiency": "100%/100%/100%/100%",
-			"amount": "1/1/1/1",
-			"preload": "0/0/0/0"
-		},
-		"4": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		},
-		"5": {
-			"type": "Auxiliary",
-			"efficiency": "-",
-			"amount": "-",
-			"preload": "-"
-		}
-	},
-	"build": {
-		"light": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"heavy": {
-			"JP": "✓",
-			"CN": "✓",
-			"EN": ""
-		},
-		"special": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		},
-		"limited": {
-			"JP": "",
-			"CN": "",
-			"EN": ""
-		}
-	},
-	"drop": {
-		"droppable": "false",
-		"list": {
-			"1": {
-				"event": "",
-				"chapter": {
-					"1": {
-						"label": "Ch .1",
-						"node": {
-							"1": {
-								"drop": "✓",
-								"note": "-"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"lines": {
-		"skin": {
-			"1": {
-				"skin_id": "deyizhi",
-				"id": "0",
-				"label": "Deutschland",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "德意志级装甲巡洋舰—德意志",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ドイッチュラント装甲巡洋艦・ドイッチュラント",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Deutschland-class armored cruiser, Deutschland.",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Biography",
-						"media": "profile",
-						"chinese": "哼，我就是德意志级A号舰——德意志号！如此尊贵的我怎么能随随便便出战呢，所以没有什么战绩也是理所应当的啦，精神领袖你明白么？哼！什么？吕……吕佐夫号是谁？可、可恶，吵死了！这种事情我怎么会知道？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "わたしはドイッチュラント級A番艦――ドイッチュラント！こんなに高貴なわたしはやすやすと戦場に駆り出されるわけにはいかないから、戦果が少ないのは当然なのよ？スピリチュアルリーダーよ！わかる？なに？りゅ…「リュッツォウ」は誰ですって？うるさいわね…そんなこと知るもんか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmph! I'm Deutschland, the first ship of the Deutschland-class! A prestigious individual such as myself wouldn't be sent into smaller battles. As such, it's only natural that I don't have many of these petty achievements. It's called spiritual leadership! Hmph! Lützow? ...Shut up! Like I'd care about that!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Acquisition",
-						"media": "get",
-						"chinese": "你已经成为我德意志的仆人了，你应该感到荣幸才对。还有，记住以后不要回答“喔”，要回“是”！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あなたはもうこのドイッチュラントの下僕よ？光栄に思いなさい。それから、「うん」はダメ、返事は「はい」よ？わかった？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "From now on, you are Deutschland's servant! You should feel honored. Also, don't answer me with \"mhm.\" You will answer me with \"yes, ma'am\" from now on. Are we clear?",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Login",
-						"media": "login",
-						"chinese": "离开这么久，去哪里觅食了？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "随分時間が経ったね…一体どこで油を売ってたの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You sure took your sweet time. Just where were you rooting around?",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Details",
-						"media": "detail",
-						"chinese": "果然这种时候不管怎样都要给你点处罚呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "こんな時は…どうあってもあなたを処罰しなくては…",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It's times like these... where I simply must punish you.",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 1",
-						"media": "main_1",
-						"chinese": "要用低等动物能理解的语言和你交流才行呢……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物の言葉で話してあげなくてはね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "It seems like I must speak in a way that even lowly animals can understand.",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 2",
-						"media": "main_2",
-						"chinese": "哈哈哈哈，刚才又把两个路过的重巡给吓跑了呢~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ハハハハ、さっき通りがかりの重巡洋艦二隻を驚かせたら逃げちゃったわ～",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hahaha! I didn't even need to fire my gun to scare off those cruisers~",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Main 3",
-						"media": "main_3",
-						"chinese": "如果你执意要发呆的话，那么我就不奉陪了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ぼんやりしたいなら、わたしはもうしらないわよ~",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If you insist on standing around like an idiot, I'm just going to leave.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch",
-						"media": "touch_1",
-						"chinese": "真是不知悔改的仆人，就这么怀念我的鞭挞吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あんたって本当に懲りないね…わたしのムチがそんなに恋しいの~？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You just never learn, do you? Do you want to taste my whip again that badly~?",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Touch (Special)",
-						"media": "touch_2",
-						"chinese": "嗯？很享受嘛~你非常喜欢那样？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふぅん～楽しんでいるようね～、こういうの好きなの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmm? It seems like you're enjoying yourself... do you get off to this kind of stuff?",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mission",
-						"media": "task",
-						"chinese": "任务！在我的字典里，没有未完成这三个字！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ミッション！わたしの辞書には未完成という文字はない！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Mission! There's no entry for \"incomplete\" in my dictionary!",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Mission Complete",
-						"media": "mission_complete",
-						"chinese": "快把奖励领了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "はやく報酬をもらってちょうだい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hurry up and fetch the rewards for me~",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Mail",
-						"media": "mail",
-						"chinese": "拿去，用低等动物语言所写的邮件",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物の言語で書かれた手紙よ、持っていきなさいな",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You've received a letter in that lowly animal language of yours. Fetch~",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Return to Port",
-						"media": "home",
-						"chinese": "不要掉以轻心！愚笨的家伙，回港并不意味着结束",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "油断しない！この馬鹿！母港に帰ったって終わったわけじゃないのよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Pay attention, you idiot! Just because we're back at port doesn't mean that you're done.",
-						"englishNote": ""
-					},
-					"15": {
-						"event": "Commission Complete",
-						"media": "expedition",
-						"chinese": "哼，小羊羔们完成委托了呢，意外的还挺能干嘛",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふん、子羊たちが委託を完了したようね。意外とやるじゃない",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmph, so our little lambs managed to complete their commission. What a pleasant surprise.",
-						"englishNote": ""
-					},
-					"16": {
-						"event": "Enhancement",
-						"media": "upgrade",
-						"chinese": "虽然是低等动物，不过很懂事嘛",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物の分際でよく分かってるじゃない",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Aren't you the obedient animal~",
-						"englishNote": ""
-					},
-					"17": {
-						"event": "Flagship",
-						"media": "warcry",
-						"chinese": "这会是一次愉悦的扫荡",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "楽しい掃討になりそうね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'm going to enjoy mopping you all up~",
-						"englishNote": ""
-					},
-					"18": {
-						"event": "Victory",
-						"media": "mvp",
-						"chinese": "真是小题大做的家伙，明明就是一个笨蛋",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "相手は大したことないのに…まったく大げさね~",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Even though the enemies were no big deal... what a pompous affair.",
-						"englishNote": ""
-					},
-					"19": {
-						"event": "Defeat",
-						"media": "lose",
-						"chinese": "就算坐沉也不会向你们这些低等动物投降的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "沈没したってあんたらのよう下等生物に投降するものか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I'd sink to the bottom of the ocean before surrending to you animals!",
-						"englishNote": ""
-					},
-					"20": {
-						"event": "Skill",
-						"media": "skill",
-						"chinese": "既残酷，又可爱，呵呵呵……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "残酷で、可憐で、うふふ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Cruel and lovely, ahaha...",
-						"englishNote": ""
-					},
-					"21": {
-						"event": "Low HP",
-						"media": "hp",
-						"chinese": "竟敢小看我德意志……！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このドイッチュラントを見くびるとはね……！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Do not underestimate the great Deutschland!",
-						"englishNote": ""
-					},
-					"22": {
-						"event": "Affinity (Upset)",
-						"media": "feeling1",
-						"chinese": "对你没兴趣了……找点新的宠物好了",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あなたへの興味がなくなったの。さて、新しいペットでも探そうかしら",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I have no interest in you anymore... I should find myself a new pet.",
-						"englishNote": ""
-					},
-					"23": {
-						"event": "Affinity (Stranger)",
-						"media": "feeling2",
-						"chinese": "笑着享受战争是何等痛快，你这样的低等动物是不会理解的吧哈哈哈！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戦争を笑って楽しむのはどれぐらいの愉悦か、あなたのような下等生物には理解できるはずがないわ！あははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "There is no thrill like waging war with a grin on your face! There's no way a lowly animal like you could ever undrestand that! Ahahahaha!",
-						"englishNote": ""
-					},
-					"24": {
-						"event": "Affinity (Friendly)",
-						"media": "feeling3",
-						"chinese": "区区低等动物，尽全力去找些能让我开心的东西吧，哈哈哈",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物、全力でわたしを楽しませるものを探しなさい。ははははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Lowly animal, root around for all you are worth to find something worthy of my attention. Ahahahaha~",
-						"englishNote": ""
-					},
-					"25": {
-						"event": "Affinity (Like)",
-						"media": "feeling4",
-						"chinese": "雄狮从不会在乎羊群的看法，不过……你确实是一只有意思的下等动物，再让我高兴一点，我就听听你的愿望吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ライオンは羊の群れの考えを気にしないものよ。……けどあなたは確かに面白い下等生物だわ。わたしをもっと楽しませたら、願いぐらい聞いてあげるわよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A lion doesn't concern itself with the bleating of sheep. But... I do find you interesting for a lowly animal. If you amuse me some more, maybe I will listen to your wishes.",
-						"englishNote": ""
-					},
-					"26": {
-						"event": "Affinity (Love)",
-						"media": "feeling5",
-						"chinese": "好吧，作为让我如此高兴的奖赏，赐你将我抱起的权利吧，还愣着干什么，公主抱没听说过吗，公主抱！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ここまでわたしを楽しませた褒美として、わたしを抱き上げる権利を与えるわ！何とぼけてるの？お姫様抱っこ、聞いたことないかしら。…お姫様抱っこよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "For keeping me amused this long, I shall grant you the privilege of holding me. Why are you still standing there? Have you never heard of a princess carry? Princess~ carry!",
-						"englishNote": ""
-					},
-					"27": {
-						"event": "Pledge",
-						"media": "propose",
-						"chinese": "没想到我会有和低等生物缔结契约的一天……这种心情虽然是头一次不过很令人愉快，呵呵呵，好，从现在起你就是坐骑二号了，感到荣幸吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "まさかこのわたしもこんな下等生物と契りを交わす日が来るとはね……この感じ、初めてなのに意外と楽しいわ。はははは！いいわ！今日からあなたが乗り物二号よ！ありがたく思いなさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I never thought the day would come when I pledge myself to a lowly animal. I've never felt anything like this before... but it's unexpectedly fun. Ahahaha~! From now on, you're my vehicle number two! You should be grateful!",
-						"englishNote": ""
-					}
-				}
-			},
-			"2": {
-				"skin_id": "deyizhi_2",
-				"id": "1",
-				"label": "Dark Demon Princess",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "明明只是个仆人，眼光倒是不错……咳咳，吾正是铁血的公主，暗夜的主宰，德意志！仆从，不，吾的第一个眷属啊，过来，赐你亲吻无上君王手背的权利！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物のくせに、……そう、この私こそ鉄血なる魔姫、闇夜の主ドイッチュラントよ！下等生物、ううん、私の下僕よ！おいで、お前に忠誠のキスを誓うチャンスをくれてやるわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "For such a lowly animal, your taste is not bad... That's right, I am Deutschland, Demon Princess of the Iron Blood and Mistress of the Night! Plebeians, no, my slaves, I shall grant you an opportunity to swear fealty to me with a kiss!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_1",
-						"chinese": "明明只是个仆人，眼光倒是不错……咳咳，吾正是铁血的公主，暗夜的主宰，德意志！仆从，不，吾的第一个眷属啊，过来，赐你亲吻无上君王手背的权利！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物のくせに、いいセンスをしてるわ……そう、この私こそ鉄血なる魔姫、闇夜の主ドイッチュラントよ！下等生物、ううん、私の下僕よ！おいで、お前に忠誠のキスを誓うチャンスをくれてやるわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "For such a lowly animal, your taste is not bad... That's right, I am Deutschland, Demon Princess of the Iron Blood and Mistress of the Night! Plebeians, no, my slaves, I shall grant you an opportunity to swear fealty to me with a kiss!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Details",
-						"media": "detail_1",
-						"chinese": "眷属，过来……别害怕，这些小家伙不会伤害你的",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下僕、おいで…そう怖がらなくてもいいわ。この子たちはお前を傷つけないから",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Slave, come here... Do not fear, these little bats won't hurt you.",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Main 1",
-						"media": "main_1_1",
-						"chinese": "蠢货，只是兴趣所致穿上了衣服而已，谁允许你给我上这种红色的难喝饮料了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この下等生物、たかが衣装を変えたぐらいで、誰がこんな赤いドリンクを飲むと言ったの？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Imbecile! I only wore this costume as a hobby. Who gave you permission to serve me such a repulsive beverage? ",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 3",
-						"media": "main_3_1",
-						"chinese": "眷属，过来扶我下来。矮？蠢货，这是你的荣幸！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下僕、この私が降りるのを手伝いなさい。ちびっこ…！？誰が！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Slave, help me get off my throne. Shorty? You imbecilic swine, do you think this is funny?",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Touch",
-						"media": "touch_1_1",
-						"chinese": "眷属，伸出你的脖子来，让我咬一口——蠢货，你不会当真了吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物、その首筋を差し出しなさい――アハハハ！このグズ！まさか本気にしたの～？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Slave, offer your neck to me so that I may feed... Ahahaha! Imbecile, surely you didn't take me seriously!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Return to Port",
-						"media": "home_1",
-						"chinese": "作为眷属干的还不错，过来，稍微夸夸你吧",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下僕の分際でよくできたじゃない。おいで、ご褒美をやるわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You've done well for a slave. Come forth, I shall give you a little reward.",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Flagship",
-						"media": "warcry_1",
-						"chinese": "在你们的骨髓里刻下我的名字吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "骨の髄まで私の名を刻んでやるわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I shall engrave my name into your bones!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Victory",
-						"media": "mvp_1",
-						"chinese": "尖叫吧，恐惧吧，臣服吧，哈哈哈！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "泣き叫べ！恐れ戦け！この私に跪け！アハハハ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Scream in agony! Tremble in fear! Kneel before me! Ahahaha! ",
-						"englishNote": ""
-					}
-				}
-			},
-			"3": {
-				"skin_id": "deyizhi_3",
-				"id": "2",
-				"label": "Service Time?!",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "夏天可不能漏了防晒措施呢…仆人，想要为主人服务的话，跪下来诚心诚意大喊三声“拜托了，德意志大人！”，我可能就会心软给你这个机会了哦？呵呵呵～",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夏には日焼け対策が必須ね…そこの下等生物！主にご奉仕したいのなら、ここで跪いて、「お願いしますドイッチュラントさま！」って大声で三回ねだればもしかすると…私、日焼け止めを塗れるチャンスを与えるかもしれないわ？あははははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "One must not neglect sunscreen during the summer... Plebeian, if you wish to serve your master, prostrate yourself and yell \"I beg of you, Queen Deutschland\" three times, and I might consider giving you an opportunity. Ahahaha~",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_2",
-						"chinese": "夏天可不能漏了防晒措施呢…仆人，想要为主人服务的话，跪下来诚心诚意大喊三声“拜托了，德意志大人！”，我可能就会心软给你这个机会了哦？呵呵呵～",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "夏には日焼け対策が必須ね…そこの下等生物！主にご奉仕したいのなら、ここで跪いて、「お願いしますドイッチュラントさま！」って大声で三回ねだればもしかすると…私、日焼け止めを塗れるチャンスを与えるかもしれないわ？あははははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "One must not neglect sunscreen during the summer... Plebeian, if you wish to serve your master, prostrate yourself and yell \"I beg of you, Queen Deutschland\" three times, and I might consider giving you an opportunity. Ahahaha~",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_2",
-						"chinese": "太！慢！了！想害我的皮肤被太阳晒伤吗！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "お・そ・い！この私の肌を焼けさせる気！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Way! Too! Slow! Are you trying to get my pristine skin sunburnt?",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_2",
-						"chinese": "仆人，不要偷懒，要把防晒霜涂均匀才行!",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "さぼるな下等生物！日焼け止めはムラなく塗ってもらうわよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Lazy swine, don't cut corners. Anything less than a perfectly uniform application of sunscreen is unacceptable! ",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_2",
-						"chinese": "仆人，帮我拿两条毛巾过来擦擦身子！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物、体を拭くからタオルを二枚持ってきなさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Plebeian, fetch those two towels over there and wipe my body dry. ",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_2",
-						"chinese": "眼睛再瞪下去就要掉出来了哦？真是…无可救药的低等动物呢～",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "目玉が飛び出るぐらいじっと見つめてて……まったく救いようのない下等生物だわ！あはははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If your eyes wander any lower, they will get detached from their sockets. I say, there is no remedy for being uncultured swine~ ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_2",
-						"chinese": "救生圈？要那个干什么，难道不是仆人你背着我游泳吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "浮き輪？そんなもの持ってどうするのよ。下等生物が私を背負って泳ぐんじゃないわけ？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "A lifebuoy? What would I use that for? Plebeian, were you not going to carry me on your back while swimming?",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_2",
-						"chinese": "露出了野兽一般的表情呢，仆人。对于这样的野兽，果然还是需要更多的鞭笞吧～",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この下等生物、ケダモノみたいな顔をしやがって……ケダモノにはやっぱり鞭打ちが必要ね！あははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "To think that a plebeian would look at me with such a hungry, bestial expression. A lewd beast like this needs a thorough flogging.",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_2",
-						"chinese": "哼哼，果然是无法控制自己欲望的下等生物呢",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふふ、やはり自分の欲すら抑えられない下等生物ね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ho ho, it looks like this lowly swine cannot even control its basest desires.",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_2",
-						"chinese": "一回来就露出松懈的神情呢，哼哼，要不要让身为主人的我帮你「绷紧」一下神经？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "戻った途端にたるんでいるわね。ふっふん、主である私が「シメて」やろうか？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What's with that lax expression of yours as soon as you get back... Ho ho, do you need your master to \"tighten up\" those loose morals of yours?",
-						"englishNote": ""
-					}
-				}
-			},
-			"4": {
-				"skin_id": "deyizhi_4",
-				"id": "3",
-				"label": "Demon Princess' Dark Hour Banquet",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "我的心情看起来很好？嗯哼。当初的下等生物，居然已经成长到了能够举办这种盛宴的地步，作为主人的我当然心情很好，哈哈哈，哈哈哈哈！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "機嫌が良さそうに見える？そうね、今日は可愛い妹もパーティーに参加しているんだもの、機嫌がいいに決まってるわ！この下等生物、主にもっともてなしなさい！あはははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I seem pleased? Of course I am. Why wouldn't I be when my sweet little sister will be joining us at the party? Now shape up and entertain your master, you lowly animal! Ahahahaha!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_3",
-						"chinese": "我的心情看起来很好？嗯哼。当初的下等生物，居然已经成长到了能够举办这种盛宴的地步，作为主人的我当然心情很好，哈哈哈，哈哈哈哈！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "機嫌が良さそうに見える？そうね、今日は可愛い妹もパーティーに参加しているんだもの、機嫌がいいに決まってるわ！この下等生物、主にもっともてなしなさい！あはははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I seem pleased? Of course I am. Why wouldn't I be when my sweet little sister will be joining us at the party? Now shape up and entertain your master, you lowly animal! Ahahahaha!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_3",
-						"chinese": "还是一如既往的慢，不过，今天我的心情很好，原谅你！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "相変わらずどん亀のようね…この素晴らしい晩餐会に免じて許してやるわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Still sluggish as always. But because I'm in a pretty decent mood today, I'll forgive you!",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_3",
-						"chinese": "仆人的东西，就是我的东西，所以仆人的舰队越强大，不就是代表着我的实力更加强大？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物のものは私のもの、下等生物の率いる艦隊が強ければ、私の力が増すということを意味するわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "What belongs to my lowly animal also belongs to me. Therefore, the stronger my lowly animal's fleet is, the clearer the proof of my excellence is.",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_3",
-						"chinese": "低等动物，说说你对我和斯佩礼服的感想吧。哼哼，想必说不出可爱之外的评价了吧，啊哈哈哈哈！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物、シュペーのドレスについて素直な感想を言いなさい。なに、カワイイ以外言葉が出るはずがないわ！あはははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Lowly animal, you may offer your opinion about me and Graf Spee's dresses. Hmph, I bet your vocabulary doesn't include anything beyond \"cute,\" ahahaha! ",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_3",
-						"chinese": "咦，斯佩居然在和别的阵营的人聊天…？不会被人欺负了吧…待会得去警告一下她们才行……",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "シュペーがほかの陣営の子と喋ってる……いじめられたらどうしよう…あとであの子たちに注意したほうがいいかしら……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Ehh? Graf Spee is actually talking to people from other factions...? I hope she's not being bullied... I'll have to give them a stern warning just in case... ",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_3",
-						"chinese": "低等动物，为什么每个人看到我都会向我打招呼，而不是惧怕我？……受人敬爱？是、是吗……哼，作为精神领袖，受人敬爱也是自然的吧！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "下等生物、最近はみんな妙に馴れ馴れしくなってきていると思わない？……私が…みんなから愛されているだけ？そ、そうね…スピリチュアルリーダーとして愛されて当然だわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Tell me, lowly animal, why does everyone greet me instead of cowering in fear? ...Because they like me? R-really... Hmph. As a spiritual leader, it's only natural to be respected by all!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_3",
-						"chinese": "跳舞？嗯哼，就知道你这仆人会提出这个请求，我早就练……准备好了！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ダンス？ふふん、下等生物がそう言い出すことは見通していたわ！とっくにれんしゅ……ではなく、準備しておいたわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Dancing? Aha~ I just knew you'd come to me with this request, so I prac... err, prepared beforehand!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Mission",
-						"media": "task_3",
-						"chinese": "任务？任务比陪伴主人参加宴会更重要吗？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務ね……主より優先しなきゃいけない任務があるのかしら？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Missions? What mission could possibly be more important than accompanying your master to the banquet?",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Mission Complete",
-						"media": "mission_complete_3",
-						"chinese": "……哼，看在这些礼物的份上，饶你一命",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "任務報酬…私たちへの贈り物と考えていいわね",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hmph... After seeing these rewards, I'll let you live.",
-						"englishNote": ""
-					},
-					"11": {
-						"event": "Mail",
-						"media": "mail_3",
-						"chinese": "居然在这种时候有信件，真是煞风景，让我看看！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "こんな時にメールの確認をするなんて、風情のわからない下等生物ね！……私にも見せなさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Getting mail right now sure spoils the mood. Let me see those!",
-						"englishNote": ""
-					},
-					"12": {
-						"event": "Return to Port",
-						"media": "home_3",
-						"chinese": "事先声明，我可不是在等你，只是，没有下等生物在场，又怎么能显得主人的我高贵呢？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "あなたのことを待っていたわけじゃないわ。下等生物がいたら私のカリスマがもっと輝く――そんなとこかしら？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Let's be clear here, I was not waiting for you. I simply can't show off the full extent of my grandeur as a master without the presence of my lowly animal.",
-						"englishNote": ""
-					},
-					"13": {
-						"event": "Victory",
-						"media": "mvp_3",
-						"chinese": "能够被心情很好的德意志大人蹂躏，是你们的荣幸~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このドイッチュラントに蹂躙されるなんて、あなたたちはどれだけ幸せなのかしら～あはははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You should feel honored to have the privilege of being ravaged by the one-and-only Deutschland while she is in a good mood!",
-						"englishNote": ""
-					},
-					"14": {
-						"event": "Defeat",
-						"media": "lose_3",
-						"chinese": "我还要参加宴会，所以就不和你们纠缠了~",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "くっ……これ以上は付き合わないわよ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "I have a banquet to attend, so I have no time to let myself get dragged through the mud by you lot~",
-						"englishNote": ""
-					}
-				}
-			},
-			"5": {
-				"skin_id": "deyizhi_5",
-				"id": "4",
-				"label": "Lantern-Lit Ruler",
-				"dialogue": {
-					"1": {
-						"event": "Ship Description",
-						"media": "",
-						"chinese": "为什么节日里还有这么多人在忙碌着？…噢，我明白了，这是仆人你特别为我准备的节目，对吧？可别让我失望啊！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "祝日なのにみんな忙しそうね…そうか！これは下等生物がこの私のために用意したサプライズ…！？ふ、ふふふ、せいぜい私を失望させるんじゃないわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Why are so many people out and about during a holiday? ...That's it! Lowly animal, was it your idea to prepare all this to surprise me...?! Heh... Hehe, that's right, don't you dare disappoint me!",
-						"englishNote": ""
-					},
-					"2": {
-						"event": "Acquisition",
-						"media": "get_4",
-						"chinese": "为什么节日里还有这么多人在忙碌着？…噢，我明白了，这是仆人你特别为我准备的节目，对吧？可别让我失望啊！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "祝日なのにみんな忙しそうね…そうか！これは下等生物がこの私のために用意したサプライズ…！？ふ、ふふふ、せいぜい私を失望させるんじゃないわ！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Why are so many people out and about during a holiday? ...That's it! Lowly animal, was it your idea to prepare all this to surprise me...?! Heh... Hehe, that's right, don't you dare disappoint me!",
-						"englishNote": ""
-					},
-					"3": {
-						"event": "Login",
-						"media": "login_4",
-						"chinese": "来得正是时候。低等生物，帮我把我的鞋子脱了，穿着这玩意走路可真累…",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "来たわね下等生物。さあ、靴を脱がすのを手伝ってもらうわよ！…これ履いて歩くと疲れるわ……",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "There you are, lowly animal. Now help me take off these heels! Strolling around in these things is so tiresome...",
-						"englishNote": ""
-					},
-					"4": {
-						"event": "Details",
-						"media": "detail_4",
-						"chinese": "这些装饰看起来还是挺气派的…哼哼，加上我坐在其中，就显得更加高贵了。低等生物，你也是这样觉得的吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "この内装、中々豪華な作りだわね…ふふふ、つまりこのドイッチュラント様の高貴さを一層引き立ててくれるに違いないわ！下等生物、あなたもそう思ってるわね？あははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "The decor in here is truly sumptuous... Hahahah! It further raises the pedestal of eminence atop which I sit! Isn't that right, lowly animal? Ahahahaha!",
-						"englishNote": ""
-					},
-					"5": {
-						"event": "Main 1",
-						"media": "main_1_4",
-						"chinese": "要不是为了斯佩着想，我才没兴趣拿雪堆些奇奇怪怪的东西。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "シュペーのためでなければ、誰が雪だるまなんて作るものか！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "If Spee wasn't so dear to me, I would've never even *considered* building a snowman!",
-						"englishNote": ""
-					},
-					"6": {
-						"event": "Main 2",
-						"media": "main_2_4",
-						"chinese": "仆人，我饿了。我听说东煌的美食甚多，你知道该怎么做吧？",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "腹が減ったわよ下等生物。ところで、東煌（とうこう）は食文化に長けてると聞いたわ…何をすべきか分かるわね？あははは！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Oh lowly animal, your master is hungry. I've heard that the Dragon Empery's cuisine is very delectable... You know what to do now, yes? Ahahahahah!",
-						"englishNote": ""
-					},
-					"7": {
-						"event": "Main 3",
-						"media": "main_3_4",
-						"chinese": "外面怎么这么热闹，是发生了什么好事吗？仆人，去看看。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "騒がしいわね…下等生物、外で何が起きているか確認してきなさい！",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "So much noise... Oh lowly animal, go outside and check what happened!",
-						"englishNote": ""
-					},
-					"8": {
-						"event": "Touch",
-						"media": "touch_1_4",
-						"chinese": "你是想要我的雪绒围巾？我可没同意。",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "このストールを取るつもり？下等生物にそんなことを許した覚えなんてないわよ",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Are you trying to touch my stole? I have no memory of granting a lowly animal permission to do that!",
-						"englishNote": ""
-					},
-					"9": {
-						"event": "Touch (Special)",
-						"media": "touch_2_4",
-						"chinese": "哼哼…看来是怀念起我的惩罚了呢 ，低等生物",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "ふふ、下等生物は私のおしおきが恋しいのかしら",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "Hahah, do you yearn for my punishment that badly, lowly animal?",
-						"englishNote": ""
-					},
-					"10": {
-						"event": "Return to Port",
-						"media": "home_4",
-						"chinese": "喂，低等生物，你要把主人冷落到什么时候！",
-						"chineseTL": "",
-						"chineseNote": "",
-						"japanese": "おい下等生物、いつまで主を放置する気！？",
-						"japaneseTL": "",
-						"japaneseNote": "",
-						"english": "You lowly animal! For how long do you intend to ignore me?!",
-						"englishNote": ""
-					}
-				}
-			}
-		}
-	},
-	"fleet_tech": {
-		"pt_get": "18",
-		"add_get_attr": "HP",
-		"add_get_value": "1",
-		"add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"pt_upgrade": "38",
-		"pt_level": "28",
-		"add_level_attr": "Firepower",
-		"add_level_value": "1",
-		"add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
-		"t_level": "5",
-		"ships": "deutschland,admiral_graf_spee"
-	}
+  "name_reference": "deutschland",
+  "cn_reference": "deyizhi",
+  "nameJP": "ドイッチュラント",
+  "nameCN": "德意志",
+  "ID": "245",
+  "name": "Deutschland",
+  "internal_id": "403041",
+  "rarity": "Elite",
+  "initialStar": "★★☆☆☆",
+  "hull": "Heavy Cruiser",
+  "navy": "Ironblood",
+  "prefix": "KMS",
+  "buildTime": "01:55:00",
+  "class": "Deutschland-Class",
+  "voiceActress": "Sumire Uesaka",
+  "parameters": {
+    "firepower": "A",
+    "torpedo": "C",
+    "aviation": "E",
+    "evasion": "C",
+    "antiAir": "C",
+    "hp": "A"
+  },
+  "scrap": {
+    "gold": "9",
+    "oil": "3",
+    "medal": "4"
+  },
+  "releaseDate": {
+    "JP": "",
+    "CN": "",
+    "KR": "",
+    "EN": ""
+  },
+  "artist": {
+    "name": "RAN",
+    "weibo": "https://weibo.com/u/2235541213",
+    "twitter": "https://twitter.com/bukeranwu",
+    "pixiv": "https://www.pixiv.net/member.php?id=2957827",
+    "other": ""
+  },
+  "enhance": {
+    "firepower": "31",
+    "torpedo": "13",
+    "aviation": "0",
+    "reload": "12"
+  },
+  "acquisitionMethod": "Event: Divergent Chessboard, Heavy Construction (JP/CN)",
+  "skill": {
+    "1": {
+      "icon": "10650",
+      "requirement": "Default Unlocked",
+      "name": "Pocket Battleship",
+      "type": "Offensive",
+      "description": "Increases the DMG this ship deals to DDs and CLs by 15%(35%)."
+    },
+    "2": {
+      "icon": "23221",
+      "requirement": "Limit Break I(III)",
+      "name": "All Out Assault Ⅰ",
+      "type": "Offensive",
+      "description": "Activate All Out Assault Ⅰ: Deutschland Class once every 9 times the main gun is fired."
+    }
+  },
+  "skin": {
+    "1": {
+      "id": "deyizhi",
+      "name": "Deutschland",
+      "description": "Deutschland-class armored cruiser, Deutschland.",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
+    },
+    "2": {
+      "id": "deyizhi_2",
+      "name": "Dark Demon Princess",
+      "description": "For a servant, your eyes are good... *coughs*... I'm an Ironblood Princess, the Queen of Night, Deutschland! Servant? No. I am the first of my family. Come, kiss the ring of royalty!",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
+    },
+    "3": {
+      "id": "deyizhi_3",
+      "name": "Service Time?!",
+      "description": "One must not neglect sunscreen during the summer... Plebeian, if you wish to serve your master, prostrate yourself and yell \"I beg of you, Queen Deutschland\" three times, and I might consider giving you an opportunity. Ahahaha~",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
+    },
+    "4": {
+      "id": "deyizhi_4",
+      "name": "Demon Princess' Dark Hour Banquet",
+      "description": "I seem pleased? Of course I am. Why wouldn't I be when my sweet little sister will be joining us at the party? Now shape up and entertain your master, you lowly animal! Ahahahaha!",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        }
+      }
+    },
+    "5": {
+      "id": "deyizhi_5",
+      "name": "Lantern-Lit Ruler",
+      "description": "Why are so many people out and about during a holiday? ...That's it! Lowly animal, was it your idea to prepare all this to surprise me...?! Heh... Hehe, that's right, don't you dare disappoint me!",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        }
+      }
+    }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "43100",
+      "rarity": "Common",
+      "name": "Triple 283mm Main Gun (SK C/28)"
+    },
+    "2": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "3": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "3571",
+      "firepower": "265",
+      "torpedo": "191",
+      "antiAir": "134",
+      "aviation": "0",
+      "reload": "153",
+      "hit": "117",
+      "evasion": "18",
+      "speed": "22.4",
+      "luck": "72",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Medium"
+    },
+    "120": {
+      "hp": "4018",
+      "firepower": "301",
+      "torpedo": "220",
+      "antiAir": "154",
+      "aviation": "0",
+      "reload": "176",
+      "hit": "131",
+      "evasion": "53",
+      "speed": "22.4",
+      "luck": "72",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Medium"
+    },
+    "base": {
+      "hp": "691",
+      "firepower": "56",
+      "torpedo": "41",
+      "antiAir": "29",
+      "aviation": "0",
+      "reload": "65",
+      "hit": "45",
+      "evasion": "7",
+      "speed": "22.4",
+      "luck": "72",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "3",
+      "armor": "Medium"
+    },
+    "100retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "22.4",
+      "luck": "72",
+      "asw": "",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Medium"
+    },
+    "120retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "22.4",
+      "luck": "72",
+      "asw": "",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "11",
+      "armor": "Medium"
+    }
+  },
+  "limitBreak": {
+    "tier1": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "tier2": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "tier3": "Improve All Out Assault/Main gun efficiency +15%"
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "Heavy Cruiser",
+      "efficiency": "110%/115%/125%/140%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "Torpedo",
+      "efficiency": "130%/130%/130%/130%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/1/1"
+    },
+    "3": {
+      "type": "Anti-Air Gun",
+      "efficiency": "100%/100%/100%/100%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "heavy": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": ""
+    },
+    "special": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "limited": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "deyizhi",
+        "id": "0",
+        "label": "Deutschland",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "德意志级装甲巡洋舰—德意志",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ドイッチュラント装甲巡洋艦・ドイッチュラント",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Deutschland-class armored cruiser, Deutschland.",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Biography",
+            "media": "profile",
+            "chinese": "哼，我就是德意志级A号舰——德意志号！如此尊贵的我怎么能随随便便出战呢，所以没有什么战绩也是理所应当的啦，精神领袖你明白么？哼！什么？吕……吕佐夫号是谁？可、可恶，吵死了！这种事情我怎么会知道？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "わたしはドイッチュラント級A番艦――ドイッチュラント！こんなに高貴なわたしはやすやすと戦場に駆り出されるわけにはいかないから、戦果が少ないのは当然なのよ？スピリチュアルリーダーよ！わかる？なに？りゅ…「リュッツォウ」は誰ですって？うるさいわね…そんなこと知るもんか！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hmph! I'm Deutschland, the first ship of the Deutschland-class! A prestigious individual such as myself wouldn't be sent into smaller battles. As such, it's only natural that I don't have many of these petty achievements. It's called spiritual leadership! Hmph! Lützow? ...Shut up! Like I'd care about that!",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "get",
+            "chinese": "你已经成为我德意志的仆人了，你应该感到荣幸才对。还有，记住以后不要回答“喔”，要回“是”！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あなたはもうこのドイッチュラントの下僕よ？光栄に思いなさい。それから、「うん」はダメ、返事は「はい」よ？わかった？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "From now on, you are Deutschland's servant! You should feel honored. Also, don't answer me with \"mhm.\" You will answer me with \"yes, ma'am\" from now on. Are we clear?",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Login",
+            "media": "login",
+            "chinese": "离开这么久，去哪里觅食了？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "随分時間が経ったね…一体どこで油を売ってたの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You sure took your sweet time. Just where were you rooting around?",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Details",
+            "media": "detail",
+            "chinese": "果然这种时候不管怎样都要给你点处罚呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "こんな時は…どうあってもあなたを処罰しなくては…",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It's times like these... where I simply must punish you.",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 1",
+            "media": "main_1",
+            "chinese": "要用低等动物能理解的语言和你交流才行呢……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物の言葉で話してあげなくてはね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "It seems like I must speak in a way that even lowly animals can understand.",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 2",
+            "media": "main_2",
+            "chinese": "哈哈哈哈，刚才又把两个路过的重巡给吓跑了呢~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ハハハハ、さっき通りがかりの重巡洋艦二隻を驚かせたら逃げちゃったわ～",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hahaha! I didn't even need to fire my gun to scare off those cruisers~",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Main 3",
+            "media": "main_3",
+            "chinese": "如果你执意要发呆的话，那么我就不奉陪了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ぼんやりしたいなら、わたしはもうしらないわよ~",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If you insist on standing around like an idiot, I'm just going to leave.",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch_1",
+            "chinese": "真是不知悔改的仆人，就这么怀念我的鞭挞吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あんたって本当に懲りないね…わたしのムチがそんなに恋しいの~？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You just never learn, do you? Do you want to taste my whip again that badly~?",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Touch (Special)",
+            "media": "touch_2",
+            "chinese": "嗯？很享受嘛~你非常喜欢那样？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ふぅん～楽しんでいるようね～、こういうの好きなの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hmm? It seems like you're enjoying yourself... do you get off to this kind of stuff?",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mission",
+            "media": "task",
+            "chinese": "任务！在我的字典里，没有未完成这三个字！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ミッション！わたしの辞書には未完成という文字はない！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Mission! There's no entry for \"incomplete\" in my dictionary!",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete",
+            "chinese": "快把奖励领了！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "はやく報酬をもらってちょうだい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hurry up and fetch the rewards for me~",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Mail",
+            "media": "mail",
+            "chinese": "拿去，用低等动物语言所写的邮件",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物の言語で書かれた手紙よ、持っていきなさいな",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You've received a letter in that lowly animal language of yours. Fetch~",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Return to Port",
+            "media": "home",
+            "chinese": "不要掉以轻心！愚笨的家伙，回港并不意味着结束",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "油断しない！この馬鹿！母港に帰ったって終わったわけじゃないのよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Pay attention, you idiot! Just because we're back at port doesn't mean that you're done.",
+            "englishNote": ""
+          },
+          "15": {
+            "event": "Commission Complete",
+            "media": "expedition",
+            "chinese": "哼，小羊羔们完成委托了呢，意外的还挺能干嘛",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ふん、子羊たちが委託を完了したようね。意外とやるじゃない",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hmph, so our little lambs managed to complete their commission. What a pleasant surprise.",
+            "englishNote": ""
+          },
+          "16": {
+            "event": "Enhancement",
+            "media": "upgrade",
+            "chinese": "虽然是低等动物，不过很懂事嘛",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物の分際でよく分かってるじゃない",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Aren't you the obedient animal~",
+            "englishNote": ""
+          },
+          "17": {
+            "event": "Flagship",
+            "media": "warcry",
+            "chinese": "这会是一次愉悦的扫荡",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "楽しい掃討になりそうね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'm going to enjoy mopping you all up~",
+            "englishNote": ""
+          },
+          "18": {
+            "event": "Victory",
+            "media": "mvp",
+            "chinese": "真是小题大做的家伙，明明就是一个笨蛋",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "相手は大したことないのに…まったく大げさね~",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Even though the enemies were no big deal... what a pompous affair.",
+            "englishNote": ""
+          },
+          "19": {
+            "event": "Defeat",
+            "media": "lose",
+            "chinese": "就算坐沉也不会向你们这些低等动物投降的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "沈没したってあんたらのよう下等生物に投降するものか！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I'd sink to the bottom of the ocean before surrending to you animals!",
+            "englishNote": ""
+          },
+          "20": {
+            "event": "Skill",
+            "media": "skill",
+            "chinese": "既残酷，又可爱，呵呵呵……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "残酷で、可憐で、うふふ……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Cruel and lovely, ahaha...",
+            "englishNote": ""
+          },
+          "21": {
+            "event": "Low HP",
+            "media": "hp",
+            "chinese": "竟敢小看我德意志……！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "このドイッチュラントを見くびるとはね……！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Do not underestimate the great Deutschland!",
+            "englishNote": ""
+          },
+          "22": {
+            "event": "Affinity (Upset)",
+            "media": "feeling1",
+            "chinese": "对你没兴趣了……找点新的宠物好了",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あなたへの興味がなくなったの。さて、新しいペットでも探そうかしら",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I have no interest in you anymore... I should find myself a new pet.",
+            "englishNote": ""
+          },
+          "23": {
+            "event": "Affinity (Stranger)",
+            "media": "feeling2",
+            "chinese": "笑着享受战争是何等痛快，你这样的低等动物是不会理解的吧哈哈哈！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "戦争を笑って楽しむのはどれぐらいの愉悦か、あなたのような下等生物には理解できるはずがないわ！あははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "There is no thrill like waging war with a grin on your face! There's no way a lowly animal like you could ever undrestand that! Ahahahaha!",
+            "englishNote": ""
+          },
+          "24": {
+            "event": "Affinity (Friendly)",
+            "media": "feeling3",
+            "chinese": "区区低等动物，尽全力去找些能让我开心的东西吧，哈哈哈",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物、全力でわたしを楽しませるものを探しなさい。ははははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Lowly animal, root around for all you are worth to find something worthy of my attention. Ahahahaha~",
+            "englishNote": ""
+          },
+          "25": {
+            "event": "Affinity (Like)",
+            "media": "feeling4",
+            "chinese": "雄狮从不会在乎羊群的看法，不过……你确实是一只有意思的下等动物，再让我高兴一点，我就听听你的愿望吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ライオンは羊の群れの考えを気にしないものよ。……けどあなたは確かに面白い下等生物だわ。わたしをもっと楽しませたら、願いぐらい聞いてあげるわよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "A lion doesn't concern itself with the bleating of sheep. But... I do find you interesting for a lowly animal. If you amuse me some more, maybe I will listen to your wishes.",
+            "englishNote": ""
+          },
+          "26": {
+            "event": "Affinity (Love)",
+            "media": "feeling5",
+            "chinese": "好吧，作为让我如此高兴的奖赏，赐你将我抱起的权利吧，还愣着干什么，公主抱没听说过吗，公主抱！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ここまでわたしを楽しませた褒美として、わたしを抱き上げる権利を与えるわ！何とぼけてるの？お姫様抱っこ、聞いたことないかしら。…お姫様抱っこよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "For keeping me amused this long, I shall grant you the privilege of holding me. Why are you still standing there? Have you never heard of a princess carry? Princess~ carry!",
+            "englishNote": ""
+          },
+          "27": {
+            "event": "Pledge",
+            "media": "propose",
+            "chinese": "没想到我会有和低等生物缔结契约的一天……这种心情虽然是头一次不过很令人愉快，呵呵呵，好，从现在起你就是坐骑二号了，感到荣幸吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "まさかこのわたしもこんな下等生物と契りを交わす日が来るとはね……この感じ、初めてなのに意外と楽しいわ。はははは！いいわ！今日からあなたが乗り物二号よ！ありがたく思いなさい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I never thought the day would come when I pledge myself to a lowly animal. I've never felt anything like this before... but it's unexpectedly fun. Ahahaha~! From now on, you're my vehicle number two! You should be grateful!",
+            "englishNote": ""
+          }
+        }
+      },
+      "2": {
+        "skin_id": "deyizhi_2",
+        "id": "1",
+        "label": "Dark Demon Princess",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "明明只是个仆人，眼光倒是不错……咳咳，吾正是铁血的公主，暗夜的主宰，德意志！仆从，不，吾的第一个眷属啊，过来，赐你亲吻无上君王手背的权利！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物のくせに、……そう、この私こそ鉄血なる魔姫、闇夜の主ドイッチュラントよ！下等生物、ううん、私の下僕よ！おいで、お前に忠誠のキスを誓うチャンスをくれてやるわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "For such a lowly animal, your taste is not bad... That's right, I am Deutschland, Demon Princess of the Iron Blood and Mistress of the Night! Plebeians, no, my slaves, I shall grant you an opportunity to swear fealty to me with a kiss!",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1",
+            "chinese": "明明只是个仆人，眼光倒是不错……咳咳，吾正是铁血的公主，暗夜的主宰，德意志！仆从，不，吾的第一个眷属啊，过来，赐你亲吻无上君王手背的权利！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物のくせに、いいセンスをしてるわ……そう、この私こそ鉄血なる魔姫、闇夜の主ドイッチュラントよ！下等生物、ううん、私の下僕よ！おいで、お前に忠誠のキスを誓うチャンスをくれてやるわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "For such a lowly animal, your taste is not bad... That's right, I am Deutschland, Demon Princess of the Iron Blood and Mistress of the Night! Plebeians, no, my slaves, I shall grant you an opportunity to swear fealty to me with a kiss!",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Details",
+            "media": "detail_1",
+            "chinese": "眷属，过来……别害怕，这些小家伙不会伤害你的",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下僕、おいで…そう怖がらなくてもいいわ。この子たちはお前を傷つけないから",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Slave, come here... Do not fear, these little bats won't hurt you.",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Main 1",
+            "media": "main_1_1",
+            "chinese": "蠢货，只是兴趣所致穿上了衣服而已，谁允许你给我上这种红色的难喝饮料了！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "この下等生物、たかが衣装を変えたぐらいで、誰がこんな赤いドリンクを飲むと言ったの？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Imbecile! I only wore this costume as a hobby. Who gave you permission to serve me such a repulsive beverage? ",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 3",
+            "media": "main_3_1",
+            "chinese": "眷属，过来扶我下来。矮？蠢货，这是你的荣幸！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下僕、この私が降りるのを手伝いなさい。ちびっこ…！？誰が！？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Slave, help me get off my throne. Shorty? You imbecilic swine, do you think this is funny?",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Touch",
+            "media": "touch_1_1",
+            "chinese": "眷属，伸出你的脖子来，让我咬一口——蠢货，你不会当真了吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物、その首筋を差し出しなさい――アハハハ！このグズ！まさか本気にしたの～？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Slave, offer your neck to me so that I may feed... Ahahaha! Imbecile, surely you didn't take me seriously!",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Return to Port",
+            "media": "home_1",
+            "chinese": "作为眷属干的还不错，过来，稍微夸夸你吧",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下僕の分際でよくできたじゃない。おいで、ご褒美をやるわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You've done well for a slave. Come forth, I shall give you a little reward.",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Flagship",
+            "media": "warcry_1",
+            "chinese": "在你们的骨髓里刻下我的名字吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "骨の髄まで私の名を刻んでやるわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I shall engrave my name into your bones!",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Victory",
+            "media": "mvp_1",
+            "chinese": "尖叫吧，恐惧吧，臣服吧，哈哈哈！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "泣き叫べ！恐れ戦け！この私に跪け！アハハハ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Scream in agony! Tremble in fear! Kneel before me! Ahahaha! ",
+            "englishNote": ""
+          }
+        }
+      },
+      "3": {
+        "skin_id": "deyizhi_3",
+        "id": "2",
+        "label": "Service Time?!",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "夏天可不能漏了防晒措施呢…仆人，想要为主人服务的话，跪下来诚心诚意大喊三声“拜托了，德意志大人！”，我可能就会心软给你这个机会了哦？呵呵呵～",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "夏には日焼け対策が必須ね…そこの下等生物！主にご奉仕したいのなら、ここで跪いて、「お願いしますドイッチュラントさま！」って大声で三回ねだればもしかすると…私、日焼け止めを塗れるチャンスを与えるかもしれないわ？あははははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "One must not neglect sunscreen during the summer... Plebeian, if you wish to serve your master, prostrate yourself and yell \"I beg of you, Queen Deutschland\" three times, and I might consider giving you an opportunity. Ahahaha~",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_2",
+            "chinese": "夏天可不能漏了防晒措施呢…仆人，想要为主人服务的话，跪下来诚心诚意大喊三声“拜托了，德意志大人！”，我可能就会心软给你这个机会了哦？呵呵呵～",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "夏には日焼け対策が必須ね…そこの下等生物！主にご奉仕したいのなら、ここで跪いて、「お願いしますドイッチュラントさま！」って大声で三回ねだればもしかすると…私、日焼け止めを塗れるチャンスを与えるかもしれないわ？あははははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "One must not neglect sunscreen during the summer... Plebeian, if you wish to serve your master, prostrate yourself and yell \"I beg of you, Queen Deutschland\" three times, and I might consider giving you an opportunity. Ahahaha~",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_2",
+            "chinese": "太！慢！了！想害我的皮肤被太阳晒伤吗！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "お・そ・い！この私の肌を焼けさせる気！？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Way! Too! Slow! Are you trying to get my pristine skin sunburnt?",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_2",
+            "chinese": "仆人，不要偷懒，要把防晒霜涂均匀才行!",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "さぼるな下等生物！日焼け止めはムラなく塗ってもらうわよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Lazy swine, don't cut corners. Anything less than a perfectly uniform application of sunscreen is unacceptable! ",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_2",
+            "chinese": "仆人，帮我拿两条毛巾过来擦擦身子！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物、体を拭くからタオルを二枚持ってきなさい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Plebeian, fetch those two towels over there and wipe my body dry. ",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_2",
+            "chinese": "眼睛再瞪下去就要掉出来了哦？真是…无可救药的低等动物呢～",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "目玉が飛び出るぐらいじっと見つめてて……まったく救いようのない下等生物だわ！あはははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If your eyes wander any lower, they will get detached from their sockets. I say, there is no remedy for being uncultured swine~ ",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_2",
+            "chinese": "救生圈？要那个干什么，难道不是仆人你背着我游泳吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "浮き輪？そんなもの持ってどうするのよ。下等生物が私を背負って泳ぐんじゃないわけ？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "A lifebuoy? What would I use that for? Plebeian, were you not going to carry me on your back while swimming?",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_2",
+            "chinese": "露出了野兽一般的表情呢，仆人。对于这样的野兽，果然还是需要更多的鞭笞吧～",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "この下等生物、ケダモノみたいな顔をしやがって……ケダモノにはやっぱり鞭打ちが必要ね！あははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "To think that a plebeian would look at me with such a hungry, bestial expression. A lewd beast like this needs a thorough flogging.",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_2",
+            "chinese": "哼哼，果然是无法控制自己欲望的下等生物呢",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ふふ、やはり自分の欲すら抑えられない下等生物ね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Ho ho, it looks like this lowly swine cannot even control its basest desires.",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_2",
+            "chinese": "一回来就露出松懈的神情呢，哼哼，要不要让身为主人的我帮你「绷紧」一下神经？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "戻った途端にたるんでいるわね。ふっふん、主である私が「シメて」やろうか？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "What's with that lax expression of yours as soon as you get back... Ho ho, do you need your master to \"tighten up\" those loose morals of yours?",
+            "englishNote": ""
+          }
+        }
+      },
+      "4": {
+        "skin_id": "deyizhi_4",
+        "id": "3",
+        "label": "Demon Princess' Dark Hour Banquet",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "我的心情看起来很好？嗯哼。当初的下等生物，居然已经成长到了能够举办这种盛宴的地步，作为主人的我当然心情很好，哈哈哈，哈哈哈哈！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "機嫌が良さそうに見える？そうね、今日は可愛い妹もパーティーに参加しているんだもの、機嫌がいいに決まってるわ！この下等生物、主にもっともてなしなさい！あはははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I seem pleased? Of course I am. Why wouldn't I be when my sweet little sister will be joining us at the party? Now shape up and entertain your master, you lowly animal! Ahahahaha!",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_3",
+            "chinese": "我的心情看起来很好？嗯哼。当初的下等生物，居然已经成长到了能够举办这种盛宴的地步，作为主人的我当然心情很好，哈哈哈，哈哈哈哈！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "機嫌が良さそうに見える？そうね、今日は可愛い妹もパーティーに参加しているんだもの、機嫌がいいに決まってるわ！この下等生物、主にもっともてなしなさい！あはははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I seem pleased? Of course I am. Why wouldn't I be when my sweet little sister will be joining us at the party? Now shape up and entertain your master, you lowly animal! Ahahahaha!",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_3",
+            "chinese": "还是一如既往的慢，不过，今天我的心情很好，原谅你！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "相変わらずどん亀のようね…この素晴らしい晩餐会に免じて許してやるわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Still sluggish as always. But because I'm in a pretty decent mood today, I'll forgive you!",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_3",
+            "chinese": "仆人的东西，就是我的东西，所以仆人的舰队越强大，不就是代表着我的实力更加强大？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物のものは私のもの、下等生物の率いる艦隊が強ければ、私の力が増すということを意味するわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "What belongs to my lowly animal also belongs to me. Therefore, the stronger my lowly animal's fleet is, the clearer the proof of my excellence is.",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_3",
+            "chinese": "低等动物，说说你对我和斯佩礼服的感想吧。哼哼，想必说不出可爱之外的评价了吧，啊哈哈哈哈！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物、シュペーのドレスについて素直な感想を言いなさい。なに、カワイイ以外言葉が出るはずがないわ！あはははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Lowly animal, you may offer your opinion about me and Graf Spee's dresses. Hmph, I bet your vocabulary doesn't include anything beyond \"cute,\" ahahaha! ",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_3",
+            "chinese": "咦，斯佩居然在和别的阵营的人聊天…？不会被人欺负了吧…待会得去警告一下她们才行……",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "シュペーがほかの陣営の子と喋ってる……いじめられたらどうしよう…あとであの子たちに注意したほうがいいかしら……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Ehh? Graf Spee is actually talking to people from other factions...? I hope she's not being bullied... I'll have to give them a stern warning just in case... ",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_3",
+            "chinese": "低等动物，为什么每个人看到我都会向我打招呼，而不是惧怕我？……受人敬爱？是、是吗……哼，作为精神领袖，受人敬爱也是自然的吧！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "下等生物、最近はみんな妙に馴れ馴れしくなってきていると思わない？……私が…みんなから愛されているだけ？そ、そうね…スピリチュアルリーダーとして愛されて当然だわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Tell me, lowly animal, why does everyone greet me instead of cowering in fear? ...Because they like me? R-really... Hmph. As a spiritual leader, it's only natural to be respected by all!",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_3",
+            "chinese": "跳舞？嗯哼，就知道你这仆人会提出这个请求，我早就练……准备好了！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ダンス？ふふん、下等生物がそう言い出すことは見通していたわ！とっくにれんしゅ……ではなく、準備しておいたわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Dancing? Aha~ I just knew you'd come to me with this request, so I prac... err, prepared beforehand!",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Mission",
+            "media": "task_3",
+            "chinese": "任务？任务比陪伴主人参加宴会更重要吗？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "任務ね……主より優先しなきゃいけない任務があるのかしら？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Missions? What mission could possibly be more important than accompanying your master to the banquet?",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Mission Complete",
+            "media": "mission_complete_3",
+            "chinese": "……哼，看在这些礼物的份上，饶你一命",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "任務報酬…私たちへの贈り物と考えていいわね",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hmph... After seeing these rewards, I'll let you live.",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Mail",
+            "media": "mail_3",
+            "chinese": "居然在这种时候有信件，真是煞风景，让我看看！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "こんな時にメールの確認をするなんて、風情のわからない下等生物ね！……私にも見せなさい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Getting mail right now sure spoils the mood. Let me see those!",
+            "englishNote": ""
+          },
+          "12": {
+            "event": "Return to Port",
+            "media": "home_3",
+            "chinese": "事先声明，我可不是在等你，只是，没有下等生物在场，又怎么能显得主人的我高贵呢？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "あなたのことを待っていたわけじゃないわ。下等生物がいたら私のカリスマがもっと輝く――そんなとこかしら？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Let's be clear here, I was not waiting for you. I simply can't show off the full extent of my grandeur as a master without the presence of my lowly animal.",
+            "englishNote": ""
+          },
+          "13": {
+            "event": "Victory",
+            "media": "mvp_3",
+            "chinese": "能够被心情很好的德意志大人蹂躏，是你们的荣幸~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "このドイッチュラントに蹂躙されるなんて、あなたたちはどれだけ幸せなのかしら～あはははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You should feel honored to have the privilege of being ravaged by the one-and-only Deutschland while she is in a good mood!",
+            "englishNote": ""
+          },
+          "14": {
+            "event": "Defeat",
+            "media": "lose_3",
+            "chinese": "我还要参加宴会，所以就不和你们纠缠了~",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "くっ……これ以上は付き合わないわよ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "I have a banquet to attend, so I have no time to let myself get dragged through the mud by you lot~",
+            "englishNote": ""
+          }
+        }
+      },
+      "5": {
+        "skin_id": "deyizhi_5",
+        "id": "4",
+        "label": "Lantern-Lit Ruler",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "为什么节日里还有这么多人在忙碌着？…噢，我明白了，这是仆人你特别为我准备的节目，对吧？可别让我失望啊！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "祝日なのにみんな忙しそうね…そうか！これは下等生物がこの私のために用意したサプライズ…！？ふ、ふふふ、せいぜい私を失望させるんじゃないわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Why are so many people out and about during a holiday? ...That's it! Lowly animal, was it your idea to prepare all this to surprise me...?! Heh... Hehe, that's right, don't you dare disappoint me!",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_4",
+            "chinese": "为什么节日里还有这么多人在忙碌着？…噢，我明白了，这是仆人你特别为我准备的节目，对吧？可别让我失望啊！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "祝日なのにみんな忙しそうね…そうか！これは下等生物がこの私のために用意したサプライズ…！？ふ、ふふふ、せいぜい私を失望させるんじゃないわ！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Why are so many people out and about during a holiday? ...That's it! Lowly animal, was it your idea to prepare all this to surprise me...?! Heh... Hehe, that's right, don't you dare disappoint me!",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_4",
+            "chinese": "来得正是时候。低等生物，帮我把我的鞋子脱了，穿着这玩意走路可真累…",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "来たわね下等生物。さあ、靴を脱がすのを手伝ってもらうわよ！…これ履いて歩くと疲れるわ……",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "There you are, lowly animal. Now help me take off these heels! Strolling around in these things is so tiresome...",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_4",
+            "chinese": "这些装饰看起来还是挺气派的…哼哼，加上我坐在其中，就显得更加高贵了。低等生物，你也是这样觉得的吧？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "この内装、中々豪華な作りだわね…ふふふ、つまりこのドイッチュラント様の高貴さを一層引き立ててくれるに違いないわ！下等生物、あなたもそう思ってるわね？あははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "The decor in here is truly sumptuous... Hahahah! It further raises the pedestal of eminence atop which I sit! Isn't that right, lowly animal? Ahahahaha!",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_4",
+            "chinese": "要不是为了斯佩着想，我才没兴趣拿雪堆些奇奇怪怪的东西。",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "シュペーのためでなければ、誰が雪だるまなんて作るものか！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If Spee wasn't so dear to me, I would've never even *considered* building a snowman!",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_4",
+            "chinese": "仆人，我饿了。我听说东煌的美食甚多，你知道该怎么做吧？",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "腹が減ったわよ下等生物。ところで、東煌（とうこう）は食文化に長けてると聞いたわ…何をすべきか分かるわね？あははは！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Oh lowly animal, your master is hungry. I've heard that the Dragon Empery's cuisine is very delectable... You know what to do now, yes? Ahahahahah!",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_4",
+            "chinese": "外面怎么这么热闹，是发生了什么好事吗？仆人，去看看。",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "騒がしいわね…下等生物、外で何が起きているか確認してきなさい！",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "So much noise... Oh lowly animal, go outside and check what happened!",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_4",
+            "chinese": "你是想要我的雪绒围巾？我可没同意。",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "このストールを取るつもり？下等生物にそんなことを許した覚えなんてないわよ",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Are you trying to touch my stole? I have no memory of granting a lowly animal permission to do that!",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_4",
+            "chinese": "哼哼…看来是怀念起我的惩罚了呢 ，低等生物",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "ふふ、下等生物は私のおしおきが恋しいのかしら",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "Hahah, do you yearn for my punishment that badly, lowly animal?",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_4",
+            "chinese": "喂，低等生物，你要把主人冷落到什么时候！",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "おい下等生物、いつまで主を放置する気！？",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "You lowly animal! For how long do you intend to ignore me?!",
+            "englishNote": ""
+          }
+        }
+      }
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "18",
+    "add_get_attr": "HP",
+    "add_get_value": "1",
+    "add_get_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+    "pt_upgrade": "38",
+    "pt_level": "28",
+    "add_level_attr": "Firepower",
+    "add_level_value": "1",
+    "add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
+    "t_level": "5",
+    "ships": "deutschland,admiral_graf_spee,little_spee"
+  }
 }
