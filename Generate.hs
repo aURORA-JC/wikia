@@ -68,6 +68,7 @@ hull' "Submarine Aircraft Carrier" = "ssv.png"
 hull' "Repair Ship"                = "ar.png"
 hull' "Repair"                     = "ar.png"
 hull' "Munition Ship"              = "ae.png"
+hull' "Sailing Frigate"            = "sf.png"
 hull' x = error x
 
 navy :: String
@@ -98,7 +99,8 @@ navy' "Hololive"            = "uwrr_icon.png"
 navy' "META"                = "meta_icon.png"
 navy' "Venus Vacation"      = "uwrr_icon.png"
 navy' "Idolm@ster"          = "uwrr_icon.png"
-navy' "SSSS"  = "uwrr_icon.png"
+navy' "SSSS"                = "uwrr_icon.png"
+navy' "Tempesta"            = "uwrr_icon.png"
 navy' x = error x
 
 sidebar

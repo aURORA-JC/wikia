@@ -809,6 +809,15 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "112": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/manchesite.png",
+        "link": "manchester",
+        "name": "Manchester",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "113": {
         "name" : "Gloucester",
         "hull" : "Light Cruiser",
@@ -2441,8 +2450,8 @@
     "335": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/beierfasite_younv.png",
-        "link": "belchan",
-        "name": "Bel-chan",
+        "link": "little_bel",
+        "name": "Little Bel",
         "navy": "Royal Navy",
         "rarity": "Elite",
         "shipType": "common"
@@ -4506,6 +4515,33 @@
         "name": "Little Spee",
         "navy": "Ironblood",
         "rarity": "Elite",
+        "shipType": "common"
+    },
+    "569": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yanusi.png",
+        "link": "janus",
+        "name": "Janus",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "570": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aerbien.png",
+        "link": "albion",
+        "name": "Albion",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "571": {
+        "hull": "Sailing Frigate",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huangjiacaifu.png",
+        "link": "royal_fortune",
+        "name": "Royal Fortune",
+        "navy": "Tempesta",
+        "rarity": "Super Rare",
         "shipType": "common"
     },
     "P001": {
