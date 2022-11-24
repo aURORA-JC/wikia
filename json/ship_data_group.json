@@ -2685,12 +2685,21 @@
         0
       ],
       [
-        "Heavy Ship Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "heavy"
+            "page": 3
           }
         ],
         0
@@ -2727,12 +2736,21 @@
         0
       ],
       [
-        "Heavy Ship Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "heavy"
+            "page": 3
           }
         ],
         0
@@ -4637,12 +4655,21 @@
         0
       ],
       [
-        "Light Construction",
+        "Guild shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -9187,12 +9214,21 @@
         0
       ],
       [
-        "Special Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "special"
+            "page": 3
           }
         ],
         0
@@ -9229,12 +9265,21 @@
         0
       ],
       [
-        "Special Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "special"
+            "page": 3
           }
         ],
         0
@@ -9742,22 +9787,21 @@
         0
       ],
       [
-        "Heavy Ship Construction",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "heavy"
-          }
-        ],
-        0
-      ],
-      [
         "Requisition (random chance)",
         [
           "GETBOAT",
           {
             "page": 3
+          }
+        ],
+        0
+      ],
+      [
+        "Guild shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
           }
         ],
         0
@@ -10643,17 +10687,6 @@
         0
       ],
       [
-        "Light ship Construction",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "light"
-          }
-        ],
-        0
-      ],
-      [
         "Requisition (random chance)",
         [
           "GETBOAT",
@@ -11295,12 +11328,11 @@
         0
       ],
       [
-        "Light ship Construction",
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -11337,12 +11369,11 @@
         0
       ],
       [
-        "Light ship Construction",
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -12095,6 +12126,17 @@
           ""
         ],
         0
+      ],
+      [
+        "Light ship Construction",
+        [
+          "GETBOAT",
+          {
+            "page": 1,
+            "projectName": "light"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 30221,
@@ -12159,12 +12201,21 @@
         0
       ],
       [
-        "Light ship Construction",
+        "Guild shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -12283,12 +12334,21 @@
         0
       ],
       [
-        "Light Construction",
+        "Guild shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -12889,12 +12949,21 @@
         0
       ],
       [
-        "Special Construction",
+        "Guild shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "guild"
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "special"
+            "page": 3
           }
         ],
         0
@@ -13013,12 +13082,21 @@
         0
       ],
       [
-        "Light ship Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -13753,12 +13831,21 @@
         0
       ],
       [
-        "Heavy Ship Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "heavy"
+            "page": 3
           }
         ],
         0
@@ -14038,12 +14125,21 @@
         0
       ],
       [
-        "Light Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -14262,17 +14358,6 @@
         "Event: Lunar New Year",
         [
           ""
-        ],
-        0
-      ],
-      [
-        "Light/Special Construction",
-        [
-          "GETBOAT",
-          {
-            "page": 1,
-            "projectName": "special"
-          }
         ],
         0
       ]
@@ -14977,12 +15062,21 @@
         0
       ],
       [
-        "Light ship Construction",
+        "Medal Shop (when listed)",
+        [
+          "SHOP",
+          {
+            "warp": 8
+          }
+        ],
+        0
+      ],
+      [
+        "Requisition (random chance)",
         [
           "GETBOAT",
           {
-            "page": 1,
-            "projectName": "light"
+            "page": 3
           }
         ],
         0
@@ -17825,6 +17919,16 @@
           ""
         ],
         0
+      ],
+      [
+        "Core Data Exchange",
+        [
+          "SHOP",
+          {
+            "warp": "sham"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 40308,
@@ -17856,6 +17960,16 @@
           ""
         ],
         0
+      ],
+      [
+        "Core Data Exchange",
+        [
+          "SHOP",
+          {
+            "warp": "sham"
+          }
+        ],
+        0
       ]
     ],
     "group_type": 20711,
@@ -17885,6 +17999,16 @@
         "Event: Universe in Unison",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Munition shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
         ],
         0
       ]
@@ -18102,6 +18226,16 @@
         "Event: Inverted Orthant",
         [
           ""
+        ],
+        0
+      ],
+      [
+        "Munition shop exchange",
+        [
+          "SHOP",
+          {
+            "warp": "supplies"
+          }
         ],
         0
       ]
@@ -21988,6 +22122,192 @@
     "trans_type": 0,
     "type": 5
   },
+  "10091": {
+    "code": 10091,
+    "description": [
+      [
+        "Event: The Alchemist and the Archipelago of Secrets",
+        [
+          ""
+        ],
+        0
+      ]
+    ],
+    "group_type": 1090001,
+    "handbook_type": 1,
+    "hide": 0,
+    "index_id": 10091,
+    "nationality": 109,
+    "property_hexagon": [
+      "B",
+      "A",
+      "E",
+      "B",
+      "B",
+      "C"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 2
+  },
+  "10092": {
+    "code": 10092,
+    "description": [
+      [
+        "Event: The Alchemist and the Archipelago of Secrets",
+        [
+          ""
+        ],
+        0
+      ]
+    ],
+    "group_type": 1090002,
+    "handbook_type": 1,
+    "hide": 0,
+    "index_id": 10092,
+    "nationality": 109,
+    "property_hexagon": [
+      "E",
+      "E",
+      "A",
+      "C",
+      "B",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 6
+  },
+  "10093": {
+    "code": 10093,
+    "description": [
+      [
+        "Event: The Alchemist and the Archipelago of Secrets",
+        [
+          ""
+        ],
+        0
+      ]
+    ],
+    "group_type": 1090003,
+    "handbook_type": 1,
+    "hide": 0,
+    "index_id": 10093,
+    "nationality": 109,
+    "property_hexagon": [
+      "S",
+      "E",
+      "E",
+      "D",
+      "C",
+      "B"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 5
+  },
+  "10094": {
+    "code": 10094,
+    "description": [
+      [
+        "Event: The Alchemist and the Archipelago of Secrets",
+        [
+          ""
+        ],
+        0
+      ]
+    ],
+    "group_type": 1090004,
+    "handbook_type": 1,
+    "hide": 0,
+    "index_id": 10094,
+    "nationality": 109,
+    "property_hexagon": [
+      "B",
+      "C",
+      "E",
+      "C",
+      "C",
+      "B"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 3
+  },
+  "10095": {
+    "code": 10095,
+    "description": [
+      [
+        "Event: The Alchemist and the Archipelago of Secrets",
+        [
+          ""
+        ],
+        0
+      ]
+    ],
+    "group_type": 1090005,
+    "handbook_type": 1,
+    "hide": 0,
+    "index_id": 10095,
+    "nationality": 109,
+    "property_hexagon": [
+      "E",
+      "E",
+      "A",
+      "C",
+      "B",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 7
+  },
+  "10096": {
+    "code": 10096,
+    "description": [
+      [
+        "Event: The Alchemist and the Archipelago of Secrets",
+        [
+          ""
+        ],
+        0
+      ]
+    ],
+    "group_type": 1090006,
+    "handbook_type": 1,
+    "hide": 0,
+    "index_id": 10096,
+    "nationality": 109,
+    "property_hexagon": [
+      "B",
+      "E",
+      "E",
+      "C",
+      "C",
+      "A"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 18
+  },
   "20001": {
     "code": 20001,
     "description": [
@@ -23416,6 +23736,40 @@
     "trans_type": 0,
     "type": 1
   },
+  "30016": {
+    "code": 30016,
+    "description": [
+      [
+        "Event: Cruise Missions",
+        [
+          "METACHARACTER",
+          {
+            "autoOpenShipConfigID": 9701021
+          }
+        ],
+        0
+      ]
+    ],
+    "group_type": 970102,
+    "handbook_type": 3,
+    "hide": 0,
+    "index_id": 30016,
+    "nationality": 97,
+    "property_hexagon": [
+      "D",
+      "B",
+      "E",
+      "A",
+      "D",
+      "D"
+    ],
+    "redirect_id": 101,
+    "trans_radar_chart": [],
+    "trans_skill": [],
+    "trans_skin": 0,
+    "trans_type": 0,
+    "type": 1
+  },
   "all": [
     1,
     2,
@@ -23962,6 +24316,12 @@
     10085,
     10086,
     10087,
+    10091,
+    10092,
+    10093,
+    10094,
+    10095,
+    10096,
     20001,
     20002,
     20003,
@@ -24003,6 +24363,7 @@
     30012,
     30013,
     30014,
-    30015
+    30015,
+    30016
   ]
 }

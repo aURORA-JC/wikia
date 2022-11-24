@@ -101,6 +101,7 @@ navy' "Venus Vacation"      = "uwrr_icon.png"
 navy' "Idolm@ster"          = "uwrr_icon.png"
 navy' "SSSS"                = "uwrr_icon.png"
 navy' "Tempesta"            = "uwrr_icon.png"
+navy' "Atelier Ryza"        = "uwrr_icon.png"
 navy' x = error x
 
 sidebar

@@ -4922,6 +4922,15 @@
         "rarity": "Elite",
         "shipType": "META"
     },
+    "M016": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mingyunnvshen_alter.png",
+        "link": "fortune_meta",
+        "name": "Fortune META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
     "C001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
@@ -5352,6 +5361,60 @@
         "name": "Mujina",
         "navy": "SSSS",
         "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C091": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/laisha.png",
+        "link": "reisalin_stout",
+        "name": "Reisalin Stout",
+        "navy": "Atelier Ryza",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C092": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/keluodiya.png",
+        "link": "klaudia_valentz",
+        "name": "Klaudia Valentz",
+        "navy": "Atelier Ryza",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C093": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/patelixia.png",
+        "link": "patricia_abelheim",
+        "name": "Patricia Abelheim",
+        "navy": "Atelier Ryza",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C094": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lila.png",
+        "link": "lila_decyrus",
+        "name": "Lila Decyrus",
+        "navy": "Atelier Ryza",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C095": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/saili.png",
+        "link": "serri_glaus",
+        "name": "Serri Glaus",
+        "navy": "Atelier Ryza",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C096": {
+        "hull": "Super Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kala.png",
+        "link": "kala_ideas",
+        "name": "Kala Ideas",
+        "navy": "Atelier Ryza",
+        "rarity": "Super Rare",
         "shipType": "collab"
     },
     "X002": {

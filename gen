@@ -27,5 +27,8 @@ wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareC
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/sharecfgdata/spweapon_data_statistics.json -O json/spweapon_data_statistics.cn.json \
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/sharecfgdata/spweapon_data_statistics.json -O json/spweapon_data_statistics.jp.json \
      && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/sharecfgdata/spweapon_data_statistics.json -O json/spweapon_data_statistics.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/EN/ShareCfg/ship_skin_words_add.json -O json/ship_skin_words_add.en.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/JP/ShareCfg/ship_skin_words_add.json -O json/ship_skin_words_add.jp.json \
+     && wget https://raw.githubusercontent.com/AzurLaneTools/AzurLaneData/main/CN/ShareCfg/ship_skin_words_add.json -O json/ship_skin_words_add.cn.json \
     && echo "Generating..." \
     && ./Generate.hs
