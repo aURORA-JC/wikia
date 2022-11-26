@@ -39,6 +39,8 @@ string
      $ many ((do char '\\'
                  char '"'
                    <|> char '\\'
+                   <|> (do char 't'
+                           return '\t')
                    <|> (do char 'n'
                            return '\n'))
               <|> satisfy ((/=) '"'))) <?> "String"

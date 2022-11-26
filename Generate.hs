@@ -831,7 +831,24 @@ showship context
                                                                                                                $ ""
                                                                                                              mapM_ (\x -> H.td $ H.preEscapedToHtml x) out
                                                                                                   False -> return ())
-                                                                                $ zip (zip (["Item1", "Item2", "Item3", "Item4", "Item5", "Shop1", "Shop2", "Shop3", "Shop4", "Shop5"] :: [String]) [1..]) $ tail $ keys w)
+                                                                                $ zip (zip (["Item1", "Item2", "Item3", "Item4", "Item5", "Shop1", "Shop2", "Shop3", "Shop4", "Shop5"] :: [String]) [1..]) $ tail $ keys w
+                                                                    case json % "internal_id" of
+                                                                      "10900011" -> let gametips = ctx_gametips context
+                                                                                        top      = gametips ! "ryza_composite_words"
+                                                                                        tip      = (elems top) !! 0
+                                                                                    in
+                                                                                      mapM_ (\(i, v) -> H.tr
+                                                                                                        $ do H.th $ H.preEscapedToHtml ("Atelier" ++ show i)
+                                                                                                             H.td $ H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                             $ "https://algwiki.moe/assets/cue/cv-10900011/acb/awb/"
+                                                                                                                                                             ++ (ashow ((elems v) !! 0))
+                                                                                                                                                             ++ ".ogg") H.! A.controls ""
+                                                                                                               $ ""
+                                                                                                             H.td ""
+                                                                                                             H.td ""
+                                                                                                             H.td $ H.preEscapedToHtml $ ashow ((elems v) !! 1))
+                                                                                      $ zip [0..] $ elems tip
+                                                                      _          -> return ())
                                                        $ [0..(maxenc - 1)]
 {-
                                                      mapM_ (\x
@@ -1035,6 +1052,7 @@ main
        ship_strengthen_meta <- readJsonLang "ship_strengthen_meta"
        ship_data_breakout <- readJsonLang "ship_data_breakout"
        ship_meta_breakout <- readJsonLang "ship_meta_breakout"
+       gametips <- readJsonLang "gametip"
        spweapon_data_statistics <- readJsonLangs "spweapon_data_statistics"
        ship_skin_words_add <- readJsonLangs "ship_skin_words_add"
 
@@ -1090,7 +1108,8 @@ main
                                                     ctx_ship_meta_breakout = ship_meta_breakout,
 
                                                     ctx_spweapon_data_statistics = spweapon_data_statistics !! 2,
-                                                    ctx_ship_skin_words_add = ship_skin_words_add
+                                                    ctx_ship_skin_words_add = ship_skin_words_add,
+                                                    ctx_gametips = gametips
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
