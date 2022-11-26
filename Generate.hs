@@ -222,14 +222,22 @@ limitbreaklinesHtml lines
                            $ do H.td H.! A.style "text-align: left; padding-left:5px;"
                                   $ H.preEscapedToHtml $ "Tier " ++ show i
                                 H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
-                                  $ H.preEscapedToHtml txt)
+                                  $ H.preEscapedToHtml $ cleanlb $ spacebar txt)
          $ zip [1..] $ lines
 
 spacebar :: String
          -> String
+spacebar ('/':xs) = ' ':'|':' ':(spacebar xs)
 spacebar ('|':xs) = ' ':'|':' ':(spacebar xs)
 spacebar (x:xs) = x:(spacebar xs)
 spacebar [] = []
+
+cleanlb ('L':'C':'K':'+':_:' ':'|':' ':xs) = xs
+cleanlb ('L':'C':'K':' ':'+':_:' ':'|':' ':xs) = xs
+cleanlb ('L':'C':'K':'+':_:xs) = xs
+cleanlb ('L':'C':'K':' ':'+':_:xs) = xs
+cleanlb (x:xs) = x:(cleanlb xs)
+cleanlb [] = []
 
 limitbreakResearch :: Context
                    -> [String]
@@ -256,22 +264,26 @@ limitbreakResearch context lblines
                                                                     else
                                                                       "")
                                             ++ spacebar ((blueprints ! (asstr $ asval $ id)) % "effect_desc")
-                                            ++ (intercalate " | " $ case (blueprints ! (asstr $ asval $ id)) ! "extra_desc" of
-                                                                      Obj _ x -> map (ashow . snd) x
-                                                                      Val _ _ -> [])) filtered
+                                            ++ cleanlb (intercalate " | " $ case (blueprints ! (asstr $ asval $ id)) ! "extra_desc" of
+                                                                              Obj _ x -> map (ashow . snd) x
+                                                                              Val _ _ -> [])) filtered
                  case elems fate of
                    [] -> return ()
-                   fate -> do H.tr
-                                $ do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                       $ "Level 33"
-                                     H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
-                                       $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ fate !! 2)) % "effect_desc")
+                   fate -> do lvl33 <- return $ cleanlb $ spacebar ((blueprints ! (asstr $ asval $ fate !! 2)) % "effect_desc")
+                              H.tr
+                                $ if lvl33 /= "" then
+                                    do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                         $ "Level 33"
+                                       H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
+                                         $ H.preEscapedToHtml lvl33
+                                  else
+                                    return ()
 
                               H.tr
                                 $ do H.td H.! A.style "text-align: left; padding-left:5px;"
                                        $ "Level 35"
                                      H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
-                                       $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ last fate)) % "effect_desc")
+                                       $ H.preEscapedToHtml $ cleanlb $ spacebar ((blueprints ! (asstr $ asval $ last fate)) % "effect_desc")
 
 limitbreak :: Context
            -> H.Html
