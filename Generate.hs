@@ -331,6 +331,7 @@ showship context
        ships <- return $ ctx_ships context
        ship_data_template <- return $ ctx_ship_data_template context
        skill_data_template <- return $ ctx_skill_data_template context
+       ship_skin_words_add <- return $ ctx_ship_skin_words_add context
        d <- return $ displayRow json
        H.tr
          $ do H.td
@@ -806,7 +807,23 @@ showship context
                                                                                                                 _ -> return ()
                                                                                                       False -> return ()
                                                                                                _ -> return ())
-                                                                      $ zip [0..] luaskin')
+                                                                      $ zip [0..] luaskin'
+                                                                    case lookups (ship_skin_words_add !! 0) $ ((init $ json % "internal_id") ++ "0") of
+                                                                      Nothing -> return ()
+                                                                      Just _ -> mapM_ (\key ->
+                                                                                          H.tr
+                                                                                           $ do out <- return $ ((concat $ map (\(j, _) -> case lookups (ship_skin_words_add !! j) $ ((init $ json % "internal_id") ++ "0") of
+                                                                                                                                             Nothing -> []
+                                                                                                                                             Just x -> (concat $ map (\v -> case ashow v of
+                                                                                                                                                                              "" -> []
+                                                                                                                                                                              v  -> [gettext (namecode !! j) v])
+                                                                                                                                                        $ tail $ elems x) :: [String])
+                                                                                                                  $ zip [0..] luaskin') :: [String])
+                                                                                                case all ((/=) "") out of
+                                                                                                  True -> do H.th $ H.preEscapedToHtml $ show key
+                                                                                                             mapM_ (\x -> H.td $ H.preEscapedToHtml x) out
+                                                                                                  False -> return ())
+                                                                                $ ["Item1", "Item2", "Item3", "Item4", "Item5", "Shop1", "Shop2", "Shop3", "Shop4", "Shop5"])
                                                        $ [0..(maxenc - 1)]
 {-
                                                      mapM_ (\x
@@ -1011,6 +1028,7 @@ main
        ship_data_breakout <- readJsonLang "ship_data_breakout"
        ship_meta_breakout <- readJsonLang "ship_meta_breakout"
        spweapon_data_statistics <- readJsonLangs "spweapon_data_statistics"
+       ship_skin_words_add <- readJsonLangs "ship_skin_words_add"
 
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
@@ -1063,7 +1081,8 @@ main
 
                                                     ctx_ship_meta_breakout = ship_meta_breakout,
 
-                                                    ctx_spweapon_data_statistics = spweapon_data_statistics !! 2
+                                                    ctx_spweapon_data_statistics = spweapon_data_statistics !! 2,
+                                                    ctx_ship_skin_words_add = ship_skin_words_add
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
