@@ -810,20 +810,28 @@ showship context
                                                                       $ zip [0..] luaskin'
                                                                     case lookups (ship_skin_words_add !! 0) $ ((init $ json % "internal_id") ++ "0") of
                                                                       Nothing -> return ()
-                                                                      Just _ -> mapM_ (\key ->
+                                                                      Just w -> mapM_ (\((key, index), raw) ->
                                                                                           H.tr
                                                                                            $ do out <- return $ ((concat $ map (\(j, _) -> case lookups (ship_skin_words_add !! j) $ ((init $ json % "internal_id") ++ "0") of
                                                                                                                                              Nothing -> []
-                                                                                                                                             Just x -> (concat $ map (\v -> case ashow v of
-                                                                                                                                                                              "" -> []
-                                                                                                                                                                              v  -> [gettext (namecode !! j) v])
-                                                                                                                                                        $ tail $ elems x) :: [String])
+                                                                                                                                             Just x -> case ashow ((elems x) !! index) of
+                                                                                                                                                         "" -> []
+                                                                                                                                                         v  -> [gettext (namecode !! j) v])
                                                                                                                   $ zip [0..] luaskin') :: [String])
-                                                                                                case all ((/=) "") out of
-                                                                                                  True -> do H.th $ H.preEscapedToHtml $ show key
+                                                                                                case length out /= 0 of
+                                                                                                  True -> do H.th $ H.preEscapedToHtml key
+                                                                                                             H.td $ H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                               $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                               ++ init (case json % "internal_id" of
+                                                                                                                                                                          "" -> "0"
+                                                                                                                                                                          x -> x)
+                                                                                                                                                               ++ "/acb/awb/"
+                                                                                                                                                               ++ raw
+                                                                                                                                                               ++ ".ogg") H.! A.controls ""
+                                                                                                               $ ""
                                                                                                              mapM_ (\x -> H.td $ H.preEscapedToHtml x) out
                                                                                                   False -> return ())
-                                                                                $ ["Item1", "Item2", "Item3", "Item4", "Item5", "Shop1", "Shop2", "Shop3", "Shop4", "Shop5"])
+                                                                                $ zip (zip (["Item1", "Item2", "Item3", "Item4", "Item5", "Shop1", "Shop2", "Shop3", "Shop4", "Shop5"] :: [String]) [1..]) $ tail $ keys w)
                                                        $ [0..(maxenc - 1)]
 {-
                                                      mapM_ (\x
