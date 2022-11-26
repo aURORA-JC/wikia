@@ -86,7 +86,7 @@ showskills context
                                                                                                                           ['2', _, '0', _, _] -> "20000"
                                                                                                                           ['1', '9', x, y, _] -> ['1', '9', x, y, '0']
                                                                                                                           ['2', '9', x, y, _] -> ['2', '9', x, y, '0']
-                                                                                                                          x -> x) ++ ".png")
+                                                                                                                          x -> init x ++ "0") ++ ".png")
                                 H.td $ x %% "name"
                                 H.td $ subst (x % "desc") (x ! "desc_add")
                                 H.td $ case filter (\y -> y % "icon" == x % "id") $ elems $ json ! "skill" of

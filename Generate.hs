@@ -222,14 +222,22 @@ limitbreaklinesHtml lines
                            $ do H.td H.! A.style "text-align: left; padding-left:5px;"
                                   $ H.preEscapedToHtml $ "Tier " ++ show i
                                 H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
-                                  $ H.preEscapedToHtml txt)
+                                  $ H.preEscapedToHtml $ cleanlb $ spacebar txt)
          $ zip [1..] $ lines
 
 spacebar :: String
          -> String
+spacebar ('/':xs) = ' ':'|':' ':(spacebar xs)
 spacebar ('|':xs) = ' ':'|':' ':(spacebar xs)
 spacebar (x:xs) = x:(spacebar xs)
 spacebar [] = []
+
+cleanlb ('L':'C':'K':'+':_:' ':'|':' ':xs) = xs
+cleanlb ('L':'C':'K':' ':'+':_:' ':'|':' ':xs) = xs
+cleanlb ('L':'C':'K':'+':_:xs) = xs
+cleanlb ('L':'C':'K':' ':'+':_:xs) = xs
+cleanlb (x:xs) = x:(cleanlb xs)
+cleanlb [] = []
 
 limitbreakResearch :: Context
                    -> [String]
@@ -256,22 +264,26 @@ limitbreakResearch context lblines
                                                                     else
                                                                       "")
                                             ++ spacebar ((blueprints ! (asstr $ asval $ id)) % "effect_desc")
-                                            ++ (intercalate " | " $ case (blueprints ! (asstr $ asval $ id)) ! "extra_desc" of
-                                                                      Obj _ x -> map (ashow . snd) x
-                                                                      Val _ _ -> [])) filtered
+                                            ++ cleanlb (intercalate " | " $ case (blueprints ! (asstr $ asval $ id)) ! "extra_desc" of
+                                                                              Obj _ x -> map (ashow . snd) x
+                                                                              Val _ _ -> [])) filtered
                  case elems fate of
                    [] -> return ()
-                   fate -> do H.tr
-                                $ do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                       $ "Level 33"
-                                     H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
-                                       $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ fate !! 2)) % "effect_desc")
+                   fate -> do lvl33 <- return $ cleanlb $ spacebar ((blueprints ! (asstr $ asval $ fate !! 2)) % "effect_desc")
+                              H.tr
+                                $ if lvl33 /= "" then
+                                    do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                         $ "Level 33"
+                                       H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
+                                         $ H.preEscapedToHtml lvl33
+                                  else
+                                    return ()
 
                               H.tr
                                 $ do H.td H.! A.style "text-align: left; padding-left:5px;"
                                        $ "Level 35"
                                      H.td H.! A.colspan "4" H.! A.style "text-align: left; padding-left:5px;"
-                                       $ H.preEscapedToHtml $ spacebar ((blueprints ! (asstr $ asval $ last fate)) % "effect_desc")
+                                       $ H.preEscapedToHtml $ cleanlb $ spacebar ((blueprints ! (asstr $ asval $ last fate)) % "effect_desc")
 
 limitbreak :: Context
            -> H.Html
@@ -319,6 +331,7 @@ showship context
        ships <- return $ ctx_ships context
        ship_data_template <- return $ ctx_ship_data_template context
        skill_data_template <- return $ ctx_skill_data_template context
+       ship_skin_words_add <- return $ ctx_ship_skin_words_add context
        d <- return $ displayRow json
        H.tr
          $ do H.td
@@ -794,7 +807,31 @@ showship context
                                                                                                                 _ -> return ()
                                                                                                       False -> return ()
                                                                                                _ -> return ())
-                                                                      $ zip [0..] luaskin')
+                                                                      $ zip [0..] luaskin'
+                                                                    case lookups (ship_skin_words_add !! 0) $ ((init $ json % "internal_id") ++ "0") of
+                                                                      Nothing -> return ()
+                                                                      Just w -> mapM_ (\((key, index), raw) ->
+                                                                                          H.tr
+                                                                                           $ do out <- return $ ((concat $ map (\(j, _) -> case lookups (ship_skin_words_add !! j) $ ((init $ json % "internal_id") ++ "0") of
+                                                                                                                                             Nothing -> []
+                                                                                                                                             Just x -> case ashow ((elems x) !! index) of
+                                                                                                                                                         "" -> []
+                                                                                                                                                         v  -> [gettext (namecode !! j) v])
+                                                                                                                  $ zip [0..] luaskin') :: [String])
+                                                                                                case length out /= 0 of
+                                                                                                  True -> do H.th $ H.preEscapedToHtml key
+                                                                                                             H.td $ H.audio H.! A.preload "none" H.! A.src (H.stringValue
+                                                                                                                                                               $ "https://algwiki.moe/assets/cue/cv-"
+                                                                                                                                                               ++ init (case json % "internal_id" of
+                                                                                                                                                                          "" -> "0"
+                                                                                                                                                                          x -> x)
+                                                                                                                                                               ++ "/acb/awb/"
+                                                                                                                                                               ++ raw
+                                                                                                                                                               ++ ".ogg") H.! A.controls ""
+                                                                                                               $ ""
+                                                                                                             mapM_ (\x -> H.td $ H.preEscapedToHtml x) out
+                                                                                                  False -> return ())
+                                                                                $ zip (zip (["Item1", "Item2", "Item3", "Item4", "Item5", "Shop1", "Shop2", "Shop3", "Shop4", "Shop5"] :: [String]) [1..]) $ tail $ keys w)
                                                        $ [0..(maxenc - 1)]
 {-
                                                      mapM_ (\x
@@ -999,6 +1036,7 @@ main
        ship_data_breakout <- readJsonLang "ship_data_breakout"
        ship_meta_breakout <- readJsonLang "ship_meta_breakout"
        spweapon_data_statistics <- readJsonLangs "spweapon_data_statistics"
+       ship_skin_words_add <- readJsonLangs "ship_skin_words_add"
 
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
@@ -1051,7 +1089,8 @@ main
 
                                                     ctx_ship_meta_breakout = ship_meta_breakout,
 
-                                                    ctx_spweapon_data_statistics = spweapon_data_statistics !! 2
+                                                    ctx_spweapon_data_statistics = spweapon_data_statistics !! 2,
+                                                    ctx_ship_skin_words_add = ship_skin_words_add
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
