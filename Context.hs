@@ -21,5 +21,6 @@ data Context
     ctx_ship_meta_breakout :: Expr,
     ctx_spweapon_data_statistics :: Expr,
     ctx_ship_skin_words_add :: [Expr],
-    ctx_gametips :: Expr
+    ctx_gametips :: Expr,
+    ctx_ship_data_group :: Expr
   }

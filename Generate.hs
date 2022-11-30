@@ -319,6 +319,42 @@ limitbreak context
                                   $ do H.td $ H.preEscapedToHtml k
                                        H.td H.! A.colspan "4" $ v %% "name") $ sortOn (\(k, _) -> k) $ toList $ json ! "defaultEquipment"
 
+safeinit :: [x]
+         -> [x]
+safeinit [] = []
+safeinit x = init x
+
+printParameters :: Context
+                -> H.Html
+printParameters ctx
+  = do json <- return $ ctx_json ctx
+       groupid   <- return $ safeinit $ json % "internal_id"
+       mapM_ (\v -> case lookups v "group_type" of
+                      Just (Val _ (Num x)) | groupid == show x
+                                             -> mapM_ (\(k, v) -> H.tr
+                                                                  $ do H.td H.! A.style "text-align: left; padding-left:5px;"
+                                                                         $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k)
+                                                                              " "
+                                                                              H.preEscapedToHtml $ capitalize k
+                                                                       H.td H.! A.style "text-align: left; padding-left:5px;"
+                                                                         $ H.preEscapedToHtml v)
+                                                $ zip ["firepower", "torpedo", "aviation", "evasion", "anti-air", "hp"]
+                                                $ map ashow $ elems (v ! "property_hexagon")
+                      _ -> return ())
+         $ elems $ ctx_ship_data_group ctx
+{-FP
+  TRP
+  AVI
+  EVA
+  AA
+HP
+-}                    {-
+                let par = json ! "parameters"
+                    in
+
+
+-}
+
 showship :: Context
          -> H.Html
 showship context
@@ -399,20 +435,7 @@ showship context
          $ do H.td
                 $ H.table
                 $ do H.tr $ H.th H.! A.class_ "title" H.! A.scope "col" H.! A.colspan "2" $ "Parameters"
-                     mapM_ (\k -> let par = json ! "parameters"
-                                  in
-                                    H.tr
-                                    $ do H.td H.! A.style "text-align: left; padding-left:5px;"
-                                           $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k)
-                                                " "
-                                                H.preEscapedToHtml $ capitalize k
-                                         H.td H.! A.style "text-align: left; padding-left:5px;" $ par %% k)
-                       $ ["hp",
-                          "antiAir",
-                          "evasion",
-                          "aviation",
-                          "torpedo",
-                          "firepower"]
+                     printParameters context
                      H.tr
                        $ H.th H.! A.class_ "subtitle" H.! A.scope "col" H.! A.colspan "2"
                        $ "Stats"
@@ -1053,6 +1076,7 @@ main
        ship_data_breakout <- readJsonLang "ship_data_breakout"
        ship_meta_breakout <- readJsonLang "ship_meta_breakout"
        gametips <- readJsonLang "gametip"
+       ship_data_group <- readJsonLang "ship_data_group"
        spweapon_data_statistics <- readJsonLangs "spweapon_data_statistics"
        ship_skin_words_add <- readJsonLangs "ship_skin_words_add"
 
@@ -1109,7 +1133,8 @@ main
 
                                                     ctx_spweapon_data_statistics = spweapon_data_statistics !! 2,
                                                     ctx_ship_skin_words_add = ship_skin_words_add,
-                                                    ctx_gametips = gametips
+                                                    ctx_gametips = gametips,
+                                                    ctx_ship_data_group = ship_data_group
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
