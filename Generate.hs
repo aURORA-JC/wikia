@@ -355,6 +355,24 @@ HP
 
 -}
 
+enchance :: Context
+         -> H.Html
+enchance ctx
+  = do ship_data_strengthen <- return $ ctx_ship_data_strengthen ctx
+       id <- return $ safeinit $ (ctx_json ctx) % "internal_id"
+       case lookups ship_data_strengthen id of
+         Just x -> mapM_ (\(k, v) -> case k of
+                                       "" -> return ()
+                                       _  -> H.tr
+                                             $ do H.td H.! A.colspan "3" H.! A.style "text-align: left; width: 70%;"
+                                                    $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ "https://algwiki.moe/Images/" ++ k ++ "_icon.png")
+                                                         " "
+                                                         H.preEscapedToHtml $ capitalize $ k
+                                                  H.td H.! A.style "text-align: left;padding-left:5px;" $ H.preEscapedToHtml v)
+                   $ zip ["firepower", "torpedo", "", "aviation", "reload"]
+                   $ map (asstr . asval) $ elems $ x ! "attr_exp"
+         Nothing -> return ()
+
 showship :: Context
          -> H.Html
 showship context
@@ -395,7 +413,8 @@ showship context
                             H.td H.! A.colspan "4" $ H.preEscapedToHtml $ json % "acquisitionMethod"
                      H.tr
                        $ do H.th H.! A.scope "row" $ "Enhance Income"
-                            H.td H.! A.colspan "4" $ showtable' json "3" "enhance" "height:auto;width:25px;"
+                            H.td H.! A.colspan "4"
+                              $ H.table $ enchance context --showtable' json "3" "enhance" "height:auto;width:25px;"
                      H.tr
                        $ do H.th H.! A.scope "row" $ "Scrap Income"
                             H.td H.! A.colspan "4" $ showtable' json "3" "scrap" ""
@@ -1077,8 +1096,10 @@ main
        ship_meta_breakout <- readJsonLang "ship_meta_breakout"
        gametips <- readJsonLang "gametip"
        ship_data_group <- readJsonLang "ship_data_group"
+       ship_data_group <- readJsonLang "ship_data_group"
        spweapon_data_statistics <- readJsonLangs "spweapon_data_statistics"
        ship_skin_words_add <- readJsonLangs "ship_skin_words_add"
+       ship_data_strengthen <- readJsonLang "ship_data_strengthen"
 
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
@@ -1134,7 +1155,9 @@ main
                                                     ctx_spweapon_data_statistics = spweapon_data_statistics !! 2,
                                                     ctx_ship_skin_words_add = ship_skin_words_add,
                                                     ctx_gametips = gametips,
-                                                    ctx_ship_data_group = ship_data_group
+                                                    ctx_ship_data_group = ship_data_group,
+
+                                                    ctx_ship_data_strengthen = ship_data_strengthen
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"
