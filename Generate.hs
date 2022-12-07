@@ -373,6 +373,73 @@ enchance ctx
                    $ map (asstr . asval) $ elems $ x ! "attr_exp"
          Nothing -> return ()
 
+calcstats :: Float
+          -> Float
+          -> Int
+          -> Float
+          -> Int
+          -> Int
+          -> String
+          -> String
+calcstats base growth level affection retrofit strengthen "speed"
+  = show
+    $ (fromIntegral $ floor $ base + growth * (fromIntegral $ level - 1) / 1000.0 + (fromIntegral strengthen)) + retrofit
+
+calcstats base growth level affection retrofit strengthen _
+  = show
+    $ (floor $ (fromIntegral $ floor $ base + growth * (fromIntegral $ level - 1) / 1000.0 + (fromIntegral strengthen)) * affection) + retrofit
+
+displayStats :: Context
+             -> H.Html
+displayStats ctx
+  = let ship_data_statistics = ctx_ship_data_statistics ctx
+        json                 = ctx_json ctx
+    in
+      case lookups ship_data_statistics $ (json % "internal_id") of
+        Just x -> let armor = (case x % "armor_type" of
+                                 "1" -> "Light"
+                                 "2" -> "Medium"
+                                 "3" -> "Heavy"
+                                 _   -> "Unknown") :: String
+                      attrs = elems (x ! "attrs")
+                      growth = elems (x ! "attrs_growth")
+                  in
+                    do mapM_ (\(tabname, level, affection, retrofit, strengthen)
+                               -> H.div H.! A.id (H.stringValue $ "statContent-" ++ tabname) H.! A.class_ "skinContent"
+                                  $ H.table
+                                  $ do mapM_ (\(pos1, name1, pos2, name2)
+                                           -> H.tr
+                                                   $ do H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                          $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny name1)
+                                                               " "
+                                                               H.preEscapedToHtml $ capitalize name1
+                                                        H.td H.! A.style "width:15%;text-align:center"
+                                                          $ H.preEscapedToHtml
+                                                          $ calcstats (asfloat $ attrs !! pos1) (asfloat $ growth !! pos1) level affection retrofit strengthen name1
+                                                        H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                          $ do case name2 of
+                                                                 "speed" -> return ()
+                                                                 _ -> do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny name2)
+                                                                         " "
+                                                               H.preEscapedToHtml $ capitalize name2
+                                                        H.td H.! A.style "width:15%;text-align:center"
+                                                          $ H.preEscapedToHtml
+                                                          $ calcstats (asfloat $ attrs !! pos2) (asfloat $ growth !! pos2) level affection retrofit strengthen name2)
+                                         $ ([(0, "hp", 5, "reload"),
+                                             (1, "firepower", 2, "torpedo"),
+                                             (8, "evasion", 3, "antiAir"),
+                                             (4, "aviation", 6, "cost"),
+                                             (11, "asw", 10, "luck"),
+                                             (7, "hit", 9, "speed")] :: [(Int, String, Int, String)])
+                                       H.tr
+                                         $ do H.th H.! A.style "text-align: left; padding-left:5px;"
+                                                $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny "armor")
+                                                     " Armor"
+                                              H.td H.! A.style "width:15%;text-align:center" H.! A.colspan "3" $ H.preEscapedToHtml armor)
+                         $ [("base", 1, 1.0, 0, 0),
+                            ("120", 120, 1.06, 0, 0)]
+        Nothing -> trace ("missing stats for " ++ show (json % "internal_id")) $ return ()
+
 showship :: Context
          -> H.Html
 showship context
@@ -460,7 +527,6 @@ showship context
                        $ "Stats"
                      stats <- return
                               $ toList
-
                               $ json ! "stats"
                      H.tr
                        $ H.td H.! A.colspan "2"
@@ -471,38 +537,7 @@ showship context
                                                                   "100retrofit" -> "100 Retrofit"
                                                                   "120retrofit" -> "120 Retrofit"
                                                                   x -> x) stats
-                            mapM_ (\(i, v) -> H.div H.! A.id (H.stringValue $ "statContent-" ++ i) H.! A.class_ "skinContent"
-                                              $ H.table
-                                              $ do mapM_ (\(k1, k2)
-                                                          -> H.tr
-                                                             $ do H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                                    $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k1)
-                                                                         " "
-                                                                         H.preEscapedToHtml $ capitalize k1
-                                                                  H.td H.! A.style "width:15%;text-align:center" $ v %% k1
-                                                                  H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                                    $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny k2)
-                                                                         " "
-                                                                         H.preEscapedToHtml $ capitalize k2
-                                                                  H.td H.! A.style "width:15%;text-align:center" $ v %% k2)
-                                                     $ [("hp", "reload"),
-                                                        ("firepower", "torpedo"),
-                                                        ("evasion", "antiAir"),
-                                                        ("aviation", "cost"),
-                                                        ("asw", "luck")]
-                                                   H.tr
-                                                     $ do H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                            $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny "hit")
-                                                                 " Hit"
-                                                          H.td H.! A.style "width:15%;text-align:center" $ v %% "luck"
-                                                          H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                            $ "Speed"
-                                                          H.td H.! A.style "width:15%;text-align:center" $ v %% "speed"
-                                                   H.tr
-                                                     $ do H.th H.! A.style "text-align: left; padding-left:5px;"
-                                                            $ do H.img H.! A.style "width:25px;" H.! A.src (H.stringValue $ funny "armor")
-                                                                 " Armor"
-                                                          H.td H.! A.style "width:15%;text-align:center" H.! A.colspan "3" $ v %% "armor") stats
+                            displayStats context
 
               limitbreak context
 
@@ -1100,6 +1135,7 @@ main
        spweapon_data_statistics <- readJsonLangs "spweapon_data_statistics"
        ship_skin_words_add <- readJsonLangs "ship_skin_words_add"
        ship_data_strengthen <- readJsonLang "ship_data_strengthen"
+       ship_data_statistics <- readJsonLang "ship_data_statistics"
 
        namecode <- readJsonLangs "name_code" >>= return . map (\(Obj _ x) -> map (\(_, x) -> (asnum $ asval $ x ! "id", (asstr $ asval $ x ! "name", asstr $ asval $ x ! "code"))) x)
        dumbjs <- readFile "dumbjs.js"
@@ -1157,7 +1193,8 @@ main
                                                     ctx_gametips = gametips,
                                                     ctx_ship_data_group = ship_data_group,
 
-                                                    ctx_ship_data_strengthen = ship_data_strengthen
+                                                    ctx_ship_data_strengthen = ship_data_strengthen,
+                                                    ctx_ship_data_statistics = ship_data_statistics
                                                   }
                                       H.script $ H.preEscapedToHtml $ "\nskins = [" ++ (skins >>= (\(_, _, x) -> case "_ex" `isInfixOf` (x % "id") of
                                                                                                                    False -> "[\"" ++ x % "id" ++ "\"," ++ ((sort $ keys $ x ! "expression") >>= \x -> "\"" ++ x ++ "\",") ++ "],"

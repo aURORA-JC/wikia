@@ -62,6 +62,13 @@ lookups _ _ = Nothing
 
 asnum :: Val -> Int
 asnum (Num x) = x
+asnum x = error $ "Expected number, got " ++ show x
+
+asfloat :: Expr -> Float
+asfloat (Val _ (Flo x)) = x
+asfloat (Val _ (Num x)) = fromIntegral x
+asfloat (Obj info x) = error $ "Expected float or number in {" ++ show info ++ "} but got {" ++ show x ++ "}"
+asfloat (Val info x) = error $ "Expected float or number in {" ++ show info ++ "} but got {" ++ show x ++ "}"
 
 asstr :: Val -> String
 asstr (Str s) = s
