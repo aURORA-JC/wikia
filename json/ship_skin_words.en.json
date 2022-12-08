@@ -26987,8 +26987,7 @@
           30314,
           30317,
           30318,
-          31911,
-          39901,
+          31911.39901,
           39903,
           39904
         ],
@@ -59011,6 +59010,39 @@
     "vote": "",
     "win_mvp": "With enough rigorous training, victory becomes almost a certainty. Isn't that right, Milord?"
   },
+  "9705030": {
+    "battle": "I pray this is the correct decision...",
+    "couple_encourage": [],
+    "detail": "If given the chance, I'd like to do it all over again... But even if that were possible, wouldn't the same things just play out again? What do you think, Commander?",
+    "drop_descrip": "",
+    "expedition": "The commission team has returned. Go welcome them together? Never mind, I'll just be a hindrance anyway....",
+    "feeling1": "You should stay away from me after all. Otherwise, it'll only end up with your friends getting hurt...",
+    "feeling2": "Would you mind keeping a safe distance from me? Oh, no, I'm not trying to push you away. \"Our\" Vestal warned that something terrible will happen if you don't...",
+    "feeling3": "You don't have horrible dreams when you're around me? Really? Um, it's not that I don't believe you, but...",
+    "feeling4": "Peace of mind, and comfort... When I am by your side, Commander, those feelings seem to be slowly coming back to me... But, I'm scared of losing this happiness again...",
+    "feeling5": "Commander, you who rescued me from the abyss of despair and suffering... You are my last hope. I'll strive to do even better. Someday, I'll show you that I can overcome these dark emotions! Until then... Commander, would you please wait for me?",
+    "headtouch": "",
+    "home": "Um, while you were gone, all the lights in the office seem to have gone out again... I'm sorry for inconveniencing you once again.",
+    "hp_warning": "No! At this rate, I...",
+    "id": 9705030,
+    "login": "Welcome back. When you are here, Commander, the office does not seem as bleak.",
+    "lose": "If only I could do it all over again...",
+    "mail": "Commander, there's a letter addressed to you... I'll go ahead and leave it on your desk.",
+    "main": "\"Arizona's Tears\"... Does that refer to me? Maybe I was seen in a moment when I could not control my emotions. I'm sorry...|It is said that staying around me for too long will afflict you with tragic dreams. Huh? You don't mind? I, I see...|Oh, what was that sound just now? Did something break again because of me?",
+    "mission": "Do you still have missions left? I'll try to help out in whatever way I can...",
+    "mission_complete": "We finished the missions without any major issues... Phew, I'm glad it went well.",
+    "profile": "If there are parallel worlds out there, would \"I\" exist in them as well? If that's the case... I pray that I could have met you earlier, and spend a life free from tears...",
+    "propose": "You're willing to always stay by my side and watch over me? *sobs*... Oh, I'm so sorry... I just, can't stop the tears from flowing... Commander, I believe you. You are the only safe harbor for my heart...",
+    "skill": "Let it all end!",
+    "touch": "S-sorry! If you touch me without warning, I... Huh? You're not hurt? Thank goodness...",
+    "touch2": "Is this... some kind of punishment?",
+    "unlock": "I am Arizona... This may be improper of me, but is it really alright for me to stay here? ...Very well, Commander. If that is what you've decided...",
+    "upgrade": "I hope this will make a difference...",
+    "voice_key": 970503,
+    "voice_key_2": -1,
+    "vote": "",
+    "win_mvp": "Is victory... something worth celebrating?"
+  },
   "9706010": {
     "battle": "Yeah! Throw them into disarray!",
     "couple_encourage": [],
@@ -62377,7 +62409,7 @@
           1090002
         ],
         1,
-        "I'm glad we get to go on another adventure together, Klaudia!",
+        " I'm glad we get to go on another adventure together, Klaudia!",
         0
       ],
       [
@@ -62385,7 +62417,7 @@
           1090004
         ],
         1,
-        "I'm counting on you, Lila!",
+        " I'm counting on you, Lila!",
         0
       ],
       [
@@ -62393,12 +62425,12 @@
           1090003
         ],
         1,
-        "Patty, how've you been?",
+        " Patty, how've you been?",
         0
       ]
     ],
     "detail": "Hey, Commander, do you know if I can get some sort of big pot from Akashi? It'd be nice to have an alchemy cauldron I can use here...",
-    "drop_descrip": "Hey there! I'm Reisalin Stout, but you can just call me Ryza. I'm not really sure what this whole \"shipgirl \" thing is, but I'm sure I'll figure it out eventually... In any case, it's a pleasure to meet you!",
+    "drop_descrip": "",
     "expedition": "The girls are back from their errand! I wonder what materials they managed to bring back.",
     "feeling1": "A quest? I'm not sure if I... Huh, there'll be rewards? Then, count me in!",
     "feeling2": "Mm, what a wonderful day! Let's go explore for something new and exciting!",
@@ -62468,7 +62500,7 @@
           1090001
         ],
         1,
-        "I'm so happy to see you again, Ryza!",
+        " I'm so happy to see you again, Ryza!",
         0
       ],
       [
@@ -62476,7 +62508,7 @@
           1090004
         ],
         1,
-        "Miss Lila, I'll support you!",
+        " Miss Lila, I'll support you!",
         0
       ],
       [
@@ -62484,12 +62516,12 @@
           1090005
         ],
         1,
-        "I'll let you know if I find anything, Miss Serri.",
+        " I'll let you know if I find anything, Miss Serri.",
         0
       ]
     ],
     "detail": "Huh? You'd like to know more about me? Then, how about we head inside and have a little chat? I'll go prepare the tea and snacks.",
-    "drop_descrip": "It's a pleasure to meet you. My name is Klaudia Valentz, and due to various circumstances, it seems that I'll be staying here for the time being. Please let me know if there's anything I can help with!",
+    "drop_descrip": "",
     "expedition": "It looks like the commission team has returned. Commander, let's go welcome them back!",
     "feeling1": "Fine. I suppose it's just business...",
     "feeling2": "Looks like there's a lot of work to get through today... But, if the two of us work together, I'm sure we'll be done in no time. Let's both do our best.",
@@ -62559,7 +62591,7 @@
           1090001
         ],
         1,
-        "New place, same old Miss Ryza.",
+        " New place, same old Miss Ryza.",
         0
       ],
       [
@@ -62567,7 +62599,7 @@
           1090004
         ],
         1,
-        "So this is how Oren warriors fight...",
+        " So this is how Oren warriors fight...",
         0
       ],
       [
@@ -62575,12 +62607,12 @@
           1090005
         ],
         1,
-        "You know, Miss Serri's age... Eep! Nevermind!",
+        " You know, Miss Serri's age... Eep! Nevermind!",
         0
       ]
     ],
     "detail": "This room is rather small compared to what I have back in my world, but it somehow puts my mind at ease...",
-    "drop_descrip": "Are you the Commander I've heard so much about? My name is Patricia Abelheim, but you can call me Patty. It's a pleasure to meet you. I suppose I will be counting on you for the time being.",
+    "drop_descrip": "",
     "expedition": "The commission team has returned. I wonder what they've brought this time...",
     "feeling1": "If you have no need of me, I shall take my leave.",
     "feeling2": "Commander, do you need something? Oh? You'd like to show me around the port? Thank you very much. To be honest, I'm still having much trouble finding my way around as a new arrival.",
@@ -62650,7 +62682,7 @@
           1090001
         ],
         1,
-        "I'll handle this, Ryza!",
+        " I'll handle this, Ryza!",
         0
       ],
       [
@@ -62658,7 +62690,7 @@
           1090003
         ],
         1,
-        "You're in good form, Patricia.",
+        " You're in good form, Patricia.",
         0
       ],
       [
@@ -62666,12 +62698,12 @@
           1090005
         ],
         1,
-        "Let us both fulfill our duties, Serri.",
+        " Let us both fulfill our duties, Serri.",
         0
       ]
     ],
     "detail": "I appreciate the furniture, but the room needs a bit of tidying up first. It's just... too much of a hassle to do it myself.",
-    "drop_descrip": "I am Lila Decyrus, an Oren warrior... I may have become a \"heavy cruiser\" now, but that won't hamper my ability in battle. So long as I stay here, I will carry out my duties as a warrior in your service.",
+    "drop_descrip": "",
     "expedition": "The commission team you sent out has returned. Now, let's see what they've brought back...",
     "feeling1": "Enough is enough. I have to find a way back home...",
     "feeling2": "What is it, Commander? If you have business with me, keep it brief.",
@@ -62741,7 +62773,7 @@
           1090004
         ],
         1,
-        "I won't give up either, Lila.",
+        " I won't give up either, Lila.",
         0
       ],
       [
@@ -62749,7 +62781,7 @@
           1090003
         ],
         1,
-        "Patricia, I expect you to keep my secret.",
+        " Patricia, I expect you to keep my secret.",
         0
       ],
       [
@@ -62757,12 +62789,12 @@
           1090002
         ],
         1,
-        "Klaudia, have you seen any unusual plants?",
+        " Klaudia, have you seen any unusual plants?",
         0
       ]
     ],
     "detail": "I've always been traveling, so it feels a bit unusual to have my own place.",
-    "drop_descrip": "I am Serri of the Oren. I seem to be an aircraft carrier of some sort now. By the way, have you seen any seeds...?",
+    "drop_descrip": "",
     "expedition": "Our friends seem to have returned. It might be a good time to go greet them.",
     "feeling1": "I know I won't be here forever, but still...",
     "feeling2": "...Commander, I'm looking for some seeds. The ones I'm trying to find might not be here, but just in case... Oh right, do you think you can help me?",
@@ -62832,7 +62864,7 @@
           1090001
         ],
         1,
-        "A most curious alchemist you are, Ryza.",
+        " A most curious alchemist you are, Ryza.",
         0
       ],
       [
@@ -62840,7 +62872,7 @@
           1090004
         ],
         1,
-        "Impressive, Whitefang comrade. How reliable!",
+        " Impressive, Whitefang comrade. How reliable!",
         0
       ],
       [
@@ -62848,12 +62880,12 @@
           1090005
         ],
         1,
-        "I pray that your dream becomes reality, Serri.",
+        " I pray that your dream becomes reality, Serri.",
         0
       ]
     ],
     "detail": "What's that? You're curious about the curios in my room? Heheh, they are all extremely valuable artifacts collected over the years. I'm quite attached to all of them.",
-    "drop_descrip": "Oho. What sort of interesting person would summon me? My name is Kala Ideas, and I am the chief of the Wave Tuner clan. Perhaps I shall sojourn in this world for a spell, just as you desired.",
+    "drop_descrip": "",
     "expedition": "Your errand girls have returned. How I yearn to hear their stories.",
     "feeling1": "You bore me...",
     "feeling2": "Hrm. Suppose I ought to explore the port today. Commander, do you wish to join me?",
