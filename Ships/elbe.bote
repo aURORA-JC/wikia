@@ -1,562 +1,628 @@
 {
-    "name_reference": "elbe",
-    "cn_reference": "yibei",
-    "nameJP": "",
-    "nameCN": "",
-    "ID": "526",
-    "name": "Elbe",
-    "internal_id": "406021",
-    "rarity": "Elite",
-    "initialStar": "★★☆☆☆",
-    "hull": "Light Aircraft Carrier",
-    "navy": "Ironblood",
-    "prefix": "KMS",
-    "buildTime": "",
-    "class": "Jade-Class",
-    "voiceActress": "",
-    "parameters": {
-        "firepower": "",
-        "torpedo": "",
-        "aviation": "",
-        "evasion": "",
-        "antiAir": "",
-        "hp": ""
-    },
-    "scrap": {
-        "gold": "",
-        "oil": "",
-        "medal": ""
-    },
-    "releaseDate": {
-        "JP": "",
-        "CN": "",
-        "KR": "",
-        "EN": ""
-    },
-    "artist": {
-        "name": "",
-        "weibo": "",
-        "twitter": "",
-        "pixiv": "",
-        "other": ""
-    },
-    "enhance": {
-        "firepower": "",
-        "torpedo": "",
-        "aviation": "",
-        "reload": ""
-    },
-    "acquisitionMethod": "",
-    "skill": {
+  "name_reference": "elbe",
+  "cn_reference": "yibei",
+  "nameJP": "",
+  "nameCN": "",
+  "ID": "526",
+  "name": "Elbe",
+  "internal_id": "406021",
+  "rarity": "Elite",
+  "initialStar": "★★☆☆☆",
+  "hull": "Light Aircraft Carrier",
+  "navy": "Ironblood",
+  "prefix": "KMS",
+  "buildTime": "",
+  "class": "Jade-Class",
+  "voiceActress": "",
+  "parameters": {
+    "firepower": "",
+    "torpedo": "",
+    "aviation": "",
+    "evasion": "",
+    "antiAir": "",
+    "hp": ""
+  },
+  "scrap": {
+    "gold": "",
+    "oil": "",
+    "medal": ""
+  },
+  "releaseDate": {
+    "JP": "",
+    "CN": "",
+    "KR": "",
+    "EN": ""
+  },
+  "artist": {
+    "name": "",
+    "weibo": "",
+    "twitter": "",
+    "pixiv": "",
+    "other": ""
+  },
+  "enhance": {
+    "firepower": "",
+    "torpedo": "",
+    "aviation": "",
+    "reload": ""
+  },
+  "acquisitionMethod": "",
+  "skill": {
+    "1": {
+      "icon": "",
+      "requirement": "",
+      "name": "",
+      "type": "",
+      "description": ""
+    }
+  },
+  "skin": {
+    "1": {
+      "id": "yibei",
+      "name": "Elbe",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
         "1": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
-        }
-    },
-    "skin": {
-        "1": {
-            "id": "yibei",
-            "name": "Elbe",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                }
-            }
+          "id": "1"
         },
         "2": {
-            "id": "yibei_2",
-            "name": "",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                }
-            }
-        },
-        "101": {
-            "id": "yibei_ex1100",
-            "name": "Elbe",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                }
-            }
-        }
-    },
-    "defaultEquipment": {
-        "1": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
-        },
-        "2": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
+          "id": "2"
         },
         "3": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
-        }
-    },
-    "stats": {
-        "100": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "120": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "base": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "100retrofit": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "120retrofit": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        }
-    },
-    "limitBreak": {
-        "tier1": "",
-        "tier2": "",
-        "tier3": ""
-    },
-    "equipmentLoadout": {
-        "1": {
-            "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
-        },
-        "2": {
-            "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
-        },
-        "3": {
-            "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
+          "id": "3"
         },
         "4": {
-            "type": "Auxiliary",
-            "efficiency": "-",
-            "amount": "-",
-            "preload": "-"
+          "id": "4"
         },
         "5": {
-            "type": "Auxiliary",
-            "efficiency": "-",
-            "amount": "-",
-            "preload": "-"
-        }
-    },
-    "build": {
-        "light": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+          "id": "5"
         },
-        "heavy": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "6": {
+          "id": "6"
+        }
+      }
+    },
+    "2": {
+      "id": "yibei_2",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
         },
-        "special": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "1": {
+          "id": "1"
         },
-        "limited": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
         }
+      }
     },
-    "drop": {
-        "droppable": "false",
-        "list": {
-            "1": {
-                "event": "",
-                "chapter": {
-                    "1": {
-                        "label": "Ch .1",
-                        "node": {
-                            "1": {
-                                "drop": "✓",
-                                "note": "-"
-                            }
-                        }
-                    }
-                }
-            }
+    "3": {
+      "id": "yibei_3",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
         }
+      }
     },
-    "lines": {
-        "skin": {
-            "1": {
-                "skin_id": "yibei",
-                "id": "0",
-                "label": "Elbe",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Biography",
-                        "media": "profile"
-                    },
-                    "3": {
-                        "event": "Acquisition",
-                        "media": "get"
-                    },
-                    "4": {
-                        "event": "Login",
-                        "media": "login"
-                    },
-                    "5": {
-                        "event": "Details",
-                        "media": "detail"
-                    },
-                    "6": {
-                        "event": "Main 1",
-                        "media": "main_1"
-                    },
-                    "7": {
-                        "event": "Main 2",
-                        "media": "main_2"
-                    },
-                    "8": {
-                        "event": "Main 3",
-                        "media": "main_3"
-                    },
-                    "9": {
-                        "event": "Main 4",
-                        "media": "main_4"
-                    },
-                    "10": {
-                        "event": "Touch",
-                        "media": "touch_1"
-                    },
-                    "11": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2"
-                    },
-                    "12": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head"
-                    },
-                    "13": {
-                        "event": "Mission",
-                        "media": "task"
-                    },
-                    "14": {
-                        "event": "Mission Complete",
-                        "media": "mission_complete"
-                    },
-                    "15": {
-                        "event": "Mail",
-                        "media": "mail"
-                    },
-                    "16": {
-                        "event": "Return to Port",
-                        "media": "home"
-                    },
-                    "17": {
-                        "event": "Commission Complete",
-                        "media": "expedition"
-                    },
-                    "18": {
-                        "event": "Enhancement",
-                        "media": "upgrade"
-                    },
-                    "19": {
-                        "event": "Flagship",
-                        "media": "warcry"
-                    },
-                    "20": {
-                        "event": "Victory",
-                        "media": "mvp"
-                    },
-                    "21": {
-                        "event": "Defeat",
-                        "media": "lose"
-                    },
-                    "22": {
-                        "event": "Skill",
-                        "media": "skill"
-                    },
-                    "23": {
-                        "event": "Low HP",
-                        "media": "hp"
-                    },
-                    "24": {
-                        "event": "Affinity (Upset)",
-                        "media": "feeling1"
-                    },
-                    "25": {
-                        "event": "Affinity (Stranger)",
-                        "media": "feeling2"
-                    },
-                    "26": {
-                        "event": "Affinity (Friendly)",
-                        "media": "feeling3"
-                    },
-                    "27": {
-                        "event": "Affinity (Like)",
-                        "media": "feeling4"
-                    },
-                    "28": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5"
-                    },
-                    "29": {
-                        "event": "Pledge",
-                        "media": "propose"
-                    },
-                    "30": {
-                        "event": "Additional Voice Line 1",
-                        "media": "link1"
-                    },
-                    "31": {
-                        "event": "Additional Voice Line 2",
-                        "media": "link2"
-                    },
-                    "32": {
-                        "event": "Additional Voice Line 3",
-                        "media": "link3"
-                    }
-                }
-            },
-            "2": {
-                "skin_id": "yibei_2",
-                "id": "1",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_1"
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_1"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_1"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_1"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_1"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_1"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_1"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_1"
-                    },
-                    "13": {
-                        "event": "Victory",
-                        "media": "mvp_1"
-                    },
-                    "14": {
-                        "event": "Commission Complete",
-                        "media": "expedition_1"
-                    }
-                }
-            },
-            "101": {
-                "skin_id": "yibei_ex1100",
-                "id": "0",
-                "label": "Elbe",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Login",
-                        "media": "login_ex1100"
-                    },
-                    "3": {
-                        "event": "Details",
-                        "media": "detail_ex1100"
-                    },
-                    "4": {
-                        "event": "Main 4",
-                        "media": "main_4_ex1100"
-                    },
-                    "5": {
-                        "event": "Main 5",
-                        "media": "main_5_ex1100"
-                    },
-                    "6": {
-                        "event": "Main 6",
-                        "media": "main_6_ex1100"
-                    },
-                    "7": {
-                        "event": "Touch",
-                        "media": "touch_1_ex1100"
-                    },
-                    "8": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_ex1100"
-                    },
-                    "9": {
-                        "event": "Return to Port",
-                        "media": "home_ex1100"
-                    },
-                    "10": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_ex1100"
-                    },
-                    "11": {
-                        "event": "Mission",
-                        "media": "task_ex1100"
-                    },
-                    "12": {
-                        "event": "Mission Complete",
-                        "media": "mission_complete_ex1100"
-                    },
-                    "13": {
-                        "event": "Victory",
-                        "media": "mvp_ex1100"
-                    }
-                }
-            }
+    "101": {
+      "id": "yibei_ex1100",
+      "name": "Elbe",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
         }
-    },
-    "fleet_tech": {
-        "pt_get": "",
-        "add_get_attr": "",
-        "add_get_value": "",
-        "add_get_shiptype": "",
-        "pt_upgrade": "",
-        "pt_level": "",
-        "add_level_attr": "",
-        "add_level_value": "",
-        "add_level_shiptype": "",
-        "t_level": "",
-        "ships": "elbe"
+      }
     }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "2": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "3": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "120": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "base": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "100retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "",
+    "tier2": "",
+    "tier3": ""
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "",
+      "efficiency": "",
+      "amount": "",
+      "preload": ""
+    },
+    "2": {
+      "type": "",
+      "efficiency": "",
+      "amount": "",
+      "preload": ""
+    },
+    "3": {
+      "type": "",
+      "efficiency": "",
+      "amount": "",
+      "preload": ""
+    },
+    "4": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "heavy": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "special": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "limited": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "yibei",
+        "id": "0",
+        "label": "Elbe",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Biography",
+            "media": "profile"
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "get"
+          },
+          "4": {
+            "event": "Login",
+            "media": "login"
+          },
+          "5": {
+            "event": "Details",
+            "media": "detail"
+          },
+          "6": {
+            "event": "Main 1",
+            "media": "main_1"
+          },
+          "7": {
+            "event": "Main 2",
+            "media": "main_2"
+          },
+          "8": {
+            "event": "Main 3",
+            "media": "main_3"
+          },
+          "9": {
+            "event": "Main 4",
+            "media": "main_4"
+          },
+          "10": {
+            "event": "Touch",
+            "media": "touch_1"
+          },
+          "11": {
+            "event": "Touch (Special)",
+            "media": "touch_2"
+          },
+          "12": {
+            "event": "Touch (Headpat)",
+            "media": "touch_head"
+          },
+          "13": {
+            "event": "Mission",
+            "media": "task"
+          },
+          "14": {
+            "event": "Mission Complete",
+            "media": "mission_complete"
+          },
+          "15": {
+            "event": "Mail",
+            "media": "mail"
+          },
+          "16": {
+            "event": "Return to Port",
+            "media": "home"
+          },
+          "17": {
+            "event": "Commission Complete",
+            "media": "expedition"
+          },
+          "18": {
+            "event": "Enhancement",
+            "media": "upgrade"
+          },
+          "19": {
+            "event": "Flagship",
+            "media": "warcry"
+          },
+          "20": {
+            "event": "Victory",
+            "media": "mvp"
+          },
+          "21": {
+            "event": "Defeat",
+            "media": "lose"
+          },
+          "22": {
+            "event": "Skill",
+            "media": "skill"
+          },
+          "23": {
+            "event": "Low HP",
+            "media": "hp"
+          },
+          "24": {
+            "event": "Affinity (Upset)",
+            "media": "feeling1"
+          },
+          "25": {
+            "event": "Affinity (Stranger)",
+            "media": "feeling2"
+          },
+          "26": {
+            "event": "Affinity (Friendly)",
+            "media": "feeling3"
+          },
+          "27": {
+            "event": "Affinity (Like)",
+            "media": "feeling4"
+          },
+          "28": {
+            "event": "Affinity (Love)",
+            "media": "feeling5"
+          },
+          "29": {
+            "event": "Pledge",
+            "media": "propose"
+          },
+          "30": {
+            "event": "Additional Voice Line 1",
+            "media": "link1"
+          },
+          "31": {
+            "event": "Additional Voice Line 2",
+            "media": "link2"
+          },
+          "32": {
+            "event": "Additional Voice Line 3",
+            "media": "link3"
+          }
+        }
+      },
+      "2": {
+        "skin_id": "yibei_2",
+        "id": "1",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_1"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_1"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_1"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_1"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_1"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_1"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_1"
+          },
+          "13": {
+            "event": "Victory",
+            "media": "mvp_1"
+          },
+          "14": {
+            "event": "Commission Complete",
+            "media": "expedition_1"
+          }
+        }
+      },
+      "3": {
+        "skin_id": "yibei_3",
+        "id": "2",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_2"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_2"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_2"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_2"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_2"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_2"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_2"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_2"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_2"
+          }
+        }
+      },
+      "101": {
+        "skin_id": "yibei_ex1100",
+        "id": "0",
+        "label": "Elbe",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Login",
+            "media": "login_ex1100"
+          },
+          "3": {
+            "event": "Details",
+            "media": "detail_ex1100"
+          },
+          "4": {
+            "event": "Main 4",
+            "media": "main_4_ex1100"
+          },
+          "5": {
+            "event": "Main 5",
+            "media": "main_5_ex1100"
+          },
+          "6": {
+            "event": "Main 6",
+            "media": "main_6_ex1100"
+          },
+          "7": {
+            "event": "Touch",
+            "media": "touch_1_ex1100"
+          },
+          "8": {
+            "event": "Touch (Special)",
+            "media": "touch_2_ex1100"
+          },
+          "9": {
+            "event": "Return to Port",
+            "media": "home_ex1100"
+          },
+          "10": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_ex1100"
+          },
+          "11": {
+            "event": "Mission",
+            "media": "task_ex1100"
+          },
+          "12": {
+            "event": "Mission Complete",
+            "media": "mission_complete_ex1100"
+          },
+          "13": {
+            "event": "Victory",
+            "media": "mvp_ex1100"
+          }
+        }
+      }
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "",
+    "add_get_attr": "",
+    "add_get_value": "",
+    "add_get_shiptype": "",
+    "pt_upgrade": "",
+    "pt_level": "",
+    "add_level_attr": "",
+    "add_level_value": "",
+    "add_level_shiptype": "",
+    "t_level": "",
+    "ships": "elbe"
+  }
 }
