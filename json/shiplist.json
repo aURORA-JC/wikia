@@ -4625,6 +4625,51 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "581": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yuanchou.png",
+        "link": "implacable",
+        "name": "Implacable",
+        "navy": "Royal Navy",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "582": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huangjiaxiangshu.png",
+        "link": "royal_oak",
+        "name": "Royal Oak",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "583": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/baiyanjuren.png",
+        "link": "argus",
+        "name": "Argus",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "584": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sikula.png",
+        "link": "scylla",
+        "name": "Scylla",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "585": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yingxiong.png",
+        "link": "hero",
+        "name": "Hero",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -5026,6 +5071,24 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/xiefeierde_alter.png",
         "link": "sheffield_meta",
         "name": "Sheffield META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M019": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yilishabai_alter.png",
+        "link": "queen_elizabeth_meta",
+        "name": "Queen Elizabeth META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M020": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jialisuoniye_alter.png",
+        "link": "la_galissonniere_meta",
+        "name": "La Galissonnière META",
         "navy": "META",
         "rarity": "Elite",
         "shipType": "META"
