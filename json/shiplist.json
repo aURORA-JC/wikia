@@ -4697,6 +4697,51 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
+    "589": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kewei_younv.png",
+        "link": "little_formidable",
+        "name": "Little Formidable",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "590": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/aotuo.png",
+        "link": "otto_von_alvensleben",
+        "name": "Otto von Alvensleben",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "591": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yade.png",
+        "link": "jade",
+        "name": "Jade",
+        "navy": "Ironblood",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "592": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/leigensibao.png",
+        "link": "regensburg",
+        "name": "Regensburg",
+        "navy": "Ironblood",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "593": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/bisimaiz.png",
+        "link": "bismarck_zwei",
+        "name": "Bismarck Zwei",
+        "navy": "Ironblood",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -5120,6 +5165,24 @@
         "rarity": "Elite",
         "shipType": "META"
     },
+    "M021": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/u556_alter.png",
+        "link": "u556_meta",
+        "name": "U-556 META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M022": {
+        "hull": "Repair",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zaoshen_alter.png",
+        "link": "vestal_meta",
+        "name": "Vestal META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
     "C001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
@@ -5424,6 +5487,24 @@
         "name": "Monica",
         "navy": "Venus Vacation",
         "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C068": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luna_doa.png",
+        "link": "luna_doa",
+        "name": "Luna",
+        "navy": "Venus Vacation",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C069": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huan_doa.png",
+        "link": "tamaki_doa",
+        "name": "Tamaki",
+        "navy": "Venus Vacation",
+        "rarity": "Super Rare",
         "shipType": "collab"
     },
     "C071": {

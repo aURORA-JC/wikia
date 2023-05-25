@@ -322,7 +322,7 @@
         "add_level_value": "1",
         "add_level_shiptype": "Light Aircraft Carrier,Aircraft Carrier",
         "t_level": "8",
-        "ships": "illustrious,victorious,formidable"
+        "ships": "illustrious,victorious,formidable,indomitable,little_illustrious,little_formidable,illustrious_idol"
     },
     "build": {
         "light": {
@@ -878,7 +878,7 @@
                 "id": "2",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -924,7 +924,7 @@
                 "skin_id" : "kewei_ex1100",
                 "id" : "0",
                 "label" : "Formidable ",
-                "dialogue" : {					
+                "dialogue" : {
                     "1" : {
                         "event" : "Login",
                         "media" : "login_ex1100",
@@ -1076,7 +1076,7 @@
                 "id": "2",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },

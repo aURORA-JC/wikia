@@ -39,7 +39,7 @@
         "pixiv": "",
         "other": ""
     },
-    "class": "Type VIIC",
+    "class": "Type VIIC-Class",
     "enhance": {
         "firepower": "1",
         "torpedo": "38",
@@ -265,7 +265,7 @@
         "add_level_value": "1",
         "add_level_shiptype": "Submarine,Submarine Aircraft Carrier",
         "t_level": "7",
-        "ships": "u81,u96,u410,u556,u557,u1206"
+        "ships": "u81,u96,u410,u556,u556_meta,u557,u1206"
     },
     "build": {
         "light": {

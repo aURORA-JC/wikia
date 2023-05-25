@@ -1,698 +1,788 @@
 {
-    "name_reference": "new_jersey",
-    "cn_reference": "xinzexi",
-    "nameJP": "",
-    "nameCN": "",
-    "ID": "68",
-    "name": "New Jersey",
-    "internal_id": "105171",
-    "rarity": "Ultra Rare",
-    "initialStar": "★★★☆☆☆",
-    "hull": "Battleship",
-    "navy": "Eagle Union",
-    "prefix": "USS",
-    "buildTime": "",
-    "class": "Iowa-Class",
-    "voiceActress": "Tomita Miyu",
-    "parameters": {
-        "firepower": "",
-        "torpedo": "",
-        "aviation": "",
-        "evasion": "",
-        "antiAir": "",
-        "hp": ""
+  "name_reference": "new_jersey",
+  "cn_reference": "xinzexi",
+  "nameJP": "",
+  "nameCN": "",
+  "ID": "68",
+  "name": "New Jersey",
+  "internal_id": "105171",
+  "rarity": "Ultra Rare",
+  "initialStar": "★★★☆☆☆",
+  "hull": "Battleship",
+  "navy": "Eagle Union",
+  "prefix": "USS",
+  "buildTime": "",
+  "class": "Iowa-Class",
+  "voiceActress": "Tomita Miyu",
+  "parameters": {
+    "firepower": "",
+    "torpedo": "",
+    "aviation": "",
+    "evasion": "",
+    "antiAir": "",
+    "hp": ""
+  },
+  "scrap": {
+    "gold": "",
+    "oil": "",
+    "medal": ""
+  },
+  "releaseDate": {
+    "JP": "",
+    "CN": "",
+    "KR": "",
+    "EN": ""
+  },
+  "artist": {
+    "name": "",
+    "weibo": "",
+    "twitter": "",
+    "pixiv": "",
+    "other": ""
+  },
+  "enhance": {
+    "firepower": "",
+    "torpedo": "",
+    "aviation": "",
+    "reload": ""
+  },
+  "acquisitionMethod": "",
+  "skill": {
+    "1": {
+      "icon": "",
+      "requirement": "",
+      "name": "",
+      "type": "",
+      "description": ""
     },
-    "scrap": {
-        "gold": "",
-        "oil": "",
-        "medal": ""
-    },
-    "releaseDate": {
-        "JP": "",
-        "CN": "",
-        "KR": "",
-        "EN": ""
-    },
-    "artist": {
-        "name": "",
-        "weibo": "",
-        "twitter": "",
-        "pixiv": "",
-        "other": ""
-    },
-    "enhance": {
-        "firepower": "",
-        "torpedo": "",
-        "aviation": "",
-        "reload": ""
-    },
-    "acquisitionMethod": "",
-    "skill": {
+    "2": {
+      "icon": "",
+      "requirement": "",
+      "name": "",
+      "type": "",
+      "description": ""
+    }
+  },
+  "skin": {
+    "1": {
+      "id": "xinzexi",
+      "name": "New Jersey",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
         "1": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
+          "id": "1"
         },
         "2": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
-        }
-    },
-    "skin": {
-        "1": {
-            "id": "xinzexi",
-            "name": "New Jersey",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                },
-                "7": {
-                    "id": "7"
-                }
-            }
-        },
-        "2": {
-            "id": "xinzexi_2",
-            "name": "",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                }
-            }
-        },
-        "8": {
-            "id": "xinzexi_h",
-            "name": "",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                },
-                "7": {
-                    "id": "7"
-                },
-                "8": {
-                    "id": "8"
-                }
-            }
-        },
-        "101": {
-            "id": "xinzexi_ex1100",
-            "name": "New Jersey",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                }
-            }
-        }
-    },
-    "defaultEquipment": {
-        "1": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
-        },
-        "2": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
+          "id": "2"
         },
         "3": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
-        }
-    },
-    "stats": {
-        "100": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "120": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "base": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "100retrofit": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "120retrofit": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        }
-    },
-    "limitBreak": {
-        "tier1": "",
-        "tier2": "",
-        "tier3": ""
-    },
-    "equipmentLoadout": {
-        "1": {
-            "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
-        },
-        "2": {
-            "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
-        },
-        "3": {
-            "type": "",
-            "efficiency": "",
-            "amount": "",
-            "preload": ""
+          "id": "3"
         },
         "4": {
-            "type": "Auxiliary",
-            "efficiency": "-",
-            "amount": "-",
-            "preload": "-"
+          "id": "4"
         },
         "5": {
-            "type": "Auxiliary",
-            "efficiency": "-",
-            "amount": "-",
-            "preload": "-"
-        }
-    },
-    "build": {
-        "light": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+          "id": "5"
         },
-        "heavy": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "6": {
+          "id": "6"
         },
-        "special": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "7": {
+          "id": "7"
+        }
+      }
+    },
+    "2": {
+      "id": "xinzexi_2",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
         },
-        "limited": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
         }
+      }
     },
-    "drop": {
-        "droppable": "false",
-        "list": {
-            "1": {
-                "event": "",
-                "chapter": {
-                    "1": {
-                        "label": "Ch .1",
-                        "node": {
-                            "1": {
-                                "drop": "✓",
-                                "note": "-"
-                            }
-                        }
-                    }
-                }
-            }
+    "3": {
+      "id": "xinzexi_3",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        },
+        "7": {
+          "id": "7"
+        },
+        "8": {
+          "id": "8"
+        },
+        "9": {
+          "id": "9"
+        },
+        "10": {
+          "id": "10"
+        },
+        "11": {
+          "id": "11"
         }
+      }
     },
-    "lines": {
-        "skin": {
-            "1": {
-                "skin_id": "xinzexi",
-                "id": "0",
-                "label": "New Jersey",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Biography",
-                        "media": "profile"
-                    },
-                    "3": {
-                        "event": "Acquisition",
-                        "media": "get"
-                    },
-                    "4": {
-                        "event": "Login",
-                        "media": "login"
-                    },
-                    "5": {
-                        "event": "Details",
-                        "media": "detail"
-                    },
-                    "6": {
-                        "event": "Main 1",
-                        "media": "main_1"
-                    },
-                    "7": {
-                        "event": "Main 2",
-                        "media": "main_2"
-                    },
-                    "8": {
-                        "event": "Main 3",
-                        "media": "main_3"
-                    },
-                    "9": {
-                        "event": "Touch",
-                        "media": "touch_1"
-                    },
-                    "10": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2"
-                    },
-                    "11": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head"
-                    },
-                    "12": {
-                        "event": "Mission",
-                        "media": "task"
-                    },
-                    "13": {
-                        "event": "Mission Complete",
-                        "media": "mission_complete"
-                    },
-                    "14": {
-                        "event": "Mail",
-                        "media": "mail"
-                    },
-                    "15": {
-                        "event": "Return to Port",
-                        "media": "home"
-                    },
-                    "16": {
-                        "event": "Commission Complete",
-                        "media": "expedition"
-                    },
-                    "17": {
-                        "event": "Enhancement",
-                        "media": "upgrade"
-                    },
-                    "18": {
-                        "event": "Flagship",
-                        "media": "warcry"
-                    },
-                    "19": {
-                        "event": "Victory",
-                        "media": "mvp"
-                    },
-                    "20": {
-                        "event": "Defeat",
-                        "media": "lose"
-                    },
-                    "21": {
-                        "event": "Skill",
-                        "media": "skill"
-                    },
-                    "22": {
-                        "event": "Low HP",
-                        "media": "hp"
-                    },
-                    "23": {
-                        "event": "Affinity (Upset)",
-                        "media": "feeling1"
-                    },
-                    "24": {
-                        "event": "Affinity (Stranger)",
-                        "media": "feeling2"
-                    },
-                    "25": {
-                        "event": "Affinity (Friendly)",
-                        "media": "feeling3"
-                    },
-                    "26": {
-                        "event": "Affinity (Like)",
-                        "media": "feeling4"
-                    },
-                    "27": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5"
-                    },
-                    "28": {
-                        "event": "Pledge",
-                        "media": "propose"
-                    },
-                    "29": {
-                        "event": "Additional Voice Line 1",
-                        "media": "link1"
-                    },
-                    "30": {
-                        "event": "Additional Voice Line 2",
-                        "media": "link2"
-                    },
-                    "31": {
-                        "event": "Additional Voice Line 3",
-                        "media": "link3"
-                    },
-                    "32": {
-                        "event": "Additional Voice Line 4",
-                        "media": "link4"
-                    },
-                    "33": {
-                        "event": "Additional Voice Line 5",
-                        "media": "link5"
-                    },
-                    "34": {
-                        "event": "Extra",
-                        "media": "extra"
-                    },
-                    "35": {
-                        "event": "Present Like",
-                        "media": "present_like"
-                    },
-                    "36": {
-                        "event": "Present Dislike",
-                        "media": "present_dislike"
-                    }
-                }
-            },
-            "2": {
-                "skin_id": "xinzexi_2",
-                "id": "1",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_1"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_1"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_1"
-                    },
-                    "6": {
-                        "event": "Main 3",
-                        "media": "main_3_1"
-                    },
-                    "7": {
-                        "event": "Main 4",
-                        "media": "main_4_1"
-                    },
-                    "8": {
-                        "event": "Main 5",
-                        "media": "main_5_1"
-                    },
-                    "9": {
-                        "event": "Touch",
-                        "media": "touch_1_1"
-                    },
-                    "10": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_1"
-                    },
-                    "11": {
-                        "event": "Return to Port",
-                        "media": "home_1"
-                    },
-                    "12": {
-                        "event": "Skill",
-                        "media": "skill_1"
-                    }
-                }
-            },
-            "8": {
-                "skin_id": "xinzexi_h",
-                "id": "8",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_8"
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_8"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_8"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_8"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_8"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_8"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_8"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_8"
-                    },
-                    "10": {
-                        "event": "Mission",
-                        "media": "task_8"
-                    },
-                    "11": {
-                        "event": "Mission Complete",
-                        "media": "mission_complete_8"
-                    },
-                    "12": {
-                        "event": "Return to Port",
-                        "media": "home_8"
-                    },
-                    "13": {
-                        "event": "Commission Complete",
-                        "media": "expedition_8"
-                    },
-                    "14": {
-                        "event": "Flagship",
-                        "media": "warcry_8"
-                    },
-                    "15": {
-                        "event": "Victory",
-                        "media": "mvp_8"
-                    },
-                    "16": {
-                        "event": "Defeat",
-                        "media": "lose_8"
-                    },
-                    "17": {
-                        "event": "Skill",
-                        "media": "skill_8"
-                    },
-                    "18": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_8"
-                    }
-                }
-            },
-            "101": {
-                "skin_id": "xinzexi_ex1100",
-                "id": "0",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_ex1100"
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_ex1100"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_ex1100"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_ex1100"
-                    },
-                    "7": {
-                        "event": "Main 7",
-                        "media": "main_7_ex1100"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_ex1100"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_ex1100"
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_ex1100"
-                    },
-                    "11": {
-                        "event": "Flagship",
-                        "media": "warcry_ex1100"
-                    }
-                }
-            }
+    "8": {
+      "id": "xinzexi_h",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        },
+        "7": {
+          "id": "7"
+        },
+        "8": {
+          "id": "8"
         }
+      }
     },
-    "fleet_tech": {
-        "pt_get": "",
-        "add_get_attr": "",
-        "add_get_value": "",
-        "add_get_shiptype": "",
-        "pt_upgrade": "",
-        "pt_level": "",
-        "add_level_attr": "",
-        "add_level_value": "",
-        "add_level_shiptype": "",
-        "t_level": "",
-        "ships": "new_jersey"
+    "101": {
+      "id": "xinzexi_ex1100",
+      "name": "New Jersey",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
     }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "2": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "3": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "120": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "base": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "100retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "",
+    "tier2": "",
+    "tier3": ""
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "",
+      "efficiency": "",
+      "amount": "",
+      "preload": ""
+    },
+    "2": {
+      "type": "",
+      "efficiency": "",
+      "amount": "",
+      "preload": ""
+    },
+    "3": {
+      "type": "",
+      "efficiency": "",
+      "amount": "",
+      "preload": ""
+    },
+    "4": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "build": {
+    "light": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "heavy": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "special": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "limited": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "xinzexi",
+        "id": "0",
+        "label": "New Jersey",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Biography",
+            "media": "profile"
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "get"
+          },
+          "4": {
+            "event": "Login",
+            "media": "login"
+          },
+          "5": {
+            "event": "Details",
+            "media": "detail"
+          },
+          "6": {
+            "event": "Main 1",
+            "media": "main_1"
+          },
+          "7": {
+            "event": "Main 2",
+            "media": "main_2"
+          },
+          "8": {
+            "event": "Main 3",
+            "media": "main_3"
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch_1"
+          },
+          "10": {
+            "event": "Touch (Special)",
+            "media": "touch_2"
+          },
+          "11": {
+            "event": "Touch (Headpat)",
+            "media": "touch_head"
+          },
+          "12": {
+            "event": "Mission",
+            "media": "task"
+          },
+          "13": {
+            "event": "Mission Complete",
+            "media": "mission_complete"
+          },
+          "14": {
+            "event": "Mail",
+            "media": "mail"
+          },
+          "15": {
+            "event": "Return to Port",
+            "media": "home"
+          },
+          "16": {
+            "event": "Commission Complete",
+            "media": "expedition"
+          },
+          "17": {
+            "event": "Enhancement",
+            "media": "upgrade"
+          },
+          "18": {
+            "event": "Flagship",
+            "media": "warcry"
+          },
+          "19": {
+            "event": "Victory",
+            "media": "mvp"
+          },
+          "20": {
+            "event": "Defeat",
+            "media": "lose"
+          },
+          "21": {
+            "event": "Skill",
+            "media": "skill"
+          },
+          "22": {
+            "event": "Low HP",
+            "media": "hp"
+          },
+          "23": {
+            "event": "Affinity (Upset)",
+            "media": "feeling1"
+          },
+          "24": {
+            "event": "Affinity (Stranger)",
+            "media": "feeling2"
+          },
+          "25": {
+            "event": "Affinity (Friendly)",
+            "media": "feeling3"
+          },
+          "26": {
+            "event": "Affinity (Like)",
+            "media": "feeling4"
+          },
+          "27": {
+            "event": "Affinity (Love)",
+            "media": "feeling5"
+          },
+          "28": {
+            "event": "Pledge",
+            "media": "propose"
+          },
+          "29": {
+            "event": "Additional Voice Line 1",
+            "media": "link1"
+          },
+          "30": {
+            "event": "Additional Voice Line 2",
+            "media": "link2"
+          },
+          "31": {
+            "event": "Additional Voice Line 3",
+            "media": "link3"
+          },
+          "32": {
+            "event": "Additional Voice Line 4",
+            "media": "link4"
+          },
+          "33": {
+            "event": "Additional Voice Line 5",
+            "media": "link5"
+          },
+          "34": {
+            "event": "Extra",
+            "media": "extra"
+          },
+          "35": {
+            "event": "Present Like",
+            "media": "present_like"
+          },
+          "36": {
+            "event": "Present Dislike",
+            "media": "present_dislike"
+          }
+        }
+      },
+      "2": {
+        "skin_id": "xinzexi_2",
+        "id": "1",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_1"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_1"
+          },
+          "6": {
+            "event": "Main 3",
+            "media": "main_3_1"
+          },
+          "7": {
+            "event": "Main 4",
+            "media": "main_4_1"
+          },
+          "8": {
+            "event": "Main 5",
+            "media": "main_5_1"
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch_1_1"
+          },
+          "10": {
+            "event": "Touch (Special)",
+            "media": "touch_2_1"
+          },
+          "11": {
+            "event": "Return to Port",
+            "media": "home_1"
+          },
+          "12": {
+            "event": "Skill",
+            "media": "skill_1"
+          }
+        }
+      },
+      "3": {
+        "skin_id": "xinzexi_3",
+        "id": "2",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_2"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_2"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_2"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_2"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_2"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_2"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_2"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_2"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_2"
+          }
+        }
+      },
+      "8": {
+        "skin_id": "xinzexi_h",
+        "id": "8",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_8"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_8"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_8"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_8"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_8"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_8"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_8"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_8"
+          },
+          "10": {
+            "event": "Mission",
+            "media": "task_8"
+          },
+          "11": {
+            "event": "Mission Complete",
+            "media": "mission_complete_8"
+          },
+          "12": {
+            "event": "Return to Port",
+            "media": "home_8"
+          },
+          "13": {
+            "event": "Commission Complete",
+            "media": "expedition_8"
+          },
+          "14": {
+            "event": "Flagship",
+            "media": "warcry_8"
+          },
+          "15": {
+            "event": "Victory",
+            "media": "mvp_8"
+          },
+          "16": {
+            "event": "Defeat",
+            "media": "lose_8"
+          },
+          "17": {
+            "event": "Skill",
+            "media": "skill_8"
+          },
+          "18": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_8"
+          }
+        }
+      },
+      "101": {
+        "skin_id": "xinzexi_ex1100",
+        "id": "0",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_ex1100"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_ex1100"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_ex1100"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_ex1100"
+          },
+          "7": {
+            "event": "Main 7",
+            "media": "main_7_ex1100"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_ex1100"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_ex1100"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_ex1100"
+          },
+          "11": {
+            "event": "Flagship",
+            "media": "warcry_ex1100"
+          }
+        }
+      }
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "",
+    "add_get_attr": "",
+    "add_get_value": "",
+    "add_get_shiptype": "",
+    "pt_upgrade": "",
+    "pt_level": "",
+    "add_level_attr": "",
+    "add_level_value": "",
+    "add_level_shiptype": "",
+    "t_level": "",
+    "ships": "new_jersey"
+  }
 }
