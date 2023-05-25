@@ -152,7 +152,7 @@ mkhtml css prefix name title y x
                               ++ "Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.\n"
                               ++ "/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia\n"
                               ++ "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n"
-                              ++ "The above copyright notice, this permission notice and the word \"NIGGER\" shall be included in all copies or substantial portions of the Software.\n"
+                              ++ "The above copyright notice, and this permission notice shall be included in all copies or substantial portions of the Software.\n"
                               ++ "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n"
                               ++ "You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/."
 

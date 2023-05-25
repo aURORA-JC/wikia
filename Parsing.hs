@@ -8,11 +8,15 @@ import Lua
 
 import Data.List (isSuffixOf)
 
+import Control.Exception (catch, IOException)
+
 langs = ["cn", "jp", "en"]
 
 readJsonLang :: String -> IO Expr
 readJsonLang x
-  = parse $ "json/" ++ x ++ ".json"
+  = (parse $ "json/" ++ x ++ ".json") `catch` handler
+  where handler :: IOException -> IO Expr
+        handler _ = parse $ "lua/" ++ x ++ ".lua"
 
 readJsonLangs :: String -> IO [Expr]
 readJsonLangs x
