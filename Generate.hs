@@ -559,20 +559,21 @@ showship context
                           H.th H.! A.class_ "subtitle" H.! A.colspan "2" H.! A.style "width:60%;" $ "Tech Points and Bonus"
                    H.tr
                      $ do H.td
-                            $ mapM_ (\x -> let (cn, rarity) = fromJust $ lookup x encn
-                                           in
-                                             H.a H.! A.href (H.stringValue $ x ++ ".html")
-                                             $ H.img H.! A.style (H.stringValue $ "width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(\"https://algwiki.moe/Images/"
-                                                                  ++ case rarity of
-                                                                       "Ultra Rare" -> "bg5"
-                                                                       "Decisive" -> "bg5"
-                                                                       "Priority" -> "bg4"
-                                                                       "Super Rare" -> "bg4"
-                                                                       "Elite" -> "bg3"
-                                                                       "Rare" -> "bg2"
-                                                                       "Common" -> "bg1"
-                                                                       "" -> ""
-                                                                  ++ ".png\");") H.! A.src (H.stringValue $ "https://algwiki.moe/assets/squareicon/" ++ cn ++ ".png")) $ endBy "," $ ft % "ships"
+                            $ mapM_ (\x -> case lookup x encn of
+                                             Nothing -> trace ("Uhhhh " ++ (json % "id")) ""
+                                             Just (cn, rarity) ->
+                                               H.a H.! A.href (H.stringValue $ x ++ ".html")
+                                               $ H.img H.! A.style (H.stringValue $ "width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(\"https://algwiki.moe/Images/"
+                                                                    ++ case rarity of
+                                                                         "Ultra Rare" -> "bg5"
+                                                                         "Decisive" -> "bg5"
+                                                                         "Priority" -> "bg4"
+                                                                         "Super Rare" -> "bg4"
+                                                                         "Elite" -> "bg3"
+                                                                         "Rare" -> "bg2"
+                                                                         "Common" -> "bg1"
+                                                                         "" -> ""
+                                                                    ++ ".png\");") H.! A.src (H.stringValue $ "https://algwiki.moe/assets/squareicon/" ++ cn ++ ".png")) $ endBy "," $ ft % "ships"
                           H.td
                             $ writeskins skins "techView" False
                             $ \_ -> \_ -> \skin -> H.img H.! A.src (H.stringValue $ "https://algwiki.moe/assets/shipmodels/" ++ skin % "id" ++ ".png")
