@@ -7144,6 +7144,191 @@
     "strengthen_id": 10149,
     "type": 1
   },
+  "101501": {
+    "airassist_time": [],
+    "buff_list": [
+      16300,
+      16310
+    ],
+    "buff_list_display": [
+      16300,
+      16310,
+      20091
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 11000,
+    "equip_id_2": 5000,
+    "equip_id_3": 0,
+    "group_type": 10150,
+    "hide_buff_list": [],
+    "id": 101501,
+    "max_level": 70,
+    "oil_at_end": 3,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 10150,
+    "type": 1
+  },
+  "101502": {
+    "airassist_time": [],
+    "buff_list": [
+      16300,
+      16310,
+      20091
+    ],
+    "buff_list_display": [
+      16300,
+      16310,
+      20091
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10150,
+    "hide_buff_list": [],
+    "id": 101502,
+    "max_level": 80,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 10150,
+    "type": 1
+  },
+  "101503": {
+    "airassist_time": [],
+    "buff_list": [
+      16300,
+      16310,
+      20091
+    ],
+    "buff_list_display": [
+      16300,
+      16310,
+      20091
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10150,
+    "hide_buff_list": [],
+    "id": 101503,
+    "max_level": 90,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 10150,
+    "type": 1
+  },
+  "101504": {
+    "airassist_time": [],
+    "buff_list": [
+      16300,
+      16310,
+      20092
+    ],
+    "buff_list_display": [
+      16300,
+      16310,
+      20092
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10150,
+    "hide_buff_list": [],
+    "id": 101504,
+    "max_level": 100,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [
+      "AUX"
+    ],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 10150,
+    "type": 1
+  },
   "102011": {
     "airassist_time": [],
     "buff_list": [
@@ -15090,6 +15275,181 @@
     "strengthen_id": 10325,
     "type": 3
   },
+  "103261": {
+    "airassist_time": [],
+    "buff_list": [
+      16320,
+      16330
+    ],
+    "buff_list_display": [
+      16320,
+      16330,
+      20281
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 13100,
+    "equip_id_2": 0,
+    "equip_id_3": 16100,
+    "group_type": 10326,
+    "hide_buff_list": [],
+    "id": 103261,
+    "max_level": 70,
+    "oil_at_end": 6,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 10326,
+    "type": 3
+  },
+  "103262": {
+    "airassist_time": [],
+    "buff_list": [
+      16320,
+      16330,
+      20281
+    ],
+    "buff_list_display": [
+      16320,
+      16330,
+      20281
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10326,
+    "hide_buff_list": [],
+    "id": 103262,
+    "max_level": 80,
+    "oil_at_end": 8,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 10326,
+    "type": 3
+  },
+  "103263": {
+    "airassist_time": [],
+    "buff_list": [
+      16320,
+      16330,
+      20281
+    ],
+    "buff_list_display": [
+      16320,
+      16330,
+      20281
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10326,
+    "hide_buff_list": [],
+    "id": 103263,
+    "max_level": 90,
+    "oil_at_end": 10,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 10326,
+    "type": 3
+  },
+  "103264": {
+    "airassist_time": [],
+    "buff_list": [
+      16320,
+      16330,
+      20282
+    ],
+    "buff_list_display": [
+      16320,
+      16330,
+      20282
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10326,
+    "hide_buff_list": [],
+    "id": 103264,
+    "max_level": 100,
+    "oil_at_end": 12,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 10326,
+    "type": 3
+  },
   "105011": {
     "airassist_time": [],
     "buff_list": [
@@ -15108,7 +15468,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15151,7 +15512,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15195,7 +15557,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15239,7 +15602,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15283,7 +15647,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15326,7 +15691,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15370,7 +15736,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15414,7 +15781,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15457,7 +15825,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15499,7 +15868,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15542,7 +15912,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15585,7 +15956,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15628,7 +16000,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15670,7 +16043,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15713,7 +16087,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15756,7 +16131,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15799,7 +16175,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15841,7 +16218,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15884,7 +16262,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15927,7 +16306,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -15970,7 +16350,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16012,7 +16393,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16055,7 +16437,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16098,7 +16481,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16141,7 +16525,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16183,7 +16568,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16226,7 +16612,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16269,7 +16656,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16314,7 +16702,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16358,7 +16747,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16403,7 +16793,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16448,7 +16839,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16491,7 +16883,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16533,7 +16926,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16576,7 +16970,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16619,7 +17014,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16664,7 +17060,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16708,7 +17105,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16753,7 +17151,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16798,7 +17197,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16843,7 +17243,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16887,7 +17288,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16932,7 +17334,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -16977,7 +17380,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17022,7 +17426,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17066,7 +17471,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17111,7 +17517,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17156,7 +17563,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17203,7 +17611,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17249,7 +17658,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17296,7 +17706,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17343,7 +17754,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17388,7 +17800,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17432,7 +17845,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17477,7 +17891,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17522,7 +17937,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17567,7 +17983,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17611,7 +18028,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17656,7 +18074,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -17701,7 +18120,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -19979,6 +20399,206 @@
     "strengthen_id": 10709,
     "type": 7
   },
+  "107101": {
+    "airassist_time": [
+      23
+    ],
+    "buff_list": [
+      16210,
+      16220,
+      16230
+    ],
+    "buff_list_display": [
+      16210,
+      16220,
+      16230
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 17300,
+    "equip_id_2": 19100,
+    "equip_id_3": 18100,
+    "group_type": 10710,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107101,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 10710,
+    "type": 7
+  },
+  "107102": {
+    "airassist_time": [
+      24
+    ],
+    "buff_list": [
+      16210,
+      16220,
+      16230
+    ],
+    "buff_list_display": [
+      16210,
+      16220,
+      16230
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      7,
+      8,
+      9
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10710,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107102,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 10710,
+    "type": 7
+  },
+  "107103": {
+    "airassist_time": [
+      24,
+      24
+    ],
+    "buff_list": [
+      16210,
+      16220,
+      16230
+    ],
+    "buff_list_display": [
+      16210,
+      16220,
+      16230
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      7,
+      8,
+      9
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10710,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107103,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 10710,
+    "type": 7
+  },
+  "107104": {
+    "airassist_time": [
+      25,
+      25
+    ],
+    "buff_list": [
+      16210,
+      16220,
+      16230
+    ],
+    "buff_list_display": [
+      16210,
+      16220,
+      16230
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      7,
+      8,
+      9
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10710,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107104,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 10710,
+    "type": 7
+  },
   "107111": {
     "airassist_time": [
       23
@@ -20171,6 +20791,200 @@
     "star": 6,
     "star_max": 6,
     "strengthen_id": 10711,
+    "type": 7
+  },
+  "107121": {
+    "airassist_time": [
+      23
+    ],
+    "buff_list": [
+      16250,
+      16260,
+      16270
+    ],
+    "buff_list_display": [
+      16250,
+      16260,
+      16270
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 17300,
+    "equip_id_2": 19100,
+    "equip_id_3": 18100,
+    "group_type": 10712,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107121,
+    "max_level": 70,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 10712,
+    "type": 7
+  },
+  "107122": {
+    "airassist_time": [
+      24
+    ],
+    "buff_list": [
+      16250,
+      16260,
+      16270
+    ],
+    "buff_list_display": [
+      16250,
+      16260,
+      16270
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10712,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107122,
+    "max_level": 80,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 10712,
+    "type": 7
+  },
+  "107123": {
+    "airassist_time": [
+      24,
+      24
+    ],
+    "buff_list": [
+      16250,
+      16260,
+      16270
+    ],
+    "buff_list_display": [
+      16250,
+      16260,
+      16270
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10712,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107123,
+    "max_level": 90,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 10712,
+    "type": 7
+  },
+  "107124": {
+    "airassist_time": [
+      25,
+      25
+    ],
+    "buff_list": [
+      16250,
+      16260,
+      16270
+    ],
+    "buff_list_display": [
+      16250,
+      16260,
+      16270
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10712,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107124,
+    "max_level": 100,
+    "oil_at_end": 13,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 10712,
     "type": 7
   },
   "107141": {
@@ -20943,6 +21757,200 @@
     "star": 5,
     "star_max": 5,
     "strengthen_id": 10723,
+    "type": 6
+  },
+  "107271": {
+    "airassist_time": [
+      20
+    ],
+    "buff_list": [
+      16280,
+      16290
+    ],
+    "buff_list_display": [
+      16280,
+      16290
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 17300,
+    "equip_id_2": 18100,
+    "equip_id_3": 0,
+    "group_type": 10727,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107271,
+    "max_level": 70,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 10727,
+    "type": 6
+  },
+  "107272": {
+    "airassist_time": [
+      21
+    ],
+    "buff_list": [
+      16280,
+      16290
+    ],
+    "buff_list_display": [
+      16280,
+      16290
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10727,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107272,
+    "max_level": 80,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 10727,
+    "type": 6
+  },
+  "107273": {
+    "airassist_time": [
+      21,
+      21
+    ],
+    "buff_list": [
+      16280,
+      16290
+    ],
+    "buff_list_display": [
+      16280,
+      16290
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10727,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107273,
+    "max_level": 90,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 10727,
+    "type": 6
+  },
+  "107274": {
+    "airassist_time": [
+      22,
+      22
+    ],
+    "buff_list": [
+      16280,
+      16290
+    ],
+    "buff_list_display": [
+      16280,
+      16290
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 10727,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 107274,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 10727,
     "type": 6
   },
   "107291": {
@@ -23162,7 +24170,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -23208,7 +24217,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -23255,7 +24265,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -23302,7 +24313,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -28217,6 +29229,191 @@
     "star": 6,
     "star_max": 6,
     "strengthen_id": 20135,
+    "type": 1
+  },
+  "201361": {
+    "airassist_time": [],
+    "buff_list": [
+      16560,
+      16570
+    ],
+    "buff_list_display": [
+      16560,
+      16570,
+      21061
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 21300,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20136,
+    "hide_buff_list": [],
+    "id": 201361,
+    "max_level": 70,
+    "oil_at_end": 3,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 20136,
+    "type": 1
+  },
+  "201362": {
+    "airassist_time": [],
+    "buff_list": [
+      16560,
+      16570,
+      21061
+    ],
+    "buff_list_display": [
+      16560,
+      16570,
+      21061
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20136,
+    "hide_buff_list": [],
+    "id": 201362,
+    "max_level": 80,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 20136,
+    "type": 1
+  },
+  "201363": {
+    "airassist_time": [],
+    "buff_list": [
+      16560,
+      16570,
+      21061
+    ],
+    "buff_list_display": [
+      16560,
+      16570,
+      21061
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20136,
+    "hide_buff_list": [],
+    "id": 201363,
+    "max_level": 90,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 20136,
+    "type": 1
+  },
+  "201364": {
+    "airassist_time": [],
+    "buff_list": [
+      16560,
+      16570,
+      21062
+    ],
+    "buff_list_display": [
+      16560,
+      16570,
+      21062
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20136,
+    "hide_buff_list": [],
+    "id": 201364,
+    "max_level": 100,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [
+      "AUX"
+    ],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 20136,
     "type": 1
   },
   "201514": {
@@ -33738,6 +34935,193 @@
     "strengthen_id": 20232,
     "type": 2
   },
+  "202331": {
+    "airassist_time": [],
+    "buff_list": [
+      16540,
+      16550
+    ],
+    "buff_list_display": [
+      16540,
+      16550,
+      29981
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1,
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 5000,
+    "equip_id_3": 0,
+    "group_type": 20233,
+    "hide_buff_list": [],
+    "id": 202331,
+    "max_level": 70,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 20233,
+    "type": 2
+  },
+  "202332": {
+    "airassist_time": [],
+    "buff_list": [
+      16540,
+      16550,
+      29981
+    ],
+    "buff_list_display": [
+      16540,
+      16550,
+      29981
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1,
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20233,
+    "hide_buff_list": [],
+    "id": 202332,
+    "max_level": 80,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 20233,
+    "type": 2
+  },
+  "202333": {
+    "airassist_time": [],
+    "buff_list": [
+      16540,
+      16550,
+      29981
+    ],
+    "buff_list_display": [
+      16540,
+      16550,
+      29981
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      1,
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20233,
+    "hide_buff_list": [],
+    "id": 202333,
+    "max_level": 90,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 20233,
+    "type": 2
+  },
+  "202334": {
+    "airassist_time": [],
+    "buff_list": [
+      16540,
+      16550,
+      29982
+    ],
+    "buff_list_display": [
+      16540,
+      16550,
+      29982
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      1,
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20233,
+    "hide_buff_list": [],
+    "id": 202334,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 20233,
+    "type": 2
+  },
   "203011": {
     "airassist_time": [],
     "buff_list": [
@@ -35549,7 +36933,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35591,7 +36976,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35634,7 +37020,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35677,7 +37064,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35720,7 +37108,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35762,7 +37151,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35805,7 +37195,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35848,7 +37239,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35891,7 +37283,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35933,7 +37326,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -35976,7 +37370,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36019,7 +37414,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36064,7 +37460,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36108,7 +37505,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36153,7 +37551,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36198,7 +37597,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36242,7 +37642,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36285,7 +37686,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36329,7 +37731,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36373,7 +37776,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36417,7 +37821,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36460,7 +37865,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36504,7 +37910,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36548,7 +37955,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36592,7 +38000,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36635,7 +38044,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36679,7 +38089,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36723,7 +38134,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36767,7 +38179,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36810,7 +38223,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36854,7 +38268,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36898,7 +38313,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36944,7 +38360,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -36989,7 +38406,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37035,7 +38453,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37081,7 +38500,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37125,7 +38545,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37168,7 +38589,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37212,7 +38634,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37256,7 +38679,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37302,7 +38726,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37347,7 +38772,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37393,7 +38819,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37439,7 +38866,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37485,7 +38913,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37530,7 +38959,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37576,7 +39006,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37622,7 +39053,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37668,7 +39100,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37713,7 +39146,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37759,7 +39193,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37805,7 +39240,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37851,7 +39287,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37896,7 +39333,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37942,7 +39380,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -37988,7 +39427,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -38033,7 +39473,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10,
@@ -38082,7 +39523,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -38129,7 +39571,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -38177,7 +39620,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -38225,7 +39669,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -38249,6 +39694,193 @@
     "star": 6,
     "star_max": 6,
     "strengthen_id": 20513,
+    "type": 5
+  },
+  "205141": {
+    "airassist_time": [],
+    "buff_list": [
+      16490,
+      16500
+    ],
+    "buff_list_display": [
+      16490,
+      16500
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 24100,
+    "equip_id_2": 22000,
+    "equip_id_3": 0,
+    "group_type": 20514,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 205141,
+    "max_level": 70,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 20514,
+    "type": 5
+  },
+  "205142": {
+    "airassist_time": [],
+    "buff_list": [
+      16490,
+      16500
+    ],
+    "buff_list_display": [
+      16490,
+      16500
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20514,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 205142,
+    "max_level": 80,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 20514,
+    "type": 5
+  },
+  "205143": {
+    "airassist_time": [],
+    "buff_list": [
+      16490,
+      16500
+    ],
+    "buff_list_display": [
+      16490,
+      16500
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20514,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 205143,
+    "max_level": 90,
+    "oil_at_end": 13,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 20514,
+    "type": 5
+  },
+  "205144": {
+    "airassist_time": [],
+    "buff_list": [
+      16490,
+      16500
+    ],
+    "buff_list_display": [
+      16490,
+      16500
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20514,
+    "hide_buff_list": [
+      2,
+      340
+    ],
+    "id": 205144,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 20514,
     "type": 5
   },
   "206011": {
@@ -38439,6 +40071,200 @@
     "star": 4,
     "star_max": 4,
     "strengthen_id": 20601,
+    "type": 6
+  },
+  "206021": {
+    "airassist_time": [
+      20
+    ],
+    "buff_list": [
+      16510,
+      16520
+    ],
+    "buff_list_display": [
+      16510,
+      16520
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 27000,
+    "equip_id_2": 28000,
+    "equip_id_3": 0,
+    "group_type": 20602,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206021,
+    "max_level": 70,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 20602,
+    "type": 6
+  },
+  "206022": {
+    "airassist_time": [
+      21
+    ],
+    "buff_list": [
+      16510,
+      16520
+    ],
+    "buff_list_display": [
+      16510,
+      16520
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20602,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206022,
+    "max_level": 80,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 20602,
+    "type": 6
+  },
+  "206023": {
+    "airassist_time": [
+      21,
+      21
+    ],
+    "buff_list": [
+      16510,
+      16520
+    ],
+    "buff_list_display": [
+      16510,
+      16520
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20602,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206023,
+    "max_level": 90,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 20602,
+    "type": 6
+  },
+  "206024": {
+    "airassist_time": [
+      22,
+      22
+    ],
+    "buff_list": [
+      16510,
+      16520
+    ],
+    "buff_list_display": [
+      16510,
+      16520
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20602,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206024,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 20602,
     "type": 6
   },
   "206031": {
@@ -39432,6 +41258,208 @@
     "star": 6,
     "star_max": 6,
     "strengthen_id": 20607,
+    "type": 6
+  },
+  "206081": {
+    "airassist_time": [
+      20
+    ],
+    "buff_list": [
+      16400,
+      16410,
+      16420
+    ],
+    "buff_list_display": [
+      16400,
+      16410,
+      16420
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20608,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206081,
+    "max_level": 70,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 20608,
+    "type": 6
+  },
+  "206082": {
+    "airassist_time": [
+      21
+    ],
+    "buff_list": [
+      16400,
+      16410,
+      16420
+    ],
+    "buff_list_display": [
+      16400,
+      16410,
+      16420
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20608,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206082,
+    "max_level": 80,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 20608,
+    "type": 6
+  },
+  "206083": {
+    "airassist_time": [
+      21,
+      21
+    ],
+    "buff_list": [
+      16400,
+      16410,
+      16420
+    ],
+    "buff_list_display": [
+      16400,
+      16410,
+      16420
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20608,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206083,
+    "max_level": 90,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 20608,
+    "type": 6
+  },
+  "206084": {
+    "airassist_time": [
+      22,
+      22
+    ],
+    "buff_list": [
+      16400,
+      16410,
+      16420
+    ],
+    "buff_list_display": [
+      16400,
+      16410,
+      16420
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20608,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 206084,
+    "max_level": 100,
+    "oil_at_end": 13,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 20608,
     "type": 6
   },
   "206134": {
@@ -40606,6 +42634,202 @@
     "star": 5,
     "star_max": 5,
     "strengthen_id": 20706,
+    "type": 7
+  },
+  "207071": {
+    "airassist_time": [
+      23
+    ],
+    "buff_list": [
+      16460,
+      16450,
+      16470
+    ],
+    "buff_list_display": [
+      16460,
+      16450,
+      16470
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 27000,
+    "equip_id_2": 0,
+    "equip_id_3": 18100,
+    "group_type": 20707,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 207071,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 20707,
+    "type": 7
+  },
+  "207072": {
+    "airassist_time": [
+      24
+    ],
+    "buff_list": [
+      16460,
+      16450,
+      16470
+    ],
+    "buff_list_display": [
+      16460,
+      16450,
+      16470
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20707,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 207072,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 20707,
+    "type": 7
+  },
+  "207073": {
+    "airassist_time": [
+      24,
+      24
+    ],
+    "buff_list": [
+      16460,
+      16450,
+      16470
+    ],
+    "buff_list_display": [
+      16460,
+      16450,
+      16470
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20707,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 207073,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 20707,
+    "type": 7
+  },
+  "207074": {
+    "airassist_time": [
+      25,
+      25
+    ],
+    "buff_list": [
+      16460,
+      16450,
+      16470
+    ],
+    "buff_list_display": [
+      16460,
+      16450,
+      16470
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      7,
+      8,
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20707,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 207074,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 20707,
     "type": 7
   },
   "207091": {
@@ -41895,7 +44119,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -41942,7 +44167,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -41990,7 +44216,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -42038,7 +44265,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58214,7 +60442,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58257,7 +60486,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58301,7 +60531,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58345,7 +60576,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58389,7 +60621,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58432,7 +60665,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58476,7 +60710,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58520,7 +60755,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58564,7 +60800,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58607,7 +60844,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58651,7 +60889,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58695,7 +60934,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58739,7 +60979,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58782,7 +61023,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58826,7 +61068,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58870,7 +61113,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58918,7 +61162,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -58965,7 +61210,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59013,7 +61259,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59061,7 +61308,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59107,7 +61355,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59152,7 +61401,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59198,7 +61448,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59244,7 +61495,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59290,7 +61542,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59335,7 +61588,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59381,7 +61635,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59427,7 +61682,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59472,7 +61728,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59516,7 +61773,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59561,7 +61819,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59606,7 +61865,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59651,7 +61911,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59695,7 +61956,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59740,7 +62002,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59785,7 +62048,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59830,7 +62094,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59874,7 +62139,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59919,7 +62185,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -59964,7 +62231,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60011,7 +62279,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60057,7 +62326,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60104,7 +62374,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60151,7 +62422,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60197,7 +62469,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60242,7 +62515,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60288,7 +62562,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60334,7 +62609,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60378,7 +62654,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60421,7 +62698,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60465,7 +62743,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60509,7 +62788,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60555,7 +62835,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60600,7 +62881,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60646,7 +62928,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60692,7 +62975,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60738,7 +63022,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60783,7 +63068,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60829,7 +63115,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60875,7 +63162,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60923,7 +63211,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -60971,7 +63260,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61020,7 +63310,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61069,7 +63360,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61299,7 +63591,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61344,7 +63637,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61390,7 +63684,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61436,7 +63731,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61482,7 +63778,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61527,7 +63824,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61573,7 +63871,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -61619,7 +63918,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -66501,7 +68801,8 @@
       12
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -66551,7 +68852,8 @@
       12
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -66600,7 +68902,8 @@
       12
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -66651,7 +68954,8 @@
       12
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -67434,7 +69738,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -67481,7 +69786,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -67529,7 +69835,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -67577,7 +69884,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74531,7 +76839,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74575,7 +76884,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74621,7 +76931,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74667,7 +76978,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74712,7 +77024,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74756,7 +77069,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74802,7 +77116,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74848,7 +77163,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74897,7 +77213,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74945,7 +77262,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -74994,7 +77312,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75043,7 +77362,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75092,7 +77412,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75140,7 +77461,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75189,7 +77511,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75238,7 +77561,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75284,7 +77608,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75329,7 +77654,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75375,7 +77701,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75421,7 +77748,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75470,7 +77798,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75518,7 +77847,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75567,7 +77897,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75616,7 +77947,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75661,7 +77993,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75705,7 +78038,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75751,7 +78085,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75797,7 +78132,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75845,7 +78181,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75892,7 +78229,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75940,7 +78278,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -75988,7 +78327,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -76035,7 +78375,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -76081,7 +78422,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -76128,7 +78470,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -76175,7 +78518,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79453,7 +81797,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79502,7 +81847,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79552,7 +81898,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79602,7 +81949,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79839,7 +82187,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79886,7 +82235,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79934,7 +82284,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -79982,7 +82333,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -80417,7 +82769,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -80464,7 +82817,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -80512,7 +82866,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -80560,7 +82915,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -81311,6 +83667,7 @@
     "buff_list_display": [
       10760,
       10500,
+      16440,
       24121
     ],
     "can_get_proficency": 0,
@@ -81357,6 +83714,7 @@
     "buff_list_display": [
       10760,
       10500,
+      16440,
       24121
     ],
     "can_get_proficency": 0,
@@ -81403,6 +83761,7 @@
     "buff_list_display": [
       10760,
       10500,
+      16440,
       24121
     ],
     "can_get_proficency": 0,
@@ -81449,6 +83808,7 @@
     "buff_list_display": [
       10760,
       10500,
+      16440,
       24122
     ],
     "can_get_proficency": 1,
@@ -82591,6 +84951,53 @@
     "strengthen_id": 50208,
     "type": 2
   },
+  "502114": {
+    "airassist_time": [],
+    "buff_list": [
+      16430,
+      10500,
+      24122
+    ],
+    "buff_list_display": [
+      16430,
+      10500,
+      16440,
+      24122
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      2
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 50201,
+    "hide_buff_list": [],
+    "id": 502114,
+    "max_level": 100,
+    "oil_at_end": 10,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 50201,
+    "type": 2
+  },
   "506011": {
     "airassist_time": [
       20
@@ -82779,6 +85186,384 @@
     "star_max": 5,
     "strengthen_id": 50601,
     "type": 6
+  },
+  "506021": {
+    "airassist_time": [
+      20
+    ],
+    "buff_list": [
+      16360,
+      16370
+    ],
+    "buff_list_display": [
+      16360,
+      16370
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      12
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 91180,
+    "equip_id_2": 91180,
+    "equip_id_3": 0,
+    "group_type": 50602,
+    "hide_buff_list": [],
+    "id": 506021,
+    "max_level": 70,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 50602,
+    "type": 6
+  },
+  "506022": {
+    "airassist_time": [
+      21
+    ],
+    "buff_list": [
+      16360,
+      16370
+    ],
+    "buff_list_display": [
+      16360,
+      16370
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      12
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 50602,
+    "hide_buff_list": [],
+    "id": 506022,
+    "max_level": 80,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 50602,
+    "type": 6
+  },
+  "506023": {
+    "airassist_time": [
+      21,
+      21
+    ],
+    "buff_list": [
+      16360,
+      16370
+    ],
+    "buff_list_display": [
+      16360,
+      16370
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      12
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 50602,
+    "hide_buff_list": [],
+    "id": 506023,
+    "max_level": 90,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 50602,
+    "type": 6
+  },
+  "506024": {
+    "airassist_time": [
+      22,
+      22
+    ],
+    "buff_list": [
+      16360,
+      16370
+    ],
+    "buff_list_display": [
+      16360,
+      16370
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      12
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 50602,
+    "hide_buff_list": [],
+    "id": 506024,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 50602,
+    "type": 6
+  },
+  "519011": {
+    "airassist_time": [
+      20
+    ],
+    "buff_list": [
+      16380,
+      16390
+    ],
+    "buff_list_display": [
+      16380,
+      16390
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      10,
+      18
+    ],
+    "equip_3": [
+      10,
+      18
+    ],
+    "equip_4": [
+      10,
+      18
+    ],
+    "equip_5": [
+      10,
+      18
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 51901,
+    "hide_buff_list": [],
+    "id": 519011,
+    "max_level": 70,
+    "oil_at_end": 4,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 51901,
+    "type": 19
+  },
+  "519012": {
+    "airassist_time": [
+      21
+    ],
+    "buff_list": [
+      16380,
+      16390
+    ],
+    "buff_list_display": [
+      16380,
+      16390
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      10,
+      18
+    ],
+    "equip_3": [
+      10,
+      18
+    ],
+    "equip_4": [
+      10,
+      18
+    ],
+    "equip_5": [
+      10,
+      18
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 51901,
+    "hide_buff_list": [],
+    "id": 519012,
+    "max_level": 80,
+    "oil_at_end": 6,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 51901,
+    "type": 19
+  },
+  "519013": {
+    "airassist_time": [
+      21
+    ],
+    "buff_list": [
+      16380,
+      16390
+    ],
+    "buff_list_display": [
+      16380,
+      16390
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      10,
+      18
+    ],
+    "equip_3": [
+      10,
+      18
+    ],
+    "equip_4": [
+      10,
+      18
+    ],
+    "equip_5": [
+      10,
+      18
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 51901,
+    "hide_buff_list": [],
+    "id": 519013,
+    "max_level": 90,
+    "oil_at_end": 8,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 51901,
+    "type": 19
+  },
+  "519014": {
+    "airassist_time": [
+      22
+    ],
+    "buff_list": [
+      16380,
+      16390
+    ],
+    "buff_list_display": [
+      16380,
+      16390
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      12
+    ],
+    "equip_2": [
+      10,
+      18
+    ],
+    "equip_3": [
+      10,
+      18
+    ],
+    "equip_4": [
+      10,
+      18
+    ],
+    "equip_5": [
+      10,
+      18
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 51901,
+    "hide_buff_list": [],
+    "id": 519014,
+    "max_level": 100,
+    "oil_at_end": 10,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 51901,
+    "type": 19
   },
   "520014": {
     "airassist_time": [],
@@ -85921,7 +88706,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -85968,7 +88754,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86016,7 +88803,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86064,7 +88852,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86110,7 +88899,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86155,7 +88945,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86201,7 +88992,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86247,7 +89039,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86295,7 +89088,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86342,7 +89136,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86390,7 +89185,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86438,7 +89234,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86481,7 +89278,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86523,7 +89321,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86566,7 +89365,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86609,7 +89409,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86654,7 +89455,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86698,7 +89500,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86743,7 +89546,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -86788,7 +89592,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -87567,7 +90372,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -87616,7 +90422,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -87666,7 +90473,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -87716,7 +90524,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90127,6 +92936,189 @@
     "strengthen_id": 70204,
     "type": 2
   },
+  "702051": {
+    "airassist_time": [],
+    "buff_list": [
+      16340,
+      16350
+    ],
+    "buff_list_display": [
+      16340,
+      16350,
+      29971
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 85120,
+    "equip_id_2": 0,
+    "equip_id_3": 85060,
+    "group_type": 70205,
+    "hide_buff_list": [],
+    "id": 702051,
+    "max_level": 70,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 70205,
+    "type": 2
+  },
+  "702052": {
+    "airassist_time": [],
+    "buff_list": [
+      16340,
+      16350,
+      29971
+    ],
+    "buff_list_display": [
+      16340,
+      16350,
+      29971
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70205,
+    "hide_buff_list": [],
+    "id": 702052,
+    "max_level": 80,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 70205,
+    "type": 2
+  },
+  "702053": {
+    "airassist_time": [],
+    "buff_list": [
+      16340,
+      16350,
+      29971
+    ],
+    "buff_list_display": [
+      16340,
+      16350,
+      29971
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70205,
+    "hide_buff_list": [],
+    "id": 702053,
+    "max_level": 90,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 70205,
+    "type": 2
+  },
+  "702054": {
+    "airassist_time": [],
+    "buff_list": [
+      16340,
+      16350,
+      29972
+    ],
+    "buff_list_display": [
+      16340,
+      16350,
+      29972
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70205,
+    "hide_buff_list": [],
+    "id": 702054,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70205,
+    "type": 2
+  },
   "702061": {
     "airassist_time": [],
     "buff_list": [
@@ -90308,6 +93300,189 @@
     "star": 5,
     "star_max": 5,
     "strengthen_id": 70206,
+    "type": 2
+  },
+  "702071": {
+    "airassist_time": [],
+    "buff_list": [
+      16630,
+      16640
+    ],
+    "buff_list_display": [
+      16630,
+      16640,
+      29991
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 85460,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70207,
+    "hide_buff_list": [],
+    "id": 702071,
+    "max_level": 70,
+    "oil_at_end": 5,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 70207,
+    "type": 2
+  },
+  "702072": {
+    "airassist_time": [],
+    "buff_list": [
+      16630,
+      16640,
+      29991
+    ],
+    "buff_list_display": [
+      16630,
+      16640,
+      29991
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70207,
+    "hide_buff_list": [],
+    "id": 702072,
+    "max_level": 80,
+    "oil_at_end": 7,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 70207,
+    "type": 2
+  },
+  "702073": {
+    "airassist_time": [],
+    "buff_list": [
+      16630,
+      16640,
+      29991
+    ],
+    "buff_list_display": [
+      16630,
+      16640,
+      29991
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70207,
+    "hide_buff_list": [],
+    "id": 702073,
+    "max_level": 90,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 70207,
+    "type": 2
+  },
+  "702074": {
+    "airassist_time": [],
+    "buff_list": [
+      16630,
+      16640,
+      29992
+    ],
+    "buff_list_display": [
+      16630,
+      16640,
+      29992
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70207,
+    "hide_buff_list": [],
+    "id": 702074,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70207,
     "type": 2
   },
   "702124": {
@@ -90542,6 +93717,197 @@
     "strengthen_id": 70301,
     "type": 3
   },
+  "703021": {
+    "airassist_time": [],
+    "buff_list": [
+      16580,
+      16590,
+      16600
+    ],
+    "buff_list_display": [
+      16580,
+      16590,
+      16600,
+      26311
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70302,
+    "hide_buff_list": [],
+    "id": 703021,
+    "max_level": 70,
+    "oil_at_end": 6,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 70302,
+    "type": 3
+  },
+  "703022": {
+    "airassist_time": [],
+    "buff_list": [
+      16580,
+      16590,
+      16600,
+      26311
+    ],
+    "buff_list_display": [
+      16580,
+      16590,
+      16600,
+      26311
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70302,
+    "hide_buff_list": [],
+    "id": 703022,
+    "max_level": 80,
+    "oil_at_end": 8,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 70302,
+    "type": 3
+  },
+  "703023": {
+    "airassist_time": [],
+    "buff_list": [
+      16580,
+      16590,
+      16600,
+      26311
+    ],
+    "buff_list_display": [
+      16580,
+      16590,
+      16600,
+      26311
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70302,
+    "hide_buff_list": [],
+    "id": 703023,
+    "max_level": 90,
+    "oil_at_end": 10,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 70302,
+    "type": 3
+  },
+  "703024": {
+    "airassist_time": [],
+    "buff_list": [
+      16580,
+      16590,
+      16600,
+      26312
+    ],
+    "buff_list_display": [
+      16580,
+      16590,
+      16600,
+      26312
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      3
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70302,
+    "hide_buff_list": [],
+    "id": 703024,
+    "max_level": 100,
+    "oil_at_end": 12,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70302,
+    "type": 3
+  },
   "705011": {
     "airassist_time": [],
     "buff_list": [
@@ -90562,7 +93928,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90607,7 +93974,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90653,7 +94021,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90699,7 +94068,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90745,7 +94115,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90790,7 +94161,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90836,7 +94208,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90882,7 +94255,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90928,7 +94302,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -90973,7 +94348,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -91019,7 +94395,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -91065,7 +94442,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -91111,7 +94489,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -91156,7 +94535,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -91202,7 +94582,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -91248,7 +94629,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -91272,6 +94654,193 @@
     "star": 5,
     "star_max": 5,
     "strengthen_id": 70506,
+    "type": 5
+  },
+  "705071": {
+    "airassist_time": [],
+    "buff_list": [
+      16610,
+      16620
+    ],
+    "buff_list_display": [
+      16610,
+      16620
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 85420,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70507,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 705071,
+    "max_level": 70,
+    "oil_at_end": 8,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 70507,
+    "type": 5
+  },
+  "705072": {
+    "airassist_time": [],
+    "buff_list": [
+      16610,
+      16620
+    ],
+    "buff_list_display": [
+      16610,
+      16620
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70507,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 705072,
+    "max_level": 80,
+    "oil_at_end": 10,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 70507,
+    "type": 5
+  },
+  "705073": {
+    "airassist_time": [],
+    "buff_list": [
+      16610,
+      16620
+    ],
+    "buff_list_display": [
+      16610,
+      16620
+    ],
+    "can_get_proficency": 0,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70507,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 705073,
+    "max_level": 90,
+    "oil_at_end": 12,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 70507,
+    "type": 5
+  },
+  "705074": {
+    "airassist_time": [],
+    "buff_list": [
+      16610,
+      16620
+    ],
+    "buff_list_display": [
+      16610,
+      16620
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70507,
+    "hide_buff_list": [
+      2,
+      340
+    ],
+    "id": 705074,
+    "max_level": 100,
+    "oil_at_end": 14,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 70507,
     "type": 5
   },
   "707011": {
@@ -93331,7 +96900,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -93378,7 +96948,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -93425,7 +96996,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -93473,7 +97045,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -94067,7 +97640,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -94114,7 +97688,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -94161,7 +97736,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -94208,7 +97784,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -94509,7 +98086,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10,
@@ -94549,7 +98127,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10,
@@ -94800,7 +98379,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10,
@@ -94843,7 +98423,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10,
@@ -94927,7 +98508,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -94969,7 +98551,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -95593,7 +99176,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -95943,7 +99527,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96034,7 +99619,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96216,7 +99802,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96261,7 +99848,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96350,7 +99938,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96486,7 +100075,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96529,7 +100119,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96707,7 +100298,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96753,7 +100345,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96798,7 +100391,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96935,7 +100529,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -96981,7 +100576,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97215,7 +100811,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97307,7 +100904,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97353,7 +100951,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97495,7 +101094,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97587,7 +101187,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97678,7 +101279,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97830,7 +101432,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97866,7 +101469,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -97904,7 +101508,8 @@
     ],
     "equip_3": [
       1,
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -98243,7 +101848,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -98329,7 +101935,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -98928,7 +102535,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -99064,7 +102672,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -99388,7 +102997,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10,
@@ -99556,6 +103166,622 @@
     "star_max": 5,
     "strengthen_id": 40123,
     "type": 1
+  },
+  "900362": {
+    "airassist_time": [],
+    "buff_list": [
+      29982
+    ],
+    "buff_list_display": [
+      29982
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      1,
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20233,
+    "hide_buff_list": [],
+    "id": 900362,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 20233,
+    "type": 2
+  },
+  "900363": {
+    "airassist_time": [],
+    "buff_list": [
+      21062
+    ],
+    "buff_list_display": [
+      21062
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20136,
+    "hide_buff_list": [],
+    "id": 900363,
+    "max_level": 100,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [
+      "AUX"
+    ],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 20136,
+    "type": 1
+  },
+  "900364": {
+    "airassist_time": [],
+    "buff_list": [
+      13240,
+      13250,
+      13260,
+      6550
+    ],
+    "buff_list_display": [
+      13240,
+      13250,
+      13260
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 80501,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 900364,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 80501,
+    "type": 18
+  },
+  "900365": {
+    "airassist_time": [
+      25,
+      25
+    ],
+    "buff_list": [
+      16450,
+      16460,
+      16470
+    ],
+    "buff_list_display": [
+      16450,
+      16460,
+      16470
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      7,
+      8,
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20707,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 900365,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 20707,
+    "type": 7
+  },
+  "900366": {
+    "airassist_time": [],
+    "buff_list": [
+      16490,
+      16500
+    ],
+    "buff_list_display": [
+      16490,
+      16500
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20514,
+    "hide_buff_list": [
+      2,
+      340
+    ],
+    "id": 900366,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 20514,
+    "type": 5
+  },
+  "900367": {
+    "airassist_time": [
+      22,
+      22
+    ],
+    "buff_list": [
+      16510,
+      16520
+    ],
+    "buff_list_display": [
+      16510,
+      16520
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      8
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      15
+    ],
+    "equip_5": [
+      10,
+      15
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 20602,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 900367,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 20602,
+    "type": 6
+  },
+  "900368": {
+    "airassist_time": [],
+    "buff_list": [
+      4151,
+      4081,
+      26022
+    ],
+    "buff_list_display": [
+      4151,
+      4081,
+      26022
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      1
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70103,
+    "hide_buff_list": [],
+    "id": 900368,
+    "max_level": 100,
+    "oil_at_end": 9,
+    "oil_at_start": 1,
+    "specific_type": [
+      "GNR"
+    ],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 70103,
+    "type": 1
+  },
+  "900369": {
+    "airassist_time": [],
+    "buff_list": [
+      13000,
+      13010,
+      29512
+    ],
+    "buff_list_display": [
+      13000,
+      13010,
+      29512
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70203,
+    "hide_buff_list": [],
+    "id": 900369,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70203,
+    "type": 2
+  },
+  "900370": {
+    "airassist_time": [],
+    "buff_list": [
+      13020,
+      13030
+    ],
+    "buff_list_display": [
+      13020,
+      13030
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70505,
+    "hide_buff_list": [
+      2,
+      340
+    ],
+    "id": 900370,
+    "max_level": 100,
+    "oil_at_end": 15,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70505,
+    "type": 5
+  },
+  "900371": {
+    "airassist_time": [
+      25,
+      25
+    ],
+    "buff_list": [
+      15320,
+      15330,
+      15340
+    ],
+    "buff_list_display": [
+      15320,
+      15330,
+      15340
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      7
+    ],
+    "equip_2": [
+      9
+    ],
+    "equip_3": [
+      8
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70701,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 900371,
+    "max_level": 100,
+    "oil_at_end": 13,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70701,
+    "type": 7
+  },
+  "900372": {
+    "airassist_time": [],
+    "buff_list": [
+      16580,
+      16590,
+      16600,
+      26312
+    ],
+    "buff_list_display": [
+      16580,
+      16590,
+      16600,
+      26312
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2,
+      3
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70302,
+    "hide_buff_list": [],
+    "id": 900372,
+    "max_level": 100,
+    "oil_at_end": 12,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70302,
+    "type": 3
+  },
+  "900373": {
+    "airassist_time": [],
+    "buff_list": [
+      16630,
+      16640,
+      29992
+    ],
+    "buff_list_display": [
+      16630,
+      16640,
+      29992
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70207,
+    "hide_buff_list": [],
+    "id": 900373,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 70207,
+    "type": 2
+  },
+  "900374": {
+    "airassist_time": [],
+    "buff_list": [
+      13050,
+      13060
+    ],
+    "buff_list_display": [
+      13050,
+      13060
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 70507,
+    "hide_buff_list": [
+      2,
+      340
+    ],
+    "id": 900374,
+    "max_level": 100,
+    "oil_at_end": 14,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 70507,
+    "type": 5
   },
   "900801": {
     "airassist_time": [
@@ -99931,7 +104157,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -100061,7 +104288,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -100105,7 +104333,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -100292,7 +104521,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -100340,7 +104570,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -100586,7 +104817,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -100682,7 +104914,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102494,7 +106727,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102536,7 +106770,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102578,7 +106813,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102620,7 +106856,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102666,7 +106903,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102711,7 +106949,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102756,7 +106995,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102801,7 +107041,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102847,7 +107088,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102892,7 +107134,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102937,7 +107180,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -102982,7 +107226,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -103214,7 +107459,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -103261,7 +107507,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -103308,7 +107555,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -103355,7 +107603,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104271,6 +108520,354 @@
     "strengthen_id": 970202,
     "type": 2
   },
+  "9702031": {
+    "airassist_time": [],
+    "buff_list": [],
+    "buff_list_display": [
+      800680,
+      800690,
+      800701
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970203,
+    "hide_buff_list": [],
+    "id": 9702031,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 970203,
+    "type": 2
+  },
+  "9702032": {
+    "airassist_time": [],
+    "buff_list": [
+      800701
+    ],
+    "buff_list_display": [
+      800680,
+      800690,
+      800701
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970203,
+    "hide_buff_list": [],
+    "id": 9702032,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 970203,
+    "type": 2
+  },
+  "9702033": {
+    "airassist_time": [],
+    "buff_list": [
+      800701
+    ],
+    "buff_list_display": [
+      800680,
+      800690,
+      800701
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970203,
+    "hide_buff_list": [],
+    "id": 9702033,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 970203,
+    "type": 2
+  },
+  "9702034": {
+    "airassist_time": [],
+    "buff_list": [
+      800702
+    ],
+    "buff_list_display": [
+      800680,
+      800690,
+      800702
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970203,
+    "hide_buff_list": [],
+    "id": 9702034,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 970203,
+    "type": 2
+  },
+  "9702041": {
+    "airassist_time": [],
+    "buff_list": [],
+    "buff_list_display": [
+      800750,
+      800760,
+      800771
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970204,
+    "hide_buff_list": [],
+    "id": 9702041,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 2,
+    "star_max": 5,
+    "strengthen_id": 970204,
+    "type": 2
+  },
+  "9702042": {
+    "airassist_time": [],
+    "buff_list": [
+      800771
+    ],
+    "buff_list_display": [
+      800750,
+      800760,
+      800771
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970204,
+    "hide_buff_list": [],
+    "id": 9702042,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 5,
+    "strengthen_id": 970204,
+    "type": 2
+  },
+  "9702043": {
+    "airassist_time": [],
+    "buff_list": [
+      800771
+    ],
+    "buff_list_display": [
+      800750,
+      800760,
+      800771
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970204,
+    "hide_buff_list": [],
+    "id": 9702043,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 5,
+    "strengthen_id": 970204,
+    "type": 2
+  },
+  "9702044": {
+    "airassist_time": [],
+    "buff_list": [
+      800772
+    ],
+    "buff_list_display": [
+      800750,
+      800760,
+      800772
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      2
+    ],
+    "equip_2": [
+      5
+    ],
+    "equip_3": [
+      6
+    ],
+    "equip_4": [
+      10,
+      14
+    ],
+    "equip_5": [
+      10,
+      14
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970204,
+    "hide_buff_list": [],
+    "id": 9702044,
+    "max_level": 100,
+    "oil_at_end": 11,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 5,
+    "strengthen_id": 970204,
+    "type": 2
+  },
   "9703011": {
     "airassist_time": [],
     "buff_list": [],
@@ -104460,7 +109057,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104506,7 +109104,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104553,7 +109152,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104600,7 +109200,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104644,7 +109245,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104689,7 +109291,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104735,7 +109338,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104781,7 +109385,8 @@
       5
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104825,7 +109430,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104870,7 +109476,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104916,7 +109523,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -104962,7 +109570,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105006,7 +109615,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105051,7 +109661,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105097,7 +109708,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105143,7 +109755,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105188,7 +109801,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105234,7 +109848,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105281,7 +109896,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105328,7 +109944,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105373,7 +109990,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105419,7 +110037,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105466,7 +110085,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105513,7 +110133,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -105537,6 +110158,380 @@
     "star": 5,
     "star_max": 5,
     "strengthen_id": 970502,
+    "type": 5
+  },
+  "9705031": {
+    "airassist_time": [],
+    "buff_list": [],
+    "buff_list_display": [
+      800640,
+      800650,
+      800660,
+      800671
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970503,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 9705031,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 970503,
+    "type": 5
+  },
+  "9705032": {
+    "airassist_time": [],
+    "buff_list": [
+      800671
+    ],
+    "buff_list_display": [
+      800640,
+      800650,
+      800660,
+      800671
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970503,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 9705032,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 970503,
+    "type": 5
+  },
+  "9705033": {
+    "airassist_time": [],
+    "buff_list": [
+      800671
+    ],
+    "buff_list_display": [
+      800640,
+      800650,
+      800660,
+      800671
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970503,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 9705033,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 970503,
+    "type": 5
+  },
+  "9705034": {
+    "airassist_time": [],
+    "buff_list": [
+      800672
+    ],
+    "buff_list_display": [
+      800640,
+      800650,
+      800660,
+      800672
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970503,
+    "hide_buff_list": [
+      2,
+      340
+    ],
+    "id": 9705034,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 970503,
+    "type": 5
+  },
+  "9705041": {
+    "airassist_time": [],
+    "buff_list": [],
+    "buff_list_display": [
+      800710,
+      800720,
+      800730,
+      800741
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970504,
+    "hide_buff_list": [
+      340
+    ],
+    "id": 9705041,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 3,
+    "star_max": 6,
+    "strengthen_id": 970504,
+    "type": 5
+  },
+  "9705042": {
+    "airassist_time": [],
+    "buff_list": [
+      800741
+    ],
+    "buff_list_display": [
+      800710,
+      800720,
+      800730,
+      800741
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970504,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 9705042,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 4,
+    "star_max": 6,
+    "strengthen_id": 970504,
+    "type": 5
+  },
+  "9705043": {
+    "airassist_time": [],
+    "buff_list": [
+      800741
+    ],
+    "buff_list_display": [
+      800710,
+      800720,
+      800730,
+      800741
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970504,
+    "hide_buff_list": [
+      1,
+      340
+    ],
+    "id": 9705043,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 5,
+    "star_max": 6,
+    "strengthen_id": 970504,
+    "type": 5
+  },
+  "9705044": {
+    "airassist_time": [],
+    "buff_list": [
+      800742
+    ],
+    "buff_list_display": [
+      800710,
+      800720,
+      800730,
+      800742
+    ],
+    "can_get_proficency": 1,
+    "energy": 150,
+    "equip_1": [
+      4
+    ],
+    "equip_2": [
+      1,
+      2
+    ],
+    "equip_3": [
+      6,
+      21
+    ],
+    "equip_4": [
+      10
+    ],
+    "equip_5": [
+      10
+    ],
+    "equip_id_1": 0,
+    "equip_id_2": 0,
+    "equip_id_3": 0,
+    "group_type": 970504,
+    "hide_buff_list": [
+      2,
+      340
+    ],
+    "id": 9705044,
+    "max_level": 100,
+    "oil_at_end": 16,
+    "oil_at_start": 1,
+    "specific_type": [],
+    "star": 6,
+    "star_max": 6,
+    "strengthen_id": 970504,
     "type": 5
   },
   "9706011": {
@@ -109529,7 +114524,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -109574,7 +114570,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -109620,7 +114617,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -109666,7 +114664,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111164,7 +116163,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111209,7 +116209,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111255,7 +116256,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111301,7 +116303,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111691,7 +116694,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111736,7 +116740,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111782,7 +116787,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -111828,7 +116834,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -112613,7 +117620,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -112657,7 +117665,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -112702,7 +117711,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -112747,7 +117757,8 @@
       1
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -113683,7 +118694,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -113730,7 +118742,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -113778,7 +118791,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -113826,7 +118840,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -114578,7 +119593,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -114623,7 +119639,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -114669,7 +119686,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -114715,7 +119733,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -115165,7 +120184,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -115212,7 +120232,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -115260,7 +120281,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -115308,7 +120330,8 @@
       2
     ],
     "equip_3": [
-      6
+      6,
+      21
     ],
     "equip_4": [
       10
@@ -115745,7 +120768,7 @@
     "oil_at_start": 1,
     "specific_type": [],
     "star": 3,
-    "star_max": 5,
+    "star_max": 6,
     "strengthen_id": 1090006,
     "type": 18
   },
@@ -115790,7 +120813,7 @@
     "oil_at_start": 1,
     "specific_type": [],
     "star": 4,
-    "star_max": 5,
+    "star_max": 6,
     "strengthen_id": 1090006,
     "type": 18
   },
@@ -115835,7 +120858,7 @@
     "oil_at_start": 1,
     "specific_type": [],
     "star": 5,
-    "star_max": 5,
+    "star_max": 6,
     "strengthen_id": 1090006,
     "type": 18
   },
@@ -115880,7 +120903,7 @@
     "oil_at_start": 1,
     "specific_type": [],
     "star": 6,
-    "star_max": 5,
+    "star_max": 6,
     "strengthen_id": 1090006,
     "type": 18
   }

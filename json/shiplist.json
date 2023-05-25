@@ -4544,6 +4544,159 @@
         "rarity": "Super Rare",
         "shipType": "common"
     },
+    "572": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dahuangfengII.png",
+        "link": "hornetii",
+        "name": "Hornet II",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "573": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lanliII.png",
+        "link": "langleyii",
+        "name": "Langley II",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "574": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yuekechengII.png",
+        "link": "yorktownii",
+        "name": "Yorktown II",
+        "navy": "Eagle Union",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "575": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/beianpudunII.png",
+        "link": "northamptonii",
+        "name": "Northampton II",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "576": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/hamanII.png",
+        "link": "hammannii",
+        "name": "Hammann II",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "577": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/gubixuefu.png",
+        "link": "kuybyshev",
+        "name": "Kuybyshev",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "578": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/texiusi.png",
+        "link": "theseus",
+        "name": "Theseus",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "579": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huajia.png",
+        "link": "hwah_jah",
+        "name": "Hwah Jah",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "580": {
+        "hull": "Munition Ship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/dingan.png",
+        "link": "ting_an",
+        "name": "Ting An",
+        "navy": "Dragon Empire",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "581": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yuanchou.png",
+        "link": "implacable",
+        "name": "Implacable",
+        "navy": "Royal Navy",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "582": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/huangjiaxiangshu.png",
+        "link": "royal_oak",
+        "name": "Royal Oak",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "583": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/baiyanjuren.png",
+        "link": "argus",
+        "name": "Argus",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "584": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/sikula.png",
+        "link": "scylla",
+        "name": "Scylla",
+        "navy": "Royal Navy",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "585": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yingxiong.png",
+        "link": "hero",
+        "name": "Hero",
+        "navy": "Royal Navy",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "586": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/kuersike.png",
+        "link": "kursk",
+        "name": "Kursk",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "587": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/saiwasituoboer.png",
+        "link": "sevastopol",
+        "name": "Sevastopol",
+        "navy": "Northern Parliament",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "588": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/fuluoxiluofu.png",
+        "link": "voroshilov",
+        "name": "Voroshilov",
+        "navy": "Northern Parliament",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -4927,6 +5080,42 @@
         "icon": "https://algwiki.moe/assets/shipyardicon_new/mingyunnvshen_alter.png",
         "link": "fortune_meta",
         "name": "Fortune META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M017": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yalisangna_alter.png",
+        "link": "arizona_meta",
+        "name": "Arizona META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M018": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiefeierde_alter.png",
+        "link": "sheffield_meta",
+        "name": "Sheffield META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M019": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yilishabai_alter.png",
+        "link": "queen_elizabeth_meta",
+        "name": "Queen Elizabeth META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
+    "M020": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jialisuoniye_alter.png",
+        "link": "la_galissonniere_meta",
+        "name": "La Galissonnière META",
         "navy": "META",
         "rarity": "Elite",
         "shipType": "META"

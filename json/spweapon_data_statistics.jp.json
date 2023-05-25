@@ -3347,6 +3347,1963 @@
     "value_1": 280,
     "value_2": 15
   },
+  "10480": {
+    "attribute_1": "cannon",
+    "attribute_2": "durability",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 901010,
+    "effect_id_display": 901010,
+    "icon": "10480",
+    "id": 10480,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "謹製特殊艤装ラウティア",
+    "next": 10481,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1010530
+      ]
+    ],
+    "tech": 0,
+    "type": 1,
+    "uncraftable": 0,
+    "unique": 40123,
+    "upgrade_id": 101,
+    "usability": [
+      1
+    ],
+    "value_1": 11,
+    "value_1_random": 10,
+    "value_2": 110,
+    "value_2_random": 30
+  },
+  "10481": {
+    "base": 10480,
+    "id": 10481,
+    "level": 2,
+    "next": 10482,
+    "prev": 10480,
+    "upgrade_id": 102,
+    "value_1": 12,
+    "value_2": 115
+  },
+  "10482": {
+    "base": 10480,
+    "id": 10482,
+    "level": 3,
+    "next": 10483,
+    "prev": 10481,
+    "upgrade_id": 103,
+    "value_1": 13,
+    "value_2": 120
+  },
+  "10483": {
+    "base": 10480,
+    "id": 10483,
+    "level": 4,
+    "next": 10484,
+    "prev": 10482,
+    "upgrade_id": 104,
+    "value_1": 14,
+    "value_2": 125
+  },
+  "10484": {
+    "base": 10480,
+    "id": 10484,
+    "level": 5,
+    "next": 10485,
+    "prev": 10483,
+    "upgrade_id": 105,
+    "value_1": 15,
+    "value_2": 130
+  },
+  "10485": {
+    "base": 10480,
+    "id": 10485,
+    "level": 6,
+    "next": 10486,
+    "prev": 10484,
+    "upgrade_id": 106,
+    "value_1": 16,
+    "value_2": 135
+  },
+  "10486": {
+    "base": 10480,
+    "id": 10486,
+    "level": 7,
+    "next": 10487,
+    "prev": 10485,
+    "upgrade_id": 107,
+    "value_1": 17,
+    "value_2": 140
+  },
+  "10487": {
+    "base": 10480,
+    "id": 10487,
+    "level": 8,
+    "next": 10488,
+    "prev": 10486,
+    "upgrade_id": 108,
+    "value_1": 18,
+    "value_2": 145
+  },
+  "10488": {
+    "base": 10480,
+    "id": 10488,
+    "level": 9,
+    "next": 10489,
+    "prev": 10487,
+    "upgrade_id": 109,
+    "value_1": 19,
+    "value_2": 150
+  },
+  "10489": {
+    "base": 10480,
+    "id": 10489,
+    "level": 10,
+    "next": 10490,
+    "prev": 10488,
+    "upgrade_id": 110,
+    "value_1": 20,
+    "value_2": 160
+  },
+  "10490": {
+    "base": 10480,
+    "id": 10490,
+    "level": 11,
+    "next": 0,
+    "prev": 10489,
+    "skill_upgrade": [
+      [
+        10530,
+        1010530
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 22,
+    "value_2": 170
+  },
+  "10500": {
+    "attribute_1": "cannon",
+    "attribute_2": "hit",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 901010,
+    "effect_id_display": 901010,
+    "icon": "10500",
+    "id": 10500,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "あてちゃんずの今日のごはん",
+    "next": 10501,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1090050
+      ]
+    ],
+    "tech": 0,
+    "type": 2,
+    "uncraftable": 0,
+    "unique": 30204,
+    "upgrade_id": 101,
+    "usability": [
+      2
+    ],
+    "value_1": 9,
+    "value_1_random": 10,
+    "value_2": 9,
+    "value_2_random": 5
+  },
+  "10501": {
+    "base": 10500,
+    "id": 10501,
+    "level": 2,
+    "next": 10502,
+    "prev": 10500,
+    "upgrade_id": 102,
+    "value_1": 10,
+    "value_2": 10
+  },
+  "10502": {
+    "base": 10500,
+    "id": 10502,
+    "level": 3,
+    "next": 10503,
+    "prev": 10501,
+    "upgrade_id": 103,
+    "value_1": 11,
+    "value_2": 11
+  },
+  "10503": {
+    "base": 10500,
+    "id": 10503,
+    "level": 4,
+    "next": 10504,
+    "prev": 10502,
+    "upgrade_id": 104,
+    "value_1": 12,
+    "value_2": 12
+  },
+  "10504": {
+    "base": 10500,
+    "id": 10504,
+    "level": 5,
+    "next": 10505,
+    "prev": 10503,
+    "upgrade_id": 105,
+    "value_1": 13,
+    "value_2": 13
+  },
+  "10505": {
+    "base": 10500,
+    "id": 10505,
+    "level": 6,
+    "next": 10506,
+    "prev": 10504,
+    "upgrade_id": 106,
+    "value_1": 14,
+    "value_2": 14
+  },
+  "10506": {
+    "base": 10500,
+    "id": 10506,
+    "level": 7,
+    "next": 10507,
+    "prev": 10505,
+    "upgrade_id": 107,
+    "value_1": 15,
+    "value_2": 15
+  },
+  "10507": {
+    "base": 10500,
+    "id": 10507,
+    "level": 8,
+    "next": 10508,
+    "prev": 10506,
+    "upgrade_id": 108,
+    "value_1": 16,
+    "value_2": 16
+  },
+  "10508": {
+    "base": 10500,
+    "id": 10508,
+    "level": 9,
+    "next": 10509,
+    "prev": 10507,
+    "upgrade_id": 109,
+    "value_1": 17,
+    "value_2": 17
+  },
+  "10509": {
+    "base": 10500,
+    "id": 10509,
+    "level": 10,
+    "next": 10510,
+    "prev": 10508,
+    "upgrade_id": 110,
+    "value_1": 18,
+    "value_2": 18
+  },
+  "10510": {
+    "base": 10500,
+    "effect_id_display": 901010,
+    "id": 10510,
+    "level": 11,
+    "next": 0,
+    "prev": 10509,
+    "skill_upgrade": [
+      [
+        2011,
+        1090050
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 20,
+    "value_2": 20
+  },
+  "10520": {
+    "attribute_1": "cannon",
+    "attribute_2": "hit",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 902150,
+    "effect_id_display": 902150,
+    "icon": "10520",
+    "id": 10520,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "優雅なりし淑女の勲章",
+    "next": 10521,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1010290
+      ]
+    ],
+    "tech": 0,
+    "type": 6,
+    "uncraftable": 0,
+    "unique": 20403,
+    "upgrade_id": 101,
+    "usability": [
+      4
+    ],
+    "value_1": 13,
+    "value_1_random": 10,
+    "value_2": 4,
+    "value_2_random": 5
+  },
+  "10521": {
+    "base": 10520,
+    "id": 10521,
+    "level": 2,
+    "next": 10522,
+    "prev": 10520,
+    "upgrade_id": 102,
+    "value_1": 14
+  },
+  "10522": {
+    "base": 10520,
+    "id": 10522,
+    "level": 3,
+    "next": 10523,
+    "prev": 10521,
+    "upgrade_id": 103,
+    "value_1": 15
+  },
+  "10523": {
+    "base": 10520,
+    "id": 10523,
+    "level": 4,
+    "next": 10524,
+    "prev": 10522,
+    "upgrade_id": 104,
+    "value_1": 16
+  },
+  "10524": {
+    "base": 10520,
+    "id": 10524,
+    "level": 5,
+    "next": 10525,
+    "prev": 10523,
+    "upgrade_id": 105,
+    "value_1": 17,
+    "value_2": 5
+  },
+  "10525": {
+    "base": 10520,
+    "id": 10525,
+    "level": 6,
+    "next": 10526,
+    "prev": 10524,
+    "upgrade_id": 106,
+    "value_1": 18,
+    "value_2": 5
+  },
+  "10526": {
+    "base": 10520,
+    "id": 10526,
+    "level": 7,
+    "next": 10527,
+    "prev": 10525,
+    "upgrade_id": 107,
+    "value_1": 19,
+    "value_2": 5
+  },
+  "10527": {
+    "base": 10520,
+    "id": 10527,
+    "level": 8,
+    "next": 10528,
+    "prev": 10526,
+    "upgrade_id": 108,
+    "value_1": 20,
+    "value_2": 5
+  },
+  "10528": {
+    "base": 10520,
+    "id": 10528,
+    "level": 9,
+    "next": 10529,
+    "prev": 10527,
+    "upgrade_id": 109,
+    "value_1": 21,
+    "value_2": 6
+  },
+  "10529": {
+    "base": 10520,
+    "id": 10529,
+    "level": 10,
+    "next": 10530,
+    "prev": 10528,
+    "upgrade_id": 110,
+    "value_1": 23,
+    "value_2": 6
+  },
+  "10530": {
+    "base": 10520,
+    "id": 10530,
+    "level": 11,
+    "next": 0,
+    "prev": 10529,
+    "skill_upgrade": [
+      [
+        10290,
+        1010290
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 25,
+    "value_2": 6
+  },
+  "10540": {
+    "attribute_1": "cannon",
+    "attribute_2": "hit",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 901020,
+    "effect_id_display": 901020,
+    "icon": "10540",
+    "id": 10540,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "ジェネラル・バトルコート",
+    "next": 10541,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1090060
+      ]
+    ],
+    "tech": 0,
+    "type": 4,
+    "uncraftable": 0,
+    "unique": 10311,
+    "upgrade_id": 101,
+    "usability": [
+      3
+    ],
+    "value_1": 15,
+    "value_1_random": 10,
+    "value_2": 10,
+    "value_2_random": 5
+  },
+  "10541": {
+    "base": 10540,
+    "id": 10541,
+    "level": 2,
+    "next": 10542,
+    "prev": 10540,
+    "upgrade_id": 102,
+    "value_1": 16,
+    "value_2": 11
+  },
+  "10542": {
+    "base": 10540,
+    "id": 10542,
+    "level": 3,
+    "next": 10543,
+    "prev": 10541,
+    "upgrade_id": 103,
+    "value_1": 17,
+    "value_2": 12
+  },
+  "10543": {
+    "base": 10540,
+    "id": 10543,
+    "level": 4,
+    "next": 10544,
+    "prev": 10542,
+    "upgrade_id": 104,
+    "value_1": 18,
+    "value_2": 13
+  },
+  "10544": {
+    "base": 10540,
+    "id": 10544,
+    "level": 5,
+    "next": 10545,
+    "prev": 10543,
+    "upgrade_id": 105,
+    "value_1": 19,
+    "value_2": 14
+  },
+  "10545": {
+    "base": 10540,
+    "id": 10545,
+    "level": 6,
+    "next": 10546,
+    "prev": 10544,
+    "upgrade_id": 106,
+    "value_1": 20,
+    "value_2": 15
+  },
+  "10546": {
+    "base": 10540,
+    "id": 10546,
+    "level": 7,
+    "next": 10547,
+    "prev": 10545,
+    "upgrade_id": 107,
+    "value_1": 21,
+    "value_2": 16
+  },
+  "10547": {
+    "base": 10540,
+    "id": 10547,
+    "level": 8,
+    "next": 10548,
+    "prev": 10546,
+    "upgrade_id": 108,
+    "value_1": 22,
+    "value_2": 17
+  },
+  "10548": {
+    "base": 10540,
+    "id": 10548,
+    "level": 9,
+    "next": 10549,
+    "prev": 10547,
+    "upgrade_id": 109,
+    "value_1": 23,
+    "value_2": 18
+  },
+  "10549": {
+    "base": 10540,
+    "id": 10549,
+    "level": 10,
+    "next": 10550,
+    "prev": 10548,
+    "upgrade_id": 110,
+    "value_1": 24,
+    "value_2": 19
+  },
+  "10550": {
+    "base": 10540,
+    "id": 10550,
+    "level": 11,
+    "next": 0,
+    "prev": 10549,
+    "skill_upgrade": [
+      [
+        2061,
+        1090060
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 25,
+    "value_2": 20
+  },
+  "10560": {
+    "attribute_1": "torpedo",
+    "attribute_2": "hit",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 902070,
+    "effect_id_display": 902070,
+    "icon": "10560",
+    "id": 10560,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "デイリーさぷらいず！",
+    "next": 10561,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1011670
+      ]
+    ],
+    "tech": 0,
+    "type": 8,
+    "uncraftable": 0,
+    "unique": 10802,
+    "upgrade_id": 101,
+    "usability": [
+      8
+    ],
+    "value_1": 14,
+    "value_1_random": 10,
+    "value_2": 5,
+    "value_2_random": 5
+  },
+  "10561": {
+    "base": 10560,
+    "id": 10561,
+    "level": 2,
+    "next": 10562,
+    "prev": 10560,
+    "upgrade_id": 102,
+    "value_1": 15,
+    "value_2": 6
+  },
+  "10562": {
+    "base": 10560,
+    "id": 10562,
+    "level": 3,
+    "next": 10563,
+    "prev": 10561,
+    "upgrade_id": 103,
+    "value_1": 16,
+    "value_2": 7
+  },
+  "10563": {
+    "base": 10560,
+    "id": 10563,
+    "level": 4,
+    "next": 10564,
+    "prev": 10562,
+    "upgrade_id": 104,
+    "value_1": 17,
+    "value_2": 8
+  },
+  "10564": {
+    "base": 10560,
+    "id": 10564,
+    "level": 5,
+    "next": 10565,
+    "prev": 10563,
+    "upgrade_id": 105,
+    "value_1": 18,
+    "value_2": 9
+  },
+  "10565": {
+    "base": 10560,
+    "id": 10565,
+    "level": 6,
+    "next": 10566,
+    "prev": 10564,
+    "upgrade_id": 106,
+    "value_1": 19,
+    "value_2": 10
+  },
+  "10566": {
+    "base": 10560,
+    "id": 10566,
+    "level": 7,
+    "next": 10567,
+    "prev": 10565,
+    "upgrade_id": 107,
+    "value_1": 20,
+    "value_2": 11
+  },
+  "10567": {
+    "base": 10560,
+    "id": 10567,
+    "level": 8,
+    "next": 10568,
+    "prev": 10566,
+    "upgrade_id": 108,
+    "value_1": 22,
+    "value_2": 12
+  },
+  "10568": {
+    "base": 10560,
+    "id": 10568,
+    "level": 9,
+    "next": 10569,
+    "prev": 10567,
+    "upgrade_id": 109,
+    "value_1": 23,
+    "value_2": 13
+  },
+  "10569": {
+    "base": 10560,
+    "id": 10569,
+    "level": 10,
+    "next": 10570,
+    "prev": 10568,
+    "upgrade_id": 110,
+    "value_1": 24,
+    "value_2": 14
+  },
+  "10570": {
+    "base": 10560,
+    "id": 10570,
+    "level": 11,
+    "next": 0,
+    "prev": 10569,
+    "skill_upgrade": [
+      [
+        11670,
+        1011670
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 25,
+    "value_2": 15
+  },
+  "10580": {
+    "attribute_1": "air",
+    "attribute_2": "antisub",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 902160,
+    "effect_id_display": 902160,
+    "icon": "10580",
+    "id": 10580,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "ビザール・ティータイム",
+    "next": 10581,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1011900
+      ]
+    ],
+    "tech": 0,
+    "type": 7,
+    "uncraftable": 0,
+    "unique": 20605,
+    "upgrade_id": 101,
+    "usability": [
+      6
+    ],
+    "value_1": 17,
+    "value_1_random": 10,
+    "value_2": 11,
+    "value_2_random": 5
+  },
+  "10581": {
+    "base": 10580,
+    "id": 10581,
+    "level": 2,
+    "next": 10582,
+    "prev": 10580,
+    "upgrade_id": 102,
+    "value_2": 12
+  },
+  "10582": {
+    "base": 10580,
+    "id": 10582,
+    "level": 3,
+    "next": 10583,
+    "prev": 10581,
+    "upgrade_id": 103,
+    "value_1": 18,
+    "value_2": 12
+  },
+  "10583": {
+    "base": 10580,
+    "id": 10583,
+    "level": 4,
+    "next": 10584,
+    "prev": 10582,
+    "upgrade_id": 104,
+    "value_1": 18,
+    "value_2": 13
+  },
+  "10584": {
+    "base": 10580,
+    "id": 10584,
+    "level": 5,
+    "next": 10585,
+    "prev": 10583,
+    "upgrade_id": 105,
+    "value_1": 19,
+    "value_2": 13
+  },
+  "10585": {
+    "base": 10580,
+    "id": 10585,
+    "level": 6,
+    "next": 10586,
+    "prev": 10584,
+    "upgrade_id": 106,
+    "value_1": 20,
+    "value_2": 14
+  },
+  "10586": {
+    "base": 10580,
+    "id": 10586,
+    "level": 7,
+    "next": 10587,
+    "prev": 10585,
+    "upgrade_id": 107,
+    "value_1": 21,
+    "value_2": 14
+  },
+  "10587": {
+    "base": 10580,
+    "id": 10587,
+    "level": 8,
+    "next": 10588,
+    "prev": 10586,
+    "upgrade_id": 108,
+    "value_1": 22,
+    "value_2": 15
+  },
+  "10588": {
+    "base": 10580,
+    "id": 10588,
+    "level": 9,
+    "next": 10589,
+    "prev": 10587,
+    "upgrade_id": 109,
+    "value_1": 23,
+    "value_2": 15
+  },
+  "10589": {
+    "base": 10580,
+    "id": 10589,
+    "level": 10,
+    "next": 10590,
+    "prev": 10588,
+    "upgrade_id": 110,
+    "value_1": 24,
+    "value_2": 16
+  },
+  "10590": {
+    "base": 10580,
+    "id": 10590,
+    "level": 11,
+    "next": 0,
+    "prev": 10589,
+    "skill_upgrade": [
+      [
+        11900,
+        1011900
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 25,
+    "value_2": 17
+  },
+  "10600": {
+    "attribute_1": "cannon",
+    "attribute_2": "durability",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 901010,
+    "effect_id_display": 901010,
+    "icon": "10600",
+    "id": 10600,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "騎士姫のガントレット",
+    "next": 10601,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1011500
+      ]
+    ],
+    "tech": 0,
+    "type": 1,
+    "uncraftable": 0,
+    "unique": 80101,
+    "upgrade_id": 101,
+    "usability": [
+      1
+    ],
+    "value_1": 11,
+    "value_1_random": 10,
+    "value_2": 130,
+    "value_2_random": 20
+  },
+  "10601": {
+    "base": 10600,
+    "id": 10601,
+    "level": 2,
+    "next": 10602,
+    "prev": 10600,
+    "upgrade_id": 102,
+    "value_1": 12,
+    "value_2": 135
+  },
+  "10602": {
+    "base": 10600,
+    "id": 10602,
+    "level": 3,
+    "next": 10603,
+    "prev": 10601,
+    "upgrade_id": 103,
+    "value_1": 13,
+    "value_2": 140
+  },
+  "10603": {
+    "base": 10600,
+    "id": 10603,
+    "level": 4,
+    "next": 10604,
+    "prev": 10602,
+    "upgrade_id": 104,
+    "value_1": 14,
+    "value_2": 145
+  },
+  "10604": {
+    "base": 10600,
+    "id": 10604,
+    "level": 5,
+    "next": 10605,
+    "prev": 10603,
+    "upgrade_id": 105,
+    "value_1": 15,
+    "value_2": 150
+  },
+  "10605": {
+    "base": 10600,
+    "id": 10605,
+    "level": 6,
+    "next": 10606,
+    "prev": 10604,
+    "upgrade_id": 106,
+    "value_1": 16,
+    "value_2": 155
+  },
+  "10606": {
+    "base": 10600,
+    "id": 10606,
+    "level": 7,
+    "next": 10607,
+    "prev": 10605,
+    "upgrade_id": 107,
+    "value_1": 17,
+    "value_2": 160
+  },
+  "10607": {
+    "base": 10600,
+    "id": 10607,
+    "level": 8,
+    "next": 10608,
+    "prev": 10606,
+    "upgrade_id": 108,
+    "value_1": 18,
+    "value_2": 165
+  },
+  "10608": {
+    "base": 10600,
+    "id": 10608,
+    "level": 9,
+    "next": 10609,
+    "prev": 10607,
+    "upgrade_id": 109,
+    "value_1": 19,
+    "value_2": 170
+  },
+  "10609": {
+    "base": 10600,
+    "id": 10609,
+    "level": 10,
+    "next": 10610,
+    "prev": 10608,
+    "upgrade_id": 110,
+    "value_1": 20,
+    "value_2": 175
+  },
+  "10610": {
+    "base": 10600,
+    "id": 10610,
+    "level": 11,
+    "next": 0,
+    "prev": 10609,
+    "skill_upgrade": [
+      [
+        11500,
+        1011500
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 22,
+    "value_2": 180
+  },
+  "10620": {
+    "attribute_1": "cannon",
+    "attribute_2": "durability",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 901010,
+    "effect_id_display": 901010,
+    "icon": "10620",
+    "id": 10620,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "ハッピータイム・シムス",
+    "next": 10621,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1090070
+      ]
+    ],
+    "tech": 0,
+    "type": 1,
+    "uncraftable": 0,
+    "unique": 10124,
+    "upgrade_id": 101,
+    "usability": [
+      1
+    ],
+    "value_1": 11,
+    "value_1_random": 10,
+    "value_2": 70,
+    "value_2_random": 30
+  },
+  "10621": {
+    "base": 10620,
+    "id": 10621,
+    "level": 2,
+    "next": 10622,
+    "prev": 10620,
+    "upgrade_id": 102,
+    "value_1": 12,
+    "value_2": 75
+  },
+  "10622": {
+    "base": 10620,
+    "id": 10622,
+    "level": 3,
+    "next": 10623,
+    "prev": 10621,
+    "upgrade_id": 103,
+    "value_1": 13,
+    "value_2": 80
+  },
+  "10623": {
+    "base": 10620,
+    "id": 10623,
+    "level": 4,
+    "next": 10624,
+    "prev": 10622,
+    "upgrade_id": 104,
+    "value_1": 14,
+    "value_2": 85
+  },
+  "10624": {
+    "base": 10620,
+    "id": 10624,
+    "level": 5,
+    "next": 10625,
+    "prev": 10623,
+    "upgrade_id": 105,
+    "value_1": 15,
+    "value_2": 90
+  },
+  "10625": {
+    "base": 10620,
+    "id": 10625,
+    "level": 6,
+    "next": 10626,
+    "prev": 10624,
+    "upgrade_id": 106,
+    "value_1": 16,
+    "value_2": 95
+  },
+  "10626": {
+    "base": 10620,
+    "id": 10626,
+    "level": 7,
+    "next": 10627,
+    "prev": 10625,
+    "upgrade_id": 107,
+    "value_1": 17,
+    "value_2": 100
+  },
+  "10627": {
+    "base": 10620,
+    "id": 10627,
+    "level": 8,
+    "next": 10628,
+    "prev": 10626,
+    "upgrade_id": 108,
+    "value_1": 18,
+    "value_2": 105
+  },
+  "10628": {
+    "base": 10620,
+    "id": 10628,
+    "level": 9,
+    "next": 10629,
+    "prev": 10627,
+    "upgrade_id": 109,
+    "value_1": 19,
+    "value_2": 110
+  },
+  "10629": {
+    "base": 10620,
+    "id": 10629,
+    "level": 10,
+    "next": 10630,
+    "prev": 10628,
+    "upgrade_id": 110,
+    "value_1": 20,
+    "value_2": 115
+  },
+  "10630": {
+    "base": 10620,
+    "id": 10630,
+    "level": 11,
+    "next": 0,
+    "prev": 10629,
+    "skill_upgrade": [
+      [
+        1001,
+        1090070
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 22,
+    "value_2": 120
+  },
+  "10640": {
+    "attribute_1": "torpedo",
+    "attribute_2": "hit",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 902170,
+    "effect_id_display": 902170,
+    "icon": "10640",
+    "id": 10640,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "忉利天月白襟巻き",
+    "next": 10641,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1010600
+      ]
+    ],
+    "tech": 0,
+    "type": 4,
+    "uncraftable": 0,
+    "unique": 30313,
+    "upgrade_id": 101,
+    "usability": [
+      3
+    ],
+    "value_1": 14,
+    "value_1_random": 10,
+    "value_2": 10,
+    "value_2_random": 5
+  },
+  "10641": {
+    "base": 10640,
+    "id": 10641,
+    "level": 2,
+    "next": 10642,
+    "prev": 10640,
+    "upgrade_id": 102,
+    "value_1": 15,
+    "value_2": 11
+  },
+  "10642": {
+    "base": 10640,
+    "id": 10642,
+    "level": 3,
+    "next": 10643,
+    "prev": 10641,
+    "upgrade_id": 103,
+    "value_1": 16,
+    "value_2": 12
+  },
+  "10643": {
+    "base": 10640,
+    "id": 10643,
+    "level": 4,
+    "next": 10644,
+    "prev": 10642,
+    "upgrade_id": 104,
+    "value_1": 17,
+    "value_2": 13
+  },
+  "10644": {
+    "base": 10640,
+    "id": 10644,
+    "level": 5,
+    "next": 10645,
+    "prev": 10643,
+    "upgrade_id": 105,
+    "value_1": 18,
+    "value_2": 14
+  },
+  "10645": {
+    "base": 10640,
+    "id": 10645,
+    "level": 6,
+    "next": 10646,
+    "prev": 10644,
+    "upgrade_id": 106,
+    "value_1": 19,
+    "value_2": 15
+  },
+  "10646": {
+    "base": 10640,
+    "id": 10646,
+    "level": 7,
+    "next": 10647,
+    "prev": 10645,
+    "upgrade_id": 107,
+    "value_1": 20,
+    "value_2": 16
+  },
+  "10647": {
+    "base": 10640,
+    "id": 10647,
+    "level": 8,
+    "next": 10648,
+    "prev": 10646,
+    "upgrade_id": 108,
+    "value_1": 22,
+    "value_2": 17
+  },
+  "10648": {
+    "base": 10640,
+    "id": 10648,
+    "level": 9,
+    "next": 10649,
+    "prev": 10647,
+    "upgrade_id": 109,
+    "value_1": 23,
+    "value_2": 18
+  },
+  "10649": {
+    "base": 10640,
+    "id": 10649,
+    "level": 10,
+    "next": 10650,
+    "prev": 10648,
+    "upgrade_id": 110,
+    "value_1": 24,
+    "value_2": 19
+  },
+  "10650": {
+    "base": 10640,
+    "id": 10650,
+    "level": 11,
+    "next": 0,
+    "prev": 10649,
+    "skill_upgrade": [
+      [
+        10600,
+        1010600
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 25,
+    "value_2": 20
+  },
+  "10660": {
+    "attribute_1": "cannon",
+    "attribute_2": "reload",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 902030,
+    "effect_id_display": 902030,
+    "icon": "10660",
+    "id": 10660,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "オールドレディなりきりセット",
+    "next": 10661,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1090090
+      ]
+    ],
+    "tech": 0,
+    "type": 6,
+    "uncraftable": 0,
+    "unique": 60505,
+    "upgrade_id": 101,
+    "usability": [
+      5
+    ],
+    "value_1": 8,
+    "value_1_random": 10,
+    "value_2": 6,
+    "value_2_random": 5
+  },
+  "10661": {
+    "base": 10660,
+    "id": 10661,
+    "level": 2,
+    "next": 10662,
+    "prev": 10660,
+    "upgrade_id": 102,
+    "value_1": 9,
+    "value_2": 6
+  },
+  "10662": {
+    "base": 10660,
+    "id": 10662,
+    "level": 3,
+    "next": 10663,
+    "prev": 10661,
+    "upgrade_id": 103,
+    "value_1": 10,
+    "value_2": 7
+  },
+  "10663": {
+    "base": 10660,
+    "id": 10663,
+    "level": 4,
+    "next": 10664,
+    "prev": 10662,
+    "upgrade_id": 104,
+    "value_1": 11,
+    "value_2": 8
+  },
+  "10664": {
+    "base": 10660,
+    "id": 10664,
+    "level": 5,
+    "next": 10665,
+    "prev": 10663,
+    "upgrade_id": 105,
+    "value_1": 12,
+    "value_2": 9
+  },
+  "10665": {
+    "base": 10660,
+    "id": 10665,
+    "level": 6,
+    "next": 10666,
+    "prev": 10664,
+    "upgrade_id": 106,
+    "value_1": 14,
+    "value_2": 10
+  },
+  "10666": {
+    "base": 10660,
+    "id": 10666,
+    "level": 7,
+    "next": 10667,
+    "prev": 10665,
+    "upgrade_id": 107,
+    "value_1": 15,
+    "value_2": 11
+  },
+  "10667": {
+    "base": 10660,
+    "id": 10667,
+    "level": 8,
+    "next": 10668,
+    "prev": 10666,
+    "upgrade_id": 108,
+    "value_1": 16,
+    "value_2": 12
+  },
+  "10668": {
+    "base": 10660,
+    "id": 10668,
+    "level": 9,
+    "next": 10669,
+    "prev": 10667,
+    "upgrade_id": 109,
+    "value_1": 17,
+    "value_2": 13
+  },
+  "10669": {
+    "base": 10660,
+    "id": 10669,
+    "level": 10,
+    "next": 10670,
+    "prev": 10668,
+    "upgrade_id": 110,
+    "value_1": 18,
+    "value_2": 14
+  },
+  "10670": {
+    "base": 10660,
+    "id": 10670,
+    "level": 11,
+    "next": 0,
+    "prev": 10669,
+    "skill_upgrade": [
+      [
+        12650,
+        1090090
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 20,
+    "value_2": 15
+  },
+  "10680": {
+    "attribute_1": "hit",
+    "attribute_2": "reload",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 902180,
+    "effect_id_display": 902180,
+    "icon": "10680",
+    "id": 10680,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "狩人の道標",
+    "next": 10681,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1011710
+      ]
+    ],
+    "tech": 0,
+    "type": 4,
+    "uncraftable": 0,
+    "unique": 10313,
+    "upgrade_id": 101,
+    "usability": [
+      3
+    ],
+    "value_1": 13,
+    "value_1_random": 5,
+    "value_2": 8,
+    "value_2_random": 5
+  },
+  "10681": {
+    "base": 10680,
+    "id": 10681,
+    "level": 2,
+    "next": 10682,
+    "prev": 10680,
+    "upgrade_id": 102,
+    "value_1": 14,
+    "value_2": 9
+  },
+  "10682": {
+    "base": 10680,
+    "id": 10682,
+    "level": 3,
+    "next": 10683,
+    "prev": 10681,
+    "upgrade_id": 103,
+    "value_1": 15,
+    "value_2": 9
+  },
+  "10683": {
+    "base": 10680,
+    "id": 10683,
+    "level": 4,
+    "next": 10684,
+    "prev": 10682,
+    "upgrade_id": 104,
+    "value_1": 16,
+    "value_2": 10
+  },
+  "10684": {
+    "base": 10680,
+    "id": 10684,
+    "level": 5,
+    "next": 10685,
+    "prev": 10683,
+    "upgrade_id": 105,
+    "value_1": 17,
+    "value_2": 10
+  },
+  "10685": {
+    "base": 10680,
+    "id": 10685,
+    "level": 6,
+    "next": 10686,
+    "prev": 10684,
+    "upgrade_id": 106,
+    "value_1": 18,
+    "value_2": 11
+  },
+  "10686": {
+    "base": 10680,
+    "id": 10686,
+    "level": 7,
+    "next": 10687,
+    "prev": 10685,
+    "upgrade_id": 107,
+    "value_1": 19,
+    "value_2": 11
+  },
+  "10687": {
+    "base": 10680,
+    "id": 10687,
+    "level": 8,
+    "next": 10688,
+    "prev": 10686,
+    "upgrade_id": 108,
+    "value_1": 20,
+    "value_2": 12
+  },
+  "10688": {
+    "base": 10680,
+    "id": 10688,
+    "level": 9,
+    "next": 10689,
+    "prev": 10687,
+    "upgrade_id": 109,
+    "value_1": 21,
+    "value_2": 13
+  },
+  "10689": {
+    "base": 10680,
+    "id": 10689,
+    "level": 10,
+    "next": 10690,
+    "prev": 10688,
+    "upgrade_id": 110,
+    "value_1": 23,
+    "value_2": 14
+  },
+  "10690": {
+    "base": 10680,
+    "id": 10690,
+    "level": 11,
+    "next": 0,
+    "prev": 10689,
+    "skill_upgrade": [
+      [
+        11710,
+        1011710
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 25,
+    "value_2": 15
+  },
+  "10700": {
+    "attribute_1": "torpedo",
+    "attribute_2": "hit",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 901010,
+    "effect_id_display": 901010,
+    "icon": "10700",
+    "id": 10700,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "ゆらゆらめきめき",
+    "next": 10701,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1090080
+      ]
+    ],
+    "tech": 0,
+    "type": 1,
+    "uncraftable": 0,
+    "unique": 30117,
+    "upgrade_id": 101,
+    "usability": [
+      1
+    ],
+    "value_1": 11,
+    "value_1_random": 10,
+    "value_2": 8,
+    "value_2_random": 5
+  },
+  "10701": {
+    "base": 10700,
+    "id": 10701,
+    "level": 2,
+    "next": 10702,
+    "prev": 10700,
+    "upgrade_id": 102,
+    "value_1": 12,
+    "value_2": 8
+  },
+  "10702": {
+    "base": 10700,
+    "id": 10702,
+    "level": 3,
+    "next": 10703,
+    "prev": 10701,
+    "upgrade_id": 103,
+    "value_1": 13,
+    "value_2": 8
+  },
+  "10703": {
+    "base": 10700,
+    "id": 10703,
+    "level": 4,
+    "next": 10704,
+    "prev": 10702,
+    "upgrade_id": 104,
+    "value_1": 14,
+    "value_2": 8
+  },
+  "10704": {
+    "base": 10700,
+    "id": 10704,
+    "level": 5,
+    "next": 10705,
+    "prev": 10703,
+    "upgrade_id": 105,
+    "value_1": 15,
+    "value_2": 9
+  },
+  "10705": {
+    "base": 10700,
+    "id": 10705,
+    "level": 6,
+    "next": 10706,
+    "prev": 10704,
+    "upgrade_id": 106,
+    "value_1": 16,
+    "value_2": 9
+  },
+  "10706": {
+    "base": 10700,
+    "id": 10706,
+    "level": 7,
+    "next": 10707,
+    "prev": 10705,
+    "upgrade_id": 107,
+    "value_1": 17,
+    "value_2": 9
+  },
+  "10707": {
+    "base": 10700,
+    "id": 10707,
+    "level": 8,
+    "next": 10708,
+    "prev": 10706,
+    "upgrade_id": 108,
+    "value_1": 18,
+    "value_2": 9
+  },
+  "10708": {
+    "base": 10700,
+    "id": 10708,
+    "level": 9,
+    "next": 10709,
+    "prev": 10707,
+    "upgrade_id": 109,
+    "value_1": 19,
+    "value_2": 10
+  },
+  "10709": {
+    "base": 10700,
+    "id": 10709,
+    "level": 10,
+    "next": 10710,
+    "prev": 10708,
+    "upgrade_id": 110,
+    "value_1": 20,
+    "value_2": 10
+  },
+  "10710": {
+    "base": 10700,
+    "id": 10710,
+    "level": 11,
+    "next": 0,
+    "prev": 10709,
+    "skill_upgrade": [
+      [
+        1013,
+        1090080
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 22,
+    "value_2": 10
+  },
+  "10720": {
+    "attribute_1": "cannon",
+    "attribute_2": "torpedo",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 901010,
+    "effect_id_display": 901010,
+    "icon": "10720",
+    "id": 10720,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "フルバーストジャベリン",
+    "next": 10721,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1010250
+      ]
+    ],
+    "tech": 0,
+    "type": 1,
+    "uncraftable": 0,
+    "unique": 20121,
+    "upgrade_id": 101,
+    "usability": [
+      1
+    ],
+    "value_1": 7,
+    "value_1_random": 5,
+    "value_2": 20,
+    "value_2_random": 10
+  },
+  "10721": {
+    "base": 10720,
+    "id": 10721,
+    "level": 2,
+    "next": 10722,
+    "prev": 10720,
+    "upgrade_id": 102,
+    "value_1": 8,
+    "value_2": 21
+  },
+  "10722": {
+    "base": 10720,
+    "id": 10722,
+    "level": 3,
+    "next": 10723,
+    "prev": 10721,
+    "upgrade_id": 103,
+    "value_1": 8,
+    "value_2": 22
+  },
+  "10723": {
+    "base": 10720,
+    "id": 10723,
+    "level": 4,
+    "next": 10724,
+    "prev": 10722,
+    "upgrade_id": 104,
+    "value_1": 9,
+    "value_2": 23
+  },
+  "10724": {
+    "base": 10720,
+    "id": 10724,
+    "level": 5,
+    "next": 10725,
+    "prev": 10723,
+    "upgrade_id": 105,
+    "value_1": 9,
+    "value_2": 24
+  },
+  "10725": {
+    "base": 10720,
+    "id": 10725,
+    "level": 6,
+    "next": 10726,
+    "prev": 10724,
+    "upgrade_id": 106,
+    "value_1": 10,
+    "value_2": 25
+  },
+  "10726": {
+    "base": 10720,
+    "id": 10726,
+    "level": 7,
+    "next": 10727,
+    "prev": 10725,
+    "upgrade_id": 107,
+    "value_1": 10,
+    "value_2": 26
+  },
+  "10727": {
+    "base": 10720,
+    "id": 10727,
+    "level": 8,
+    "next": 10728,
+    "prev": 10726,
+    "upgrade_id": 108,
+    "value_1": 11,
+    "value_2": 27
+  },
+  "10728": {
+    "base": 10720,
+    "id": 10728,
+    "level": 9,
+    "next": 10729,
+    "prev": 10727,
+    "upgrade_id": 109,
+    "value_1": 11,
+    "value_2": 28
+  },
+  "10729": {
+    "base": 10720,
+    "id": 10729,
+    "level": 10,
+    "next": 10730,
+    "prev": 10728,
+    "upgrade_id": 110,
+    "value_1": 12,
+    "value_2": 29
+  },
+  "10730": {
+    "base": 10720,
+    "id": 10730,
+    "level": 11,
+    "next": 0,
+    "prev": 10729,
+    "skill_upgrade": [
+      [
+        10250,
+        1010250
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 13,
+    "value_2": 30
+  },
+  "10740": {
+    "attribute_1": "cannon",
+    "attribute_2": "reload",
+    "descrip": "特殊装備コアで製造できる艦船の専用兵装 ",
+    "effect_id": 902030,
+    "effect_id_display": 902030,
+    "icon": "10740",
+    "id": 10740,
+    "important": 2,
+    "label": [],
+    "level": 1,
+    "name": "孤独の女王の旗",
+    "next": 10741,
+    "prev": 0,
+    "rarity": 4,
+    "skill_upgrade": [
+      [
+        0,
+        1010670
+      ]
+    ],
+    "tech": 0,
+    "type": 6,
+    "uncraftable": 0,
+    "unique": 40502,
+    "upgrade_id": 101,
+    "usability": [
+      5
+    ],
+    "value_1": 13,
+    "value_1_random": 10,
+    "value_2": 5,
+    "value_2_random": 5
+  },
+  "10741": {
+    "base": 10740,
+    "id": 10741,
+    "level": 2,
+    "next": 10742,
+    "prev": 10740,
+    "upgrade_id": 102,
+    "value_1": 14,
+    "value_2": 6
+  },
+  "10742": {
+    "base": 10740,
+    "id": 10742,
+    "level": 3,
+    "next": 10743,
+    "prev": 10741,
+    "upgrade_id": 103,
+    "value_1": 15,
+    "value_2": 6
+  },
+  "10743": {
+    "base": 10740,
+    "id": 10743,
+    "level": 4,
+    "next": 10744,
+    "prev": 10742,
+    "upgrade_id": 104,
+    "value_1": 16,
+    "value_2": 7
+  },
+  "10744": {
+    "base": 10740,
+    "id": 10744,
+    "level": 5,
+    "next": 10745,
+    "prev": 10743,
+    "upgrade_id": 105,
+    "value_1": 17,
+    "value_2": 7
+  },
+  "10745": {
+    "base": 10740,
+    "id": 10745,
+    "level": 6,
+    "next": 10746,
+    "prev": 10744,
+    "upgrade_id": 106,
+    "value_1": 18,
+    "value_2": 8
+  },
+  "10746": {
+    "base": 10740,
+    "id": 10746,
+    "level": 7,
+    "next": 10747,
+    "prev": 10745,
+    "upgrade_id": 107,
+    "value_1": 19,
+    "value_2": 8
+  },
+  "10747": {
+    "base": 10740,
+    "id": 10747,
+    "level": 8,
+    "next": 10748,
+    "prev": 10746,
+    "upgrade_id": 108,
+    "value_1": 20,
+    "value_2": 9
+  },
+  "10748": {
+    "base": 10740,
+    "id": 10748,
+    "level": 9,
+    "next": 10749,
+    "prev": 10747,
+    "upgrade_id": 109,
+    "value_1": 21,
+    "value_2": 9
+  },
+  "10749": {
+    "base": 10740,
+    "id": 10749,
+    "level": 10,
+    "next": 10750,
+    "prev": 10748,
+    "upgrade_id": 110,
+    "value_1": 23,
+    "value_2": 10
+  },
+  "10750": {
+    "base": 10740,
+    "id": 10750,
+    "level": 11,
+    "next": 0,
+    "prev": 10749,
+    "skill_upgrade": [
+      [
+        10670,
+        1010670
+      ]
+    ],
+    "upgrade_id": 111,
+    "value_1": 25,
+    "value_2": 10
+  },
   "1010100": {
     "attribute_1": "cannon",
     "attribute_2": "dodge",

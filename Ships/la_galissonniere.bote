@@ -110,55 +110,55 @@
                 }
             }
         },
-        "3": {  
+        "3": {
             "id": "jialisuoniye_4",
             "name": "",
             "description": "",
             "expression": {
                 "0": {
                     "id": "0"
-                },      
-                "1": {      
+                },
+                "1": {
                     "id": "1"
-                },      
-                "2": {      
+                },
+                "2": {
                     "id": "2"
-                },      
-                "3": {      
+                },
+                "3": {
                     "id": "3"
-                },      
-                "4": {      
+                },
+                "4": {
                     "id": "4"
                 },
-                "5": {     
+                "5": {
                     "id": "5"
-                }       
-            }               
+                }
+            }
         },
-        "4": {  
+        "4": {
             "id": "jialisuoniye_3",
             "name": "",
             "description": "",
             "expression": {
                 "0": {
                     "id": "0"
-                },      
-                "1": {      
+                },
+                "1": {
                     "id": "1"
-                },      
-                "2": {      
+                },
+                "2": {
                     "id": "2"
-                },      
-                "3": {      
+                },
+                "3": {
                     "id": "3"
-                },      
-                "4": {      
+                },
+                "4": {
                     "id": "4"
                 },
-                "5": {     
+                "5": {
                     "id": "5"
-                }       
-            }               
+                }
+            }
         },
         "101" : {
             "id" : "jialisuoniye_ex1100",
@@ -332,7 +332,7 @@
         "add_level_value": "1",
         "add_level_shiptype": "Light Cruiser",
         "t_level": "5",
-        "ships": "la_galissonniere"
+        "ships": "la_galissonniere,la_galissonniere_meta"
     },
     "build": {
         "light": {
@@ -864,7 +864,7 @@
                 "id": "2",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": "",
                         "chinese": "",
@@ -983,7 +983,7 @@
                         "japaneseNote": "",
                         "english": "",
                         "englishNote": ""
-                    }       
+                    }
                 }
             },
             "4": {
@@ -991,7 +991,7 @@
                 "id": "3",
                 "label": "",
                 "dialogue": {
-                    "1": {  
+                    "1": {
                         "event": "Ship Description",
                         "media": ""
                     },
@@ -1114,6 +1114,6 @@
             }
         }
     },
-    "class": "La Galissonnière",
+    "class": "La Galissonnière-Class",
     "voiceActress": "Yui Makino"
 }
