@@ -75541,43 +75541,43 @@
     "desc_add": [
       [
         [
-          "1.0%",
-          "+1.0%"
-        ],
-        [
-          "2.0%",
-          "+1.0%"
-        ],
-        [
-          "3.0%",
-          "+1.0%"
-        ],
-        [
-          "4.0%",
-          "+1.0%"
-        ],
-        [
           "5.0%",
-          "+1.0%"
+          "+1.1%"
         ],
         [
-          "6.0%",
-          "+1.0%"
+          "6.1%",
+          "+1.1%"
         ],
         [
-          "7.0%",
-          "+1.0%"
+          "7.2%",
+          "+1.1%"
         ],
         [
-          "8.0%",
-          "+1.0%"
+          "8.3%",
+          "+1.1%"
         ],
         [
-          "9.0%",
-          "+1.0%"
+          "9.4%",
+          "+1.1%"
         ],
         [
-          "10.0%"
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
         ]
       ],
       [
@@ -75657,8 +75657,8 @@
     "desc_get": "",
     "desc_get_add": [
       [
-        "1.0%",
-        "10.0%"
+        "5.0%",
+        "15.0%"
       ],
       [
         "3.5%",
@@ -75683,43 +75683,43 @@
     "desc_add": [
       [
         [
-          "5.0%",
-          "+1.1%"
+          "6.0%",
+          "+1.3%"
         ],
         [
-          "6.1%",
-          "+1.1%"
+          "7.3%",
+          "+1.3%"
         ],
         [
-          "7.2%",
-          "+1.1%"
+          "8.6%",
+          "+1.3%"
         ],
         [
-          "8.3%",
-          "+1.1%"
+          "9.9%",
+          "+1.3%"
         ],
         [
-          "9.4%",
-          "+1.1%"
+          "11.2%",
+          "+1.3%"
         ],
         [
-          "10.5%",
-          "+1.1%"
-        ],
-        [
-          "11.6%",
-          "+1.1%"
-        ],
-        [
-          "12.7%",
-          "+1.1%"
+          "12.5%",
+          "+1.3%"
         ],
         [
           "13.8%",
-          "+1.2%"
+          "+1.4%"
         ],
         [
-          "15.0%"
+          "15.2%",
+          "+1.4%"
+        ],
+        [
+          "16.6%",
+          "+1.4%"
+        ],
+        [
+          "18.0%"
         ]
       ],
       [
@@ -75799,8 +75799,8 @@
     "desc_get": "",
     "desc_get_add": [
       [
-        "5.0%",
-        "15.0%"
+        "6.0%",
+        "18.0%"
       ],
       [
         "2",
@@ -76558,6 +76558,164 @@
     "name": "Reborn Temple of Iron",
     "system_transform": [],
     "type": 3,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "16790": {
+    "desc": "Decreases this ship's DMG taken by $1. Whenever your Flagship takes DMG: increases this ship's AVI by $2 until the battle ends (can be stacked up to 3 times).",
+    "desc_add": [
+      [
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%",
+          "+0.5%"
+        ],
+        [
+          "5.5%",
+          "+0.5%"
+        ],
+        [
+          "6.0%",
+          "+0.5%"
+        ],
+        [
+          "6.5%",
+          "+0.5%"
+        ],
+        [
+          "7.0%",
+          "+0.5%"
+        ],
+        [
+          "7.5%",
+          "+0.5%"
+        ],
+        [
+          "8.0%"
+        ]
+      ],
+      [
+        [
+          "1.5%",
+          "+0.3%"
+        ],
+        [
+          "1.8%",
+          "+0.3%"
+        ],
+        [
+          "2.1%",
+          "+0.4%"
+        ],
+        [
+          "2.5%",
+          "+0.3%"
+        ],
+        [
+          "2.8%",
+          "+0.3%"
+        ],
+        [
+          "3.1%",
+          "+0.4%"
+        ],
+        [
+          "3.5%",
+          "+0.4%"
+        ],
+        [
+          "3.9%",
+          "+0.4%"
+        ],
+        [
+          "4.3%",
+          "+0.7%"
+        ],
+        [
+          "5.0%"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "3.5%",
+        "8.0%"
+      ],
+      [
+        "1.5%",
+        "5.0%"
+      ]
+    ],
+    "id": 16790,
+    "max_level": 10,
+    "name": "Taihou-chan's Talisman of Hardening",
+    "system_transform": [],
+    "type": 2,
+    "world_death_mark": [
+      1
+    ]
+  },
+  "16800": {
+    "desc": "Every 20s: launches a recon squadron consisting of Saiun aircraft which increase your Main Fleet's DMG dealt by 10.0% for 8s; after this, every 1s: launches 1 additional random Reppuu, Suisei, or Ryusei aircraft that launches a $1 special airstrike (this effect ends when either 6 total planes have been launched, or a Ryusei has been launched; special airstrike DMG is based on the skill's level).",
+    "desc_add": [
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get": "",
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ],
+    "id": 16800,
+    "max_level": 10,
+    "name": "Taihou-chan's Mischief",
+    "system_transform": [],
+    "type": 1,
     "world_death_mark": [
       1
     ]
@@ -110279,7 +110437,7 @@
     ]
   },
   "800800": {
-    "desc": "While this boat is on the battlefield, when one of your ships takes DMG: $1 chance to fire a $2 special torpedo barrage (DMG is based on the skill's level; 1s cooldown between activations). If this barrage activates while this boat has 20.0% or more max HP remaining: this boat loses 20 HP; if this boat has \"Unfulfilled Promise\" equipped or Bismarck is present in the fleet: increases this boat's EVA by $3, and removes the HP loss effect when the special barrage activates.",
+    "desc": "While this boat is on the battlefield, when one of your ships takes DMG: $1 chance to fire a $2 special torpedo barrage (DMG is based on the skill's level; 1s cooldown between activations). If this barrage activates while this boat has 20.0% or more max HP remaining: this boat loses 20 HP; if this boat has \"Certificate of Sponsorship\" equipped or Bismarck is present in the fleet: increases this boat's EVA by $3, and removes the HP loss effect when the special barrage activates.",
     "desc_add": [
       [
         [

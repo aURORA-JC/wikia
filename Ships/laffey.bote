@@ -298,6 +298,46 @@
           "id": "6"
         }
       }
+    },
+    "13": {
+      "id": "lafei_12",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        },
+        "7": {
+          "id": "7"
+        },
+        "8": {
+          "id": "8"
+        },
+        "9": {
+          "id": "9"
+        },
+        "10": {
+          "id": "10"
+        }
+      }
     }
   },
   "defaultEquipment": {
@@ -2169,6 +2209,53 @@
           "10": {
             "event": "Return to Port",
             "media": "home_11"
+          }
+        }
+      },
+      "13": {
+        "skin_id": "lafei_12",
+        "id": "12",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_12"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_12"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_12"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_12"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_12"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_12"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_12"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_12"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_12"
           }
         }
       }
