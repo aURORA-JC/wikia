@@ -1,0 +1,560 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>/alg/ Wiki - Marseillaise</title><style type="text/css">th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #373743;
+    border-color: #5c5d70;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+}
+
+th, td {
+    border-color: #5c5d70;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.title {
+    height: 1.5rem;
+}
+
+.subtitle {
+    background-color: #24252d;
+    height: 1.5rem;
+}
+
+body {
+    color: white;
+    background-color: #494a5a;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: block;
+    position: relative;
+}
+
+.tabs .tab {
+    float: left;
+    display: block;
+}
+
+input[name^="skinSelectors"] {
+    display: none;
+}
+
+.skinContent {
+    display: none;
+}
+
+.expression.active {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+
+.expression {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[name^="skinSelectors"] + label {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+input[name^="skinSelectors"]:checked + label {
+    opacity: 1;
+}
+
+#statSelector-base:checked ~ #statContent-base,
+#statSelector-100:checked ~ #statContent-100,
+#statSelector-100retrofit:checked ~ #statContent-100retrofit,
+#statSelector-120:checked ~ #statContent-120,
+#statSelector-120retrofit:checked ~ #statContent-120retrofit,
+#skinSelector-skinView-0:checked ~ #skinContent-skinView-0,
+#skinSelector-skinView-1:checked ~ #skinContent-skinView-1,
+#skinSelector-skinView-2:checked ~ #skinContent-skinView-2,
+#skinSelector-skinView-3:checked ~ #skinContent-skinView-3,
+#skinSelector-skinView-4:checked ~ #skinContent-skinView-4,
+#skinSelector-skinView-5:checked ~ #skinContent-skinView-5,
+#skinSelector-skinView-6:checked ~ #skinContent-skinView-6,
+#skinSelector-skinView-7:checked ~ #skinContent-skinView-7,
+#skinSelector-skinView-8:checked ~ #skinContent-skinView-8,
+#skinSelector-skinView-9:checked ~ #skinContent-skinView-9,
+#skinSelector-skinView-10:checked ~ #skinContent-skinView-10,
+#skinSelector-skinView-11:checked ~ #skinContent-skinView-11,
+#skinSelector-skinView-12:checked ~ #skinContent-skinView-12,
+#skinSelector-skinView-13:checked ~ #skinContent-skinView-13,
+#skinSelector-skinView-14:checked ~ #skinContent-skinView-14,
+#skinSelector-skinView-15:checked ~ #skinContent-skinView-15,
+#skinSelector-skinView-16:checked ~ #skinContent-skinView-16,
+#skinSelector-skinView-17:checked ~ #skinContent-skinView-17,
+#skinSelector-skinView-18:checked ~ #skinContent-skinView-18,
+#skinSelector-skinView-19:checked ~ #skinContent-skinView-19,
+#skinSelector-techView-0:checked ~ #skinContent-techView-0,
+#skinSelector-techView-1:checked ~ #skinContent-techView-1,
+#skinSelector-techView-2:checked ~ #skinContent-techView-2,
+#skinSelector-techView-3:checked ~ #skinContent-techView-3,
+#skinSelector-techView-4:checked ~ #skinContent-techView-4,
+#skinSelector-techView-5:checked ~ #skinContent-techView-5,
+#skinSelector-techView-6:checked ~ #skinContent-techView-6,
+#skinSelector-techView-7:checked ~ #skinContent-techView-7,
+#skinSelector-techView-8:checked ~ #skinContent-techView-8,
+#skinSelector-techView-9:checked ~ #skinContent-techView-9,
+#skinSelector-techView-10:checked ~ #skinContent-techView-10,
+#skinSelector-techView-11:checked ~ #skinContent-techView-11,
+#skinSelector-techView-12:checked ~ #skinContent-techView-12,
+#skinSelector-techView-13:checked ~ #skinContent-techView-13,
+#skinSelector-techView-14:checked ~ #skinContent-techView-14,
+#skinSelector-techView-15:checked ~ #skinContent-techView-15,
+#skinSelector-techView-16:checked ~ #skinContent-techView-16,
+#skinSelector-techView-17:checked ~ #skinContent-techView-17,
+#skinSelector-techView-18:checked ~ #skinContent-techView-18,
+#skinSelector-techView-19:checked ~ #skinContent-techView-19,
+#skinSelector-lineView-0:checked ~ #skinContent-lineView-0,
+#skinSelector-lineView-1:checked ~ #skinContent-lineView-1,
+#skinSelector-lineView-2:checked ~ #skinContent-lineView-2,
+#skinSelector-lineView-3:checked ~ #skinContent-lineView-3,
+#skinSelector-lineView-4:checked ~ #skinContent-lineView-4,
+#skinSelector-lineView-5:checked ~ #skinContent-lineView-5,
+#skinSelector-lineView-6:checked ~ #skinContent-lineView-6,
+#skinSelector-lineView-7:checked ~ #skinContent-lineView-7,
+#skinSelector-lineView-8:checked ~ #skinContent-lineView-8,
+#skinSelector-lineView-9:checked ~ #skinContent-lineView-9,
+#skinSelector-lineView-10:checked ~ #skinContent-lineView-10,
+#skinSelector-lineView-11:checked ~ #skinContent-lineView-11,
+#skinSelector-lineView-12:checked ~ #skinContent-lineView-12,
+#skinSelector-lineView-13:checked ~ #skinContent-lineView-13,
+#skinSelector-lineView-14:checked ~ #skinContent-lineView-14,
+#skinSelector-lineView-15:checked ~ #skinContent-lineView-15,
+#skinSelector-lineView-16:checked ~ #skinContent-lineView-16,
+#skinSelector-lineView-17:checked ~ #skinContent-lineView-17,
+#skinSelector-lineView-18:checked ~ #skinContent-lineView-18,
+#skinSelector-lineView-19:checked ~ #skinContent-lineView-19 {
+    display: block;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #373743;
+    color: #fff;
+    font-size: 15px;
+}
+
+#sidebar .subheader {
+    background: #24252d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sidebar ol li a:hover {
+    background: #6e6f87;
+}
+
+#sidebar ol li a {
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
+
+#sidebarEscape {
+    margin-left: 250px;
+    padding: 10px 10px 10px 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #24252d;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+details {
+    background-color: #373743;
+    border-color: #5c5d70;
+    margin-bottom: 20px;
+}
+
+summary {
+    background-color: #24252d;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: safe space-evenly;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.ship {
+    vertical-align: top;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    border: 3px double #ffffff;
+    background: #24252d;
+    width: 108px;
+    height: 220px;
+    position: relative;
+}
+
+.hull {
+    padding-left: 3px;
+    padding-right: 5px;
+    width: 33px;
+    height: auto;
+}
+
+.navy {
+    padding-right:5px;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+@keyframes snowflakes-fall {
+    0%   {top:-10%}
+    100% {top:100%}
+}
+
+@keyframes snowflakes-shake {
+    0%   {transform:translateX(0px)}
+    50%  {transform:translateX(80px)}
+    100% {transform:translateX(0px)}
+}
+
+.snowflake {
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    user-select:none;
+    cursor:default;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+}
+
+.snowflake:nth-of-type(0) {
+    left:1%;
+    animation-delay:0s,0s;
+}
+.snowflake:nth-of-type(1) {
+    left:10%;
+    animation-delay:1s,1s;
+}
+.snowflake:nth-of-type(2) {
+    left:20%;
+    animation-delay:6s,.5s;
+}
+.snowflake:nth-of-type(3) {
+    left:30%;
+    animation-delay:4s,2s;
+}
+.snowflake:nth-of-type(4) {
+    left:40%;
+    animation-delay:2s,2s;
+}
+.snowflake:nth-of-type(5) {
+    left:50%;
+    animation-delay:8s,3s;
+}
+.snowflake:nth-of-type(6) {
+    left:60%;
+    animation-delay:6s,2s;
+}
+.snowflake:nth-of-type(7) {
+    left:70%;
+    animation-delay:2.5s,1s;
+}
+.snowflake:nth-of-type(8) {
+    left:80%;
+    animation-delay:1s,0s;
+}
+.snowflake:nth-of-type(9) {
+    left:90%;
+    animation-delay:3s,1.5s;
+}
+</style><style type="text/css">.title {background: rgb(190, 185, 136);}</style><script src="https://algwiki.moe/js/pixi.min-4.7.1.js"></script><script src="https://algwiki.moe/js/live2dcubismcore.min.js"></script><script src="https://algwiki.moe/js/live2dcubismframework.js"></script><script src="https://algwiki.moe/js/live2dcubismpixi.js"></script><script src="https://algwiki.moe/js/pixi-spine.js"></script><script src="https://algwiki.moe/js/SkeletonBinary.js"></script></head><body><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist by ID</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist by Name</a></li><li><a href="https://algwiki.moe/navy/index.html">Faction Shiplists</a></li><li><a href="https://algwiki.moe/hull/index.html">Class Shiplists</a></li><li><a href="https://algwiki.moe/rarity/index.html">Rarity Shiplists</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://fleet.algwiki.moe/">Fleet Maker</a></li><li><a href="https://algwiki.moe/player">Music Player</a></li><li><a href="https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0">Porn</a></li></ol></nav><div id="sidebarEscape"><nav><a href="/">Home</a> &gt; <a href="../shiplist.html">Shiplist</a> &gt; Marseillaise</nav><main><table><tr><td><table><tr><th class="title" scope="col" colspan="5">Marseillaise (JP 🇯🇵: , CN 🇹🇼: )</th></tr><tr><td rowspan="3"><img src="https://algwiki.moe/assets/squareicon/masaiqu.png"></td><th>Ship ID</th><td>No. 598</td><th>Star Rating</th><td>★★★☆☆☆</td></tr><tr><th><a href="../hull/index.html">Hull</a></th><td><img src="https://algwiki.moe/Images/Hull/cl.png" style="height: auto; width: 35px"> Light Cruiser</td><th>Rarity</th><td>Super Rare</td></tr><tr><th><a href="../navy/index.html">Navy</a></th><td><img src="https://algwiki.moe/Images/Navy/mnf_icon.png">Vichya Dominion</td><th>Build Time</th><td></td></tr><tr><th scope="row">Acquisition</th><td colspan="4"></td></tr><tr><th scope="row">Enhance Income</th><td colspan="4"><table><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</td><td style="text-align: left;padding-left:5px;">13</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</td><td style="text-align: left;padding-left:5px;">18</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</td><td style="text-align: left;padding-left:5px;">0</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</td><td style="text-align: left;padding-left:5px;">13</td></tr></table></td></tr><tr><th scope="row">Scrap Income</th><td colspan="4"><table><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/medal_icon.png" style=""> Medal</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/oil_icon.png" style=""> Oil</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/gold_icon.png" style=""> Gold</td><td style="text-align: left;padding-left:5px;"></td></tr></table></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="2">Information</th></tr><tr><th scope="row">Release Date</th><td><table><tr><td colspan="1">EN</td><td></td></tr><tr><td colspan="1">KR</td><td></td></tr><tr><td colspan="1">CN</td><td></td></tr><tr><td colspan="1">JP</td><td></td></tr></table></td></tr><tr><th scope="row">Voice actress</th><td></td></tr><tr><th class="subtitle" scope="col" colspan="2">Illustrator</th></tr><tr><td colspan="1">Other</td><td></td></tr><tr><td colspan="1">Pixiv</td><td></td></tr><tr><td colspan="1">Twitter</td><td></td></tr><tr><td colspan="1">Weibo</td><td></td></tr><tr><td colspan="1">Name</td><td></td></tr></table></td></tr><tr><td colspan="2"><table class="full"><tr><th class="title" scope="col">Skins</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-skinView" autocomplete="off" id="skinSelector-skinView-0" type="radio" checked="" onchange="skinChange(0,&quot;masaiqu&quot;)"><label for="skinSelector-skinView-0"><img src="https://algwiki.moe/assets/herohrzicon/masaiqu.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-skinView" autocomplete="off" id="skinSelector-skinView-1" type="radio" onchange="skinChange(1,&quot;masaiqu_2&quot;)"><label for="skinSelector-skinView-1"><img src="https://algwiki.moe/assets/herohrzicon/masaiqu_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-skinView-0" class="skinContent"><table><tr><th style="min-width: 50%" class="subtitle">Marseillaise</th><th class="subtitle">Description</th></tr><tr><td rowspan="5"><img id="painting-masaiqu" src="https://algwiki.moe/assets/painting/masaiqu.png" style="max-width: 100%;"></td><td></td></tr><tr><td id="containerSD-masaiqu"><select id="selectAnimation-masaiqu"></select><div id="canvasSD-masaiqu"></div></td></tr><tr><th class="subtitle">Expressions</th></tr><tr><td id="shipSkinExpressions-masaiqu"></td></tr></table></div><div id="skinContent-skinView-1" class="skinContent"><table><tr><th style="min-width: 50%" class="subtitle"></th><th class="subtitle">Description</th></tr><tr><td rowspan="5"><img id="painting-masaiqu_2" src="https://algwiki.moe/assets/painting/masaiqu_2.png" style="max-width: 100%;"></td><td></td></tr><tr><td id="containerSD-masaiqu_2"><select id="selectAnimation-masaiqu_2"></select><div id="canvasSD-masaiqu_2"></div></td></tr><tr><th class="subtitle">Expressions</th></tr><tr><td id="shipSkinExpressions-masaiqu_2"></td></tr></table></div></div></td></tr></table></td></tr><tr><td><table><tr><th class="title" scope="col" colspan="2">Parameters</th></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</td><td style="text-align: left; padding-left:5px;">B</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</td><td style="text-align: left; padding-left:5px;">B</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</td><td style="text-align: left; padding-left:5px;">E</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</td><td style="text-align: left; padding-left:5px;">B</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</td><td style="text-align: left; padding-left:5px;">C</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</td><td style="text-align: left; padding-left:5px;">B</td></tr><tr><th class="subtitle" scope="col" colspan="2">Stats</th></tr><tr><td colspan="2"><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100" type="radio"><label for="statSelector-100" style="margin-left: 5px;border-style: solid;">100</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120" type="radio"><label for="statSelector-120" style="margin-left: 5px;border-style: solid;">120</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-base" type="radio" checked=""><label for="statSelector-base" style="margin-left: 5px;border-style: solid;">Base</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100retrofit" type="radio"><label for="statSelector-100retrofit" style="margin-left: 5px;border-style: solid;">100 Retrofit</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120retrofit" type="radio"><label for="statSelector-120retrofit" style="margin-left: 5px;border-style: solid;">120 Retrofit</label><div id="statContent-base" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center">622</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center">71</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center">32</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center">53</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center">29</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center">61</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center">36</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center">46</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center">57</td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center">31</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3">Light</td></tr></table></div><div id="statContent-120" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center">2651</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center">136</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center">90</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center">146</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center">131</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center">226</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center">91</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center">48</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center">169</td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center">31</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3">Light</td></tr></table></div></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="5">Limit Break</th></tr><tr><td style="text-align: left; padding-left:5px;">Tier 1</td><td colspan="4" style="text-align: left; padding-left:5px;">Unlock All Out Assault I | All weapons' efficiency +2%</td></tr><tr><td style="text-align: left; padding-left:5px;">Tier 2</td><td colspan="4" style="text-align: left; padding-left:5px;">Torpedo base +1 | Torpedo preload +1 | All weapons' efficiency +3%</td></tr><tr><td style="text-align: left; padding-left:5px;">Tier 3</td><td colspan="4" style="text-align: left; padding-left:5px;">Improve All Out Assault | All weapons' efficiency +5%</td></tr><tr><th class="subtitle" scope="col" colspan="5">Equipments</th></tr><tr><th class="subtitle" scope="col">Slot</th><th class="subtitle" scope="col">Equipment Type</th><th class="subtitle" scope="col">Efficiency (LB 0/1/2/3)</th><th class="subtitle" scope="col">Quantity (LB 0/1/2/3)</th><th class="subtitle" scope="col">Preload (LB 0/1/2/3)</th></tr><tr><td>1</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Auxiliary</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>Auxiliary</td><td>-</td><td>-</td><td>-</td></tr><tr><th class="subtitle" scope="col" colspan="5">Default Equipments</th><tr><td>1</td><td colspan="4"></td></tr><tr><td>2</td><td colspan="4"></td></tr><tr><td>3</td><td colspan="4"></td></tr></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="3" style="width:40%;">Fleet Tech</th></tr><tr><th class="subtitle">T Light Cruiser: La Galissonnière-class</th><th class="subtitle" colspan="2" style="width:60%;">Tech Points and Bonus</th></tr><tr><td><a href="la_galissonniere.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg3.png&quot;);" src="https://algwiki.moe/assets/squareicon/jialisuoniye.png"></a><a href="la_galissonniere_meta.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg3.png&quot;);" src="https://algwiki.moe/assets/squareicon/jialisuoniye_alter.png"></a><a href="marseillaise.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg4.png&quot;);" src="https://algwiki.moe/assets/squareicon/masaiqu.png"></a></td><td><div style="text-align: left;"><input name="skinSelectors-techView" autocomplete="off" id="skinSelector-techView-0" type="radio" checked=""><label for="skinSelector-techView-0"><img src="https://algwiki.moe/assets/herohrzicon/masaiqu.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-techView" autocomplete="off" id="skinSelector-techView-1" type="radio"><label for="skinSelector-techView-1"><img src="https://algwiki.moe/assets/herohrzicon/masaiqu_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-techView-0" class="skinContent"><img src="https://algwiki.moe/assets/shipmodels/masaiqu.png"></div><div id="skinContent-techView-1" class="skinContent"><img src="https://algwiki.moe/assets/shipmodels/masaiqu_2.png"></div></div></td><td><table><tr><th>Unlock</th><td></td><td><img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr><tr><th>Max LimitBreak</th><td></td><td></td></tr><tr><th>Lv.120</th><td></td><td><img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr></table></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Skillset</th></tr><tr><th scope="col" class="subtitle">Icon</th><th scope="col" class="subtitle">Name</th><th scope="col" class="subtitle">Description</th><th scope="col" class="subtitle">Requirements</th></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/16870.png"></td><td>The Day of Glory Arrives</td><td>Increases this ship's SPD by 4 and EVA by 5.0% (15.0%)  and decreases her DMG taken by 5.0% (15.0%) . When this ship is attacked: 15.0% chance to deploy a barrier (lasts 8s; can negate up to 1.0% (3.0%)  of this ship's HP in DMG; 20s cooldown between activations); when this barrier is destroyed or when it expires: fires a Lv.1 (Lv.10)  special barrage (DMG is based on the skill's level).</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/16880.png"></td><td>Anthem of Beloved Freedom</td><td>Increases this ship's FP and ACC by 5.0% (15.0%) . While this ship is afloat: increases your Iris Libre and Vichya Dominion ships' FP, TRP, AVI, and RLD by 3.5% (8.0%)  and, every 40 (20) s, restores 1.0% of those ships' max HP.</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/30080.png"></td><td>All Out Assault II</td><td>Activates All Out Assault II: Marseillaise once every 8 times the Main Guns are fired.</td><td>???</td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Construction</th></tr><tr><td class="subtitle" style="width:20%;"></td><th class="subtitle" style="width:20%;" scope="col">JP</th><th class="subtitle" style="width:20%;" scope="col">CN</th><th class="subtitle" style="width:20%;" scope="col">EN</th></tr><tr><th scope="row" class="subtitle">Limited</th><td>✓</td><td>✓</td><td>✓</td></tr><tr><th scope="row" class="subtitle">Special</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Heavy</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Light</th><td></td><td></td><td></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="5">Dialogue</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-0" type="radio" checked=""><label for="skinSelector-lineView-0"><img src="https://algwiki.moe/assets/herohrzicon/masaiqu.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-1" type="radio"><label for="skinSelector-lineView-1"><img src="https://algwiki.moe/assets/herohrzicon/masaiqu_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-2" type="radio"><label for="skinSelector-lineView-2"><img src="https://algwiki.moe/assets/herohrzicon/masaiqu_ex1100.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-lineView-0" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Ship Description</th><td></td><td>拉·加利索尼埃级轻巡洋舰—马赛曲</td><td>ラ・ガリソニエール級軽巡洋艦-マルセイエーズ</td><td>La Galissonnière-class light cruiser – Marseillaise.</td></tr><tr><th scope="row">Biography</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/profile.ogg" controls=""></audio></td><td>拉·加利索尼埃级巡洋舰马赛曲，鸢尾教国的战斗天使。我不知疲倦，不惧痛苦，为和平与正义而挥剑。纵使世间依旧存有不公……但终有一天，它们将被战胜。</td><td>ラ・ガリソニエール級軽巡洋艦、アイリスの戦闘天使マルセイエーズ。疲れを知らず、痛みを恐れず、ただ平和と正義のために刃を振おう。いずれ世に残りし不義なるものが取り除かれる日が訪れることを信じて――</td><td>I am La Galissonnière-class light cruiser Marseillaise, the Iris's fighting angel. I feel no fatigue, fear no pain, and swing my blade only to uphold peace and justice. I am resolute in my belief that one day, all unrighteousness in the world shall be vanquished.</td></tr><tr><th scope="row">Acquisition</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/get.ogg" controls=""></audio></td><td>鸢尾教国所属，战斗天使马赛曲。请说出您的命令吧，指挥官。</td><td>アイリス所属、戦闘天使マルセイエーズ。指揮官、あなたの命令を言葉で聞かせて</td><td>I am Marseillaise, fighting angel of Iris Orthodoxy. Speak to me your orders, Commander.</td></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/login.ogg" controls=""></audio></td><td>指挥官，马赛曲恭迎您的到来。</td><td>戦闘天使マルセイエーズ、我らが指揮官の到着をお待ちしておりました</td><td>I, the fighting angel Marseillaise, await my Commander's arrival.</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/detail.ogg" controls=""></audio></td><td>激昂的音乐能够提振军心。指挥官，我想把这振奋的旋律带到战场上。就是战斗的时候放音乐的意思，用我的舰装就能做到……会很奇怪吗？</td><td>勇壮なる調べは、聖務に勤しむ兵たちを奮い立たせます。指揮官、このような調べを戦場に――ええと、実はマルセイエーズの艤装は戦闘時に曲を奏でられるのですが……変、でしょうか？</td><td>An awe-inspiring melody can inspire soldiers to carry out their sacred duties. Commander, I would like to bring this song to the battlefield– Oh, um... Actually, do you find the fact that my rigging can play music strange, by any chance?</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_1.ogg" controls=""></audio></td><td>对不起，被您任命为秘书的我却帮不上忙……如果我能够知道更多战斗以外的知识就好了……</td><td>申し訳ございません。秘書艦として任されたというのに、指揮官の聖務の力になれず……戦うこと以外の知識をもう少し持っていれば……</td><td>Sincerest apologies. Though I may be your secretary ship, I am unable to assist in your sacred charge... If only I possessed skills outside of combat...</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_2.ogg" controls=""></audio></td><td>加利索尼埃吗？她确实有时让人头疼……不过不用怕，她打不过我。</td><td>ラ・ガリソニエール？確かに時折困らせられますが……ですが平気です。審判廷のあの子とて、戦闘天使マルセイエーズには力が及びませんので</td><td>La Galissonnière? Sure, she can be a bit of a pain at times... but it doesn't matter. That Tribunal girl is no match for the fighting angel.</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_3.ogg" controls=""></audio></td><td>科研部门目前在忙吗？看来只能等到下次了……啊，没什么，只是有些想请教的事。</td><td>科学部は今忙しいのですか？でしたらまた今度でも……あ、いいえ。なんでもありません。少しご指導願いたいことがありまして…</td><td>Is the R&D department busy right now? I suppose it'll have to wait until next time then... Oh, it's nothing. I simply wanted to ask for some advice.</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/touch_1.ogg" controls=""></audio></td><td>为了鸢尾，为了正义与和平，我愿意听从您的命令。</td><td>正義、平和、アイリスのために、指揮官の意志を貫かん</td><td>For justice, peace, and the Holy Iris, I shall carry out your will.</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/touch_2.ogg" controls=""></audio></td><td>嗯？我不明白您的意思……？</td><td>ん？指揮官？マルセイエーズ、よくわかりません……</td><td>Hmm? Commander? I'm not sure I understand the meaning of this...</td></tr><tr><th scope="row">Mission</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/task.ogg" controls=""></audio></td><td>新的任务？我能为您做些什么？</td><td>新しい任務ですか？マルセイエーズが指揮官のためにしてあげられることは…</td><td>A new mission? There has to be something I can do to help, right...</td></tr><tr><th scope="row">Mission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/mission_complete.ogg" controls=""></audio></td><td>任务完成了。请允许我在领取报酬的路上护卫您。</td><td>任務が完了しました。報酬の受領、道中の護衛はおまかせを</td><td>Mission complete. I shall escort you as you go to retrieve the rewards.</td></tr><tr><th scope="row">Mail</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/mail.ogg" controls=""></audio></td><td>指挥官，有您的信。需要用剑帮您拆开吗？</td><td>指揮官への手紙があります。この刃で開封してもよろしいでしょうか？</td><td>You have mail, Commander. Shall I open it up using my blade?</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/home.ogg" controls=""></audio></td><td>原来您是这样提振士气的……真不愧为“指挥官”。</td><td>軍勢の士気を向上させるにはこういう手があるのですね。……さすが我らが指揮官です</td><td>So this is how you raise the morale of your troops... I would expect nothing less of my Commander.</td></tr><tr><th scope="row">Commission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/expedition.ogg" controls=""></audio></td><td>委托已经完成了，大家作战辛苦了……嗯？这些物资不是冒着危险从敌人手中抢下来的么？</td><td>委託完了です。戦闘お疲れでした……ん？この物資は危険を冒して敵から奪った…のではないのですか？</td><td>Commission complete. A hard-fought victory... Hmm? Did you not risk life and limb to seize these from the enemy?</td></tr><tr><th scope="row">Enhancement</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/upgrade.ogg" controls=""></audio></td><td>和平与正义，无法只靠理想推动……</td><td>平和と正義への聖務、理想だけでは遂行できません</td><td>Peace and justice are sacred duties that cannot be accomplished through ideals alone.</td></tr><tr><th scope="row">Flagship</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/warcry.ogg" controls=""></audio></td><td>威胁教国之人，必须排除。</td><td>アイリスの脅威…排除するのみ</td><td>All those who would oppose the Orthodoxy... must be eradicated.</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/mvp.ogg" controls=""></audio></td><td>鸢尾之刃，斩尽一切与教国为敌之人。</td><td>聖なるアイリスの刃、教国に仇なす者を全て斬滅せん</td><td>The Iris's sacred blade annihilates all who would oppose the Orthodoxy.</td></tr><tr><th scope="row">Defeat</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/lose.ogg" controls=""></audio></td><td>对不起，我失败了……让您失望了。</td><td>負けて…しまいました……がっかりさせてしまいましたね</td><td>Bitter... defeat... I am sorry to have let you down.</td></tr><tr><th scope="row">Skill</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/skill.ogg" controls=""></audio></td><td>Marchons！</td><td>マルション！</td><td>Marchons!</td></tr><tr><th scope="row">Low HP</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/hp.ogg" controls=""></audio></td><td>我会战斗到底……！</td><td>最後まで、聖務を勤めますっ！</td><td>I shall uphold my sacred duties, until the very end!</td></tr><tr><th scope="row">Affinity (Upset)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/feeling1.ogg" controls=""></audio></td><td>指挥官，您是我最不愿意与之为敌的人……请不要再这样下去了。</td><td>指揮官、あなたとだけは敵対したくありません。……どうか悔い改めて、更生なさってください</td><td>Commander, you are the last person I wish to consider an enemy... Please repent, and be born anew.</td></tr><tr><th scope="row">Affinity (Stranger)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/feeling2.ogg" controls=""></audio></td><td>正如我被赋予的名字那样，我希望我的存在能鼓舞所有同伴们。高举旗帜，冲锋在前，为众人开辟道路。这即是贯彻神圣的意志，引领胜利的天使的使命。</td><td>マルセイエーズ――預かった名のように、仲間たちを鼓舞する存在となりましょう。旗を掲げ、先陣を切って道を拓く――聖なる意志で、戦いを勝利へと導く天使として</td><td>I hope that I may become a source of inspiration for my compatriots, just as the name bestowed upon me implies. Raising the banner, standing on the front lines, cleaving a path forward– Heeding the will of the divine, I shall lead us to victory.</td></tr><tr><th scope="row">Affinity (Friendly)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/feeling3.ogg" controls=""></audio></td><td>“自由鸢尾”与“维希教廷”，它们本都是鸢尾教国的一部分……还好，在这个港区里，大家又团结在了一起。谢谢你，指挥官。</td><td>自由アイリス教国もヴィシア聖座も、元を辿れば同じアイリスで……この母港で仲間たちがまた一つとなりました。指揮官、感謝します</td><td>Both Iris Libre and the Vichya Dominion were once parts of the same Iris Orthodoxy... Here, at this port, my friends are able to come together once more. Thank you so much, Commander.</td></tr><tr><th scope="row">Affinity (Like)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/feeling4.ogg" controls=""></audio></td><td>我从未考虑过战斗之外的事……如果您愿意教我的话，我会非常感激。只是……应该从哪里开始？因为，这一切对我都非常陌生……</td><td>戦い以外のことはどうも疎くて……教えてくださるのはありがたいですが、ただ…どこから始めればいいのでしょうか？ええと、教わるのというのは、あまり経験がなく…</td><td>I hardly know anything that does not pertain to fighting... I'd appreciate it if you could instruct me, but... where would I even start? Umm, I don't even have much experience in being taught...</td></tr><tr><th scope="row">Affinity (Love)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/feeling5.ogg" controls=""></audio></td><td>对、对不起，这段时间实在是给您添了太多麻烦……不过，我也从来没有过如此开心。可以的话，我希望这样的时光，还能一直继续下去……</td><td>も、申し訳ございません。こんなに迷惑をかけてしまいました……それでも私、今までなかった楽しい時間に溺れてしまったので…できればずっとこのまま続けばと……</td><td>S-sincerest apologies. I've caused you nothing but trouble since my arrival... But despite that, I've never had so much fun before. If at all possible... I'd like these times to continue forever.</td></tr><tr><th scope="row">Pledge</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/propose.ogg" controls=""></audio></td><td>以此剑为誓，任何伤害指挥官的人，都将遭到圣裁……鸢尾的战斗天使，绝对不会让任何人伤及我爱人的一分一毫。这是我的誓言，我会遵守这份承诺，直至永恒。</td><td>戦闘天使マルセイエーズ、この刃に誓います。愛する指揮官をいかなる敵からも守り抜き、そして危害を与えんとする者にアイリスの名において聖裁を下します――この命が続く限り</td><td>I, the fighting angel Marseillaise, swear upon this blade: as long as I still draw breath, I will protect my beloved Commander from all enemies, and punish all those who seek to harm us in the name of the Holy Iris.</td></tr><tr><th scope="row">Present Like</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/present_like.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th scope="row">Present Dislike</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/present_dislike.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th scope="row">Extra</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/extra.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th>In battle with La Galissonnière</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/link1.ogg" controls=""></audio></td><td>加利索尼埃，请严肃起来！</td><td>ラ・ガリソニエール、厳粛に！</td><td> Please, La Galissonnière, show some more dignity!</td></tr><tr><th>In battle with Richelieu</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/link2.ogg" controls=""></audio></td><td>很荣幸与您并肩战斗，黎塞留主教。</td><td>枢機卿殿と肩を並べること、光栄に存じます。</td><td> It is an honor to stand alongside the Cardinal.</td></tr><tr><th>In battle with Joffre</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/link3.ogg" controls=""></audio></td><td>你一半我一半，速战速决。</td><td>敵勢の半分を預けます。すぐに片付けましょう！</td><td> I'll leave the other half of enemies to you, let's wrap up this battle swiftly!</td></tr><tr><th>In battle with Jeanne d'Arc</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/link4.ogg" controls=""></audio></td><td>贞德，一同为教国而战吧！</td><td>聖女よ、同じアイリスのために戦いましょう</td><td> La Pucelle, let us both fight for the Iris Orthodoxy!</td></tr><tr><th>In battle with Friedrich der Große</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/link5.ogg" controls=""></audio></td><td>这一次……你站在了教国的一方么。</td><td>アイリスとともに戦うのですね</td><td> So, you stand with the Iris Orthodoxy this time...</td></tr><tr><th>In battle with Clemenceau</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/link6.ogg" controls=""></audio></td><td>如您所坚信的那样，希望终于来临了……！</td><td>信ずれば、希望が訪れます……！</td><td>Just as you believed, hope has arrived!</td></tr></table></div><div id="skinContent-lineView-1" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Ship Description</th><td></td><td>好的，向球的这个位置下蹲……嗯！？不，不要紧！战斗天使马赛曲，不会输给这点程度的训练……呀！？</td><td>はい、玉のこの位置に目掛けて腰を降ろして……んっ！？だ、大丈夫です！戦闘天使マルセイエーズ、この程度の訓練で負けるはずが……ひゃぅ！？</td><td>Alright, aim at this part of the ball, and drop my hips... Nngh?! I, I'm alright! The fighting angel, Marseillaise, will not be defeated by this... Hyeep?!</td></tr><tr><th scope="row">Acquisition</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/get_1.ogg" controls=""></audio></td><td>好的，向球的这个位置下蹲……嗯！？不，不要紧！战斗天使马赛曲，不会输给这点程度的训练……呀！？</td><td>はい、玉のこの位置に目掛けて腰を降ろして……んっ！？だ、大丈夫です！戦闘天使マルセイエーズ、この程度の訓練で負けるはずが……ひゃぅ！？</td><td>Alright, aim at this part of the ball, and drop my hips... Nngh?! I, I'm alright! The fighting angel, Marseillaise, will not be defeated by this... Hyeep?!</td></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/login_1.ogg" controls=""></audio></td><td>今天也一起训练吗？希望马赛曲没有给指挥官添麻烦……</td><td>本日も一緒に鍛錬をするのですか？マルセイエーズ、指揮官にご迷惑をかけていなければいいのですが……</td><td>Are we going to train together again today? I do hope I'm not inconveniencing you, Commander...</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/detail_1.ogg" controls=""></audio></td><td>除了使用舰装的战斗之外，为了应对各种状况，身体锻炼也是必要的——诚如您所言。</td><td>艤装を使う戦いだけでなく、いろんな状況に対応できるよう体を鍛えることが必要。仰るとおりです</td><td>I cannot strictly rely on my rigging to fight; I must also train my body to respond to various situations, just as you said.</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_1_1.ogg" controls=""></audio></td><td>如果可以展开翅膀就不会出那样的洋相了——您说那样的话就谈不上训练了？遵命…</td><td>翼を展開できればあんな失態をするようなことは――それでは訓練にならない、ですか？はい…</td><td>If only I could spread these wings, those mistakes could've been avoidable– Hmm? That doesn't count as training? I understand...</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_2_1.ogg" controls=""></audio></td><td>嗯嗯…指挥官，这样可以吗？是，关于姿势方面…还请您尽情指导…</td><td>んんっ…指揮官、これでいいのでしょうか？ええ、お手ほどきを…姿勢のご指導をいただければ…</td><td>Hmm... Commander, how does this look? Umm, if you could give me some tips on how to improve my posture...</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_3_1.ogg" controls=""></audio></td><td>有好多伙伴一边听音乐一边训练。呵呵，有点好奇她们都在听什么呢。</td><td>音楽を聞きながら鍛錬に励む仲間が多いですね。ふふ、何を聞いているか少しだけ気になります</td><td>Many of my friends listen to music while working out. Haha, I really want to ask around and see what they're listening to.</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/touch_1_1.ogg" controls=""></audio></td><td>呼…抱歉。我这就擦汗……</td><td>ふぅ…申し訳ございません。今汗を拭きますから……</td><td>Phew... Sorry, I'll go wipe off my sweat now...</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/touch_2_1.ogg" controls=""></audio></td><td>明明有指挥官帮忙……嗯嗯……还是好难……</td><td>指揮官が助けてくださっているのというのに……んんっ……難しいです……っ</td><td>Even though you're helping me... Nngh... This is still difficult...</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/home_1.ogg" controls=""></audio></td><td>嗯，先这样……呀！？哈啊哈啊…啊，指挥官，谢谢您。又一次顺利地完成作战了呢。</td><td>ええと、こうして…ひゃぅ！？…あっ、指揮官、ありがとうございます。戦いの聖務をまた一つこなしてきたのですね</td><td>Umm, maybe like this... Eek?! ...Oh, Commander, thank you very much. You've completed another one of your sacred trials of combat, yes?</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202-battle/acb/awb/mvp_1.ogg" controls=""></audio></td><td>呼。愿鸢尾的祝福同在——</td><td>ふぅ。アイリスのご加護があらんことを――</td><td>Phew. May the Holy Iris bless you–</td></tr></table></div><div id="skinContent-lineView-2" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/login_ex1100.ogg" controls=""></audio></td><td>指挥官，欢迎回来。茶泡好了……嗯？不是要将茶叶填满杯子吗？我以为越多越好……</td><td>おかえりなさいませ。指揮官。お茶を入れました……あ、茶葉をカップに入れる、という意味ではなかったのですか？カップいっぱいまで入れたほうがいいと思ってました…</td><td>Welcome back, Commander. I've already prepared the tea... Huh? Wasn't I supposed to pour the leaves into the cup? I thought it would be best to fill it up as much as possible...</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_1_ex1100.ogg" controls=""></audio></td><td>盖章是表示同意么？那……我可不可以多盖几个章表示强烈肯定？</td><td>押印は同意の意思を示すことですね？では……ええと、何個も押せば、激しく同意することを示すのでしょうか？</td><td>Affixing your stamp here signifies your approval, right? In that case... Umm, does multiple stamps signify strong approval?</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/main_2_ex1100.ogg" controls=""></audio></td><td>如果对舰装再加以改造，提升音量的话……要不现在就试试吧！</td><td>艤装を改造してボリュームも上げて……よし、すぐに取り掛かりましょう</td><td>If we were to further retrofit this rigging and amplify the volume... Alright, let's give it a try right now!</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/touch_1_ex1100.ogg" controls=""></audio></td><td>您是希望我用翅膀将您抱住吗……？</td><td>翼に包まれたい、ですか…？</td><td>You want me to fold you within my wings...?</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/touch_2_ex1100.ogg" controls=""></audio></td><td>我不太明白……不过，您能因此开心就好。</td><td>マルセイエーズにはよくわかりません……ですがこれで指揮官がお喜びになるなら…</td><td>I don't quite understand, but... if it pleases you, that makes me glad...</td></tr><tr><th scope="row">Mail</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/mail_ex1100.ogg" controls=""></audio></td><td>原来不需要用剑就能拆开信封么……我明白了。</td><td>この刃を使わずに開封すればいいですね……わかりました</td><td>So, it's possible to open the letter without using my blade after all... I understand now.</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/home_ex1100.ogg" controls=""></audio></td><td>您是如此振奋人心的存在……每一次的出击，都愈发让我这么觉得。</td><td>指揮官がここまで仲間たちを奮い立たせる存在とは……出撃を重ねる毎にそう思うようになりました</td><td>Commander, how are you able to inspire our friends to such an extent? Every time we go on a sortie, I find myself thinking about it.</td></tr><tr><th scope="row">Affinity (Love)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-90202/acb/awb/feeling5_ex1100.ogg" controls=""></audio></td><td>我一直以为战斗就是一切，没想到还有这么多的事情可以尝试……与指挥官您尝试的每一件事情，都让我倍感幸福。也许，这就是“恋心”……？</td><td>戦いしか知らなかった私が、これほど多くのことに触れるなんて……マルセイエーズ、指揮官と一緒にこなす全てに幸せを感じます。たぶん、これが「コイゴコロ」なのでしょうか……？</td><td>For someone like me who knows nothing outside of battle, being able to experience so many different things... makes me truly happy whenever we do things together, Commander. Might this be... true love?</td></tr></table></div></div></td></tr></table></td></tr></table></main><script>
+skins = [["masaiqu","0","1","2","3","4","5","6",],["masaiqu_2","0","1","2","3","4","5","6",],];
+const tail = ([, ...t]) => t;
+
+var util = {
+    ifFileExists: function(file){
+	var http = new XMLHttpRequest();
+
+	http.open('HEAD', file, false);
+	http.send();
+	return (http.status != 404 && http.status != 403);
+    },
+    clearAllChildren: function(element){
+	var myNode = document.getElementById(element);
+	while (myNode.firstChild) {
+	    myNode.removeChild(myNode.firstChild);
+	}
+    },
+    loadShipList: function(callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'json/shiplist.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText);
+	    }
+	};
+	xobj.send(null);
+    },
+    loadShipJSON: function(ship, callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'Ships/'+ship+'.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText, ship);
+	    }
+	};
+	xobj.send(null);
+    },
+    guidGenerator: function(){
+	var S4 = function() {
+	    return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+	};
+	return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+    }
+}
+
+function SD(basePath) {
+    this.basePath = basePath;
+    this.loader = new PIXI.loaders.Loader(this.basePath);
+}
+
+SD.prototype = {
+    spineData : {},
+    load: function(name, v) {
+        if (!this.spineData[name]) {
+            var skelpath = name+'.skel';
+            var atlaspath = name+'.atlas';
+            var texpath = name+'.png';
+
+            this.loader.add(name+'_atlas', atlaspath, { "type" : "atlas" })
+            this.loader.add(name+'_skel', skelpath, { "xhrType" : "arraybuffer" })
+            this.loader.add(name+'_tex', texpath)
+
+            this.loader.load((loader, resources) => {
+                var dec = new TextDecoder("utf-8");
+                var head = dec.decode(resources[name+'_skel'].data.slice(2, 10));
+                var rawSkeletonData;
+                if (head == "skeleton") {
+                    rawSkeletonData = JSON.parse(dec.decode(resources[name+'_skel'].data));
+                } else {
+                    var skelBin = new SkeletonBinary();
+                    skelBin.data = new Uint8Array(resources[name+'_skel'].data);
+                    skelBin.initJson();
+
+                    rawSkeletonData = skelBin.json;
+                }
+                var rawAtlasData = resources[name+'_atlas'].data;
+
+                var spineAtlas = new PIXI.spine.core.TextureAtlas(rawAtlasData, function(line, callback) {
+                    callback(PIXI.BaseTexture.from(name+'_tex'));
+                });
+                var spineAtlasLoader = new PIXI.spine.core.AtlasAttachmentLoader(spineAtlas);
+                var spineJsonParser = new PIXI.spine.core.SkeletonJson(spineAtlasLoader);
+                var skeletonData = spineJsonParser.readSkeletonData(rawSkeletonData);
+
+                this.spineData[name] = skeletonData;
+                v.changeCanvas(skeletonData);
+            });
+        } else {
+            v.changeCanvas(this.spineData[name]);
+        }
+    }
+}
+
+var viewer = {
+    init2: function() {
+        viewer.canvas = document.getElementById("canvasSD-" + current);
+        viewer.selectAnimation = document.getElementById("selectAnimation-" + current);
+        viewer.selectAnimation.addEventListener('change', function() {
+            viewer.changeAnimation(this.selectedIndex);
+        });
+        viewer.canvas.appendChild(viewer.app.view);
+    },
+    init: function(basePath) {
+        viewer.sd = new SD(basePath);
+        viewer.app = new PIXI.Application(512, 512, { transparent: true });
+	viewer.init2();
+    },
+    changeCanvas : function(skeletonData) {
+        viewer.app.stage.removeChildren();
+
+        viewer.spine = new PIXI.spine.Spine(skeletonData);
+        var animations = viewer.spine.spineData.animations;
+        var stringAnimations = "";
+        for(var i = 0; i < animations.length; i++) {
+            if (animations[i].name == "stand")
+                stringAnimations += "<option value=\"" + animations[i].name + "\" selected>" + animations[i].name + "</option>";
+            else
+                stringAnimations += "<option value=\"" + animations[i].name + "\">" + animations[i].name + "</option>";
+        }
+        viewer.selectAnimation.innerHTML = stringAnimations;
+        viewer.spine.state.setAnimation(0, "stand", true);
+        viewer.app.stage.addChild(viewer.spine);
+        viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        centerSD();
+    },
+    changeAnimation : function(num) {
+        var name = viewer.spine.spineData.animations[num].name;
+        viewer.spine.state.setAnimation(0, name, true);
+    },
+    onResize: function() {
+        var element = document.getElementById("containerSD-" + current);
+        var positionInfo = element.getBoundingClientRect();
+        var width = positionInfo.width;
+        if (width > 512){
+            width = 512;
+        }
+        var height = width;
+        viewer.app.view.style.width = width + "px";
+        viewer.app.view.style.height = height + "px";
+        viewer.app.renderer.resize(width, height);
+        viewer.spine.position.set(width * 0.5 , height * 0.8);
+    },
+    removeSd : function() {
+        viewer.app.stage.removeChildren();
+    },
+    loadSd: function(sd) {
+        viewer.sd.load(sd, viewer);
+    },
+    sdWidth: function (){
+        return viewer.app.view.width;
+    }
+};
+
+function centerSD(){
+    var containerWidth = document.getElementById("containerSD-" + current).getBoundingClientRect().width;
+    var sdWidth = viewer.sdWidth();
+    document.getElementById("canvasSD-" + current).style.left = Math.floor((containerWidth / 2) - (sdWidth / 2)) + "px";
+}
+
+window.onresize = function(){
+    viewer.onResize();
+    centerSD();
+}
+
+function loadShipSkinElements(skinID){
+    try {
+	viewer.removeSd();
+    } catch (err){
+    }
+
+    if (util.ifFileExists("https://algwiki.moe/assets/char/" + skinID + ".png")){
+	viewer.loadSd(skinID);
+    }
+
+    util.clearAllChildren("shipSkinExpressions-" + current);
+}
+
+function setShipExpressionNav(skin){
+    const expressions = tail(skin);
+    var firstIteration = true;
+    var initial = "";
+    var id = "";
+    for (x of expressions) {
+	var container = document.createElement("img");
+	container.id = "expr-" + current + "_" + x;
+	container.setAttribute("onclick", "onExpressionNavButtonClick(\"" + x + "\",\"" + skin[0] + "\")");
+	if (firstIteration){
+	    container.src = expressions.length == 1 ? "https://algwiki.moe/assets/squareicon/" + skin[0] + ".png" : "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "active expression";
+	    firstIteration = false;
+	    initial = x;
+	    id = x;
+	} else {
+	    container.src = "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "expression";
+	}
+
+	document.getElementById("shipSkinExpressions-" + current).appendChild(container);
+    }
+}
+
+function onExpressionNavButtonClick(exprID, skinID){
+    var id = "expr-" + current + "_" + exprID;
+    var obj = document.getElementById('shipSkinExpressions-' + current).children;
+
+    for (var i = 0; i < obj.length; ++i){
+	if (obj[i].id == id) {
+	    document.getElementById(id).classList.add('active');
+	    document.getElementById("painting-" + current).src = "https://algwiki.moe/assets/painting/" + skinID + (exprID == 0 ? "" : "-" + exprID) + ".png";
+	} else
+	    document.getElementById(obj[i].id).classList.remove('active');
+    }
+}
+
+var current = skins[0][0];
+
+function skinChange(i, skinID) {
+    current = skins[i][0];
+    viewer.init2();
+    loadShipSkinElements(skinID);
+    setShipExpressionNav(skins[i]);
+    onExpressionNavButtonClick(skins[i][1], skinID);
+}
+
+viewer.init("https://algwiki.moe/assets/char");
+loadShipSkinElements(skins[0][0]);
+setShipExpressionNav(skins[0]);
+onExpressionNavButtonClick(skins[0][1], skins[0][0]);
+</script><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
+Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.
+/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+The above copyright notice, and this permission notice shall be included in all copies or substantial portions of the Software.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.</pre></footer></div></body></html>

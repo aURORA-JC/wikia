@@ -20,6 +20,7 @@
         "Good work out there, everyone! And Commander, upholding justice is fine and all, but don't forget to rest as well!"
       ]
     ],
+    "hp_warning": "",
     "id": 101110,
     "login": [
       [
@@ -82,6 +83,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 101450,
     "login": [
       [
@@ -139,6 +141,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 101460,
     "login": [
       [
@@ -206,6 +209,7 @@
         "Great work, Commander! Please let me handle the reports...!"
       ]
     ],
+    "hp_warning": "",
     "id": 101470,
     "login": [
       [
@@ -278,6 +282,7 @@
         "Nice going out there, Commander! Did you come across any places warranting an investigation?"
       ]
     ],
+    "hp_warning": "",
     "id": 101490,
     "login": [
       [
@@ -340,6 +345,7 @@
         "Hey, stupid Commander! I don't know how to brew tea, so I brought you some refreshing juice... I-If you're thirsty, then just drink it already!"
       ]
     ],
+    "hp_warning": "",
     "id": 101500,
     "login": [
       [
@@ -392,6 +398,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 102270,
     "login": [
       [
@@ -449,6 +456,7 @@
         "Oh, there's some paper stuck on your clothes. Let me wipe it off... It should be okay now... I think?"
       ]
     ],
+    "hp_warning": "",
     "id": 102290,
     "login": [
       [
@@ -521,6 +529,7 @@
         "Good going, Puddin'! C'mere and chew the fat with me! Kick back now, worry about the consequences later!"
       ]
     ],
+    "hp_warning": "",
     "id": 103140,
     "login": [
       [
@@ -578,6 +587,7 @@
         "*sigh*... I always ask myself if you have to go into battle every time I see you leave, but at the same time, I wish I could be styling with you on the battlefield... Guess my feelings are pretty mixed on this."
       ]
     ],
+    "hp_warning": "",
     "id": 103240,
     "login": [
       [
@@ -625,6 +635,7 @@
         "It's good that everyone made it back safely. And you came back safely too... That's the most important part."
       ]
     ],
+    "hp_warning": "",
     "id": 103260,
     "login": [
       [
@@ -682,6 +693,7 @@
         "Cheers! I'll save the champagne until our next magnificent victory."
       ]
     ],
+    "hp_warning": "",
     "id": 105030,
     "login": [
       [
@@ -744,6 +756,7 @@
         "Welcome back from your sortie! Wanna celebrate the occasion with a kiss? ...Yeah, yeah, I know, I'll get started on the report~♪"
       ]
     ],
+    "hp_warning": "",
     "id": 105170,
     "login": [
       [
@@ -811,6 +824,7 @@
         "Welcome back, Commander. I returned the movie we finished the other day. Hehe~ It's okay if you forget; I always remember it."
       ]
     ],
+    "hp_warning": "",
     "id": 106550,
     "login": [
       [
@@ -873,6 +887,7 @@
         "Why don't we crack open some celebratory wine? Don't worry, I'm limiting myself to one glass. Honestly, I was hoping I could be a little bolder if I drank enough... Oh, n-never mind! Ignore that."
       ]
     ],
+    "hp_warning": "",
     "id": 107100,
     "login": [
       [
@@ -945,6 +960,7 @@
         "Good work out there, Commander! ...Oww, sorry, I bumped into my own rigging... After all, I always get stoked when I see you! Ahaha..."
       ]
     ],
+    "hp_warning": "",
     "id": 107110,
     "login": [
       [
@@ -1012,6 +1028,7 @@
         "Lookin' good, Commander! How's about a drink to put some pep in your—Ooh, nice catch! Even if... Well, I just handed it to you."
       ]
     ],
+    "hp_warning": "",
     "id": 107120,
     "login": [
       [
@@ -1079,6 +1096,7 @@
         "Good job out there, Commander. Huhh, you want to see my arm? Sure–ahhn?! Th-that felt amazing...!"
       ]
     ],
+    "hp_warning": "",
     "id": 107140,
     "login": [
       [
@@ -1131,6 +1149,7 @@
         "You look exhausted... Hold still, I'll wipe that sweat off your brow."
       ]
     ],
+    "hp_warning": "",
     "id": 107230,
     "login": [
       [
@@ -1183,6 +1202,7 @@
         "Welcome back—Hold on there! Good, you're not hurt... Okay! You're free to go now."
       ]
     ],
+    "hp_warning": "",
     "id": 107270,
     "login": [
       [
@@ -1245,6 +1265,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 107990,
     "login": [
       [
@@ -1292,6 +1313,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 108030,
     "login": "",
     "lose": "",
@@ -1339,6 +1361,7 @@
         "Th-thank you for always being so considerate, but I've stopped standing behind the door now. You don't have to worry about that anymore."
       ]
     ],
+    "hp_warning": "",
     "id": 108070,
     "login": "",
     "lose": "",
@@ -1370,6 +1393,84 @@
     "upgrade": "",
     "win_mvp": ""
   },
+  "199040": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "Vitals check done. All signs clear. I can't guess why else you'd visit, so... You just felt like it? Heheh, what an irrational reason, but that sounds like you alright."
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "Confirming the commission team has returned. Hate to rain on your parade, but have you prepared gifts for the girls?"
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "*smooch*... Yep. You're the same as always, and I'm in love with you. Is that all you wanted to confirm? I thought you would... as my friends have put it, \"do what your heart yearns for.\" Are you really not going to do that?"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "How did the sortie go, Commander? I know I don't need to worry about you, but disasters can always happen. Want me to check your vitals?"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 199040,
+    "login": [
+      [
+        1100,
+        "This time, you go ahead and set the pace. Don't worry about me, just do whatever feels natural to you. I like it better that way."
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "What is it? Why'd you put your pen down? Your vitals all look fine to me, so... You're just taking a break? Sorry, I didn't mean to heckle you...|Still not finished? Okay, I'll order takeaway. That way I can stay with you until tomorrow if need be– Oh, it won't take that long?|I put my full trust in your ability to lead. Whenever you want to change targets, change course, use and change equipment, or give me tactical advice, just say the word.|(Kearsarge's breathing is faintly audible. Is she meditating again, or is she just sleeping?)"
+      ]
+    ],
+    "mission": "",
+    "mission_complete": [
+      [
+        1100,
+        "Confirming arrival and receipt of rewards. I don't want to dampen your celebration, but... you should go pick up your stuff."
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "...Commander. If you're going to play a prank on someone, you should make sure they're asleep first."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "If you want this, be my guest. I respect your will, and I've reached the conclusion that I'm fine with it, too."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Combat appraisal complete... I'm the MVP? It's not like you to get excited about the usual. N-no, I don't mean you can't do that, just..."
+      ]
+    ]
+  },
   "201100": {
     "battle": "",
     "detail": [
@@ -1396,6 +1497,7 @@
         "Eheheh... Now I got the bed to mysel– Huh?! Commander! What're ya doin' here?! Th-this ain't my room? It's yours? Waah... I'm so sorry..."
       ]
     ],
+    "hp_warning": "",
     "id": 201100,
     "login": [
       [
@@ -1453,6 +1555,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 201320,
     "login": [
       [
@@ -1505,6 +1608,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 201330,
     "login": [
       [
@@ -1577,6 +1681,7 @@
         "Look at you – you got hurt again! I'll have to use antiseptic. It's going to sting, but you have only yourself to blame for that."
       ]
     ],
+    "hp_warning": "",
     "id": 201340,
     "login": [
       [
@@ -1654,6 +1759,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 201350,
     "login": [
       [
@@ -1716,6 +1822,7 @@
         "Not bad at all. I suppose even a Sidekickommander needs some time in the limelight~"
       ]
     ],
+    "hp_warning": "",
     "id": 201360,
     "login": [
       [
@@ -1788,6 +1895,7 @@
         "Good work, my little piggy. The repairs and resupplying have already been arranged, so go ahead and rest for now."
       ]
     ],
+    "hp_warning": "",
     "id": 202030,
     "login": [
       [
@@ -1850,6 +1958,7 @@
         "Welcome ba– A gift for me? You really shouldn't have... I-is there anything I can do to repay you?"
       ]
     ],
+    "hp_warning": "",
     "id": 202090,
     "login": [
       [
@@ -1907,6 +2016,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 202100,
     "login": "",
     "lose": "",
@@ -1939,6 +2049,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 202270,
     "login": [
       [
@@ -1996,6 +2107,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 202290,
     "login": [
       [
@@ -2063,6 +2175,7 @@
         "Master, allow me to take your coat~ Here's a towel, a warm cup of coffee, and a hug from me~"
       ]
     ],
+    "hp_warning": "",
     "id": 202300,
     "login": [
       [
@@ -2130,6 +2243,7 @@
         "My liege, good work out there. Here you go. I brought you a change of clothes so you can continue to maintain your appearance while you work on your documents."
       ]
     ],
+    "hp_warning": "",
     "id": 202310,
     "login": [
       [
@@ -2202,6 +2316,7 @@
         "Well done. Um, how about taking a short break before reviewing your plans...? Come on, look at how tired you are..."
       ]
     ],
+    "hp_warning": "",
     "id": 202320,
     "login": [
       [
@@ -2269,6 +2384,7 @@
         "Don't worry about a thing. Everyone is safe at home in the port. By the way, Master... Is it just me, or do you worry about the others more than you do me?"
       ]
     ],
+    "hp_warning": "",
     "id": 202330,
     "login": [
       [
@@ -2346,6 +2462,7 @@
         "Owner! Mew came back early just to see me! It's good I left the office early to see mew too!"
       ]
     ],
+    "hp_warning": "",
     "id": 203100,
     "login": [
       [
@@ -2403,6 +2520,7 @@
         "Leave the preparations to Belfast, and the combat reports to me! Such are the duties of the maid and the knight, yes!"
       ]
     ],
+    "hp_warning": "",
     "id": 204040,
     "login": [
       [
@@ -2470,6 +2588,7 @@
         "A toast to our victory. Never forget that you are the reason that everyone can enjoy this peace for yet another day."
       ]
     ],
+    "hp_warning": "",
     "id": 205060,
     "login": [
       [
@@ -2532,6 +2651,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 205070,
     "login": [
       [
@@ -2589,6 +2709,7 @@
         "Splendid work, love. Have a cookie and get some rest, then we'll start on the after-battle report."
       ]
     ],
+    "hp_warning": "",
     "id": 205090,
     "login": [
       [
@@ -2646,6 +2767,7 @@
         "My assistant, how fares the war situation? N-nothing out of the ordinary, hopefully?"
       ]
     ],
+    "hp_warning": "",
     "id": 205100,
     "login": [
       [
@@ -2703,6 +2825,7 @@
         "I'm so relieved that you're alright... Thank goodness... I really wanted to be out there to make sure you were safe, you know? Ehe♪"
       ]
     ],
+    "hp_warning": "",
     "id": 205110,
     "login": [
       [
@@ -2785,6 +2908,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 205130,
     "login": [
       [
@@ -2862,6 +2986,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 205140,
     "login": [
       [
@@ -2934,6 +3059,7 @@
         "Welcome back, Commander. You return victorious as promised, I see. Good job! *pat pat* Heehee!"
       ]
     ],
+    "hp_warning": "",
     "id": 206020,
     "login": [
       [
@@ -3006,6 +3132,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 206060,
     "login": [
       [
@@ -3044,7 +3171,12 @@
       ]
     ],
     "unlock": "",
-    "upgrade": "",
+    "upgrade": [
+      [
+        1100,
+        "Thanks a bunch... Well, yeah, didn't you want a thank-you?"
+      ]
+    ],
     "win_mvp": ""
   },
   "206070": {
@@ -3078,6 +3210,7 @@
         "Well done, Commander. As for the after-action report... You'd like me to handle it? Naturally, I'd be delighted to!"
       ]
     ],
+    "hp_warning": "",
     "id": 206070,
     "login": [
       [
@@ -3155,6 +3288,7 @@
         "Welcome back, our Seagull of Victory. You've fought admirably. Do you want a pat on the head? Or should I recite an incantation that'll take you straight to dreamland?"
       ]
     ],
+    "hp_warning": "",
     "id": 206080,
     "login": [
       [
@@ -3217,6 +3351,7 @@
         "My body weight's still the same as it w– Oh, you're back, Commander. Yeah, it's been business as usual in here."
       ]
     ],
+    "hp_warning": "",
     "id": 207010,
     "login": [
       [
@@ -3279,6 +3414,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 207020,
     "login": [
       [
@@ -3341,6 +3477,7 @@
         "Commander, I'm going to catch a few winks on the sofa here. Wake me up if anyone comes calling."
       ]
     ],
+    "hp_warning": "",
     "id": 207050,
     "login": [
       [
@@ -3413,6 +3550,7 @@
         "Commander, are you still busy? I'm afraid I can't be of much assistance, but I can give you a wink to keep your spirits up. Best of luck ♪"
       ]
     ],
+    "hp_warning": "",
     "id": 207052,
     "login": [
       [
@@ -3485,6 +3623,7 @@
         "Say... Isn't there even a chance you'll drink my tea? You could at least pretend to sip it to let me feel good about myself."
       ]
     ],
+    "hp_warning": "",
     "id": 207070,
     "login": [
       [
@@ -3562,6 +3701,7 @@
         "I pray for the Commander's safe return... Ow, ow, ow... Who thought prayer could be such a painful thing... Oh my, is that you, Commander?"
       ]
     ],
+    "hp_warning": "",
     "id": 207120,
     "login": [
       [
@@ -3608,6 +3748,99 @@
       ]
     ]
   },
+  "207130": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "Etiquette training does suck, but I'll keep doing my best to become a dependable lady of the Royal Navy! ...Ehehe, this is how I'll hide my true self in front of others so that only the people I really care about get to see the real me! Yep, that's perfect!"
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "Going out with you to greet the commission team... I know what this is! This is what they call a \"grown-up date\"! ...It's not?"
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": [
+      [
+        1100,
+        "Hawawah! I put so much effort into brushing my hair just right... You'd better get it back to how it was!"
+      ]
+    ],
+    "home": [
+      [
+        1100,
+        "Commander, come over here! There there, pat pat, good Commander! Hm? Big sis Illustrious taught me this! She said this is the best way to help you relax."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 207130,
+    "login": [
+      [
+        1100,
+        "Commander! You've finally returned! Did you bring that Iris dessert I said I wanted to try? ...Wow, thank you, Commander!"
+      ]
+    ],
+    "lose": [
+      [
+        1100,
+        "Urk... Commander, they're bullying meee..."
+      ]
+    ],
+    "mail": [
+      [
+        1100,
+        "Commander, you've got mail! I brought it right away! Do you have a reward for me?"
+      ]
+    ],
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "At tea parties, you have to sit straight up and deal with all these dumb, annoying manners... But when I'm with you and my sisters, I can relax! I wish I could always eat tasty foods without a care!|Commander, you know one or two of Her Majesty's secrets, don't you? For example... Maybe she's not all that elegant in private? I promise I won't tell anyone else!|I recently learned about this \"rock\" genre of music. I rather like it! My sisters say it's not ladylike, but... What about you? Do you like \"rock,\" Commander?"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "A new mission? If you're going to be busy, then I guess I'll have to pass the time alone... How sad."
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Mission complete! Commander, shall we take a break? You look tired, so I'm worried about you..."
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "If you're free right now, then let's have a tea party together! We can leave out all of the boring manners and stuff."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "I-i-i-it is far too soon for me to be participating in such acts!"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "I won! Look, Commander, I'm in first place!"
+      ]
+    ]
+  },
   "299030": {
     "battle": "",
     "detail": "",
@@ -3634,6 +3867,7 @@
         "Weeelcome back, Owner! Are you okay? Did you have any lovey-dovey thoughts about me? Don't be shy to say it, I want to know!"
       ]
     ],
+    "hp_warning": "",
     "id": 299030,
     "login": [
       [
@@ -3686,6 +3920,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 299040,
     "login": "",
     "lose": "",
@@ -3738,6 +3973,7 @@
         "Commander, how do the refreshments look? I made a light snack set for you today. Well then, please help yourself!"
       ]
     ],
+    "hp_warning": "",
     "id": 299050,
     "login": [
       [
@@ -3815,6 +4051,7 @@
         "Commander! I've been praying and praying for your safe return... *sniffle*... Thank goodness..."
       ]
     ],
+    "hp_warning": "",
     "id": 301040,
     "login": [
       [
@@ -3872,6 +4109,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 301090,
     "login": "",
     "lose": "",
@@ -3914,6 +4152,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 301260,
     "login": "",
     "lose": "",
@@ -3976,6 +4215,7 @@
         "W-welcome back, Commander! I was wondering when you'd return."
       ]
     ],
+    "hp_warning": "",
     "id": 301290,
     "login": [
       [
@@ -4053,6 +4293,7 @@
         "Commander, welcome back. Here are your documents, as well as some light snacks and drinks for you to enjoy... If there is anything else you need, please call for me right away."
       ]
     ],
+    "hp_warning": "",
     "id": 301470,
     "login": [
       [
@@ -4125,6 +4366,7 @@
         "Welcome back, Commander! Wanna sit? Heehee... You'll have to play with me first if you wanna take this spot!"
       ]
     ],
+    "hp_warning": "",
     "id": 301480,
     "login": [
       [
@@ -4187,6 +4429,7 @@
         "I feel safest when I'm with you and the others. Don't you think so too, Commander?"
       ]
     ],
+    "hp_warning": "",
     "id": 301630,
     "login": [
       [
@@ -4264,6 +4507,7 @@
         "Welcome back, Commander. I followed Oyashio's advice and changed my ornamental flowers around a little. Is it to your liking?"
       ]
     ],
+    "hp_warning": "",
     "id": 301820,
     "login": [
       [
@@ -4331,6 +4575,7 @@
         "Suzutsuki is unsinkable, and therefore, Commander is also undefeatable! ...Anyway, I know you'll come back safely no matter where you go! Welcome home~!"
       ]
     ],
+    "hp_warning": "",
     "id": 301840,
     "login": [
       [
@@ -4383,6 +4628,7 @@
         "You still wanna hear me play, even if I'm not good at it? But I'd rather not. Not when others are around..."
       ]
     ],
+    "hp_warning": "",
     "id": 301860,
     "login": [
       [
@@ -4445,6 +4691,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 301880,
     "login": "",
     "lose": "",
@@ -4470,6 +4717,240 @@
     "unlock": "",
     "upgrade": "",
     "win_mvp": ""
+  },
+  "301890": {
+    "battle": [
+      [
+        1100,
+        "I'll add this to the Commander's list of achievements!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "Whooo's there? Heehee, the answer is me♪ You've fallen for another one of my tricks... There's someone behind me? Y-yeah, right, like I'll believe that!"
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Heheh, now hold still~ ...So what if I'm sitting on your lap? I'm still helping you with your job. If you really want me to get off, why don't you rest your head on my lap instead? Heehee♡"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "We're more than just secretary and Commander – we share a fate. Which is to say, I'm your girlfriend, your partner... e-even your wife! So of course I'm first out to welcome you back♪"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 301890,
+    "login": [
+      [
+        1100,
+        "I know what we can do if we both wanna sit in your chair – this. You can't move? Well, yeah, not with me right in your lap~ Heehee♪"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "You've forgotten again, Commander! ...\"A date with me\"? Wait, I don't remember anything about that... Did you just make that up? You dummy! *blushes*|I can't function when you're not around♪ Same with you, right? Ahaha! You're totally dependent on me~|Even if other girls start coming on to you... will you stay true to me? Hehehe... I mean, of course you would. You're madly in love with me, after all♡"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "Need help with your missions? Okey-dokey♪ Since I'm the only one who can do it right now~"
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Mission rewards have arrived. Isn't that nice~♪"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Hmm-hm♪ Are you wondering why I talk you up even if I don't need anything? Heehee~"
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "H-huh?! Wh-what's gotten into you all of a sudden...? *blushes*"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Maybe I could hoard not just the Commander's rewards, but the Commander as well... F-fine, if you say so..."
+      ]
+    ]
+  },
+  "301900": {
+    "battle": [
+      [
+        1100,
+        "Commander, let's punch their lights out!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "I cannot deny that you've done much for me, Commander... How am I meant to repay you?"
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": "",
+    "home": "",
+    "hp_warning": "",
+    "id": 301900,
+    "login": [
+      [
+        1100,
+        "Commander, you're late! You don't know how long I've been waiting... for you, patiently! Show me your gratitude!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "You've made time for me tonight? I-I see... That's a good idea. I look forward to your companionship.|Matsukaze, I'll care for the Commander's worldly desires, so you don't need to worry—Why are you making that face at me?! D-do you mean to say I'm not capable?!"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "Mm, you still have some missions remaining. Did I not tell you that you'd start making mistakes if you worked yourself too much? I'll help you, so let's take it slow, now."
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "This one, and this one too... All of them are done! Now that's our Commander for you!"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Mmm~ Yes... Ouch, ouch! No! Bad place! Not there... Ow, owowowowowoww!!"
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "H-heheh! Do not underestimate my charms... Wait, you're stopping already?!"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Hrmm. Did I overdo things a little?"
+      ]
+    ]
+  },
+  "302060": {
+    "battle": [
+      [
+        1100,
+        "Heheh, don't even think about calling me an imposter!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "Yura has a useful helper, just like me. Commander, why don't you call your favorite girl and have her do the same?! ...Me? Hmph, I'm too important to be YOUR helper, Commander."
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "No matter what, my \"affinity\" stat just won't stop rising. Don't these normally have some kind of cap?! ...Ah! Could it be that you have cheat abilities like me, Commander?!"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Mm. I spent all my money on treats to eat with the Commander... Old man, is that get-rich-quick scheme you told me about real?! ...Whoa! Commander?"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 302060,
+    "login": [
+      [
+        1100,
+        "C-Commander! You're late, I've been waiting forever, I was so bored! You're spending all day with me, got it? Our schedule is packed with plans!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "I can use magic, you know. What kind? It's search magic that tells me wherever you are! Heheh, incredible, no?|Hrmmm... How can I do away with my old man's prying eyes when I want to be alone with the Commander? \"For goodness' sake, stop trying to blind me...\"|How can I draw the Commander's eye... Haruna, a hint, please?! Something that doesn't involve fists or food would be nice!！"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "Huh? You still have work left, you know. What's wrong, Commander?! Are you sick, or something?!"
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "You finished your work already?! The fact that you told me before my old man could... Impressive, Commander!"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "A request, for me? Heheh, go on♪"
+      ]
+    ],
+    "touch2": "",
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "\"That whippersnapper's leadership was spectacular.\" WRONG! It was my charisma that carried the day!"
+      ]
+    ]
   },
   "302070": {
     "battle": [
@@ -4502,6 +4983,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 302070,
     "login": [
       [
@@ -4574,6 +5056,7 @@
         "I'll always be waiting for you right here, Commander!"
       ]
     ],
+    "hp_warning": "",
     "id": 302140,
     "login": [
       [
@@ -4651,6 +5134,7 @@
         "Welcome back! Let's finish reviewing the mission, and then you'll have some Sakura confections waiting for you!"
       ]
     ],
+    "hp_warning": "",
     "id": 302230,
     "login": [
       [
@@ -4723,6 +5207,7 @@
         "Good work out there. Leave the combat report to me. You... should relax for a bit. Hehe."
       ]
     ],
+    "hp_warning": "",
     "id": 303060,
     "login": [
       [
@@ -4800,6 +5285,7 @@
         "Another win under your belt, huh? Nah, I'm not annoyed or anything, it's just... I'd like to prove my mettle on the battlefield instead of housesitting back here."
       ]
     ],
+    "hp_warning": "",
     "id": 303100,
     "login": [
       [
@@ -4846,6 +5332,79 @@
       ]
     ]
   },
+  "303190": {
+    "battle": [
+      [
+        1100,
+        "Commander, I shall go and make quick work of these enemies."
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "*munch munch*... Commander, is something wrong? You say I eat a lot more than you'd expect? I believe in not wasting things, whether they're clouds and mist or the five grains. That's doubly true when I made it for you... Heehee."
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Commander, do you have plans later? Oh, I don't plan to drag you around for weeks. Just one or two days... No! May I ask for just a few hours of your time... for a date?"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Phew... Now this is heavenly. Oh, Commander, well done on your most recent battle. Erm... I'm sorry, but I just got in, so if you don't mind..."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 303190,
+    "login": [
+      [
+        1100,
+        "My, Commander. What a coincidence, us arriving at the office at the same time. Heehee, I'm kidding. We've been together since we left your room, after all♪"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "*sigh*... Looks like today isn't your day... I should cook something to raise your spirits later...|So you wish for a bit of a diversion? Okay, then... Commander, find me a place nearby where you and I can be alone for a while.|Reunited even when you're apart, growing ever closer without realizing... I think that describes our relationship well, Commander.|The Dragon God didn't like the sweets I made the other day... *sigh*... The word \"flavorless\" was used...|So you have relationships with other girls, too... Heehee, it's fine. I know that's just the kind of person you are, Commander. Isn't that right♪"
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "I'm so helpful, aren't I? Am I a good girl? Heehee♪"
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "If you want me, then who am I to say no? Heehee..."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "That was a difficult foe... is what I WOULD say, if not for your leadership, Commander. You made it easy."
+      ]
+    ]
+  },
   "304070": {
     "battle": "",
     "detail": [
@@ -4872,6 +5431,7 @@
         "Commander, Hiei taught me how to make three-colored mochi. Would you like to try some? Akagi and her friends all said it was delicious~"
       ]
     ],
+    "hp_warning": "",
     "id": 304070,
     "login": [
       [
@@ -4944,6 +5504,7 @@
         "Why don't you tell me about something interesting that happened out there? I like hearing about that stuff."
       ]
     ],
+    "hp_warning": "",
     "id": 305080,
     "login": [
       [
@@ -5021,6 +5582,7 @@
         "You're back already? Did I not ask you to inform me beforehand so I can escort you personally...?"
       ]
     ],
+    "hp_warning": "",
     "id": 305100,
     "login": [
       [
@@ -5083,6 +5645,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 305120,
     "login": [
       [
@@ -5116,6 +5679,79 @@
       [
         1100,
         "Now this is a victory I want the whole world to see! Hahahahah!"
+      ]
+    ]
+  },
+  "305130": {
+    "battle": [
+      [
+        1100,
+        "Watch this! I'm totally gonna style on 'em!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "I'm not the sharpest tool in the shed, but I can at least keep up with you! ...'Cause, you know, love blinds people 'n all that? But love won't change me, it'll only turn one of us into a dummy. Haha♪"
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Dunno why, but I feel on edge when I stand next to you... like I'm not myself, somehow... Creeps me out. Wonder why I'm like this... Any ideas, Commander? ...Lovesickness, huh. What's that even mean?"
+      ]
+    ],
+    "headtouch": "",
+    "home": "",
+    "hp_warning": "",
+    "id": 305130,
+    "login": [
+      [
+        1100,
+        "Hey, Commander, we'll hang out today, won't we? I've really been lookin' forward to this, so expect fun times ahead♪"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "When I look at you, I get all weak and squishy and stuff... Is this what bein' obsessed is like?|Askin' you for help every time I'm in a tough spot, that's not cool. I've gotta solve some problems on my own♪|We've got some crazy tasty veggies here at the port! Heck, I used some in my last recipe! Even harvested 'em myself, of course."
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "Hol' up! You've got unfinished missions?! You get sick or somethin', Commander? Or is the whole freakin' sky about to fall?!"
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Oh hey, this mission here's all done too. Damn, Commander, you sure know how to bust yer butt."
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": "",
+    "touch2": [
+      [
+        1100,
+        "Uhhhh, there're people around, so... Phew, that was close. Like, even I feel awkward bein' watched by a ton of people..."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Howzat? See, now you understand how badass I can be, don't ya?"
       ]
     ]
   },
@@ -5155,6 +5791,7 @@
         "Welcome back. As much as I want you to be successful, I'm just as happy with everything staying the way it is."
       ]
     ],
+    "hp_warning": "",
     "id": 305140,
     "login": [
       [
@@ -5207,6 +5844,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 306070,
     "login": [
       [
@@ -5264,6 +5902,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 307120,
     "login": [
       [
@@ -5305,6 +5944,59 @@
       ]
     ]
   },
+  "307130": {
+    "battle": "",
+    "detail": "",
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Could you please lie down for me, my Commander? See, this is what's called a \"lap pillow\" and it helps you really unwind~"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 307130,
+    "login": [
+      [
+        1100,
+        "I've been waiting for you this whooole time, my darling~♥"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "What's your favorite food? I can make it for you~ I'm a little girl with lots of spare time, so I can practice whichever dish you like.|Do you feel worn out, my Commander? I'll get you a snack to munch on~ I'll also feed you it, so you can simply lie back and relax."
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Heehee... You can't forget about my touch, can you? ♥"
+      ]
+    ],
+    "touch2": "",
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Heehee... Now I can finally be alone with my Commander~❤"
+      ]
+    ]
+  },
   "319010": {
     "battle": "",
     "detail": [
@@ -5331,6 +6023,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 319010,
     "login": [
       [
@@ -5398,6 +6091,7 @@
         "Y-yes?! I'm here! P-please don't eat me...?! D-don't sneak up on me when I don't have my weapon..."
       ]
     ],
+    "hp_warning": "",
     "id": 399050,
     "login": [
       [
@@ -5429,6 +6123,99 @@
     "upgrade": "",
     "win_mvp": ""
   },
+  "399060": {
+    "battle": [
+      [
+        1100,
+        "\"Ryuu ga waga teki wo\"... Haha, I'll stop now."
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "Let's set the work aside and take it easy for now. Not many people come by these parts, and even if they do, all you gotta do is say that you were praying to the Dragon God~"
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "The commission team seems to have returned. Heehee, the Dragon God sees all~"
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Yeah, yeah. Just like that. No need for reservation, no need to be polite. You're the head honcho here, so feel free to be yourself. I will always be your Shimanto, your personal Dragon God."
+      ]
+    ],
+    "headtouch": [
+      [
+        1100,
+        "People are in awe of me because I have these growing out of my head... Probably...?"
+      ]
+    ],
+    "home": [
+      [
+        1100,
+        "Well fought, Commander. Now then, got any souvenirs for me? Hehe, it doesn't have to be an offering of snacks for the Dragon God. An interesting tale or two will suffice."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 399060,
+    "login": [
+      [
+        1100,
+        "Now then, make your wish. My power belongs to you– Wait, hold on a sec! If you want me to grant THAT wish, you'll have to double my snack allowance!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "Don't you think the sun's been a bit too strong lately? ...Heehee, I guess that's where I come in. Shall I call down a bit of rain for you?|Tired? I guess that's bound to happen eventually. Wanna scroll through Juustagram 'til you feel better?|Whose katana is this...? Oh. Mm, mm. I see, I see... I think I'll have that girl offer me a whole bunch of snacks. Ehehe~"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "I suppose I don't mind helping you with your mission. After all, the great Dragon God is but a secretary now~"
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Oh, done already...? And here I was finally trying to make myself useful... I mean, uh, yes, well done!"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Do you require my power? Very well, I'd be more than glad to assist you."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "You wish for even more wondrous blessings from the Dragon God~? I guess I can do that~"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Maybe I should call down a celebratory rainstorm? Heehee, just joking."
+      ]
+    ]
+  },
   "401160": {
     "battle": [
       [
@@ -5455,6 +6242,7 @@
         "Ugh, took you long enough. There's nothing to do here in the office except that stupid headache-causing paperwork... Next time, bring me along to your sortie! You'd better keep your promise!"
       ]
     ],
+    "hp_warning": "",
     "id": 401160,
     "login": [
       [
@@ -5532,6 +6320,7 @@
         "Good, human, you've returned. I'm tired... Hey, don't run away! Come hither and give me a back rub!"
       ]
     ],
+    "hp_warning": "",
     "id": 401240,
     "login": [
       [
@@ -5574,6 +6363,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 401990,
     "login": [
       [
@@ -5631,6 +6421,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 402050,
     "login": [
       [
@@ -5698,6 +6489,7 @@
         "Good, you're back! I won't even have to lift a finger if you keep this performance up! Ahahaha!"
       ]
     ],
+    "hp_warning": "",
     "id": 402060,
     "login": [
       [
@@ -5765,6 +6557,7 @@
         "Oh, I wonder how I shall nurse my dear tired human♡ \"Only Emden may decide – you have no say in this matter, human♥\""
       ]
     ],
+    "hp_warning": "",
     "id": 402070,
     "login": [
       [
@@ -5847,6 +6640,7 @@
         "Of course your wellbeing is important to me, but I try not to think about it. I mean, wishing for your safety only puts you in danger. Simply not worrying about you is the best way to ensure nothing bad happens..."
       ]
     ],
+    "hp_warning": "",
     "id": 402080,
     "login": [
       [
@@ -5924,6 +6718,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 402100,
     "login": [
       [
@@ -5991,6 +6786,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 403020,
     "login": [
       [
@@ -6058,6 +6854,7 @@
         "All right, so, you either have to send me on a sortie, or hang out with me! Time to choose, Commander!"
       ]
     ],
+    "hp_warning": "",
     "id": 403090,
     "login": [
       [
@@ -6125,6 +6922,7 @@
         "I'm gonna open the window and get some fresh air in here. C'mon! Breathe in, breathe out!"
       ]
     ],
+    "hp_warning": "",
     "id": 403100,
     "login": [
       [
@@ -6177,6 +6975,7 @@
         "Tenacious and brave in the face of incoming attacks... I see. There's always so much to learn from your strategies."
       ]
     ],
+    "hp_warning": "",
     "id": 403110,
     "login": [
       [
@@ -6239,6 +7038,7 @@
         "What is it? You look ravenous, as if you want something more than just a snack. What, I'm just making fun of you♪"
       ]
     ],
+    "hp_warning": "",
     "id": 403120,
     "login": [
       [
@@ -6316,6 +7116,7 @@
         "Zzz... Zzzzz... The Commander's still not home... I just wanna see you again..."
       ]
     ],
+    "hp_warning": "",
     "id": 403130,
     "login": [
       [
@@ -6398,6 +7199,7 @@
         "I sensed you may be thirsty, so I went ahead and made tea! W-would you like a cup?"
       ]
     ],
+    "hp_warning": "",
     "id": 404030,
     "login": [
       [
@@ -6470,6 +7272,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 404040,
     "login": [
       [
@@ -6522,6 +7325,7 @@
         "So you've returned safely. The fact that you've returned from countless battles unscathed proves that you are no ordinary human. Hehehe."
       ]
     ],
+    "hp_warning": "",
     "id": 404050,
     "login": "",
     "lose": [
@@ -6604,6 +7408,7 @@
         "Are you alright? ...I don't doubt my ability to take care of my subordinates' safety, but I can't help but worry about you... Tell me, are you really alright?"
       ]
     ],
+    "hp_warning": "",
     "id": 405030,
     "login": [
       [
@@ -6681,6 +7486,7 @@
         "Good work out there. Will you take a break, or are you planning on getting back to work? Either way, I've made arrangements for whatever you choose."
       ]
     ],
+    "hp_warning": "",
     "id": 405040,
     "login": [
       [
@@ -6753,6 +7559,7 @@
         "Welcome back, Commander. There's much to reflect on, but for now, enjoy a well-earned break."
       ]
     ],
+    "hp_warning": "",
     "id": 405050,
     "login": [
       [
@@ -6835,6 +7642,7 @@
         "Great work out there, Commander. Hehe, did you expect to come back to a nice meal? Too bad for you, I left one of the side dishes out today♪ Ahahaha~"
       ]
     ],
+    "hp_warning": "",
     "id": 406020,
     "login": [
       [
@@ -6912,6 +7720,7 @@
         "A congratulatory present? Aww, were you looking forward to getting something? Hmm? Did I say I'd cook for you? I dunnooo..."
       ]
     ],
+    "hp_warning": "",
     "id": 406030,
     "login": [
       [
@@ -6969,6 +7778,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 407030,
     "login": [
       [
@@ -7026,6 +7836,7 @@
         "You got the map, Commander? No, not that, THIS one. You don't get it? It's the route we'll be taking for our date."
       ]
     ],
+    "hp_warning": "",
     "id": 408090,
     "login": [
       [
@@ -7113,6 +7924,7 @@
         "Open sesame! Kidding~ I'll just open the door like normal for you!"
       ]
     ],
+    "hp_warning": "",
     "id": 408120,
     "login": [
       [
@@ -7127,7 +7939,12 @@
         "You've got new mail! I'll open it for y– Phew. I nearly did it again... Here you are! Your unopened mail!"
       ]
     ],
-    "main": "",
+    "main": [
+      [
+        1100,
+        "I've got an idea! Hehehe, lemme just push this button... There we go! Fan's on now! Enjoy that cool air!|nil|Your documents are printed and good to go! I made sure to read the instructions this time! ...Agh, the text is on both sides of the paper! How'd this happen?!"
+      ]
+    ],
     "main_extra": [
       [
         1100,
@@ -7180,6 +7997,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 499030,
     "login": [
       [
@@ -7257,6 +8075,7 @@
         "You're not a machine capable of working around the clock. Rest if you need to. I will hold the fort in the meanwhile."
       ]
     ],
+    "hp_warning": "",
     "id": 499040,
     "login": [
       [
@@ -7324,6 +8143,7 @@
         "Head out and thank the girls? You go do it, then come right back. You're my property, so don't wander off without my permission."
       ]
     ],
+    "hp_warning": "",
     "id": 499070,
     "login": [
       [
@@ -7370,6 +8190,202 @@
       ]
     ]
   },
+  "499080": {
+    "battle": [
+      [
+        1100,
+        "I'll go mop them up, Commander~"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "Want an apple? Here you go– Oh, gimme a sec– *chomp*~ Okay, here you go~"
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "The commission fleet has returned. Shall we go greet them? Naturally, the two of us will hold hands as we go, heehee~"
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Commander, despite the profundity of our relationship, why are you still so indifferent towards me... Urgh, I can't just sit around until you get eaten up by one of those big sister types... You know what, I don't care what happens next...! "
+      ]
+    ],
+    "headtouch": [
+      [
+        1100,
+        "Just a headpat? And you're satisfied with only that? Well, I'M not satisfied at all."
+      ]
+    ],
+    "home": [
+      [
+        1100,
+        "If you missed me so badly, use those noodly arms and wobbly back of yours to carry me. That way, the two of us will always be together~♪"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 499080,
+    "login": [
+      [
+        1100,
+        "Ahhh, you've finally returned. What will your first order be for me? ...\"Get off the desk\"? Heehee~♪"
+      ]
+    ],
+    "lose": [
+      [
+        1100,
+        "Would you be upset with me if I said I lost on purpose?"
+      ]
+    ],
+    "mail": [
+      [
+        1100,
+        "You've got new mail... but each one will cost you one kiss. Pretty good deal, right~?"
+      ]
+    ],
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "(Look at you, so hard at work again. Why are you putting yourself through that even though I'm here...?) H-huh?! Wh-why are you trying to chat me up all of a sudden?|The things on my feet keep poking you? It's said that certain things practically become a part of you once you've grown accustomed to them. I don't think you're any exception in this regard, Commander. Heehee~"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "Eheh~ Shower me with praise or I won't help with your mission~♪"
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Eheh~ Wag your tail or I won't fetch the rewards for you~♪"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "(Are you finally going to put your hands all over me?) ......Hmm? Um... You're not going to do anything? *sigh*..."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "Ahhn~♥ I love it when you give in to your primal urges like this~"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Worms should know better than to get between me and the Commander."
+      ]
+    ]
+  },
+  "499090": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "If you're really going to keep staring at my tail, I will use it to restrain you. You'd probably enjoy that anyway... Unless you're saying I've misjudged your character?"
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "What is it? Thinking of rescinding your earlier decision? Since the moment you surrendered your leader privileges, your opinions as a person have had no weight. You understand what this means, yes, Contract Binder?"
+      ]
+    ],
+    "headtouch": [
+      [
+        1100,
+        "If there's no stopping you... Fine, just this once."
+      ]
+    ],
+    "home": [
+      [
+        1100,
+        "Regardless of how your last battle went, now you can relax. Focus on what's in front of you."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 499090,
+    "login": [
+      [
+        1100,
+        "I've been waiting ages for you. Don't tell me you WANTED to incur my wrath and make me discipline you?"
+      ]
+    ],
+    "lose": [
+      [
+        1100,
+        "It's time to retreat, Contract Binder. The shame of running away matters little compared to personal safety."
+      ]
+    ],
+    "mail": [
+      [
+        1100,
+        "A letter for you. Take it... Yes, I gave you it with my tail rather than my hands. And what of it?"
+      ]
+    ],
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "I've never before felt such pleasure as I do by your side... If anything, YOU may genuinely possess a devilish power to seduce others.|Maybe I should spend some time teaching other shipgirls who truly belongs at your side... Get along, you say? Very well. Only out of respect for you, Contract Binder.|Tastes like bitter mud water... Is this supposed to be coffee?"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "Do what you must do, Contract Binder... You cannot afford to let distractions get between yours and my time."
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Mission complete. I suppose I should give you a reward... Do you want one?"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "If you have something to say, out with it. You already know what's going to happen if you get on my nerves."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "If you've forgotten how to plead for forgiveness, I'll just have to make you remember, Contract Binder."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Supposing I were to grant your wish, what would you then do for me in return?"
+      ]
+    ]
+  },
   "502040": {
     "battle": "",
     "detail": "",
@@ -7391,6 +8407,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 502040,
     "login": [
       [
@@ -7443,6 +8460,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 502050,
     "login": [
       [
@@ -7515,6 +8533,7 @@
       ]
     ],
     "home": "",
+    "hp_warning": "",
     "id": 502070,
     "login": [
       [
@@ -7572,6 +8591,7 @@
         "Where'd you go this time, Commander? The stories about your journeys are as interesting to me as dramatic operas!"
       ]
     ],
+    "hp_warning": "",
     "id": 502080,
     "login": [
       [
@@ -7619,6 +8639,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 506010,
     "login": [
       [
@@ -7681,6 +8702,7 @@
         "By any chance, were you flirting with other girls while you were out? ...Heehee, I was just messing with you. I wanted to see how you'd react, that's all~♪"
       ]
     ],
+    "hp_warning": "",
     "id": 506020,
     "login": [
       [
@@ -7738,6 +8760,7 @@
         "Oh, do you remember the statement I gave you earlier? Some new ideas suddenly dawned upon me... Since nothing has been implemented yet, shall we give it another pass?"
       ]
     ],
+    "hp_warning": "",
     "id": 519010,
     "login": [
       [
@@ -7805,6 +8828,7 @@
         "Welcome back. I made a reservation with the place you love going to, so let's head over once you're done. Ah, right, why don't you cool down in the shower first?"
       ]
     ],
+    "hp_warning": "",
     "id": 599010,
     "login": [
       [
@@ -7882,6 +8906,7 @@
         "Welcome back. I've been studying how to make tea from the Royal Maids. Oh, but keep it a secret from Libeccio, okay...?"
       ]
     ],
+    "hp_warning": "",
     "id": 601040,
     "login": [
       [
@@ -7944,6 +8969,7 @@
         "Welcome back, Commander! Hey, teach me something! Maestrale told me I should learn something that can help you out!"
       ]
     ],
+    "hp_warning": "",
     "id": 601050,
     "login": [
       [
@@ -8006,6 +9032,7 @@
         "Hmm, where should I plot a course to next... Any suggestions, Commander?"
       ]
     ],
+    "hp_warning": "",
     "id": 601060,
     "login": [
       [
@@ -8053,6 +9080,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 601070,
     "login": [
       [
@@ -8135,6 +9163,7 @@
         "Look into the camera, Commander! Cheese! This shot of your heroic return is going into my collection!"
       ]
     ],
+    "hp_warning": "",
     "id": 601080,
     "login": [
       [
@@ -8207,6 +9236,7 @@
         "Ehehe, I saw you coming back from a long way away. But, it still feels more comforting to welcome you in person like this..."
       ]
     ],
+    "hp_warning": "",
     "id": 601090,
     "login": [
       [
@@ -8248,6 +9278,64 @@
       ]
     ]
   },
+  "601100": {
+    "battle": "",
+    "detail": "",
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": "",
+    "home": "",
+    "hp_warning": "",
+    "id": 601100,
+    "login": [
+      [
+        1100,
+        "Commander, I missed you so much! Hehehe, huggies, huggies!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "Commander, let my bunnies soothe you! Hup... Commander secured! Do you mind if I keep hugging you?|With the Commander by my side, I'm a real princess! Hehehe, I love you, Commander!"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "We have lots of mish-shuns to do! Let's do our best and get lots and LOTS of rewards!"
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Commander, we've got rewards! Yay, hooray!"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Hehe, you're my favorite person to play with!"
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "This feels weird... I dunno how to feel about it..."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": ""
+  },
   "602010": {
     "battle": "",
     "detail": [
@@ -8264,6 +9352,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 602010,
     "login": [
       [
@@ -8341,6 +9430,7 @@
         "Have a seat. I'll go get you a quick meal, so take the chance to get comfy before it's time for the review."
       ]
     ],
+    "hp_warning": "",
     "id": 602020,
     "login": [
       [
@@ -8413,6 +9503,7 @@
         "Awesome work bringing everyone back safe and sound~ Keep it up, sweetie!"
       ]
     ],
+    "hp_warning": "",
     "id": 603010,
     "login": [
       [
@@ -8485,6 +9576,7 @@
         "The girls are waiting for you. This isn't the time to chit-chat with me – go talk to them. Yes, of course, I'll spend some quality time with you later."
       ]
     ],
+    "hp_warning": "",
     "id": 603040,
     "login": [
       [
@@ -8572,6 +9664,7 @@
         "Welcome back! Please get some rest for the time being. This port – YOUR port – is a safe haven."
       ]
     ],
+    "hp_warning": "",
     "id": 603050,
     "login": [
       [
@@ -8618,6 +9711,84 @@
       ]
     ]
   },
+  "603060": {
+    "battle": [
+      [
+        1100,
+        "Please tell me you're watching, my dear Commander..."
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "*stares coquettishly*... Hm? What is it? ...You want to go somewhere with me since the weather is nice today? Oh, um... Yes, I'd love to!"
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "The commission goods, my dear Commander."
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Welcome back, my dear Commander! I'm glad you're safe! I've been here, praying for you the whole– Err, of course I've made you something to eat!"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 603060,
+    "login": [
+      [
+        1100,
+        "*fidget, fidget*... Where's my good-morning kiss? ...You need time to gather your courage? Come ooon!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "If you ever end up in danger, I'll protect you. Don't worry, I could stand completely still and not get hit.|I-if you don't know what to talk about, do you mind if I pick a topic, my dear Commander?"
+      ]
+    ],
+    "mission": "",
+    "mission_complete": [
+      [
+        1100,
+        "Hey, mission complete. Y-you could praise me a little, you know..."
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "I'll be counting on you to escort me today, my dear Commander."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "It's not me you want, but this, right? ...You're so predictable... *blushes*"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Tell me how magnificent I am! Heheh!"
+      ]
+    ]
+  },
   "605010": {
     "battle": [
       [
@@ -8644,6 +9815,7 @@
         "I have dinner planned for later this evening. I hope you'll join me at the table, Commander."
       ]
     ],
+    "hp_warning": "",
     "id": 605010,
     "login": [
       [
@@ -8716,6 +9888,7 @@
         "Congratulations on your triumph, Commander. I've determined our next destination. Let us march onward."
       ]
     ],
+    "hp_warning": "",
     "id": 605030,
     "login": [
       [
@@ -8752,6 +9925,89 @@
     "upgrade": "",
     "win_mvp": ""
   },
+  "605070": {
+    "battle": [
+      [
+        1100,
+        "I'm fine, because I have the Commander with me!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "I'm glad to have someone to rely on, but I feel bad doing it when the Commander already has so much work to do... Ugghh... I won't work this out myself. Guess I should ask Trento and the girls for advice..."
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "Commission completed. I'll tally up the rewards for you."
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "You've been out on nonstop sorties lately, haven't you? So here, I sorted your paperwork to make it easier to read. That should extend your break by a solid ten minutes. Heehee."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 605070,
+    "login": [
+      [
+        1100,
+        "Here's your daily cup of hot milk. Enjoy it, and then let's get to work♪"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "I should probably make some time for just you and me so I can carry on my always-there role model attitude. But... then it's like I'm keeping you all to myself...|Some girls love doting on you, and some love being doted on by you... I'm not sure how to put it, I just feel a little nagged about that..."
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "You have a mission. How about we complete it together for a change of pace?"
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Mission done and dusted. You're awesome, Commander! Come here for a hug... The rest of you will get one later♪"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Yes? Do you want me to pamper you? Heehee."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "Indulge yourself as much as you want♪"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Now this is how a role model rolls! Heehee~"
+      ]
+    ]
+  },
   "607010": {
     "battle": [
       [
@@ -8778,6 +10034,7 @@
         "My Commander, if you receive any troublesome requests, will you delegate them to me?"
       ]
     ],
+    "hp_warning": "",
     "id": 607010,
     "login": [
       [
@@ -8860,6 +10117,7 @@
         "You've returned. I got you something to snack on. How nice of me, right? You may thank me with a headpat."
       ]
     ],
+    "hp_warning": "",
     "id": 607020,
     "login": [
       [
@@ -8937,6 +10195,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 608010,
     "login": "",
     "lose": "",
@@ -9014,6 +10273,7 @@
         "Good going on that sortie! Feeling beat, don'tcha? Let's fix those stiff shoulders with my massage-o-tron! Have a seat in my lap and just relax♪"
       ]
     ],
+    "hp_warning": "",
     "id": 608020,
     "login": [
       [
@@ -9086,6 +10346,7 @@
         "You've earned three cookies for today's sorties. Mm, that'll be all. Now say \"aah.\""
       ]
     ],
+    "hp_warning": "",
     "id": 701070,
     "login": [
       [
@@ -9153,6 +10414,7 @@
         "Comrade Commander, your reward for today's battle is... you can have as many blini as you'd like! Ehehe~"
       ]
     ],
+    "hp_warning": "",
     "id": 701080,
     "login": [
       [
@@ -9215,6 +10477,7 @@
         "Allow me to fix up your escort ship, Comrade! While I'm at it, do you want any new additions? Like a massage chair, for instance."
       ]
     ],
+    "hp_warning": "",
     "id": 701090,
     "login": [
       [
@@ -9302,6 +10565,7 @@
         "You're back by my side again... Phew. Now I feel fine."
       ]
     ],
+    "hp_warning": "",
     "id": 701100,
     "login": [
       [
@@ -9369,6 +10633,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 702020,
     "login": [
       [
@@ -9431,6 +10696,7 @@
         "You did so well on that sortie... Now you just let me take care of everything."
       ]
     ],
+    "hp_warning": "",
     "id": 702030,
     "login": [
       [
@@ -9488,6 +10754,7 @@
         "One's individual leadership abilities are hardly as important as the will to stand side-by-side with one's comrades. In this regard, you have excelled without a doubt."
       ]
     ],
+    "hp_warning": "",
     "id": 702040,
     "login": [
       [
@@ -9555,6 +10822,7 @@
         "Commander, over here! You're finally back. Come enjoy some piping-hot borscht."
       ]
     ],
+    "hp_warning": "",
     "id": 702050,
     "login": [
       [
@@ -9617,6 +10885,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 702060,
     "login": [
       [
@@ -9674,6 +10943,7 @@
         "Ah, Comrade Commander. I was so focused on work that I didn't notice your return. I would've liked to give you a more special welcome, but I lost track of time... Sorry."
       ]
     ],
+    "hp_warning": "",
     "id": 702070,
     "login": [
       [
@@ -9726,6 +10996,7 @@
         "Do you really think this is all it takes to satisfy everyone? Exactly. Let that annoyance motivate you to do better."
       ]
     ],
+    "hp_warning": "",
     "id": 703010,
     "login": [
       [
@@ -9793,6 +11064,7 @@
         "*sniff*... I smell gunpowder on you, but not blood. Good to know you're unharmed."
       ]
     ],
+    "hp_warning": "",
     "id": 703020,
     "login": [
       [
@@ -9850,6 +11122,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 705010,
     "login": "",
     "lose": "",
@@ -9902,6 +11175,7 @@
         "There is no harm in prolonging the suffering of our foes, but do not forget the reason why we are here, Comrade."
       ]
     ],
+    "hp_warning": "",
     "id": 705040,
     "login": [
       [
@@ -9964,6 +11238,7 @@
         "Comrade Commander, please eat this. Think nothing of it. Call it a personal supplement."
       ]
     ],
+    "hp_warning": "",
     "id": 705050,
     "login": "",
     "lose": "",
@@ -10021,6 +11296,7 @@
         "Results look good, same with the after-action report... And you, Commander? Good to hear! ...Mmm, this tea came out excellent, even by my high standards."
       ]
     ],
+    "hp_warning": "",
     "id": 705060,
     "login": [
       [
@@ -10088,6 +11364,7 @@
         "I brought some beer! Heh, unlike Gangut, you'd get bored of only drinking vodka pretty fast, right?"
       ]
     ],
+    "hp_warning": "",
     "id": 705070,
     "login": [
       [
@@ -10150,6 +11427,7 @@
         "Back from the operation already? *nom*... Mmhmm, sho, who'sh the MVP this time?"
       ]
     ],
+    "hp_warning": "",
     "id": 707010,
     "login": [
       [
@@ -10217,6 +11495,7 @@
         "Ah, Comrade? There's no reason to fear for your safety just over saying hello. By now I've grown used to you approaching me from behind. Ahahah!"
       ]
     ],
+    "hp_warning": "",
     "id": 718010,
     "login": [
       [
@@ -10299,6 +11578,7 @@
         "Seems you made it home with no injuries. Externally, anyway... How do you feel? Do you feel you have a headache or any stomach pains? ...No? Then all is good."
       ]
     ],
+    "hp_warning": "",
     "id": 799010,
     "login": [
       [
@@ -10361,6 +11641,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 801040,
     "login": "",
     "lose": "",
@@ -10398,6 +11679,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 801070,
     "login": [
       [
@@ -10475,6 +11757,7 @@
         "Outstanding performance, Lord Commander! If you brought gifts for the Cardinal, I may deliver them for you!"
       ]
     ],
+    "hp_warning": "",
     "id": 801080,
     "login": [
       [
@@ -10532,6 +11815,7 @@
         "One who is bestowed the Iris' power must always be humble. We must take care to not let ourselves be swayed by the outcome of a single battle, Commander."
       ]
     ],
+    "hp_warning": "",
     "id": 802020,
     "login": [
       [
@@ -10568,6 +11852,152 @@
     "upgrade": "",
     "win_mvp": ""
   },
+  "802030": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "Do you know about the magic of love? It's like... a miracle that makes it so you can do anything for the person you love. Haha, of course, even you can use this brand of magic... as long as you love me, that is?"
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "It's about time for the commission team to come back. They're just in time to replenish our materials."
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "A poor Commander, robbed of bodily control by a devious witch's magic and doomed to be her plaything... It's a tale as old as time. Heehee, why don't I try a few more things while you're still immobile?"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "You know, Commander, I'm always so excited for you to come back. After all, you bring back both victory and delightful stories!"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 802030,
+    "login": [
+      [
+        1100,
+        "Do I seem like I'm in a better mood than usual? Strange... I wonder why? Heehee♪"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "The Iris has a lot of surprisingly flexible girls, like Béarn. Did you know that? Ahaha... Well, you are the Commander, after all. I guess that's natural.|Faith is important, but you shouldn't go too far. Even I can't make potions that heal the wounded."
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "If you need help with love, I'm happy to oblige! Heehee."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "Want me to attack you? Either way, I don't mind♪"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Oh, I'm only MVP because of the Commander's favoritism. It wasn't just my magic at all, haha!"
+      ]
+    ]
+  },
+  "803010": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "Hmph. Feels like you've been looking after ME all the time lately... I just want the chance to shine on my own once in a while."
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Commander, are you ready to get coddled and looked after? 'Cause today, you're gonna see a different side of me♪ Heehee♡"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Well fought out there! Your documents are on your desk – read 'em before you review your battle! Oh, and I didn't forget to make you tea and snacks♪"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 803010,
+    "login": [
+      [
+        1100,
+        "Huh? Commander? You ruined everything! I was gonna get up early for once and surprise you!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "The bed at your place is way cozier than any hammock I've been in... Am I just not used to sleeping in beds?|Me, Foch, and some other friends are going shopping on our next day off. You wanna come with us, Commander? Heehee~ We'll stop by loads of good restaurants along the way.|Commander, I'm always here if you want someone to talk to... *tummy rumble*... Perfect timing! Let's have a chat while we munch on some sweets!"
+      ]
+    ],
+    "mission": "",
+    "mission_complete": [
+      [
+        1100,
+        "Mission rewards have arrived. Now the question is – what're you making tonight, Commander?"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "You wanna shoot the breeze? Sure♪ Let's talk about whatever!"
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "Hey, uh, Commander, groping 'em that hard won't make 'em bigger!"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "I'm Templar Knight Suffren, the beautiful, awesome, and reliable big sister – who else?"
+      ]
+    ]
+  },
   "805010": {
     "battle": "",
     "detail": [
@@ -10594,6 +12024,7 @@
         "Welcome back. Thanks to you, everyone's safe and sound. I'm truly grateful."
       ]
     ],
+    "hp_warning": "",
     "id": 805010,
     "login": [
       [
@@ -10624,6 +12055,137 @@
       [
         1100,
         "If you would like to touch me, I would prefer it if you took a different approach."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": ""
+  },
+  "805020": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "Whether you're struggling or not, please know that you can tell me anything. ...Yes, sometimes, I just want to chat with you. Heehee, is that so wrong?"
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "I would like to thank my allies for carrying out this sacred duty, and my beloved Commander who led us. ...Heehee, is something wrong? I didn't say anything strange, did I?"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 805020,
+    "login": [
+      [
+        1100,
+        "Good day. Would you like to hear the teachings of... Hahaha, lovely. Then I'll put you on my schedule after work."
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "Are you listening to Richelieu? May I join you...? I happen to be capable of jealousy, too, you know.|My favorite animal? Lions, I say. They're brave and dignified, much like my beloved Commander. Hahaha!|If you're tired, then let me take over. I want to do more for you than just pray."
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "If you don't mind, I'd love to share my troubles, too."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "I understand that you want to be pampered. If you think I'm up to the job, then I'm willing to help any time."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Geez, Commander. I'm glad we won, too, but we shouldn't get too excited over it."
+      ]
+    ]
+  },
+  "807020": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "What do you wish for, Commander? ...N-no, you don't have to tell me! Heehee, it's just that I heard that if you and your loved one wish for the same thing, it helps you grow even closer..."
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "Commander, shall we greet the commission team together? ...Oh, can't leave without my lucky item... There! That should be today's."
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "You and I wish for each other's happiness, and our two wishes intertwine to make one. That's what gives us this dreamlike, blissful time together. I'm glad I fell for you, Commander..."
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Thank you for helping the one I love triumph... O-oh, you heard that? I'm sorry, I didn't mean to be embarrassing..."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 807020,
+    "login": [
+      [
+        1100,
+        "Oh, wow... I just happened to think of you while I was praying, and there you are... Heehee."
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "The luckiest time to set sail is... any time, of course!♪ Haha, I'm kidding. Any time you set sail is a lucky time, Commander—I'm constantly wishing for your good fortune.|My wish... Umm, my wish is... for you to... N-no! I shouldn't be greedy...|U-umm... It's not a good idea to meet the Commander today? That can't be... There must be a mistake here."
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Okay, but just a little..."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "I'm wearing a lucky color today... if you get what I mean..."
       ]
     ],
     "unlock": "",
@@ -10661,6 +12223,7 @@
         "Our Champion returns home victorious once again... Hehe, you are a champion, after all."
       ]
     ],
+    "hp_warning": "",
     "id": 899030,
     "login": [
       [
@@ -10723,6 +12286,7 @@
         "Welcome back, Commander. Would you like me to give you a massage?"
       ]
     ],
+    "hp_warning": "",
     "id": 901020,
     "login": [
       [
@@ -10785,6 +12349,7 @@
         "Commander, as a reward, I'll give you a headpat! ...Ahaha, you don't need to act all bashful!"
       ]
     ],
+    "hp_warning": "",
     "id": 901030,
     "login": [
       [
@@ -10826,6 +12391,69 @@
       ]
     ]
   },
+  "901040": {
+    "battle": "",
+    "detail": [
+      [
+        1100,
+        "I appreciate your praying with me, b-but don't feel too obligated, okay? It would defeat the point if it caused trouble for you, so... Umm, please forgive me..."
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": "",
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "You'd like to pray with me? O-of course you may! Umm... Thank you for protecting us from storms during our voyages, for leading us safely home to port, and for granting my wish to give the Commander faith... U-umm... Forget you heard that last one..."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 901040,
+    "login": [
+      [
+        1100,
+        "Let us pray to the shining Iris. Please give us another peaceful, blissful day, and give your sacred blessings to the Commander..."
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "(Let this prayer imbue the Commander with focus and inspiration. Please...)|Commander, I noticed you stopped working... Are you distracted by my—Goodness, how can I say such impure things?!|Why do I feel so fidgety? I should be used to being a secretary ship by now..."
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "Confession? Of course. Go ahead and tell me all of your sins, Commander."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "C-Commander, get a hold of yourself..."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "The Commander also helped lead us to victory, so I should thank the Commander, too... Ah, um..."
+      ]
+    ]
+  },
   "901110": {
     "battle": [
       [
@@ -10862,6 +12490,7 @@
         "Le Triomphant taught me how to make this tea... Look, I did it normally this time. No idea if it tastes any good though..."
       ]
     ],
+    "hp_warning": "",
     "id": 901110,
     "login": [
       [
@@ -10934,6 +12563,7 @@
         "Tired... Why are performances so draining... I just wanna go to sleep today..."
       ]
     ],
+    "hp_warning": "",
     "id": 901120,
     "login": [
       [
@@ -11026,6 +12656,7 @@
         "With one as elegant and excellent as you at the helm, I assume your battle went well! I expect no less from the one who guides my sword!"
       ]
     ],
+    "hp_warning": "",
     "id": 901130,
     "login": [
       [
@@ -11093,6 +12724,7 @@
         "There's not too much of \"that\" kind of work to do at this port, huh... Well, as long as the Iris girls are safe and sound here, then I can have fun without worrying about anything! Hehehe!"
       ]
     ],
+    "hp_warning": "",
     "id": 902010,
     "login": [
       [
@@ -11118,6 +12750,69 @@
       [
         1100,
         "Hm? Hmmmmm? ...Mmm... Well, whatever~♪"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": ""
+  },
+  "902020": {
+    "battle": "",
+    "detail": "",
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "For someone like me who knows nothing outside of battle, being able to experience so many different things... makes me truly happy whenever we do things together, Commander. Might this be... true love?"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Commander, how are you able to inspire our friends to such an extent? Every time we go on a sortie, I find myself thinking about it."
+      ]
+    ],
+    "hp_warning": "",
+    "id": 902020,
+    "login": [
+      [
+        1100,
+        "Welcome back, Commander. I've already prepared the tea... Huh? Wasn't I supposed to pour the leaves into the cup? I thought it would be best to fill it up as much as possible..."
+      ]
+    ],
+    "lose": "",
+    "mail": [
+      [
+        1100,
+        "So, it's possible to open the letter without using my blade after all... I understand now."
+      ]
+    ],
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "Affixing your stamp here signifies your approval, right? In that case... Umm, does multiple stamps signify strong approval?|If we were to further retrofit this rigging and amplify the volume... Alright, let's give it a try right now!"
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "You want me to fold you within my wings...?"
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "I don't quite understand, but... if it pleases you, that makes me glad..."
       ]
     ],
     "unlock": "",
@@ -11150,6 +12845,7 @@
         "Do you need some help with the reports? Leave them to me, and go take a break. I'll find you if I need anything from you."
       ]
     ],
+    "hp_warning": "",
     "id": 903010,
     "login": [
       [
@@ -11232,6 +12928,7 @@
         "You look really tired... Darling, you shouldn't push yourself too hard. Please, leave this to me and go lie down for a bit."
       ]
     ],
+    "hp_warning": "",
     "id": 903020,
     "login": [
       [
@@ -11314,6 +13011,7 @@
         "I mighta once had a big role to play, but with you in command, I just never get to truly act."
       ]
     ],
+    "hp_warning": "",
     "id": 905010,
     "login": [
       [
@@ -11355,6 +13053,74 @@
     "upgrade": "",
     "win_mvp": ""
   },
+  "905020": {
+    "battle": "",
+    "detail": "",
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Shhh–– Just take my hand, and come with me. Where to? Naturally, a place free from the prying eyes of others, where we can be our true selves. Look– even though you have your doubts about me, you're still coming along. In other words, that's proof that you trust me, right?"
+      ]
+    ],
+    "headtouch": "",
+    "home": [
+      [
+        1100,
+        "Let's try exploring other possibilities from the last operation a bit more thoroughly. Will you play the role of the enemy, or shall I do it?"
+      ]
+    ],
+    "hp_warning": "",
+    "id": 905020,
+    "login": [
+      [
+        1100,
+        "Oh, right on time. To be honest, I wanted to see what you're like when you're late and scrambling to get here... Just for curiosity's sake, of course. Heehee~"
+      ]
+    ],
+    "lose": [
+      [
+        1100,
+        "An enemy capable of outwitting both Clemenceau and the Commander at the same time? How interesting... Surely you're not going to let this one slide, are you?"
+      ]
+    ],
+    "mail": [
+      [
+        1100,
+        "Rumor has it that when some of the girls are coming by to deliver your mail, they're also sneaking in some personal effects– Haha, forget I said anything~"
+      ]
+    ],
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "\"Clemenceau, that wicked woman. She somehow managed to snatch the Commander away from right under our noses...\" Oh my, I didn't realize there were such outrageous rumors going around already. Heehee, it would appear that I'm not able to fly under the radar anymore.|Heehee, I wonder why you're spacing out all of a sudden~? Are you thinking about your other allies... or about some other girl~?|Richelieu, I thoroughly enjoyed the cat café you recommended to me the other day. Why yes, of course the Commander was with me. You know what they say about good company, don't you? Heehee~"
+      ]
+    ],
+    "mission": "",
+    "mission_complete": "",
+    "profile": "",
+    "skill": "",
+    "touch": [
+      [
+        1100,
+        "The relationship between the two of us doesn't need to be so stiff and formal, you know? Unless... you're afraid that I'm going to do something to you? Heehee~"
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "Don't forget this– the more \"sins\" you commit, the more you will have to \"repent\"~♪"
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": ""
+  },
   "905030": {
     "battle": "",
     "detail": [
@@ -11386,6 +13152,7 @@
         "Master, I just finished a lesson, and... was wondering if we could enjoy a little chat?"
       ]
     ],
+    "hp_warning": "",
     "id": 905030,
     "login": [
       [
@@ -11463,6 +13230,7 @@
         "There is no need to fret. I am very well aware that all your battles are magnificent. What need is there for me to pass judgment?"
       ]
     ],
+    "hp_warning": "",
     "id": 907010,
     "login": [
       [
@@ -11535,6 +13303,7 @@
         "Here is a glass of armagnac, if you'd like."
       ]
     ],
+    "hp_warning": "",
     "id": 999010,
     "login": [
       [
@@ -11612,6 +13381,7 @@
         "I have prepared us some water and food... Would you like some, Master?"
       ]
     ],
+    "hp_warning": "",
     "id": 999011,
     "login": [
       [
@@ -11653,6 +13423,119 @@
     "upgrade": "",
     "win_mvp": ""
   },
+  "999020": {
+    "battle": [
+      [
+        1100,
+        "For victory, and for the one I love!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "What else do I want to do...? Is there anything the two of us can do other than \"play\"? If I want to try doing everything, will you be okay with that...?"
+      ]
+    ],
+    "expedition": [
+      [
+        1100,
+        "A new commission has just been completed. I shall now go greet my companions. Commander, if you have time to spare, do you think we could..."
+      ]
+    ],
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "You want me to tell you everything I want to do, and everything I don't want to do...? Very well, I promise. In that case, could you tell me what you want, Commander? I want to learn more about you, and experience more things with you..."
+      ]
+    ],
+    "headtouch": [
+      [
+        1100,
+        "That feels so good..."
+      ]
+    ],
+    "home": [
+      [
+        1100,
+        "I've been waiting for you all this time. I've wanted to see you... even if for no particular reason..."
+      ]
+    ],
+    "hp_warning": [
+      [
+        1100,
+        "I can't let things end here, the Commander is waiting for me...!"
+      ]
+    ],
+    "id": 999020,
+    "login": [
+      [
+        1100,
+        "Commander, what are you going to do today? I promised to try to help you today..."
+      ]
+    ],
+    "lose": [
+      [
+        1100,
+        "I have become soft and weak. Commander, I was afraid I'd never see you again, so I ran away... I'm so sorry..."
+      ]
+    ],
+    "mail": [
+      [
+        1100,
+        "Commander, I've come to deliver the mail. Is it okay that I'm a bit late...?"
+      ]
+    ],
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "My free will, and the things I hold dear to me... Yes, I wish to give more of myself for you, and for this port. That is my will.|You wish for me to be the bird that flies freely, not one that is confined to a cage... Even if that bird wishes to remain at your side, you can allow that, right?|Playing with friends makes me feel good. But it's a different kind of good feeling compared to when I'm playing with you... The \"good feeling\" I get from you is special..."
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "Commander, can you leave this mission to me? You look rather tired, so please rest up for now."
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Mission complete. If you think I did a good job, then... could you please praise me?"
+      ]
+    ],
+    "profile": "",
+    "skill": [
+      [
+        1100,
+        "I won't let you have your way...!"
+      ]
+    ],
+    "touch": [
+      [
+        1100,
+        "So warm... I want to keep holding on to your hand, now and forever..."
+      ]
+    ],
+    "touch2": [
+      [
+        1100,
+        "I shall offer you all that I am. That is my will, Commander..."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "I am victorious. If it is not too much to ask, Commander, I would like a reward from you..."
+      ]
+    ]
+  },
   "9600010": {
     "battle": [
       [
@@ -11669,6 +13552,7 @@
     "feeling5": "",
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 9600010,
     "login": [
       [
@@ -11746,6 +13630,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10600080,
     "login": [
       [
@@ -11818,6 +13703,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10600090,
     "login": [
       [
@@ -11890,6 +13776,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10700010,
     "login": [
       [
@@ -11962,6 +13849,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10700020,
     "login": [
       [
@@ -12034,6 +13922,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10700030,
     "login": [
       [
@@ -12106,6 +13995,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10700040,
     "login": [
       [
@@ -12178,6 +14068,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10700050,
     "login": [
       [
@@ -12250,6 +14141,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10700060,
     "login": [
       [
@@ -12322,6 +14214,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10700070,
     "login": [
       [
@@ -12394,6 +14287,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10800010,
     "login": [
       [
@@ -12466,6 +14360,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10800020,
     "login": [
       [
@@ -12538,6 +14433,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10800030,
     "login": [
       [
@@ -12610,6 +14506,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10800040,
     "login": [
       [
@@ -12682,6 +14579,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10800050,
     "login": [
       [
@@ -12754,6 +14652,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10800060,
     "login": [
       [
@@ -12826,6 +14725,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10800070,
     "login": [
       [
@@ -12867,6 +14767,147 @@
       ]
     ]
   },
+  "10800080": {
+    "battle": [
+      [
+        1100,
+        "Now, Commander, I await your orders!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "You should know that I'm keeping a terrible secret... Would you like me to share, Commander?"
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "Because of our duties, our meeting is a once-in-a-lifetime blessing. I've accepted that by now, but... right now, the thought of it makes me so sad."
+      ]
+    ],
+    "headtouch": "",
+    "home": "",
+    "hp_warning": "",
+    "id": 10800080,
+    "login": [
+      [
+        1100,
+        "Good morning. Let's give today our all!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "You've done so much for me, Commander... I'll have to return the favor, don't you think?|I just hope that I can be of some help to your work...|There must be a reason I was brought to this world... I'm sure of it."
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "You haven't finished your work yet, have you? Let me help."
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Congratulations on a completed mission. Once you've finished checking your rewards, come for some tea."
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": "",
+    "touch2": [
+      [
+        1100,
+        "Mmheheheh..."
+      ]
+    ],
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Was I able to help you at all...?"
+      ]
+    ]
+  },
+  "10800090": {
+    "battle": [
+      [
+        1100,
+        "Raise a war cry! Show them your might! Attaaack!"
+      ]
+    ],
+    "detail": [
+      [
+        1100,
+        "No matter the era, those who wield superhuman power are labeled gods, worshipped, and feared... Although, being a god sounds terrible to me."
+      ]
+    ],
+    "expedition": "",
+    "feeling1": "",
+    "feeling2": "",
+    "feeling3": "",
+    "feeling4": "",
+    "feeling5": [
+      [
+        1100,
+        "I think we've formed a true bond. However, in the truest sense, we come from different worlds. Even if we can't change this fact, we have to look to the future and not linger on the past forever..."
+      ]
+    ],
+    "headtouch": "",
+    "home": "",
+    "hp_warning": "",
+    "id": 10800090,
+    "login": [
+      [
+        1100,
+        "Heyo, Commander! So glad to see you again... No, I mean it!"
+      ]
+    ],
+    "lose": "",
+    "mail": "",
+    "main": "",
+    "main_extra": [
+      [
+        1100,
+        "There's so much tasty food in this world. Especially seafood! Crab has got to be one of my favorites.|What power runs this world? It can't be dragon power, surely. Hmm... The mystery deepens further.|So hey, I'm basically of noble birth. But don't let that change your attitude towards me, okay?"
+      ]
+    ],
+    "mission": [
+      [
+        1100,
+        "You still have work to do! Stop being lazy and finish what you started."
+      ]
+    ],
+    "mission_complete": [
+      [
+        1100,
+        "Way to go! I'll make some tea – c'mere and rest for a bit, why don'tcha?"
+      ]
+    ],
+    "profile": "",
+    "skill": "",
+    "touch": "",
+    "touch2": "",
+    "unlock": "",
+    "upgrade": "",
+    "win_mvp": [
+      [
+        1100,
+        "Well done. I hope I was able to be of at least some use to you."
+      ]
+    ]
+  },
   "10900010": {
     "battle": [
       [
@@ -12893,6 +14934,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10900010,
     "login": [
       [
@@ -12965,6 +15007,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10900020,
     "login": [
       [
@@ -13037,6 +15080,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10900030,
     "login": [
       [
@@ -13109,6 +15153,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10900040,
     "login": [
       [
@@ -13181,6 +15226,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10900050,
     "login": [
       [
@@ -13253,6 +15299,7 @@
     ],
     "headtouch": "",
     "home": "",
+    "hp_warning": "",
     "id": 10900060,
     "login": [
       [

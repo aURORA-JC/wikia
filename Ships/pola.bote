@@ -1,311 +1,311 @@
 {
-"name_reference": "pola",
-"cn_reference": "bola",
-"nameJP": "ポーラ",
-"nameCN": "波拉",
-"ID": "489",
-"name": "Pola",
-"internal_id": "603031",
-"rarity": "Super Rare",
-"initialStar": "★★★☆☆☆",
-"hull": "Heavy Cruiser",
-"navy": "Sardegna Empire",
-"prefix": "RN",
-"buildTime": "1:55:00",
-"class": "Zara-class",
-"voiceActress": "Atsumi Tanezaki",
-"parameters": {
+  "name_reference": "pola",
+  "cn_reference": "bola",
+  "nameJP": "ポーラ",
+  "nameCN": "波拉",
+  "ID": "489",
+  "name": "Pola",
+  "internal_id": "603031",
+  "rarity": "Super Rare",
+  "initialStar": "★★★☆☆☆",
+  "hull": "Heavy Cruiser",
+  "navy": "Sardegna Empire",
+  "prefix": "RN",
+  "buildTime": "1:55:00",
+  "class": "Zara-class",
+  "voiceActress": "Atsumi Tanezaki",
+  "parameters": {
     "firepower": "B",
     "torpedo": "E",
     "aviation": "E",
     "evasion": "C",
     "antiAir": "B",
     "hp": "A"
-},
-"scrap": {
+  },
+  "scrap": {
     "gold": "9",
     "oil": "3",
     "medal": "10"
-},
-"releaseDate": {
+  },
+  "releaseDate": {
     "JP": "2021/01/21",
     "CN": "2021/01/21",
     "KR": "2021/01/21",
     "EN": "2021/01/21"
-},
-"artist": {
+  },
+  "artist": {
     "name": "云桑",
     "weibo": "https://weibo.com/yunsang",
     "twitter": "https://twitter.com/_Yunsang",
     "pixiv": "https://www.pixiv.net/member.php?id=5358936",
     "other": ""
-},
-"enhance": {
+  },
+  "enhance": {
     "firepower": "26",
     "torpedo": "0",
     "aviation": "0",
     "reload": "13"
-},
-"acquisitionMethod": "Event: Empyreal Tragicomedy Rerun",
-"skill": {
+  },
+  "acquisitionMethod": "Event: Empyreal Tragicomedy Rerun",
+  "skill": {
     "1": {
-    "icon": "14050",
-    "requirement": "Default Unlocked",
-    "name": "Viola Spear",
-    "type": "Offensive",
-    "description": "When this ship fires its main guns, 20.0% (50.0%) chance to fire a special barrage (damage dealt scales with skill level, 10 second cooldown between activations). If there are two or more Sardegna Empire ships in your fleet (including this ship), increase the proc chance by 20.0%."
+      "icon": "14050",
+      "requirement": "Default Unlocked",
+      "name": "Viola Spear",
+      "type": "Offensive",
+      "description": "When this ship fires its main guns, 20.0% (50.0%) chance to fire a special barrage (damage dealt scales with skill level, 10 second cooldown between activations). If there are two or more Sardegna Empire ships in your fleet (including this ship), increase the proc chance by 20.0%."
     },
     "2": {
-    "icon": "14060",
-    "requirement": "Default Unlocked",
-    "name": "Audacious Challenger",
-    "type": "Support",
-    "description": "Increase this ship's EVA by 5.0% (15.0%) during the first 45 seconds of the battle. As long as this ship is afloat, increase FP by 1.0% (10.0%) and AA by 5.0% (15.0%) for all Sardegnia Empire vanguard ships, and decrease damage taken by all Zara-class ships by 6.0%."
+      "icon": "14060",
+      "requirement": "Default Unlocked",
+      "name": "Audacious Challenger",
+      "type": "Support",
+      "description": "Increase this ship's EVA by 5.0% (15.0%) during the first 45 seconds of the battle. As long as this ship is afloat, increase FP by 1.0% (10.0%) and AA by 5.0% (15.0%) for all Sardegnia Empire vanguard ships, and decrease damage taken by all Zara-class ships by 6.0%."
     },
     "3": {
-    "icon": "28211",
-    "requirement": "Limit Break I (III)",
-    "name": "All Out Assault",
-    "type": "Offensive",
-    "description": "Every 12 (8) times the main battery is fired, triggers Full Barrage - Zara-class I (II)"
+      "icon": "28211",
+      "requirement": "Limit Break I (III)",
+      "name": "All Out Assault",
+      "type": "Offensive",
+      "description": "Every 12 (8) times the main battery is fired, triggers Full Barrage - Zara-class I (II)"
     }
-},
-"skin": {
+  },
+  "skin": {
     "1": {
-    "id": "bola",
-    "name": "Pola",
-    "description": "Zara-class heavy cruiser Pola",
-    "expression": {
+      "id": "bola",
+      "name": "Pola",
+      "description": "Zara-class heavy cruiser Pola",
+      "expression": {
         "0": {
-        "id": ""
+          "id": ""
         },
         "1": {
-        "id": "1"
+          "id": "1"
         },
         "2": {
-        "id": "2"
+          "id": "2"
         },
         "3": {
-        "id": "3"
+          "id": "3"
         },
         "4": {
-        "id": "4"
+          "id": "4"
         }
-    }
+      }
     },
     "2": {
-    "id": "bola_2",
-    "name": "Poolside Coincidence",
-    "description": "",
-    "expression": {
+      "id": "bola_2",
+      "name": "Poolside Coincidence",
+      "description": "",
+      "expression": {
         "0": {
-        "id": ""
+          "id": ""
         },
         "1": {
-        "id": "1"
+          "id": "1"
         },
         "2": {
-        "id": "2"
+          "id": "2"
         },
         "3": {
-        "id": "3"
+          "id": "3"
         },
         "4": {
-        "id": "4"
+          "id": "4"
         }
+      }
     }
-    }
-},
-"defaultEquipment": {
+  },
+  "defaultEquipment": {
     "1": {
-    "icon": "55200",
-    "rarity": "Rare",
-    "name": "Twin 203mm Main Gun (M1927) "
+      "icon": "55200",
+      "rarity": "Rare",
+      "name": "Twin 203mm Main Gun (M1927) "
     },
     "2": {
-    "icon": "",
-    "rarity": "",
-    "name": ""
+      "icon": "",
+      "rarity": "",
+      "name": ""
     },
     "3": {
-    "icon": "55500",
-    "rarity": "Common",
-    "name": "Twin 37mm AA Gun (M1932) "
+      "icon": "55500",
+      "rarity": "Common",
+      "name": "Twin 37mm AA Gun (M1932) "
     }
-},
-"stats": {
+  },
+  "stats": {
     "100": {
-    "hp": "",
-    "firepower": "",
-    "torpedo": "0",
-    "antiAir": "",
-    "aviation": "0",
-    "reload": "",
-    "hit": "",
-    "evasion": "",
-    "speed": "26",
-    "luck": "75",
-    "asw": "0",
-    "oxygen": "0",
-    "ammo": "0",
-    "cost": "12",
-    "armor": "Medium"
+      "hp": "",
+      "firepower": "",
+      "torpedo": "0",
+      "antiAir": "",
+      "aviation": "0",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "26",
+      "luck": "75",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "12",
+      "armor": "Medium"
     },
     "120": {
-    "hp": "4941",
-    "firepower": "252",
-    "torpedo": "0",
-    "antiAir": "243",
-    "aviation": "0",
-    "reload": "182",
-    "hit": "118",
-    "evasion": "57",
-    "speed": "26",
-    "luck": "75",
-    "asw": "0",
-    "oxygen": "0",
-    "ammo": "0",
-    "cost": "12",
-    "armor": "Medium"
+      "hp": "4941",
+      "firepower": "252",
+      "torpedo": "0",
+      "antiAir": "243",
+      "aviation": "0",
+      "reload": "182",
+      "hit": "118",
+      "evasion": "57",
+      "speed": "26",
+      "luck": "75",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "12",
+      "armor": "Medium"
     },
     "base": {
-    "hp": "853",
-    "firepower": "47",
-    "torpedo": "0",
-    "antiAir": "45",
-    "aviation": "0",
-    "reload": "67",
-    "hit": "",
-    "evasion": "9",
-    "speed": "26",
-    "luck": "75",
-    "asw": "0",
-    "oxygen": "0",
-    "ammo": "0",
-    "cost": "4",
-    "armor": "Medium"
+      "hp": "853",
+      "firepower": "47",
+      "torpedo": "0",
+      "antiAir": "45",
+      "aviation": "0",
+      "reload": "67",
+      "hit": "",
+      "evasion": "9",
+      "speed": "26",
+      "luck": "75",
+      "asw": "0",
+      "oxygen": "0",
+      "ammo": "0",
+      "cost": "4",
+      "armor": "Medium"
     },
     "100retrofit": {
-    "hp": "",
-    "firepower": "",
-    "torpedo": "",
-    "antiAir": "",
-    "aviation": "",
-    "reload": "",
-    "hit": "",
-    "evasion": "",
-    "speed": "",
-    "luck": "",
-    "asw": "",
-    "oxygen": "",
-    "ammo": "",
-    "cost": "",
-    "armor": ""
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
     },
     "120retrofit": {
-    "hp": "",
-    "firepower": "",
-    "torpedo": "",
-    "antiAir": "",
-    "aviation": "",
-    "reload": "",
-    "hit": "",
-    "evasion": "",
-    "speed": "",
-    "luck": "",
-    "asw": "",
-    "oxygen": "",
-    "ammo": "",
-    "cost": "",
-    "armor": ""
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
     }
-},
-"limitBreak": {
+  },
+  "limitBreak": {
     "tier1": "Gains Full Barrage I / Main Gun Efficiency +5%",
     "tier2": "Main Gun Mount +1 / Main Gun Efficiency +10%",
     "tier3": "Upgrades Full Barrage I→II / All Weapon Efficiency +5%"
-},
-"equipmentLoadout": {
+  },
+  "equipmentLoadout": {
     "1": {
-    "type": "Heavy Cruiser",
-    "efficiency": "105%/110%/120%/125%",
-    "amount": "1/1/2/2",
-    "preload": "0/0/0/0"
+      "type": "Heavy Cruiser",
+      "efficiency": "105%/110%/120%/125%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/0/0"
     },
     "2": {
-    "type": "Destroyer Gun",
-    "efficiency": "55%/55%/55%/60%",
-    "amount": "1/1/1/1",
-    "preload": "0/0/0/0"
+      "type": "Destroyer Gun",
+      "efficiency": "55%/55%/55%/60%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
     },
     "3": {
-    "type": "Anti-Air Gun",
-    "efficiency": "95%/95%/95%/100%",
-    "amount": "1/1/1/1",
-    "preload": "0/0/0/0"
+      "type": "Anti-Air Gun",
+      "efficiency": "95%/95%/95%/100%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
     },
     "4": {
-    "type": "Auxiliary",
-    "efficiency": "-",
-    "amount": "-",
-    "preload": "-"
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
     },
     "5": {
-    "type": "Auxiliary",
-    "efficiency": "-",
-    "amount": "-",
-    "preload": "-"
+      "type": "Auxiliary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
     }
-},
-"build": {
+  },
+  "build": {
     "light": {
-    "JP": "",
-    "CN": "",
-    "EN": ""
+      "JP": "",
+      "CN": "",
+      "EN": ""
     },
     "heavy": {
-    "JP": "",
-    "CN": "",
-    "EN": ""
+      "JP": "",
+      "CN": "",
+      "EN": ""
     },
     "special": {
-    "JP": "",
-    "CN": "",
-    "EN": ""
+      "JP": "",
+      "CN": "",
+      "EN": ""
     },
     "limited": {
-    "JP": "✓",
-    "CN": "✓",
-    "EN": "✓"
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
     }
-},
-"drop": {
+  },
+  "drop": {
     "droppable": "false",
     "list": {
-    "1": {
+      "1": {
         "event": "",
         "chapter": {
-        "1": {
+          "1": {
             "label": "Ch .1",
             "node": {
-            "1": {
+              "1": {
                 "drop": "✓",
                 "note": "-"
+              }
             }
-            }
+          }
         }
-        }
+      }
     }
-    }
-},
-"lines": {
+  },
+  "lines": {
     "skin": {
-    "1": {
+      "1": {
         "skin_id": "bola",
         "id": "0",
         "label": "Pola",
         "dialogue": {
-        "1": {
+          "1": {
             "event": "Ship Description",
             "media": "",
             "chinese": "扎拉级重巡洋舰—波拉",
@@ -316,8 +316,8 @@
             "japaneseNote": "",
             "english": "Zara-class heavy cruiser – Pola.",
             "englishNote": ""
-        },
-        "2": {
+          },
+          "2": {
             "event": "Biography",
             "media": "profile",
             "chinese": "我是扎拉级重巡洋舰的四号舰，波拉。我们姐妹拥有着重巡中少有的坚固装甲，在水面炮战中有着独特的优势。论担当舰队旗舰的能力，我说不定要比扎拉姐姐还要强呢",
@@ -328,8 +328,8 @@
             "japaneseNote": "",
             "english": "I'm the fourth ship of the Zara-class heavy cruisers, Pola. My sisters and I have stronger armor rarely seen on heavy cruisers, which gives us an advantage in artillery battles. In terms of my abilities to serve as flagship... I might be a bit more suitable than Zara?",
             "englishNote": ""
-        },
-        "3": {
+          },
+          "3": {
             "event": "Acquisition",
             "media": "get",
             "chinese": "撒丁帝国海军所属，重巡洋舰波拉，正式到任。哦？您就是这个舰队的指挥官吗？千万不要让我失望哦？",
@@ -340,8 +340,8 @@
             "japaneseNote": "",
             "english": "I'm Pola, heavy cruiser from Sardegna. And you're the commander of this fleet? I see. Well, don't let me down, okay? Hehe~",
             "englishNote": ""
-        },
-        "4": {
+          },
+          "4": {
             "event": "Login",
             "media": "login",
             "chinese": "好慢啊指挥官，编队演习马上就要开始了喔？",
@@ -352,8 +352,8 @@
             "japaneseNote": "",
             "english": "Hehe, you sure took your sweet time. The fleet exercises are about to start without you~",
             "englishNote": ""
-        },
-        "5": {
+          },
+          "5": {
             "event": "Details",
             "media": "detail",
             "chinese": "扎拉姐姐总是那么温柔，那么优秀，真是耀眼夺目啊",
@@ -364,8 +364,8 @@
             "japaneseNote": "",
             "english": "My Zara is always so gentle and lovely, I just can't take my eyes off her.",
             "englishNote": ""
-        },
-        "6": {
+          },
+          "6": {
             "event": "Secretary (Idle) 1",
             "media": "main_1",
             "chinese": "“条约”、“协定”，那些东西都是没有感情的枷锁，如果能够通通消失掉就好了",
@@ -376,8 +376,8 @@
             "japaneseNote": "",
             "english": "All these “conventions” and “treaties”... Things that do not consider the feelings of actual people should disappear from this world.",
             "englishNote": ""
-        },
-        "7": {
+          },
+          "7": {
             "event": "Secretary (Idle) 2",
             "media": "main_2",
             "chinese": "即使面对再大的暴风雨我也不会退缩，真正的战士，是不会畏惧任何挑战的",
@@ -388,8 +388,8 @@
             "japaneseNote": "",
             "english": "A true fighter does not fear any danger. I won't back down even in the face of a heavy storm.",
             "englishNote": ""
-        },
-        "8": {
+          },
+          "8": {
             "event": "Secretary (Idle) 3",
             "media": "main_3",
             "chinese": "被探照灯的白光笼罩着的感觉，让人不快",
@@ -400,8 +400,8 @@
             "japaneseNote": "",
             "english": "The feeling of being enveloped by a searchlight... makes me a bit uneasy.",
             "englishNote": ""
-        },
-        "9": {
+          },
+          "9": {
             "event": "Secretary (Touch)",
             "media": "touch_1",
             "chinese": "我的佩剑，可不只是为了好看而存在的喔？",
@@ -412,8 +412,8 @@
             "japaneseNote": "",
             "english": "My rapier is not simply for show, you know.",
             "englishNote": ""
-        },
-        "10": {
+          },
+          "10": {
             "event": "Secretary (Special Touch)",
             "media": "touch_2",
             "chinese": "指挥官，你该不会对扎拉姐姐做了同样的事情吧？",
@@ -424,8 +424,8 @@
             "japaneseNote": "",
             "english": "You surely didn't do the same kind of stuff to Zara, right?",
             "englishNote": ""
-        },
-        "11": {
+          },
+          "11": {
             "event": "Task",
             "media": "task",
             "chinese": "指挥官，没有完成任务的动力可不行喔？还是说您在期待着我给您单独准备的奖励呢？",
@@ -436,8 +436,8 @@
             "japaneseNote": "",
             "english": "You've got to stay motivated and finish your work... Or, were you expecting me to give you some “motivation?”",
             "englishNote": ""
-        },
-        "12": {
+          },
+          "12": {
             "event": "Task Complete",
             "media": "mission_complete",
             "chinese": "任务顺利完成了，就是得这样才行呢。奖励？呵呵，我可没有忘记喔？请您期待一下吧",
@@ -448,8 +448,8 @@
             "japaneseNote": "",
             "english": "All done with the missions, huh? That's what I want to see. ...I haven't forgotten about the reward. Mind waiting there for a bit? Hehe~",
             "englishNote": ""
-        },
-        "13": {
+          },
+          "13": {
             "event": "Mail",
             "media": "mail",
             "chinese": "指挥官，是司令部发来的邮件，磨磨蹭蹭的话，说不定会错过重要的消息哦？",
@@ -460,8 +460,8 @@
             "japaneseNote": "",
             "english": "Commander, there's mail for you from the Naval HQ. You might miss some important information if you drag your feet~",
             "englishNote": ""
-        },
-        "14": {
+          },
+          "14": {
             "event": "Return From Mission",
             "media": "home",
             "chinese": "欢迎回来，指挥官。有带回什么有趣的见闻吗？",
@@ -472,8 +472,8 @@
             "japaneseNote": "",
             "english": "Welcome back, Commander. Bring back any juicy gossip for me?",
             "englishNote": ""
-        },
-        "15": {
+          },
+          "15": {
             "event": "Commission",
             "media": "expedition",
             "chinese": "委托组已经回港了，大家都是很努力的孩子啊",
@@ -484,8 +484,8 @@
             "japaneseNote": "",
             "english": "The commission fleet has returned. All your girls are such hard workers.",
             "englishNote": ""
-        },
-        "16": {
+          },
+          "16": {
             "event": "Strengthening",
             "media": "upgrade",
             "chinese": "哦？发生了一些有趣的变化呢",
@@ -496,8 +496,8 @@
             "japaneseNote": "",
             "english": "Oh? Some interesting developments.",
             "englishNote": ""
-        },
-        "17": {
+          },
+          "17": {
             "event": "Starting Mission",
             "media": "warcry",
             "chinese": "杂鱼总是认识不到自己身为杂鱼的极限啊",
@@ -508,8 +508,8 @@
             "japaneseNote": "",
             "english": "The small fry never seem to learn their place.",
             "englishNote": ""
-        },
-        "18": {
+          },
+          "18": {
             "event": "MVP",
             "media": "",
             "chinese": "MVP，那不是理所当然的事情吗？单凭这些杂鱼，可没有弄脏我披风的价值呢",
@@ -520,8 +520,8 @@
             "japaneseNote": "",
             "english": "MVP? Why, that's only natural. Enemies of this caliber aren't even worthy of staining my mantle.",
             "englishNote": ""
-        },
-        "19": {
+          },
+          "19": {
             "event": "Defeat",
             "media": "lose",
             "chinese": "披风都被弄脏了啊，真可惜",
@@ -532,8 +532,8 @@
             "japaneseNote": "",
             "english": "My mantle's all dirty now. What a shame...",
             "englishNote": ""
-        },
-        "20": {
+          },
+          "20": {
             "event": "Skill Activation",
             "media": "skill",
             "chinese": "稍微陪你们玩一玩吧",
@@ -544,8 +544,8 @@
             "japaneseNote": "",
             "english": "Let's have a little bit of fun~",
             "englishNote": ""
-        },
-        "21": {
+          },
+          "21": {
             "event": "Low HP",
             "media": "hp",
             "chinese": "炮塔无法运作！偏偏在这种时候...",
@@ -556,8 +556,8 @@
             "japaneseNote": "",
             "english": "My turret won't move? Why... at a time like this...?",
             "englishNote": ""
-        },
-        "22": {
+          },
+          "22": {
             "event": "Affinity (Disappointed)",
             "media": "feeling1",
             "chinese": "这样的指挥官，或许需要“再教育”一下才行呢",
@@ -568,8 +568,8 @@
             "japaneseNote": "",
             "english": "A commander that acts in this manner is in need of some “re-education.”",
             "englishNote": ""
-        },
-        "23": {
+          },
+          "23": {
             "event": "Affinity (Stranger)",
             "media": "feeling2",
             "chinese": "扎拉姐姐总是那么的温柔、善良，不会好好地拒绝他人的请求，真让人头疼啊",
@@ -580,8 +580,8 @@
             "japaneseNote": "",
             "english": "My gentle and compassionate Zara simply doesn't know how to say no to others. I wonder, what should I do...",
             "englishNote": ""
-        },
-        "24": {
+          },
+          "24": {
             "event": "Affinity (Friendly)",
             "media": "feeling3",
             "chinese": "指挥官，您不必有太多的顾虑，只要做您想做的事情就好，杂鱼们都交给我来对付吧",
@@ -592,8 +592,8 @@
             "japaneseNote": "",
             "english": "Commander, focus on what you need to do. I'll take care of any annoying little obstacles in your way.",
             "englishNote": ""
-        },
-        "25": {
+          },
+          "25": {
             "event": "Affinity (Like)",
             "media": "feeling4",
             "chinese": "我和姐姐究竟谁更优秀？这个问题的答案，得经过实战才能知道呢，呵呵",
@@ -604,8 +604,8 @@
             "japaneseNote": "",
             "english": "So, between Zara and me, who do you like better? Well... you wouldn't know the answer to that unless you tried, right~? Hehe~♡",
             "englishNote": ""
-        },
-        "26": {
+          },
+          "26": {
             "event": "Affinity (Love)",
             "media": "feeling5",
             "chinese": "指挥官也是一位温柔的人呢，和扎拉姐姐一样让人担心，不过…或许只有像您这样的指挥官，才有值得我们姐妹托付未来的价值吧",
@@ -616,8 +616,8 @@
             "japaneseNote": "",
             "english": "Because you're so kind, I worry about you too, just like with Zara. But... because of your kindness, we also know that we can entrust you with our futures.",
             "englishNote": ""
-        },
-        "27": {
+          },
+          "27": {
             "event": "Pledge",
             "media": "propose",
             "chinese": "一旦成为了我选中的指挥官，就要做好被我束缚一生的准备呢。这份“条约”，您愿意和我一同签下么？",
@@ -628,8 +628,8 @@
             "japaneseNote": "",
             "english": "Commander, once you've become my chosen partner, you must be prepared to be bound with me for a lifetime. Are you willing to sign this “contract” with me?",
             "englishNote": ""
-        },
-        "28": {
+          },
+          "28": {
             "event": "Additional Voice Line 1",
             "media": "link1",
             "chinese": "(Sortie with Zara) 扎拉姐姐的手，是那么的温暖…",
@@ -640,151 +640,151 @@
             "japaneseNote": "",
             "english": "(Sortie with Zara) Zara, your hands are so warm...",
             "englishNote": ""
+          }
         }
+      },
+      "2": {
+        "skin_id": "bola_2",
+        "id": "1",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "11": {
+            "event": "Victory",
+            "media": "mvp_1",
+            "chinese": "",
+            "chineseTL": "",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          }
         }
-    },
-            "2": {
-                "skin_id": "bola_2",
-                "id": "1",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": "",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "4": {
-                        "event": "Details",
-                        "media": "detail_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    },
-                    "11": {
-                        "event": "Victory",
-                        "media": "mvp_1",
-                        "chinese": "",
-                        "chineseTL": "",
-                        "chineseNote": "",
-                        "japanese": "",
-                        "japaneseTL": "",
-                        "japaneseNote": "",
-                        "english": "",
-                        "englishNote": ""
-                    }
-                }
-            }
+      }
     }
-},
-"fleet_tech": {
+  },
+  "fleet_tech": {
     "pt_get": "28",
     "add_get_attr": "HP",
     "add_get_value": "1",
@@ -795,6 +795,6 @@
     "add_level_value": "1",
     "add_level_shiptype": "Heavy Cruiser,Monitor,Super Cruiser",
     "t_level": "7",
-    "ships": "zara,pola"
-}
+    "ships": "zara,pola,gorizia"
+  }
 }

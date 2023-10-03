@@ -1,0 +1,560 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>/alg/ Wiki - Kearsarge</title><style type="text/css">th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #373743;
+    border-color: #5c5d70;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+}
+
+th, td {
+    border-color: #5c5d70;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.title {
+    height: 1.5rem;
+}
+
+.subtitle {
+    background-color: #24252d;
+    height: 1.5rem;
+}
+
+body {
+    color: white;
+    background-color: #494a5a;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: block;
+    position: relative;
+}
+
+.tabs .tab {
+    float: left;
+    display: block;
+}
+
+input[name^="skinSelectors"] {
+    display: none;
+}
+
+.skinContent {
+    display: none;
+}
+
+.expression.active {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+
+.expression {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[name^="skinSelectors"] + label {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+input[name^="skinSelectors"]:checked + label {
+    opacity: 1;
+}
+
+#statSelector-base:checked ~ #statContent-base,
+#statSelector-100:checked ~ #statContent-100,
+#statSelector-100retrofit:checked ~ #statContent-100retrofit,
+#statSelector-120:checked ~ #statContent-120,
+#statSelector-120retrofit:checked ~ #statContent-120retrofit,
+#skinSelector-skinView-0:checked ~ #skinContent-skinView-0,
+#skinSelector-skinView-1:checked ~ #skinContent-skinView-1,
+#skinSelector-skinView-2:checked ~ #skinContent-skinView-2,
+#skinSelector-skinView-3:checked ~ #skinContent-skinView-3,
+#skinSelector-skinView-4:checked ~ #skinContent-skinView-4,
+#skinSelector-skinView-5:checked ~ #skinContent-skinView-5,
+#skinSelector-skinView-6:checked ~ #skinContent-skinView-6,
+#skinSelector-skinView-7:checked ~ #skinContent-skinView-7,
+#skinSelector-skinView-8:checked ~ #skinContent-skinView-8,
+#skinSelector-skinView-9:checked ~ #skinContent-skinView-9,
+#skinSelector-skinView-10:checked ~ #skinContent-skinView-10,
+#skinSelector-skinView-11:checked ~ #skinContent-skinView-11,
+#skinSelector-skinView-12:checked ~ #skinContent-skinView-12,
+#skinSelector-skinView-13:checked ~ #skinContent-skinView-13,
+#skinSelector-skinView-14:checked ~ #skinContent-skinView-14,
+#skinSelector-skinView-15:checked ~ #skinContent-skinView-15,
+#skinSelector-skinView-16:checked ~ #skinContent-skinView-16,
+#skinSelector-skinView-17:checked ~ #skinContent-skinView-17,
+#skinSelector-skinView-18:checked ~ #skinContent-skinView-18,
+#skinSelector-skinView-19:checked ~ #skinContent-skinView-19,
+#skinSelector-techView-0:checked ~ #skinContent-techView-0,
+#skinSelector-techView-1:checked ~ #skinContent-techView-1,
+#skinSelector-techView-2:checked ~ #skinContent-techView-2,
+#skinSelector-techView-3:checked ~ #skinContent-techView-3,
+#skinSelector-techView-4:checked ~ #skinContent-techView-4,
+#skinSelector-techView-5:checked ~ #skinContent-techView-5,
+#skinSelector-techView-6:checked ~ #skinContent-techView-6,
+#skinSelector-techView-7:checked ~ #skinContent-techView-7,
+#skinSelector-techView-8:checked ~ #skinContent-techView-8,
+#skinSelector-techView-9:checked ~ #skinContent-techView-9,
+#skinSelector-techView-10:checked ~ #skinContent-techView-10,
+#skinSelector-techView-11:checked ~ #skinContent-techView-11,
+#skinSelector-techView-12:checked ~ #skinContent-techView-12,
+#skinSelector-techView-13:checked ~ #skinContent-techView-13,
+#skinSelector-techView-14:checked ~ #skinContent-techView-14,
+#skinSelector-techView-15:checked ~ #skinContent-techView-15,
+#skinSelector-techView-16:checked ~ #skinContent-techView-16,
+#skinSelector-techView-17:checked ~ #skinContent-techView-17,
+#skinSelector-techView-18:checked ~ #skinContent-techView-18,
+#skinSelector-techView-19:checked ~ #skinContent-techView-19,
+#skinSelector-lineView-0:checked ~ #skinContent-lineView-0,
+#skinSelector-lineView-1:checked ~ #skinContent-lineView-1,
+#skinSelector-lineView-2:checked ~ #skinContent-lineView-2,
+#skinSelector-lineView-3:checked ~ #skinContent-lineView-3,
+#skinSelector-lineView-4:checked ~ #skinContent-lineView-4,
+#skinSelector-lineView-5:checked ~ #skinContent-lineView-5,
+#skinSelector-lineView-6:checked ~ #skinContent-lineView-6,
+#skinSelector-lineView-7:checked ~ #skinContent-lineView-7,
+#skinSelector-lineView-8:checked ~ #skinContent-lineView-8,
+#skinSelector-lineView-9:checked ~ #skinContent-lineView-9,
+#skinSelector-lineView-10:checked ~ #skinContent-lineView-10,
+#skinSelector-lineView-11:checked ~ #skinContent-lineView-11,
+#skinSelector-lineView-12:checked ~ #skinContent-lineView-12,
+#skinSelector-lineView-13:checked ~ #skinContent-lineView-13,
+#skinSelector-lineView-14:checked ~ #skinContent-lineView-14,
+#skinSelector-lineView-15:checked ~ #skinContent-lineView-15,
+#skinSelector-lineView-16:checked ~ #skinContent-lineView-16,
+#skinSelector-lineView-17:checked ~ #skinContent-lineView-17,
+#skinSelector-lineView-18:checked ~ #skinContent-lineView-18,
+#skinSelector-lineView-19:checked ~ #skinContent-lineView-19 {
+    display: block;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #373743;
+    color: #fff;
+    font-size: 15px;
+}
+
+#sidebar .subheader {
+    background: #24252d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sidebar ol li a:hover {
+    background: #6e6f87;
+}
+
+#sidebar ol li a {
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
+
+#sidebarEscape {
+    margin-left: 250px;
+    padding: 10px 10px 10px 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #24252d;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+details {
+    background-color: #373743;
+    border-color: #5c5d70;
+    margin-bottom: 20px;
+}
+
+summary {
+    background-color: #24252d;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: safe space-evenly;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.ship {
+    vertical-align: top;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    border: 3px double #ffffff;
+    background: #24252d;
+    width: 108px;
+    height: 220px;
+    position: relative;
+}
+
+.hull {
+    padding-left: 3px;
+    padding-right: 5px;
+    width: 33px;
+    height: auto;
+}
+
+.navy {
+    padding-right:5px;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+@keyframes snowflakes-fall {
+    0%   {top:-10%}
+    100% {top:100%}
+}
+
+@keyframes snowflakes-shake {
+    0%   {transform:translateX(0px)}
+    50%  {transform:translateX(80px)}
+    100% {transform:translateX(0px)}
+}
+
+.snowflake {
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    user-select:none;
+    cursor:default;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+}
+
+.snowflake:nth-of-type(0) {
+    left:1%;
+    animation-delay:0s,0s;
+}
+.snowflake:nth-of-type(1) {
+    left:10%;
+    animation-delay:1s,1s;
+}
+.snowflake:nth-of-type(2) {
+    left:20%;
+    animation-delay:6s,.5s;
+}
+.snowflake:nth-of-type(3) {
+    left:30%;
+    animation-delay:4s,2s;
+}
+.snowflake:nth-of-type(4) {
+    left:40%;
+    animation-delay:2s,2s;
+}
+.snowflake:nth-of-type(5) {
+    left:50%;
+    animation-delay:8s,3s;
+}
+.snowflake:nth-of-type(6) {
+    left:60%;
+    animation-delay:6s,2s;
+}
+.snowflake:nth-of-type(7) {
+    left:70%;
+    animation-delay:2.5s,1s;
+}
+.snowflake:nth-of-type(8) {
+    left:80%;
+    animation-delay:1s,0s;
+}
+.snowflake:nth-of-type(9) {
+    left:90%;
+    animation-delay:3s,1.5s;
+}
+</style><style type="text/css">.title {background: linear-gradient(to right, rgb(108, 174, 108), rgb(95, 176, 190), rgb(125, 132, 192), rgb(180, 84, 128));}</style><script src="https://algwiki.moe/js/pixi.min-4.7.1.js"></script><script src="https://algwiki.moe/js/live2dcubismcore.min.js"></script><script src="https://algwiki.moe/js/live2dcubismframework.js"></script><script src="https://algwiki.moe/js/live2dcubismpixi.js"></script><script src="https://algwiki.moe/js/pixi-spine.js"></script><script src="https://algwiki.moe/js/SkeletonBinary.js"></script></head><body><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist by ID</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist by Name</a></li><li><a href="https://algwiki.moe/navy/index.html">Faction Shiplists</a></li><li><a href="https://algwiki.moe/hull/index.html">Class Shiplists</a></li><li><a href="https://algwiki.moe/rarity/index.html">Rarity Shiplists</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://fleet.algwiki.moe/">Fleet Maker</a></li><li><a href="https://algwiki.moe/player">Music Player</a></li><li><a href="https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0">Porn</a></li></ol></nav><div id="sidebarEscape"><nav><a href="/">Home</a> &gt; <a href="../shiplist.html">Shiplist</a> &gt; Kearsarge</nav><main><table><tr><td><table><tr><th class="title" scope="col" colspan="5">Kearsarge (JP 🇯🇵: , CN 🇹🇼: )</th></tr><tr><td rowspan="3"><img src="https://algwiki.moe/assets/squareicon/qiershazhi.png"></td><th>Ship ID</th><td>No. P028</td><th>Star Rating</th><td>★★★☆☆☆</td></tr><tr><th><a href="../hull/index.html">Hull</a></th><td><img src="https://algwiki.moe/Images/Hull/bbv.png" style="height: auto; width: 35px"> Aviation Battleship</td><th>Rarity</th><td>Decisive</td></tr><tr><th><a href="../navy/index.html">Navy</a></th><td><img src="https://algwiki.moe/Images/Navy/uss_icon.png">Eagle Union</td><th>Build Time</th><td>N/A</td></tr><tr><th scope="row">Acquisition</th><td colspan="4">Research and Development</td></tr><tr><th scope="row">Enhance Income</th><td colspan="4"><table><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</td><td style="text-align: left;padding-left:5px;">0</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</td><td style="text-align: left;padding-left:5px;">0</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</td><td style="text-align: left;padding-left:5px;">0</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</td><td style="text-align: left;padding-left:5px;">0</td></tr></table></td></tr><tr><th scope="row">Scrap Income</th><td colspan="4"><table><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/medal_icon.png" style=""> Medal</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/oil_icon.png" style=""> Oil</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/gold_icon.png" style=""> Gold</td><td style="text-align: left;padding-left:5px;"></td></tr></table></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="2">Information</th></tr><tr><th scope="row">Release Date</th><td><table><tr><td colspan="1">EN</td><td></td></tr><tr><td colspan="1">KR</td><td></td></tr><tr><td colspan="1">CN</td><td></td></tr><tr><td colspan="1">JP</td><td></td></tr></table></td></tr><tr><th scope="row">Voice actress</th><td></td></tr><tr><th class="subtitle" scope="col" colspan="2">Illustrator</th></tr><tr><td colspan="1">Other</td><td></td></tr><tr><td colspan="1">Pixiv</td><td></td></tr><tr><td colspan="1">Twitter</td><td></td></tr><tr><td colspan="1">Weibo</td><td></td></tr><tr><td colspan="1">Name</td><td></td></tr></table></td></tr><tr><td colspan="2"><table class="full"><tr><th class="title" scope="col">Skins</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-skinView" autocomplete="off" id="skinSelector-skinView-0" type="radio" checked="" onchange="skinChange(0,&quot;qiershazhi&quot;)"><label for="skinSelector-skinView-0"><img src="https://algwiki.moe/assets/herohrzicon/qiershazhi.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-skinView-0" class="skinContent"><table><tr><th style="min-width: 50%" class="subtitle">Kearsarge</th><th class="subtitle">Description</th></tr><tr><td rowspan="5"><img id="painting-qiershazhi" src="https://algwiki.moe/assets/painting/qiershazhi.png" style="max-width: 100%;"></td><td></td></tr><tr><td id="containerSD-qiershazhi"><select id="selectAnimation-qiershazhi"></select><div id="canvasSD-qiershazhi"></div></td></tr><tr><th class="subtitle">Expressions</th></tr><tr><td id="shipSkinExpressions-qiershazhi"></td></tr></table></div></div></td></tr></table></td></tr><tr><td><table><tr><th class="title" scope="col" colspan="2">Parameters</th></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</td><td style="text-align: left; padding-left:5px;">S</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</td><td style="text-align: left; padding-left:5px;">E</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</td><td style="text-align: left; padding-left:5px;">A</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</td><td style="text-align: left; padding-left:5px;">D</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</td><td style="text-align: left; padding-left:5px;">B</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</td><td style="text-align: left; padding-left:5px;">S</td></tr><tr><th class="subtitle" scope="col" colspan="2">Stats</th></tr><tr><td colspan="2"><input name="skinSelectors-stat" autocomplete="off" id="statSelector-base" type="radio" checked=""><label for="statSelector-base" style="margin-left: 5px;border-style: solid;">Base</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100" type="radio"><label for="statSelector-100" style="margin-left: 5px;border-style: solid;">100</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120" type="radio"><label for="statSelector-120" style="margin-left: 5px;border-style: solid;">120</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100retrofit" type="radio"><label for="statSelector-100retrofit" style="margin-left: 5px;border-style: solid;">100 Retrofit</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120retrofit" type="radio"><label for="statSelector-120retrofit" style="margin-left: 5px;border-style: solid;">120 Retrofit</label><div id="statContent-base" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center">1571</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center">56</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center">83</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center">8</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center">63</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center">70</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center">28</td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center">30</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3">Heavy</td></tr></table></div><div id="statContent-120" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center">6740</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center">108</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center">301</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center">37</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center">234</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center">283</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center">79</td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center">30</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3">Heavy</td></tr></table></div></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="5">Limit Break</th></tr><tr><td style="text-align: left; padding-left:5px;">Level 5</td><td colspan="4" style="text-align: left; padding-left:5px;">HP +383 | AA +15 | Main Gun efficiency +5% | Unlocks playback for: Main screen 1, Flagship fight, Mission reminder</td></tr><tr><td style="text-align: left; padding-left:5px;">Level 10</td><td colspan="4" style="text-align: left; padding-left:5px;">Main gun base +1/Main gun efficiency +5%/Gains special secondary gun | Limit Breaks to 4 Stars | Unlocks playback for: Main screen 2, Victory, DefeatLearns Siren Killer | Main Gun base +1 | Main Gun efficiency +5% | Gains special secondary gun</td></tr><tr><td style="text-align: left; padding-left:5px;">Level 15</td><td colspan="4" style="text-align: left; padding-left:5px;">HP +766 | AA +31 | Fighter efficiency +20% | Unlocks playback for: Main screen 3, Normal touch, Mission complete</td></tr><tr><td style="text-align: left; padding-left:5px;">Level 20</td><td colspan="4" style="text-align: left; padding-left:5px;">All Fighters +1/Main gun efficiency +10%/Fighter efficiency +10% | Limit Breaks to 5 Stars | Unlocks playback for: Skills, Mail reminder, Commission completeImproves Siren Killer | All fighters +1 | Main Gun efficiency +10% | Fighter efficiency +10%</td></tr><tr><td style="text-align: left; padding-left:5px;">Level 25</td><td colspan="4" style="text-align: left; padding-left:5px;">HP +1195 | AA +33 | Main Gun efficiency +5% | All fighters +1 | Unlocks playback for: Low HP</td></tr><tr><td style="text-align: left; padding-left:5px;">Level 30</td><td colspan="4" style="text-align: left; padding-left:5px;">Main gun base +1/Main gun efficiency +15%/Fighter efficiency +10% | Limit Breaks to 6 StarsImproves Siren Killer | Main Gun base +1 | Main Gun efficiency +15% | Fighter efficiency +10%</td></tr><tr><th class="subtitle" scope="col" colspan="5">Equipments</th></tr><tr><th class="subtitle" scope="col">Slot</th><th class="subtitle" scope="col">Equipment Type</th><th class="subtitle" scope="col">Efficiency (LB 0/1/2/3)</th><th class="subtitle" scope="col">Quantity (LB 0/1/2/3)</th><th class="subtitle" scope="col">Preload (LB 0/1/2/3)</th></tr><tr><td>1</td><td></td><td>%/%/%/%/%/%/%</td><td>//////</td><td>//////</td></tr><tr><td>2</td><td></td><td>%/%/%/%/%/%/%</td><td>//////</td><td>//////</td></tr><tr><td>3</td><td></td><td>%/%/%/%/%/%/%</td><td>//////</td><td>//////</td></tr><tr><td>4</td><td>Auxilary</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>Auxilary</td><td>-</td><td>-</td><td>-</td></tr><tr><th class="subtitle" scope="col" colspan="5">Default Equipments</th><tr><td>1</td><td colspan="4"></td></tr><tr><td>2</td><td colspan="4"></td></tr><tr><td>3</td><td colspan="4"></td></tr></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="3" style="width:40%;">Fleet Tech</th></tr><tr><th class="subtitle">T Aviation Battleship: Kearsarge-Class</th><th class="subtitle" colspan="2" style="width:60%;">Tech Points and Bonus</th></tr><tr><td><a href="kearsarge.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg5.png&quot;);" src="https://algwiki.moe/assets/squareicon/qiershazhi.png"></a></td><td><div style="text-align: left;"><input name="skinSelectors-techView" autocomplete="off" id="skinSelector-techView-0" type="radio" checked=""><label for="skinSelector-techView-0"><img src="https://algwiki.moe/assets/herohrzicon/qiershazhi.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-techView-0" class="skinContent"><img src="https://algwiki.moe/assets/shipmodels/qiershazhi.png"></div></div></td><td><table><tr><th>Unlock</th><td></td><td><img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr><tr><th>Max LimitBreak</th><td></td><td></td></tr><tr><th>Lv.120</th><td></td><td><img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr></table></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Skillset</th></tr><tr><th scope="col" class="subtitle">Icon</th><th scope="col" class="subtitle">Name</th><th scope="col" class="subtitle">Description</th><th scope="col" class="subtitle">Requirements</th></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/19660.png"></td><td>Multi-Linked Locking System</td><td>Increases this ship's AVI and FP by 1.0% (10.0%) . When this ship's aircraft hits an enemy: 50.0% (100.0%)  chance to inflict a special Burn ailment to that target for 10s, increasing that target's shelling DMG taken from your Main Fleet by 8.0%. When this ship's Main Guns hit an enemy: 50.0% (100.0%)  chance to increase the target's airstrike DMG taken from your Main Fleet by 4.0%; if the target is already affected by an AA stat debuff, further increases that target's airstrike DMG taken from your Main Fleet by 8.0%. This effect lasts until the next time this ship fires her Main Guns.</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/19670.png"></td><td>Functional Amplification Mechanism</td><td>If this ship has an Eagle Union or Northern Parliament Main Gun equipped: increases this ship's FP by 1.0% (10.0%)  and decreases her cannon DMG taken by 10.0% (20.0%) . If this ship has an Eagle Union or Northern Parliament aircraft equipped: increases this ship's AVI by 1.0% (10.0%)  and decreases the loading time of her 1st airstrike by 15.0% (30.0%) . When the battle starts, if there is another Eagle Union ship in your Main Fleet: while this ship is afloat, your CVs and CVLs deal 5.0% (15.0%)  more airstrike DMG (does not stack with the skill "Air Raid Assistance").</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/19680.png"></td><td>Combat Adaptation Module</td><td>Increases this ship's DMG dealt to Burning enemies by 1.0% (10.0%) . When this ship launches an airstrike: launches an additional Lv.1 (Lv.10)  special airstrike. Every 20s: fires a Lv.1 (Lv.10)  special barrage with properties that change based on whether or not there are Burning enemies on the battlefield (inflicts a special Burn for 10s to enemies hit by the Oceanic Blaze special barrage; DMG is based on the skill's level).</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/19000.png"></td><td>Siren Killer Ⅲ</td><td>Increases this ship's DMG to Sirens by 15.0%.</td><td>???</td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Construction</th></tr><tr><td class="subtitle" style="width:20%;">N/A</td><th class="subtitle" style="width:20%;" scope="col">JP</th><th class="subtitle" style="width:20%;" scope="col">CN</th><th class="subtitle" style="width:20%;" scope="col">EN</th></tr><tr><th scope="row" class="subtitle">Limited</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Special</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Heavy</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Light</th><td></td><td></td><td></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="5">Dialogue</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-0" type="radio" checked=""><label for="skinSelector-lineView-0"><img src="https://algwiki.moe/assets/herohrzicon/qiershazhi.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-1" type="radio"><label for="skinSelector-lineView-1"><img src="https://algwiki.moe/assets/herohrzicon/qiershazhi_ex1100.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-lineView-0" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Ship Description</th><td></td><td>航空战列舰—奇尔沙治</td><td>航空戦艦――キアサージ</td><td>Aviation battleship – Kearsarge.</td></tr><tr><th scope="row">Biography</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/profile.ogg" controls=""></audio></td><td>我是白鹰所属的，具现化的特别计划舰奇尔沙治。我被设计为战舰和航空母舰的混合型，并内藏能应对任何战局、战场的力量。指挥官，希望你能充分利用我的战力</td><td>ユニオン所属、具現化されし特別計画艦・キアサージ。戦艦と空母のハイブリッドとして設計され、あらゆる戦局・戦場に対応する力を与えられた。指揮官、あなたがこの戦力を活かしてくれることを願う</td><td>I'm Kearsarge, Eagle Union blueprint ship given form. My design was a hybrid between battleship and aircraft carrier, giving me the ability to deal with almost any situation or battlefield. I hope you'll put my strength to good use, Commander.</td></tr><tr><th scope="row">Acquisition</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/get.ogg" controls=""></audio></td><td>……启动完毕。我是混合假想的实体化·“X”，航空战舰奇尔沙治。从今天开始，我将在这港区中成为你的力量。那么，我应该归属于哪个分队，该往何处出击？</td><td>……起動完了。我は具現化された混合空想（ハイブリッド・イマジン）・「X」、航空戦艦キアサージ。本日よりこの母港にてあなたの力とならん。それで、私はどこの分艦隊に所属し、どこに出撃すればいい？</td><td>Activation sequence complete. I am aviation battleship Kearsarge, Hybrid Idealization X given flesh and blood. Henceforth, I will serve you at this port. So, which division do I belong to, and what's my mission?</td></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/login.ogg" controls=""></audio></td><td>指挥官？抱歉，我先着手工作了…不用在意我，按计划进行你的工作吧</td><td>指揮官？先に仕事を始めててすまない。…私のことは気にせず、予定通りあなたの仕事をこなして</td><td>Ah, Commander. Pardon me for starting work without you. Pay me no mind and begin with your own tasks.</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/detail.ogg" controls=""></audio></td><td>…………我并没有睡着，只是让大脑稍微休息一下而已。虽然让门就这样敞开着是我疏忽了，但不敲门就进来的指挥官也有责任呢。</td><td>…………眠っているわけではなく、すこし頭脳を休めているだけ。ドアを開けっ放しにしたのはこちらの落ち度だけど、ノックもせず入ってくる指揮官もいかがなものかと</td><td>...I'm not sleeping, I'm just letting my brain rest a while. While, yes, I did leave the door wide open, you should at least knock before you enter next time, Commander.</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_1.ogg" controls=""></audio></td><td>闲聊的话就放到工作结束后吧。我现在正在专心处理秘书舰的工作，请不要打扰我。</td><td>雑談なら執務が終わったあとに。今秘書艦の仕事に集中しているから、邪魔しないで</td><td>Save the small talk for after work. I'm concentrating on my secretary duties, so don't disturb me.</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_2.ogg" controls=""></audio></td><td>与其一直回头看，还是不停下脚步继续向前更好。即使要自我反省，不配合当时的形势来看也是没有意义的。</td><td>いつまでも振り返り続けるより、足を止めず先へと進んだほうがいい。己を省みたくても、その時の情勢に合わせなければ意味がないから</td><td>It doesn't help to always look back on the past – keep moving forward, and don't stop. Even when you want to self-reflect, you must adapt to developments as they happen.</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_3.ogg" controls=""></audio></td><td>在战斗中，有时必须优先考虑战局，而非你的意志。即使你是指挥官，也可能不得不将决定权下放至战场，最好趁现在先习惯吧。</td><td>戦いにおいては、あなたの意志より戦局を優先する場合がある。たとえあなたが指揮官でも裁量を現場に任せざるを得なくなることがあるから、今のうちに慣れておいたほうがいい</td><td>On occasion, I neglect your will and prioritize the here and now on the battlefield. While you are the Commander, sometimes you have to let your soldiers handle things – the sooner you accept this, the better.</td></tr><tr><th scope="row">Main 4</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_4.ogg" controls=""></audio></td><td>…………（奇尔沙治闭着眼，端正地坐在沙发上。也许她睡着了？）</td><td>…………（目を閉じたままのキアサージがソファで姿勢正しく座っている。もしかして眠っている？）</td><td>(Kearsarge is sitting upright on the couch with her eyes closed. Is she asleep, or...?)</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/touch_1.ogg" controls=""></audio></td><td>我知道你在那里。那么，找我有什么事？</td><td>いるのは分かっている。…して、私になにか用？</td><td>Yes, I know you're here. What do you need?</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/touch_2.ogg" controls=""></audio></td><td>在这个行动中，你自身的意志占了多少？</td><td>この行動に、あなたの意志はどれだけ入っている？</td><td>How much intent is in this act you're committing?</td></tr><tr><th scope="row">Touch (Headpat)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/touch_head.ogg" controls=""></audio></td><td>……嗯？突然这是怎么了？</td><td>……ん？急にどうした？</td><td>...Hm? What are you doing?</td></tr><tr><th scope="row">Mission</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/task.ogg" controls=""></audio></td><td>确认有尚未完成的任务。如果你不处理，我会自行判断将它从预定中删除，可以吗？</td><td>未完了の任務を確認。あなたがこなさないなら私の裁量で予定から削除するが、それでいい？</td><td>Confirming there are unfinished missions. If you won't do them, I'll remove them from your schedule as I see fit. You sure you want that?</td></tr><tr><th scope="row">Mission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/mission_complete.ogg" controls=""></audio></td><td>确认任务奖励已送达。我去回收。</td><td>任務報酬の到着を確認。回収してくる</td><td>Confirming that rewards have come in. I'll go collect them.</td></tr><tr><th scope="row">Mail</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/mail.ogg" controls=""></audio></td><td>确认邮件已收到。请你也确认一下。</td><td>メールの着信を確認。確認して</td><td>Confirming that a letter has arrived. Take a look.</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/home.ogg" controls=""></audio></td><td>辛苦了，就这样休息下吧。战果？啊，说起来你也出击了。抱歉，也许我应该一同出战比较好？</td><td>ご苦労、そのまま休憩して。戦果？ああ、そういえば出撃してたのか。すまない、もしかして私も出たほうがよかった？</td><td>Welcome back, now have a breather. After-action review? Ah, right, you went on a sortie. Would it have been better if I'd joined you?</td></tr><tr><th scope="row">Commission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/expedition.ogg" controls=""></audio></td><td>确认委托组已归来。我去回收物资。</td><td>委託組の帰還を確認。物資の回収をしてくる</td><td>Confirming the commission team has returned. I'll go collect the goods.</td></tr><tr><th scope="row">Enhancement</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/upgrade.ogg" controls=""></audio></td><td>确认性能及舰队战力提升。今后请继续关照。</td><td>性能及び艦隊戦力の向上を確認。これからもよろしく</td><td>Performance and fleet potential increase confirmed. Keep it up.</td></tr><tr><th scope="row">Flagship</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904-battle/acb/awb/warcry.ogg" controls=""></audio></td><td>战力充足——向前突破！</td><td>戦力は十分――突き抜ける！</td><td>The advantage is ours! Strike!</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904-battle/acb/awb/mvp.ogg" controls=""></audio></td><td>战斗评价完毕。奇尔沙治，继续下一个作战行动。</td><td>戦闘評価完了。キアサージ、次の作戦行動に移行する</td><td>Combat appraisal complete. Moving on to the next stage of the operation.</td></tr><tr><th scope="row">Defeat</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904-battle/acb/awb/lose.ogg" controls=""></audio></td><td>战斗评价完毕。奇尔沙治，维持战斗速度，重整阵势，开始反复攻击。</td><td>戦闘評価完了。ギアサージ、戦闘速度を維持しながら態勢を立て直し、反復攻撃を開始する</td><td>Combat appraisal complete. I shall maintain momentum while resuming formation, then launch a counterattack.</td></tr><tr><th scope="row">Skill</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904-battle/acb/awb/skill.ogg" controls=""></audio></td><td>冻结，随后炸裂吧！</td><td>凍れ、そして爆ぜろ！</td><td>Freeze, then burst!</td></tr><tr><th scope="row">Low HP</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904-battle/acb/awb/hp.ogg" controls=""></audio></td><td>作战行动遭到阻碍……不算什么！</td><td>作戦行動に支障が……なんの！</td><td>The operation is going awry... What is this?!</td></tr><tr><th scope="row">Affinity (Upset)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/feeling1.ogg" controls=""></audio></td><td>指挥能力评价完毕……哪怕只是遵从命令都会有所损失。</td><td>指揮能力評価完了。……命令に従うだけで損するとは</td><td>Your commanding ability has been evaluated... Simply following your orders is detrimental.</td></tr><tr><th scope="row">Affinity (Stranger)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/feeling2.ogg" controls=""></audio></td><td>我认为与指挥官建立信任关系对我的战斗行动更有利。这就让我看一下你的日程——嗯？要了解对方首先需要收集信息，这不是常规手段么？</td><td>指揮官との信頼関係を構築したほうが私の戦闘行動に有益だと判断した。早速だがあなたの予定をチェックさせてもらおう――ん？相手を知るには、まず情報を集めるのが定石なのでは？</td><td>I've determined that establishing mutual trust between us is beneficial to my battlefield performance. So, without further ado, allow me to check your schedule... Hm? Is information-gathering not customary when getting to know someone?</td></tr><tr><th scope="row">Affinity (Friendly)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/feeling3.ogg" controls=""></audio></td><td>指挥官个人的兴趣爱好…不错的切入点。那么基本信息就从伙伴那里打听……来，啊——这是我做的罗宋汤，用这个来确认你对味道的喜好。来，啊——</td><td>指揮官という個人の趣味嗜好…いい着眼点ね。では、基本情報は仲間に聞くとして……はい、口を開けて。手作りのボルシチだが、これであなたの味の好みを確認させてもらう。ほら、あーん</td><td>Your individual tastes and interests... That's a good perspective. I'll ask my acquaintances for basic info later... For now, open your mouth. I made borscht, and this will help me determine your tastes. Come on, say "ahh."</td></tr><tr><th scope="row">Affinity (Like)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/feeling4.ogg" controls=""></audio></td><td>用“约会”这种说法可能不大准确，但要了解指挥官的习惯和行为，确实通过“约会”更有效。这是今天的行程。过目一下再行动吧。</td><td>「デート」というのは語弊があるけれど、指揮官の習慣や行動を知るには、たしかに「デート」してみたほうが効果的。本日の予定はこれだ。一度目を通してから行動開始するように</td><td>Though calling it a "date" is a misnomer, a date does present a great opportunity to learn your habits and savoir-faire. Here is your schedule for today. Give it a quick read, then we'll get started.</td></tr><tr><th scope="row">Affinity (Love)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/feeling5.ogg" controls=""></audio></td><td>我信任着指挥官，而且想更多地了解指挥官。但是，因为我的能力不足，现在还缺乏一些用于理解指挥官意愿的必要情报…指挥官信任我吗？用同伴们的话来说，你"喜欢"我吗？</td><td>私は指揮官を信頼しているし、そしてもっともっと指揮官のことを知りたい。だがしかし、私の不出来でまだいささか指揮官の意志を判断する材料が不足しているようで…指揮官は私のことをちゃんと信頼している？仲間たちが言う、「好き」になっている？</td><td>I trust you, Commander, and I want to become intimately familiar with you. However, I'm unable to fully determine your feelings towards me due to my own ineptness... Do you trust me the way I trust you? Do you, as others would say, love me?</td></tr><tr><th scope="row">Pledge</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/propose.ogg" controls=""></audio></td><td>已确认生命体征信号。嗯？别担心，指挥官给了我这个之后，作为交换，我偷偷在指挥官身上放了生命体征监测仪而已。为了掌握你平时的健康状况，或是在紧急时刻能马上赶到，都少不了这个——不对吗？</td><td>バイタルサインを確認した。ん？心配しないで、指揮官がこれを渡してくれた代わりに、私から指揮官にこっそりバイタルセンサーを忍び込ませただけ。普段の健康に気を配るにも、いざという時に駆け寄るにも、これがないと――違う？</td><td>Confirming vitals all green. Hm? Oh, don't worry, I simply snuck a vital sensor onto you – a return gift for this ring you gave me. It's necessary to keep a regular check on your health, and to know when to come running when you need help. Makes sense, no?</td></tr><tr><th scope="row">Present Like</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/present_like.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th scope="row">Present Dislike</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/present_dislike.ogg" controls=""></audio></td><td></td><td></td><td></td></tr><tr><th scope="row">Extra</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/extra.ogg" controls=""></audio></td><td></td><td></td><td></td></tr></table></div><div id="skinContent-lineView-1" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/login_ex1100.ogg" controls=""></audio></td><td>今天按照你的步调来吧。没关系，不用在意我，按照你平时的方式行事就好。这也更符合我的期望。</td><td>今日はあなたのペースに合わせる。大丈夫、私のことは気にせず、あなたはあなたでいつも通りにやればいい――その方が私にとっても望ましいから</td><td>This time, you go ahead and set the pace. Don't worry about me, just do whatever feels natural to you. I like it better that way.</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/detail_ex1100.ogg" controls=""></audio></td><td>生命体征检测全部正常。嗯，找不出指挥官来访的理由……并没什么理由？呵呵，虽然完全不合逻辑，但这很像是你会给的理由，我放心了。</td><td>バイタルチェック・オールクリア。さて、指揮官がここに訪れてくる理由は見当つかないが……なんとなく？ふふ、全く非合理的ではあるが、あなたらしい理由で安心した</td><td>Vitals check done. All signs clear. I can't guess why else you'd visit, so... You just felt like it? Heheh, what an irrational reason, but that sounds like you alright.</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_1_ex1100.ogg" controls=""></audio></td><td>怎么了？突然就停下了手。生命体征也显示一切正常——只是休息一下？抱歉，我并没有逼你的意思……</td><td>どうかした？急に手を止めて。バイタルに異常はないように見えるが――単なる休憩？すまない、追い詰めるつもりは…</td><td>What is it? Why'd you put your pen down? Your vitals all look fine to me, so... You're just taking a break? Sorry, I didn't mean to heckle you...</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_2_ex1100.ogg" controls=""></audio></td><td>工作还没做完？好，我这就去订外卖，这样就可以一直陪你到明天了——不是这个意思？</td><td>まだ仕事が終わらない？…よし、出前を取っておく。これで今日は日付が変わるまでは一緒にいられるとも――そのつもりじゃなかった？</td><td>Still not finished? Okay, I'll order takeaway. That way I can stay with you until tomorrow if need be– Oh, it won't take that long?</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_3_ex1100.ogg" controls=""></audio></td><td>我信任着指挥官你的指挥。无论是指示目标、改变航向、使用和更换各种武器、还是战术建议等，都请下令吧</td><td>指揮官の采配は信頼している。目標指示・針路変更・各種兵装の使用及び換装、戦術的なアドバイスならいつでも言って</td><td>I put my full trust in your ability to lead. Whenever you want to change targets, change course, use and change equipment, or give me tactical advice, just say the word.</td></tr><tr><th scope="row">Main 4</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/main_4_ex1100.ogg" controls=""></audio></td><td>…………（听到了奇尔沙治轻微的呼吸声，是在冥想么，还是在做梦？）</td><td>…………（キアサージの微かな息遣いが聞こえる。いつもの瞑想か、それとも夢でも見ているのか？）</td><td>(Kearsarge's breathing is faintly audible. Is she meditating again, or is she just sleeping?)</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/touch_1_ex1100.ogg" controls=""></audio></td><td>………指挥官，捉弄人要等确认对方睡着后才行。</td><td>………指揮官。イタズラは相手が寝てるのを確認してからでないと</td><td>...Commander. If you're going to play a prank on someone, you should make sure they're asleep first.</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/touch_2_ex1100.ogg" controls=""></audio></td><td>想做的话就做吧。除了尊重你的意愿之外，我也得出了“可以”的结论。</td><td>したければするがいい。あなたの意志を尊重するし、私も「構わない」という結論を出したから</td><td>If you want this, be my guest. I respect your will, and I've reached the conclusion that I'm fine with it, too.</td></tr><tr><th scope="row">Mission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/mission_complete_ex1100.ogg" controls=""></audio></td><td>确认任务奖励已送达。我并没有从你那夺走喜悦的打算——去取回它们吧。</td><td>任務報酬の到着を確認。あなたの喜びを奪うつもりはない――回収してきて</td><td>Confirming arrival and receipt of rewards. I don't want to dampen your celebration, but... you should go pick up your stuff.</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/home_ex1100.ogg" controls=""></audio></td><td>指挥官，出击结果如何？虽然以你的能力我不应该担心，但以防万一，还是请让我检查下生命体征？</td><td>指揮官、出撃はどうだった？あなたのことだから心配するのは野暮だと思うが、万が一のこともある。バイタルチェックでもする？</td><td>How did the sortie go, Commander? I know I don't need to worry about you, but disasters can always happen. Want me to check your vitals?</td></tr><tr><th scope="row">Commission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/expedition_ex1100.ogg" controls=""></audio></td><td>确认委托组归来。别光顾着高兴了，你准备好慰劳她们的礼物了吗？</td><td>委託組の帰還を確認。喜んでいる中ですまないが、彼女たちを労う手土産は準備した？</td><td>Confirming the commission team has returned. Hate to rain on your parade, but have you prepared gifts for the girls?</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904-battle/acb/awb/mvp_ex1100.ogg" controls=""></audio></td><td>战斗评价完毕……我是MVP？为这种理所当然的事情高兴不像你的风格。也、也不是说不行……</td><td>戦闘評価完了。…私がMVP？当然なことで喜ぶのはあなたらしくない。い、いいえ、ダメというわけでは…</td><td>Combat appraisal complete... I'm the MVP? It's not like you to get excited about the usual. N-no, I don't mean you can't do that, just...</td></tr><tr><th scope="row">Affinity (Love)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-19904/acb/awb/feeling5_ex1100.ogg" controls=""></audio></td><td>啾～…嗯。指挥官一如既往，而我也一样“喜欢”着指挥官。只需要确认这些就够了吗？还有其他的……用同伴的话来说，指挥官想做的事……真的不做吗？</td><td>ちゅっ。…うん。指揮官はいつも通り、そして私も指揮官のことが「好き」でいる。確認するのはこれだけで十分？もっと何か…仲間の言うところの、指揮官がしたそうなことは…しなくてもいいの？</td><td>*smooch*... Yep. You're the same as always, and I'm in love with you. Is that all you wanted to confirm? I thought you would... as my friends have put it, "do what your heart yearns for." Are you really not going to do that?</td></tr></table></div></div></td></tr></table></td></tr></table></main><script>
+skins = [["qiershazhi","0","1","2","3","4","5","6","7","8",],];
+const tail = ([, ...t]) => t;
+
+var util = {
+    ifFileExists: function(file){
+	var http = new XMLHttpRequest();
+
+	http.open('HEAD', file, false);
+	http.send();
+	return (http.status != 404 && http.status != 403);
+    },
+    clearAllChildren: function(element){
+	var myNode = document.getElementById(element);
+	while (myNode.firstChild) {
+	    myNode.removeChild(myNode.firstChild);
+	}
+    },
+    loadShipList: function(callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'json/shiplist.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText);
+	    }
+	};
+	xobj.send(null);
+    },
+    loadShipJSON: function(ship, callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'Ships/'+ship+'.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText, ship);
+	    }
+	};
+	xobj.send(null);
+    },
+    guidGenerator: function(){
+	var S4 = function() {
+	    return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+	};
+	return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+    }
+}
+
+function SD(basePath) {
+    this.basePath = basePath;
+    this.loader = new PIXI.loaders.Loader(this.basePath);
+}
+
+SD.prototype = {
+    spineData : {},
+    load: function(name, v) {
+        if (!this.spineData[name]) {
+            var skelpath = name+'.skel';
+            var atlaspath = name+'.atlas';
+            var texpath = name+'.png';
+
+            this.loader.add(name+'_atlas', atlaspath, { "type" : "atlas" })
+            this.loader.add(name+'_skel', skelpath, { "xhrType" : "arraybuffer" })
+            this.loader.add(name+'_tex', texpath)
+
+            this.loader.load((loader, resources) => {
+                var dec = new TextDecoder("utf-8");
+                var head = dec.decode(resources[name+'_skel'].data.slice(2, 10));
+                var rawSkeletonData;
+                if (head == "skeleton") {
+                    rawSkeletonData = JSON.parse(dec.decode(resources[name+'_skel'].data));
+                } else {
+                    var skelBin = new SkeletonBinary();
+                    skelBin.data = new Uint8Array(resources[name+'_skel'].data);
+                    skelBin.initJson();
+
+                    rawSkeletonData = skelBin.json;
+                }
+                var rawAtlasData = resources[name+'_atlas'].data;
+
+                var spineAtlas = new PIXI.spine.core.TextureAtlas(rawAtlasData, function(line, callback) {
+                    callback(PIXI.BaseTexture.from(name+'_tex'));
+                });
+                var spineAtlasLoader = new PIXI.spine.core.AtlasAttachmentLoader(spineAtlas);
+                var spineJsonParser = new PIXI.spine.core.SkeletonJson(spineAtlasLoader);
+                var skeletonData = spineJsonParser.readSkeletonData(rawSkeletonData);
+
+                this.spineData[name] = skeletonData;
+                v.changeCanvas(skeletonData);
+            });
+        } else {
+            v.changeCanvas(this.spineData[name]);
+        }
+    }
+}
+
+var viewer = {
+    init2: function() {
+        viewer.canvas = document.getElementById("canvasSD-" + current);
+        viewer.selectAnimation = document.getElementById("selectAnimation-" + current);
+        viewer.selectAnimation.addEventListener('change', function() {
+            viewer.changeAnimation(this.selectedIndex);
+        });
+        viewer.canvas.appendChild(viewer.app.view);
+    },
+    init: function(basePath) {
+        viewer.sd = new SD(basePath);
+        viewer.app = new PIXI.Application(512, 512, { transparent: true });
+	viewer.init2();
+    },
+    changeCanvas : function(skeletonData) {
+        viewer.app.stage.removeChildren();
+
+        viewer.spine = new PIXI.spine.Spine(skeletonData);
+        var animations = viewer.spine.spineData.animations;
+        var stringAnimations = "";
+        for(var i = 0; i < animations.length; i++) {
+            if (animations[i].name == "stand")
+                stringAnimations += "<option value=\"" + animations[i].name + "\" selected>" + animations[i].name + "</option>";
+            else
+                stringAnimations += "<option value=\"" + animations[i].name + "\">" + animations[i].name + "</option>";
+        }
+        viewer.selectAnimation.innerHTML = stringAnimations;
+        viewer.spine.state.setAnimation(0, "stand", true);
+        viewer.app.stage.addChild(viewer.spine);
+        viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        centerSD();
+    },
+    changeAnimation : function(num) {
+        var name = viewer.spine.spineData.animations[num].name;
+        viewer.spine.state.setAnimation(0, name, true);
+    },
+    onResize: function() {
+        var element = document.getElementById("containerSD-" + current);
+        var positionInfo = element.getBoundingClientRect();
+        var width = positionInfo.width;
+        if (width > 512){
+            width = 512;
+        }
+        var height = width;
+        viewer.app.view.style.width = width + "px";
+        viewer.app.view.style.height = height + "px";
+        viewer.app.renderer.resize(width, height);
+        viewer.spine.position.set(width * 0.5 , height * 0.8);
+    },
+    removeSd : function() {
+        viewer.app.stage.removeChildren();
+    },
+    loadSd: function(sd) {
+        viewer.sd.load(sd, viewer);
+    },
+    sdWidth: function (){
+        return viewer.app.view.width;
+    }
+};
+
+function centerSD(){
+    var containerWidth = document.getElementById("containerSD-" + current).getBoundingClientRect().width;
+    var sdWidth = viewer.sdWidth();
+    document.getElementById("canvasSD-" + current).style.left = Math.floor((containerWidth / 2) - (sdWidth / 2)) + "px";
+}
+
+window.onresize = function(){
+    viewer.onResize();
+    centerSD();
+}
+
+function loadShipSkinElements(skinID){
+    try {
+	viewer.removeSd();
+    } catch (err){
+    }
+
+    if (util.ifFileExists("https://algwiki.moe/assets/char/" + skinID + ".png")){
+	viewer.loadSd(skinID);
+    }
+
+    util.clearAllChildren("shipSkinExpressions-" + current);
+}
+
+function setShipExpressionNav(skin){
+    const expressions = tail(skin);
+    var firstIteration = true;
+    var initial = "";
+    var id = "";
+    for (x of expressions) {
+	var container = document.createElement("img");
+	container.id = "expr-" + current + "_" + x;
+	container.setAttribute("onclick", "onExpressionNavButtonClick(\"" + x + "\",\"" + skin[0] + "\")");
+	if (firstIteration){
+	    container.src = expressions.length == 1 ? "https://algwiki.moe/assets/squareicon/" + skin[0] + ".png" : "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "active expression";
+	    firstIteration = false;
+	    initial = x;
+	    id = x;
+	} else {
+	    container.src = "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "expression";
+	}
+
+	document.getElementById("shipSkinExpressions-" + current).appendChild(container);
+    }
+}
+
+function onExpressionNavButtonClick(exprID, skinID){
+    var id = "expr-" + current + "_" + exprID;
+    var obj = document.getElementById('shipSkinExpressions-' + current).children;
+
+    for (var i = 0; i < obj.length; ++i){
+	if (obj[i].id == id) {
+	    document.getElementById(id).classList.add('active');
+	    document.getElementById("painting-" + current).src = "https://algwiki.moe/assets/painting/" + skinID + (exprID == 0 ? "" : "-" + exprID) + ".png";
+	} else
+	    document.getElementById(obj[i].id).classList.remove('active');
+    }
+}
+
+var current = skins[0][0];
+
+function skinChange(i, skinID) {
+    current = skins[i][0];
+    viewer.init2();
+    loadShipSkinElements(skinID);
+    setShipExpressionNav(skins[i]);
+    onExpressionNavButtonClick(skins[i][1], skinID);
+}
+
+viewer.init("https://algwiki.moe/assets/char");
+loadShipSkinElements(skins[0][0]);
+setShipExpressionNav(skins[0]);
+onExpressionNavButtonClick(skins[0][1], skins[0][0]);
+</script><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
+Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.
+/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+The above copyright notice, and this permission notice shall be included in all copies or substantial portions of the Software.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.</pre></footer></div></body></html>

@@ -1,588 +1,672 @@
 {
-    "name_reference": "hai_tien",
-    "cn_reference": "haitian",
-    "nameJP": "",
-    "nameCN": "",
-    "ID": "531",
-    "name": "Hai Tien",
-    "internal_id": "502071",
-    "rarity": "Elite",
-    "initialStar": "★★☆☆☆",
-    "hull": "Light Cruiser",
-    "navy": "Dragon Empire",
-    "prefix": "ROC",
-    "buildTime": "",
-    "voiceActress": "",
-    "parameters": {
-        "firepower": "",
-        "torpedo": "",
-        "aviation": "",
-        "evasion": "",
-        "antiAir": "",
-        "hp": ""
+  "name_reference": "hai_tien",
+  "cn_reference": "haitian",
+  "nameJP": "",
+  "nameCN": "",
+  "ID": "531",
+  "name": "Hai Tien",
+  "internal_id": "502071",
+  "rarity": "Elite",
+  "initialStar": "★★☆☆☆",
+  "hull": "Light Cruiser",
+  "navy": "Dragon Empire",
+  "prefix": "ROC",
+  "buildTime": "",
+  "voiceActress": "",
+  "parameters": {
+    "firepower": "",
+    "torpedo": "",
+    "aviation": "",
+    "evasion": "",
+    "antiAir": "",
+    "hp": ""
+  },
+  "scrap": {
+    "gold": "",
+    "oil": "",
+    "medal": ""
+  },
+  "releaseDate": {
+    "JP": "",
+    "CN": "",
+    "KR": "",
+    "EN": ""
+  },
+  "artist": {
+    "name": "",
+    "weibo": "",
+    "twitter": "",
+    "pixiv": "",
+    "other": ""
+  },
+  "class": "Hai Chi-Class",
+  "enhance": {
+    "firepower": "",
+    "torpedo": "",
+    "aviation": "",
+    "reload": ""
+  },
+  "acquisitionMethod": "",
+  "skill": {
+    "1": {
+      "icon": "",
+      "requirement": "",
+      "name": "",
+      "type": "",
+      "description": ""
     },
-    "scrap": {
-        "gold": "",
-        "oil": "",
-        "medal": ""
+    "2": {
+      "icon": "",
+      "requirement": "",
+      "name": "",
+      "type": "",
+      "description": ""
     },
-    "releaseDate": {
-        "JP": "",
-        "CN": "",
-        "KR": "",
-        "EN": ""
+    "3": {
+      "icon": "",
+      "requirement": "",
+      "name": "",
+      "type": "",
+      "description": ""
     },
-    "artist": {
-        "name": "",
-        "weibo": "",
-        "twitter": "",
-        "pixiv": "",
-        "other": ""
-    },
-    "class": "Hai Chi-Class",
-    "enhance": {
-        "firepower": "",
-        "torpedo": "",
-        "aviation": "",
-        "reload": ""
-    },
-    "acquisitionMethod": "",
-    "skill": {
+    "4": {
+      "icon": "",
+      "requirement": "",
+      "name": "",
+      "type": "",
+      "description": ""
+    }
+  },
+  "skin": {
+    "1": {
+      "id": "haitian",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
         "1": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
+          "id": "1"
         },
         "2": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
+          "id": "2"
         },
         "3": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
+          "id": "3"
         },
         "4": {
-            "icon": "",
-            "requirement": "",
-            "name": "",
-            "type": "",
-            "description": ""
-        }
-    },
-    "skin": {
-        "1": {
-            "id": "haitian",
-            "name": "",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                },
-                "7": {
-                    "id": "7"
-                },
-                "8": {
-                    "id": "8"
-                },
-                "9": {
-                    "id": "9"
-                },
-                "10": {
-                    "id": "10"
-                }
-            }
-        },
-        "2": {
-            "id": "haitian_2",
-            "name": "",
-            "description": "",
-            "expression": {
-                "0": {
-                    "id": "0"
-                },
-                "1": {
-                    "id": "1"
-                },
-                "2": {
-                    "id": "2"
-                },
-                "3": {
-                    "id": "3"
-                },
-                "4": {
-                    "id": "4"
-                },
-                "5": {
-                    "id": "5"
-                },
-                "6": {
-                    "id": "6"
-                },
-                "7": {
-                    "id": "7"
-                },
-                "8": {
-                    "id": "8"
-                },
-                "9": {
-                    "id": "9"
-                },
-                "10": {
-                    "id": "10"
-                }
-            }
-        },
-        "101": {
-            "id": "haitian_ex1100",
-            "name": "",
-            "description": "",
-            "expression": {
-            "0": {
-                "id": "0"
-                }
-            }
-        }
-    },
-    "defaultEquipment": {
-        "1": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
-        },
-        "2": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
-        },
-        "3": {
-            "icon": "",
-            "rarity": "",
-            "name": ""
-        }
-    },
-    "stats": {
-        "100": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "120": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "base": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "100retrofit": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        },
-        "120retrofit": {
-            "hp": "",
-            "firepower": "",
-            "torpedo": "",
-            "antiAir": "",
-            "aviation": "",
-            "reload": "",
-            "hit": "",
-            "evasion": "",
-            "speed": "",
-            "luck": "",
-            "asw": "",
-            "oxygen": "",
-            "ammo": "",
-            "cost": "",
-            "armor": ""
-        }
-    },
-    "limitBreak": {
-        "tier1": "",
-        "tier2": "",
-        "tier3": ""
-    },
-    "equipmentLoadout": {
-        "1": {
-            "type": "",
-            "efficiency": "%/%/%/%",
-            "amount": "1/1/1/1",
-            "preload": "0/0/0/0"
-        },
-        "2": {
-            "type": "",
-            "efficiency": "%/%/%/%",
-            "amount": "1/1/2/2",
-            "preload": "0/0/1/1"
-        },
-        "3": {
-            "type": "",
-            "efficiency": "%/%/%/%",
-            "amount": "1/1/1/1",
-            "preload": "0/0/0/0"
-        },
-        "4": {
-            "type": "Auxilary",
-            "efficiency": "-",
-            "amount": "-",
-            "preload": "-"
+          "id": "4"
         },
         "5": {
-            "type": "Auxilary",
-            "efficiency": "-",
-            "amount": "-",
-            "preload": "-"
-        }
-    },
-    "fleet_tech": {
-        "pt_get": "",
-        "add_get_attr": "",
-        "add_get_value": "",
-        "add_get_shiptype": "",
-        "pt_upgrade": "",
-        "pt_level": "",
-        "add_level_attr": "",
-        "add_level_value": "",
-        "add_level_shiptype": "",
-        "t_level": "",
-        "ships": "hai_chi,hai_tien"
-    },
-    "build": {
-        "light": {
-            "JP": "✓",
-            "CN": "✓",
-            "EN": "✓"
+          "id": "5"
         },
-        "heavy": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "6": {
+          "id": "6"
         },
-        "special": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "7": {
+          "id": "7"
         },
-        "limited": {
-            "JP": "",
-            "CN": "",
-            "EN": ""
+        "8": {
+          "id": "8"
+        },
+        "9": {
+          "id": "9"
+        },
+        "10": {
+          "id": "10"
         }
+      }
     },
-    "drop": {
-        "droppable": "false",
-        "list": {
-            "1": {
-                "event": "",
-                "chapter": {
-                    "1": {
-                        "label": "Ch .1",
-                        "node": {
-                            "1": {
-                                "drop": "✓",
-                                "note": "-"
-                            }
-                        }
-                    }
-                }
-            }
+    "2": {
+      "id": "haitian_2",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        },
+        "7": {
+          "id": "7"
+        },
+        "8": {
+          "id": "8"
+        },
+        "9": {
+          "id": "9"
+        },
+        "10": {
+          "id": "10"
         }
+      }
     },
-    "lines": {
-        "skin": {
-            "1": {
-                "skin_id": "haitian",
-                "id": "0",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Biography",
-                        "media": "profile"
-                    },
-                    "3": {
-                        "event": "Acquisition",
-                        "media": "get"
-                    },
-                    "4": {
-                        "event": "Login",
-                        "media": "login"
-                    },
-                    "5": {
-                        "event": "Details",
-                        "media": "detail"
-                    },
-                    "6": {
-                        "event": "Main 1",
-                        "media": "main_1"
-                    },
-                    "7": {
-                        "event": "Main 2",
-                        "media": "main_2"
-                    },
-                    "8": {
-                        "event": "Main 3",
-                        "media": "main_3"
-                    },
-                    "9": {
-                        "event": "Touch",
-                        "media": "touch_1"
-                    },
-                    "10": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2"
-                    },
-                    "11": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head"
-                    },
-                    "12": {
-                        "event": "Mission",
-                        "media": "task"
-                    },
-                    "13": {
-                        "event": "Mission Complete",
-                        "media": "mission_complete"
-                    },
-                    "14": {
-                        "event": "Mail",
-                        "media": "mail"
-                    },
-                    "15": {
-                        "event": "Return to Port",
-                        "media": "home"
-                    },
-                    "16": {
-                        "event": "Commission Complete",
-                        "media": "expedition"
-                    },
-                    "17": {
-                        "event": "Enhancement",
-                        "media": "upgrade"
-                    },
-                    "18": {
-                        "event": "Flagship",
-                        "media": "warcry"
-                    },
-                    "19": {
-                        "event": "Victory",
-                        "media": "mvp"
-                    },
-                    "20": {
-                        "event": "Defeat",
-                        "media": "lose"
-                    },
-                    "21": {
-                        "event": "Skill",
-                        "media": "skill"
-                    },
-                    "22": {
-                        "event": "Low HP",
-                        "media": "hp"
-                    },
-                    "23": {
-                        "event": "Affinity (Upset)",
-                        "media": "feeling1"
-                    },
-                    "24": {
-                        "event": "Affinity (Stranger)",
-                        "media": "feeling2"
-                    },
-                    "25": {
-                        "event": "Affinity (Friendly)",
-                        "media": "feeling3"
-                    },
-                    "26": {
-                        "event": "Affinity (Like)",
-                        "media": "feeling4"
-                    },
-                    "27": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5"
-                    },
-                    "28": {
-                        "event": "Pledge",
-                        "media": "propose"
-                    },
-                    "29": {
-                        "event": "Additional Voice Line 1",
-                        "media": "link1"
-                    },
-                    "30": {
-                        "event": "Extra",
-                        "media": "extra"
-                    },
-                    "31": {
-                        "event": "Present Like",
-                        "media": "present_like"
-                    },
-                    "32": {
-                        "event": "Present Dislike",
-                        "media": "present_dislike"
-                    }
-                }
-            },
-            "2": {
-                "skin_id": "haitian_2",
-                "id": "1",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "2": {
-                        "event": "Acquisition",
-                        "media": "get_1"
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_1"
-                    },
-                    "5": {
-                        "event": "Main 1",
-                        "media": "main_1_1"
-                    },
-                    "6": {
-                        "event": "Main 2",
-                        "media": "main_2_1"
-                    },
-                    "7": {
-                        "event": "Main 3",
-                        "media": "main_3_1"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_1"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_1"
-                    },
-                    "10": {
-                        "event": "Return to Port",
-                        "media": "home_1"
-                    }
-                }
-            },
-            "101": {
-                "skin_id": "haitian_ex1100",
-                "id": "0",
-                "label": "",
-                "dialogue": {
-                    "1": {
-                        "event": "Ship Description",
-                        "media": ""
-                    },
-                    "3": {
-                        "event": "Login",
-                        "media": "login_ex1100"
-                    },
-                    "4": {
-                        "event": "Affinity (Love)",
-                        "media": "feeling5_ex1100"
-                    },
-                    "5": {
-                        "event": "Main 4",
-                        "media": "main_4_ex1100"
-                    },
-                    "8": {
-                        "event": "Touch",
-                        "media": "touch_1_ex1100"
-                    },
-                    "9": {
-                        "event": "Touch (Special)",
-                        "media": "touch_2_ex1100"
-                    },
-                    "10": {
-                        "event": "Touch (Headpat)",
-                        "media": "touch_head_ex1100"
-                    },
-                    "11": {
-                        "event": "Victory",
-                        "media": "mvp_ex1100"
-                    }
-                }
-            }
+    "3": {
+      "id": "haitian_3",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        },
+        "7": {
+          "id": "7"
+        },
+        "8": {
+          "id": "8"
+        },
+        "9": {
+          "id": "9"
         }
+      }
+    },
+    "101": {
+      "id": "haitian_ex1100",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
     }
+  },
+  "defaultEquipment": {
+    "1": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "2": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    },
+    "3": {
+      "icon": "",
+      "rarity": "",
+      "name": ""
+    }
+  },
+  "stats": {
+    "100": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "120": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "base": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "100retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    },
+    "120retrofit": {
+      "hp": "",
+      "firepower": "",
+      "torpedo": "",
+      "antiAir": "",
+      "aviation": "",
+      "reload": "",
+      "hit": "",
+      "evasion": "",
+      "speed": "",
+      "luck": "",
+      "asw": "",
+      "oxygen": "",
+      "ammo": "",
+      "cost": "",
+      "armor": ""
+    }
+  },
+  "limitBreak": {
+    "tier1": "",
+    "tier2": "",
+    "tier3": ""
+  },
+  "equipmentLoadout": {
+    "1": {
+      "type": "",
+      "efficiency": "%/%/%/%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "2": {
+      "type": "",
+      "efficiency": "%/%/%/%",
+      "amount": "1/1/2/2",
+      "preload": "0/0/1/1"
+    },
+    "3": {
+      "type": "",
+      "efficiency": "%/%/%/%",
+      "amount": "1/1/1/1",
+      "preload": "0/0/0/0"
+    },
+    "4": {
+      "type": "Auxilary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    },
+    "5": {
+      "type": "Auxilary",
+      "efficiency": "-",
+      "amount": "-",
+      "preload": "-"
+    }
+  },
+  "fleet_tech": {
+    "pt_get": "",
+    "add_get_attr": "",
+    "add_get_value": "",
+    "add_get_shiptype": "",
+    "pt_upgrade": "",
+    "pt_level": "",
+    "add_level_attr": "",
+    "add_level_value": "",
+    "add_level_shiptype": "",
+    "t_level": "",
+    "ships": "hai_chi,hai_tien"
+  },
+  "build": {
+    "light": {
+      "JP": "✓",
+      "CN": "✓",
+      "EN": "✓"
+    },
+    "heavy": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "special": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    },
+    "limited": {
+      "JP": "",
+      "CN": "",
+      "EN": ""
+    }
+  },
+  "drop": {
+    "droppable": "false",
+    "list": {
+      "1": {
+        "event": "",
+        "chapter": {
+          "1": {
+            "label": "Ch .1",
+            "node": {
+              "1": {
+                "drop": "✓",
+                "note": "-"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lines": {
+    "skin": {
+      "1": {
+        "skin_id": "haitian",
+        "id": "0",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Biography",
+            "media": "profile"
+          },
+          "3": {
+            "event": "Acquisition",
+            "media": "get"
+          },
+          "4": {
+            "event": "Login",
+            "media": "login"
+          },
+          "5": {
+            "event": "Details",
+            "media": "detail"
+          },
+          "6": {
+            "event": "Main 1",
+            "media": "main_1"
+          },
+          "7": {
+            "event": "Main 2",
+            "media": "main_2"
+          },
+          "8": {
+            "event": "Main 3",
+            "media": "main_3"
+          },
+          "9": {
+            "event": "Touch",
+            "media": "touch_1"
+          },
+          "10": {
+            "event": "Touch (Special)",
+            "media": "touch_2"
+          },
+          "11": {
+            "event": "Touch (Headpat)",
+            "media": "touch_head"
+          },
+          "12": {
+            "event": "Mission",
+            "media": "task"
+          },
+          "13": {
+            "event": "Mission Complete",
+            "media": "mission_complete"
+          },
+          "14": {
+            "event": "Mail",
+            "media": "mail"
+          },
+          "15": {
+            "event": "Return to Port",
+            "media": "home"
+          },
+          "16": {
+            "event": "Commission Complete",
+            "media": "expedition"
+          },
+          "17": {
+            "event": "Enhancement",
+            "media": "upgrade"
+          },
+          "18": {
+            "event": "Flagship",
+            "media": "warcry"
+          },
+          "19": {
+            "event": "Victory",
+            "media": "mvp"
+          },
+          "20": {
+            "event": "Defeat",
+            "media": "lose"
+          },
+          "21": {
+            "event": "Skill",
+            "media": "skill"
+          },
+          "22": {
+            "event": "Low HP",
+            "media": "hp"
+          },
+          "23": {
+            "event": "Affinity (Upset)",
+            "media": "feeling1"
+          },
+          "24": {
+            "event": "Affinity (Stranger)",
+            "media": "feeling2"
+          },
+          "25": {
+            "event": "Affinity (Friendly)",
+            "media": "feeling3"
+          },
+          "26": {
+            "event": "Affinity (Like)",
+            "media": "feeling4"
+          },
+          "27": {
+            "event": "Affinity (Love)",
+            "media": "feeling5"
+          },
+          "28": {
+            "event": "Pledge",
+            "media": "propose"
+          },
+          "29": {
+            "event": "Additional Voice Line 1",
+            "media": "link1"
+          },
+          "30": {
+            "event": "Extra",
+            "media": "extra"
+          },
+          "31": {
+            "event": "Present Like",
+            "media": "present_like"
+          },
+          "32": {
+            "event": "Present Dislike",
+            "media": "present_dislike"
+          }
+        }
+      },
+      "2": {
+        "skin_id": "haitian_2",
+        "id": "1",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_1"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_1"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_1"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_1"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_1"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_1"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_1"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_1"
+          }
+        }
+      },
+      "3": {
+        "skin_id": "haitian_3",
+        "id": "2",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_2"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_2"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_2"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_2"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_2"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_2"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_2"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_2"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_2"
+          }
+        }
+      },
+      "101": {
+        "skin_id": "haitian_ex1100",
+        "id": "0",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_ex1100"
+          },
+          "4": {
+            "event": "Affinity (Love)",
+            "media": "feeling5_ex1100"
+          },
+          "5": {
+            "event": "Main 4",
+            "media": "main_4_ex1100"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_ex1100"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_ex1100"
+          },
+          "10": {
+            "event": "Touch (Headpat)",
+            "media": "touch_head_ex1100"
+          },
+          "11": {
+            "event": "Victory",
+            "media": "mvp_ex1100"
+          }
+        }
+      }
+    }
+  }
 }

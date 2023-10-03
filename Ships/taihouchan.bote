@@ -92,6 +92,16 @@
           "id": "4"
         }
       }
+    },
+    "101": {
+      "id": "dafeng_younv_ex1100",
+      "name": "Taihou-chan",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        }
+      }
     }
   },
   "defaultEquipment": {
@@ -423,6 +433,49 @@
           "32": {
             "event": "Present Dislike",
             "media": "present_dislike"
+          }
+        }
+      },
+      "101": {
+        "skin_id": "dafeng_younv_ex1100",
+        "id": "0",
+        "label": "Taihou-chan",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_ex1100"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_ex1100"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_ex1100"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_ex1100"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_ex1100"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_ex1100"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_ex1100"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_ex1100"
           }
         }
       }

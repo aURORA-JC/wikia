@@ -134,6 +134,46 @@
         }
       }
     },
+    "3": {
+      "id": "hailunna_4",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        },
+        "6": {
+          "id": "6"
+        },
+        "7": {
+          "id": "7"
+        },
+        "8": {
+          "id": "8"
+        },
+        "9": {
+          "id": "9"
+        },
+        "10": {
+          "id": "10"
+        }
+      }
+    },
     "8": {
       "id": "hailunna_h",
       "name": "",
@@ -1116,6 +1156,53 @@
             "japaneseNote": "",
             "english": "You and my friends have always taken care of, looked after, and protected me. But that can't go on forever. I want to stand beside you and become someone people can count on... So, could you wait for me just a little longer... please?",
             "englishNote": ""
+          }
+        }
+      },
+      "4": {
+        "skin_id": "hailunna_4",
+        "id": "3",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_3"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_3"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_3"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_3"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_3"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_3"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_3"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_3"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_3"
           }
         }
       },

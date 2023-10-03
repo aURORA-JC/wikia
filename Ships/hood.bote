@@ -90,16 +90,6 @@
       }
     },
     "3": {
-      "id": "hude_h",
-      "name": "Rosey Love Poem ",
-      "description": "If the smooth path only allows one person to travel at a time, then I’ll gladly walk the path not taken with you hand-in-hand. ",
-      "expression": {
-        "0": {
-          "id": "0"
-        }
-      }
-    },
-    "4": {
       "id": "hude_3",
       "name": "",
       "description": "",
@@ -121,7 +111,7 @@
         }
       }
     },
-    "5": {
+    "4": {
       "id": "hude_4",
       "name": "",
       "description": "",
@@ -137,6 +127,41 @@
         },
         "3": {
           "id": "3"
+        }
+      }
+    },
+    "5": {
+      "id": "hude_5",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        }
+      }
+    },
+    "8": {
+      "id": "hude_h",
+      "name": "Rosey Love Poem ",
+      "description": "If the smooth path only allows one person to travel at a time, then I’ll gladly walk the path not taken with you hand-in-hand. ",
+      "expression": {
+        "0": {
+          "id": "0"
         }
       }
     }
@@ -820,97 +845,6 @@
         }
       },
       "3": {
-        "skin_id": "hude_h",
-        "id": "8",
-        "label": "Rosey Love Poem ",
-        "dialogue": {
-          "1": {
-            "event": "Ship Description",
-            "media": "",
-            "chinese": "如果平坦的路途只容许一人前行，那么我会欣然踏上能与你携手偕行的荆棘之道",
-            "chineseTL": "If the smooth path only allows one person to move forward, then I'll gladly hold hands with you and set foot on the thorny path.",
-            "chineseNote": "",
-            "japanese": "",
-            "japaneseTL": "",
-            "japaneseNote": "",
-            "english": "If the smooth path only allows one person to travel at a time, then I’ll gladly walk the path not taken with you hand-in-hand.",
-            "englishNote": ""
-          },
-          "2": {
-            "event": "Login",
-            "media": "login_8",
-            "chinese": "指挥官，勿需急躁，无垠的大海已向你敞开怀抱",
-            "chineseTL": "Commander, no need to be so hasty, the boundless seas are welcoming you with open arms.",
-            "chineseNote": "",
-            "japanese": "指揮官様、どうかご安心くださいませ。このフッドは青き海のようにあなたを受け入れますわ",
-            "japaneseTL": "Commander, please be at ease. This Hood will accept you like the vast blue seas.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "3": {
-            "event": "Main 1",
-            "media": "main_1_8",
-            "chinese": "指挥官今天准备了哪些红茶？呵呵，请允许我把这份期待留到茶会中",
-            "chineseTL": "Commander, what black tea did you prepare today? Oh, please let me hold onto that expectation until the tea party.",
-            "chineseNote": "",
-            "japanese": "指揮官様、今日はどんな紅茶を用意していただけるのかしら？うふふ、このお楽しみはあとのお茶会にあずけておきますわ",
-            "japaneseTL": "Commander, what black tea did you prepare today? Ufufu, I'll save this expectation for the tea party later.",
-            "japaneseNote": "",
-            "english": "nil",
-            "englishNote": ""
-          },
-          "4": {
-            "event": "Main 2",
-            "media": "main_2_8",
-            "chinese": "指挥官，等到七海复归于平静，我们再举行一次“帝国巡游”吧",
-            "chineseTL": "Commander, once the seven seas return to peace, let's re-enact \"The Empire Cruise\" again.",
-            "chineseNote": "",
-            "japanese": "指揮官様、この海が平和になりましたら、もう一度「世界巡行」と致しましょうか？",
-            "japaneseTL": "Commander, once the seas become peaceful, shall we re-enact \"The Empire Cruise\" again?",
-            "japaneseNote": "",
-            "english": "nil",
-            "englishNote": ""
-          },
-          "5": {
-            "event": "Touch",
-            "media": "touch_1_8",
-            "chinese": "指挥官，我来教你与淑女相处的礼仪吧",
-            "chineseTL": "Commander, let me teach you the proper etiquette when accompanying a lady.",
-            "chineseNote": "",
-            "japanese": "指揮官様、淑女と付き合う時のマナーをレクチャーいたしますわ",
-            "japaneseTL": "Commander, let me teach you the manners for when you're accompanying a lady.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "6": {
-            "event": "Touch (Special)",
-            "media": "touch_2_8",
-            "chinese": "不必这么着急……我永远都在你的身边",
-            "chineseTL": "There's no need to be so anxious... I'll always be by your side.",
-            "chineseNote": "",
-            "japanese": "そう慌てなくてもよろしくてよ？私はずっとあなたのそばにいますわ",
-            "japaneseTL": "There's no need to be this flustered? I'll always be by your side.",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          },
-          "7": {
-            "event": "Return to Port",
-            "media": "home_8",
-            "chinese": "每当你的容颜浮现于我的心底，我的精神便如云雀破晓，振翮而上——",
-            "chineseTL": "\"Haply I think on thee, and then my state, like to the lark at break of day arising from sullen earth\"-",
-            "chineseNote": "",
-            "japanese": "『君のことを思えば、私の心は、暗い大地から飛び立つ夜明けの揚げヒバリのように』――",
-            "japaneseTL": "\"Haply I think on thee, and then my state, like to the lark at break of day arising from sullen earth\"-",
-            "japaneseNote": "",
-            "english": "",
-            "englishNote": ""
-          }
-        }
-      },
-      "4": {
         "skin_id": "hude_3",
         "id": "2",
         "label": "",
@@ -1049,7 +983,7 @@
           }
         }
       },
-      "5": {
+      "4": {
         "skin_id": "hude_4",
         "id": "3",
         "label": "",
@@ -1093,6 +1027,144 @@
           "10": {
             "event": "Return to Port",
             "media": "home_3"
+          }
+        }
+      },
+      "5": {
+        "skin_id": "hude_5",
+        "id": "4",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_4"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_4"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_4"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_4"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_4"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_4"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_4"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_4"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_4"
+          }
+        }
+      },
+      "8": {
+        "skin_id": "hude_h",
+        "id": "8",
+        "label": "Rosey Love Poem ",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": "",
+            "chinese": "如果平坦的路途只容许一人前行，那么我会欣然踏上能与你携手偕行的荆棘之道",
+            "chineseTL": "If the smooth path only allows one person to move forward, then I'll gladly hold hands with you and set foot on the thorny path.",
+            "chineseNote": "",
+            "japanese": "",
+            "japaneseTL": "",
+            "japaneseNote": "",
+            "english": "If the smooth path only allows one person to travel at a time, then I’ll gladly walk the path not taken with you hand-in-hand.",
+            "englishNote": ""
+          },
+          "2": {
+            "event": "Login",
+            "media": "login_8",
+            "chinese": "指挥官，勿需急躁，无垠的大海已向你敞开怀抱",
+            "chineseTL": "Commander, no need to be so hasty, the boundless seas are welcoming you with open arms.",
+            "chineseNote": "",
+            "japanese": "指揮官様、どうかご安心くださいませ。このフッドは青き海のようにあなたを受け入れますわ",
+            "japaneseTL": "Commander, please be at ease. This Hood will accept you like the vast blue seas.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "3": {
+            "event": "Main 1",
+            "media": "main_1_8",
+            "chinese": "指挥官今天准备了哪些红茶？呵呵，请允许我把这份期待留到茶会中",
+            "chineseTL": "Commander, what black tea did you prepare today? Oh, please let me hold onto that expectation until the tea party.",
+            "chineseNote": "",
+            "japanese": "指揮官様、今日はどんな紅茶を用意していただけるのかしら？うふふ、このお楽しみはあとのお茶会にあずけておきますわ",
+            "japaneseTL": "Commander, what black tea did you prepare today? Ufufu, I'll save this expectation for the tea party later.",
+            "japaneseNote": "",
+            "english": "nil",
+            "englishNote": ""
+          },
+          "4": {
+            "event": "Main 2",
+            "media": "main_2_8",
+            "chinese": "指挥官，等到七海复归于平静，我们再举行一次“帝国巡游”吧",
+            "chineseTL": "Commander, once the seven seas return to peace, let's re-enact \"The Empire Cruise\" again.",
+            "chineseNote": "",
+            "japanese": "指揮官様、この海が平和になりましたら、もう一度「世界巡行」と致しましょうか？",
+            "japaneseTL": "Commander, once the seas become peaceful, shall we re-enact \"The Empire Cruise\" again?",
+            "japaneseNote": "",
+            "english": "nil",
+            "englishNote": ""
+          },
+          "5": {
+            "event": "Touch",
+            "media": "touch_1_8",
+            "chinese": "指挥官，我来教你与淑女相处的礼仪吧",
+            "chineseTL": "Commander, let me teach you the proper etiquette when accompanying a lady.",
+            "chineseNote": "",
+            "japanese": "指揮官様、淑女と付き合う時のマナーをレクチャーいたしますわ",
+            "japaneseTL": "Commander, let me teach you the manners for when you're accompanying a lady.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "6": {
+            "event": "Touch (Special)",
+            "media": "touch_2_8",
+            "chinese": "不必这么着急……我永远都在你的身边",
+            "chineseTL": "There's no need to be so anxious... I'll always be by your side.",
+            "chineseNote": "",
+            "japanese": "そう慌てなくてもよろしくてよ？私はずっとあなたのそばにいますわ",
+            "japaneseTL": "There's no need to be this flustered? I'll always be by your side.",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
+          },
+          "7": {
+            "event": "Return to Port",
+            "media": "home_8",
+            "chinese": "每当你的容颜浮现于我的心底，我的精神便如云雀破晓，振翮而上——",
+            "chineseTL": "\"Haply I think on thee, and then my state, like to the lark at break of day arising from sullen earth\"-",
+            "chineseNote": "",
+            "japanese": "『君のことを思えば、私の心は、暗い大地から飛び立つ夜明けの揚げヒバリのように』――",
+            "japaneseTL": "\"Haply I think on thee, and then my state, like to the lark at break of day arising from sullen earth\"-",
+            "japaneseNote": "",
+            "english": "",
+            "englishNote": ""
           }
         }
       }

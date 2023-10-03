@@ -125,6 +125,69 @@
     "repair": 0,
     "weapon_ids": []
   },
+  "9701031": {
+    "breakout_id": 9701032,
+    "breakout_view": "Unlock Smoldering Core – Hatakaze/Torpedo efficiency +5%",
+    "gold": 500,
+    "id": 9701031,
+    "item1": 21024,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      170141
+    ]
+  },
+  "9701032": {
+    "breakout_id": 9701033,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "gold": 1500,
+    "id": 9701032,
+    "item1": 21024,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9701031,
+    "repair": 0,
+    "weapon_ids": [
+      105,
+      105
+    ]
+  },
+  "9701033": {
+    "breakout_id": 9701034,
+    "breakout_view": "Improve Smoldering Core – Hatakaze/All weapons' efficiency +5%",
+    "gold": 2500,
+    "id": 9701033,
+    "item1": 21024,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9701032,
+    "repair": 0,
+    "weapon_ids": [
+      170142
+    ]
+  },
+  "9701034": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "gold": 0,
+    "id": 9701034,
+    "item1": 21024,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9701033,
+    "repair": 0,
+    "weapon_ids": []
+  },
   "9702011": {
     "breakout_id": 9702012,
     "breakout_view": "Unlock Ashen Might – Helena/Main gun efficiency +5%",
@@ -377,6 +440,69 @@
     "repair": 0,
     "weapon_ids": []
   },
+  "9702051": {
+    "breakout_id": 9702052,
+    "breakout_view": "Unlock Framework of Logic – Jintsuu/Main gun efficiency +5%",
+    "gold": 1000,
+    "id": 9702051,
+    "item1": 21025,
+    "item1_num": 1,
+    "item2": 21025,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      170171
+    ]
+  },
+  "9702052": {
+    "breakout_id": 9702053,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "gold": 3000,
+    "id": 9702052,
+    "item1": 21025,
+    "item1_num": 1,
+    "item2": 21025,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9702051,
+    "repair": 0,
+    "weapon_ids": [
+      105,
+      105
+    ]
+  },
+  "9702053": {
+    "breakout_id": 9702054,
+    "breakout_view": "Improve Framework of Logic – Jintsuu/Torpedo efficiency +15%",
+    "gold": 10000,
+    "id": 9702053,
+    "item1": 21025,
+    "item1_num": 2,
+    "item2": 21025,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9702052,
+    "repair": 0,
+    "weapon_ids": [
+      170172
+    ]
+  },
+  "9702054": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "gold": 0,
+    "id": 9702054,
+    "item1": 21025,
+    "item1_num": 0,
+    "item2": 21025,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9702053,
+    "repair": 0,
+    "weapon_ids": []
+  },
   "9703011": {
     "breakout_id": 9703012,
     "breakout_view": "Unlock Flickering Light – Trento/Main gun efficiency +5%",
@@ -437,6 +563,69 @@
     "item2_num": 0,
     "level": 0,
     "pre_id": 9703013,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9703021": {
+    "breakout_id": 9703022,
+    "breakout_view": "Unlock Cinders of Hope – Algérie/Main Gun efficiency +5%",
+    "gold": 1000,
+    "id": 9703021,
+    "item1": 21023,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      80011
+    ]
+  },
+  "9703022": {
+    "breakout_id": 9703023,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "gold": 3000,
+    "id": 9703022,
+    "item1": 21023,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9703021,
+    "repair": 0,
+    "weapon_ids": [
+      105,
+      105
+    ]
+  },
+  "9703023": {
+    "breakout_id": 9703024,
+    "breakout_view": "Improve Cinders of Hope – Algérie/Torpedo efficiency +15%",
+    "gold": 10000,
+    "id": 9703023,
+    "item1": 21023,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9703022,
+    "repair": 0,
+    "weapon_ids": [
+      80012
+    ]
+  },
+  "9703024": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "gold": 0,
+    "id": 9703024,
+    "item1": 21023,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9703023,
     "repair": 0,
     "weapon_ids": []
   },
@@ -1106,6 +1295,75 @@
     "item2_num": 0,
     "level": 0,
     "pre_id": 9706023,
+    "repair": 0,
+    "weapon_ids": []
+  },
+  "9706031": {
+    "breakout_id": 9706032,
+    "breakout_view": "Unlock Ashen Might – Princeton/All fighters +1/Fighter efficiency +5%",
+    "gold": 500,
+    "id": 9706031,
+    "item1": 21026,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 10,
+    "pre_id": 0,
+    "repair": 0,
+    "weapon_ids": [
+      60391,
+      54011
+    ]
+  },
+  "9706032": {
+    "breakout_id": 9706033,
+    "breakout_view": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+    "gold": 1500,
+    "id": 9706032,
+    "item1": 21026,
+    "item1_num": 1,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 30,
+    "pre_id": 9706031,
+    "repair": 0,
+    "weapon_ids": [
+      60392,
+      54011,
+      60392,
+      54011
+    ]
+  },
+  "9706033": {
+    "breakout_id": 9706034,
+    "breakout_view": "Improve Ashen Might – Princeton/All aircraft +1/Torpedo Bomber efficiency +15%",
+    "gold": 2500,
+    "id": 9706033,
+    "item1": 21026,
+    "item1_num": 2,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 70,
+    "pre_id": 9706032,
+    "repair": 0,
+    "weapon_ids": [
+      60393,
+      54012,
+      60393,
+      54012
+    ]
+  },
+  "9706034": {
+    "breakout_id": 0,
+    "breakout_view": "N/A",
+    "gold": 0,
+    "id": 9706034,
+    "item1": 21026,
+    "item1_num": 0,
+    "item2": 21001,
+    "item2_num": 0,
+    "level": 0,
+    "pre_id": 9706033,
     "repair": 0,
     "weapon_ids": []
   },

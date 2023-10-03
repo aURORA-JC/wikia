@@ -186,6 +186,56 @@
           "id": "6"
         }
       }
+    },
+    "6": {
+      "id": "aisaikesi_7",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        }
+      }
+    },
+    "7": {
+      "id": "aisaikesi_8",
+      "name": "",
+      "description": "",
+      "expression": {
+        "0": {
+          "id": "0"
+        },
+        "1": {
+          "id": "1"
+        },
+        "2": {
+          "id": "2"
+        },
+        "3": {
+          "id": "3"
+        },
+        "4": {
+          "id": "4"
+        },
+        "5": {
+          "id": "5"
+        }
+      }
     }
   },
   "defaultEquipment": {
@@ -1250,6 +1300,100 @@
           "10": {
             "event": "Return to Port",
             "media": "home_4"
+          }
+        }
+      },
+      "6": {
+        "skin_id": "aisaikesi_7",
+        "id": "5",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_5"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_5"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_5"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_5"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_5"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_5"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_5"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_5"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_5"
+          }
+        }
+      },
+      "7": {
+        "skin_id": "aisaikesi_8",
+        "id": "6",
+        "label": "",
+        "dialogue": {
+          "1": {
+            "event": "Ship Description",
+            "media": ""
+          },
+          "2": {
+            "event": "Acquisition",
+            "media": "get_6"
+          },
+          "3": {
+            "event": "Login",
+            "media": "login_6"
+          },
+          "4": {
+            "event": "Details",
+            "media": "detail_6"
+          },
+          "5": {
+            "event": "Main 1",
+            "media": "main_1_6"
+          },
+          "6": {
+            "event": "Main 2",
+            "media": "main_2_6"
+          },
+          "7": {
+            "event": "Main 3",
+            "media": "main_3_6"
+          },
+          "8": {
+            "event": "Touch",
+            "media": "touch_1_6"
+          },
+          "9": {
+            "event": "Touch (Special)",
+            "media": "touch_2_6"
+          },
+          "10": {
+            "event": "Return to Port",
+            "media": "home_6"
           }
         }
       }
