@@ -4886,6 +4886,114 @@
         "rarity": "Elite",
         "shipType": "common"
     },
+    "609": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xiusidunII.png",
+        "link": "houston_ii",
+        "name": "Houston II",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "610": {
+        "hull": "Sailing Frigate",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jinluhao.png",
+        "link": "golden_hind",
+        "name": "Golden Hind",
+        "navy": "Tempesta",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "611": {
+        "hull": "Sailing Frigate",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/mali.png",
+        "link": "mary_celeste",
+        "name": "Mary Celeste",
+        "navy": "Tempesta",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "612": {
+        "hull": "Sailing Frigate",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jialimaoxian.png",
+        "link": "adventure_galley",
+        "name": "Adventure Galley",
+        "navy": "Tempesta",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "613": {
+        "hull": "Sailing Frigate",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shengmading.png",
+        "link": "sao_martinho",
+        "name": "São Martinho",
+        "navy": "Tempesta",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "614": {
+        "hull": "Sailing Frigate",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/weida.png",
+        "link": "whydah",
+        "name": "Whydah",
+        "navy": "Tempesta",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "615": {
+        "hull": "Destroyer",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/lafeiII.png",
+        "link": "laffey_ii",
+        "name": "Laffey II",
+        "navy": "Eagle Union",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "616": {
+        "hull": "Super Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/guandao.png",
+        "link": "guam",
+        "name": "Guam",
+        "navy": "Eagle Union",
+        "rarity": "Ultra Rare",
+        "shipType": "common"
+    },
+    "617": {
+        "hull": "Battlecruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xingzuo.png",
+        "link": "constellation",
+        "name": "Constellation",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
+    "618": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/shenghaxintuo.png",
+        "link": "san_jacinto",
+        "name": "San Jacinto",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "619": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/luyisiweier.png",
+        "link": "louisville",
+        "name": "Louisville",
+        "navy": "Eagle Union",
+        "rarity": "Elite",
+        "shipType": "common"
+    },
+    "620": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/songdiao.png",
+        "link": "flasher",
+        "name": "Flasher",
+        "navy": "Eagle Union",
+        "rarity": "Super Rare",
+        "shipType": "common"
+    },
     "P001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/haiwangxing.png",
@@ -5408,6 +5516,24 @@
         "rarity": "Elite",
         "shipType": "META"
     },
+    "M027": {
+        "hull": "Monitor",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/heianjie_alter.png",
+        "link": "erebus_meta",
+        "name": "Erebus META",
+        "navy": "META",
+        "rarity": "Elite",
+        "shipType": "META"
+    },
+    "M028": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/jiluofu_alter.png",
+        "link": "kirov_meta",
+        "name": "Kirov META",
+        "navy": "META",
+        "rarity": "Super Rare",
+        "shipType": "META"
+    },
     "C001": {
         "hull": "Light Cruiser",
         "icon": "https://algwiki.moe/assets/shipyardicon_new/HDN101.png",
@@ -5928,6 +6054,69 @@
         "name": "Kala Ideas",
         "navy": "Atelier Ryza",
         "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C101": {
+        "hull": "Light Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/feiniao.png",
+        "link": "asuka_sk",
+        "name": "Asuka",
+        "navy": "Senran Kagura",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C102": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/banjiu.png",
+        "link": "ikaruga_sk",
+        "name": "Ikaruga",
+        "navy": "Senran Kagura",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C103": {
+        "hull": "Submarine",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/yan.png",
+        "link": "homura_sk",
+        "name": "Homura",
+        "navy": "Senran Kagura",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C104": {
+        "hull": "Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xuequan.png",
+        "link": "yumi_sk",
+        "name": "Yumi",
+        "navy": "Senran Kagura",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C105": {
+        "hull": "Battleship",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xuebugui.png",
+        "link": "fubuki_sk",
+        "name": "Fubuki",
+        "navy": "Senran Kagura",
+        "rarity": "Super Rare",
+        "shipType": "collab"
+    },
+    "C106": {
+        "hull": "Light Aircraft Carrier",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/zi_shanluan.png",
+        "link": "murasaki_sk",
+        "name": "Murasaki",
+        "navy": "Senran Kagura",
+        "rarity": "Elite",
+        "shipType": "collab"
+    },
+    "C107": {
+        "hull": "Heavy Cruiser",
+        "icon": "https://algwiki.moe/assets/shipyardicon_new/xishao.png",
+        "link": "yuuyaki_sk",
+        "name": "Yuuyaki",
+        "navy": "Senran Kagura",
+        "rarity": "Elite",
         "shipType": "collab"
     },
     "X001": {

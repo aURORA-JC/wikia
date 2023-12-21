@@ -1,0 +1,562 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>/alg/ Wiki - Golden Hind</title><style type="text/css">th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #373743;
+    border-color: #5c5d70;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+}
+
+th, td {
+    border-color: #5c5d70;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.title {
+    height: 1.5rem;
+}
+
+.subtitle {
+    background-color: #24252d;
+    height: 1.5rem;
+}
+
+body {
+    color: white;
+    background-color: #494a5a;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: block;
+    position: relative;
+}
+
+.tabs .tab {
+    float: left;
+    display: block;
+}
+
+input[name^="skinSelectors"] {
+    display: none;
+}
+
+.skinContent {
+    display: none;
+}
+
+.expression.active {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px white, -1px 1px 4px white, 1px -1px 4px white, -1px -1px 4px white;
+}
+
+.expression {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[name^="skinSelectors"] + label {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+input[name^="skinSelectors"]:checked + label {
+    opacity: 1;
+}
+
+#statSelector-base:checked ~ #statContent-base,
+#statSelector-100:checked ~ #statContent-100,
+#statSelector-100retrofit:checked ~ #statContent-100retrofit,
+#statSelector-120:checked ~ #statContent-120,
+#statSelector-120retrofit:checked ~ #statContent-120retrofit,
+#skinSelector-skinView-0:checked ~ #skinContent-skinView-0,
+#skinSelector-skinView-1:checked ~ #skinContent-skinView-1,
+#skinSelector-skinView-2:checked ~ #skinContent-skinView-2,
+#skinSelector-skinView-3:checked ~ #skinContent-skinView-3,
+#skinSelector-skinView-4:checked ~ #skinContent-skinView-4,
+#skinSelector-skinView-5:checked ~ #skinContent-skinView-5,
+#skinSelector-skinView-6:checked ~ #skinContent-skinView-6,
+#skinSelector-skinView-7:checked ~ #skinContent-skinView-7,
+#skinSelector-skinView-8:checked ~ #skinContent-skinView-8,
+#skinSelector-skinView-9:checked ~ #skinContent-skinView-9,
+#skinSelector-skinView-10:checked ~ #skinContent-skinView-10,
+#skinSelector-skinView-11:checked ~ #skinContent-skinView-11,
+#skinSelector-skinView-12:checked ~ #skinContent-skinView-12,
+#skinSelector-skinView-13:checked ~ #skinContent-skinView-13,
+#skinSelector-skinView-14:checked ~ #skinContent-skinView-14,
+#skinSelector-skinView-15:checked ~ #skinContent-skinView-15,
+#skinSelector-skinView-16:checked ~ #skinContent-skinView-16,
+#skinSelector-skinView-17:checked ~ #skinContent-skinView-17,
+#skinSelector-skinView-18:checked ~ #skinContent-skinView-18,
+#skinSelector-skinView-19:checked ~ #skinContent-skinView-19,
+#skinSelector-techView-0:checked ~ #skinContent-techView-0,
+#skinSelector-techView-1:checked ~ #skinContent-techView-1,
+#skinSelector-techView-2:checked ~ #skinContent-techView-2,
+#skinSelector-techView-3:checked ~ #skinContent-techView-3,
+#skinSelector-techView-4:checked ~ #skinContent-techView-4,
+#skinSelector-techView-5:checked ~ #skinContent-techView-5,
+#skinSelector-techView-6:checked ~ #skinContent-techView-6,
+#skinSelector-techView-7:checked ~ #skinContent-techView-7,
+#skinSelector-techView-8:checked ~ #skinContent-techView-8,
+#skinSelector-techView-9:checked ~ #skinContent-techView-9,
+#skinSelector-techView-10:checked ~ #skinContent-techView-10,
+#skinSelector-techView-11:checked ~ #skinContent-techView-11,
+#skinSelector-techView-12:checked ~ #skinContent-techView-12,
+#skinSelector-techView-13:checked ~ #skinContent-techView-13,
+#skinSelector-techView-14:checked ~ #skinContent-techView-14,
+#skinSelector-techView-15:checked ~ #skinContent-techView-15,
+#skinSelector-techView-16:checked ~ #skinContent-techView-16,
+#skinSelector-techView-17:checked ~ #skinContent-techView-17,
+#skinSelector-techView-18:checked ~ #skinContent-techView-18,
+#skinSelector-techView-19:checked ~ #skinContent-techView-19,
+#skinSelector-lineView-0:checked ~ #skinContent-lineView-0,
+#skinSelector-lineView-1:checked ~ #skinContent-lineView-1,
+#skinSelector-lineView-2:checked ~ #skinContent-lineView-2,
+#skinSelector-lineView-3:checked ~ #skinContent-lineView-3,
+#skinSelector-lineView-4:checked ~ #skinContent-lineView-4,
+#skinSelector-lineView-5:checked ~ #skinContent-lineView-5,
+#skinSelector-lineView-6:checked ~ #skinContent-lineView-6,
+#skinSelector-lineView-7:checked ~ #skinContent-lineView-7,
+#skinSelector-lineView-8:checked ~ #skinContent-lineView-8,
+#skinSelector-lineView-9:checked ~ #skinContent-lineView-9,
+#skinSelector-lineView-10:checked ~ #skinContent-lineView-10,
+#skinSelector-lineView-11:checked ~ #skinContent-lineView-11,
+#skinSelector-lineView-12:checked ~ #skinContent-lineView-12,
+#skinSelector-lineView-13:checked ~ #skinContent-lineView-13,
+#skinSelector-lineView-14:checked ~ #skinContent-lineView-14,
+#skinSelector-lineView-15:checked ~ #skinContent-lineView-15,
+#skinSelector-lineView-16:checked ~ #skinContent-lineView-16,
+#skinSelector-lineView-17:checked ~ #skinContent-lineView-17,
+#skinSelector-lineView-18:checked ~ #skinContent-lineView-18,
+#skinSelector-lineView-19:checked ~ #skinContent-lineView-19 {
+    display: block;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #373743;
+    color: #fff;
+    font-size: 15px;
+}
+
+#sidebar .subheader {
+    background: #24252d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#sidebar ol li a:hover {
+    background: #6e6f87;
+}
+
+#sidebar ol li a {
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
+
+#sidebarEscape {
+    margin-left: 250px;
+    padding: 10px 10px 10px 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #24252d;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+details {
+    background-color: #373743;
+    border-color: #5c5d70;
+    margin-bottom: 20px;
+}
+
+summary {
+    background-color: #24252d;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: safe space-evenly;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.ship {
+    vertical-align: top;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    border: 3px double #ffffff;
+    background: #24252d;
+    width: 108px;
+    height: 220px;
+    position: relative;
+}
+
+.hull {
+    padding-left: 3px;
+    padding-right: 5px;
+    width: 33px;
+    height: auto;
+}
+
+.navy {
+    padding-right:5px;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+@keyframes snowflakes-fall {
+    0%   {top:-10%}
+    100% {top:100%}
+}
+
+@keyframes snowflakes-shake {
+    0%   {transform:translateX(0px)}
+    50%  {transform:translateX(80px)}
+    100% {transform:translateX(0px)}
+}
+
+.snowflake {
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    user-select:none;
+    cursor:default;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+}
+
+.snowflake:nth-of-type(0) {
+    left:1%;
+    animation-delay:0s,0s;
+}
+.snowflake:nth-of-type(1) {
+    left:10%;
+    animation-delay:1s,1s;
+}
+.snowflake:nth-of-type(2) {
+    left:20%;
+    animation-delay:6s,.5s;
+}
+.snowflake:nth-of-type(3) {
+    left:30%;
+    animation-delay:4s,2s;
+}
+.snowflake:nth-of-type(4) {
+    left:40%;
+    animation-delay:2s,2s;
+}
+.snowflake:nth-of-type(5) {
+    left:50%;
+    animation-delay:8s,3s;
+}
+.snowflake:nth-of-type(6) {
+    left:60%;
+    animation-delay:6s,2s;
+}
+.snowflake:nth-of-type(7) {
+    left:70%;
+    animation-delay:2.5s,1s;
+}
+.snowflake:nth-of-type(8) {
+    left:80%;
+    animation-delay:1s,0s;
+}
+.snowflake:nth-of-type(9) {
+    left:90%;
+    animation-delay:3s,1.5s;
+}
+</style><style type="text/css">.title {background: rgb(190, 185, 136);}</style><script src="https://algwiki.moe/js/pixi.min-4.7.1.js"></script><script src="https://algwiki.moe/js/live2dcubismcore.min.js"></script><script src="https://algwiki.moe/js/live2dcubismframework.js"></script><script src="https://algwiki.moe/js/live2dcubismpixi.js"></script><script src="https://algwiki.moe/js/pixi-spine.js"></script><script src="https://algwiki.moe/js/SkeletonBinary.js"></script></head><body><nav id="sidebar"><ol><li class="subheader"><h1>/alg/ Wiki</h1></li><li class="subheader">Database</li><li><a href="https://algwiki.moe/shiplist.html">Shiplist by ID</a></li><li><a href="https://algwiki.moe/shiplist_alpha.html">Shiplist by Name</a></li><li><a href="https://algwiki.moe/navy/index.html">Faction Shiplists</a></li><li><a href="https://algwiki.moe/hull/index.html">Class Shiplists</a></li><li><a href="https://algwiki.moe/rarity/index.html">Rarity Shiplists</a></li><li class="subheader">Tools</li><li><a href="https://sd.algwiki.moe/">SD viewer</a></li><li><a href="https://l2d.algwiki.moe/">L2D viewer</a></li><li><a href="https://fleet.algwiki.moe/">Fleet Maker</a></li><li><a href="https://algwiki.moe/player">Music Player</a></li><li><a href="https://docs.google.com/spreadsheets/d/1yj1l-kybw3Ymb3T681EzNeBR_9YN6DgIk5xhaD6_Id4/edit#gid=0">Porn</a></li></ol></nav><div id="sidebarEscape"><nav><a href="/">Home</a> &gt; <a href="../shiplist.html">Shiplist</a> &gt; Golden Hind</nav><main><table><tr><td><table><tr><th class="title" scope="col" colspan="5">Golden Hind (JP 🇯🇵: , CN 🇹🇼: )</th></tr><tr><td rowspan="3"><img src="https://algwiki.moe/assets/squareicon/jinluhao.png"></td><th>Ship ID</th><td>No. 610</td><th>Star Rating</th><td>★★★☆☆☆</td></tr><tr><th><a href="../hull/index.html">Hull</a></th><td><img src="https://algwiki.moe/Images/Hull/sf.png" style="height: auto; width: 35px"> Sailing Frigate</td><th>Rarity</th><td>Super Rare</td></tr><tr><th><a href="../navy/index.html">Navy</a></th><td><img src="https://algwiki.moe/Images/Navy/uwrr_icon.png">Tempesta</td><th>Build Time</th><td></td></tr><tr><th scope="row">Acquisition</th><td colspan="4"></td></tr><tr><th scope="row">Enhance Income</th><td colspan="4"><table><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</td><td style="text-align: left;padding-left:5px;">13</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</td><td style="text-align: left;padding-left:5px;">0</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</td><td style="text-align: left;padding-left:5px;">0</td></tr><tr><td colspan="3" style="text-align: left; width: 70%;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</td><td style="text-align: left;padding-left:5px;">12</td></tr></table></td></tr><tr><th scope="row">Scrap Income</th><td colspan="4"><table><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/medal_icon.png" style=""> Medal</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/oil_icon.png" style=""> Oil</td><td style="text-align: left;padding-left:5px;"></td></tr><tr><td style="text-align: left; width: 70%;" colspan="3"><img src="https://algwiki.moe/Images/gold_icon.png" style=""> Gold</td><td style="text-align: left;padding-left:5px;"></td></tr></table></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="2">Information</th></tr><tr><th scope="row">Release Date</th><td><table><tr><td colspan="1">EN</td><td></td></tr><tr><td colspan="1">KR</td><td></td></tr><tr><td colspan="1">CN</td><td></td></tr><tr><td colspan="1">JP</td><td></td></tr></table></td></tr><tr><th scope="row">Voice actress</th><td></td></tr><tr><th class="subtitle" scope="col" colspan="2">Illustrator</th></tr><tr><td colspan="1">Other</td><td></td></tr><tr><td colspan="1">Pixiv</td><td></td></tr><tr><td colspan="1">Twitter</td><td></td></tr><tr><td colspan="1">Weibo</td><td></td></tr><tr><td colspan="1">Name</td><td></td></tr></table></td></tr><tr><td colspan="2"><table class="full"><tr><th class="title" scope="col">Skins</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-skinView" autocomplete="off" id="skinSelector-skinView-0" type="radio" checked="" onchange="skinChange(0,&quot;jinluhao&quot;)"><label for="skinSelector-skinView-0"><img src="https://algwiki.moe/assets/herohrzicon/jinluhao.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-skinView" autocomplete="off" id="skinSelector-skinView-1" type="radio" onchange="skinChange(1,&quot;jinluhao_2&quot;)"><label for="skinSelector-skinView-1"><img src="https://algwiki.moe/assets/herohrzicon/jinluhao_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-skinView-0" class="skinContent"><table><tr><th style="min-width: 50%" class="subtitle">Golden Hind</th><th class="subtitle">Description</th></tr><tr><td rowspan="5"><img id="painting-jinluhao" src="https://algwiki.moe/assets/painting/jinluhao.png" style="max-width: 100%;"></td><td></td></tr><tr><td id="containerSD-jinluhao"><select id="selectAnimation-jinluhao"></select><div id="canvasSD-jinluhao"></div></td></tr><tr><th class="subtitle">Expressions</th></tr><tr><td id="shipSkinExpressions-jinluhao"></td></tr></table></div><div id="skinContent-skinView-1" class="skinContent"><table><tr><th style="min-width: 50%" class="subtitle"></th><th class="subtitle">Description</th></tr><tr><td rowspan="5"><img id="painting-jinluhao_2" src="https://algwiki.moe/assets/painting/jinluhao_2.png" style="max-width: 100%;"></td><td></td></tr><tr><td id="containerSD-jinluhao_2"><select id="selectAnimation-jinluhao_2"></select><div id="canvasSD-jinluhao_2"></div></td></tr><tr><th class="subtitle">Expressions</th></tr><tr><td id="shipSkinExpressions-jinluhao_2"></td></tr></table></div></div></td></tr></table></td></tr><tr><td><table><tr><th class="title" scope="col" colspan="2">Parameters</th></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</td><td style="text-align: left; padding-left:5px;">B</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</td><td style="text-align: left; padding-left:5px;">E</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</td><td style="text-align: left; padding-left:5px;">E</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</td><td style="text-align: left; padding-left:5px;">C</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</td><td style="text-align: left; padding-left:5px;">E</td></tr><tr><td style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</td><td style="text-align: left; padding-left:5px;">C</td></tr><tr><th class="subtitle" scope="col" colspan="2">Stats</th></tr><tr><td colspan="2"><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100" type="radio"><label for="statSelector-100" style="margin-left: 5px;border-style: solid;">100</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120" type="radio"><label for="statSelector-120" style="margin-left: 5px;border-style: solid;">120</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-base" type="radio" checked=""><label for="statSelector-base" style="margin-left: 5px;border-style: solid;">Base</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-100retrofit" type="radio"><label for="statSelector-100retrofit" style="margin-left: 5px;border-style: solid;">100 Retrofit</label><input name="skinSelectors-stat" autocomplete="off" id="statSelector-120retrofit" type="radio"><label for="statSelector-120retrofit" style="margin-left: 5px;border-style: solid;">120 Retrofit</label><div id="statContent-base" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center">544</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center">62</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center">32</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center">26</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center">78</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center">57</td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center">8</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3">Light</td></tr></table></div><div id="statContent-120" class="skinContent"><table><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/health_icon.png"> HP</th><td style="width:15%;text-align:center">2276</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/reload_icon.png"> Reload</th><td style="width:15%;text-align:center">119</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/firepower_icon.png"> Firepower</th><td style="width:15%;text-align:center">90</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/torpedo_icon.png"> Torpedo</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/evasion_icon.png"> Evasion</th><td style="width:15%;text-align:center">92</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/anti_air_icon.png"> Anti-air</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/aviation_icon.png"> Aviation</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/cost_icon.png"> Cost</th><td style="width:15%;text-align:center">0</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/asw_icon.png"> ASW</th><td style="width:15%;text-align:center">0</td><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/luck_icon.png"> Luck</th><td style="width:15%;text-align:center">82</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/hit_icon.png"> Hit</th><td style="width:15%;text-align:center">166</td><th style="text-align: left; padding-left:5px;">Speed</th><td style="width:15%;text-align:center">8</td></tr><tr><th style="text-align: left; padding-left:5px;"><img style="width:25px;" src="https://algwiki.moe/Images/armor_icon.png"> Armor</th><td style="width:15%;text-align:center" colspan="3">Light</td></tr></table></div></td></tr></table></td><td><table><tr><th class="title" scope="col" colspan="5">Limit Break</th></tr><tr><td style="text-align: left; padding-left:5px;">Tier 1</td><td colspan="4" style="text-align: left; padding-left:5px;">Unlock All Out Assault I | Main gun efficiency +5% | SPD +8</td></tr><tr><td style="text-align: left; padding-left:5px;">Tier 2</td><td colspan="4" style="text-align: left; padding-left:5px;">First main gun base +1 | Main gun efficiency +10% | SPD +8</td></tr><tr><td style="text-align: left; padding-left:5px;">Tier 3</td><td colspan="4" style="text-align: left; padding-left:5px;">Improve All Out Assault | Main gun efficiency +10% | SPD +8</td></tr><tr><th class="subtitle" scope="col" colspan="5">Equipments</th></tr><tr><th class="subtitle" scope="col">Slot</th><th class="subtitle" scope="col">Equipment Type</th><th class="subtitle" scope="col">Efficiency (LB 0/1/2/3)</th><th class="subtitle" scope="col">Quantity (LB 0/1/2/3)</th><th class="subtitle" scope="col">Preload (LB 0/1/2/3)</th></tr><tr><td>1</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Auxiliary</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>Auxiliary</td><td>-</td><td>-</td><td>-</td></tr><tr><th class="subtitle" scope="col" colspan="5">Default Equipments</th><tr><td>1</td><td colspan="4"></td></tr><tr><td>2</td><td colspan="4"></td></tr><tr><td>3</td><td colspan="4"></td></tr></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="3" style="width:40%;">Fleet Tech</th></tr><tr><th class="subtitle">T Sailing Frigate: </th><th class="subtitle" colspan="2" style="width:60%;">Tech Points and Bonus</th></tr><tr><td><a href="golden_hind.html"><img style="width:64px;height:64px;margin:10px 0px 0px 10px;box-sizing: border-box;border-radius: 8px;border: 2px solid white;background: url(&quot;https://algwiki.moe/Images/bg4.png&quot;);" src="https://algwiki.moe/assets/squareicon/jinluhao.png"></a></td><td><div style="text-align: left;"><input name="skinSelectors-techView" autocomplete="off" id="skinSelector-techView-0" type="radio" checked=""><label for="skinSelector-techView-0"><img src="https://algwiki.moe/assets/herohrzicon/jinluhao.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-techView" autocomplete="off" id="skinSelector-techView-1" type="radio"><label for="skinSelector-techView-1"><img src="https://algwiki.moe/assets/herohrzicon/jinluhao_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-techView-0" class="skinContent"><img src="https://algwiki.moe/assets/shipmodels/jinluhao.png"></div><div id="skinContent-techView-1" class="skinContent"><img src="https://algwiki.moe/assets/shipmodels/jinluhao_2.png"></div></div></td><td><table><tr><th>Unlock</th><td></td><td><img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr><tr><th>Max LimitBreak</th><td></td><td></td></tr><tr><th>Lv.120</th><td></td><td><img style="width: 25px;" src="https://algwiki.moe/Images/_icon.png"> +</td></tr></table></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Skillset</th></tr><tr><th scope="col" class="subtitle">Icon</th><th scope="col" class="subtitle">Name</th><th scope="col" class="subtitle">Description</th><th scope="col" class="subtitle">Requirements</th></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/17240.png"></td><td>Pierce the Mistveil</td><td>Increases this ship's FP and RLD by 4.5% (12.0%) . Creates a Deep Domain area around this ship that decreases the enemy's SPD by 10.0% (20.0%)  and inflicts 30 DMG every second to enemies within it; when the battle starts, if there is another Tempesta ship in your fleet, this DMG is increased to 60.</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/17250.png"></td><td>Hindhorn's Grace</td><td>Decreases this ship's DMG taken by 5.0% (15.0%)  and, every 18s, fires a Lv.1 (Lv.10)  special barrage (DMG is based on the skill's level).
+Once per battle, when this ship's HP falls below 40.0% as a result of DMG taken: this ship evades all attacks for 3s and recovers 5.0% (15.0%)  of her max HP.</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/30150.png"></td><td>All Out Assault II</td><td>Activates All Out Assault II: Golden Hind once every 30 times the Main Guns are fired.</td><td>???</td></tr><tr><td><img src="https://algwiki.moe/assets/skillicon_new/1017250.png"></td><td>Hindhorn's Grace+</td><td>Decreases this ship's DMG taken by 5.0% (15.0%)  and, every 18s, fires a Lv.1 (Lv.10)  special barrage (DMG is based on the skill's level). Enemies hit by this barrage take 3.5% (8.0%)  more DMG from your Tempesta ships for 6s. 
+Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: this ship evades all attacks for 3s and recovers 5.0% (15.0%)  of her max HP.</td><td>???</td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="4">Construction</th></tr><tr><td class="subtitle" style="width:20%;"></td><th class="subtitle" style="width:20%;" scope="col">JP</th><th class="subtitle" style="width:20%;" scope="col">CN</th><th class="subtitle" style="width:20%;" scope="col">EN</th></tr><tr><th scope="row" class="subtitle">Limited</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Special</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Heavy</th><td></td><td></td><td></td></tr><tr><th scope="row" class="subtitle">Light</th><td></td><td></td><td></td></tr></table></td></tr><tr><td colspan="2"><table><tr><th class="title" scope="col" colspan="5">Dialogue</th></tr><tr><td><div style="text-align: left;"><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-0" type="radio" checked=""><label for="skinSelector-lineView-0"><img src="https://algwiki.moe/assets/herohrzicon/jinluhao.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-1" type="radio"><label for="skinSelector-lineView-1"><img src="https://algwiki.moe/assets/herohrzicon/jinluhao_2.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><input name="skinSelectors-lineView" autocomplete="off" id="skinSelector-lineView-2" type="radio"><label for="skinSelector-lineView-2"><img src="https://algwiki.moe/assets/herohrzicon/jinluhao_ex1100.png" loading="lazy" style="height: 35px; width: 158px;margin: 0px 0px 0px 10px;"></label><div id="skinContent-lineView-0" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Ship Description</th><td></td><td>风帆船一金鹿号</td><td>風帆艦-ゴールデン・ハインド</td><td>Sailing frigate – Golden Hind.</td></tr><tr><th scope="row">Biography</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/profile.ogg" controls=""></audio></td><td>抓住你啦~那么，你想从金鹿这里知道什么呢？是我的名讳、永恒的存在，还是这些可爱的触手们~？哎呀呀，我的触手可是到过世界的尽头呢……哦~好像没有什么世界尽头♪不管啦～</td><td>捕まえたわ～。ふふふ、ゴールデン・ハインドの何が知りたぁい？名前？永遠なる存在のこの可愛らしい触手たちのこと？あらぁ、私の触手は世界の果てまでたどり着いたことがあるのよ～。なんて、世界に果てなんてないわ～♪そんなの知らなぁい♡</td><td>Caught you~ Heehee. What do you wish to know about? My name? My eternal beings, or should I say, my adorable tentacles? Well, my tentacles have been to the end of the world once~ There is no end of the world? Whatever you say♡</td></tr><tr><th scope="row">Acquisition</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/get.ogg" controls=""></audio></td><td>您好，指挥官大人，我叫金鹿号。我早就对您的事迹仰慕许久，今天终于见面了呢…呵呵，您的身体…挺不错的呢(摩挲)~♡</td><td>ごきげんよう、指揮官さま。私はゴールデン・ハインド、ご高名はかねがね伺ってたけど、やっと会えたわ……ふふふ、中々そそるカラダしてるわね～♥（ぐちゃぐちゃ）</td><td>Greetings, my darling Commander. I am Golden Hind. I've heard much about you and am pleased to meet you at last... Heehee, my, what a rousing body you have~♡ *squish squish*</td></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/login.ogg" controls=""></audio></td><td>等您很久了，指挥官大人，烤肉、生菜、果汁、美酒，想品尝什么都尽管说，我全~部都拿着呢~</td><td>指揮官さま、待ってたわ。ふふふ、焼けたばかりの肉に野菜、搾りたての果汁に酒、平らげるもの、飲み干すもの、なーんでも持ってるわ～♪（ぐちゅ）</td><td>There you are, my darling. Heehee, I have fresh meat and vegetables, hand-squeezed juice and liquor, everything you can think of, if you want a taste~♪ *squish*</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/detail.ogg" controls=""></audio></td><td>盯——指挥官真的有副很棒的身体呢，呼呼……</td><td>――本当に、指揮官さまは中々いい体しているわ～。ふふふ♡</td><td>You really do have a stunning body, my darling~ Heehee♡</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_1.ogg" controls=""></audio></td><td>啊，抱歉，粘液不小心沾您身上了…</td><td>ごめんなさいね～。粘液が指揮官さまの体に付いちゃったみたい…</td><td>My apologies~ It seems some of my ooze got stuck on you.</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_2.ogg" controls=""></audio></td><td>对我的收藏品感兴趣？没问题哟，不管是藏品本身，还是背后的故事，我都会为您……详·细·讲·述~♡</td><td>ゴールデン・ハインドのコレクションに興味ある？だいじょーぶ♪コレクションも、その裏にある物語も…じっとりと教えてあ・げ・る♡（ぐちゃぐちゃ）</td><td>Are you interested in my remains collection? Don't you worry, I'll tell you aaall about it and the stories behind it in thorough detail♡ *squish squish*</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_3.ogg" controls=""></audio></td><td>电影、游戏、小说…这里的娱乐活动真是丰富啊。我的话…船上的歌唱会，不知指挥官有兴趣么~</td><td>映画にゲーム、本…母港の娯楽は色々あるのね～。あら、私なら……船上の「歌大会」かしら？指揮官は興味ある？♡</td><td>Movies, games, books... There are so many pastimes at this place~ I wonder, though... would you be interested in an onboard concert?</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_1.ogg" controls=""></audio></td><td>怎么了，想摸摸我的触手？呵呵，可以哦…？</td><td>どうしたの～？触手に触りたぁい？ふふふ……いいわよぉ～</td><td>What is it? Do you want to feel my tentacles? Heehee... Go ahead~</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_2.ogg" controls=""></audio></td><td>没想到指挥官大人终于开窍了……（触手滑动）来吧，指挥官大人，我会接纳您的一切~♡</td><td>指揮官さま、ようやく分かってくれたわね…（ぐちゅぐちゅ）さあ指揮官さま、こっちへいらっしゃい…ぜーんぶ受け止めてあげる♡</td><td>You've finally caught on, Commander... *squish squish* Now, come to me. I will take everything you have to give♡</td></tr><tr><th scope="row">Touch (Headpat)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_head.ogg" controls=""></audio></td><td>指挥官大人的手真温柔呢…♡</td><td>指揮官さまの手つき、お優しいわね…♡</td><td>You're quite gentle with those hands, my darling...♡</td></tr><tr><th scope="row">Mission</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/task.ogg" controls=""></audio></td><td>嗯哼~在订立契约前，要全部约定清楚才行哦，指挥官大人。</td><td>指揮官さま、うふふふ～掟約にサインするなら、中身を一字一句、ぜーんぶしっかり確認しないとぉ♡</td><td>Heehee, my darling~ You must read the fine print carefully before you sign the pact♡</td></tr><tr><th scope="row">Mission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/mission_complete.ogg" controls=""></audio></td><td>作为完成任务的额外奖励，来我的怀抱里吧，指挥官大人~♡</td><td>任務をこなしたご褒美として…指揮官さま、私の胸にいらっしゃい♡</td><td>As a reward for completing your mission, I invite you to my bosom♡</td></tr><tr><th scope="row">Mail</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/mail.ogg" controls=""></audio></td><td>指挥官大人，寄给您的信到了……黏黏的？哎呀~那些是独属于您的热情哦~♡</td><td>指揮官さま宛のお手紙よ～（ぐちゃ）ねばねばしてるって？ふふふ、あなたさまへの融けた情熱だと思ってぇ～♡</td><td>Here's your letter, darling~ *squish* ...It's sticky? Heehee, think of it as my liquid passion for you~♡</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/home.ogg" controls=""></audio></td><td>指挥官大人，您终于回来了呢~您明知道我比起等待，更喜欢到外边出击…哦？给我带回来的芒果？感谢您的好意~♡</td><td>指揮官さま、ようやく戻ってきたわね～。ゴールデン・ハインドは受け止めるより攻めるほうが好きだと知ってるでしょうに……あら？このマンゴーは？差し入れ？ふふふ、ご厚意に感謝するわ～♡</td><td>You're finally back, my darling~ How rude of you to leave me behind, when I prefer taking the lead rather than lying down... Oh? What's this mango? A treat for me? Heehee~ Why, how kind of you~♡</td></tr><tr><th scope="row">Commission Complete</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/expedition.ogg" controls=""></audio></td><td>委托完成了呢，不知道她们有没有带敌人的残骸回来？</td><td>委託が完了したようね。敵のガラクタを持ち帰ってくれたかしらぁ？</td><td>A commission's been completed. Would the team mind bringing me the enemy's remains?</td></tr><tr><th scope="row">Enhancement</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/upgrade.ogg" controls=""></audio></td><td>能搜集更多的残骸来当收藏了呢~</td><td>もっともっとガラクタが手に入りそう♪</td><td>This will help me procure more remains♪</td></tr><tr><th scope="row">Flagship</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/warcry.ogg" controls=""></audio></td><td>就把你们也变成我的收藏品好了~</td><td>あなたたちもコレクションに入れてあげる♡</td><td>I will add you lot to my collection♡</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/mvp.ogg" controls=""></audio></td><td>接下来，是赢家随心所欲的时间~</td><td>ここからは勝者が思うがままにいじくり回す時間ね～</td><td>Now the victors have the right to do whatever they please~</td></tr><tr><th scope="row">Defeat</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/lose.ogg" controls=""></audio></td><td>没关系的，指挥官大人，断掉的部分很快就能再生了。</td><td>平気よ指揮官さま、切られた部分はすぐ再生して元通りよ～</td><td>It's alright, my darling Commander. My severed parts will grow back in no time~</td></tr><tr><th scope="row">Skill</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/skill.ogg" controls=""></audio></td><td>成为我收藏品的一部分吧！</td><td>私のコレクションになりなさい♡</td><td>Join the others in my collection!</td></tr><tr><th scope="row">Low HP</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/hp.ogg" controls=""></audio></td><td>触手再生的速度要跟不上了…</td><td>再生のスピードが追いつかなくなるわね……</td><td>I can't regenerate quickly enough to keep pace...</td></tr><tr><th scope="row">Affinity (Upset)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/feeling1.ogg" controls=""></audio></td><td>没想到指挥官大人空有一副好皮囊，真让人失望……</td><td>いいカラダだけで…ざんねーん…</td><td>Your body is the only good thing about you... What a shame.</td></tr><tr><th scope="row">Affinity (Stranger)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/feeling2.ogg" controls=""></audio></td><td>这荔枝是我最近远航时顺路带回来的，肉嫩多汁，甘甜美味，指挥官大人有兴趣吗？我可以给您剥皮去核，然后亲自喂您……</td><td>このライチは最近の遠航で持ち帰ったものよ～。ふふふ、ジューシーで甘くて最高のものよ～指揮官さま、どう？皮をひん剥いて、邪魔な種を転ばしてから舌であなたの口へ届けてあげる……♡</td><td>I brought these lychees with me on a recent cruise~ Heehee, they're juicy, sweet, and delectable~ Want to try one? Let me just peel the skin and take out the annoying core, then I'll bring it to your mouth using my tongue♡</td></tr><tr><th scope="row">Affinity (Friendly)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/feeling3.ogg" controls=""></audio></td><td>……站的太远了，可以稍微近一点？呼呼，您的热情，我充分明白了~（摩挲）那么，这样如何，指挥官大人……感受到我的“心·意”了么~♡</td><td>もう少し近くに寄ってもいいって…？うふふ、指揮官さまの情熱がしっかり伝わってきたわぁ～（ぐちゅぐちゅ）ふふふ、これでどぉ？指揮官さま？…ゴールデン・ハインドの想い、感じ取れたぁ？♡</td><td>I can come closer, you say? Heehee, I feel the passion emanating from you~ *squish squish* Heehee. Is this better, my darling Commander? Can you feel MY passion? ♡</td></tr><tr><th scope="row">Affinity (Like)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/feeling4.ogg" controls=""></audio></td><td>太近了……？呵呵~自从遇到了指挥官大人后，我内心的冲动变得越来越强烈了呢。事到如今，您已经没有退却的余地了哦？</td><td>近い……？ふふふ、指揮官さまと出会ってから私、どうもどんどん攻めたくなっちゃって…今更逃げても無理だと思うけどぉ…？♡</td><td>Too close? Heehee, my urge to top you has only grown stronger since I laid eyes on you, my darling... There's no escaping your fate now♡</td></tr><tr><th scope="row">Affinity (Love)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/feeling5.ogg" controls=""></audio></td><td>哎呀，这就是您的回应么……原来如此，在确认了心意后，就会变成积极的主动派呢。早知如此，在见面时我就应该…不，什么也没有，我只是在期待我们今后的发展呢~♡</td><td>あらぁ、指揮官さまはこう応えてくれたのね……なるほど、気持ちを確かめられたら積極的になるのね♡こうなると知っていたら、指揮官さまと最初に出会ったときからこう…ふふふ、なんでもないわ～。私たちの未来を期待しているわよぉ♡</td><td>Oohh, so this is how you answer... You get dominant when you want to affirm your feelings, I see♡ If I'd known this when we first met, I would've done something more... Heehee, never you mind~ I can't wait to experience our future together♡</td></tr><tr><th scope="row">Pledge</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/propose.ogg" controls=""></audio></td><td>这是……呵呵，我明白了，是关于归宿的承诺呢，指挥官大人……真没想过，习惯无拘无束、随心所欲的那个我，也会找到毫无保留地接纳我的归宿。那么，您还在等什么呢，指挥官大人？今后，让我们一起放纵吧~♡</td><td>これってぇ……ふふふ、分かったわ～。帰る場所についての約束なのよね？指揮官さま………ふふふ、縛られずに気持ちの赴くままに動いてた私に、受け入れてもらえる場所が見つかるなんてぇ…じゃあ～指揮官さま、何を躊躇っているのぉ？もうずぅっと欲に溺れてなさいなぁ♡</td><td>Is this...? Heehee, I see now~ It's a promise about a home, isn't it, my darling? Heehee... I've roamed freely up to this point, going wherever my whims dictated, but now I have a place that accepts me. Well, Commander, what are you waiting for? It's time we indulged in each other, forever and ever♡</td></tr></table></div><div id="skinContent-lineView-1" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Ship Description</th><td></td><td>指挥官大人，这样的搭配怎么样？……不够恐怖？奇怪，玛丽的主意居然不奏效……我知道了，加上斧头的话，指挥官大人觉得会如何呢~♡</td><td>指揮官さま、この組み合わせは？……怖くない？変ね…メアリーちゃんのアイデアが役に立てないなんて…分かったぁ～、斧を持ってたらどぉ？指揮官さま♡</td><td>How do you feel about this look, my darling? ...Not scary enough? How odd... I thought Mary Celeste had the right idea. Wait, I know~ What if I hold this axe, hmm? ♡</td></tr><tr><th scope="row">Acquisition</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/get_1.ogg" controls=""></audio></td><td>指挥官大人，这样的搭配怎么样？……不够恐怖？奇怪，玛丽的主意居然不奏效……我知道了，加上斧头的话，指挥官大人觉得会如何呢~♡</td><td>指揮官さま、この組み合わせは？……怖くない？変ね…メアリーちゃんのアイデアが役に立てないなんて…分かったぁ～、斧を持ってたらどぉ？指揮官さま♡</td><td>How do you feel about this look, my darling? ...Not scary enough? How odd... I thought Mary Celeste had the right idea. Wait, I know~ What if I hold this axe, hmm? ♡</td></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/login_1.ogg" controls=""></audio></td><td>指挥官大人，我在这里等您很久了……您不在的时候其实谁也没见？呵呵~指挥官紧张的样子，真是可爱呢~♡</td><td>指揮官さま、ずっとずっと待ってたわ♡……誰にも会っていなかった？ふふふ、指揮官さまがジタバタする姿…かわいい♡</td><td>I've been waiting for you this whole time, Commander♡ ...Did I run into anyone while you were gone? Heehee, you're so sweet when you're agitated♡</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_1_1.ogg" controls=""></audio></td><td>……如果让每只触手都拿上斧头？呵呵，指挥官大人的想法真是有趣呢~那样就不是恐怖万圣节，而是搞笑剧了吧？</td><td>……すべての触手に斧をもたせたらって？ふふふ、指揮官さまったら面白いこと考えるわねぇ～。それならハロウィンのホラーではなく、コメディよぉ…？</td><td>...Why not give all my tentacles an axe? Heehee, you sure get funny ideas, my darling~ That would turn this into a Halloween comedy, not a horror flick.</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_2_1.ogg" controls=""></audio></td><td>嗯？看起来是我的触手粘液把这套新衣服弄湿了……不过，这样似乎更好呢，对不对，指挥官大人~♡</td><td>ん？んん？触手の粘液が服を濡らしたようねぇ……むしろこういうのがいいのではなくて？指揮官さまぁ♡</td><td>Hm? Hmm? Seems my tentacles got ooze on my clothes... Wouldn't you say that's an upgrade, though, my darling Commander?</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_3_1.ogg" controls=""></audio></td><td>“为什么要花心！受死吧！”…哈哈，有点过激了？那么，您喜欢怎样的万圣节新娘呢~♡</td><td>「どうして浮気するの！！死ねええ！！」……はははは♪少し刺激が強すぎたぁ？指揮官さまはどんなハロウィンの花嫁が好きなのぉ♡</td><td>"You cheated on me! Die!" ...Hahahah! Was that a bit too intense? Now I'm curious what kind of Halloween bride you do like♡</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_1_1.ogg" controls=""></audio></td><td>指挥官大人，可以帮我重新系紧裙子后的绑结么？…呵呵，当然是要先解开才行~</td><td>後ろで結んでいるのを締めてもらえる？ふふふ、そうするにはまずは一度解かないとぉ…♡</td><td>Could you re-tie the knot on my skirt, please? Heehee, of course, you'll need to untie it first... ♡</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_2_1.ogg" controls=""></audio></td><td>无人的古堡，独居的新娘~接下来会很刺激哟，指挥官大人~♡</td><td>誰もいない古城、一人ぼっちの新妻…指揮官さま、これからサカリがつきそうだわぁ♡</td><td>A lonely newlywed in a deserted castle... This is how our loving starts, my darling♡</td></tr><tr><th scope="row">Touch (Headpat)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_head_1.ogg" controls=""></audio></td><td>因为角的原因，我很少戴头纱呢……反而觉得更加合适？谢谢您，指挥官大人。</td><td>枝角のせいでベールはほとんど被ったことないわね……すごく似合う？指揮官さま、ありがとう♪</td><td>My veil hardly covers anything because of this antler... Oh, you think it suits me perfectly? Thank you, my darling♪</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/home_1.ogg" controls=""></audio></td><td>欢迎回来，指挥官大人~♡……我拿着斧头在做什么？嗯~当然是寻找不使用钥匙就能进入您办公室的办法~</td><td>おかえりなさい、指揮官さまぁ♡……斧を持って何をしてるかって？それはぁ～鍵を使わなくても、指揮官さまの執務室に入る方法を探しているわぁ～♡</td><td>Welcome back, my darling Commander~ ...What am I doing with the axe? Why, I'm looking for a way into your office without the key~♡</td></tr><tr><th scope="row">Flagship</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/warcry_1.ogg" controls=""></audio></td><td>这里是……金·鹿·哟~！</td><td>お客さまだわぁ♡</td><td>Heeere's Hindey~♡</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/mvp_1.ogg" controls=""></audio></td><td>触手是奖励，斧头才是惩罚哦~</td><td>触手はご褒美、斧はお仕置きよ～</td><td>The tentacles are for rewards, the axe is for punishment~</td></tr></table></div><div id="skinContent-lineView-2" class="skinContent"><table><tr><th class="subtitle" scope="col" style="width:14%;">Event</th><th class="subtitle" scope="col" style="width:3%;"></th><th class="subtitle" scope="col" style="width:27%;">West Taiwanese Server</th><th class="subtitle" scope="col" style="width:27%;">Japanese Server</th><th class="subtitle" scope="col" style="width:27%;">English Server</th></tr><tr><th scope="row">Login</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/login_ex1100.ogg" controls=""></audio></td><td>呀♡光想着要躲开触手，结果撞到了我身体上了呢～呵呵，逃是逃不掉的～指挥官大人的身体，就是我金鹿的了♡</td><td>ひゃん♡触手を避けたせいで私の体にぶつかっちゃったわねぇ～。ふふふ、逃しはしないわぁ～。指揮官さまのカラダは私、ゴールデン・ハインドのものよ♡</td><td>Ohh♡ You bumped into me while trying to avoid my tentacles, hmm? Heehee, there's no escaping me~ Your body belongs to me, my darling Commander♡</td></tr><tr><th scope="row">Details</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/detail_ex1100.ogg" controls=""></audio></td><td>（摩擦音）指挥官大人，如何？这是由金鹿触手带来的按摩，以及…呵呵呵，这到底是什么呢～♡指挥官大人，告诉我吧？您是知道的，对吧～？</td><td>（ぐちゃぐちゃ）指揮官さま、どぉお？ゴールデン・ハインドの触手によるマッサージと……ふふふ、これってどういうものかしらねぇ♡指揮官さま、教えてくれない？分かってるでしょぉ…？</td><td>*squish squish* My darling Commander, do you like my tentacle massage combined with... Heehee, goodness, I don't know what this is called♡ Will you tell me? Surely you would know~?</td></tr><tr><th scope="row">Main</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_1_ex1100.ogg" controls=""></audio></td><td>安静、安静……呵呵，指挥官大人，这些孩子们和我一样，在见到您的时候，躁·动·不·安·呢~</td><td>静かに、静かにぃ……ふふふ、指揮官さまぁ？この子たちはあなたがいるといつも落ち着かないわね♡</td><td>Quiet, quiet... Heehee, oh, my darling~ My little ones can't help but get fidgety whenever you're around♡</td></tr><tr><th scope="row">Main 2</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_2_ex1100.ogg" controls=""></audio></td><td>我最珍贵的藏品是？呵呵~指挥官大人是装糊涂的高手呢。关于您的故事，我可是永远都在期待着哦~♡</td><td>一番のコレクションってぇ？指揮官さまったらいつも上手に誤魔化すわね…あなたのカラダ、ココロ、物語…ずっと楽しみにしているわぁ♡</td><td>My most prized possession? Oh, my darling, you are too good at feigning ignorance... It's your body, your soul, your stories – I always look forward to them♡</td></tr><tr><th scope="row">Main 3</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/main_3_ex1100.ogg" controls=""></audio></td><td>比起别人，我在歌唱会中有着独一无二的优势哦？开始咯，由我来献上金鹿独属于指挥官大人的，一人乐队表演~☆</td><td>船上の「歌大会」なら私、他の子には絶対できないことができるわ～。触手を使って楽器の合奏――さあ、このソロパフォーマンスは指揮官さまに♪</td><td>I have a one-of-a-kind advantage when it comes to concerts – I can play the whole orchestra using my tentacles~ Now, I dedicate this next performance to my darling Commander♪</td></tr><tr><th scope="row">Touch</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_1_ex1100.ogg" controls=""></audio></td><td>……这些孩子们比我更好懂？呵呵~指挥官大人，您是要挑战我的忍耐力么？要是没忍住，我可是会把您“吃干抹净”的哦~♡</td><td>この子たちは私よりわかりやすいって？ふふふ、ゴールデン・ハインドを試すようなマネはしないでちょうだい。我慢できなくなったら私、指揮官さまを「しゃぶり尽くす」かもしれないわぁ～♡</td><td>My little ones are easier to follow than me, you say? Heehee, I suggest that you don't test my patience~ Tease me too much, and I might just suck you dry, my darling Commander~♡</td></tr><tr><th scope="row">Touch (Special)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/touch_2_ex1100.ogg" controls=""></audio></td><td>又想被这些孩子们完全包裹吗？还是说……？呵呵~来吧，不管怎样的欲望，我都能接纳哦~♡</td><td>この子たちに包み込まれたい？それとも……？うふふ～いらっしゃい。どんな欲望でも受け入れてあげるわぁ～♡</td><td>Do you want to feel my little ones' embrace? Or maybe... Heehee~ Come here~ I'll satisfy your every desire~♡</td></tr><tr><th scope="row">Return to Port</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/home_ex1100.ogg" controls=""></audio></td><td>指挥官大人，挺舒服的吧～♡呵呵呵，一回来就被触手捕获，真是大意呢～我会好好治愈你的，放松吧♡</td><td>指揮官さま、気持ちいいかしらぁ～♡ふふふ、帰って早々触手に捕まっちゃうのは不用心ねぇ…癒やしてあげるから力を抜いて♡</td><td>How do you like this~? Heehee, how careless of you to be caught by my tentacles as soon as you come back~ Just relax and I'll make you feel better♡</td></tr><tr><th scope="row">Flagship</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/warcry_ex1100.ogg" controls=""></audio></td><td>等被缠上就晚了哦～♡</td><td>絡みついたらもう遅いわぁ～♡</td><td>It's too late once I've caught you~♡</td></tr><tr><th scope="row">Victory</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003-battle/acb/awb/mvp_ex1100.ogg" controls=""></audio></td><td>如果放任它们枯萎，生锈，或者腐烂，还不如成为我金鹿的收藏品呢，不是吗？呵呵呵♡</td><td>枯れさせ、錆びつかせ、腐らせるぐらいなら、ゴールデン・ハインドのコレクションになったほうがいいでしょ？ふふふ♡</td><td>You're going to rot, rust, and corrode anyway, so why not become a part of my collection? Heehee♡</td></tr><tr><th scope="row">Affinity (Love)</th><td><audio preload="none" src="https://algwiki.moe/assets/cue/cv-960003/acb/awb/feeling5_ex1100.ogg" controls=""></audio></td><td>为什么呢？明明与指挥官大人一起做了那——么多的事情，我还是不满足呢……就像现在这样，光是站在指挥官大人的身边，我就会忍不住胡思乱想……呼呼，指挥官大人，要是我的这些孩子们忍不住对您乱来，您别介意哦~♡</td><td>どぉして？指揮官さまとあーんなにいっぱいしてきたのに全然滿足できない…今でもこうして指揮官さまのそばにいるだけでヘンなこと考えちゃいそう…うふふ♪もしこの子たちが我慢できずに指揮官さまをどろっとろにしちゃっても…許してちょうだぁい♡</td><td>I'm puzzled. I've done it with you so, so many times, yet I still need so much more... Even now, I'm having dirty thoughts while just standing next to you... Heehee♪ My little ones might snap and cover you in ooze, so if that happens, please don't get mad♡</td></tr></table></div></div></td></tr></table></td></tr></table></main><script>
+skins = [["jinluhao","0","1","10","2","3","4","5","6","7","8","9",],["jinluhao_2","0","1","10","11","12","2","3","4","5","6","7","8","9",],];
+const tail = ([, ...t]) => t;
+
+var util = {
+    ifFileExists: function(file){
+	var http = new XMLHttpRequest();
+
+	http.open('HEAD', file, false);
+	http.send();
+	return (http.status != 404 && http.status != 403);
+    },
+    clearAllChildren: function(element){
+	var myNode = document.getElementById(element);
+	while (myNode.firstChild) {
+	    myNode.removeChild(myNode.firstChild);
+	}
+    },
+    loadShipList: function(callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'json/shiplist.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText);
+	    }
+	};
+	xobj.send(null);
+    },
+    loadShipJSON: function(ship, callback){
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', 'Ships/'+ship+'.json', true); // Replace 'my_data' with the path to your file
+	xobj.onreadystatechange = function () {
+	    if (xobj.readyState == 4 && xobj.status == "200") {
+		// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		callback(xobj.responseText, ship);
+	    }
+	};
+	xobj.send(null);
+    },
+    guidGenerator: function(){
+	var S4 = function() {
+	    return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+	};
+	return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+    }
+}
+
+function SD(basePath) {
+    this.basePath = basePath;
+    this.loader = new PIXI.loaders.Loader(this.basePath);
+}
+
+SD.prototype = {
+    spineData : {},
+    load: function(name, v) {
+        if (!this.spineData[name]) {
+            var skelpath = name+'.skel';
+            var atlaspath = name+'.atlas';
+            var texpath = name+'.png';
+
+            this.loader.add(name+'_atlas', atlaspath, { "type" : "atlas" })
+            this.loader.add(name+'_skel', skelpath, { "xhrType" : "arraybuffer" })
+            this.loader.add(name+'_tex', texpath)
+
+            this.loader.load((loader, resources) => {
+                var dec = new TextDecoder("utf-8");
+                var head = dec.decode(resources[name+'_skel'].data.slice(2, 10));
+                var rawSkeletonData;
+                if (head == "skeleton") {
+                    rawSkeletonData = JSON.parse(dec.decode(resources[name+'_skel'].data));
+                } else {
+                    var skelBin = new SkeletonBinary();
+                    skelBin.data = new Uint8Array(resources[name+'_skel'].data);
+                    skelBin.initJson();
+
+                    rawSkeletonData = skelBin.json;
+                }
+                var rawAtlasData = resources[name+'_atlas'].data;
+
+                var spineAtlas = new PIXI.spine.core.TextureAtlas(rawAtlasData, function(line, callback) {
+                    callback(PIXI.BaseTexture.from(name+'_tex'));
+                });
+                var spineAtlasLoader = new PIXI.spine.core.AtlasAttachmentLoader(spineAtlas);
+                var spineJsonParser = new PIXI.spine.core.SkeletonJson(spineAtlasLoader);
+                var skeletonData = spineJsonParser.readSkeletonData(rawSkeletonData);
+
+                this.spineData[name] = skeletonData;
+                v.changeCanvas(skeletonData);
+            });
+        } else {
+            v.changeCanvas(this.spineData[name]);
+        }
+    }
+}
+
+var viewer = {
+    init2: function() {
+        viewer.canvas = document.getElementById("canvasSD-" + current);
+        viewer.selectAnimation = document.getElementById("selectAnimation-" + current);
+        viewer.selectAnimation.addEventListener('change', function() {
+            viewer.changeAnimation(this.selectedIndex);
+        });
+        viewer.canvas.appendChild(viewer.app.view);
+    },
+    init: function(basePath) {
+        viewer.sd = new SD(basePath);
+        viewer.app = new PIXI.Application(512, 512, { transparent: true });
+	viewer.init2();
+    },
+    changeCanvas : function(skeletonData) {
+        viewer.app.stage.removeChildren();
+
+        viewer.spine = new PIXI.spine.Spine(skeletonData);
+        var animations = viewer.spine.spineData.animations;
+        var stringAnimations = "";
+        for(var i = 0; i < animations.length; i++) {
+            if (animations[i].name == "stand")
+                stringAnimations += "<option value=\"" + animations[i].name + "\" selected>" + animations[i].name + "</option>";
+            else
+                stringAnimations += "<option value=\"" + animations[i].name + "\">" + animations[i].name + "</option>";
+        }
+        viewer.selectAnimation.innerHTML = stringAnimations;
+        viewer.spine.state.setAnimation(0, "stand", true);
+        viewer.app.stage.addChild(viewer.spine);
+        viewer.spine.position.set(viewer.app.view.width * 0.5 , viewer.app.view.height * 0.8);
+        centerSD();
+    },
+    changeAnimation : function(num) {
+        var name = viewer.spine.spineData.animations[num].name;
+        viewer.spine.state.setAnimation(0, name, true);
+    },
+    onResize: function() {
+        var element = document.getElementById("containerSD-" + current);
+        var positionInfo = element.getBoundingClientRect();
+        var width = positionInfo.width;
+        if (width > 512){
+            width = 512;
+        }
+        var height = width;
+        viewer.app.view.style.width = width + "px";
+        viewer.app.view.style.height = height + "px";
+        viewer.app.renderer.resize(width, height);
+        viewer.spine.position.set(width * 0.5 , height * 0.8);
+    },
+    removeSd : function() {
+        viewer.app.stage.removeChildren();
+    },
+    loadSd: function(sd) {
+        viewer.sd.load(sd, viewer);
+    },
+    sdWidth: function (){
+        return viewer.app.view.width;
+    }
+};
+
+function centerSD(){
+    var containerWidth = document.getElementById("containerSD-" + current).getBoundingClientRect().width;
+    var sdWidth = viewer.sdWidth();
+    document.getElementById("canvasSD-" + current).style.left = Math.floor((containerWidth / 2) - (sdWidth / 2)) + "px";
+}
+
+window.onresize = function(){
+    viewer.onResize();
+    centerSD();
+}
+
+function loadShipSkinElements(skinID){
+    try {
+	viewer.removeSd();
+    } catch (err){
+    }
+
+    if (util.ifFileExists("https://algwiki.moe/assets/char/" + skinID + ".png")){
+	viewer.loadSd(skinID);
+    }
+
+    util.clearAllChildren("shipSkinExpressions-" + current);
+}
+
+function setShipExpressionNav(skin){
+    const expressions = tail(skin);
+    var firstIteration = true;
+    var initial = "";
+    var id = "";
+    for (x of expressions) {
+	var container = document.createElement("img");
+	container.id = "expr-" + current + "_" + x;
+	container.setAttribute("onclick", "onExpressionNavButtonClick(\"" + x + "\",\"" + skin[0] + "\")");
+	if (firstIteration){
+	    container.src = expressions.length == 1 ? "https://algwiki.moe/assets/squareicon/" + skin[0] + ".png" : "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "active expression";
+	    firstIteration = false;
+	    initial = x;
+	    id = x;
+	} else {
+	    container.src = "https://algwiki.moe/assets/paintingface/" + skin[0] + "/" + x + ".png";
+	    container.className = "expression";
+	}
+
+	document.getElementById("shipSkinExpressions-" + current).appendChild(container);
+    }
+}
+
+function onExpressionNavButtonClick(exprID, skinID){
+    var id = "expr-" + current + "_" + exprID;
+    var obj = document.getElementById('shipSkinExpressions-' + current).children;
+
+    for (var i = 0; i < obj.length; ++i){
+	if (obj[i].id == id) {
+	    document.getElementById(id).classList.add('active');
+	    document.getElementById("painting-" + current).src = "https://algwiki.moe/assets/painting/" + skinID + (exprID == 0 ? "" : "-" + exprID) + ".png";
+	} else
+	    document.getElementById(obj[i].id).classList.remove('active');
+    }
+}
+
+var current = skins[0][0];
+
+function skinChange(i, skinID) {
+    current = skins[i][0];
+    viewer.init2();
+    loadShipSkinElements(skinID);
+    setShipExpressionNav(skins[i]);
+    onExpressionNavButtonClick(skins[i][1], skinID);
+}
+
+viewer.init("https://algwiki.moe/assets/char");
+loadShipSkinElements(skins[0][0]);
+setShipExpressionNav(skins[0]);
+onExpressionNavButtonClick(skins[0][1], skins[0][0]);
+</script><footer><pre>Azur Lane © is owned by Shanghai Manjuu, Xiamen Yongshi, Shanghai Yostar | All logos and trademarks are property of their respective owners.
+Special thanks to /alg/, English Koumakan Wiki, 碧蓝航线wiki, azurlane.wikiru.jp, and to all our contributors.
+/alg/ wiki | Copyright © 2021 alg-wiki | Contact at botebreeder@gmail.com | Source available at https://gitgud.io/alg-wiki/wikia
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+The above copyright notice, and this permission notice shall be included in all copies or substantial portions of the Software.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.</pre></footer></div></body></html>
